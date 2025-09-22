@@ -1,0 +1,5270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>KS — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>/ntc/private/ntos/ks/alloc.c</li>
+      
+        <li>/ntc/private/ntos/ks/api.c</li>
+      
+        <li>/ntc/private/ntos/ks/automat.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/busenum.c</li>
+      
+        <li>/ntc/private/ntos/ks/clock.c</li>
+      
+        <li>/ntc/private/ntos/ks/connect.c</li>
+      
+        <li>/ntc/private/ntos/ks/device.c</li>
+      
+        <li>/ntc/private/ntos/ks/event.c</li>
+      
+        <li>/ntc/private/ntos/ks/irp.c</li>
+      
+        <li>/ntc/private/ntos/ks/kcom.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/kslog.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/ksp.h</li>
+      
+        <li>/ntc/private/ntos/ks/method.c</li>
+      
+        <li>/ntc/private/ntos/ks/property.c</li>
+      
+        <li>/ntc/private/ntos/ks/shdevice.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shffact.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shfilt.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shmisc.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shpin.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shpipe.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shqueue.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shreq.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/shsplit.cpp</li>
+      
+        <li>/ntc/private/ntos/ks/thread.c</li>
+      
+        <li>/ntc/private/ntos/ks/topology.c</li>
+      
+        <li>/NTC/public/sdk/inc/ks.h</li>
+      
+        <li>/NTC/public/sdk/inc/wdm.h</li>
+      
+        <li>m_AndGate.C</li>
+      
+        <li>m_Ext.Public.C</li>
+      
+        <li>Public.C</li>
+      
+        <li>Public.OffsetIn.C</li>
+      
+        <li>Public.OffsetOut.C</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00005000
+      </summary>
+      <ul>
+        
+          <li data-segment="00005000" data-offset="000000CD">
+            <code>000000CD</code> — _DefAllocatorAlloc@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000190">
+            <code>00000190</code> — _DefAllocatorFree@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000001B0">
+            <code>000001B0</code> — _iAlloc@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000206">
+            <code>00000206</code> — _iFree@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000023A">
+            <code>0000023A</code> — _iFreeAndStartWorker@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000266">
+            <code>00000266</code> — _ExAllocateFromNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000294">
+            <code>00000294</code> — _ExFreeToNPagedLookasideList@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000312">
+            <code>00000312</code> — _iMethodAlloc@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000376">
+            <code>00000376</code> — _ServiceAllocRequests@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000003CA">
+            <code>000003CA</code> — _KsiCompletionRoutine@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000406">
+            <code>00000406</code> — _SweeperDeferredRoutine@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000448">
+            <code>00000448</code> — _DefClockKillTimer@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000004A6">
+            <code>000004A6</code> — _DefResetTimer@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000052E">
+            <code>0000052E</code> — @QueryExternalTimeSynchronized@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000598">
+            <code>00000598</code> — @DefGetTime@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000006A4">
+            <code>000006A4</code> — @DefGetPhysicalTime@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000778">
+            <code>00000778</code> — @DefGetCorrelatedTime@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000962">
+            <code>00000962</code> — @DefGetCorrelatedPhysicalTime@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000ADC">
+            <code>00000ADC</code> — _DefGenerateEvent@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000CDA">
+            <code>00000CDA</code> — _KsiDefaultClockAddMarkEvent@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000E82">
+            <code>00000E82</code> — _DefRescheduleDefaultClockTimer@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000EB8">
+            <code>00000EB8</code> — @DecrementReferenceCount@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000EEA">
+            <code>00000EEA</code> — @IncrementReferenceCount@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000F0C">
+            <code>00000F0C</code> — _KsGetDefaultClockState@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00000FE2">
+            <code>00000FE2</code> — _KsSetDefaultClockState@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000119A">
+            <code>0000119A</code> — _KsGetDefaultClockTime@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001354">
+            <code>00001354</code> — _KsSetDefaultClockTime@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001499">
+            <code>00001499</code> — _QueueOneShotWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000014EE">
+            <code>000014EE</code> — _OneShotDpc@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000150C">
+            <code>0000150C</code> — _WorkerDpc@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000015FE">
+            <code>000015FE</code> — _EventDpc@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000017A4">
+            <code>000017A4</code> — _KsGenerateEvent@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001AA2">
+            <code>00001AA2</code> — _KsGenerateDataEvent@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001B54">
+            <code>00001B54</code> — _PerformLockedOperation@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001C1E">
+            <code>00001C1E</code> — _AddEventSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001C48">
+            <code>00001C48</code> — _QueryBufferSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001D2A">
+            <code>00001D2A</code> — _KsDiscardEvent@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001E0E">
+            <code>00001E0E</code> — _GenerateEventListSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001E6A">
+            <code>00001E6A</code> — _KsGenerateEventList@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001E9A">
+            <code>00001E9A</code> — _DisableEventSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00001EF6">
+            <code>00001EF6</code> — _FreeEventListSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000022B0">
+            <code>000022B0</code> — _KsDefaultDispatchPower@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000025E6">
+            <code>000025E6</code> — _KsSetPowerDispatch@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000027B0">
+            <code>000027B0</code> — _KsFreeObjectHeader@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002878">
+            <code>00002878</code> — _KsiFreeMatchingObjectCreateItems@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002972">
+            <code>00002972</code> — _KsRemoveIrpFromCancelableQueue@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002A54">
+            <code>00002A54</code> — _KsMoveIrpsOnCancelableQueue@28
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002BEC">
+            <code>00002BEC</code> — _KsRemoveSpecificIrpFromCancelableQueue@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002C4A">
+            <code>00002C4A</code> — _KsCancelRoutine@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002C98">
+            <code>00002C98</code> — _KsAddIrpToCancelableQueue@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002D46">
+            <code>00002D46</code> — _KsCancelIo@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002DB4">
+            <code>00002DB4</code> — _KsReleaseIrpOnCancelableQueue@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00002EF4">
+            <code>00002EF4</code> — _KsQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003007">
+            <code>00003007</code> — _KsIncrementCountedWorker@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000030F1">
+            <code>000030F1</code> — _KsDecrementCountedWorker@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003144">
+            <code>00003144</code> — ??_FCBaseUnknown@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000326A">
+            <code>0000326A</code> — ?RequestPowerIrpCompletion@CKsDevice@@SGXPAU_DEVICE_OBJECT@@ET_POWER_STATE@@PAXPAU_IO_STATUS_BLOCK@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000033AB">
+            <code>000033AB</code> — _KsGetDeviceForDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003487">
+            <code>00003487</code> — _KsCompletePendingRequest@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000035A0">
+            <code>000035A0</code> — ?QueuePendedClose@CKsDevice@@QAEXPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000366B">
+            <code>0000366B</code> — _KsDeviceGetBusData@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003741">
+            <code>00003741</code> — _KsDeviceSetBusData@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000037C8">
+            <code>000037C8</code> — _KsGateInitialize@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000383A">
+            <code>0000383A</code> — _KsGateCaptureThreshold@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000038B2">
+            <code>000038B2</code> — ?GetAndGate@CKsFilter@@UAGPAU_KSGATE@@XZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000038EC">
+            <code>000038EC</code> — ?TriggerNotification@CKsFilter@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003902">
+            <code>00003902</code> — _ProcessPinIsFrameSource@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000394E">
+            <code>0000394E</code> — ?Process@CKsFilter@@UAGXE@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003A4E">
+            <code>00003A4E</code> — ?PrepareProcessPipeSection@CKsFilter@@QAEEPAU_KSPPROCESSPIPESECTION@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003BD4">
+            <code>00003BD4</code> — ?UnprepareProcessPipeSection@CKsFilter@@QAEXPAU_KSPPROCESSPIPESECTION@@PAK@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00003EAA">
+            <code>00003EAA</code> — ?CopyToDestinations@CKsFilter@@QAEXPAU_KSPPROCESSPIPESECTION@@KE@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004108">
+            <code>00004108</code> — ?ProcessingObjectWork@CKsFilter@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000043A1">
+            <code>000043A1</code> — _KsFilterGetAndGate@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000444F">
+            <code>0000444F</code> — _KsFilterAttemptProcessing@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004570">
+            <code>00004570</code> — _KsGetFilterFromIrp@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004684">
+            <code>00004684</code> — _KsGetNodeIdFromIrp@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000047C3">
+            <code>000047C3</code> — _KsGenerateEvents@28
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004984">
+            <code>00004984</code> — _KspTransferKsIrp@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004AA8">
+            <code>00004AA8</code> — _KspDiscardKsIrp@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004B7C">
+            <code>00004B7C</code> — _KsGetObjectTypeFromIrp@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004C35">
+            <code>00004C35</code> — _KsGetObjectFromFileObject@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004CEB">
+            <code>00004CEB</code> — _KsGetObjectTypeFromFileObject@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004D64">
+            <code>00004D64</code> — ?GetTime@CKsPin@@UAG_JXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004E12">
+            <code>00004E12</code> — ?GetPhysicalTime@CKsPin@@UAG_JXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004EF1">
+            <code>00004EF1</code> — ?GetCorrelatedTime@CKsPin@@UAG_JPA_J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00004FF3">
+            <code>00004FF3</code> — ?GetCorrelatedPhysicalTime@CKsPin@@UAG_JPA_J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00005124">
+            <code>00005124</code> — ?TransferKsIrp@CKsPin@@UAGJPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000052BA">
+            <code>000052BA</code> — ?DiscardKsIrp@CKsPin@@UAGXPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000546E">
+            <code>0000546E</code> — ?CancelIrpsOutstanding@CKsPin@@AAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000571E">
+            <code>0000571E</code> — ?GenerateConnectionEvents@CKsPin@@UAGXK@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00005998">
+            <code>00005998</code> — ?IoCompletionRoutine@CKsPin@@CGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00005C28">
+            <code>00005C28</code> — ?RollCallDetail@CKsPin@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00005F4A">
+            <code>00005F4A</code> — ?SubmitFrame@CKsPin@@QAEJPAXKPAU_MDL@@PAUKSSTREAM_HEADER@@0@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000622E">
+            <code>0000622E</code> — _KsPinSubmitFrame@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006310">
+            <code>00006310</code> — _KsPinSubmitFrameMdl@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000063C2">
+            <code>000063C2</code> — ?GetAndGate@CKsPin@@UAGPAU_KSGATE@@XZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000063FC">
+            <code>000063FC</code> — ?TriggerNotification@CKsPin@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006430">
+            <code>00006430</code> — ?Process@CKsPin@@UAGXE@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000653F">
+            <code>0000653F</code> — ?ProcessingObjectWork@CKsPin@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006746">
+            <code>00006746</code> — ?RetireFrame@CKsPin@@UAGXPAU_KSPFRAME_HEADER@@J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000681E">
+            <code>0000681E</code> — _KsPinGetAndGate@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000068CE">
+            <code>000068CE</code> — _KsPinAttemptProcessing@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006995">
+            <code>00006995</code> — ?SetPinClockState@CKsPin@@QAEXW4KSSTATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006A69">
+            <code>00006A69</code> — ?SetPinClockTime@CKsPin@@QAEX_J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006B3A">
+            <code>00006B3A</code> — _KsPinSetPinClockTime@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006C4C">
+            <code>00006C4C</code> — _KsGetPinFromIrp@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006D16">
+            <code>00006D16</code> — ?GenerateConnectionEvents@CKsPipeSection@@UAGXK@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006DE0">
+            <code>00006DE0</code> — ?CreateStreamPointer@CKsQueue@@AAEJPAPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00006EE0">
+            <code>00006EE0</code> — ?CloneStreamPointer@CKsQueue@@UAGJPAPAU_KSPSTREAM_POINTER@@P6GXPAU_KSSTREAM_POINTER@@@ZKPAU2@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000070E0">
+            <code>000070E0</code> — ?DeleteStreamPointer@CKsQueue@@UAGXPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000072B4">
+            <code>000072B4</code> — ?FreeStreamPointer@CKsQueue@@AAEXPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00007438">
+            <code>00007438</code> — ?SetStreamPointer@CKsQueue@@AAEXPAU_KSPSTREAM_POINTER@@PAU_KSPFRAME_HEADER@@PAPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000780A">
+            <code>0000780A</code> — ?LockStreamPointer@CKsQueue@@UAGPAU_KSPFRAME_HEADER@@PAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00007B46">
+            <code>00007B46</code> — ?UnlockStreamPointer@CKsQueue@@UAGXPAU_KSPSTREAM_POINTER@@W4KSPSTREAM_POINTER_MOTION@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00007D8B">
+            <code>00007D8B</code> — ?AdvanceUnlockedStreamPointer@CKsQueue@@UAGXPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00007E62">
+            <code>00007E62</code> — ?GetTime@CKsQueue@@AAE_JE@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00007F56">
+            <code>00007F56</code> — ?SetTimer@CKsQueue@@AAEX_J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00007FDC">
+            <code>00007FDC</code> — ?SetTimerUnsafe@CKsQueue@@AAEX_J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000081A4">
+            <code>000081A4</code> — ?ScheduleTimeout@CKsQueue@@UAGXPAU_KSPSTREAM_POINTER@@P6GXPAU_KSSTREAM_POINTER@@@Z_J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00008322">
+            <code>00008322</code> — ?CancelTimeout@CKsQueue@@UAGXPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000083C4">
+            <code>000083C4</code> — ?GetFirstClone@CKsQueue@@UAGPAU_KSPSTREAM_POINTER@@XZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00008488">
+            <code>00008488</code> — ?GetNextClone@CKsQueue@@UAGPAU_KSPSTREAM_POINTER@@PAU2@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000856A">
+            <code>0000856A</code> — ?CancelTimeoutUnsafe@CKsQueue@@AAEXPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00008668">
+            <code>00008668</code> — ?DispatchTimer@CKsQueue@@CGXPAU_KDPC@@PAX11@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00008806">
+            <code>00008806</code> — ?GetAvailableFrameHeader@CKsQueue@@AAEPAU_KSPFRAME_HEADER@@K@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000088F8">
+            <code>000088F8</code> — ?PutAvailableFrameHeader@CKsQueue@@AAEXPAU_KSPFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00008A5E">
+            <code>00008A5E</code> — ?DispatchDbgTimer@CKsQueue@@CGXPAU_KDPC@@PAX11@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00008BA6">
+            <code>00008BA6</code> — ?DbgPrintQueue@CKsQueue@@EAGXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00009045">
+            <code>00009045</code> — ?DbgPrintStreamPointer@CKsQueue@@AAEXPAU_KSPSTREAM_POINTER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000093EB">
+            <code>000093EB</code> — ?DbgPrintFrameHeader@CKsQueue@@AAEXPAU_KSPFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00009678">
+            <code>00009678</code> — ?CancelRoutine@CKsQueue@@CGXPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000985D">
+            <code>0000985D</code> — ?CancelStreamPointers@CKsQueue@@AAEXPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="000099FC">
+            <code>000099FC</code> — ?CancelAllIrps@CKsQueue@@AAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00009B61">
+            <code>00009B61</code> — ?RemoveIrpFrameHeaders@CKsQueue@@AAEXPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00009D17">
+            <code>00009D17</code> — ?AddFrame@CKsQueue@@AAEXPAU_KSPFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="00009EFD">
+            <code>00009EFD</code> — ?ReleaseIrp@CKsQueue@@AAEXPAU_IRP@@PAUKSPIRP_FRAMING_@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000A0F4">
+            <code>0000A0F4</code> — ?ForwardIrp@CKsQueue@@AAEXPAU_IRP@@PAUKSPIRP_FRAMING_@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000A2E2">
+            <code>0000A2E2</code> — ?ForwardWaitingIrps@CKsQueue@@AAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000A80C">
+            <code>0000A80C</code> — ?TransferKsIrp@CKsQueue@@UAGJPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000ADB6">
+            <code>0000ADB6</code> — ?DiscardKsIrp@CKsQueue@@UAGXPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000AFAE">
+            <code>0000AFAE</code> — ?ZeroIrp@CKsQueue@@AAEXPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000B1EB">
+            <code>0000B1EB</code> — ?CallbackFromIoAllocateAdapterChannel@CKsQueue@@CG?AW4_IO_ALLOCATION_ACTION@@PAU_DEVICE_OBJECT@@PAU_IRP@@PAX2@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000B44B">
+            <code>0000B44B</code> — ?CreateMappingsTable@CKsQueue@@AAEPAUKSPMAPPINGS_TABLE@@PAU_KSPFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000B668">
+            <code>0000B668</code> — ?DeleteMappingsTable@CKsQueue@@AAEXPAUKSPMAPPINGS_TABLE@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000B72C">
+            <code>0000B72C</code> — ?FreeMappings@CKsQueue@@AAEXPAUKSPMAPPINGS_TABLE@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000B9DE">
+            <code>0000B9DE</code> — ?Flush@CKsQueue@@AAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000BCBE">
+            <code>0000BCBE</code> — ?GetLeadingStreamPointer@CKsQueue@@UAGPAU_KSPSTREAM_POINTER@@W4KSSTREAM_POINTER_STATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000BD93">
+            <code>0000BD93</code> — ?GetTrailingStreamPointer@CKsQueue@@UAGPAU_KSPSTREAM_POINTER@@W4KSSTREAM_POINTER_STATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000BE68">
+            <code>0000BE68</code> — ?UpdateByteAvailability@CKsQueue@@UAGXPAU_KSPSTREAM_POINTER@@KK@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000BF42">
+            <code>0000BF42</code> — ?GetAvailableByteCount@CKsQueue@@UAGXPAJ0@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C002">
+            <code>0000C002</code> — _KsPinGetAvailableByteCount@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C0D2">
+            <code>0000C0D2</code> — _KsPinGetLeadingEdgeStreamPointer@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C1B0">
+            <code>0000C1B0</code> — _KsPinGetTrailingEdgeStreamPointer@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C2DB">
+            <code>0000C2DB</code> — _KsStreamPointerLock@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C46D">
+            <code>0000C46D</code> — _KsStreamPointerUnlock@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C6B9">
+            <code>0000C6B9</code> — _KsStreamPointerAdvanceOffsetsAndUnlock@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C8A7">
+            <code>0000C8A7</code> — _KsStreamPointerDelete@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000C9EB">
+            <code>0000C9EB</code> — _KsStreamPointerClone@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000CC4A">
+            <code>0000CC4A</code> — _KsStreamPointerAdvanceOffsets@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000CE5D">
+            <code>0000CE5D</code> — _KsStreamPointerAdvance@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000CFAB">
+            <code>0000CFAB</code> — _KsStreamPointerGetMdl@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D0C1">
+            <code>0000D0C1</code> — _KsStreamPointerGetIrp@12
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D20D">
+            <code>0000D20D</code> — _KsStreamPointerScheduleTimeout@16
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D2F0">
+            <code>0000D2F0</code> — _KsStreamPointerCancelTimeout@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D3A6">
+            <code>0000D3A6</code> — _KsPinGetFirstCloneStreamPointer@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D478">
+            <code>0000D478</code> — _KsStreamPointerGetNextClone@4
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D620">
+            <code>0000D620</code> — ?TransferKsIrp@CKsRequestor@@UAGJPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000D80A">
+            <code>0000D80A</code> — ?DiscardKsIrp@CKsRequestor@@UAGXPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000DB05">
+            <code>0000DB05</code> — ?CloneFrameHeader@CKsRequestor@@AAEPAU_KSPFRAME_HEADER@@PAU2@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000DF28">
+            <code>0000DF28</code> — ?SubmitFrame@CKsRequestor@@UAGJPAU_KSPFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E2B3">
+            <code>0000E2B3</code> — ?RetireFrame@CKsRequestor@@AAEXPAU_KSPFRAME_HEADER@@J@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E490">
+            <code>0000E490</code> — ?GetAvailableFrameHeader@CKsRequestor@@AAEPAU_KSPFRAME_HEADER@@K@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E586">
+            <code>0000E586</code> — ?PutAvailableFrameHeader@CKsRequestor@@AAEXPAU_KSPFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E62A">
+            <code>0000E62A</code> — ?GetAvailableIrp@CKsRequestor@@AAEPAU_IRP@@XZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E6D0">
+            <code>0000E6D0</code> — ?PutAvailableIrp@CKsRequestor@@AAEXPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E7F4">
+            <code>0000E7F4</code> — ?AllocateIrp@CKsRequestor@@AAEPAU_IRP@@XZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E900">
+            <code>0000E900</code> — ?AllocateFrameBuffer@CKsRequestor@@AAEPAXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000E982">
+            <code>0000E982</code> — ?FreeFrameBuffer@CKsRequestor@@AAEXPAX@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000EB1C">
+            <code>0000EB1C</code> — ?TransferKsIrp@CKsSplitter@@UAGJPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000EE8E">
+            <code>0000EE8E</code> — ?NewFrameHeader@CKsSplitter@@AAEPAU_KSPPARENTFRAME_HEADER@@K@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000EFD8">
+            <code>0000EFD8</code> — ?DeleteFrameHeader@CKsSplitter@@AAEXPAU_KSPPARENTFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F0D6">
+            <code>0000F0D6</code> — ?DiscardKsIrp@CKsSplitter@@UAGXPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F1CA">
+            <code>0000F1CA</code> — ?TransferParentIrp@CKsSplitter@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F30A">
+            <code>0000F30A</code> — ?CancelRoutine@CKsSplitter@@SGXPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F428">
+            <code>0000F428</code> — ?TransferKsIrp@CKsSplitterBranch@@UAGJPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F626">
+            <code>0000F626</code> — ?DiscardKsIrp@CKsSplitterBranch@@UAGXPAU_IRP@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F778">
+            <code>0000F778</code> — ?TransferSubframe@CKsSplitterBranch@@QAEJPAU_KSPSUBFRAME_HEADER@@@Z
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F90E">
+            <code>0000F90E</code> — ?AllocateIrp@CKsSplitterBranch@@AAEPAU_IRP@@XZ
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000F9BC">
+            <code>0000F9BC</code> — __KsLog@20
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FA3E">
+            <code>0000FA3E</code> — __KsLogEntry@8
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB60">
+            <code>0000FB60</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB66">
+            <code>0000FB66</code> — __except_handler3
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB6C">
+            <code>0000FB6C</code> — __allmul
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB72">
+            <code>0000FB72</code> — __alldiv
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB78">
+            <code>0000FB78</code> — __allshl
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB7E">
+            <code>0000FB7E</code> — __aulldiv
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB84">
+            <code>0000FB84</code> — __aullrem
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB8A">
+            <code>0000FB8A</code> — _DbgBreakPoint@0
+            
+          </li>
+        
+          <li data-segment="00005000" data-offset="0000FB90">
+            <code>0000FB90</code> — _KeGetCurrentThread@0
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .idata$5 @ 00007340
+      </summary>
+      <ul>
+        
+          <li data-segment="00007340" data-offset="00000000">
+            <code>00000000</code> — __imp_@KfRaiseIrql@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000004">
+            <code>00000004</code> — __imp_@KfLowerIrql@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000008">
+            <code>00000008</code> — __imp_@ExAcquireFastMutex@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000000C">
+            <code>0000000C</code> — __imp_@ExReleaseFastMutex@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000010">
+            <code>00000010</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000014">
+            <code>00000014</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000018">
+            <code>00000018</code> — __imp__KeQueryPerformanceCounter@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000001C">
+            <code>0000001C</code> — __imp__KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000020">
+            <code>00000020</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000024">
+            <code>00000024</code> — __imp__ExFreeToPagedLookasideList@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000028">
+            <code>00000028</code> — __imp__ExAllocateFromPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000002C">
+            <code>0000002C</code> — __imp__ExInitializePagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000030">
+            <code>00000030</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000034">
+            <code>00000034</code> — __imp_@ExInterlockedPopEntrySList@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000038">
+            <code>00000038</code> — __imp__ExDeletePagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000003C">
+            <code>0000003C</code> — __imp_@ExInterlockedPushEntrySList@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000040">
+            <code>00000040</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000044">
+            <code>00000044</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000048">
+            <code>00000048</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000004C">
+            <code>0000004C</code> — __imp__ProbeForRead@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000050">
+            <code>00000050</code> — __imp___except_handler3
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000054">
+            <code>00000054</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000058">
+            <code>00000058</code> — __imp__IoBuildSynchronousFsdRequest@28
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000005C">
+            <code>0000005C</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000060">
+            <code>00000060</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000064">
+            <code>00000064</code> — __imp__ZwOpenKey@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000068">
+            <code>00000068</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000006C">
+            <code>0000006C</code> — __imp__RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000070">
+            <code>00000070</code> — __imp__wcscat
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000074">
+            <code>00000074</code> — __imp__wcscpy
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000078">
+            <code>00000078</code> — __imp__RtlStringFromGUID@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000007C">
+            <code>0000007C</code> — __imp__IoGetRelatedDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000080">
+            <code>00000080</code> — __imp_@ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000084">
+            <code>00000084</code> — __imp__IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000088">
+            <code>00000088</code> — __imp__ExGetPreviousMode@0
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000008C">
+            <code>0000008C</code> — __imp__ZwEnumerateValueKey@24
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000090">
+            <code>00000090</code> — __imp__ZwSetValueKey@24
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000094">
+            <code>00000094</code> — __imp__RtlCompareMemory@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000098">
+            <code>00000098</code> — __imp__RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000009C">
+            <code>0000009C</code> — __imp__RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000A0">
+            <code>000000A0</code> — __imp__ZwCreateKey@28
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000A4">
+            <code>000000A4</code> — __imp__RtlAppendUnicodeToString@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000A8">
+            <code>000000A8</code> — __imp__RtlCopyUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000AC">
+            <code>000000AC</code> — __imp__IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000B0">
+            <code>000000B0</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000B4">
+            <code>000000B4</code> — __imp__KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000B8">
+            <code>000000B8</code> — __imp__KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000BC">
+            <code>000000BC</code> — __imp__IoSetDeviceInterfaceState@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000C0">
+            <code>000000C0</code> — __imp__IoRegisterDeviceInterface@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000C4">
+            <code>000000C4</code> — __imp__swprintf
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000C8">
+            <code>000000C8</code> — __imp__wcslen
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000CC">
+            <code>000000CC</code> — __imp___allmul
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000D0">
+            <code>000000D0</code> — __imp__ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000D4">
+            <code>000000D4</code> — __imp_@ExReleaseFastMutexUnsafe@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000D8">
+            <code>000000D8</code> — __imp_@ExAcquireFastMutexUnsafe@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000DC">
+            <code>000000DC</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000E0">
+            <code>000000E0</code> — __imp__KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000E4">
+            <code>000000E4</code> — __imp__IoInvalidateDeviceRelations@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000E8">
+            <code>000000E8</code> — __imp___alldiv
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000EC">
+            <code>000000EC</code> — __imp___allshl
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000F0">
+            <code>000000F0</code> — __imp___aulldiv
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000F4">
+            <code>000000F4</code> — __imp___aullrem
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000F8">
+            <code>000000F8</code> — __imp__KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000000FC">
+            <code>000000FC</code> — __imp__ProbeForWrite@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000100">
+            <code>00000100</code> — __imp__ExAllocatePoolWithQuotaTag@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000104">
+            <code>00000104</code> — __imp__IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000108">
+            <code>00000108</code> — __imp__DbgBreakPoint@0
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000010C">
+            <code>0000010C</code> — __imp__ExDeleteNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000110">
+            <code>00000110</code> — __imp__ExInitializeNPagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000114">
+            <code>00000114</code> — __imp__ZwEnumerateKey@24
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000118">
+            <code>00000118</code> — __imp__ZwQueryKey@20
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000011C">
+            <code>0000011C</code> — __imp__RtlGUIDFromString@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000120">
+            <code>00000120</code> — __imp___wcsicmp
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000124">
+            <code>00000124</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000128">
+            <code>00000128</code> — __imp__KeSetTimerEx@20
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000012C">
+            <code>0000012C</code> — __imp_@ExInterlockedCompareExchange64@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000130">
+            <code>00000130</code> — __imp_@KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000134">
+            <code>00000134</code> — __imp_@KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000138">
+            <code>00000138</code> — __imp__KeQueryTimeIncrement@0
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000013C">
+            <code>0000013C</code> — __imp__KeInitializeTimerEx@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000140">
+            <code>00000140</code> — __imp_@InterlockedCompareExchange@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000144">
+            <code>00000144</code> — __imp__KeReleaseSemaphore@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000148">
+            <code>00000148</code> — __imp__KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000014C">
+            <code>0000014C</code> — __imp__KeReleaseMutex@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000150">
+            <code>00000150</code> — __imp__KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000154">
+            <code>00000154</code> — _ExEventObjectType
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000154">
+            <code>00000154</code> — __imp__ExEventObjectType
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000158">
+            <code>00000158</code> — __imp__ObReferenceObjectByHandle@24
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000015C">
+            <code>0000015C</code> — __imp__ExSemaphoreObjectType
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000015C">
+            <code>0000015C</code> — _ExSemaphoreObjectType
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000160">
+            <code>00000160</code> — __imp_@ObfDereferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000164">
+            <code>00000164</code> — __imp__KeRemoveQueueDpc@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000168">
+            <code>00000168</code> — __imp__KeBugCheckEx@20
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000016C">
+            <code>0000016C</code> — __imp__PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000170">
+            <code>00000170</code> — __imp__PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000174">
+            <code>00000174</code> — __imp__KeGetCurrentThread@0
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000178">
+            <code>00000178</code> — __imp__RtlCompareUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000017C">
+            <code>0000017C</code> — __imp__IoCreateFile@56
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000180">
+            <code>00000180</code> — __imp__MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000184">
+            <code>00000184</code> — __imp__KeClearEvent@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000188">
+            <code>00000188</code> — __imp__ExRaiseStatus@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000018C">
+            <code>0000018C</code> — __imp__IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000190">
+            <code>00000190</code> — __imp__MmUnlockPages@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000194">
+            <code>00000194</code> — __imp__MmProbeAndLockPages@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000198">
+            <code>00000198</code> — __imp__IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000019C">
+            <code>0000019C</code> — __imp__IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001A0">
+            <code>000001A0</code> — __imp__IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001A4">
+            <code>000001A4</code> — __imp_@ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001A8">
+            <code>000001A8</code> — __imp_@ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001AC">
+            <code>000001AC</code> — __imp__KeInitializeMutex@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001B0">
+            <code>000001B0</code> — _IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001B0">
+            <code>000001B0</code> — __imp__IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001B4">
+            <code>000001B4</code> — __imp__IoGetDeviceInterfaces@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001B8">
+            <code>000001B8</code> — __imp__IoAllocateDriverObjectExtension@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001BC">
+            <code>000001BC</code> — __imp__IoGetDriverObjectExtension@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001C0">
+            <code>000001C0</code> — __imp__IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001C4">
+            <code>000001C4</code> — __imp__IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001C8">
+            <code>000001C8</code> — __imp__PoRequestPowerIrp@24
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001CC">
+            <code>000001CC</code> — __imp__PoSetPowerState@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001D0">
+            <code>000001D0</code> — __imp__PoUnregisterSystemState@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001D4">
+            <code>000001D4</code> — __imp__PoRegisterSystemState@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001D8">
+            <code>000001D8</code> — __imp__IoIsWdmVersionAvailable@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001DC">
+            <code>000001DC</code> — __imp__memmove
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001E0">
+            <code>000001E0</code> — __imp__IoOpenDeviceInterfaceRegistryKey@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001E4">
+            <code>000001E4</code> — __imp__KeResetEvent@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001E8">
+            <code>000001E8</code> — __imp__KeQuerySystemTime@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001EC">
+            <code>000001EC</code> — __imp__IoCreateSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001F0">
+            <code>000001F0</code> — __imp__IoCreateDriver@8
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001F4">
+            <code>000001F4</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001F8">
+            <code>000001F8</code> — __imp_@InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000001FC">
+            <code>000001FC</code> — __imp_@InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000200">
+            <code>00000200</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000204">
+            <code>00000204</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000208">
+            <code>00000208</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000020C">
+            <code>0000020C</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000210">
+            <code>00000210</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000214">
+            <code>00000214</code> — __imp___wcsnicmp
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000218">
+            <code>00000218</code> — \177ntoskrnl_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000310">
+            <code>00000310</code> — ??_C@_0BD@KJO@IRP_MJ_QUERY_POWER?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000324">
+            <code>00000324</code> — ??_C@_0BB@DBDK@IRP_MJ_SET_POWER?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000338">
+            <code>00000338</code> — ??_C@_0BE@MMFL@IRP_MJ_SET_SECURITY?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000034C">
+            <code>0000034C</code> — ??_C@_0BG@NGJE@IRP_MJ_QUERY_SECURITY?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000364">
+            <code>00000364</code> — ??_C@_0BH@BAKD@IRP_MJ_CREATE_MAILSLOT?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000037C">
+            <code>0000037C</code> — ??_C@_0P@FJPB@IRP_MJ_CLEANUP?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="0000038C">
+            <code>0000038C</code> — ??_C@_0BE@MIAJ@IRP_MJ_LOCK_CONTROL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000003A0">
+            <code>000003A0</code> — ??_C@_0BA@FLJI@IRP_MJ_SHUTDOWN?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000003B0">
+            <code>000003B0</code> — ??_C@_0BP@OLMJ@IRP_MJ_INTERNAL_DEVICE_CONTROL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000003D0">
+            <code>000003D0</code> — ??_C@_0BG@CLLP@IRP_MJ_DEVICE_CONTROL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000003E8">
+            <code>000003E8</code> — ??_C@_0BL@CBFM@IRP_MJ_FILE_SYSTEM_CONTROL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000404">
+            <code>00000404</code> — ??_C@_0BJ@LBBJ@IRP_MJ_DIRECTORY_CONTROL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000420">
+            <code>00000420</code> — ??_C@_0BO@PIHJ@IRP_MJ_SET_VOLUME_INFORMATION?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000440">
+            <code>00000440</code> — ??_C@_0CA@HODN@IRP_MJ_QUERY_VOLUME_INFORMATION?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000460">
+            <code>00000460</code> — ??_C@_0BF@BPJM@IRP_MJ_FLUSH_BUFFERS?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000478">
+            <code>00000478</code> — ??_C@_0O@BKJN@IRP_MJ_SET_EA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000488">
+            <code>00000488</code> — ??_C@_0BA@PAEM@IRP_MJ_QUERY_EA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000498">
+            <code>00000498</code> — ??_C@_0BH@FHGM@IRP_MJ_SET_INFORMATION?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000004B0">
+            <code>000004B0</code> — ??_C@_0BJ@BAL@IRP_MJ_QUERY_INFORMATION?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000004CC">
+            <code>000004CC</code> — ??_C@_0N@MABG@IRP_MJ_WRITE?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000004DC">
+            <code>000004DC</code> — ??_C@_0M@COKB@IRP_MJ_READ?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000004E8">
+            <code>000004E8</code> — ??_C@_0N@GPKJ@IRP_MJ_CLOSE?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000004F8">
+            <code>000004F8</code> — ??_C@_0BJ@NEL@IRP_MJ_CREATE_NAMED_PIPE?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000514">
+            <code>00000514</code> — ??_C@_0O@NJLE@IRP_MJ_CREATE?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000668">
+            <code>00000668</code> — __GUID_21b36996_8de3_11d1_8ae0_00a0c9223196
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000678">
+            <code>00000678</code> — __GUID_00000000_0000_0000_c000_000000000046
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000688">
+            <code>00000688</code> — ??_7CBaseUnknown@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000698">
+            <code>00000698</code> — ??_7CBaseUnknown@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000006A8">
+            <code>000006A8</code> — ??_7CKsDevice@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000006B8">
+            <code>000006B8</code> — ??_7CKsDevice@@6B@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000006E8">
+            <code>000006E8</code> — ??_7CKsDevice@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000006F8">
+            <code>000006F8</code> — __GUID_3ef6ee42_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000708">
+            <code>00000708</code> — ??_7CKsFilterFactory@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000718">
+            <code>00000718</code> — ??_7CKsFilterFactory@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000728">
+            <code>00000728</code> — ??_7CKsFilterFactory@@6BIKsPowerNotify@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000740">
+            <code>00000740</code> — ??_7CKsFilterFactory@@6BIKsFilterFactory@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000758">
+            <code>00000758</code> — __GUID_3ef6ee47_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000768">
+            <code>00000768</code> — __GUID_3ef6ee43_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000778">
+            <code>00000778</code> — __GUID_1464eda5_6a8f_11d1_9aa7_00a0c9223196
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000788">
+            <code>00000788</code> — __GUID_720d4ac0_7533_11d0_a5d6_28db04c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000798">
+            <code>00000798</code> — __GUID_8c134960_51ad_11cf_878a_94f801c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000007A8">
+            <code>000007A8</code> — ??_7CKsFilter@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000007B8">
+            <code>000007B8</code> — ??_7CKsFilter@@6BIKsControl@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000007D0">
+            <code>000007D0</code> — ??_7CKsFilter@@6BIKsPowerNotify@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000007E8">
+            <code>000007E8</code> — ??_7CKsFilter@@6BIKsProcessingObject@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000808">
+            <code>00000808</code> — ??_7CKsFilter@@6BIKsFilter@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000838">
+            <code>00000838</code> — ??_7CKsFilter@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000848">
+            <code>00000848</code> — __GUID_3ef6ee40_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000858">
+            <code>00000858</code> — __GUID_28f54685_06fd_11d2_b27a_00a0c9223196
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000868">
+            <code>00000868</code> — __GUID_3ef6ee44_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000878">
+            <code>00000878</code> — ??_C@_04IDEN@Gate?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000880">
+            <code>00000880</code> — ??_C@_0BL@BIBH@e?3?2NTC?2public?2sdk?2inc?2ks?4h?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000008A0">
+            <code>000008A0</code> — __GUID_00000000_0000_0000_0000_000000000000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000008B0">
+            <code>000008B0</code> — ??_7CKsFileObjectThunk@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000008C0">
+            <code>000008C0</code> — ??_7CKsFileObjectThunk@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000008D0">
+            <code>000008D0</code> — ??_7CKsFileObjectThunk@@6B@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000008E8">
+            <code>000008E8</code> — __GUID_2f2c8ddd_4198_4fac_ba29_61bb05b7de06
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000008F8">
+            <code>000008F8</code> — __GUID_7f4bcbe0_9ea5_11cf_a5d6_28db04c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000908">
+            <code>00000908</code> — __GUID_1fdd8ee1_9cd3_11d0_82aa_0000f822fe8a
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000918">
+            <code>00000918</code> — __GUID_65aaba60_98ae_11cf_a10d_0020afd156e4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000928">
+            <code>00000928</code> — __GUID_1d58c920_ac9b_11cf_a5d6_28db04c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000938">
+            <code>00000938</code> — ??_7CKsPin@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000948">
+            <code>00000948</code> — ??_7CKsPin@@6BIKsRetireFrame@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000958">
+            <code>00000958</code> — ??_7CKsPin@@6BIKsReferenceClock@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000980">
+            <code>00000980</code> — ??_7CKsPin@@6BIKsControl@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000998">
+            <code>00000998</code> — ??_7CKsPin@@6BIKsConnection@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000009B8">
+            <code>000009B8</code> — ??_7CKsPin@@6BIKsWorkSink@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000009C8">
+            <code>000009C8</code> — ??_7CKsPin@@6BIKsPowerNotify@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="000009E0">
+            <code>000009E0</code> — ??_7CKsPin@@6BIKsProcessingObject@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A00">
+            <code>00000A00</code> — ??_7CKsPin@@6BIKsPin@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A40">
+            <code>00000A40</code> — ??_7CKsPin@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A50">
+            <code>00000A50</code> — __GUID_3ef6ee4f_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A60">
+            <code>00000A60</code> — __GUID_3ef6ee46_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A70">
+            <code>00000A70</code> — __GUID_3ef6ee45_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A80">
+            <code>00000A80</code> — __GUID_3ef6ee3f_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000A90">
+            <code>00000A90</code> — __GUID_3ef6ee41_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000AA0">
+            <code>00000AA0</code> — __GUID_df12a4c0_ac17_11cf_a5d6_28db04c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000AB0">
+            <code>00000AB0</code> — __GUID_4747b320_62ce_11cf_a5d6_28db04c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000AC0">
+            <code>00000AC0</code> — __GUID_1a8766a0_62ce_11cf_a5d6_28db04c10000
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000AD0">
+            <code>00000AD0</code> — ??_7CKsPipeSection@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000AE0">
+            <code>00000AE0</code> — ??_7CKsPipeSection@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000AF0">
+            <code>00000AF0</code> — ??_7CKsPipeSection@@6B@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000B10">
+            <code>00000B10</code> — __GUID_3ef6ee49_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000B20">
+            <code>00000B20</code> — ??_7CKsQueue@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000B30">
+            <code>00000B30</code> — ??_7CKsQueue@@6B@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000B90">
+            <code>00000B90</code> — ??_7CKsQueue@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000BA0">
+            <code>00000BA0</code> — ??_C@_0BE@CIAH@mapTransfer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000BB4">
+            <code>00000BB4</code> — ??_C@_0BM@HDDO@e?3?2NTC?2public?2sdk?2inc?2wdm?4h?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000BD0">
+            <code>00000BD0</code> — ??_C@_0BP@OCPD@allocateAdapterChannel?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000BF0">
+            <code>00000BF0</code> — ??_C@_0BJ@BLDF@freeMapRegisters?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C0C">
+            <code>00000C0C</code> — ??_C@_0BM@MGEC@flushAdapterBuffers?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C28">
+            <code>00000C28</code> — ??_7CKsRequestor@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C38">
+            <code>00000C38</code> — ??_7CKsRequestor@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C48">
+            <code>00000C48</code> — ??_7CKsRequestor@@6BIKsWorkSink@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C58">
+            <code>00000C58</code> — ??_7CKsRequestor@@6BIKsRequestor@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C88">
+            <code>00000C88</code> — __GUID_cf6e4342_ec87_11cf_a130_0020afd156e4
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000C98">
+            <code>00000C98</code> — ??_7CKsSplitter@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000CA8">
+            <code>00000CA8</code> — ??_7CKsSplitter@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000CB8">
+            <code>00000CB8</code> — ??_7CKsSplitter@@6B@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000CE8">
+            <code>00000CE8</code> — __GUID_3ef6ee4b_0d41_11d2_beda_00c04f8ef457
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000CF8">
+            <code>00000CF8</code> — ??_7CKsSplitterBranch@@6BIIndirectedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000D08">
+            <code>00000D08</code> — ??_7CKsSplitterBranch@@6BINonDelegatedUnknown@@@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000D18">
+            <code>00000D18</code> — ??_7CKsSplitterBranch@@6B@
+            
+          </li>
+        
+          <li data-segment="00007340" data-offset="00000D40">
+            <code>00000D40</code> — _GUID_BUS_INTERFACE_STANDARD
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 000073B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000073B0" data-offset="00000000">
+            <code>00000000</code> — _KSDebug
+            
+          </li>
+        
+          <li data-segment="000073B0" data-offset="00000004">
+            <code>00000004</code> — _KsLogSize
+            
+          </li>
+        
+          <li data-segment="000073B0" data-offset="00000038">
+            <code>00000038</code> — _KsLog
+            
+          </li>
+        
+          <li data-segment="000073B0" data-offset="0000003C">
+            <code>0000003C</code> — _KsLogPosition
+            
+          </li>
+        
+          <li data-segment="000073B0" data-offset="00000040">
+            <code>00000040</code> — _KsLogTicksPerSecond
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: PAGE @ 00018360
+      </summary>
+      <ul>
+        
+          <li data-segment="00018360" data-offset="0000004E">
+            <code>0000004E</code> — _KsCreateAllocator@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000000F4">
+            <code>000000F4</code> — _KsValidateAllocatorCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000015E">
+            <code>0000015E</code> — _KsValidateAllocatorFramingEx@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000001DE">
+            <code>000001DE</code> — _KsCreateDefaultAllocator@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000519">
+            <code>00000519</code> — _KsCreateDefaultAllocatorEx@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000904">
+            <code>00000904</code> — _DefAllocatorIoControl@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000A20">
+            <code>00000A20</code> — _DefAllocatorClose@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000B0E">
+            <code>00000B0E</code> — _MethodAlloc@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000B86">
+            <code>00000B86</code> — _FreeWorker@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000C1C">
+            <code>00000C1C</code> — _MethodFree@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000CC8">
+            <code>00000CC8</code> — _DefAllocatorGetFunctionTable@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000D66">
+            <code>00000D66</code> — _DefAllocatorGetStatus@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000DCC">
+            <code>00000DCC</code> — _KsAcquireResetValue@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000EBE">
+            <code>00000EBE</code> — _QueryReferenceBusInterface@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00000F82">
+            <code>00000F82</code> — _ReadNodeNameValue@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00001160">
+            <code>00001160</code> — _KsTopologyPropertyHandler@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00001256">
+            <code>00001256</code> — _KsCreateDefaultSecurity@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00001309">
+            <code>00001309</code> — _KsForwardIrp@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000014BA">
+            <code>000014BA</code> — _KsForwardAndCatchIrp@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000164A">
+            <code>0000164A</code> — _KsSynchronousIoControlDevice@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000017A6">
+            <code>000017A6</code> — _KsUnserializeObjectPropertiesFromRegistry@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00001A4C">
+            <code>00001A4C</code> — _KsCacheMedium@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00001EF8">
+            <code>00001EF8</code> — _KsCreateBusEnumObject@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000229A">
+            <code>0000229A</code> — _IssueReparseForIrp@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000023E6">
+            <code>000023E6</code> — _CompletePendingIo@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000024A2">
+            <code>000024A2</code> — _EnableDeviceInterfaces@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000262C">
+            <code>0000262C</code> — _SweeperWorker@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00002A10">
+            <code>00002A10</code> — _InterfaceReference@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00002B6E">
+            <code>00002B6E</code> — _InterfaceDereference@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00002CC8">
+            <code>00002CC8</code> — _ReferenceDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00002D5E">
+            <code>00002D5E</code> — _ComputeNextSweeperPeriod@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00002F76">
+            <code>00002F76</code> — _DereferenceDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00003132">
+            <code>00003132</code> — _QueryReferenceString@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00003404">
+            <code>00003404</code> — _KsServiceBusEnumPnpRequest@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00003A40">
+            <code>00003A40</code> — _KsGetBusEnumIdentifier@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00003B76">
+            <code>00003B76</code> — _KsIsBusEnumChildDevice@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00003C30">
+            <code>00003C30</code> — _KsGetBusEnumPnpDeviceObject@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00003E14">
+            <code>00003E14</code> — _StartDevice@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00004082">
+            <code>00004082</code> — _RemoveDevice@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00004484">
+            <code>00004484</code> — _KsServiceBusEnumCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000048F6">
+            <code>000048F6</code> — _OpenDeviceInterfacesKey@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00004B1C">
+            <code>00004B1C</code> — _QueryDeviceRelations@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00004E02">
+            <code>00004E02</code> — _EnumerateRegistrySubKeys@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000502C">
+            <code>0000502C</code> — _ClearDeviceReferenceMarks@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000050CE">
+            <code>000050CE</code> — _RemoveDeviceAssociations@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000051AA">
+            <code>000051AA</code> — _RemoveUnreferencedDevices@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000052DA">
+            <code>000052DA</code> — _RegisterDeviceAssociation@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00005496">
+            <code>00005496</code> — _CreateDeviceAssociation@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000573E">
+            <code>0000573E</code> — _CreateDeviceReference@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00005AA0">
+            <code>00005AA0</code> — _EnumerateDeviceReferences@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00005B3C">
+            <code>00005B3C</code> — _ScanBus@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00005C3E">
+            <code>00005C3E</code> — _CreatePdo@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00005E38">
+            <code>00005E38</code> — _QueryId@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00005F98">
+            <code>00005F98</code> — _BuildBusId@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000060BA">
+            <code>000060BA</code> — _KspInstallBusEnumInterface@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000621C">
+            <code>0000621C</code> — _KsInstallBusEnumInterface@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006300">
+            <code>00006300</code> — _InstallInterface@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006586">
+            <code>00006586</code> — _KsGetBusEnumParentFDOFromChildPDO@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000065EA">
+            <code>000065EA</code> — _KsRemoveBusEnumInterface@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006644">
+            <code>00006644</code> — _KsiPropertyDefaultClockGetTime@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000066E8">
+            <code>000066E8</code> — _KsiPropertyDefaultClockGetPhysicalTime@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000678C">
+            <code>0000678C</code> — _KsiPropertyDefaultClockGetCorrelatedTime@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006834">
+            <code>00006834</code> — _KsiPropertyDefaultClockGetCorrelatedPhysicalTime@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000068DC">
+            <code>000068DC</code> — _KsiPropertyDefaultClockGetResolution@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006988">
+            <code>00006988</code> — _KsiPropertyDefaultClockGetState@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006A2E">
+            <code>00006A2E</code> — _KsiPropertyDefaultClockGetFunctionTable@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006ADA">
+            <code>00006ADA</code> — _KsCreateClock@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00006B80">
+            <code>00006B80</code> — _KsValidateClockCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007007">
+            <code>00007007</code> — _KsAllocateDefaultClockEx@28
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000072B2">
+            <code>000072B2</code> — _KsAllocateDefaultClock@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007318">
+            <code>00007318</code> — _KsFreeDefaultClock@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000073EC">
+            <code>000073EC</code> — _KsCreateDefaultClock@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000074F0">
+            <code>000074F0</code> — _DefClockIoControl@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000075EC">
+            <code>000075EC</code> — _DefClockClose@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000076D8">
+            <code>000076D8</code> — _DefPowerDispatch@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007814">
+            <code>00007814</code> — _ValidAttributeList@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007A8F">
+            <code>00007A8F</code> — _AttributeIntersection@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007C46">
+            <code>00007C46</code> — _KsCreatePin@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007D04">
+            <code>00007D04</code> — _KspValidateConnectRequest@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00007E78">
+            <code>00007E78</code> — _KspValidateDataFormat@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008184">
+            <code>00008184</code> — _KsValidateConnectRequest@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008254">
+            <code>00008254</code> — _KsHandleSizedListQuery@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008364">
+            <code>00008364</code> — _KspPinPropertyHandler@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000086A6">
+            <code>000086A6</code> — _KsPinPropertyHandler@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000874C">
+            <code>0000874C</code> — _KsPinDataIntersectionEx@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008DAA">
+            <code>00008DAA</code> — _CompatibleIntersectHandler@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008E1E">
+            <code>00008E1E</code> — _KsPinDataIntersection@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008E7A">
+            <code>00008E7A</code> — _OneShotWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008E96">
+            <code>00008E96</code> — @CreateDpc@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00008F5E">
+            <code>00008F5E</code> — _KsEnableEvent@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009008">
+            <code>00009008</code> — _KsEnableEventWithAllocator@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009142">
+            <code>00009142</code> — _KspEnableEvent@40
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000098DC">
+            <code>000098DC</code> — _KsDisableEvent@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009972">
+            <code>00009972</code> — _KsFreeEventList@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009A06">
+            <code>00009A06</code> — _KsAcquireDeviceSecurityLock@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009A92">
+            <code>00009A92</code> — _KsReleaseDeviceSecurityLock@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009B1E">
+            <code>00009B1E</code> — _KsReferenceBusObject@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009D12">
+            <code>00009D12</code> — _KsiGetBusInterface@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00009F67">
+            <code>00009F67</code> — _KsDereferenceBusObject@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A150">
+            <code>0000A150</code> — _KsDefaultForwardIrp@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A327">
+            <code>0000A327</code> — _KsDefaultDispatchPnp@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A444">
+            <code>0000A444</code> — _KsSetDevicePnpAndBaseObject@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A4E2">
+            <code>0000A4E2</code> — _KsQueryDevicePnpObject@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A5E7">
+            <code>0000A5E7</code> — _FreeCreateEntries@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A694">
+            <code>0000A694</code> — _KsAllocateDeviceHeader@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000A9C4">
+            <code>0000A9C4</code> — _KsFreeDeviceHeader@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000AABE">
+            <code>0000AABE</code> — _KsQueryObjectAccessMask@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000AC00">
+            <code>0000AC00</code> — _KsRecalculateStackDepth@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000AD16">
+            <code>0000AD16</code> — _KsSetTargetState@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000ADAC">
+            <code>0000ADAC</code> — _KsSetTargetDeviceObject@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000AE8E">
+            <code>0000AE8E</code> — _KsQueryObjectCreateItem@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000AF20">
+            <code>0000AF20</code> — _KsAllocateObjectHeader@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B0F0">
+            <code>0000B0F0</code> — _KsAllocateObjectCreateItem@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B1DA">
+            <code>0000B1DA</code> — _KsFreeObjectCreateItem@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B20A">
+            <code>0000B20A</code> — _KsFreeObjectCreateItemsByContext@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B232">
+            <code>0000B232</code> — _KsiQueryObjectCreateItemsPresent@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B246">
+            <code>0000B246</code> — _KsiAddObjectCreateItem@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B2FC">
+            <code>0000B2FC</code> — _KsAddObjectCreateItemToDeviceHeader@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B39C">
+            <code>0000B39C</code> — _KsAddObjectCreateItemToObjectHeader@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B3F2">
+            <code>0000B3F2</code> — _KsiCreateObjectType@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B604">
+            <code>0000B604</code> — _KsiCopyCreateParameter@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B708">
+            <code>0000B708</code> — _ValidateCreateAccess@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B712">
+            <code>0000B712</code> — _FindAndReferenceCreateItem@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000B938">
+            <code>0000B938</code> — _DispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BAB6">
+            <code>0000BAB6</code> — _DispatchDeviceIoControl@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BAE4">
+            <code>0000BAE4</code> — _DispatchFastDeviceIoControl@36
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BB1C">
+            <code>0000BB1C</code> — _DispatchRead@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BB3A">
+            <code>0000BB3A</code> — _DispatchFastRead@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BB64">
+            <code>0000BB64</code> — _DispatchWrite@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BB82">
+            <code>0000BB82</code> — _DispatchFastWrite@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BBAC">
+            <code>0000BBAC</code> — _DispatchFlush@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BBCA">
+            <code>0000BBCA</code> — _DispatchClose@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BBFE">
+            <code>0000BBFE</code> — _KsDispatchQuerySecurity@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BBFE">
+            <code>0000BBFE</code> — _KsDispatchSetSecurity@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BC1C">
+            <code>0000BC1C</code> — _DispatchQuerySecurity@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BC4C">
+            <code>0000BC4C</code> — _DispatchSetSecurity@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BCCA">
+            <code>0000BCCA</code> — _KsDispatchSpecificProperty@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BD7A">
+            <code>0000BD7A</code> — _KsDispatchSpecificMethod@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BE60">
+            <code>0000BE60</code> — _KsDispatchInvalidDeviceRequest@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BF02">
+            <code>0000BF02</code> — _KsDefaultDeviceIoCompletion@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BF7C">
+            <code>0000BF7C</code> — _KsDispatchFastIoDeviceControlFailure@36
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BF86">
+            <code>0000BF86</code> — _KsDispatchFastReadFailure@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BF90">
+            <code>0000BF90</code> — _KsNullDriverUnload@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000BFE6">
+            <code>0000BFE6</code> — _KsSetMajorFunctionHandler@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000C33E">
+            <code>0000C33E</code> — _KsReadFile@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000C7A1">
+            <code>0000C7A1</code> — _KsWriteFile@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000C9DA">
+            <code>0000C9DA</code> — _KsQueryInformationFile@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000CB88">
+            <code>0000CB88</code> — _KsSetInformationFile@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000CDEF">
+            <code>0000CDEF</code> — _KsStreamIo@44
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000D3BE">
+            <code>0000D3BE</code> — _KsProbeStreamIrp@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000DA5B">
+            <code>0000DA5B</code> — _KsAllocateExtraData@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000DC2E">
+            <code>0000DC2E</code> — _KsMethodHandler@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000DCD0">
+            <code>0000DCD0</code> — _KsMethodHandlerWithAllocator@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000DDBE">
+            <code>0000DDBE</code> — _KspMethodHandler@28
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E42C">
+            <code>0000E42C</code> — @FindFastMethodItem@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E492">
+            <code>0000E492</code> — _KsFastMethodHandler@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E638">
+            <code>0000E638</code> — @FindMethodItem@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E638">
+            <code>0000E638</code> — @FindEventItem@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E638">
+            <code>0000E638</code> — @FindPropertyItem@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E65A">
+            <code>0000E65A</code> — _SerializePropertySet@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000E8D8">
+            <code>0000E8D8</code> — _UnserializePropertySet@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000EAF6">
+            <code>0000EAF6</code> — _KsPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000EB9C">
+            <code>0000EB9C</code> — _KsPropertyHandlerWithAllocator@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000EC96">
+            <code>0000EC96</code> — _KspPropertyHandler@28
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F3B0">
+            <code>0000F3B0</code> — @FindFastPropertyItem@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F41A">
+            <code>0000F41A</code> — _KsFastPropertyHandler@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F630">
+            <code>0000F630</code> — _WorkerThread@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F708">
+            <code>0000F708</code> — _KsRegisterWorker@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F806">
+            <code>0000F806</code> — _KsRegisterCountedWorker@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F948">
+            <code>0000F948</code> — _KsUnregisterWorker@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000F9E4">
+            <code>0000F9E4</code> — _KsiQueryWorkQueueType@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000FA44">
+            <code>0000FA44</code> — _KsCreateTopologyNode@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000FAEA">
+            <code>0000FAEA</code> — _KspValidateTopologyNodeCreateRequest@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000FBB0">
+            <code>0000FBB0</code> — _KsValidateTopologyNodeCreateRequest@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0000FE43">
+            <code>0000FE43</code> — ?KspCountSetsAndItems@@YGXPBUKSPAUTOMATION_TYPE@@0KPAK11@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000102CD">
+            <code>000102CD</code> — ?KspMergeAutomationTypes@@YGXPBUKSPAUTOMATION_TYPE@@0PAU1@KPAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00010799">
+            <code>00010799</code> — _KsMergeAutomationTables@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00010C0A">
+            <code>00010C0A</code> — _KspHandleAutomationIoControl@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00010FA2">
+            <code>00010FA2</code> — _KspCreateAutomationTableTable@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011138">
+            <code>00011138</code> — _RemoveFactoryEntries@0
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001119C">
+            <code>0001119C</code> — _LoadService@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000112CD">
+            <code>000112CD</code> — _DecrementObjectCount@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011382">
+            <code>00011382</code> — _CreateObject@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011444">
+            <code>00011444</code> — _KoCreateInstance@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011704">
+            <code>00011704</code> — _KoDriverInitialize@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001181A">
+            <code>0001181A</code> — _KoDeviceInitialize@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000118DA">
+            <code>000118DA</code> — _PnpAddDevice@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000119A9">
+            <code>000119A9</code> — _KoDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011A98">
+            <code>00011A98</code> — _KoDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011B28">
+            <code>00011B28</code> — ??0CBaseUnknown@@QAE@ABU_GUID@@PAUIUnknown@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011B9C">
+            <code>00011B9C</code> — ??_ECBaseUnknown@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011B9C">
+            <code>00011B9C</code> — ??_GCBaseUnknown@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011C0A">
+            <code>00011C0A</code> — ??0CBaseUnknown@@QAE@PAUIUnknown@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011CC0">
+            <code>00011CC0</code> — ??1CBaseUnknown@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011D54">
+            <code>00011D54</code> — ?NonDelegatedAddRef@CBaseUnknown@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011E32">
+            <code>00011E32</code> — ?NonDelegatedRelease@CBaseUnknown@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00011F28">
+            <code>00011F28</code> — ?NonDelegatedQueryInterface@CBaseUnknown@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001200E">
+            <code>0001200E</code> — ?IndirectedAddRef@CBaseUnknown@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000120A6">
+            <code>000120A6</code> — ?IndirectedRelease@CBaseUnknown@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001213E">
+            <code>0001213E</code> — ?IndirectedQueryInterface@CBaseUnknown@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000121DC">
+            <code>000121DC</code> — _KoRelease@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00012222">
+            <code>00012222</code> — ?GetStruct@CKsDevice@@UAGPAU_KSDEVICE@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00012311">
+            <code>00012311</code> — _KsInitializeDriver@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00012501">
+            <code>00012501</code> — _KsAddDevice@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001270F">
+            <code>0001270F</code> — _KsCreateDevice@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000128D8">
+            <code>000128D8</code> — ?GetSetBusDataIrpCompletionRoutine@CKsDevice@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00012A2A">
+            <code>00012A2A</code> — ?GetSetBusDataIrp@CKsDevice@@QAEKKPAXKKE@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00012D8E">
+            <code>00012D8E</code> — ?DispatchPnp@CKsDevice@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000131E6">
+            <code>000131E6</code> — ?ValidateCapabilities@@YGXPAU_DEVICE_CAPABILITIES@@PAD@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00013700">
+            <code>00013700</code> — ?PnpQueryCapabilities@CKsDevice@@QAEJPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00013C12">
+            <code>00013C12</code> — ?PostPnpStartWorker@CKsDevice@@SGXPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00013E3D">
+            <code>00013E3D</code> — ?CloseWorker@CKsDevice@@SGXPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00014090">
+            <code>00014090</code> — ?PnpStart@CKsDevice@@QAEJPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000142F2">
+            <code>000142F2</code> — ?PnpStop@CKsDevice@@QAEXPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000148B6">
+            <code>000148B6</code> — ?DispatchPower@CKsDevice@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015050">
+            <code>00015050</code> — ?DispatchCreate@CKsDevice@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001527C">
+            <code>0001527C</code> — ?ForwardIrpCompletionRoutine@CKsDevice@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000153F3">
+            <code>000153F3</code> — ?ForwardIrpSynchronous@CKsDevice@@QAEJPAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000155D2">
+            <code>000155D2</code> — ?CompleteIrp@CKsDevice@@QAEJPAU_IRP@@J@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015799">
+            <code>00015799</code> — _KsInitializeDevice@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015953">
+            <code>00015953</code> — _KsTerminateDevice@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000159F6">
+            <code>000159F6</code> — ??0CKsDevice@@QAE@PAUIUnknown@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015A26">
+            <code>00015A26</code> — ??_ECKsDevice@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015A26">
+            <code>00015A26</code> — ??_GCKsDevice@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015B26">
+            <code>00015B26</code> — ??1CKsDevice@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015CFF">
+            <code>00015CFF</code> — ?NonDelegatedQueryInterface@CKsDevice@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00015DEE">
+            <code>00015DEE</code> — ?GetBusInterfaceStandard@CKsDevice@@QAEJXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016014">
+            <code>00016014</code> — ?Init@CKsDevice@@QAEJPAU_DEVICE_OBJECT@@00PBU_KSDEVICE_DESCRIPTOR@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001635A">
+            <code>0001635A</code> — ?AcquireDevice@CKsDevice@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001644C">
+            <code>0001644C</code> — ?ReleaseDevice@CKsDevice@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016563">
+            <code>00016563</code> — _KsAcquireDevice@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016691">
+            <code>00016691</code> — _KsReleaseDevice@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016843">
+            <code>00016843</code> — ?GetAdapterObject@CKsDevice@@UAGXPAPAU_DMA_ADAPTER@@PAK1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000169CC">
+            <code>000169CC</code> — ?InitializeObjectBag@CKsDevice@@UAGXPAU_KSIOBJECTBAG@@PAU_FAST_MUTEX@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016B98">
+            <code>00016B98</code> — ?AddPowerEntry@CKsDevice@@UAGXPAU_KSPPOWER_ENTRY@@PAUIKsPowerNotify@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016D2F">
+            <code>00016D2F</code> — ?RemovePowerEntry@CKsDevice@@UAGXPAU_KSPPOWER_ENTRY@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00016F7A">
+            <code>00016F7A</code> — ?PinStateChange@CKsDevice@@UAGJPAU_KSPIN@@PAU_IRP@@W4KSSTATE@@2@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00017236">
+            <code>00017236</code> — ?RedispatchPendingCreates@CKsDevice@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001734E">
+            <code>0001734E</code> — ?RedispatchPendingRuns@CKsDevice@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001751F">
+            <code>0001751F</code> — _KsCreateFilterFactory@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00017810">
+            <code>00017810</code> — _KsDeviceRegisterAdapterObject@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001791E">
+            <code>0001791E</code> — ?RegisterAdapterObject@CKsDevice@@QAEXPAU_DMA_ADAPTER@@KK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00017A8E">
+            <code>00017A8E</code> — _KsAllocateObjectBag@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00017C0E">
+            <code>00017C0E</code> — _KsFreeObjectBag@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00017E61">
+            <code>00017E61</code> — _KsDispatchIrp@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001808E">
+            <code>0001808E</code> — ?AddRef@CKsRequestor@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001808E">
+            <code>0001808E</code> — ?AddRef@CKsFilterFactory@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000180A2">
+            <code>000180A2</code> — ?GetStruct@CKsFilterFactory@@UAGPAU_KSFILTERFACTORY@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00018187">
+            <code>00018187</code> — _KspCreateFilterFactory@36
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000182AE">
+            <code>000182AE</code> — ??_GCKsFilterFactory@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000182AE">
+            <code>000182AE</code> — ??_ECKsFilterFactory@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000183B0">
+            <code>000183B0</code> — ??1CKsFilterFactory@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000185B9">
+            <code>000185B9</code> — ?NonDelegatedQueryInterface@CKsFilterFactory@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00018869">
+            <code>00018869</code> — ?Init@CKsFilterFactory@@QAEJPAU_KSDEVICE_EXT@@PAU_LIST_ENTRY@@PBU_KSFILTER_DESCRIPTOR@@PAGPAXKP6GXPAU_KSFILTERFACTORY@@W4_DEVIC
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00018BFE">
+            <code>00018BFE</code> — ?Sleep@CKsFilterFactory@@UAGXW4_DEVICE_POWER_STATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00018CF6">
+            <code>00018CF6</code> — ?Wake@CKsFilterFactory@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00018DF6">
+            <code>00018DF6</code> — ?AddCreateItem@CKsFilterFactory@@QAEJPAU_UNICODE_STRING@@PAXK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00018F42">
+            <code>00018F42</code> — ?SetDeviceClassesState@CKsFilterFactory@@UAGJE@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000190E0">
+            <code>000190E0</code> — ?DispatchCreate@CKsFilterFactory@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019295">
+            <code>00019295</code> — ?ItemFreeCallback@CKsFilterFactory@@SGXPAUKSOBJECT_CREATE_ITEM@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000193DE">
+            <code>000193DE</code> — _KsFilterFactorySetDeviceClassesState@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019522">
+            <code>00019522</code> — _KsFilterFactoryAddCreateItem@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019642">
+            <code>00019642</code> — _KspSetDeviceClassesState@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019758">
+            <code>00019758</code> — _KsFilterFactoryGetSymbolicLink@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000197D4">
+            <code>000197D4</code> — ?Release@CKsFilterFactory@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000197D4">
+            <code>000197D4</code> — ?Release@CKsRequestor@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000197DE">
+            <code>000197DE</code> — ?QueryInterface@CKsFilter@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000197F6">
+            <code>000197F6</code> — ?AddRef@CKsFilter@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001980A">
+            <code>0001980A</code> — ?Release@CKsFilter@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001981E">
+            <code>0001981E</code> — ?GetStruct@CKsFilter@@UAGPAU_KSFILTER@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000199CC">
+            <code>000199CC</code> — _KspCreateFilter@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019B32">
+            <code>00019B32</code> — ??0CKsFilter@@QAE@PAUIUnknown@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019B76">
+            <code>00019B76</code> — ??_GCKsFilter@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019B76">
+            <code>00019B76</code> — ??_ECKsFilter@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019CB0">
+            <code>00019CB0</code> — ??1CKsFilter@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00019EF9">
+            <code>00019EF9</code> — ?NonDelegatedQueryInterface@CKsFilter@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001A0DE">
+            <code>0001A0DE</code> — ?NonDelegatedRelease@CKsFilter@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001A338">
+            <code>0001A338</code> — ?Init@CKsFilter@@QAEJPAU_IRP@@PAU_KSFILTERFACTORY_EXT@@PAU_LIST_ENTRY@@PBU_KSFILTER_DESCRIPTOR@@PBUKSAUTOMATION_TABLE_@@PBQAU6@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001A7F0">
+            <code>0001A7F0</code> — ?ReleaseProcessSync@CKsFilter@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001A9D1">
+            <code>0001A9D1</code> — ?KsProperty@CKsFilter@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001AC71">
+            <code>0001AC71</code> — ?KsMethod@CKsFilter@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001AF11">
+            <code>0001AF11</code> — ?KsEvent@CKsFilter@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001B110">
+            <code>0001B110</code> — ?DispatchCreatePin@CKsFilter@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001B34A">
+            <code>0001B34A</code> — ?DispatchCreateNode@CKsFilter@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001B4F8">
+            <code>0001B4F8</code> — ?CreateNode@CKsFilter@@UAGJPAU_IRP@@PAUIKsPin@@PAXPAU_LIST_ENTRY@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001B6DC">
+            <code>0001B6DC</code> — ?DispatchDeviceIoControl@CKsFilter@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001B950">
+            <code>0001B950</code> — ?DispatchClose@CKsFilter@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001BBDA">
+            <code>0001BBDA</code> — ?Property_Pin@CKsFilter@@SGJPAU_IRP@@PAUKSP_PIN@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001BEAD">
+            <code>0001BEAD</code> — ?Property_Topology@CKsFilter@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001C1E3">
+            <code>0001C1E3</code> — ?Property_General_ComponentId@CKsFilter@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001C3DE">
+            <code>0001C3DE</code> — ?GrowProcessPinsTable@CKsFilter@@QAEJK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001C6C6">
+            <code>0001C6C6</code> — ?DoAllNecessaryPinsExist@CKsFilter@@UAGEXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001C907">
+            <code>0001C907</code> — ?AddProcessPin@CKsFilter@@UAGJPAU_KSPPROCESSPIN@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001CC0C">
+            <code>0001CC0C</code> — ?RemoveProcessPin@CKsFilter@@UAGXPAU_KSPPROCESSPIN@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001CDD8">
+            <code>0001CDD8</code> — ?GetProcessDispatch@CKsFilter@@UAGP6GJPAU_KSFILTER@@PAU_KSPROCESSPIN_INDEXENTRY@@@ZXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001CF0B">
+            <code>0001CF0B</code> — ?SetCopySource@CKsFilter@@QAEXPAU_KSPPROCESSPIPESECTION@@K@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001D1A5">
+            <code>0001D1A5</code> — ?AddCopyDestination@CKsFilter@@QAEXPAU_KSPPROCESSPIPESECTION@@K@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001D40E">
+            <code>0001D40E</code> — ?EstablishCopyRelationships@CKsFilter@@QAEXPAU_KSPPROCESSPIPESECTION@@K@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001D5D9">
+            <code>0001D5D9</code> — ?FindNewCopySource@CKsFilter@@QAEXPAU_KSPPROCESSPIPESECTION@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001D9E8">
+            <code>0001D9E8</code> — ?BindProcessPinsToPipeSection@CKsFilter@@UAGJPAU_KSPPROCESSPIPESECTION@@PAXPAU_KSPIN@@PAPAUIKsPin@@PAPAU_KSGATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001DF58">
+            <code>0001DF58</code> — ?UnbindProcessPinsFromPipeSection@CKsFilter@@UAGXPAU_KSPPROCESSPIPESECTION@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001E13C">
+            <code>0001E13C</code> — ?UnbindProcessPinFromPipeSection@CKsFilter@@AAEXPAU_KSPPROCESSPIN@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001E3F5">
+            <code>0001E3F5</code> — ?UnbindProcessPinsFromPipeSectionUnsafe@CKsFilter@@AAEXPAU_KSPPROCESSPIPESECTION@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001E54E">
+            <code>0001E54E</code> — ?ConstructDefaultTopology@CKsFilter@@QAEHXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001E684">
+            <code>0001E684</code> — ?Reset@CKsFilter@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001E78E">
+            <code>0001E78E</code> — ?Sleep@CKsFilter@@UAGXW4_DEVICE_POWER_STATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001E8B8">
+            <code>0001E8B8</code> — ?Wake@CKsFilter@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001EA1D">
+            <code>0001EA1D</code> — _KsFilterAcquireProcessingMutex@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001EB65">
+            <code>0001EB65</code> — _KsFilterReleaseProcessingMutex@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001EC99">
+            <code>0001EC99</code> — _KsFilterGetChildPinCount@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001EDF7">
+            <code>0001EDF7</code> — _KsFilterGetFirstChildPin@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001EF67">
+            <code>0001EF67</code> — _KsFilterRegisterPowerCallbacks@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001EFFE">
+            <code>0001EFFE</code> — ?QueryInterface@CKsFilter@@W3AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F008">
+            <code>0001F008</code> — ?AddRef@CKsFilter@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F012">
+            <code>0001F012</code> — ?Release@CKsFilter@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F01C">
+            <code>0001F01C</code> — ?QueryInterface@CKsFilter@@W7AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F026">
+            <code>0001F026</code> — ?AddRef@CKsFilter@@W7AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F030">
+            <code>0001F030</code> — ?Release@CKsFilter@@W7AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F03A">
+            <code>0001F03A</code> — ?QueryInterface@CKsFilter@@WM@AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F044">
+            <code>0001F044</code> — ?AddRef@CKsFilter@@WM@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F04E">
+            <code>0001F04E</code> — ?Release@CKsFilter@@WM@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F1C5">
+            <code>0001F1C5</code> — _KspCreate@32
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F455">
+            <code>0001F455</code> — _KspClose@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F6A6">
+            <code>0001F6A6</code> — _KsWorkSinkItemWorker@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001F88C">
+            <code>0001F88C</code> — _KspRegisterDeviceInterfaces@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001FAA3">
+            <code>0001FAA3</code> — _KspSetDeviceInterfacesState@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001FBED">
+            <code>0001FBED</code> — _KspFreeDeviceInterfaces@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001FD63">
+            <code>0001FD63</code> — _KsAddEvent@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0001FF1D">
+            <code>0001FF1D</code> — _KsDefaultAddEventHandler@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020106">
+            <code>00020106</code> — _KspStandardConnect@28
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002030B">
+            <code>0002030B</code> — _KsAcquireControl@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020439">
+            <code>00020439</code> — _KsReleaseControl@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020563">
+            <code>00020563</code> — _KsGetDevice@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000206D4">
+            <code>000206D4</code> — _KsRegisterAggregatedClientUnknown@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020830">
+            <code>00020830</code> — _DbgPrintCircuit@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002099E">
+            <code>0002099E</code> — _KspInitializeDeviceBag@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020B6B">
+            <code>00020B6B</code> — _KspTerminateDeviceBag@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020D14">
+            <code>00020D14</code> — _KspRemoveObjectBagEntry@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00020E76">
+            <code>00020E76</code> — _KspTerminateObjectBag@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00021096">
+            <code>00021096</code> — _KspAcquireDeviceBagEntryForItem@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002132C">
+            <code>0002132C</code> — _KspReleaseDeviceBagEntry@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002152F">
+            <code>0002152F</code> — _KspAddDeviceBagEntryToObjectBag@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000217A8">
+            <code>000217A8</code> — _KsAddItemToObjectBag@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000219AB">
+            <code>000219AB</code> — _KspFindObjectBagEntry@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00021BD6">
+            <code>00021BD6</code> — _KsRemoveItemFromObjectBag@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00021E0A">
+            <code>00021E0A</code> — _KsCopyObjectBagItems@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022074">
+            <code>00022074</code> — __KsEdit@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000222DB">
+            <code>000222DB</code> — _KsGetParent@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002240A">
+            <code>0002240A</code> — _KsPinGetParentFilter@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022537">
+            <code>00022537</code> — _KsGetFirstChild@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002266D">
+            <code>0002266D</code> — _KsGetNextSibling@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000227A6">
+            <code>000227A6</code> — _KsPinGetNextSiblingPin@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022834">
+            <code>00022834</code> — ?QueryInterface@CKsPipeSection@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022834">
+            <code>00022834</code> — ?QueryInterface@CKsSplitterBranch@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022834">
+            <code>00022834</code> — ?QueryInterface@CKsSplitter@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022834">
+            <code>00022834</code> — ?QueryInterface@CKsFileObjectThunk@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022834">
+            <code>00022834</code> — ?QueryInterface@CKsQueue@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022834">
+            <code>00022834</code> — ?QueryInterface@CKsDevice@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022923">
+            <code>00022923</code> — _KspCreateFileObjectThunk@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022A34">
+            <code>00022A34</code> — ??_ECKsFileObjectThunk@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022A34">
+            <code>00022A34</code> — ??_GCKsFileObjectThunk@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022AE2">
+            <code>00022AE2</code> — ??1CKsFileObjectThunk@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022C43">
+            <code>00022C43</code> — ?NonDelegatedQueryInterface@CKsFileObjectThunk@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00022DF5">
+            <code>00022DF5</code> — ?Init@CKsFileObjectThunk@@QAEJPAU_FILE_OBJECT@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023051">
+            <code>00023051</code> — ?KsProperty@CKsFileObjectThunk@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000232F3">
+            <code>000232F3</code> — ?KsMethod@CKsFileObjectThunk@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023595">
+            <code>00023595</code> — ?KsEvent@CKsFileObjectThunk@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023710">
+            <code>00023710</code> — _KsRegisterFilterWithNoKSPins@24
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002391A">
+            <code>0002391A</code> — ?QueryInterface@CKsPin@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023932">
+            <code>00023932</code> — ?AddRef@CKsPin@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023946">
+            <code>00023946</code> — ?Release@CKsPin@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002395A">
+            <code>0002395A</code> — ?GetStruct@CKsPin@@UAGPAU_KSPIN@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023BA9">
+            <code>00023BA9</code> — _KspCreatePin@40
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023D60">
+            <code>00023D60</code> — ??0CKsPin@@QAE@PAUIUnknown@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023DC0">
+            <code>00023DC0</code> — ??_ECKsPin@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023DC0">
+            <code>00023DC0</code> — ??_GCKsPin@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00023FE2">
+            <code>00023FE2</code> — ??1CKsPin@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00024303">
+            <code>00024303</code> — ?NonDelegatedQueryInterface@CKsPin@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002457A">
+            <code>0002457A</code> — ?NonDelegatedRelease@CKsPin@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000248B4">
+            <code>000248B4</code> — ?Init@CKsPin@@QAEJPAU_IRP@@PAU_KSFILTER_EXT@@PAU_LIST_ENTRY@@PAUKSPIN_CONNECT@@KPBU_KSPIN_DESCRIPTOR_EX@@PBUKSAUTOMATION_TABLE_
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00024FAE">
+            <code>00024FAE</code> — ?InitiateHandshake@CKsPin@@QAEJPAUKSHANDSHAKE@@0@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000251FC">
+            <code>000251FC</code> — ?FastHandshake@CKsPin@@UAGJPAUKSHANDSHAKE@@0@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00025467">
+            <code>00025467</code> — ?GetFilter@CKsPin@@UAGPAUIKsFilter@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00025697">
+            <code>00025697</code> — ?KsProperty@CKsPin@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00025933">
+            <code>00025933</code> — ?KsMethod@CKsPin@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00025BCF">
+            <code>00025BCF</code> — ?KsEvent@CKsPin@@UAGJPAUKSIDENTIFIER@@KPAXKPAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00025D99">
+            <code>00025D99</code> — ?GetResolution@CKsPin@@UAGJPAUKSRESOLUTION@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00025F30">
+            <code>00025F30</code> — ?GetState@CKsPin@@UAGJPAW4KSSTATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002611E">
+            <code>0002611E</code> — ?Disconnect@CKsPin@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00026274">
+            <code>00026274</code> — ?GetProcessPin@CKsPin@@UAGPAU_KSPPROCESSPIN@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002646C">
+            <code>0002646C</code> — ?AttemptBypass@CKsPin@@UAGJXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002674C">
+            <code>0002674C</code> — ?Bypass@CKsPin@@UAGJPAUIKsTransport@@0@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00026A3F">
+            <code>00026A3F</code> — ?Work@CKsPin@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00026CFC">
+            <code>00026CFC</code> — ?Connect@CKsPin@@UAGXPAUIKsTransport@@PAPAU2@1W4KSPIN_DATAFLOW@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00026E76">
+            <code>00026E76</code> — ?SetDeviceState@CKsPin@@UAGJW4KSSTATE@@0PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000270C4">
+            <code>000270C4</code> — ?GetTransportConfig@CKsPin@@UAGXPAU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00027348">
+            <code>00027348</code> — ?SetTransportConfig@CKsPin@@UAGXPBU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00027538">
+            <code>00027538</code> — ?SetResetState@CKsPin@@UAGXW4KSRESET@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00027700">
+            <code>00027700</code> — ?DispatchCreateAllocator@CKsPin@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002791A">
+            <code>0002791A</code> — ?DispatchCreateClock@CKsPin@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00027B8E">
+            <code>00027B8E</code> — ?DispatchCreateNode@CKsPin@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00027E92">
+            <code>00027E92</code> — ?DispatchDeviceIoControl@CKsPin@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002851A">
+            <code>0002851A</code> — ?DispatchClose@CKsPin@@SGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000289C3">
+            <code>000289C3</code> — ?UseStandardTransport@CKsPin@@AAEEXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00028D44">
+            <code>00028D44</code> — ?Property_ConnectionState@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAW4KSSTATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002921D">
+            <code>0002921D</code> — ?Property_DRMAudioStreamContentId@CKsPin@@SGJPAU_IRP@@PAUKSP_DRMAUDIOSTREAM_CONTENTID@@PAU_DRMCONTENTID_DATA@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002956A">
+            <code>0002956A</code> — ?ClientSetDeviceState@CKsPin@@UAGJW4KSSTATE@@0@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00029851">
+            <code>00029851</code> — ?Property_ConnectionDataFormat@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PATKSDATAFORMAT@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00029B1D">
+            <code>00029B1D</code> — ?SetDataFormat@CKsPin@@AAEJPATKSDATAFORMAT@@K@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00029D05">
+            <code>00029D05</code> — ?ValidateDataFormat@CKsPin@@CGJPAXPATKSDATAFORMAT@@PAUKSMULTIPLE_ITEM@@PBT2@PBUKSATTRIBUTE_LIST@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00029EF4">
+            <code>00029EF4</code> — ?Property_ConnectionAllocatorFramingEx@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAUKSALLOCATOR_FRAMING_EX@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002A1F0">
+            <code>0002A1F0</code> — ?Property_ConnectionAcquireOrdering@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAH@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002A4AA">
+            <code>0002A4AA</code> — ?Property_StreamAllocator@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002A7D0">
+            <code>0002A7D0</code> — ?Property_StreamMasterClock@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002ABB6">
+            <code>0002ABB6</code> — ?Property_StreamPipeId@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002AE7A">
+            <code>0002AE7A</code> — ?Property_StreamInterfaceHeaderSize@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAK@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002B066">
+            <code>0002B066</code> — ?Support_Connection@CKsPin@@SGJPAU_IRP@@PAUKSIDENTIFIER@@PAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002B27A">
+            <code>0002B27A</code> — ?AddEvent_Connection@CKsPin@@SGJPAU_IRP@@PAUKSEVENTDATA@@PAU_KSEVENT_ENTRY@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002B4B6">
+            <code>0002B4B6</code> — _KsPinGetConnectedPinInterface@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002B5D8">
+            <code>0002B5D8</code> — ?GetConnectionInterface@CKsPin@@QAEPAUIKsConnection@@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002B6A4">
+            <code>0002B6A4</code> — _KsPinGetConnectedPinFileObject@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002B868">
+            <code>0002B868</code> — _KsPinGetConnectedFilterInterface@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002BA80">
+            <code>0002BA80</code> — _KsPinGetReferenceClockInterface@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002BC28">
+            <code>0002BC28</code> — _KsPinRegisterFrameReturnCallback@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002BDB2">
+            <code>0002BDB2</code> — _KsPinRegisterHandshakeCallback@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002BEC8">
+            <code>0002BEC8</code> — ?Reset@CKsPin@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002BF62">
+            <code>0002BF62</code> — ?ReleaseProcessSync@CKsPin@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C014">
+            <code>0002C014</code> — ?Sleep@CKsPin@@UAGXW4_DEVICE_POWER_STATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C13C">
+            <code>0002C13C</code> — ?Wake@CKsPin@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C240">
+            <code>0002C240</code> — _KsPinAttachAndGate@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C2F2">
+            <code>0002C2F2</code> — _KsPinAttachOrGate@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C404">
+            <code>0002C404</code> — _KsPinAcquireProcessingMutex@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C546">
+            <code>0002C546</code> — _KsPinReleaseProcessingMutex@4
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C67E">
+            <code>0002C67E</code> — _KsPinRegisterPowerCallbacks@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C716">
+            <code>0002C716</code> — ?QueryInterface@CKsPin@@W3AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C720">
+            <code>0002C720</code> — ?AddRef@CKsPin@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C72A">
+            <code>0002C72A</code> — ?Release@CKsPin@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C734">
+            <code>0002C734</code> — ?QueryInterface@CKsPin@@W7AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C73E">
+            <code>0002C73E</code> — ?AddRef@CKsPin@@W7AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C748">
+            <code>0002C748</code> — ?Release@CKsPin@@W7AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C752">
+            <code>0002C752</code> — ?QueryInterface@CKsPin@@WM@AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C75C">
+            <code>0002C75C</code> — ?AddRef@CKsPin@@WM@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C766">
+            <code>0002C766</code> — ?Release@CKsPin@@WM@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C770">
+            <code>0002C770</code> — ?QueryInterface@CKsPin@@WBA@AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C77A">
+            <code>0002C77A</code> — ?AddRef@CKsPin@@WBA@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C784">
+            <code>0002C784</code> — ?Release@CKsPin@@WBA@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C78E">
+            <code>0002C78E</code> — ?QueryInterface@CKsPin@@WBE@AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C798">
+            <code>0002C798</code> — ?AddRef@CKsPin@@WBE@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7A2">
+            <code>0002C7A2</code> — ?Release@CKsPin@@WBE@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7AC">
+            <code>0002C7AC</code> — ?QueryInterface@CKsPin@@WBI@AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7B6">
+            <code>0002C7B6</code> — ?AddRef@CKsPin@@WBI@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7C0">
+            <code>0002C7C0</code> — ?Release@CKsPin@@WBI@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7CA">
+            <code>0002C7CA</code> — ?QueryInterface@CKsPin@@WBM@AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7D4">
+            <code>0002C7D4</code> — ?AddRef@CKsPin@@WBM@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7DE">
+            <code>0002C7DE</code> — ?Release@CKsPin@@WBM@AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7E8">
+            <code>0002C7E8</code> — ?Release@CKsQueue@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7E8">
+            <code>0002C7E8</code> — ?Release@CKsPipeSection@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7E8">
+            <code>0002C7E8</code> — ?Release@CKsDevice@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7E8">
+            <code>0002C7E8</code> — ?Release@CKsFileObjectThunk@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7E8">
+            <code>0002C7E8</code> — ?Release@CKsSplitter@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C7E8">
+            <code>0002C7E8</code> — ?Release@CKsSplitterBranch@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002C8F3">
+            <code>0002C8F3</code> — _KspCreatePipeSection@16
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002CA18">
+            <code>0002CA18</code> — ??_ECKsPipeSection@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002CA18">
+            <code>0002CA18</code> — ??_GCKsPipeSection@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002CB01">
+            <code>0002CB01</code> — ?NonDelegatedQueryInterface@CKsPipeSection@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002CBD4">
+            <code>0002CBD4</code> — ?AddTransport@@YGXPAUIKsTransport@@PAPAU1@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002D0B4">
+            <code>0002D0B4</code> — ?Init@CKsPipeSection@@QAEJPAXPAUIKsPin@@PAUIKsFilter@@PAUIKsDevice@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002DAE6">
+            <code>0002DAE6</code> — ?GetTransport@CKsPipeSection@@AAEJPAU_KSPPROCESSPIN@@PAPAUIKsTransport@@PAPAU_FILE_OBJECT@@PAPAUIKsRetireFrame@@PBUKSALLOCATOR_
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002E1EE">
+            <code>0002E1EE</code> — ?IsCircuitComplete@CKsPipeSection@@AAEEPAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002E716">
+            <code>0002E716</code> — ?DbgPrintConfig@@YGXPAU_KSPTRANSPORTCONFIG@@E@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002ED1A">
+            <code>0002ED1A</code> — ?ConfigureCompleteCircuit@CKsPipeSection@@AAEJPAUIKsTransport@@0@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002F21C">
+            <code>0002F21C</code> — ??0CActivation@?BH@??ConfigureCompleteCircuit@CKsPipeSection@@AAEJPAUIKsTransport@@0@Z@QAE@PAV02@00@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002F2D8">
+            <code>0002F2D8</code> — ??1CKsPipeSection@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002F390">
+            <code>0002F390</code> — ?DisconnectCircuit@@YGXPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002F692">
+            <code>0002F692</code> — ?SetDeviceState@CKsPipeSection@@UAGJPAUIKsPin@@W4KSSTATE@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002FB5F">
+            <code>0002FB5F</code> — ?DistributeDeviceStateChange@CKsPipeSection@@AAEJPAUIKsTransport@@W4KSSTATE@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002FD72">
+            <code>0002FD72</code> — ?SetResetState@CKsPipeSection@@UAGXPAUIKsPin@@W4KSRESET@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0002FEC8">
+            <code>0002FEC8</code> — ?DistributeStateChangeToPins@CKsPipeSection@@UAGJW4KSSTATE@@0@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00030066">
+            <code>00030066</code> — ?ConfigurationSet@CKsPipeSection@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00030249">
+            <code>00030249</code> — _KspCreateQueue@52
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000303A6">
+            <code>000303A6</code> — ??0CKsQueue@@QAE@PAUIUnknown@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000303D6">
+            <code>000303D6</code> — ??_ECKsQueue@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000303D6">
+            <code>000303D6</code> — ??_GCKsQueue@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00030660">
+            <code>00030660</code> — ??1CKsQueue@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000309DB">
+            <code>000309DB</code> — ?NonDelegatedQueryInterface@CKsQueue@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00030C4C">
+            <code>00030C4C</code> — ?Init@CKsQueue@@QAEJPAPAUIKsQueue@@KPAUIKsPipeSection@@PAUIKsProcessingObject@@PAU_KSPIN@@PAU_KSGATE@@EPAU_DEVICE_OBJECT@@PAU_D
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003100A">
+            <code>0003100A</code> — ?Connect@CKsQueue@@UAGXPAUIKsTransport@@PAPAU2@1W4KSPIN_DATAFLOW@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003136E">
+            <code>0003136E</code> — ?SetDeviceState@CKsQueue@@UAGJW4KSSTATE@@0PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031818">
+            <code>00031818</code> — ?GetTransportConfig@CKsQueue@@UAGXPAU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031ABC">
+            <code>00031ABC</code> — ?SetTransportConfig@CKsQueue@@UAGXPBU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031CFE">
+            <code>00031CFE</code> — ?SetResetState@CKsQueue@@UAGXW4KSRESET@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031DAC">
+            <code>00031DAC</code> — ?QueryInterface@CKsFilterFactory@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031DAC">
+            <code>00031DAC</code> — ?QueryInterface@CKsRequestor@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031DC4">
+            <code>00031DC4</code> — ?Release@CKsRequestor@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031DC4">
+            <code>00031DC4</code> — ?Release@CKsFilterFactory@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00031F33">
+            <code>00031F33</code> — _KspCreateRequestor@20
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00032094">
+            <code>00032094</code> — ??_GCKsRequestor@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00032094">
+            <code>00032094</code> — ??_ECKsRequestor@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000322EA">
+            <code>000322EA</code> — ?Init@CKsRequestor@@QAEJPAUIKsPipeSection@@PAUIKsPin@@PAU_FILE_OBJECT@@PAUIKsRetireFrame@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00032740">
+            <code>00032740</code> — ??1CKsRequestor@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003297B">
+            <code>0003297B</code> — ?NonDelegatedQueryInterface@CKsRequestor@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00032AC4">
+            <code>00032AC4</code> — ?Connect@CKsRequestor@@UAGXPAUIKsTransport@@PAPAU2@1W4KSPIN_DATAFLOW@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00032D20">
+            <code>00032D20</code> — ?SetDeviceState@CKsRequestor@@UAGJW4KSSTATE@@0PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000330F6">
+            <code>000330F6</code> — ?Prime@CKsRequestor@@AAEJXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003336A">
+            <code>0003336A</code> — ?SetResetState@CKsRequestor@@UAGXW4KSRESET@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003352A">
+            <code>0003352A</code> — ?GetTransportConfig@CKsRequestor@@UAGXPAU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000337DA">
+            <code>000337DA</code> — ?SetTransportConfig@CKsRequestor@@UAGXPBU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000339E8">
+            <code>000339E8</code> — ?Work@CKsRequestor@@UAGXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033AA2">
+            <code>00033AA2</code> — ?QueryInterface@CKsRequestor@@W3AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033AA2">
+            <code>00033AA2</code> — ?QueryInterface@CKsFilterFactory@@W3AGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033AAC">
+            <code>00033AAC</code> — ?AddRef@CKsFilterFactory@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033AAC">
+            <code>00033AAC</code> — ?AddRef@CKsRequestor@@W3AGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033B82">
+            <code>00033B82</code> — _KspCreateSplitter@8
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033C92">
+            <code>00033C92</code> — ??_ECKsSplitter@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033C92">
+            <code>00033C92</code> — ??_GCKsSplitter@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033D52">
+            <code>00033D52</code> — ?Init@CKsSplitter@@QAEJPAU_KSPIN@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00033F79">
+            <code>00033F79</code> — ??1CKsSplitter@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000340D0">
+            <code>000340D0</code> — ?Orphan@CKsSplitterBranch@@QAEXXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000341A7">
+            <code>000341A7</code> — ?NonDelegatedQueryInterface@CKsSplitter@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034318">
+            <code>00034318</code> — ?Connect@CKsSplitter@@UAGXPAUIKsTransport@@PAPAU2@1W4KSPIN_DATAFLOW@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003448A">
+            <code>0003448A</code> — ?SetDeviceState@CKsSplitter@@UAGJW4KSSTATE@@0PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003466C">
+            <code>0003466C</code> — ?GetTransportConfig@CKsSplitter@@UAGXPAU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034942">
+            <code>00034942</code> — ?SetTransportConfig@CKsSplitter@@UAGXPBU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034BC0">
+            <code>00034BC0</code> — ?SetResetState@CKsSplitter@@UAGXW4KSRESET@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034CCC">
+            <code>00034CCC</code> — ?AddBranch@CKsSplitter@@UAGJPAU_KSPIN@@PBUKSALLOCATOR_FRAMING_EX@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034D4A">
+            <code>00034D4A</code> — ?AddRef@CKsQueue@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034D4A">
+            <code>00034D4A</code> — ?AddRef@CKsSplitter@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034D4A">
+            <code>00034D4A</code> — ?AddRef@CKsPipeSection@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034D4A">
+            <code>00034D4A</code> — ?AddRef@CKsSplitterBranch@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034D4A">
+            <code>00034D4A</code> — ?AddRef@CKsDevice@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034D4A">
+            <code>00034D4A</code> — ?AddRef@CKsFileObjectThunk@@UAGKXZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034E96">
+            <code>00034E96</code> — ?KspCreateSplitterBranch@@YGJPAPAVCKsSplitterBranch@@PAVCKsSplitter@@PAU_LIST_ENTRY@@PAU_KSPIN@@PBUKSALLOCATOR_FRAMING_EX@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034FE0">
+            <code>00034FE0</code> — ??_GCKsSplitterBranch@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00034FE0">
+            <code>00034FE0</code> — ??_ECKsSplitterBranch@@UAEPAXI@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00035108">
+            <code>00035108</code> — ?Init@CKsSplitterBranch@@QAEJPAVCKsSplitter@@PAU_LIST_ENTRY@@PAU_KSPIN@@PBUKSALLOCATOR_FRAMING_EX@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="0003544A">
+            <code>0003544A</code> — ??1CKsSplitterBranch@@UAE@XZ
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00035717">
+            <code>00035717</code> — ?NonDelegatedQueryInterface@CKsSplitterBranch@@UAGJABU_GUID@@PAPAX@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00035868">
+            <code>00035868</code> — ?Connect@CKsSplitterBranch@@UAGXPAUIKsTransport@@PAPAU2@1W4KSPIN_DATAFLOW@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000359E0">
+            <code>000359E0</code> — ?SetDeviceState@CKsSplitterBranch@@UAGJW4KSSTATE@@0PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00035BC2">
+            <code>00035BC2</code> — ?GetTransportConfig@CKsSplitterBranch@@UAGXPAU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00035E24">
+            <code>00035E24</code> — ?SetTransportConfig@CKsSplitterBranch@@UAGXPBU_KSPTRANSPORTCONFIG@@PAPAUIKsTransport@@1@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036014">
+            <code>00036014</code> — ?SetResetState@CKsSplitterBranch@@UAGXW4KSRESET@@PAPAUIKsTransport@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036166">
+            <code>00036166</code> — ?KsLogDispatchCreate@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000361EA">
+            <code>000361EA</code> — ?KsLogDispatchClose@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000362B2">
+            <code>000362B2</code> — ?KsLogDispatchRead@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000364D0">
+            <code>000364D0</code> — ?_KsLogDriverEntry@@YGJPAU_DRIVER_OBJECT@@PAU_UNICODE_STRING@@@Z
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000365FA">
+            <code>000365FA</code> — __KsLogInit@0
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000366C0">
+            <code>000366C0</code> — __KsLogInitContext@12
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036CC8">
+            <code>00036CC8</code> — _StandardPinInterfaces
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036CE0">
+            <code>00036CE0</code> — _StandardPinMediums
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036DE8">
+            <code>00036DE8</code> — ??_C@_0DA@BGLO@?$CIMappingTableStride?5?$CG?5FILE_QUAD_@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036E18">
+            <code>00036E18</code> — ??_C@_0BD@MKMJ@MappingTableStride?$AA@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036E2C">
+            <code>00036E2C</code> — ??_C@_0DB@NEDA@?$CIMaxMappingByteCount?5?$CG?5FILE_QUAD@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036E60">
+            <code>00036E60</code> — ??_C@_0BE@DGPH@MaxMappingByteCount?$AA@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036E74">
+            <code>00036E74</code> — ??_C@_0O@FGMN@AdapterObject?$AA@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00036E84">
+            <code>00036E84</code> — ??_C@_0CE@KCIO@E?3?2ntc?2private?2ntos?2ks?2shdevice?4@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037260">
+            <code>00037260</code> — ?FilterAutomationTable@@3UKSAUTOMATION_TABLE_@@B
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037288">
+            <code>00037288</code> — ??_C@_0BM@FGFB@PinId?5?$DM?5m_PinFactoriesCount?$AA@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000372A4">
+            <code>000372A4</code> — ??_C@_0CC@GKJA@E?3?2ntc?2private?2ntos?2ks?2shfilt?4cp@
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037630">
+            <code>00037630</code> — ?PinAutomationTable@@3UKSAUTOMATION_TABLE_@@B
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000376C0">
+            <code>000376C0</code> — _KSEVENTSETID_Clock
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000376D0">
+            <code>000376D0</code> — _KSPROPSETID_Clock
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000376E0">
+            <code>000376E0</code> — _KSPROPSETID_StreamAllocator
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="000376F0">
+            <code>000376F0</code> — _KSMETHODSETID_StreamAllocator
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037700">
+            <code>00037700</code> — _KSEVENTSETID_StreamAllocator
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037710">
+            <code>00037710</code> — _KSDATAFORMAT_SPECIFIER_NONE
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037720">
+            <code>00037720</code> — _KSMEDIUMSETID_Standard
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037730">
+            <code>00037730</code> — _KSPROPSETID_Topology
+            
+          </li>
+        
+          <li data-segment="00018360" data-offset="00037740">
+            <code>00037740</code> — _GUID_NULL
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: INIT @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000A">
+            <code>0000000A</code> — _DllInitialize@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000004C">
+            <code>0000004C</code> — __IMPORT_DESCRIPTOR_ntoskrnl
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000060">
+            <code>00000060</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000074">
+            <code>00000074</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

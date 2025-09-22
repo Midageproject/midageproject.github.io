@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>CDFS — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../cdapi.c</li>
+      
+        <li>../cdapisr.c</li>
+      
+        <li>../cdcache.c</li>
+      
+        <li>../cdcannon.c</li>
+      
+        <li>../cddir.c</li>
+      
+        <li>../cdfs.asm</li>
+      
+        <li>../cdhandle.c</li>
+      
+        <li>../cdios.c</li>
+      
+        <li>../cdlock.c</li>
+      
+        <li>../cdmctrl.c</li>
+      
+        <li>../cdmount.c</li>
+      
+        <li>../cdpath.c</li>
+      
+        <li>../cdpref.c</li>
+      
+        <li>../cdread.c</li>
+      
+        <li>../cdsched.c</li>
+      
+        <li>../cdstate.c</li>
+      
+        <li>../cdvcd.c</li>
+      
+        <li>../../../../dev/ddk/inc/vmm.h</li>
+      
+        <li>1vsR2vsR3vsR../cdlock.c</li>
+      
+        <li>Track00.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00000AA0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000AA0" data-offset="00000000">
+            <code>00000000</code> — _CDFS_Int2FHook
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000000A0">
+            <code>000000A0</code> — CDFS_Control
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000000B4">
+            <code>000000B4</code> — _CDFS_Control_Dispatch_Ext
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000000C2">
+            <code>000000C2</code> — _DebPrintf
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000000DC">
+            <code>000000DC</code> — _DebPrintfStep
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000101">
+            <code>00000101</code> — _VMM_BlockOnID
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000107">
+            <code>00000107</code> — _VMM_SignalID
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="0000010D">
+            <code>0000010D</code> — _CDFS_CDQuery
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000120">
+            <code>00000120</code> — _CDFS_Flush
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000140">
+            <code>00000140</code> — _CDFS_Disconnect
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000170">
+            <code>00000170</code> — _CDFS_Close
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000001A0">
+            <code>000001A0</code> — _CDFS_FindClose
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000001D0">
+            <code>000001D0</code> — _CDFSBeginLockedAccess
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000420">
+            <code>00000420</code> — _CDFSEndLockedAccess
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000460">
+            <code>00000460</code> — _CDFSBeginNestedLockedAccess
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000490">
+            <code>00000490</code> — _CDFSLazyUnlockTick
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000510">
+            <code>00000510</code> — _CDFSLazyUnlockEvent
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000800">
+            <code>00000800</code> — _CDFSAsyncEvent
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000B00">
+            <code>00000B00</code> — _cdfsSetFirstDriveLetter
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000B40">
+            <code>00000B40</code> — _CMDumpLRU
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000DB0">
+            <code>00000DB0</code> — _MY_CallWhenNotCritical
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000DE0">
+            <code>00000DE0</code> — CDFS_DDB
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EE4">
+            <code>00000EE4</code> — _pcdcVerifyHead
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EE8">
+            <code>00000EE8</code> — _SubUnitNext
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EEC">
+            <code>00000EEC</code> — _DefaultSvdSense
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EF0">
+            <code>00000EF0</code> — _fTearDown
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EF4">
+            <code>00000EF4</code> — _fShowVersions
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EF8">
+            <code>00000EF8</code> — _fCDFSMisc
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000EFC">
+            <code>00000EFC</code> — _pSysDevVCD
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F00">
+            <code>00000F00</code> — _fpVCD
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F04">
+            <code>00000F04</code> — _pcdfsinfo
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F08">
+            <code>00000F08</code> — _hUnlockEvent
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F0C">
+            <code>00000F0C</code> — _hsemLocking
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F10">
+            <code>00000F10</code> — _cLockCDFS
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F14">
+            <code>00000F14</code> — _cLockWait
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F18">
+            <code>00000F18</code> — _fLockFlags
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F1C">
+            <code>00000F1C</code> — _strAssertFailure
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F58">
+            <code>00000F58</code> — _strWarnBadMaster
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000F98">
+            <code>00000F98</code> — _strWarnMemory
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00000FD8">
+            <code>00000FD8</code> — _ilbCDFS
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="0000100C">
+            <code>0000100C</code> — _cddispCDFS
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="0000102C">
+            <code>0000102C</code> — _hmDispMisc
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00001050">
+            <code>00001050</code> — _hmDispFind
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="00001074">
+            <code>00001074</code> — _volDispVolume
+            
+          </li>
+        
+          <li data-segment="00000AA0" data-offset="000014A0">
+            <code>000014A0</code> — _cdfsDev_GetFunction
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IGROUP @ 00001070
+      </summary>
+      <ul>
+        
+          <li data-segment="00001070" data-offset="000000AD">
+            <code>000000AD</code> — CDFS_Dynamic_Device_Init
+            
+          </li>
+        
+          <li data-segment="00001070" data-offset="0000020C">
+            <code>0000020C</code> — _cdfsGetRegistry
+            
+          </li>
+        
+          <li data-segment="00001070" data-offset="000005E0">
+            <code>000005E0</code> — _cdfsSetRegDefaults
+            
+          </li>
+        
+          <li data-segment="00001070" data-offset="000006D0">
+            <code>000006D0</code> — _CDPrefPreInit
+            
+          </li>
+        
+          <li data-segment="00001070" data-offset="0000073C">
+            <code>0000073C</code> — _drpCDFS
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PGROUP @ 000081E0
+      </summary>
+      <ul>
+        
+          <li data-segment="000081E0" data-offset="00000000">
+            <code>00000000</code> — _cdfsTearDown
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000000E0">
+            <code>000000E0</code> — _CMInitCache
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000004B0">
+            <code>000004B0</code> — _CMFreeCache
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000540">
+            <code>00000540</code> — _MY_PageAllocate
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000580">
+            <code>00000580</code> — _CDFS_Query
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000630">
+            <code>00000630</code> — _cdfsDevIO_RdDevHdr
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000650">
+            <code>00000650</code> — _cdfsDevIO_RdErrorStat
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000680">
+            <code>00000680</code> — _cdfsDevIO_RdAudChanInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000710">
+            <code>00000710</code> — _cdfsDevIO_RdDriveBytes
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000740">
+            <code>00000740</code> — _cdfsDevIO_RdSectSize
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000007A0">
+            <code>000007A0</code> — _cdfsDevIO_RdVolSize
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000820">
+            <code>00000820</code> — _cdfsDevIO_RdMedChanged
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000880">
+            <code>00000880</code> — _cdfsDevIO_RdAudDiskInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000008E0">
+            <code>000008E0</code> — _cdfsDevIO_RdAudTrackInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000940">
+            <code>00000940</code> — _cdfsDevIO_RdAudSubInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000009B0">
+            <code>000009B0</code> — _cdfsDevIO_RdAudQUPC
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000A10">
+            <code>00000A10</code> — _cdfsDevIO_WtEject
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000A40">
+            <code>00000A40</code> — _cdfsDevIO_WtLockUnlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000A80">
+            <code>00000A80</code> — _cdfsDevIO_WtReset
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000AC0">
+            <code>00000AC0</code> — _cdfsDevIO_WtAudChanCtrl
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000B50">
+            <code>00000B50</code> — _cdfsDevIO_WtDevCtrlStr
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000B80">
+            <code>00000B80</code> — _cdfsDevIO_WtCloseTray
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000BB0">
+            <code>00000BB0</code> — _cdfsDevIFL
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000BF0">
+            <code>00000BF0</code> — _cdfsDevOPN
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000C30">
+            <code>00000C30</code> — _cdfsDevCDReadLongPre
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000C50">
+            <code>00000C50</code> — _cdfsDevCDSeek
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000CA0">
+            <code>00000CA0</code> — _cdfsDevCDPlayAudio
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000E10">
+            <code>00000E10</code> — _cdfsDevCDStopAudio
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000E40">
+            <code>00000E40</code> — _cdfsDevCDResumeAudio
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000E70">
+            <code>00000E70</code> — _cdfsAbsReadCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00000F20">
+            <code>00000F20</code> — _cdfsAbsReadRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001000">
+            <code>00001000</code> — _upcs
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001030">
+            <code>00001030</code> — _CDFS2f_GetVTOCFileName
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001160">
+            <code>00001160</code> — _CDFS2f_ReadVTOC
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000012A0">
+            <code>000012A0</code> — _CDFS2f_Dbg
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000012B0">
+            <code>000012B0</code> — _CDFS2f_AbsDiskRead
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000013D0">
+            <code>000013D0</code> — _CDFS2f_AbsDiskWrite
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000013F0">
+            <code>000013F0</code> — _CDFS2f_Unload
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001400">
+            <code>00001400</code> — _CDFS2f_VDSPreference
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001530">
+            <code>00001530</code> — _CDFS2f_GetDirEntry
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000016B0">
+            <code>000016B0</code> — _cdfsGetVTOCNameStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000016D0">
+            <code>000016D0</code> — _cdfsGetVTOCNameDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000017C0">
+            <code>000017C0</code> — _cdfsGetDirEntStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001930">
+            <code>00001930</code> — _cdfsGetDirEntDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001AD0">
+            <code>00001AD0</code> — _CDFS_MountVolume
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001B60">
+            <code>00001B60</code> — _cdfsTryVerifyFromMount
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001C10">
+            <code>00001C10</code> — _CDFS_Delete
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001C30">
+            <code>00001C30</code> — _CDFS_IOCTL16Drive
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001C40">
+            <code>00001C40</code> — _CDFS_Commit
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001C50">
+            <code>00001C50</code> — _CDFS_FileLocks
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001C60">
+            <code>00001C60</code> — _cdfsCDDATest
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001CD0">
+            <code>00001CD0</code> — _cdfsUnmount
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001D20">
+            <code>00001D20</code> — _cdfsVerifyStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001DE0">
+            <code>00001DE0</code> — _cdfsVerifyDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001F60">
+            <code>00001F60</code> — _diskFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00001FC0">
+            <code>00001FC0</code> — _GetISO2022CPID
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002010">
+            <code>00002010</code> — _cdfsDiskAlloc
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002190">
+            <code>00002190</code> — _cdfsDiskAllocEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000021A0">
+            <code>000021A0</code> — _cdfsSesInfoStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002260">
+            <code>00002260</code> — _cdfsSesInfoDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000023A0">
+            <code>000023A0</code> — _cdfsVRSSampCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002440">
+            <code>00002440</code> — _cdfsVRSSampStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002460">
+            <code>00002460</code> — _cdfsVRSSampDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000027B0">
+            <code>000027B0</code> — _cdfsVRSSampRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000028A0">
+            <code>000028A0</code> — _cdfsVolAlloc
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002D10">
+            <code>00002D10</code> — _cdfsPTInitCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002E20">
+            <code>00002E20</code> — _cdfsPTInitStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00002F90">
+            <code>00002F90</code> — _cdfsPTInitDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000036A0">
+            <code>000036A0</code> — _cdfsPTInitRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000036C0">
+            <code>000036C0</code> — _cdfsRootInitCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000036E0">
+            <code>000036E0</code> — _cdfsRootInitStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003710">
+            <code>00003710</code> — _cdfsRootInitDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003760">
+            <code>00003760</code> — _cdfsRootInitRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003790">
+            <code>00003790</code> — _cdfsMountDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000038B0">
+            <code>000038B0</code> — _cdfsMountDoneEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000038C0">
+            <code>000038C0</code> — _cdfsMountFail
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003920">
+            <code>00003920</code> — _cdfsSendIOCTL
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000039D0">
+            <code>000039D0</code> — _cdfsSetBusyStatus
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003A50">
+            <code>00003A50</code> — _IFS_CDROM_Attach
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003A56">
+            <code>00003A56</code> — _IFS_CDROM_Detach
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003A5C">
+            <code>00003A5C</code> — _CDFS_VCDStrategy
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003A67">
+            <code>00003A67</code> — _CDFS_VCDInterrupt
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003A70">
+            <code>00003A70</code> — _CDFS2f_SendDriveRequest
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003B00">
+            <code>00003B00</code> — _CDFSVCD_Strategy
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003B80">
+            <code>00003B80</code> — _cdfsDevIO_RdHeadLoc
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003BE0">
+            <code>00003BE0</code> — _cdfsDevIO_RdDevStatus
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003C30">
+            <code>00003C30</code> — _cdfsDevIO_RdAudQInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003CC0">
+            <code>00003CC0</code> — _cdfsDevIO_RdAudStatus
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003D20">
+            <code>00003D20</code> — _cdfsDevCDReadLong
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003EA0">
+            <code>00003EA0</code> — _cdfsAttachDrive
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003ED0">
+            <code>00003ED0</code> — _cdfsDetachDrive
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003EF0">
+            <code>00003EF0</code> — _cdfsDevIO_Init
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003F70">
+            <code>00003F70</code> — _cdfsDevIO_UnInit
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00003F90">
+            <code>00003F90</code> — _cdfsIORAllocIOCTL
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004030">
+            <code>00004030</code> — _cdfsIORFreeIOCTL
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004060">
+            <code>00004060</code> — _cdfsSubmitIOCTL
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000040D0">
+            <code>000040D0</code> — _cdfsSetDevError
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000041B0">
+            <code>000041B0</code> — _cdfsMapToNotReady
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000041D0">
+            <code>000041D0</code> — _cdfsUnitToDrive
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004210">
+            <code>00004210</code> — _CDFS2f_GetNumDrives
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004260">
+            <code>00004260</code> — _CDFS2f_GetDevList
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000042B0">
+            <code>000042B0</code> — _CDFS2f_DriveCheck
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000042F0">
+            <code>000042F0</code> — _CDFS2f_GetVersion
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004310">
+            <code>00004310</code> — _CDFS2f_GetDriveLetters
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004360">
+            <code>00004360</code> — _CDFS_Dir
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004390">
+            <code>00004390</code> — _CDFS_FileAttrib
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000043C0">
+            <code>000043C0</code> — _CDFS_Open
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004410">
+            <code>00004410</code> — _CDFS_ReadFile
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004440">
+            <code>00004440</code> — _CDFS_Seek
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004460">
+            <code>00004460</code> — _CDFS_FileTimes
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000044D0">
+            <code>000044D0</code> — _CDFS_EnumHandle
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004500">
+            <code>00004500</code> — _CDFS_ReturnError
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004520">
+            <code>00004520</code> — _cdfsChDirStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004590">
+            <code>00004590</code> — _cdfsChDirDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004650">
+            <code>00004650</code> — _cdfsGetAttrStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000046B0">
+            <code>000046B0</code> — _cdfsGetAttrDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000046F0">
+            <code>000046F0</code> — _cdfsFlush
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004740">
+            <code>00004740</code> — _cdfsOpenStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000047A0">
+            <code>000047A0</code> — _cdfsReadFileStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004A80">
+            <code>00004A80</code> — _cdfsReadFileDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004AE0">
+            <code>00004AE0</code> — _cdfsSeekFile
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004B50">
+            <code>00004B50</code> — _cdfsCloseFile
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004B80">
+            <code>00004B80</code> — _cdfsFileTime
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004C70">
+            <code>00004C70</code> — _cdfsHandleInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004D40">
+            <code>00004D40</code> — _MY_HeapAllocate
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004D60">
+            <code>00004D60</code> — _cdmftAllocInit
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004F40">
+            <code>00004F40</code> — _cdmftActivate
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004F70">
+            <code>00004F70</code> — _cdmftActivateEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004F80">
+            <code>00004F80</code> — _cdmftFindFromIndex
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004FE0">
+            <code>00004FE0</code> — _cdmftFindFromIndexEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00004FF0">
+            <code>00004FF0</code> — _cdsftAllocInit
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000050B0">
+            <code>000050B0</code> — _cdsftActivate
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005100">
+            <code>00005100</code> — _cdsftActivateEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005110">
+            <code>00005110</code> — _cdvFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000051F0">
+            <code>000051F0</code> — _cdvFreeEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005200">
+            <code>00005200</code> — _cdmftFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000052D0">
+            <code>000052D0</code> — _cdmftFreeEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000052E0">
+            <code>000052E0</code> — _cdsftFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005390">
+            <code>00005390</code> — _cdsftFreeEndTag
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000053A0">
+            <code>000053A0</code> — _IFS_Win32ToDosTime
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000053BB">
+            <code>000053BB</code> — _cdfsLocalToGMTTime
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000053DD">
+            <code>000053DD</code> — _DirTimeToDOSTime
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000053FF">
+            <code>000053FF</code> — _IFS_CreateBasis
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000544E">
+            <code>0000544E</code> — _IFS_AppendBasisTail
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005454">
+            <code>00005454</code> — _IFS_FcbToShort
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000545A">
+            <code>0000545A</code> — _IFS_MetaMatch
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005460">
+            <code>00005460</code> — _IFS_BCSToUni
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005466">
+            <code>00005466</code> — _IFS_UniToBCS
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000546C">
+            <code>0000546C</code> — _IFS_ShortToFcb
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000054BE">
+            <code>000054BE</code> — _cdfsAttrMatch
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000054E0">
+            <code>000054E0</code> — _CDFS_GetDiskInfo
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005590">
+            <code>00005590</code> — _CDFS_Search
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000055B0">
+            <code>000055B0</code> — _CDFS_FindOpen
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000055D0">
+            <code>000055D0</code> — _CDFS_FindNextFile
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000055F0">
+            <code>000055F0</code> — _cdfsFindOpenStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005610">
+            <code>00005610</code> — _cdfsSearchStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005780">
+            <code>00005780</code> — _cdfsSearchDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000058C0">
+            <code>000058C0</code> — _cdfsFindNextStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005A90">
+            <code>00005A90</code> — _cdfsFindNextDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005DA0">
+            <code>00005DA0</code> — _MY_LinPageLock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005DD0">
+            <code>00005DD0</code> — _MY_LinPageUnLock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005E00">
+            <code>00005E00</code> — _MY_LinToPhys
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005E70">
+            <code>00005E70</code> — _TwoDigits
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005E90">
+            <code>00005E90</code> — _ISOToWin32Time
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00005F70">
+            <code>00005F70</code> — _DirToWin32Time
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006010">
+            <code>00006010</code> — _Win32TimeWorker
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006110">
+            <code>00006110</code> — _cdfsInPathGet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006240">
+            <code>00006240</code> — _cdfsFreePaths
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006290">
+            <code>00006290</code> — _cdfsRunAPI
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006320">
+            <code>00006320</code> — _cdcInit
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000064A0">
+            <code>000064A0</code> — _cdfsLockSec
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006560">
+            <code>00006560</code> — _pPLTextStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006560">
+            <code>00006560</code> — _MY_IOS_SendCommand
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000658F">
+            <code>0000658F</code> — _MY_IOSMapIORSToI21
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006599">
+            <code>00006599</code> — _MY_Meet_Criteria_Stub
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000065C2">
+            <code>000065C2</code> — _MY_Map_Flat
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000065CC">
+            <code>000065CC</code> — _MY_PageFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000065D2">
+            <code>000065D2</code> — _MY_Simulate_Far_Call
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000065E2">
+            <code>000065E2</code> — _MY_Simulate_Far_Ret
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000065E8">
+            <code>000065E8</code> — _cdfsIOCTLPassThrough
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000671B">
+            <code>0000671B</code> — _MapV86Flat
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006734">
+            <code>00006734</code> — _cdfsSemRequest
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000679B">
+            <code>0000679B</code> — _cdfsSemRelease
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067CD">
+            <code>000067CD</code> — _SafeMemCpyC
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067E3">
+            <code>000067E3</code> — _cdfsAudioS1611025
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067E6">
+            <code>000067E6</code> — _cdfsAudioS1622050
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067E9">
+            <code>000067E9</code> — _cdfsAudioS1644100
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067ED">
+            <code>000067ED</code> — _cdfsAudioS811025
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067F0">
+            <code>000067F0</code> — _cdfsAudioS822050
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000067F3">
+            <code>000067F3</code> — _cdfsAudioS844100
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006808">
+            <code>00006808</code> — _cdfsAudioM1611025
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000680B">
+            <code>0000680B</code> — _cdfsAudioM1622050
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000680E">
+            <code>0000680E</code> — _cdfsAudioM1644100
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006820">
+            <code>00006820</code> — _cdfsAudioM811025
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006823">
+            <code>00006823</code> — _cdfsAudioM822050
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006826">
+            <code>00006826</code> — _cdfsAudioM844100
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006840">
+            <code>00006840</code> — _cdfsLockSecCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000068C0">
+            <code>000068C0</code> — _cdfsLockSecRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006930">
+            <code>00006930</code> — _cdfsLockSecNB
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006A00">
+            <code>00006A00</code> — _cdfsReadSecStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006B30">
+            <code>00006B30</code> — _cdfsReadSecDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006BE0">
+            <code>00006BE0</code> — _cdfsReadStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00006F70">
+            <code>00006F70</code> — _cdfsReadFast
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007230">
+            <code>00007230</code> — _cdfsReadDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000072B0">
+            <code>000072B0</code> — _cdfsSGReadStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007590">
+            <code>00007590</code> — _cdfsSGReadDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007690">
+            <code>00007690</code> — _cdfsMoveData
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000078D0">
+            <code>000078D0</code> — _cdfsAbsReadStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007930">
+            <code>00007930</code> — _cdfsAbsReadDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000079C0">
+            <code>000079C0</code> — _IORCheck
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007A00">
+            <code>00007A00</code> — _IORAlloc
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007B20">
+            <code>00007B20</code> — _IORFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007B60">
+            <code>00007B60</code> — _LogBase2
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007BB0">
+            <code>00007BB0</code> — _cdfsSerial
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007C30">
+            <code>00007C30</code> — _CDPrefPreLock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00007D30">
+            <code>00007D30</code> — _CDPrefSectorHit
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000080F0">
+            <code>000080F0</code> — _CDBeginPrefetch
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008160">
+            <code>00008160</code> — _cdfsPrefStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000083A0">
+            <code>000083A0</code> — _cdfsPrefDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008540">
+            <code>00008540</code> — _CDPrefLockEvent
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000086B0">
+            <code>000086B0</code> — _CMFindBlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008720">
+            <code>00008720</code> — _CMLockBlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008C20">
+            <code>00008C20</code> — _cdfsClearSector
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008D00">
+            <code>00008D00</code> — _CMValidateBlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008D90">
+            <code>00008D90</code> — _CMInvalidateBlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008DB0">
+            <code>00008DB0</code> — _CMUnLockBlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008ED0">
+            <code>00008ED0</code> — _CMAllocVolume
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008EE0">
+            <code>00008EE0</code> — _CMFlushVolume
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00008FB0">
+            <code>00008FB0</code> — _CMAddNewVolume
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009020">
+            <code>00009020</code> — _CMRemoveVolume
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009080">
+            <code>00009080</code> — _CMChDir
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009110">
+            <code>00009110</code> — _cmHashRemove
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009160">
+            <code>00009160</code> — _CMDowngradePref
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009220">
+            <code>00009220</code> — _cmLRUReclaim
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000092E0">
+            <code>000092E0</code> — _cmLRURemove
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="000093F0">
+            <code>000093F0</code> — _cmLRUAdd
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009850">
+            <code>00009850</code> — _cmSubtractCount
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009970">
+            <code>00009970</code> — _cmAddCount
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009A40">
+            <code>00009A40</code> — _cmPrefAgressRaise
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009B20">
+            <code>00009B20</code> — _cmGetCMCH
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009B40">
+            <code>00009B40</code> — _cmBlockToCE
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009B70">
+            <code>00009B70</code> — _cmEmergencyUnlock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009C70">
+            <code>00009C70</code> — _CMAssertLocked
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="00009D40">
+            <code>00009D40</code> — _cdfsOpenDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A210">
+            <code>0000A210</code> — _CallState
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A240">
+            <code>0000A240</code> — _RetState
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A280">
+            <code>0000A280</code> — _RunTaskStates
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A330">
+            <code>0000A330</code> — _RunGEHStates
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A430">
+            <code>0000A430</code> — _SetGEHWait
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A450">
+            <code>0000A450</code> — _RemoveCdc
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A490">
+            <code>0000A490</code> — _MainGEH
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A4C0">
+            <code>0000A4C0</code> — _DevCallback
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A540">
+            <code>0000A540</code> — _cdfsSemReq
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A5A0">
+            <code>0000A5A0</code> — _cdfsSemReqRetry
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A5E0">
+            <code>0000A5E0</code> — _cdfsSleep
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A600">
+            <code>0000A600</code> — _cdfsWakeAll
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A640">
+            <code>0000A640</code> — _MY_Create_Semaphore
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A660">
+            <code>0000A660</code> — _MY_Destroy_Semaphore
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A670">
+            <code>0000A670</code> — _MY_Signal_Semaphore
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A680">
+            <code>0000A680</code> — _MY_Wait_Semaphore
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A6A0">
+            <code>0000A6A0</code> — _MY_Schedule_Global_Event
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A6C0">
+            <code>0000A6C0</code> — _MY_HeapFree
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A730">
+            <code>0000A730</code> — _cdfsDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A740">
+            <code>0000A740</code> — _cdfsPanic
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A750">
+            <code>0000A750</code> — _cdfsNotImp
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A780">
+            <code>0000A780</code> — _cdfsErrorRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A7A0">
+            <code>0000A7A0</code> — _cdfsGetNamesFromRDE
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A820">
+            <code>0000A820</code> — _cdfsGetNamesFromRPTE
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A890">
+            <code>0000A890</code> — _cdfsGetNamesFromCDV
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000A8C0">
+            <code>0000A8C0</code> — _cdfsGetLFNName
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000AA80">
+            <code>0000AA80</code> — _cdfsGetOEMName
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000AC30">
+            <code>0000AC30</code> — _cdfsMetaCompare
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000AD70">
+            <code>0000AD70</code> — _cdfsCheckSemi
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000AE00">
+            <code>0000AE00</code> — _cdfsDirScanCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B0D0">
+            <code>0000B0D0</code> — _cdfsDirScanStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B120">
+            <code>0000B120</code> — _cdfsDirScanDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B5F0">
+            <code>0000B5F0</code> — _cdfsDirScanRet
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B690">
+            <code>0000B690</code> — _cdfsGetAttrFromRDE
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B6C0">
+            <code>0000B6C0</code> — _GetAttrFromISOFlags
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B6E0">
+            <code>0000B6E0</code> — _cdfsAccumFileSize
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B7E0">
+            <code>0000B7E0</code> — _cdfsGetXASysUseArea
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B820">
+            <code>0000B820</code> — _cdfsGetExtentSize
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B890">
+            <code>0000B890</code> — _cdfsLocateExtentVolume
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000B8D0">
+            <code>0000B8D0</code> — _cdfsPTScanCall
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BA00">
+            <code>0000BA00</code> — _cdfsPTScanStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BA50">
+            <code>0000BA50</code> — _cdfsPTScanDone
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BDE0">
+            <code>0000BDE0</code> — _cdfsPreInitIOREQ
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BE60">
+            <code>0000BE60</code> — _cdfsAttachResource
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BEC0">
+            <code>0000BEC0</code> — _cdfsDetachResource
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF00">
+            <code>0000BF00</code> — _pPLDataStart
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF00">
+            <code>0000BF00</code> — _pPLTextEnd
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF00">
+            <code>0000BF00</code> — _pcdcHead
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF04">
+            <code>0000BF04</code> — _pcdcSleepHead
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF08">
+            <code>0000BF08</code> — _smsCDFS
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF10">
+            <code>0000BF10</code> — _pcdvHead
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF14">
+            <code>0000BF14</code> — _GEHHandle
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF18">
+            <code>0000BF18</code> — _pcmchCooked
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF1C">
+            <code>0000BF1C</code> — _pcmchRaw
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF20">
+            <code>0000BF20</code> — _pcmchRawTmp
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF24">
+            <code>0000BF24</code> — _NextVolumeID
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF28">
+            <code>0000BF28</code> — _ExtendedErrors
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF2C">
+            <code>0000BF2C</code> — _CDXCompatNames
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF30">
+            <code>0000BF30</code> — _In_Mctrl
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF34">
+            <code>0000BF34</code> — _afCdMediaChgd
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF38">
+            <code>0000BF38</code> — _fNoPreLockNeeded
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF3C">
+            <code>0000BF3C</code> — _MSCDEXVersion
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF40">
+            <code>0000BF40</code> — _CDFSCacheSize
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF44">
+            <code>0000BF44</code> — _CDFSPrefetch
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF48">
+            <code>0000BF48</code> — _CDFSPrefetchTail
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF4C">
+            <code>0000BF4C</code> — _CDFSRawCache
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF50">
+            <code>0000BF50</code> — _cpidOEM
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF54">
+            <code>0000BF54</code> — _pcdpiCache
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF58">
+            <code>0000BF58</code> — _pMountDispSave
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF5C">
+            <code>0000BF5C</code> — _pSystemClock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BF60">
+            <code>0000BF60</code> — _cdperf
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFB4">
+            <code>0000BFB4</code> — _pcdperf
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFB8">
+            <code>0000BFB8</code> — _PrefClock
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFBC">
+            <code>0000BFBC</code> — _SectorPrefNext
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFC0">
+            <code>0000BFC0</code> — _pcdvPrefNext
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFC4">
+            <code>0000BFC4</code> — _SectorPrefLast
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFC8">
+            <code>0000BFC8</code> — _PrefFlags
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000BFCC">
+            <code>0000BFCC</code> — _cdcPref
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C090">
+            <code>0000C090</code> — _sgiPref
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C120">
+            <code>0000C120</code> — _apfnMSCDEXInt2f
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C164">
+            <code>0000C164</code> — _apfnCdRdIoctl
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C1A4">
+            <code>0000C1A4</code> — _apfnCdWtIoctl
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C1BC">
+            <code>0000C1BC</code> — _apfnCdDev128
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C1E0">
+            <code>0000C1E0</code> — _VolIdPattern
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C200">
+            <code>0000C200</code> — _wchDot
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C204">
+            <code>0000C204</code> — _wchDotDot
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C208">
+            <code>0000C208</code> — _MonDays
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C220">
+            <code>0000C220</code> — _achForeignLabel
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C240">
+            <code>0000C240</code> — _achAudioLabel
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C260">
+            <code>0000C260</code> — _AudioRootDe
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C284">
+            <code>0000C284</code> — _AudioPhile
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C2BC">
+            <code>0000C2BC</code> — _AudioPhileHeader
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C2E8">
+            <code>0000C2E8</code> — _AudioPlayHeader
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C314">
+            <code>0000C314</code> — _XAFileHeader
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C340">
+            <code>0000C340</code> — _AudioPhilePathTable
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C34C">
+            <code>0000C34C</code> — _acdptiForeign
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C370">
+            <code>0000C370</code> — _acdptiAudioPhile
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000C394">
+            <code>0000C394</code> — _aapreCopyAudio
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000CB14">
+            <code>0000CB14</code> — _aste
+            
+          </li>
+        
+          <li data-segment="000081E0" data-offset="0000CF2C">
+            <code>0000CF2C</code> — _pPLDataEnd
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _SGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _pHeapFreeHead
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000004">
+            <code>00000004</code> — _CDFSLoaded
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — _SafeMemCpyEH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000018">
+            <code>00000018</code> — _pfnCDPrefLockEvent
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000001C">
+            <code>0000001C</code> — _pfnCDFSLazyUnlockEvent
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — _CDPrefLockEventStatic
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000046">
+            <code>00000046</code> — _HeapFreeEventStatic
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000078">
+            <code>00000078</code> — _CDFSLazyUnlockEventStatic
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000A1">
+            <code>000000A1</code> — _SafeMemCpyAsm
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000D6">
+            <code>000000D6</code> — WARN_CD_App_Bad_Read_Address
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

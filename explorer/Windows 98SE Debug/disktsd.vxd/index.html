@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>DISKTSD — Windows 98SE Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../tsdaer.asm</li>
+      
+        <li>../tsd.asm</li>
+      
+        <li>../tsdinit.asm</li>
+      
+        <li>../tsdpart.asm</li>
+      
+        <li>../tsdreq.asm</li>
+      
+        <li>../tsdsubs.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00000510
+      </summary>
+      <ul>
+        
+          <li data-segment="00000510" data-offset="0000000C">
+            <code>0000000C</code> — tsd_async_event
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000050">
+            <code>00000050</code> — tsd_ilb
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000084">
+            <code>00000084</code> — tsd_request
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000125">
+            <code>00000125</code> — tsd_disk_io
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="0000014D">
+            <code>0000014D</code> — tsd_issue_request
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="0000019D">
+            <code>0000019D</code> — tsd_ioctl_callback
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="0000029C">
+            <code>0000029C</code> — tsd_ioc_cb_event_callback
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="000002B3">
+            <code>000002B3</code> — tsd_init_cd_ptr
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="000002D0">
+            <code>000002D0</code> — DiskTSD_DDB
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000320">
+            <code>00000320</code> — number_disks
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000321">
+            <code>00000321</code> — number_floppys
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000322">
+            <code>00000322</code> — number_logical
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000323">
+            <code>00000323</code> — tsd_bds_head
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="00000327">
+            <code>00000327</code> — FlpFlags
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="0000032B">
+            <code>0000032B</code> — MixedFloppyType
+            
+          </li>
+        
+          <li data-segment="00000510" data-offset="0000032C">
+            <code>0000032C</code> — GetDevParmsIoctl
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IGROUP @ 00000680
+      </summary>
+      <ul>
+        
+          <li data-segment="00000680" data-offset="00000000">
+            <code>00000000</code> — DiskTSD_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000680" data-offset="0000003C">
+            <code>0000003C</code> — ReadDISKTSDRegistry
+            
+          </li>
+        
+          <li data-segment="00000680" data-offset="00000155">
+            <code>00000155</code> — Drv_Reg_Pkt
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PTEXT @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — initialize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000094">
+            <code>00000094</code> — DISKTSD_config_physical
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000184">
+            <code>00000184</code> — DISKTSD_unconfig_physical
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000027B">
+            <code>0000027B</code> — DISKTSD_init_complete
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000029C">
+            <code>0000029C</code> — Setup_Floppy_Numbers
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002C6">
+            <code>000002C6</code> — GetNextPCD
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002F6">
+            <code>000002F6</code> — DISKTSD_Recompute
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000033F">
+            <code>0000033F</code> — Config_Floppy
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000004A6">
+            <code>000004A6</code> — CheckMonolithic
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005E5">
+            <code>000005E5</code> — CheckIorangesinPAN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000061F">
+            <code>0000061F</code> — tsd_segoff_to_lin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000641">
+            <code>00000641</code> — tsd_setup_a_b
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000688">
+            <code>00000688</code> — set_floppy_fake_bpb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000006EC">
+            <code>000006EC</code> — tsd_recompute
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000077D">
+            <code>0000077D</code> — tsd_compute_disk_geom
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000CC0">
+            <code>00000CC0</code> — TSD_assign_more_letters
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000D20">
+            <code>00000D20</code> — Make_And_Assoc_Logical_Floppy_DCB
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000D3B">
+            <code>00000D3B</code> — malfd_do_assoc
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000D69">
+            <code>00000D69</code> — tsd_setup_extended_volumes
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000EDC">
+            <code>00000EDC</code> — tsd_build_logical_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000014F5">
+            <code>000014F5</code> — tsd_match_rmd_with_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001563">
+            <code>00001563</code> — tsd_make_log_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000015D3">
+            <code>000015D3</code> — tsd_match_logical_dcbs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000017B2">
+            <code>000017B2</code> — tsd_find_extended_partition
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000017D9">
+            <code>000017D9</code> — tsd_find_volume
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001826">
+            <code>00001826</code> — SetApparentForFloptical
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001937">
+            <code>00001937</code> — tsd_ioctl_440d
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001966">
+            <code>00001966</code> — tsd_440d_sense_media
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000197B">
+            <code>0000197B</code> — tsd_ioctl_query_device
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000019B0">
+            <code>000019B0</code> — tsd_440d_format_track
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001B6B">
+            <code>00001B6B</code> — tsd_440d_write_track
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001DA4">
+            <code>00001DA4</code> — tsd_440d_verify_track
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001E61">
+            <code>00001E61</code> — tsd_440d_set_param
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002051">
+            <code>00002051</code> — tsd_ioctl_stub
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002079">
+            <code>00002079</code> — tsd_ioctl_dev_type
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000020C8">
+            <code>000020C8</code> — tsd_440d_get_param
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000020FF">
+            <code>000020FF</code> — tsd_gp_no_changeline
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002109">
+            <code>00002109</code> — tsd_gp_removeable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000211A">
+            <code>0000211A</code> — tsd_gp_store_attrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000213C">
+            <code>0000213C</code> — tsd_gp_copy_bpb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000215E">
+            <code>0000215E</code> — tsd_gp_big_bpb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002179">
+            <code>00002179</code> — tsd_gp_exit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000217C">
+            <code>0000217C</code> — tsd_gp_cook_big_bpb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000021AD">
+            <code>000021AD</code> — tsd_gp_bad_call
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000021C4">
+            <code>000021C4</code> — tsd_process_boot
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002225">
+            <code>00002225</code> — tsd_alloc_mem
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002268">
+            <code>00002268</code> — tsd_dealloc_mem
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000228A">
+            <code>0000228A</code> — CHS_to_RBA
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002345">
+            <code>00002345</code> — FloppyBPBFromTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002449">
+            <code>00002449</code> — BPBFromTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000026E2">
+            <code>000026E2</code> — CalcSecPerFat
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000027C2">
+            <code>000027C2</code> — tsd_internal_request
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000028A2">
+            <code>000028A2</code> — tsd_set_bds_in_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002918">
+            <code>00002918</code> — tsd_get_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002942">
+            <code>00002942</code> — TSD_pick_drive_letter
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000296E">
+            <code>0000296E</code> — TSD_associate_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002995">
+            <code>00002995</code> — TSD_destroy_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000029C8">
+            <code>000029C8</code> — TSD_create_logical_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002A01">
+            <code>00002A01</code> — TSDMapFlat
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002A19">
+            <code>00002A19</code> — CopyCDList
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002A6A">
+            <code>00002A6A</code> — tsd_find_i13_bds
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

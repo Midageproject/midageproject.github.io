@@ -1,0 +1,2721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>USER — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>desk.c</li>
+      
+        <li>h6.h</li>
+      
+        <li>hc.h</li>
+      
+        <li>hd.h</li>
+      
+        <li>hL.h</li>
+      
+        <li>hM.h</li>
+      
+        <li>Ht.H</li>
+      
+        <li>windows.h</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _TEXT @ 00000120
+      </summary>
+      <ul>
+        
+          <li data-segment="00000120" data-offset="0000056C">
+            <code>0000056C</code> — REPAINTSCREEN
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="0000064C">
+            <code>0000064C</code> — GETASYNCKEYSTATE
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="000006C2">
+            <code>000006C2</code> — KEYBD_EVENT
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00000786">
+            <code>00000786</code> — HARDWARE_EVENT
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00000954">
+            <code>00000954</code> — MOUSE_EVENT
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00000EBA">
+            <code>00000EBA</code> — CLIPCURSOREX
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="000010EB">
+            <code>000010EB</code> — ISWINDOW32
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00001148">
+            <code>00001148</code> — ISWINDOW
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00001179">
+            <code>00001179</code> — ISWINDOW16
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="000011EE">
+            <code>000011EE</code> — POSTAPPMESSAGE32
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="000011F3">
+            <code>000011F3</code> — POSTMESSAGE32
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00001418">
+            <code>00001418</code> — GETTICKCOUNT
+            
+          </li>
+        
+          <li data-segment="00000120" data-offset="00001418">
+            <code>00001418</code> — GETCURRENTTIME
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _MSGBOX @ 00000190
+      </summary>
+      <ul>
+        
+          <li data-segment="00000190" data-offset="00000000">
+            <code>00000000</code> — MESSAGEBOX
+            
+          </li>
+        
+          <li data-segment="00000190" data-offset="00000013">
+            <code>00000013</code> — MESSAGEBOXEX
+            
+          </li>
+        
+          <li data-segment="00000190" data-offset="0000006E">
+            <code>0000006E</code> — MESSAGEBOXINDIRECT
+            
+          </li>
+        
+          <li data-segment="00000190" data-offset="00002184">
+            <code>00002184</code> — MESSAGEBEEP
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _MESSAGES @ 000006F0
+      </summary>
+      <ul>
+        
+          <li data-segment="000006F0" data-offset="00000000">
+            <code>00000000</code> — KILLTIMER
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000019">
+            <code>00000019</code> — SETTIMER
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000036">
+            <code>00000036</code> — PEEKMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000000F5">
+            <code>000000F5</code> — GETMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000000FA">
+            <code>000000FA</code> — TRANSLATEMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000000FF">
+            <code>000000FF</code> — DISPATCHMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000104">
+            <code>00000104</code> — CALLMSGFILTER
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000109">
+            <code>00000109</code> — SENDMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000010E">
+            <code>0000010E</code> — DEFWINDOWPROC
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000172">
+            <code>00000172</code> — CALLWINDOWPROC
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000178">
+            <code>00000178</code> — CALLWINDOWPROC32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000283">
+            <code>00000283</code> — GETMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000002BB">
+            <code>000002BB</code> — PEEKMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000305">
+            <code>00000305</code> — PEEKMESSAGE32EX
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000359">
+            <code>00000359</code> — TRANSLATEMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000003AF">
+            <code>000003AF</code> — DISPATCHMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000043E">
+            <code>0000043E</code> — SENDMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000501">
+            <code>00000501</code> — DEFWINDOWPROC32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000543">
+            <code>00000543</code> — CALLWINDOWPROCREAL
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000596">
+            <code>00000596</code> — CALLMSGFILTER32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000005C2">
+            <code>000005C2</code> — SETFOCUS
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000005E5">
+            <code>000005E5</code> — GETKEYBOARDSTATE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000605">
+            <code>00000605</code> — SETKEYBOARDSTATE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000628">
+            <code>00000628</code> — SETEVENTHOOK
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000645">
+            <code>00000645</code> — SETCAPTURE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000668">
+            <code>00000668</code> — GETQUEUESTATUS
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000006C3">
+            <code>000006C3</code> — SETTIMER32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000726">
+            <code>00000726</code> — KILLTIMER32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000074F">
+            <code>0000074F</code> — SETACTIVEWINDOW
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000772">
+            <code>00000772</code> — SETFOREGROUNDWINDOW
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000078C">
+            <code>0000078C</code> — GETWINDOWCONTEXTHELPID
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000007CC">
+            <code>000007CC</code> — GETCURSORPOS
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000007EC">
+            <code>000007EC</code> — CLIPCURSOR
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000080C">
+            <code>0000080C</code> — GETCLIPCURSOR
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000082C">
+            <code>0000082C</code> — GETSYSCOLOR
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000852">
+            <code>00000852</code> — GETSYSCOLORBRUSH
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000008A5">
+            <code>000008A5</code> — DEFHOOKPROC
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000008D1">
+            <code>000008D1</code> — SETWINDOWSHOOK
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000908">
+            <code>00000908</code> — SETWINDOWSHOOKEX
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000947">
+            <code>00000947</code> — SETWINDOWSHOOKEX32
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000984">
+            <code>00000984</code> — UNHOOKWINDOWSHOOK
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000009B5">
+            <code>000009B5</code> — UNHOOKWINDOWSHOOKEX
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="000009DC">
+            <code>000009DC</code> — CALLNEXTHOOKEX
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00000C6C">
+            <code>00000C6C</code> — GETMESSAGEREAL
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00001152">
+            <code>00001152</code> — WAITMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000336A">
+            <code>0000336A</code> — GETFOREGROUNDWINDOW
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00004440">
+            <code>00004440</code> — GETKEYSTATE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00006BE4">
+            <code>00006BE4</code> — VALIDATEMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000991D">
+            <code>0000991D</code> — SETTIMER2
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00009B3B">
+            <code>00009B3B</code> — KILLTIMER2
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00009CE2">
+            <code>00009CE2</code> — ENABLEHARDWAREINPUT
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="00009DD5">
+            <code>00009DD5</code> — GETINPUTSTATE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000A017">
+            <code>0000A017</code> — SETWINDOWSHOOKREAL
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000AA62">
+            <code>0000AA62</code> — SETDOUBLECLICKTIME
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000ACA0">
+            <code>0000ACA0</code> — RELEASECAPTURE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000D390">
+            <code>0000D390</code> — SETFOREGROUNDWINDOW2
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DE47">
+            <code>0000DE47</code> — GETDOUBLECLICKTIME
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DE51">
+            <code>0000DE51</code> — GETCAPTURE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DE58">
+            <code>0000DE58</code> — GETFOCUS
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DE5F">
+            <code>0000DE5F</code> — GETACTIVEWINDOW
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DEAA">
+            <code>0000DEAA</code> — GETMESSAGETIME
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DEAF">
+            <code>0000DEAF</code> — GETMESSAGEPOS
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DEB4">
+            <code>0000DEB4</code> — GETMESSAGEEXTRAINFO
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DEE4">
+            <code>0000DEE4</code> — POSTQUITMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DF2F">
+            <code>0000DF2F</code> — REGISTERCLIPBOARDFORMAT
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DF2F">
+            <code>0000DF2F</code> — REGISTERWINDOWMESSAGE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000DF46">
+            <code>0000DF46</code> — SETCURSORPOS
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000E31D">
+            <code>0000E31D</code> — SETMESSAGEQUEUE
+            
+          </li>
+        
+          <li data-segment="000006F0" data-offset="0000EC22">
+            <code>0000EC22</code> — GETCURSORHEIGHTDELTA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _TEXTMOVE @ 00000BA0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000BA0" data-offset="000015EE">
+            <code>000015EE</code> — GETWINDOWWORD
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000015FB">
+            <code>000015FB</code> — GETWINDOWLONG
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001608">
+            <code>00001608</code> — SETWINDOWWORD
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001618">
+            <code>00001618</code> — SETWINDOWLONG
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001621">
+            <code>00001621</code> — GETCLASSWORD
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000162E">
+            <code>0000162E</code> — GETCLASSLONG
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000163B">
+            <code>0000163B</code> — SETCLASSWORD
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000164B">
+            <code>0000164B</code> — SETCLASSLONG
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001654">
+            <code>00001654</code> — ENUMTASKWINDOWS
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000016AF">
+            <code>000016AF</code> — ENUMCHILDWINDOWS
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000016BD">
+            <code>000016BD</code> — ENUMWINDOWS
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000016D1">
+            <code>000016D1</code> — GETNEXTWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000016D7">
+            <code>000016D7</code> — SETSYSMODALWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001727">
+            <code>00001727</code> — SENDMESSAGETIMEOUT32
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000179D">
+            <code>0000179D</code> — SENDMESSAGECALLBACK32
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000017FA">
+            <code>000017FA</code> — INSENDMESSAGEEX
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001869">
+            <code>00001869</code> — ISCHILD
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001894">
+            <code>00001894</code> — ISWINDOWVISIBLE
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000018AE">
+            <code>000018AE</code> — ISICONIC
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000018C8">
+            <code>000018C8</code> — ISZOOMED
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000018E2">
+            <code>000018E2</code> — ENABLEWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000018FF">
+            <code>000018FF</code> — ISWINDOWENABLED
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001919">
+            <code>00001919</code> — GETSYSTEMMETRICS
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000193F">
+            <code>0000193F</code> — GETPROPEX
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001964">
+            <code>00001964</code> — SETWINDOWTEXT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000198C">
+            <code>0000198C</code> — GETWINDOWTEXT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000019C7">
+            <code>000019C7</code> — GETWINDOWTEXTLENGTH
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000019E1">
+            <code>000019E1</code> — GETCLIENTRECT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001A09">
+            <code>00001A09</code> — GETWINDOWRECT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001B04">
+            <code>00001B04</code> — CLIENTTOSCREEN
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001B35">
+            <code>00001B35</code> — SCREENTOCLIENT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001B66">
+            <code>00001B66</code> — MAPWINDOWPOINTS
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001BAB">
+            <code>00001BAB</code> — GETSETWINDOWDATA
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001BDD">
+            <code>00001BDD</code> — GETSETCLASSDATA
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001C0F">
+            <code>00001C0F</code> — GETPARENT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001C29">
+            <code>00001C29</code> — ENUMWINDOWSEX
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001C63">
+            <code>00001C63</code> — GETWINDOWTASK
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001C7D">
+            <code>00001C7D</code> — GETLASTACTIVEPOPUP
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001C97">
+            <code>00001C97</code> — GETWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001CC0">
+            <code>00001CC0</code> — GETTOPWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001CE6">
+            <code>00001CE6</code> — WINHELP
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001D20">
+            <code>00001D20</code> — SENDDRIVERMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001D48">
+            <code>00001D48</code> — DEFDRIVERPROC
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001D76">
+            <code>00001D76</code> — GETNEXTDRIVER
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001DA8">
+            <code>00001DA8</code> — GETDRIVERINFO
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00001DDD">
+            <code>00001DDD</code> — GETWINDOWTHREADPROCESSID
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00002A2A">
+            <code>00002A2A</code> — SENDMESSAGECOMMON
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000036EA">
+            <code>000036EA</code> — REPLYMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000037C8">
+            <code>000037C8</code> — INSENDMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="0000691A">
+            <code>0000691A</code> — PLAYSOUNDEVENT
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00007550">
+            <code>00007550</code> — GLOBALADDATOM
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00007654">
+            <code>00007654</code> — GLOBALDELETEATOM
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000076AA">
+            <code>000076AA</code> — GLOBALFINDATOM
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000076FF">
+            <code>000076FF</code> — GLOBALGETATOMNAME
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00007F8D">
+            <code>00007F8D</code> — GETOPENCLIPBOARDWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00007FD3">
+            <code>00007FD3</code> — GETCLIPBOARDOWNER
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00008014">
+            <code>00008014</code> — GETCLIPBOARDVIEWER
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00008056">
+            <code>00008056</code> — GETSHELLWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="00008093">
+            <code>00008093</code> — GETSYSMODALWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000080D3">
+            <code>000080D3</code> — GETDESKTOPWINDOW
+            
+          </li>
+        
+          <li data-segment="00000BA0" data-offset="000085DC">
+            <code>000085DC</code> — SWAPMOUSEBUTTON
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _WINUTIL @ 00000DF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000DF0" data-offset="00000000">
+            <code>00000000</code> — LSTRCMP
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000011">
+            <code>00000011</code> — LSTRCMPI
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000022">
+            <code>00000022</code> — ENUMPROPS
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000002F">
+            <code>0000002F</code> — SETPROP
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000003C">
+            <code>0000003C</code> — SETPROPEX
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000045">
+            <code>00000045</code> — SCROLLWINDOW
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000068">
+            <code>00000068</code> — SCROLLWINDOWEX
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000075">
+            <code>00000075</code> — WVSPRINTF
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000000B7">
+            <code>000000B7</code> — _WSPRINTF
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000000EB">
+            <code>000000EB</code> — LSTRCMPWITHLOCALE
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000011C">
+            <code>0000011C</code> — LSTRCMPIWITHLOCALE
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000014D">
+            <code>0000014D</code> — SCROLLDC
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000001C3">
+            <code>000001C3</code> — SCROLLWINDOWEX32
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000022C">
+            <code>0000022C</code> — SETPROPREAL
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000266">
+            <code>00000266</code> — REMOVEPROPEX
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000028B">
+            <code>0000028B</code> — ENUMPROPSEX
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000002BF">
+            <code>000002BF</code> — CREATECARET
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000002FA">
+            <code>000002FA</code> — HIDECARET
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000031D">
+            <code>0000031D</code> — SHOWCARET
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000034C">
+            <code>0000034C</code> — ANSIUPPER
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000036E">
+            <code>0000036E</code> — ANSILOWER
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00000390">
+            <code>00000390</code> — ANSIUPPERBUFF
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000003B3">
+            <code>000003B3</code> — ANSILOWERBUFF
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000003D6">
+            <code>000003D6</code> — ANSINEXT
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000003F6">
+            <code>000003F6</code> — ANSIPREV
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="0000099B">
+            <code>0000099B</code> — ISCHARALPHA
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000009A0">
+            <code>000009A0</code> — ISCHARALPHANUMERIC
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000009A5">
+            <code>000009A5</code> — ISCHARUPPER
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000009AA">
+            <code>000009AA</code> — ISCHARLOWER
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000012DA">
+            <code>000012DA</code> — DESTROYCARET
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="000016DE">
+            <code>000016DE</code> — GETCARETPOS
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00001728">
+            <code>00001728</code> — SETCARETPOS
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00001844">
+            <code>00001844</code> — GETCARETBLINKTIME
+            
+          </li>
+        
+          <li data-segment="00000DF0" data-offset="00001942">
+            <code>00001942</code> — SCROLLWINDOWEX2
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _DRAW @ 00001160
+      </summary>
+      <ul>
+        
+          <li data-segment="00001160" data-offset="00000AFC">
+            <code>00000AFC</code> — ADJUSTWINDOWRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000B07">
+            <code>00000B07</code> — CHILDWINDOWFROMPOINT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000B10">
+            <code>00000B10</code> — GETDC
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000B3D">
+            <code>00000B3D</code> — DRAWICON
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000B4D">
+            <code>00000B4D</code> — SETCURSOR
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000B56">
+            <code>00000B56</code> — DRAWCAPTION
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000B66">
+            <code>00000B66</code> — DRAWICONEX
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000BE1">
+            <code>00000BE1</code> — GETWINDOWDC
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000C04">
+            <code>00000C04</code> — RELEASEDC
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000C42">
+            <code>00000C42</code> — GETDCEX
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000D60">
+            <code>00000D60</code> — UPDATEWINDOW
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000D7A">
+            <code>00000D7A</code> — BEGINPAINT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000DA2">
+            <code>00000DA2</code> — ENDPAINT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000DCA">
+            <code>00000DCA</code> — GETUPDATERECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000DF5">
+            <code>00000DF5</code> — GETUPDATERGN
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000E29">
+            <code>00000E29</code> — EXCLUDEUPDATERGN
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000E5E">
+            <code>00000E5E</code> — REDRAWWINDOW
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000EB7">
+            <code>00000EB7</code> — INVALIDATERECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000EEB">
+            <code>00000EEB</code> — VALIDATERECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000F13">
+            <code>00000F13</code> — INVALIDATERGN
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000F49">
+            <code>00000F49</code> — VALIDATERGN
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000F7C">
+            <code>00000F7C</code> — DRAWFRAMECONTROL
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00000FBD">
+            <code>00000FBD</code> — DRAWCAPTIONTEMP
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000105A">
+            <code>0000105A</code> — ADJUSTWINDOWRECTEX
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000010DA">
+            <code>000010DA</code> — SETCURSOR32
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000110A">
+            <code>0000110A</code> — CHILDWINDOWFROMPOINTEX
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001139">
+            <code>00001139</code> — DRAWEDGE
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001192">
+            <code>00001192</code> — DRAWFOCUSRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000011CD">
+            <code>000011CD</code> — FILLRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000120B">
+            <code>0000120B</code> — FRAMERECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000125D">
+            <code>0000125D</code> — INVERTRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001298">
+            <code>00001298</code> — SETRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000012C4">
+            <code>000012C4</code> — SETRECTEMPTY
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000012E4">
+            <code>000012E4</code> — COPYRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001312">
+            <code>00001312</code> — INFLATERECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001338">
+            <code>00001338</code> — INTERSECTRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001374">
+            <code>00001374</code> — UNIONRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000013B0">
+            <code>000013B0</code> — SUBTRACTRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000013EC">
+            <code>000013EC</code> — OFFSETRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001412">
+            <code>00001412</code> — ISRECTEMPTY
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001432">
+            <code>00001432</code> — EQUALRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00001460">
+            <code>00001460</code> — PTINRECT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00002EAA">
+            <code>00002EAA</code> — WINDOWFROMPOINT
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00003AEC">
+            <code>00003AEC</code> — DRAWCAPTIONICON
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000431E">
+            <code>0000431E</code> — DRAWCAPTIONBAR
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000050C6">
+            <code>000050C6</code> — GETWINDOWBORDERS
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000539E">
+            <code>0000539E</code> — GETCURSOR
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="000055B2">
+            <code>000055B2</code> — SHOWCURSOR
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="00007F6A">
+            <code>00007F6A</code> — GETPARENTDCCLIPBOX
+            
+          </li>
+        
+          <li data-segment="00001160" data-offset="0000955C">
+            <code>0000955C</code> — UPDATEWINDOW2
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: _MENU @ 00001570
+      </summary>
+      <ul>
+        
+          <li data-segment="00001570" data-offset="00000000">
+            <code>00000000</code> — TRACKPOPUPMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000010">
+            <code>00000010</code> — GRAYSTRING
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000019">
+            <code>00000019</code> — MODIFYMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000024">
+            <code>00000024</code> — APPENDMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000036">
+            <code>00000036</code> — INSERTMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000041">
+            <code>00000041</code> — CHANGEMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000012F">
+            <code>0000012F</code> — CREATEACCELERATORTABLE
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000153">
+            <code>00000153</code> — COPYACCELERATORTABLE
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000017E">
+            <code>0000017E</code> — DESTROYACCELERATORTABLE
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000197">
+            <code>00000197</code> — TRANSLATEACCELERATOR
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000251">
+            <code>00000251</code> — GETMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000288">
+            <code>00000288</code> — SETMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000002AA">
+            <code>000002AA</code> — HILITEMENUITEM
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000002DE">
+            <code>000002DE</code> — GETMENUSTATE
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000312">
+            <code>00000312</code> — DRAWMENUBAR
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000032C">
+            <code>0000032C</code> — GETSYSTEMMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000003A3">
+            <code>000003A3</code> — DESTROYMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000003BD">
+            <code>000003BD</code> — CHECKMENUITEM
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000423">
+            <code>00000423</code> — ENABLEMENUITEM
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000457">
+            <code>00000457</code> — SETMENUDEFAULTITEM
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000483">
+            <code>00000483</code> — GETMENUDEFAULTITEM
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000004C3">
+            <code>000004C3</code> — GETSUBMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000004E0">
+            <code>000004E0</code> — GETMENUITEMRECT
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000541">
+            <code>00000541</code> — GETMENUITEMID
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000566">
+            <code>00000566</code> — GETMENUITEMCOUNT
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000586">
+            <code>00000586</code> — INSERTMENUITEM
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000005C9">
+            <code>000005C9</code> — INSERTMENUITEM32
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000060C">
+            <code>0000060C</code> — SETMENUITEMINFO
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000064F">
+            <code>0000064F</code> — SETMENUITEMINFO32
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000692">
+            <code>00000692</code> — GETMENUITEMINFO
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000006D5">
+            <code>000006D5</code> — GETMENUITEMINFO32
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000718">
+            <code>00000718</code> — SETMENUINFO
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000755">
+            <code>00000755</code> — GETMENUINFO
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000792">
+            <code>00000792</code> — SETMENUCONTEXTHELPID
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000007B2">
+            <code>000007B2</code> — GETMENUCONTEXTHELPID
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000007CC">
+            <code>000007CC</code> — REMOVEMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000007F8">
+            <code>000007F8</code> — DELETEMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000824">
+            <code>00000824</code> — TRACKPOPUPMENUEX
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00000869">
+            <code>00000869</code> — DRAWSTATE
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00001C62">
+            <code>00001C62</code> — GETMENUSTATEWINDOW
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000277A">
+            <code>0000277A</code> — GETMENUINHERITEDCONTEXTHELPID
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000067CD">
+            <code>000067CD</code> — ISMENU32
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="000067E1">
+            <code>000067E1</code> — ISMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000680E">
+            <code>0000680E</code> — ISMENU16
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00006880">
+            <code>00006880</code> — LOADMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00006889">
+            <code>00006889</code> — LOADMENUINDIRECT
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00006892">
+            <code>00006892</code> — CREATEMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="0000689B">
+            <code>0000689B</code> — CREATEPOPUPMENU
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00007E9E">
+            <code>00007E9E</code> — GETMENUCHECKMARKDIMENSIONS
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00007EC6">
+            <code>00007EC6</code> — SETMENUITEMBITMAPS
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00007F1C">
+            <code>00007F1C</code> — SETMENUITEMINFOSTRUCT
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00007FC0">
+            <code>00007FC0</code> — GETMENUSTRING
+            
+          </li>
+        
+          <li data-segment="00001570" data-offset="00008A10">
+            <code>00008A10</code> — GETMENUWND
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: _DLG @ 000018A0
+      </summary>
+      <ul>
+        
+          <li data-segment="000018A0" data-offset="0000323C">
+            <code>0000323C</code> — GETPARENTDIALOG
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000045BE">
+            <code>000045BE</code> — DIALOGBOX2
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00004B6E">
+            <code>00004B6E</code> — GETDIALOGBASEUNITS
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005EDA">
+            <code>00005EDA</code> — CREATEDIALOG
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005EDF">
+            <code>00005EDF</code> — CREATEDIALOGINDIRECT
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005EE4">
+            <code>00005EE4</code> — DIALOGBOX
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005EE9">
+            <code>00005EE9</code> — DIALOGBOXINDIRECT
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005EF6">
+            <code>00005EF6</code> — ENDDIALOG
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F02">
+            <code>00005F02</code> — CHECKDLGBUTTON
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F11">
+            <code>00005F11</code> — CHECKRADIOBUTTON
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F28">
+            <code>00005F28</code> — ISDLGBUTTONCHECKED
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F2D">
+            <code>00005F2D</code> — GETDLGITEM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F3C">
+            <code>00005F3C</code> — GETDLGITEMTEXT
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F4D">
+            <code>00005F4D</code> — GETDLGITEMINT
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F60">
+            <code>00005F60</code> — SENDDLGITEMMESSAGE
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F77">
+            <code>00005F77</code> — SETDLGITEMINT
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005F8F">
+            <code>00005F8F</code> — SETDLGITEMTEXT
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005FF9">
+            <code>00005FF9</code> — ISDIALOGMESSAGE
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00005FFE">
+            <code>00005FFE</code> — DEFDLGPROC
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006009">
+            <code>00006009</code> — CREATEDIALOGPARAM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="0000604F">
+            <code>0000604F</code> — CREATEDIALOGINDIRECTPARAM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006098">
+            <code>00006098</code> — DIALOGBOXPARAM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000060E6">
+            <code>000060E6</code> — DIALOGBOXINDIRECTPARAM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006130">
+            <code>00006130</code> — ENDDIALOG32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006150">
+            <code>00006150</code> — GETDLGITEM32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006170">
+            <code>00006170</code> — SETDLGITEMINT32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006199">
+            <code>00006199</code> — GETDLGITEMINT32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000061CD">
+            <code>000061CD</code> — SETDLGITEMTEXT32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000061FB">
+            <code>000061FB</code> — GETDLGITEMTEXT32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="0000623C">
+            <code>0000623C</code> — CHECKDLGBUTTON32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="0000625F">
+            <code>0000625F</code> — CHECKRADIOBUTTON32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="0000628B">
+            <code>0000628B</code> — ISDLGBUTTONCHECKED32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000062AB">
+            <code>000062AB</code> — SENDDLGITEMMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000062DA">
+            <code>000062DA</code> — GETNEXTDLGGROUPITEM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006308">
+            <code>00006308</code> — GETNEXTDLGTABITEM
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006336">
+            <code>00006336</code> — GETDLGCTRLID
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="00006350">
+            <code>00006350</code> — DEFDLGPROC32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="0000638F">
+            <code>0000638F</code> — ISDIALOGMESSAGE32
+            
+          </li>
+        
+          <li data-segment="000018A0" data-offset="000063ED">
+            <code>000063ED</code> — MAPDIALOGRECT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 9: _WINSWP @ 00001970
+      </summary>
+      <ul>
+        
+          <li data-segment="00001970" data-offset="00000000">
+            <code>00000000</code> — BRINGWINDOWTOTOP
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="00000013">
+            <code>00000013</code> — ENDDEFERWINDOWPOS
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="0000001C">
+            <code>0000001C</code> — MOVEWINDOW
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="00000045">
+            <code>00000045</code> — SETWINDOWPOS
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="00000093">
+            <code>00000093</code> — DEFERWINDOWPOS
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="000000E5">
+            <code>000000E5</code> — ENDDEFERWINDOWPOSEX
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="00000137">
+            <code>00000137</code> — GETWINDOWRGN
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="000008E2">
+            <code>000008E2</code> — BEGINDEFERWINDOWPOS
+            
+          </li>
+        
+          <li data-segment="00001970" data-offset="000009F0">
+            <code>000009F0</code> — DEFERWINDOWPOS2
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 11: _WINCRTDST @ 00001A50
+      </summary>
+      <ul>
+        
+          <li data-segment="00001A50" data-offset="00000A76">
+            <code>00000A76</code> — CREATEWINDOWEX
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000C1F">
+            <code>00000C1F</code> — REGISTERCLASS
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000C3F">
+            <code>00000C3F</code> — REGISTERCLASSEX
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000C72">
+            <code>00000C72</code> — UNREGISTERCLASS
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000C96">
+            <code>00000C96</code> — GETCLASSINFO
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000CBF">
+            <code>00000CBF</code> — GETCLASSINFOEX
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000CF1">
+            <code>00000CF1</code> — GETCLASSNAME
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000D2C">
+            <code>00000D2C</code> — CREATEWINDOW
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000D92">
+            <code>00000D92</code> — CREATEWINDOWEX32
+            
+          </li>
+        
+          <li data-segment="00001A50" data-offset="00000E14">
+            <code>00000E14</code> — DESTROYWINDOW
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 12: _LISTBOX @ 00001B20
+      </summary>
+      <ul>
+        
+          <li data-segment="00001B20" data-offset="000001E7">
+            <code>000001E7</code> — DLGDIRLIST
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="00000224">
+            <code>00000224</code> — DLGDIRSELECT
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="0000024F">
+            <code>0000024F</code> — DLGDIRSELECTEX
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="0000027D">
+            <code>0000027D</code> — DLGDIRLISTCOMBOBOX
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="000002BA">
+            <code>000002BA</code> — DLGDIRSELECTCOMBOBOX
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="000002E5">
+            <code>000002E5</code> — DLGDIRSELECTCOMBOBOXEX
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="00005350">
+            <code>00005350</code> — DLGDIRLISTHELPER
+            
+          </li>
+        
+          <li data-segment="00001B20" data-offset="000058B2">
+            <code>000058B2</code> — DLGDIRSELECTHELPER
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 13: _WMGR @ 00001CE0
+      </summary>
+      <ul>
+        
+          <li data-segment="00001CE0" data-offset="00001944">
+            <code>00001944</code> — DRAWTEXT
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="0000199C">
+            <code>0000199C</code> — FINDWINDOW
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001A02">
+            <code>00001A02</code> — DRAWTEXTEX
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001A7F">
+            <code>00001A7F</code> — GETTABBEDTEXTEXTENT
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001ACC">
+            <code>00001ACC</code> — TABBEDTEXTOUT
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001C14">
+            <code>00001C14</code> — GETWINDOWPLACEMENT
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001C4C">
+            <code>00001C4C</code> — SETWINDOWPLACEMENT
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001C84">
+            <code>00001C84</code> — DRAWANIMATEDRECTS
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001CD7">
+            <code>00001CD7</code> — SHOWWINDOW
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001D00">
+            <code>00001D00</code> — SHOWWINDOWASYNC
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001D2E">
+            <code>00001D2E</code> — FLASHWINDOW
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001D4B">
+            <code>00001D4B</code> — FLASHWINDOWEX
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001D93">
+            <code>00001D93</code> — SHOWOWNEDPOPUPS
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001DB0">
+            <code>00001DB0</code> — OPENICON
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001DCA">
+            <code>00001DCA</code> — CLOSEWINDOW
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001DE4">
+            <code>00001DE4</code> — LOCKWINDOWUPDATE
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001E49">
+            <code>00001E49</code> — SETSHELLWINDOW
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001E6C">
+            <code>00001E6C</code> — SETPARENT
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001EA2">
+            <code>00001EA2</code> — FINDWINDOWEX
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001EEF">
+            <code>00001EEF</code> — SELECTPALETTE
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00001F36">
+            <code>00001F36</code> — REALIZEPALETTE
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="00004054">
+            <code>00004054</code> — ANYPOPUP
+            
+          </li>
+        
+          <li data-segment="00001CE0" data-offset="000072F6">
+            <code>000072F6</code> — DESTROYWINDOWSHOTKEYS
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 14: _SCRLBAR @ 00001D90
+      </summary>
+      <ul>
+        
+          <li data-segment="00001D90" data-offset="000000B4">
+            <code>000000B4</code> — SETSCROLLPOS
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="000000E3">
+            <code>000000E3</code> — GETSCROLLPOS
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="0000010C">
+            <code>0000010C</code> — SETSCROLLRANGE
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="0000013E">
+            <code>0000013E</code> — GETSCROLLRANGE
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="00000183">
+            <code>00000183</code> — SETSCROLLINFO
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="000001D5">
+            <code>000001D5</code> — GETSCROLLINFO
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="00000224">
+            <code>00000224</code> — SHOWSCROLLBAR
+            
+          </li>
+        
+          <li data-segment="00001D90" data-offset="00000250">
+            <code>00000250</code> — ENABLESCROLLBAR
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 15: _RARE @ 00001F00
+      </summary>
+      <ul>
+        
+          <li data-segment="00001F00" data-offset="000003DC">
+            <code>000003DC</code> — GETSYSTEMDEBUGSTATE
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000004C5">
+            <code>000004C5</code> — GETMESSAGE2
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000510">
+            <code>00000510</code> — SYSTEMPARAMETERSINFO
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000525">
+            <code>00000525</code> — QUERYSENDMESSAGE
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000569">
+            <code>00000569</code> — LOCKINPUT
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000059E">
+            <code>0000059E</code> — ARRANGEICONICWINDOWS
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000005B8">
+            <code>000005B8</code> — TILEWINDOWS
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000609">
+            <code>00000609</code> — CASCADEWINDOWS
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000065A">
+            <code>0000065A</code> — SYSTEMPARAMETERSINFO32
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000006A5">
+            <code>000006A5</code> — GETFREESYSTEMRESOURCES
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000006CB">
+            <code>000006CB</code> — OPENDRIVER
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000006FF">
+            <code>000006FF</code> — CLOSEDRIVER
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000724">
+            <code>00000724</code> — GETDRIVERMODULEHANDLE
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000019AA">
+            <code>000019AA</code> — GETPARENTARRANGERECT
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00001B0A">
+            <code>00001B0A</code> — CASCADEWINDOWSENUM
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00001C88">
+            <code>00001C88</code> — TILEWINDOWSENUM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 16: _RUNAPP @ 00001F90
+      </summary>
+      <ul>
+        
+          <li data-segment="00001F90" data-offset="00000000">
+            <code>00000000</code> — INITAPP
+            
+          </li>
+        
+          <li data-segment="00001F90" data-offset="0000009B">
+            <code>0000009B</code> — EXITWINDOWSEXEC
+            
+          </li>
+        
+          <li data-segment="00001F90" data-offset="00001B44">
+            <code>00001B44</code> — EXITWINDOWS
+            
+          </li>
+        
+          <li data-segment="00001F90" data-offset="00001B5E">
+            <code>00001B5E</code> — EXITWINDOWSEX
+            
+          </li>
+        
+          <li data-segment="00001F90" data-offset="00004052">
+            <code>00004052</code> — CLOSECOMMPORTS
+            
+          </li>
+        
+          <li data-segment="00001F90" data-offset="00004282">
+            <code>00004282</code> — ISCLIPBOARDFORMATAVAILABLE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 17: _MDI @ 00002030
+      </summary>
+      <ul>
+        
+          <li data-segment="00002030" data-offset="00000058">
+            <code>00000058</code> — DEFFRAMEPROC
+            
+          </li>
+        
+          <li data-segment="00002030" data-offset="0000005D">
+            <code>0000005D</code> — DEFMDICHILDPROC
+            
+          </li>
+        
+          <li data-segment="00002030" data-offset="00000068">
+            <code>00000068</code> — DEFFRAMEPROC32
+            
+          </li>
+        
+          <li data-segment="00002030" data-offset="000000AA">
+            <code>000000AA</code> — DEFMDICHILDPROC32
+            
+          </li>
+        
+          <li data-segment="00002030" data-offset="000000E9">
+            <code>000000E9</code> — TRANSLATEMDISYSACCEL
+            
+          </li>
+        
+          <li data-segment="00002030" data-offset="00000302">
+            <code>00000302</code> — MODIFYMENUITEM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 18: _RESOURCE @ 000021B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000021B0" data-offset="00000000">
+            <code>00000000</code> — DESTROYICON
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000005">
+            <code>00000005</code> — DESTROYCURSOR
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000010">
+            <code>00000010</code> — LOADBITMAP
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000034">
+            <code>00000034</code> — LOADCURSOR
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="0000003C">
+            <code>0000003C</code> — LOADICON
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="0000004F">
+            <code>0000004F</code> — COPYCURSOR
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000054">
+            <code>00000054</code> — COPYICON
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="000000A6">
+            <code>000000A6</code> — LOOKUPICONIDFROMDIRECTORYEX
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000115">
+            <code>00000115</code> — LOADACCELERATORS
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000139">
+            <code>00000139</code> — COPYIMAGE
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="000001AD">
+            <code>000001AD</code> — LOADIMAGE
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="000001FA">
+            <code>000001FA</code> — CREATECURSORICONINDIRECT
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000242">
+            <code>00000242</code> — CREATECURSOR
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000283">
+            <code>00000283</code> — CREATEICONINDIRECT
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="000002A3">
+            <code>000002A3</code> — CREATEICONFROMRESOURCEEX
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000309">
+            <code>00000309</code> — CREATEICON
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="0000034A">
+            <code>0000034A</code> — DESTROYICON32
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00000372">
+            <code>00000372</code> — LOADSTRING
+            
+          </li>
+        
+          <li data-segment="000021B0" data-offset="00003246">
+            <code>00003246</code> — COPYIMAGEFROMRES
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 20: _NET @ 00002210
+      </summary>
+      <ul>
+        
+          <li data-segment="00002210" data-offset="00000026">
+            <code>00000026</code> — WNETADDCONNECTION
+            
+          </li>
+        
+          <li data-segment="00002210" data-offset="00000065">
+            <code>00000065</code> — WNETCANCELCONNECTION
+            
+          </li>
+        
+          <li data-segment="00002210" data-offset="0000008B">
+            <code>0000008B</code> — WNETGETCONNECTION
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 21: _INIT @ 000022C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000022C0" data-offset="00000043">
+            <code>00000043</code> — DRAWMENUBARTEMP
+            
+          </li>
+        
+          <li data-segment="000022C0" data-offset="000000AA">
+            <code>000000AA</code> — SETSYSCOLORS
+            
+          </li>
+        
+          <li data-segment="000022C0" data-offset="00000F2C">
+            <code>00000F2C</code> — SETCARETBLINKTIME
+            
+          </li>
+        
+          <li data-segment="000022C0" data-offset="0000233F">
+            <code>0000233F</code> — OPENDRIVERSPECIAL
+            
+          </li>
+        
+          <li data-segment="000022C0" data-offset="00006AFA">
+            <code>00006AFA</code> — GETMESSAGETHINGASSERTS
+            
+          </li>
+        
+          <li data-segment="000022C0" data-offset="00007392">
+            <code>00007392</code> — OFFSETRECTANGLES
+            
+          </li>
+        
+          <li data-segment="000022C0" data-offset="0000B84C">
+            <code>0000B84C</code> — SETSYSCOLORSTEMP
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 22: _COMDEV @ 00002410
+      </summary>
+      <ul>
+        
+          <li data-segment="00002410" data-offset="00000D72">
+            <code>00000D72</code> — OPENCOMM
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000D9E">
+            <code>00000D9E</code> — SETCOMMSTATE
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000DC4">
+            <code>00000DC4</code> — GETCOMMSTATE
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000DF8">
+            <code>00000DF8</code> — READCOMM
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000E2F">
+            <code>00000E2F</code> — UNGETCOMMCHAR
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000E58">
+            <code>00000E58</code> — WRITECOMM
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000E8D">
+            <code>00000E8D</code> — CLOSECOMM
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000EB3">
+            <code>00000EB3</code> — GETCOMMERROR
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000EE1">
+            <code>00000EE1</code> — BUILDCOMMDCB
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000F15">
+            <code>00000F15</code> — TRANSMITCOMMCHAR
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000F3E">
+            <code>00000F3E</code> — SETCOMMEVENTMASK
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000F6D">
+            <code>00000F6D</code> — GETCOMMEVENTMASK
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000F9C">
+            <code>00000F9C</code> — SETCOMMBREAK
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000FC2">
+            <code>00000FC2</code> — CLEARCOMMBREAK
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00000FE8">
+            <code>00000FE8</code> — FLUSHCOMM
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="00001011">
+            <code>00001011</code> — ESCAPECOMMFUNCTION
+            
+          </li>
+        
+          <li data-segment="00002410" data-offset="0000103C">
+            <code>0000103C</code> — ENABLECOMMNOTIFICATION
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 23: _CLPBRD @ 00002560
+      </summary>
+      <ul>
+        
+          <li data-segment="00002560" data-offset="00000B4C">
+            <code>00000B4C</code> — SETCLIPBOARDDATA32
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00000B8A">
+            <code>00000B8A</code> — GETCLIPBOARDDATA32
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00000CB6">
+            <code>00000CB6</code> — EMPTYCLIPBOARD
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00000DAA">
+            <code>00000DAA</code> — CLOSECLIPBOARD
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00000ECE">
+            <code>00000ECE</code> — ENUMCLIPBOARDFORMATS
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00000F72">
+            <code>00000F72</code> — COUNTCLIPBOARDFORMATS
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="0000142C">
+            <code>0000142C</code> — GETCLIPBOARDDATA
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00001435">
+            <code>00001435</code> — SETCLIPBOARDDATA
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="0000143E">
+            <code>0000143E</code> — OPENCLIPBOARD
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="00001461">
+            <code>00001461</code> — SETCLIPBOARDVIEWER
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="0000147B">
+            <code>0000147B</code> — CHANGECLIPBOARDCHAIN
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="000014B8">
+            <code>000014B8</code> — GETCLIPBOARDFORMATNAME
+            
+          </li>
+        
+          <li data-segment="00002560" data-offset="000014F1">
+            <code>000014F1</code> — GETPRIORITYCLIPBOARDFORMAT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 26: _SWITCH @ 000025A0
+      </summary>
+      <ul>
+        
+          <li data-segment="000025A0" data-offset="00000A24">
+            <code>00000A24</code> — DRAWICONCALLBACK
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 27: _RESRARE @ 000025F0
+      </summary>
+      <ul>
+        
+          <li data-segment="000025F0" data-offset="00000CDC">
+            <code>00000CDC</code> — COPYCURSORFRAME
+            
+          </li>
+        
+          <li data-segment="000025F0" data-offset="00000DA0">
+            <code>00000DA0</code> — LOADICONHANDLER
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 28: _WINABLE @ 00002660
+      </summary>
+      <ul>
+        
+          <li data-segment="00002660" data-offset="000014BC">
+            <code>000014BC</code> — GETCURSORINFO
+            
+          </li>
+        
+          <li data-segment="00002660" data-offset="00001658">
+            <code>00001658</code> — GETWINDOWMODULEFILENAME
+            
+          </li>
+        
+          <li data-segment="00002660" data-offset="000016C4">
+            <code>000016C4</code> — GETWINDOWINFO
+            
+          </li>
+        
+          <li data-segment="00002660" data-offset="00002212">
+            <code>00002212</code> — GETMENUBARINFO
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 30: THUNK16A @ 000026D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000026D0" data-offset="00003019">
+            <code>00003019</code> — GETWINDOWTYPE
+            
+          </li>
+        
+          <li data-segment="000026D0" data-offset="0000307E">
+            <code>0000307E</code> — ISWINDOWCLASSTYPE
+            
+          </li>
+        
+          <li data-segment="000026D0" data-offset="0000554E">
+            <code>0000554E</code> — MESSAGEBOXINDIRECT_CALLBACK16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 32: THUNK16 @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00001865">
+            <code>00001865</code> — ISCHARALPHANUMERIC32
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000186A">
+            <code>0000186A</code> — ISCHARLOWER32
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000186F">
+            <code>0000186F</code> — ISCHARUPPER32
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001874">
+            <code>00001874</code> — ISCHARALPHA32
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

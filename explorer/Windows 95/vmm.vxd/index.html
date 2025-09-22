@@ -1,0 +1,4200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VMM — Windows 95</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>Rt.h</li>
+      
+        <li>sysdm.c</li>
+      
+        <li>SYSTEM.C</li>
+      
+        <li>WIN.C</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00003FE0
+      </summary>
+      <ul>
+        
+          <li data-segment="00003FE0" data-offset="00000F43">
+            <code>00000F43</code> — Allocate_V86_Call_Back
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00000FC1">
+            <code>00000FC1</code> — Allocate_PM_Call_Back
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000010E4">
+            <code>000010E4</code> — Call_When_VM_Returns
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000129C">
+            <code>0000129C</code> — Simulate_Push
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001310">
+            <code>00001310</code> — Simulate_Pop
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001384">
+            <code>00001384</code> — Map_Flat
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000013F8">
+            <code>000013F8</code> — Map_Lin_To_VM_Addr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001608">
+            <code>00001608</code> — Get_Cur_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001620">
+            <code>00001620</code> — Test_Cur_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001644">
+            <code>00001644</code> — Get_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001659">
+            <code>00001659</code> — Test_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001670">
+            <code>00001670</code> — Validate_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000240B">
+            <code>0000240B</code> — Get_V86_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000242D">
+            <code>0000242D</code> — Set_V86_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000244C">
+            <code>0000244C</code> — Get_PM_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002492">
+            <code>00002492</code> — Set_PM_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002518">
+            <code>00002518</code> — Simulate_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002560">
+            <code>00002560</code> — Build_Int_Stack_Frame
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002630">
+            <code>00002630</code> — Simulate_Iret
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002658">
+            <code>00002658</code> — Simulate_Far_Call
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000026EC">
+            <code>000026EC</code> — Simulate_Far_Jmp
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002710">
+            <code>00002710</code> — Simulate_Far_Ret
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000027A1">
+            <code>000027A1</code> — Simulate_Far_Ret_N
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000027EC">
+            <code>000027EC</code> — Call_When_VM_Ints_Enabled
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000282C">
+            <code>0000282C</code> — Enable_VM_Ints
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000284C">
+            <code>0000284C</code> — Disable_VM_Ints
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002A72">
+            <code>00002A72</code> — Get_VMM_Version
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002B28">
+            <code>00002B28</code> — Schedule_Global_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002B30">
+            <code>00002B30</code> — Call_Global_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002BE0">
+            <code>00002BE0</code> — Schedule_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002BE8">
+            <code>00002BE8</code> — Call_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002D35">
+            <code>00002D35</code> — Cancel_Global_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002DB9">
+            <code>00002DB9</code> — Cancel_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002F24">
+            <code>00002F24</code> — Call_Priority_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000031F4">
+            <code>000031F4</code> — Cancel_Priority_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003EDC">
+            <code>00003EDC</code> — Set_VM_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003F2C">
+            <code>00003F2C</code> — Set_Global_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004078">
+            <code>00004078</code> — Cancel_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000040C8">
+            <code>000040C8</code> — Get_System_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004108">
+            <code>00004108</code> — Get_VM_Exec_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004F2C">
+            <code>00004F2C</code> — Get_VMM_Reenter_Count
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004F41">
+            <code>00004F41</code> — Begin_Reentrant_Execution
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004F58">
+            <code>00004F58</code> — End_Reentrant_Execution
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00006472">
+            <code>00006472</code> — _ModifyPageBits
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000067E0">
+            <code>000067E0</code> — _LinPageLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00006D18">
+            <code>00006D18</code> — _LinPageUnLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00006EC7">
+            <code>00006EC7</code> — _PageUnLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00009C80">
+            <code>00009C80</code> — _PageCheckLinRange
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00009CE3">
+            <code>00009CE3</code> — _CopyPageTable
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000A523">
+            <code>0000A523</code> — _LinMapIntoV86
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000A5BC">
+            <code>0000A5BC</code> — _MapIntoV86
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000A6B9">
+            <code>0000A6B9</code> — _PhysIntoV86
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000AB32">
+            <code>0000AB32</code> — _SelectorMapFlat
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000AB3A">
+            <code>0000AB3A</code> — _DEBUG_SelectorMapFlat
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C2ED">
+            <code>0000C2ED</code> — _GetV86PageableArray
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C6C0">
+            <code>0000C6C0</code> — Begin_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C780">
+            <code>0000C780</code> — End_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CE44">
+            <code>0000CE44</code> — Signal_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CE98">
+            <code>0000CE98</code> — Wait_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000D8B4">
+            <code>0000D8B4</code> — Adjust_Exec_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DA6E">
+            <code>0000DA6E</code> — Suspend_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DBB0">
+            <code>0000DBB0</code> — Resume_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DCCC">
+            <code>0000DCCC</code> — End_Crit_And_Suspend
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DD93">
+            <code>0000DD93</code> — Claim_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DDCD">
+            <code>0000DDCD</code> — Release_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DE3C">
+            <code>0000DE3C</code> — Get_Crit_Section_Status
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DF98">
+            <code>0000DF98</code> — Create_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E004">
+            <code>0000E004</code> — Destroy_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E524">
+            <code>0000E524</code> — Nuke_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E59F">
+            <code>0000E59F</code> — Crash_Cur_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E8A4">
+            <code>0000E8A4</code> — Get_Next_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F4CC">
+            <code>0000F4CC</code> — Get_Time_Slice_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F5C8">
+            <code>0000F5C8</code> — Set_Time_Slice_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F678">
+            <code>0000F678</code> — Get_Execution_Focus
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F77E">
+            <code>0000F77E</code> — Set_Execution_Focus
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F7D0">
+            <code>0000F7D0</code> — Get_Time_Slice_Granularity
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F7E4">
+            <code>0000F7E4</code> — Set_Time_Slice_Granularity
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F810">
+            <code>0000F810</code> — Get_Time_Slice_Info
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FB40">
+            <code>0000FB40</code> — Release_Time_Slice
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FB9D">
+            <code>0000FB9D</code> — Wake_Up_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FBEC">
+            <code>0000FBEC</code> — Adjust_Execution_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FC9B">
+            <code>0000FC9B</code> — No_Fail_Resume_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00011110">
+            <code>00011110</code> — _LCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00011118">
+            <code>00011118</code> — _LCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016848">
+            <code>00016848</code> — _Get_VMM_Version
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001684C">
+            <code>0001684C</code> — _Get_Cur_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016850">
+            <code>00016850</code> — _Test_Cur_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016854">
+            <code>00016854</code> — _Get_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016858">
+            <code>00016858</code> — _Test_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001685C">
+            <code>0001685C</code> — _Validate_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016860">
+            <code>00016860</code> — _Get_VMM_Reenter_Count
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016864">
+            <code>00016864</code> — _Begin_Reentrant_Execution
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016868">
+            <code>00016868</code> — _End_Reentrant_Execution
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001686C">
+            <code>0001686C</code> — _Install_V86_Break_Point
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016870">
+            <code>00016870</code> — _Remove_V86_Break_Point
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016874">
+            <code>00016874</code> — _Allocate_V86_Call_Back
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016878">
+            <code>00016878</code> — _Allocate_PM_Call_Back
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001687C">
+            <code>0001687C</code> — _Call_When_VM_Returns
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016880">
+            <code>00016880</code> — _Schedule_Global_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016884">
+            <code>00016884</code> — _Schedule_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016888">
+            <code>00016888</code> — _Call_Global_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001688C">
+            <code>0001688C</code> — _Call_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016890">
+            <code>00016890</code> — _Cancel_Global_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016894">
+            <code>00016894</code> — _Cancel_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016898">
+            <code>00016898</code> — _Call_Priority_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001689C">
+            <code>0001689C</code> — _Cancel_Priority_VM_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168A0">
+            <code>000168A0</code> — _Get_NMI_Handler_Addr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168A4">
+            <code>000168A4</code> — _Set_NMI_Handler_Addr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168A8">
+            <code>000168A8</code> — _Hook_NMI_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168AC">
+            <code>000168AC</code> — _Call_When_VM_Ints_Enabled
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168B0">
+            <code>000168B0</code> — _Enable_VM_Ints
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168B4">
+            <code>000168B4</code> — _Disable_VM_Ints
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168B8">
+            <code>000168B8</code> — _Map_Flat
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168BC">
+            <code>000168BC</code> — _Map_Lin_To_VM_Addr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168C0">
+            <code>000168C0</code> — _Adjust_Exec_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168C4">
+            <code>000168C4</code> — _Begin_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168C8">
+            <code>000168C8</code> — _End_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168CC">
+            <code>000168CC</code> — _End_Crit_And_Suspend
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168D0">
+            <code>000168D0</code> — _Claim_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168D4">
+            <code>000168D4</code> — _Release_Critical_Section
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168DC">
+            <code>000168DC</code> — _Create_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168E0">
+            <code>000168E0</code> — _Destroy_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168E4">
+            <code>000168E4</code> — _Wait_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168E8">
+            <code>000168E8</code> — _Signal_Semaphore
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168EC">
+            <code>000168EC</code> — _Get_Crit_Section_Status
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168F4">
+            <code>000168F4</code> — _Suspend_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168F8">
+            <code>000168F8</code> — _Resume_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168FC">
+            <code>000168FC</code> — _No_Fail_Resume_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016900">
+            <code>00016900</code> — _Nuke_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016904">
+            <code>00016904</code> — _Crash_Cur_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016908">
+            <code>00016908</code> — _Get_Execution_Focus
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001690C">
+            <code>0001690C</code> — _Set_Execution_Focus
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016910">
+            <code>00016910</code> — _Get_Time_Slice_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016914">
+            <code>00016914</code> — _Set_Time_Slice_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016918">
+            <code>00016918</code> — _Get_Time_Slice_Granularity
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001691C">
+            <code>0001691C</code> — _Set_Time_Slice_Granularity
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016920">
+            <code>00016920</code> — _Get_Time_Slice_Info
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016924">
+            <code>00016924</code> — _Adjust_Execution_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016928">
+            <code>00016928</code> — _Release_Time_Slice
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001692C">
+            <code>0001692C</code> — _Wake_Up_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016934">
+            <code>00016934</code> — _Get_Next_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016938">
+            <code>00016938</code> — _Set_Global_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001693C">
+            <code>0001693C</code> — _Set_VM_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016940">
+            <code>00016940</code> — _Cancel_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016944">
+            <code>00016944</code> — _Get_System_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016948">
+            <code>00016948</code> — _Get_VM_Exec_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001694C">
+            <code>0001694C</code> — _Hook_V86_Int_Chain
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016950">
+            <code>00016950</code> — _Get_V86_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016954">
+            <code>00016954</code> — _Set_V86_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016958">
+            <code>00016958</code> — _Get_PM_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001695C">
+            <code>0001695C</code> — _Set_PM_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016960">
+            <code>00016960</code> — _Simulate_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016964">
+            <code>00016964</code> — _Simulate_Iret
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016968">
+            <code>00016968</code> — _Simulate_Far_Call
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001696C">
+            <code>0001696C</code> — _Simulate_Far_Jmp
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016970">
+            <code>00016970</code> — _Simulate_Far_Ret
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016974">
+            <code>00016974</code> — _Simulate_Far_Ret_N
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016978">
+            <code>00016978</code> — _Build_Int_Stack_Frame
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001697C">
+            <code>0001697C</code> — _Simulate_Push
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016980">
+            <code>00016980</code> — _Simulate_Pop
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016984">
+            <code>00016984</code> — __HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016988">
+            <code>00016988</code> — __HeapReAllocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001698C">
+            <code>0001698C</code> — __HeapFree
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016990">
+            <code>00016990</code> — __HeapGetSize
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016994">
+            <code>00016994</code> — __PageAllocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016998">
+            <code>00016998</code> — __PageReAllocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001699C">
+            <code>0001699C</code> — __PageFree
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169A0">
+            <code>000169A0</code> — __PageLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169A4">
+            <code>000169A4</code> — __PageUnLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169A8">
+            <code>000169A8</code> — __PageGetSizeAddr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169AC">
+            <code>000169AC</code> — __PageGetAllocInfo
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169B0">
+            <code>000169B0</code> — __GetFreePageCount
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169B4">
+            <code>000169B4</code> — __GetSysPageCount
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169B8">
+            <code>000169B8</code> — __GetVMPgCount
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169BC">
+            <code>000169BC</code> — __MapIntoV86
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169C0">
+            <code>000169C0</code> — __PhysIntoV86
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169C4">
+            <code>000169C4</code> — __TestGlobalV86Mem
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169C8">
+            <code>000169C8</code> — __ModifyPageBits
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169CC">
+            <code>000169CC</code> — __CopyPageTable
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169D0">
+            <code>000169D0</code> — __LinMapIntoV86
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169D4">
+            <code>000169D4</code> — __LinPageLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169D8">
+            <code>000169D8</code> — __LinPageUnLock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169DC">
+            <code>000169DC</code> — __SetResetV86Pageable
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169E0">
+            <code>000169E0</code> — __GetV86PageableArray
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169E4">
+            <code>000169E4</code> — __PageCheckLinRange
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169E8">
+            <code>000169E8</code> — __PageOutDirtyPages
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169EC">
+            <code>000169EC</code> — __PageDiscardPages
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169F0">
+            <code>000169F0</code> — __GetNulPageHandle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169F4">
+            <code>000169F4</code> — __GetFirstV86Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169F8">
+            <code>000169F8</code> — __MapPhysToLinear
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000169FC">
+            <code>000169FC</code> — __GetAppFlatDSAlias
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A00">
+            <code>00016A00</code> — __SelectorMapFlat
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A04">
+            <code>00016A04</code> — __GetDemandPageInfo
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A08">
+            <code>00016A08</code> — __GetSetPageOutCount
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E90">
+            <code>00016E90</code> — VMM_DDB
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00000B62">
+            <code>00000B62</code> — Fatal_Memory_Error
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00000B89">
+            <code>00000B89</code> — Fatal_Error_Handler
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000017C0">
+            <code>000017C0</code> — Test_Debug_Installed
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000017CE">
+            <code>000017CE</code> — Test_DBCS_Lead_Byte
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001AA6">
+            <code>00001AA6</code> — List_Create
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001B5D">
+            <code>00001B5D</code> — List_Destroy
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001BA4">
+            <code>00001BA4</code> — List_Allocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001C6C">
+            <code>00001C6C</code> — List_Attach
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001C98">
+            <code>00001C98</code> — List_Insert
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001CC8">
+            <code>00001CC8</code> — List_Attach_Tail
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001D04">
+            <code>00001D04</code> — List_Remove
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001D50">
+            <code>00001D50</code> — List_Deallocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001D9C">
+            <code>00001D9C</code> — List_Get_First
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001DC8">
+            <code>00001DC8</code> — List_Get_Next
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001DF4">
+            <code>00001DF4</code> — List_Remove_First
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001E22">
+            <code>00001E22</code> — System_Control
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000037AC">
+            <code>000037AC</code> — Begin_Nest_V86_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003804">
+            <code>00003804</code> — Begin_Nest_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000393C">
+            <code>0000393C</code> — Exec_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003950">
+            <code>00003950</code> — Resume_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003958">
+            <code>00003958</code> — No_Complain_Resume_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003A78">
+            <code>00003A78</code> — End_Nest_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003BB4">
+            <code>00003BB4</code> — Set_V86_Exec_Mode
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003C24">
+            <code>00003C24</code> — Set_PM_Exec_Mode
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003C8C">
+            <code>00003C8C</code> — Get_Cur_PM_App_CB
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003CB4">
+            <code>00003CB4</code> — Save_Client_State
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003CE0">
+            <code>00003CE0</code> — Restore_Client_State
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003D5C">
+            <code>00003D5C</code> — Begin_Use_Locked_PM_Stack
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003E22">
+            <code>00003E22</code> — End_Use_Locked_PM_Stack
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000040DC">
+            <code>000040DC</code> — Get_Last_Updated_System_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004134">
+            <code>00004134</code> — Get_Last_Updated_VM_Exec_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000041C0">
+            <code>000041C0</code> — Update_System_Clock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004518">
+            <code>00004518</code> — Enable_Global_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004578">
+            <code>00004578</code> — Enable_Local_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000045F0">
+            <code>000045F0</code> — Disable_Global_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004650">
+            <code>00004650</code> — Disable_Local_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000048EC">
+            <code>000048EC</code> — Simulate_IO
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000ACD2">
+            <code>0000ACD2</code> — _Allocate_GDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000AE91">
+            <code>0000AE91</code> — _Free_GDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000AF60">
+            <code>0000AF60</code> — _Allocate_LDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B339">
+            <code>0000B339</code> — _Free_LDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B409">
+            <code>0000B409</code> — _BuildDescriptorDWORDs
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B4CB">
+            <code>0000B4CB</code> — _GetDescriptor
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B51C">
+            <code>0000B51C</code> — _SetDescriptor
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B70B">
+            <code>0000B70B</code> — _MMGR_Toggle_HMA
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000BE22">
+            <code>0000BE22</code> — Hook_V86_Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000BF58">
+            <code>0000BF58</code> — _XchgFreePhysReg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FD70">
+            <code>0000FD70</code> — Debug_Convert_Hex_Binary
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FD94">
+            <code>0000FD94</code> — Debug_Convert_Hex_Decimal
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FE42">
+            <code>0000FE42</code> — Out_Debug_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FF63">
+            <code>0000FF63</code> — In_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FFBB">
+            <code>0000FFBB</code> — Out_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000109B0">
+            <code>000109B0</code> — Log_Proc_Call
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010C20">
+            <code>00010C20</code> — Debug_Test_Valid_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010C68">
+            <code>00010C68</code> — Debug_Test_Cur_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010F20">
+            <code>00010F20</code> — Test_Reenter
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010FDC">
+            <code>00010FDC</code> — Validate_Client_Ptr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00011012">
+            <code>00011012</code> — Queue_Debug_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A0C">
+            <code>00016A0C</code> — _Hook_V86_Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A10">
+            <code>00016A10</code> — __Assign_Device_V86_Pages
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A14">
+            <code>00016A14</code> — __DeAssign_Device_V86_Pages
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A18">
+            <code>00016A18</code> — __Get_Device_V86_Pages_Array
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A1C">
+            <code>00016A1C</code> — _MMGR_SetNULPageAddr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A20">
+            <code>00016A20</code> — __Allocate_GDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A24">
+            <code>00016A24</code> — __Free_GDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A28">
+            <code>00016A28</code> — __Allocate_LDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A2C">
+            <code>00016A2C</code> — __Free_LDT_Selector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A30">
+            <code>00016A30</code> — __BuildDescriptorDWORDs
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A34">
+            <code>00016A34</code> — __GetDescriptor
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A38">
+            <code>00016A38</code> — __SetDescriptor
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A3C">
+            <code>00016A3C</code> — __MMGR_Toggle_HMA
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A40">
+            <code>00016A40</code> — _Get_Fault_Hook_Addrs
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A44">
+            <code>00016A44</code> — _Hook_V86_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A48">
+            <code>00016A48</code> — _Hook_PM_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A4C">
+            <code>00016A4C</code> — _Hook_VMM_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A50">
+            <code>00016A50</code> — _Begin_Nest_V86_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A54">
+            <code>00016A54</code> — _Begin_Nest_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A58">
+            <code>00016A58</code> — _Exec_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A5C">
+            <code>00016A5C</code> — _Resume_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A60">
+            <code>00016A60</code> — _End_Nest_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A64">
+            <code>00016A64</code> — _Allocate_PM_App_CB_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A68">
+            <code>00016A68</code> — _Get_Cur_PM_App_CB
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A6C">
+            <code>00016A6C</code> — _Set_V86_Exec_Mode
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A70">
+            <code>00016A70</code> — _Set_PM_Exec_Mode
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A74">
+            <code>00016A74</code> — _Begin_Use_Locked_PM_Stack
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A78">
+            <code>00016A78</code> — _End_Use_Locked_PM_Stack
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A7C">
+            <code>00016A7C</code> — _Save_Client_State
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A80">
+            <code>00016A80</code> — _Restore_Client_State
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A84">
+            <code>00016A84</code> — _Exec_VxD_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A88">
+            <code>00016A88</code> — _Hook_Device_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A8C">
+            <code>00016A8C</code> — _Hook_Device_V86_API
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A90">
+            <code>00016A90</code> — _Hook_Device_PM_API
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A94">
+            <code>00016A94</code> — _System_Control
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A98">
+            <code>00016A98</code> — _Simulate_IO
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016A9C">
+            <code>00016A9C</code> — _Install_Mult_IO_Handlers
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AA0">
+            <code>00016AA0</code> — _Install_IO_Handler
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AA4">
+            <code>00016AA4</code> — _Enable_Global_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AA8">
+            <code>00016AA8</code> — _Enable_Local_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AAC">
+            <code>00016AAC</code> — _Disable_Global_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AB0">
+            <code>00016AB0</code> — _Disable_Local_Trapping
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AB4">
+            <code>00016AB4</code> — _List_Create
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AB8">
+            <code>00016AB8</code> — _List_Destroy
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016ABC">
+            <code>00016ABC</code> — _List_Allocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AC0">
+            <code>00016AC0</code> — _List_Attach
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AC4">
+            <code>00016AC4</code> — _List_Attach_Tail
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AC8">
+            <code>00016AC8</code> — _List_Insert
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016ACC">
+            <code>00016ACC</code> — _List_Remove
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AD0">
+            <code>00016AD0</code> — _List_Deallocate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AD4">
+            <code>00016AD4</code> — _List_Get_First
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AD8">
+            <code>00016AD8</code> — _List_Get_Next
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016ADC">
+            <code>00016ADC</code> — _List_Remove_First
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AE0">
+            <code>00016AE0</code> — __AddInstanceItem
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AE4">
+            <code>00016AE4</code> — __Allocate_Device_CB_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AE8">
+            <code>00016AE8</code> — __Allocate_Global_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AEC">
+            <code>00016AEC</code> — __Allocate_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AF0">
+            <code>00016AF0</code> — __Free_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AF4">
+            <code>00016AF4</code> — _Get_Profile_Decimal_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AF8">
+            <code>00016AF8</code> — _Convert_Decimal_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016AFC">
+            <code>00016AFC</code> — _Get_Profile_Fixed_Point
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B00">
+            <code>00016B00</code> — _Convert_Fixed_Point_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B04">
+            <code>00016B04</code> — _Get_Profile_Hex_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B08">
+            <code>00016B08</code> — _Convert_Hex_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B0C">
+            <code>00016B0C</code> — _Get_Profile_Boolean
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B10">
+            <code>00016B10</code> — _Convert_Boolean_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B14">
+            <code>00016B14</code> — _Get_Profile_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B18">
+            <code>00016B18</code> — _Get_Next_Profile_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B1C">
+            <code>00016B1C</code> — _Get_Environment_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B20">
+            <code>00016B20</code> — _Get_Exec_Path
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B24">
+            <code>00016B24</code> — _Get_Config_Directory
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B28">
+            <code>00016B28</code> — _OpenFile
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B2C">
+            <code>00016B2C</code> — _Get_PSP_Segment
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B30">
+            <code>00016B30</code> — _GetDOSVectors
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B34">
+            <code>00016B34</code> — _Get_Machine_Info
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B38">
+            <code>00016B38</code> — _GetSet_HMA_Info
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B3C">
+            <code>00016B3C</code> — _Set_System_Exit_Code
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B40">
+            <code>00016B40</code> — _Fatal_Error_Handler
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B44">
+            <code>00016B44</code> — _Fatal_Memory_Error
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B48">
+            <code>00016B48</code> — _Update_System_Clock
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B4C">
+            <code>00016B4C</code> — _Test_Debug_Installed
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B50">
+            <code>00016B50</code> — _Out_Debug_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B54">
+            <code>00016B54</code> — _Out_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B58">
+            <code>00016B58</code> — _In_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B5C">
+            <code>00016B5C</code> — _Debug_Convert_Hex_Binary
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B60">
+            <code>00016B60</code> — _Debug_Convert_Hex_Decimal
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B64">
+            <code>00016B64</code> — _Debug_Test_Valid_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B68">
+            <code>00016B68</code> — _Validate_Client_Ptr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B6C">
+            <code>00016B6C</code> — _Test_Reenter
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B70">
+            <code>00016B70</code> — _Queue_Debug_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B74">
+            <code>00016B74</code> — _Log_Proc_Call
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B78">
+            <code>00016B78</code> — _Debug_Test_Cur_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B7C">
+            <code>00016B7C</code> — _Get_PM_Int_Type
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B80">
+            <code>00016B80</code> — _Set_PM_Int_Type
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B84">
+            <code>00016B84</code> — _Get_Last_Updated_System_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B88">
+            <code>00016B88</code> — _Get_Last_Updated_VM_Exec_Time
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B8C">
+            <code>00016B8C</code> — _Test_DBCS_Lead_Byte
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B90">
+            <code>00016B90</code> — __AddFreePhysPage
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B94">
+            <code>00016B94</code> — __PageResetHandlePAddr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B98">
+            <code>00016B98</code> — __SetLastV86Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016B9C">
+            <code>00016B9C</code> — __GetLastV86Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BA0">
+            <code>00016BA0</code> — __MapFreePhysReg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BA4">
+            <code>00016BA4</code> — __UnmapFreePhysReg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BA8">
+            <code>00016BA8</code> — __XchgFreePhysReg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BAC">
+            <code>00016BAC</code> — __SetFreePhysRegCalBk
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00000E8E">
+            <code>00000E8E</code> — VMM_GetSystemInitState
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000016B0">
+            <code>000016B0</code> — Get_Cur_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000016C8">
+            <code>000016C8</code> — Test_Cur_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000016EC">
+            <code>000016EC</code> — Get_Sys_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001701">
+            <code>00001701</code> — Test_Sys_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001718">
+            <code>00001718</code> — Validate_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001778">
+            <code>00001778</code> — Get_Initial_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000179C">
+            <code>0000179C</code> — Test_Initial_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001F50">
+            <code>00001F50</code> — GetSetDetailedVMError
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000027C4">
+            <code>000027C4</code> — Test_VM_Ints_Enabled
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002CB0">
+            <code>00002CB0</code> — Schedule_Thread_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002E55">
+            <code>00002E55</code> — Cancel_Thread_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000038F0">
+            <code>000038F0</code> — _ExecIntMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003904">
+            <code>00003904</code> — _ResumeExecMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003F00">
+            <code>00003F00</code> — Set_Thread_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003F14">
+            <code>00003F14</code> — Set_Async_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004158">
+            <code>00004158</code> — _GetThreadExecTime
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00004194">
+            <code>00004194</code> — _GetLastUpdatedThreadExecTime
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000056B0">
+            <code>000056B0</code> — _ContextSwitch
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000661D">
+            <code>0000661D</code> — _PageCommitPhys
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000096D9">
+            <code>000096D9</code> — _PageFlush
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000BAE6">
+            <code>0000BAE6</code> — Hook_Invalid_Page_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000BB25">
+            <code>0000BB25</code> — Unhook_Invalid_Page_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000BE80">
+            <code>0000BE80</code> — Unhook_V86_Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C3A9">
+            <code>0000C3A9</code> — Enable_Touch_1st_Meg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C3F3">
+            <code>0000C3F3</code> — Disable_Touch_1st_Meg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C638">
+            <code>0000C638</code> — _DestroyMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C7D8">
+            <code>0000C7D8</code> — Begin_V86_Serialization
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CA98">
+            <code>0000CA98</code> — _EnterMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CC48">
+            <code>0000CC48</code> — _LeaveMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CD70">
+            <code>0000CD70</code> — _GetMutexOwner
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CDA0">
+            <code>0000CDA0</code> — _EnterMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CDBC">
+            <code>0000CDBC</code> — _LeaveMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CDE6">
+            <code>0000CDE6</code> — _GetThreadTerminationStatus
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000CE3C">
+            <code>0000CE3C</code> — Signal_Semaphore_No_Switch
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000D424">
+            <code>0000D424</code> — _BlockOnID
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000D4D0">
+            <code>0000D4D0</code> — _SignalID
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000D94C">
+            <code>0000D94C</code> — Adjust_Thread_Exec_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DE54">
+            <code>0000DE54</code> — Get_Crit_Status_No_Block
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DEF4">
+            <code>0000DEF4</code> — Call_When_Not_Critical
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DF4B">
+            <code>0000DF4B</code> — Cancel_Call_When_Not_Critical
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E6B2">
+            <code>0000E6B2</code> — Close_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E8D0">
+            <code>0000E8D0</code> — Get_Next_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E90F">
+            <code>0000E90F</code> — Call_When_Task_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E93C">
+            <code>0000E93C</code> — Call_When_Thread_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E954">
+            <code>0000E954</code> — Cancel_Call_When_Task_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E970">
+            <code>0000E970</code> — Cancel_Call_When_Thread_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F82A">
+            <code>0000F82A</code> — Call_When_Idle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F854">
+            <code>0000F854</code> — Cancel_Call_When_Idle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FDBE">
+            <code>0000FDBE</code> — _Trace_Out_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FDDB">
+            <code>0000FDDB</code> — _Debug_Out_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FE0F">
+            <code>0000FE0F</code> — _Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FF8F">
+            <code>0000FF8F</code> — Is_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001008A">
+            <code>0001008A</code> — Clear_Mono_Screen
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000100F0">
+            <code>000100F0</code> — Get_Mono_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0001014A">
+            <code>0001014A</code> — Out_Mono_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000101B8">
+            <code>000101B8</code> — Out_Mono_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000101E4">
+            <code>000101E4</code> — Set_Mono_Cur_Pos
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000101FF">
+            <code>000101FF</code> — Get_Mono_Cur_Pos
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010C44">
+            <code>00010C44</code> — Debug_Test_Valid_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010C8C">
+            <code>00010C8C</code> — Debug_Test_Cur_Thread
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00010CC0">
+            <code>00010CC0</code> — _Debug_Flags_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168D8">
+            <code>000168D8</code> — _Call_When_Not_Critical
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000168F0">
+            <code>000168F0</code> — _Call_When_Task_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016930">
+            <code>00016930</code> — _Call_When_Idle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BB0">
+            <code>00016BB0</code> — _Get_Next_Arena
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BB4">
+            <code>00016BB4</code> — _Get_Name_Of_Ugly_TSR
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BB8">
+            <code>00016BB8</code> — _Get_Debug_Options
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BBC">
+            <code>00016BBC</code> — _Set_Physical_HMA_Alias
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BC0">
+            <code>00016BC0</code> — __GetGlblRng0V86IntBase
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BC4">
+            <code>00016BC4</code> — __Add_Global_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BC8">
+            <code>00016BC8</code> — _GetSetDetailedVMError
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BCC">
+            <code>00016BCC</code> — _Is_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BD0">
+            <code>00016BD0</code> — _Clear_Mono_Screen
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BD4">
+            <code>00016BD4</code> — _Out_Mono_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BD8">
+            <code>00016BD8</code> — _Out_Mono_String
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BDC">
+            <code>00016BDC</code> — _Set_Mono_Cur_Pos
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BE0">
+            <code>00016BE0</code> — _Get_Mono_Cur_Pos
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BE4">
+            <code>00016BE4</code> — _Get_Mono_Chr
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BE8">
+            <code>00016BE8</code> — _Locate_Byte_In_ROM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BEC">
+            <code>00016BEC</code> — _Hook_Invalid_Page_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BF0">
+            <code>00016BF0</code> — _Unhook_Invalid_Page_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BF4">
+            <code>00016BF4</code> — _Set_Delete_On_Exit_File
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BF8">
+            <code>00016BF8</code> — _Close_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016BFC">
+            <code>00016BFC</code> — _Enable_Touch_1st_Meg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C00">
+            <code>00016C00</code> — _Disable_Touch_1st_Meg
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C04">
+            <code>00016C04</code> — _Install_Exception_Handler
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C08">
+            <code>00016C08</code> — _Remove_Exception_Handler
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C0C">
+            <code>00016C0C</code> — _Get_Crit_Status_No_Block
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C10">
+            <code>00016C10</code> — __GetLastUpdatedThreadExecTime
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C14">
+            <code>00016C14</code> — __Trace_Out_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C18">
+            <code>00016C18</code> — __Debug_Out_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C1C">
+            <code>00016C1C</code> — __Debug_Flags_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C20">
+            <code>00016C20</code> — _VMMAddImportModuleName
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C24">
+            <code>00016C24</code> — _VMM_Add_DDB
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C28">
+            <code>00016C28</code> — _VMM_Remove_DDB
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C2C">
+            <code>00016C2C</code> — _Test_VM_Ints_Enabled
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C30">
+            <code>00016C30</code> — __BlockOnID
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C34">
+            <code>00016C34</code> — _Schedule_Thread_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C38">
+            <code>00016C38</code> — _Cancel_Thread_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C3C">
+            <code>00016C3C</code> — _Set_Thread_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C40">
+            <code>00016C40</code> — _Set_Async_Time_Out
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C44">
+            <code>00016C44</code> — __AllocateThreadDataSlot
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C48">
+            <code>00016C48</code> — __FreeThreadDataSlot
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C4C">
+            <code>00016C4C</code> — __CreateMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C50">
+            <code>00016C50</code> — __DestroyMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C54">
+            <code>00016C54</code> — __GetMutexOwner
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C58">
+            <code>00016C58</code> — _Call_When_Thread_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C5C">
+            <code>00016C5C</code> — _VMMCreateThread
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C60">
+            <code>00016C60</code> — __GetThreadExecTime
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C64">
+            <code>00016C64</code> — _VMMTerminateThread
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C68">
+            <code>00016C68</code> — _Get_Cur_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C6C">
+            <code>00016C6C</code> — _Test_Cur_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C70">
+            <code>00016C70</code> — _Get_Sys_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C74">
+            <code>00016C74</code> — _Test_Sys_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C78">
+            <code>00016C78</code> — _Validate_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C7C">
+            <code>00016C7C</code> — _Get_Initial_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C80">
+            <code>00016C80</code> — _Test_Initial_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C84">
+            <code>00016C84</code> — _Debug_Test_Valid_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C88">
+            <code>00016C88</code> — _Debug_Test_Cur_Thread
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C8C">
+            <code>00016C8C</code> — _VMM_GetSystemInitState
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C90">
+            <code>00016C90</code> — _Cancel_Call_When_Thread_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C94">
+            <code>00016C94</code> — _Get_Next_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C98">
+            <code>00016C98</code> — _Adjust_Thread_Exec_Priority
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016C9C">
+            <code>00016C9C</code> — __Deallocate_Device_CB_Area
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CA0">
+            <code>00016CA0</code> — _Remove_IO_Handler
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CA4">
+            <code>00016CA4</code> — _Remove_Mult_IO_Handlers
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CA8">
+            <code>00016CA8</code> — _Unhook_V86_Int_Chain
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CAC">
+            <code>00016CAC</code> — _Unhook_V86_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CB0">
+            <code>00016CB0</code> — _Unhook_PM_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CB4">
+            <code>00016CB4</code> — _Unhook_VMM_Fault
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CB8">
+            <code>00016CB8</code> — _Unhook_Device_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CBC">
+            <code>00016CBC</code> — __PageReserve
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CC0">
+            <code>00016CC0</code> — __PageCommit
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CC4">
+            <code>00016CC4</code> — __PageDecommit
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CC8">
+            <code>00016CC8</code> — __PagerRegister
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CCC">
+            <code>00016CCC</code> — __PagerQuery
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CD0">
+            <code>00016CD0</code> — __PagerDeregister
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CD4">
+            <code>00016CD4</code> — __ContextCreate
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CD8">
+            <code>00016CD8</code> — __ContextDestroy
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CDC">
+            <code>00016CDC</code> — __PageAttach
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CE0">
+            <code>00016CE0</code> — __PageFlush
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CE4">
+            <code>00016CE4</code> — __SignalID
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CE8">
+            <code>00016CE8</code> — __PageCommitPhys
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CEC">
+            <code>00016CEC</code> — __Register_Win32_Services
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CF0">
+            <code>00016CF0</code> — _Cancel_Call_When_Not_Critical
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CF4">
+            <code>00016CF4</code> — _Cancel_Call_When_Idle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CF8">
+            <code>00016CF8</code> — _Cancel_Call_When_Task_Switched
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016CFC">
+            <code>00016CFC</code> — __Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D00">
+            <code>00016D00</code> — __EnterMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D04">
+            <code>00016D04</code> — __LeaveMutex
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D08">
+            <code>00016D08</code> — _Simulate_VM_IO
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D0C">
+            <code>00016D0C</code> — _Signal_Semaphore_No_Switch
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D10">
+            <code>00016D10</code> — __ContextSwitch
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D14">
+            <code>00016D14</code> — __PageModifyPermissions
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D18">
+            <code>00016D18</code> — __PageQuery
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D1C">
+            <code>00016D1C</code> — __EnterMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D20">
+            <code>00016D20</code> — __LeaveMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D24">
+            <code>00016D24</code> — __ResumeExecMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D28">
+            <code>00016D28</code> — __GetThreadTerminationStatus
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D2C">
+            <code>00016D2C</code> — __GetInstanceInfo
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D30">
+            <code>00016D30</code> — __ExecIntMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D34">
+            <code>00016D34</code> — __ExecVxDIntMustComplete
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D38">
+            <code>00016D38</code> — _Begin_V86_Serialization
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D3C">
+            <code>00016D3C</code> — _Unhook_V86_Page
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00000DD8">
+            <code>00000DD8</code> — _LocalizeSprintf
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00000E25">
+            <code>00000E25</code> — _LocalizeStackSprintf
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001505">
+            <code>00001505</code> — _GetVxDName
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00001F08">
+            <code>00001F08</code> — Directed_Sys_Control
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002EE0">
+            <code>00002EE0</code> — Call_Priority_Thread_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00002F34">
+            <code>00002F34</code> — Call_Restricted_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00003204">
+            <code>00003204</code> — Cancel_Restricted_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000376C">
+            <code>0000376C</code> — Begin_Non_Serial_Nest_V86_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="000040F1">
+            <code>000040F1</code> — Get_System_Time_Address
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00005196">
+            <code>00005196</code> — _lstrcpyn
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00005218">
+            <code>00005218</code> — _lstrlen
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00005256">
+            <code>00005256</code> — _lmemcpy
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000570A">
+            <code>0000570A</code> — _GetCurrentContext
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B5DA">
+            <code>0000B5DA</code> — Get_Instanced_V86_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000B65B">
+            <code>0000B65B</code> — Get_Set_Real_DOS_PSP
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C820">
+            <code>0000C820</code> — End_V86_Serialization
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C860">
+            <code>0000C860</code> — Force_Mutexes_Free
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000C976">
+            <code>0000C976</code> — Restore_Forced_Mutexes
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000DEA8">
+            <code>0000DEA8</code> — Get_Crit_Status_Thread
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000E7A8">
+            <code>0000E7A8</code> — Cleanup_Thread_State
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000EFD4">
+            <code>0000EFD4</code> — Get_Thread_Win32_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000EFFE">
+            <code>0000EFFE</code> — Set_Thread_Win32_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F049">
+            <code>0000F049</code> — Set_Inversion_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F0EB">
+            <code>0000F0EB</code> — Reset_Inversion_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F141">
+            <code>0000F141</code> — Release_Inversion_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F20D">
+            <code>0000F20D</code> — Release_Inversion_Pri_ID
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F269">
+            <code>0000F269</code> — Boost_With_Decay
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F31D">
+            <code>0000F31D</code> — Set_Thread_Static_Boost
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F35E">
+            <code>0000F35E</code> — Set_VM_Static_Boost
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F3B7">
+            <code>0000F3B7</code> — Set_Group_Static_Boost
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F400">
+            <code>0000F400</code> — Detach_Thread_From_Group
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F43C">
+            <code>0000F43C</code> — Attach_Thread_To_Group
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F47D">
+            <code>0000F47D</code> — Boost_Thread_With_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F8D9">
+            <code>0000F8D9</code> — Time_Slice_Sleep
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000F9C5">
+            <code>0000F9C5</code> — Time_Slice_Wake_Sys_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="0000FA28">
+            <code>0000FA28</code> — Time_Slice_Sys_VM_Idle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D40">
+            <code>00016D40</code> — _VMM_GetVxDLocationList
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D44">
+            <code>00016D44</code> — _VMM_GetDDBList
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D48">
+            <code>00016D48</code> — _Unhook_NMI_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D4C">
+            <code>00016D4C</code> — _Get_Instanced_V86_Int_Vector
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D50">
+            <code>00016D50</code> — _Get_Set_Real_DOS_PSP
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D54">
+            <code>00016D54</code> — _Call_Priority_Thread_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D58">
+            <code>00016D58</code> — _Get_System_Time_Address
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D5C">
+            <code>00016D5C</code> — _Get_Crit_Status_Thread
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D60">
+            <code>00016D60</code> — _Get_DDB
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D64">
+            <code>00016D64</code> — _Directed_Sys_Control
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D68">
+            <code>00016D68</code> — __RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D6C">
+            <code>00016D6C</code> — __RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D70">
+            <code>00016D70</code> — __RegCreateKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D74">
+            <code>00016D74</code> — __RegDeleteKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D78">
+            <code>00016D78</code> — __RegEnumKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D7C">
+            <code>00016D7C</code> — __RegQueryValue
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D80">
+            <code>00016D80</code> — __RegSetValue
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D84">
+            <code>00016D84</code> — __RegDeleteValue
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D88">
+            <code>00016D88</code> — __RegEnumValue
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D8C">
+            <code>00016D8C</code> — __RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D90">
+            <code>00016D90</code> — __RegSetValueEx
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D94">
+            <code>00016D94</code> — __CallRing3
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D98">
+            <code>00016D98</code> — _Exec_PM_Int
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016D9C">
+            <code>00016D9C</code> — __RegFlushKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DA0">
+            <code>00016DA0</code> — __PageCommitContig
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DA4">
+            <code>00016DA4</code> — __GetCurrentContext
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DA8">
+            <code>00016DA8</code> — __LocalizeSprintf
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DAC">
+            <code>00016DAC</code> — __LocalizeStackSprintf
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DB0">
+            <code>00016DB0</code> — _Call_Restricted_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DB4">
+            <code>00016DB4</code> — _Cancel_Restricted_Event
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DB8">
+            <code>00016DB8</code> — _Register_PEF_Provider
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DBC">
+            <code>00016DBC</code> — __GetPhysPageInfo
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DC0">
+            <code>00016DC0</code> — __RegQueryInfoKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DC4">
+            <code>00016DC4</code> — _MemArb_Reserve_Pages
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DC8">
+            <code>00016DC8</code> — _Time_Slice_Sys_VM_Idle
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DCC">
+            <code>00016DCC</code> — _Time_Slice_Sleep
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DD0">
+            <code>00016DD0</code> — _Boost_With_Decay
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DD4">
+            <code>00016DD4</code> — _Set_Inversion_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DD8">
+            <code>00016DD8</code> — _Reset_Inversion_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DDC">
+            <code>00016DDC</code> — _Release_Inversion_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DE0">
+            <code>00016DE0</code> — _Get_Thread_Win32_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DE4">
+            <code>00016DE4</code> — _Set_Thread_Win32_Pri
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DE8">
+            <code>00016DE8</code> — _Set_Thread_Static_Boost
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DEC">
+            <code>00016DEC</code> — _Set_VM_Static_Boost
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DF0">
+            <code>00016DF0</code> — _Release_Inversion_Pri_ID
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DF4">
+            <code>00016DF4</code> — _Attach_Thread_To_Group
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DF8">
+            <code>00016DF8</code> — _Detach_Thread_From_Group
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016DFC">
+            <code>00016DFC</code> — _Set_Group_Static_Boost
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E00">
+            <code>00016E00</code> — __GetRegistryPath
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E04">
+            <code>00016E04</code> — __GetRegistryKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E08">
+            <code>00016E08</code> — _Cleanup_Thread_State
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E0C">
+            <code>00016E0C</code> — __RegRemapPreDefKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E10">
+            <code>00016E10</code> — _End_V86_Serialization
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E14">
+            <code>00016E14</code> — __Assert_Range
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E18">
+            <code>00016E18</code> — __Sprintf
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E1C">
+            <code>00016E1C</code> — __PageChangePager
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E20">
+            <code>00016E20</code> — __RegCreateDynKey
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E28">
+            <code>00016E28</code> — _Boost_Thread_With_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E2C">
+            <code>00016E2C</code> — _Get_Boot_Flags
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E30">
+            <code>00016E30</code> — _Set_Boot_Flags
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E34">
+            <code>00016E34</code> — __lstrcpyn
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E38">
+            <code>00016E38</code> — __lstrlen
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E3C">
+            <code>00016E3C</code> — __lmemcpy
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E40">
+            <code>00016E40</code> — __GetVxDName
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E44">
+            <code>00016E44</code> — _Force_Mutexes_Free
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E48">
+            <code>00016E48</code> — _Restore_Forced_Mutexes
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E4C">
+            <code>00016E4C</code> — __AddReclaimableItem
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E50">
+            <code>00016E50</code> — __SetReclaimableItem
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E54">
+            <code>00016E54</code> — __EnumReclaimableItem
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E58">
+            <code>00016E58</code> — _Time_Slice_Wake_Sys_VM
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E5C">
+            <code>00016E5C</code> — _VMM_Replace_Global_Environment
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E60">
+            <code>00016E60</code> — _Begin_Non_Serial_Nest_V86_Exec
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E64">
+            <code>00016E64</code> — _Get_Nest_Exec_Status
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E68">
+            <code>00016E68</code> — _Open_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E6C">
+            <code>00016E6C</code> — _Write_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E70">
+            <code>00016E70</code> — _Close_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00003FE0" data-offset="00016E74">
+            <code>00016E74</code> — _EnableDisable_Boot_Log
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _IGROUP @ 00004320
+      </summary>
+      <ul>
+        
+          <li data-segment="00004320" data-offset="000012C7">
+            <code>000012C7</code> — Get_Profile_Decimal_Int
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000012ED">
+            <code>000012ED</code> — Convert_Decimal_String
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00001331">
+            <code>00001331</code> — Get_Profile_Fixed_Point
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00001357">
+            <code>00001357</code> — Convert_Fixed_Point_String
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000013B5">
+            <code>000013B5</code> — Get_Profile_Hex_Int
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000013DD">
+            <code>000013DD</code> — Convert_Hex_String
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000141E">
+            <code>0000141E</code> — Get_Profile_Boolean
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00001444">
+            <code>00001444</code> — Convert_Boolean_String
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000014A0">
+            <code>000014A0</code> — Get_Profile_String
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000014FD">
+            <code>000014FD</code> — Get_Next_Profile_String
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00001635">
+            <code>00001635</code> — GetDOSVectors
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000179A">
+            <code>0000179A</code> — Allocate_PM_App_CB_Area
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00004A2A">
+            <code>00004A2A</code> — _AddFreePhysPage
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000522E">
+            <code>0000522E</code> — _SetLastV86Page
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000553D">
+            <code>0000553D</code> — _Allocate_Global_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000059FB">
+            <code>000059FB</code> — _Allocate_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00005C88">
+            <code>00005C88</code> — _Free_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00005FC6">
+            <code>00005FC6</code> — _AddInstanceItem
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000675A">
+            <code>0000675A</code> — MMGR_SetNULPageAddr
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00006786">
+            <code>00006786</code> — _SetFreePhysRegCalBk
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00007984">
+            <code>00007984</code> — _cGet_Profile_Hex_Int
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000004B3">
+            <code>000004B3</code> — Locate_Byte_In_ROM
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00001561">
+            <code>00001561</code> — Get_Name_Of_Ugly_TSR
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00001581">
+            <code>00001581</code> — Get_Next_Arena
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000058B9">
+            <code>000058B9</code> — _Add_Global_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="00006726">
+            <code>00006726</code> — Set_Physical_HMA_Alias
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000796E">
+            <code>0000796E</code> — _GetGlblRng0V86IntBase
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="0000114D">
+            <code>0000114D</code> — Register_PEF_Provider
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000065B4">
+            <code>000065B4</code> — _AddReclaimableItem
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000066B7">
+            <code>000066B7</code> — _SetReclaimableItem
+            
+          </li>
+        
+          <li data-segment="00004320" data-offset="000079A0">
+            <code>000079A0</code> — MemArb_Reserve_Pages
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _PTEXT @ 00004550
+      </summary>
+      <ul>
+        
+          <li data-segment="00004550" data-offset="00000267">
+            <code>00000267</code> — Exec_VxD_Int
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000BBC">
+            <code>00000BBC</code> — _RgOpenFile
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000232">
+            <code>00000232</code> — _ExecVxDIntMustComplete
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000B10">
+            <code>00000B10</code> — _CreateMutex
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000006">
+            <code>00000006</code> — Get_Boot_Flags
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="0000001D">
+            <code>0000001D</code> — Set_Boot_Flags
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="0000010A">
+            <code>0000010A</code> — _CallRing3
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000325">
+            <code>00000325</code> — Exec_PM_Int
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="000003EA">
+            <code>000003EA</code> — _GetRegistryPath
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="0000043C">
+            <code>0000043C</code> — _Assert_Range
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000A04">
+            <code>00000A04</code> — _Sprintf
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00000AAA">
+            <code>00000AAA</code> — _EnumReclaimableItem
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="0000668F">
+            <code>0000668F</code> — _RegCreateKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="000066CD">
+            <code>000066CD</code> — _RegCreateDynKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006758">
+            <code>00006758</code> — _RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006796">
+            <code>00006796</code> — _RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="000067CE">
+            <code>000067CE</code> — _RegDeleteKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006809">
+            <code>00006809</code> — _RegEnumKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="0000684A">
+            <code>0000684A</code> — _RegDeleteValue
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006885">
+            <code>00006885</code> — _RegEnumValue
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="000068D2">
+            <code>000068D2</code> — _RegQueryValue
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006917">
+            <code>00006917</code> — _RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="0000696A">
+            <code>0000696A</code> — _RegSetValue
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="000069B1">
+            <code>000069B1</code> — _RegSetValueEx
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006A04">
+            <code>00006A04</code> — _RegFlushKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006A3C">
+            <code>00006A3C</code> — _RegQueryInfoKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006A83">
+            <code>00006A83</code> — _GetRegistryKey
+            
+          </li>
+        
+          <li data-segment="00004550" data-offset="00006B0E">
+            <code>00006B0E</code> — _RegRemapPreDefKey
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 12: RARE @ 00004B50
+      </summary>
+      <ul>
+        
+          <li data-segment="00004B50" data-offset="00000A16">
+            <code>00000A16</code> — Install_V86_Break_Point
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00000AC4">
+            <code>00000AC4</code> — Remove_V86_Break_Point
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000119E">
+            <code>0000119E</code> — Hook_V86_Int_Chain
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001497">
+            <code>00001497</code> — Hook_NMI_Event
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000204D">
+            <code>0000204D</code> — Get_NMI_Handler_Addr
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002062">
+            <code>00002062</code> — Set_NMI_Handler_Addr
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002F2B">
+            <code>00002F2B</code> — _MapPhysToLinear
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000311E">
+            <code>0000311E</code> — _GetSetPageOutCount
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003183">
+            <code>00003183</code> — _PageOutDirtyPages
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000031A6">
+            <code>000031A6</code> — _HeapGetSize
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000031F2">
+            <code>000031F2</code> — _GetNulPageHandle
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003207">
+            <code>00003207</code> — _PageGetSizeAddr
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000325C">
+            <code>0000325C</code> — _GetFreePageCount
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000329E">
+            <code>0000329E</code> — _GetSysPageCount
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000032F5">
+            <code>000032F5</code> — _GetVMPgCount
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000034DA">
+            <code>000034DA</code> — _TestGlobalV86Mem
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000036FD">
+            <code>000036FD</code> — _SetResetV86Pageable
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00000006">
+            <code>00000006</code> — Hook_Device_Service
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000131A">
+            <code>0000131A</code> — Get_PM_Int_Type
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001359">
+            <code>00001359</code> — Set_PM_Int_Type
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000014DA">
+            <code>000014DA</code> — Get_Machine_Info
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001509">
+            <code>00001509</code> — Set_System_Exit_Code
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001521">
+            <code>00001521</code> — GetSet_HMA_Info
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000199A">
+            <code>0000199A</code> — Install_Mult_IO_Handlers
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001A39">
+            <code>00001A39</code> — Install_IO_Handler
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001E68">
+            <code>00001E68</code> — Get_Fault_Hook_Addrs
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001F48">
+            <code>00001F48</code> — Hook_V86_Fault
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001F5D">
+            <code>00001F5D</code> — Hook_PM_Fault
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001F72">
+            <code>00001F72</code> — Hook_VMM_Fault
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002143">
+            <code>00002143</code> — Hook_Device_V86_API
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002159">
+            <code>00002159</code> — Hook_Device_PM_API
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002E0C">
+            <code>00002E0C</code> — _PageResetHandlePAddr
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003332">
+            <code>00003332</code> — _DeAssign_Device_V86_Pages
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003628">
+            <code>00003628</code> — _MapFreePhysReg
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003644">
+            <code>00003644</code> — _UnmapFreePhysReg
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000008A">
+            <code>0000008A</code> — Unhook_Device_Service
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000000D4">
+            <code>000000D4</code> — VMMAddImportModuleName
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001075">
+            <code>00001075</code> — _Register_Win32_Services
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000125F">
+            <code>0000125F</code> — Unhook_V86_Int_Chain
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001549">
+            <code>00001549</code> — Set_Delete_On_Exit_File
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000015A4">
+            <code>000015A4</code> — Get_Debug_Options
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001A05">
+            <code>00001A05</code> — Remove_Mult_IO_Handlers
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001AFD">
+            <code>00001AFD</code> — Remove_IO_Handler
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001E0A">
+            <code>00001E0A</code> — Install_Exception_Handler
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001E26">
+            <code>00001E26</code> — Remove_Exception_Handler
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001FD8">
+            <code>00001FD8</code> — Unhook_V86_Fault
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001FED">
+            <code>00001FED</code> — Unhook_PM_Fault
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002002">
+            <code>00002002</code> — Unhook_VMM_Fault
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000026A0">
+            <code>000026A0</code> — _PagerRegister
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002761">
+            <code>00002761</code> — _PagerQuery
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000027DC">
+            <code>000027DC</code> — _PagerDeregister
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003AC0">
+            <code>00003AC0</code> — _AllocateThreadDataSlot
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00003B0B">
+            <code>00003B0B</code> — _FreeThreadDataSlot
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000008CA">
+            <code>000008CA</code> — EnableDisable_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000008EC">
+            <code>000008EC</code> — Open_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00000954">
+            <code>00000954</code> — Close_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00000991">
+            <code>00000991</code> — Write_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00000CA8">
+            <code>00000CA8</code> — VMM_GetVxDLocationList
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00000CCC">
+            <code>00000CCC</code> — VMM_Replace_Global_Environment
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00001061">
+            <code>00001061</code> — VMM_GetDDBList
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000014BD">
+            <code>000014BD</code> — Unhook_NMI_Event
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="0000162A">
+            <code>0000162A</code> — Get_Nest_Exec_Status
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000022C0">
+            <code>000022C0</code> — _PageCommitContig
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="00002630">
+            <code>00002630</code> — _GetPhysPageInfo
+            
+          </li>
+        
+          <li data-segment="00004B50" data-offset="000028B9">
+            <code>000028B9</code> — _PageChangePager
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 13: W16 @ 00004C20
+      </summary>
+      <ul>
+        
+          <li data-segment="00004C20" data-offset="0000281E">
+            <code>0000281E</code> — _PageReAllocate
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="00002D3B">
+            <code>00002D3B</code> — _PageDiscardPages
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="000030C2">
+            <code>000030C2</code> — _HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="00003157">
+            <code>00003157</code> — _HeapReAllocate
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="000031D2">
+            <code>000031D2</code> — _HeapFree
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="0000321E">
+            <code>0000321E</code> — _GetDemandPageInfo
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="00003304">
+            <code>00003304</code> — _PageGetAllocInfo
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="00002010">
+            <code>00002010</code> — _PageCommit
+            
+          </li>
+        
+          <li data-segment="00004C20" data-offset="0000247C">
+            <code>0000247C</code> — _PageDecommit
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 14: W32 @ 00004C80
+      </summary>
+      <ul>
+        
+          <li data-segment="00004C80" data-offset="00000250">
+            <code>00000250</code> — _PageModifyPermissions
+            
+          </li>
+        
+          <li data-segment="00004C80" data-offset="00000400">
+            <code>00000400</code> — _PageQuery
+            
+          </li>
+        
+          <li data-segment="00004C80" data-offset="00000620">
+            <code>00000620</code> — _PageAttach
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 15: VMCREATE @ 00004D60
+      </summary>
+      <ul>
+        
+          <li data-segment="00004D60" data-offset="000007B3">
+            <code>000007B3</code> — _GetAppFlatDSAlias
+            
+          </li>
+        
+          <li data-segment="00004D60" data-offset="000001CA">
+            <code>000001CA</code> — Get_Environment_String
+            
+          </li>
+        
+          <li data-segment="00004D60" data-offset="00000213">
+            <code>00000213</code> — Get_PSP_Segment
+            
+          </li>
+        
+          <li data-segment="00004D60" data-offset="0000079E">
+            <code>0000079E</code> — _GetLastV86Page
+            
+          </li>
+        
+          <li data-segment="00004D60" data-offset="0000087D">
+            <code>0000087D</code> — _Get_Device_V86_Pages_Array
+            
+          </li>
+        
+          <li data-segment="00004D60" data-offset="000008E8">
+            <code>000008E8</code> — _Assign_Device_V86_Pages
+            
+          </li>
+        
+          <li data-segment="00004D60" data-offset="00000B6B">
+            <code>00000B6B</code> — _Allocate_Device_CB_Area
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 16: VMDESTROY @ 00004DC0
+      </summary>
+      <ul>
+        
+          <li data-segment="00004DC0" data-offset="0000024A">
+            <code>0000024A</code> — _GetFirstV86Page
+            
+          </li>
+        
+          <li data-segment="00004DC0" data-offset="000002A8">
+            <code>000002A8</code> — _Deallocate_Device_CB_Area
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 17: THCREATE @ 00004E40
+      </summary>
+      <ul>
+        
+          <li data-segment="00004E40" data-offset="0000091B">
+            <code>0000091B</code> — _PageAllocate
+            
+          </li>
+        
+          <li data-segment="00004E40" data-offset="00000B90">
+            <code>00000B90</code> — _PageLock
+            
+          </li>
+        
+          <li data-segment="00004E40" data-offset="00000280">
+            <code>00000280</code> — _PageReserve
+            
+          </li>
+        
+          <li data-segment="00004E40" data-offset="000006E3">
+            <code>000006E3</code> — _ContextCreate
+            
+          </li>
+        
+          <li data-segment="00004E40" data-offset="00000E7E">
+            <code>00000E7E</code> — VMMCreateThread
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 18: THDESTROY @ 00004EA0
+      </summary>
+      <ul>
+        
+          <li data-segment="00004EA0" data-offset="00000170">
+            <code>00000170</code> — _PageFree
+            
+          </li>
+        
+          <li data-segment="00004EA0" data-offset="0000054B">
+            <code>0000054B</code> — _ContextDestroy
+            
+          </li>
+        
+          <li data-segment="00004EA0" data-offset="00000970">
+            <code>00000970</code> — VMMTerminateThread
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 19: VMSUSPEND @ 00004EF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00004EF0" data-offset="00000000">
+            <code>00000000</code> — VMInt_Suspend_VM
+            
+          </li>
+        
+          <li data-segment="00004EF0" data-offset="00000018">
+            <code>00000018</code> — Nest_Exec_Suspend_VM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 20: VMRESUME @ 00004F40
+      </summary>
+      <ul>
+        
+          <li data-segment="00004F40" data-offset="00000000">
+            <code>00000000</code> — VMInt_Resume_VM
+            
+          </li>
+        
+          <li data-segment="00004F40" data-offset="0000002C">
+            <code>0000002C</code> — Nest_Exec_Resume_VM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 21: PNP @ 00004FA0
+      </summary>
+      <ul>
+        
+          <li data-segment="00004FA0" data-offset="00000212">
+            <code>00000212</code> — OpenFile
+            
+          </li>
+        
+          <li data-segment="00004FA0" data-offset="00000663">
+            <code>00000663</code> — Get_Exec_Path
+            
+          </li>
+        
+          <li data-segment="00004FA0" data-offset="00000072">
+            <code>00000072</code> — VMM_Add_DDB
+            
+          </li>
+        
+          <li data-segment="00004FA0" data-offset="000000EF">
+            <code>000000EF</code> — VMM_Remove_DDB
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 22: DOSVM @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — Get_Config_Directory
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000003E">
+            <code>0000003E</code> — Simulate_VM_IO
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000226">
+            <code>00000226</code> — _GetInstanceInfo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001E4">
+            <code>000001E4</code> — Get_DDB
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

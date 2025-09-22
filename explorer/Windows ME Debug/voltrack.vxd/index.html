@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VOLTRACK — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../volaer.asm</li>
+      
+        <li>../volco.asm</li>
+      
+        <li>../voldbg.asm</li>
+      
+        <li>../volinit.asm</li>
+      
+        <li>../volreq.asm</li>
+      
+        <li>../voltrk.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00000E90
+      </summary>
+      <ul>
+        
+          <li data-segment="00000E90" data-offset="0000000C">
+            <code>0000000C</code> — vol_request
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="0000018D">
+            <code>0000018D</code> — vol_r_check_uncertain
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000322">
+            <code>00000322</code> — IsPagingDevice
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000398">
+            <code>00000398</code> — vol_lock_volume
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="000004BA">
+            <code>000004BA</code> — vol_unlock_volume
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="0000059D">
+            <code>0000059D</code> — vol_send_unlock
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="000005CB">
+            <code>000005CB</code> — vol_eject_media
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="000005F9">
+            <code>000005F9</code> — vol_call_down_request
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="0000068C">
+            <code>0000068C</code> — vol_cd_check_floppy_a_b
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000737">
+            <code>00000737</code> — vol_handle_media_change
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="000007E7">
+            <code>000007E7</code> — vol_prompt_for_media
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="000007FC">
+            <code>000007FC</code> — vol_async_event
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="0000083E">
+            <code>0000083E</code> — half_sec_note
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="000008A2">
+            <code>000008A2</code> — vol_distribute_uncertain
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="0000090C">
+            <code>0000090C</code> — vol_completion
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000A64">
+            <code>00000A64</code> — vol_call_back_request
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000AA3">
+            <code>00000AA3</code> — vol_completion_error
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000ADA">
+            <code>00000ADA</code> — vol_init_cd_ptr
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000AF8">
+            <code>00000AF8</code> — get_trace_ptr
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000B1D">
+            <code>00000B1D</code> — dot_command
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000B43">
+            <code>00000B43</code> — Vol_dump_help
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000B52">
+            <code>00000B52</code> — Vol_trace_dump
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000C94">
+            <code>00000C94</code> — voltrack_DDB
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000CE4">
+            <code>00000CE4</code> — vol_ilb
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000D18">
+            <code>00000D18</code> — vol_prompt_sem
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000D1C">
+            <code>00000D1C</code> — vol_pDOSDATA
+            
+          </li>
+        
+          <li data-segment="00000E90" data-offset="00000D20">
+            <code>00000D20</code> — voltrk_factive
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMGROUP @ 00000ED0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000ED0" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="00000ED0" data-offset="00000020">
+            <code>00000020</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _IGROUP @ 00000FA0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000FA0" data-offset="00000000">
+            <code>00000000</code> — Voltrk_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000FA0" data-offset="000000C0">
+            <code>000000C0</code> — Drv_Reg_Pkt
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PTEXT @ 000024A0
+      </summary>
+      <ul>
+        
+          <li data-segment="000024A0" data-offset="00000000">
+            <code>00000000</code> — vol_recompute
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000317">
+            <code>00000317</code> — vol_issue_arrival_notify
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="0000034A">
+            <code>0000034A</code> — vol_prompt_for_floppy
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000406">
+            <code>00000406</code> — vol_eject_win32_event
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="0000041E">
+            <code>0000041E</code> — vol_eject_event
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000707">
+            <code>00000707</code> — vol_gen_ioctl
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000822">
+            <code>00000822</code> — vol_ior_to_ioctl_status
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="0000083D">
+            <code>0000083D</code> — vol_prompt_for_media_event
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000DB7">
+            <code>00000DB7</code> — vol_internal_request
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000DCA">
+            <code>00000DCA</code> — vol_internal_request_async
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000DD5">
+            <code>00000DD5</code> — vol_tracked_internal_request
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00000F7C">
+            <code>00000F7C</code> — vol_phys_internal_request
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00001006">
+            <code>00001006</code> — vol_ensure_safe_event
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00001135">
+            <code>00001135</code> — VolIsIndosSafe
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="000011B8">
+            <code>000011B8</code> — vol_config_dcb
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00001281">
+            <code>00001281</code> — vol_init_complete
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00001299">
+            <code>00001299</code> — vol_shutdown
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="00001310">
+            <code>00001310</code> — vol_completion_error_event
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="000015AB">
+            <code>000015AB</code> — vol_start_next_vol
+            
+          </li>
+        
+          <li data-segment="000024A0" data-offset="0000164B">
+            <code>0000164B</code> — vol_issue_remove_notify
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00001150">
+            <code>00001150</code> — VolDrive
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001153">
+            <code>00001153</code> — VolSN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000115D">
+            <code>0000115D</code> — VolLabel
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001169">
+            <code>00001169</code> — VolMsgBuffer
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

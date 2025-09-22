@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VTCP — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>0../../../../../../../net/vxd/tcpip/tcp/tcpconn.c</li>
+      
+        <li>0../../../../../../../net/vxd/tcpip/tcp/tcpsend.c</li>
+      
+        <li>1../../../../../../../net/vxd/tcpip/tcp/tcpdeliv.c</li>
+      
+        <li>1../../../../../../../net/vxd/tcpip/tcp/tlcommon.c</li>
+      
+        <li>2../../../../../../../net/vxd/tcpip/vtdi/cxport.asm</li>
+      
+        <li>/f/ndis31/mac/common/ndisos.asm</li>
+      
+        <li>/f/ndis31/mac/common/ndisprot.asm</li>
+      
+        <li>/../../../../../../../net/vxd/tcpip/tcp/chicfg.c</li>
+      
+        <li>.../../../../../../../net/vxd/tcpip/tcp/dgram.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/raw.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tcb.c</li>
+      
+        <li>/../../../../../../../net/vxd/tcpip/tcp/tcpdeb.c</li>
+      
+        <li>/../../../../../../../net/vxd/tcpip/tcp/tcprcv.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/udp.c</li>
+      
+        <li>/../../../../../../../net/vxd/tcpip/tcp/vtcp.asm</li>
+      
+        <li>/../../../../../../../net/vxd/tcpip/tcp/xsum.asm</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/addr.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/dgram.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/info.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/init.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tcpconn.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tcpdeb.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tcpdeliv.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tcprcv.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tcpsend.c</li>
+      
+        <li>../../../../../../../net/vxd/tcpip/tcp/tlcommon.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00009740
+      </summary>
+      <ul>
+        
+          <li data-segment="00009740" data-offset="00000000">
+            <code>00000000</code> — _CTEStartTimer
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000006">
+            <code>00000006</code> — _CTEStopTimer
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000000C">
+            <code>0000000C</code> — _CTESystemUpTime
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000012">
+            <code>00000012</code> — __ICTEGetLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000018">
+            <code>00000018</code> — __ICTEFreeLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000001E">
+            <code>0000001E</code> — _CTEScheduleEvent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000024">
+            <code>00000024</code> — _CTEScheduleEvent_N
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000002A">
+            <code>0000002A</code> — _CTECancelEvent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000030">
+            <code>00000030</code> — _CTEAllocMem
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000074">
+            <code>00000074</code> — _CTEFreeMem
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000008C">
+            <code>0000008C</code> — _CTERefillMem
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000092">
+            <code>00000092</code> — _CTEBlock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000098">
+            <code>00000098</code> — _CTEBlock1
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000009E">
+            <code>0000009E</code> — _CTESignal
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000000A4">
+            <code>000000A4</code> — __CTECheckMem
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000000AA">
+            <code>000000AA</code> — _CTEPrint
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000000BC">
+            <code>000000BC</code> — _CTEPrintNum
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000105">
+            <code>00000105</code> — _CTEPrintCRLF
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000115">
+            <code>00000115</code> — _CTEUnload
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000120">
+            <code>00000120</code> — _CTESetLoadNotifyProc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000012B">
+            <code>0000012B</code> — _CTESetUnloadNotifyProc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000138">
+            <code>00000138</code> — _TLRegisterProtocol
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000013E">
+            <code>0000013E</code> — _TLRegisterDispatch
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000144">
+            <code>00000144</code> — _RegisterAddrChangeHndlr
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000014A">
+            <code>0000014A</code> — _RegisterAddrChangeHndlrEx
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000156">
+            <code>00000156</code> — MSTCP_Get_Version
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000164">
+            <code>00000164</code> — VTCP_Control
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000017D">
+            <code>0000017D</code> — VTCP_DeviceIoControl
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000183">
+            <code>00000183</code> — VTCP_V86_API
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000001B2">
+            <code>000001B2</code> — _ConvertPtr
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000001F4">
+            <code>000001F4</code> — _VxDQueryInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000029C">
+            <code>0000029C</code> — _VxDSetInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000031C">
+            <code>0000031C</code> — _AddrChange
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000394">
+            <code>00000394</code> — _GetIndexedAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000003C4">
+            <code>000003C4</code> — _GetAOIndex
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000004A8">
+            <code>000004A8</code> — _ReadNextAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000005B0">
+            <code>000005B0</code> — _ValidateAOContext
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000006C0">
+            <code>000006C0</code> — _GetNextBestAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000790">
+            <code>00000790</code> — _GetAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000008C0">
+            <code>000008C0</code> — _GetNextAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000091C">
+            <code>0000091C</code> — _GetFirstAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000974">
+            <code>00000974</code> — _InsertAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000AA4">
+            <code>00000AA4</code> — _RemoveAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000B84">
+            <code>00000B84</code> — _FindAnyAddrObj
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000C0C">
+            <code>00000C0C</code> — _GetAddress
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000C58">
+            <code>00000C58</code> — _InvalidateAddrs
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00000FE0">
+            <code>00000FE0</code> — _RequestEventProc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000104C">
+            <code>0000104C</code> — _GetAddrOptions
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001084">
+            <code>00001084</code> — _TdiOpenAddress
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001420">
+            <code>00001420</code> — _DeleteAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000018AC">
+            <code>000018AC</code> — _GetAORequest
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001920">
+            <code>00001920</code> — _FreeAORequest
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000198C">
+            <code>0000198C</code> — _TdiCloseAddress
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001AE4">
+            <code>00001AE4</code> — _FindAOMCastAddr
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001B1C">
+            <code>00001B1C</code> — _MCastAddrOnAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001B44">
+            <code>00001B44</code> — _SetAOOptions
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001E5C">
+            <code>00001E5C</code> — _SetAddrOptions
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00001FE4">
+            <code>00001FE4</code> — _TdiSetEvent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002130">
+            <code>00002130</code> — _ProcessAORequests
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000023D4">
+            <code>000023D4</code> — _DelayDerefAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002444">
+            <code>00002444</code> — _DerefAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000024B4">
+            <code>000024B4</code> — _UDPSend
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000027F4">
+            <code>000027F4</code> — _UDPDeliver
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002B54">
+            <code>00002B54</code> — _UDPRcv
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002D98">
+            <code>00002D98</code> — _UDPStatus
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002DCC">
+            <code>00002DCC</code> — _XsumSendChain
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002E4C">
+            <code>00002E4C</code> — _XsumRcvBuf
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002EC0">
+            <code>00002EC0</code> — _CopyRcvToNdis
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00002FE4">
+            <code>00002FE4</code> — _CopyRcvToBuffer
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003148">
+            <code>00003148</code> — _CopyFlatToNdis
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003268">
+            <code>00003268</code> — _BuildTDIAddress
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003294">
+            <code>00003294</code> — _UpdateConnInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000331C">
+            <code>0000331C</code> — _AdjustRcvWin
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000034A8">
+            <code>000034A8</code> — _CompleteRcvs
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000038D8">
+            <code>000038D8</code> — _ProcessTCBDelayQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003B14">
+            <code>00003B14</code> — _DelayAction
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003B80">
+            <code>00003B80</code> — _TCPRcvComplete
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003DB0">
+            <code>00003DB0</code> — _CompleteConnReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00003E70">
+            <code>00003E70</code> — _FindListenConn
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00004438">
+            <code>00004438</code> — _FindMSS
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000449C">
+            <code>0000449C</code> — _FindMSSAndOptions
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00004670">
+            <code>00004670</code> — _ACKAndDrop
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000046DC">
+            <code>000046DC</code> — _ACKData
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00004DC4">
+            <code>00004DC4</code> — _TrimRcvBuf
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00004E54">
+            <code>00004E54</code> — _FreeRBChain
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00004E80">
+            <code>00004E80</code> — _PullFromRAQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00005120">
+            <code>00005120</code> — _CreateTRH
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00005200">
+            <code>00005200</code> — _SendSackInACK
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00005460">
+            <code>00005460</code> — _PutOnRAQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00005870">
+            <code>00005870</code> — _TCPRcv
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007A08">
+            <code>00007A08</code> — _FreeRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007A4C">
+            <code>00007A4C</code> — _GetRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007A90">
+            <code>00007A90</code> — _FindLastBuffer
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007ADC">
+            <code>00007ADC</code> — _FreePartialRB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007B78">
+            <code>00007B78</code> — _CopyRBChain
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007D74">
+            <code>00007D74</code> — _PendData
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00007F40">
+            <code>00007F40</code> — _BufferData
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000083D4">
+            <code>000083D4</code> — _IndicateData
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00008930">
+            <code>00008930</code> — _IndicatePendingData
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00008F14">
+            <code>00008F14</code> — _DeliverUrgent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00009604">
+            <code>00009604</code> — _PushData
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00009704">
+            <code>00009704</code> — _SplitRcvBuf
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00009858">
+            <code>00009858</code> — _HandleUrgent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00009BDC">
+            <code>00009BDC</code> — _TdiReceive
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00009F68">
+            <code>00009F68</code> — _ReadNextTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000A07C">
+            <code>0000A07C</code> — _ValidateTCBContext
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000A15C">
+            <code>0000A15C</code> — _FindNextTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000A1AC">
+            <code>0000A1AC</code> — _ResetSendNext
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000A43C">
+            <code>0000A43C</code> — _TCBTimeout
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000ABA8">
+            <code>0000ABA8</code> — _SetTCBMTU
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000AC98">
+            <code>0000AC98</code> — _DeleteTCBWithSrc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000ACF4">
+            <code>0000ACF4</code> — _TCBWalk
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000AE18">
+            <code>0000AE18</code> — _FindTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000AF60">
+            <code>0000AF60</code> — _InsertTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B138">
+            <code>0000B138</code> — _RemoveTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B2AC">
+            <code>0000B2AC</code> — _ScavengeTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B478">
+            <code>0000B478</code> — _AllocTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B594">
+            <code>0000B594</code> — _FreeTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B638">
+            <code>0000B638</code> — _DummyDone
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B64C">
+            <code>0000B64C</code> — _DummyCmplt
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B650">
+            <code>0000B650</code> — _CloseDone
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B768">
+            <code>0000B768</code> — _DisassocDone
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B908">
+            <code>0000B908</code> — _FreeConnReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B950">
+            <code>0000B950</code> — _GetConnReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000B998">
+            <code>0000B998</code> — _GetConnFromConnID
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BA18">
+            <code>0000BA18</code> — _GetConnID
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BB28">
+            <code>0000BB28</code> — _FreeConnID
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BBDC">
+            <code>0000BBDC</code> — _MapIPError
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BC24">
+            <code>0000BC24</code> — _FinishRemoveTCBFromConn
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BD64">
+            <code>0000BD64</code> — _RemoveTCBFromConn
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BDCC">
+            <code>0000BDCC</code> — _RemoveConnFromTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000BE98">
+            <code>0000BE98</code> — _CloseTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000C4BC">
+            <code>0000C4BC</code> — _TryToCloseTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000C58C">
+            <code>0000C58C</code> — _DerefTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000C62C">
+            <code>0000C62C</code> — _TdiOpenConnection
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000C724">
+            <code>0000C724</code> — _RemoveConnFromAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000C7A0">
+            <code>0000C7A0</code> — _TdiCloseConnection
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000C978">
+            <code>0000C978</code> — _TdiAssociateAddress
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000CAD0">
+            <code>0000CAD0</code> — _TdiDisAssociateAddress
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000CC4C">
+            <code>0000CC4C</code> — _ProcessUserOptions
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000CC9C">
+            <code>0000CC9C</code> — _InitTCBFromConn
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000CE80">
+            <code>0000CE80</code> — _TdiConnect
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000D3C0">
+            <code>0000D3C0</code> — _TdiListen
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000D604">
+            <code>0000D604</code> — _InitRCE
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000D764">
+            <code>0000D764</code> — _AcceptConn
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000D818">
+            <code>0000D818</code> — _TdiAccept
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000D9C8">
+            <code>0000D9C8</code> — _TdiDisconnect
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000DD10">
+            <code>0000DD10</code> — _OKToNotify
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000DD7C">
+            <code>0000DD7C</code> — _NotifyOfDisc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E024">
+            <code>0000E024</code> — _GracefulClose
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E270">
+            <code>0000E270</code> — _ConnCheckPassed
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E278">
+            <code>0000E278</code> — _InitAddrChecks
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E27C">
+            <code>0000E27C</code> — _EnumerateConnectionList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E294">
+            <code>0000E294</code> — _TdiQueryInformation
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E85C">
+            <code>0000E85C</code> — _TdiSetInformation
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E864">
+            <code>0000E864</code> — _TdiAction
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E86C">
+            <code>0000E86C</code> — _CopyAO_TCPConn
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000E8B0">
+            <code>0000E8B0</code> — _TdiQueryInformationEx
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000EE68">
+            <code>0000EE68</code> — _TdiSetInformationEx
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F3C4">
+            <code>0000F3C4</code> — _GrowTCPHeaderList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F57C">
+            <code>0000F57C</code> — _GetTCPHeader
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F598">
+            <code>0000F598</code> — _FreeTCPHeader
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F5E0">
+            <code>0000F5E0</code> — _FreeSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F628">
+            <code>0000F628</code> — _GetSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F670">
+            <code>0000F670</code> — _TCPSendComplete
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F884">
+            <code>0000F884</code> — _RcvWin
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000F990">
+            <code>0000F990</code> — _SendSYN
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000FD38">
+            <code>0000FD38</code> — _SendKA
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0000FEE0">
+            <code>0000FEE0</code> — _SendACK
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00010384">
+            <code>00010384</code> — _SendRSTFromTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000104CC">
+            <code>000104CC</code> — _SendRSTFromHeader
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00010654">
+            <code>00010654</code> — _GoToEstab
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00010690">
+            <code>00010690</code> — _InitSendState
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000107B4">
+            <code>000107B4</code> — _TCPStatus
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00010B48">
+            <code>00010B48</code> — _FillTCPHeader
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00010C7C">
+            <code>00010C7C</code> — _TCPSend
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000117C8">
+            <code>000117C8</code> — _ResetAndFastSend
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00011B40">
+            <code>00011B40</code> — _TCPFastSend
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001224C">
+            <code>0001224C</code> — _TdiSend
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000124E0">
+            <code>000124E0</code> — _FreeTCPHeaderList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012570">
+            <code>00012570</code> — _CheckRBList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000125B0">
+            <code>000125B0</code> — _CheckTCBRcv
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012764">
+            <code>00012764</code> — _CheckTCBSends
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012A71">
+            <code>00012A71</code> — _tcpxsum
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012B30">
+            <code>00012B30</code> — _GrowDGHeaderList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012C6C">
+            <code>00012C6C</code> — _FreeDGHeader
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012C80">
+            <code>00012C80</code> — _PutPendingQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012CF4">
+            <code>00012CF4</code> — _GetDGSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012D78">
+            <code>00012D78</code> — _FreeDGSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012DE4">
+            <code>00012DE4</code> — _GetDGRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012E5C">
+            <code>00012E5C</code> — _FreeDGRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00012EA4">
+            <code>00012EA4</code> — _DGDelayedEventProc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001307C">
+            <code>0001307C</code> — _DGSendComplete
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013218">
+            <code>00013218</code> — _TdiSendDatagram
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013440">
+            <code>00013440</code> — _TdiReceiveDatagram
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000135B0">
+            <code>000135B0</code> — _RawSend
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000138D8">
+            <code>000138D8</code> — _RawDeliver
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013C4C">
+            <code>00013C4C</code> — _RawRcv
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013D28">
+            <code>00013D28</code> — _RawStatus
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013D5C">
+            <code>00013D5C</code> — _TCPGetConfigInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013ED0">
+            <code>00013ED0</code> — _NdisRegisterProtocol@16
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013ED6">
+            <code>00013ED6</code> — _NdisDeregisterProtocol@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013EDC">
+            <code>00013EDC</code> — _NdisOpenAdapter@44
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013EE2">
+            <code>00013EE2</code> — _NdisCloseAdapter@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013EE8">
+            <code>00013EE8</code> — _NdisSend@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013EEE">
+            <code>00013EEE</code> — _NdisTransferData@28
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013EF4">
+            <code>00013EF4</code> — _NdisReset@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013EFA">
+            <code>00013EFA</code> — _NdisRequest@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F00">
+            <code>00013F00</code> — _NdisQueryGlobalStatistics@16
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F06">
+            <code>00013F06</code> — _NdisOpenProtocolConfiguration@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F0C">
+            <code>00013F0C</code> — _NdisCompleteBindAdapter@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F12">
+            <code>00013F12</code> — _NdisCompleteUnbindAdapter@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F18">
+            <code>00013F18</code> — _NdisGetVersion@0
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F1E">
+            <code>00013F1E</code> — _NdisSetTimer@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F24">
+            <code>00013F24</code> — _NdisCancelTimer@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F2A">
+            <code>00013F2A</code> — _NdisInitializeInterrupt@40
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F30">
+            <code>00013F30</code> — _NdisRemoveInterrupt@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F36">
+            <code>00013F36</code> — _NdisSynchronizeWithInterrupt@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F3C">
+            <code>00013F3C</code> — _NdisStallExecution@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F42">
+            <code>00013F42</code> — _NdisAllocateMemory@16
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F48">
+            <code>00013F48</code> — _NdisFreeMemory@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F4E">
+            <code>00013F4E</code> — _NdisAllocatePacketPool@16
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F54">
+            <code>00013F54</code> — _NdisFreePacketPool@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F5A">
+            <code>00013F5A</code> — _NdisAllocatePacket@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F60">
+            <code>00013F60</code> — _NdisReinitializePacket@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F66">
+            <code>00013F66</code> — _NdisFreePacket@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F6C">
+            <code>00013F6C</code> — _NdisQueryPacket@20
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F72">
+            <code>00013F72</code> — _NdisAllocateBufferPool@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F78">
+            <code>00013F78</code> — _NdisFreeBufferPool@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F7E">
+            <code>00013F7E</code> — _NdisAllocateBuffer@20
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F84">
+            <code>00013F84</code> — _NdisCopyBuffer@24
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F8A">
+            <code>00013F8A</code> — _NdisFreeBuffer@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F90">
+            <code>00013F90</code> — _NdisQueryBuffer@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F96">
+            <code>00013F96</code> — _NdisGetBufferPhysicalAddress@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013F9C">
+            <code>00013F9C</code> — _NdisChainBufferAtFront@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FA2">
+            <code>00013FA2</code> — _NdisChainBufferAtBack@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FA8">
+            <code>00013FA8</code> — _NdisUnchainBufferAtFront@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FAE">
+            <code>00013FAE</code> — _NdisUnchainBufferAtBack@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FB4">
+            <code>00013FB4</code> — _NdisGetNextBuffer@8
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FBA">
+            <code>00013FBA</code> — _NdisCopyFromPacketToPacket@24
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FC0">
+            <code>00013FC0</code> — _NdisOpenConfiguration@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FC6">
+            <code>00013FC6</code> — _NdisReadConfiguration@20
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FCC">
+            <code>00013FCC</code> — _NdisCloseConfiguration@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FD2">
+            <code>00013FD2</code> — _NdisEqualString@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FD8">
+            <code>00013FD8</code> — _NdisOpenFile@20
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FDE">
+            <code>00013FDE</code> — _NdisMapFile@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FE4">
+            <code>00013FE4</code> — _NdisUnmapFile@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FEA">
+            <code>00013FEA</code> — _NdisCloseFile@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FF0">
+            <code>00013FF0</code> — _NdisAllocateDmaChannel@20
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FF6">
+            <code>00013FF6</code> — _NdisSetupDmaTransfer@24
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00013FFC">
+            <code>00013FFC</code> — _NdisCompleteDmaTransfer@24
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014002">
+            <code>00014002</code> — _NdisReadDmaCounter@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014008">
+            <code>00014008</code> — _NdisFreeDmaChannel@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001400E">
+            <code>0001400E</code> — _NdisMapIoSpace@20
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014014">
+            <code>00014014</code> — _NdisWriteErrorLogEntry
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001401A">
+            <code>0001401A</code> — _NdisRegAdaptShutdown@12
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014020">
+            <code>00014020</code> — _NdisDeregAdaptShutdown@4
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014028">
+            <code>00014028</code> — _GetDGHeader
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014044">
+            <code>00014044</code> — CTETotalMem
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014064">
+            <code>00014064</code> — __vxdhandle__
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000140C4">
+            <code>000140C4</code> — _MSTCP_Get_Version
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000140C8">
+            <code>000140C8</code> — MSTCP_DDB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001411C">
+            <code>0001411C</code> — _MaxConnectResponseRexmitCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014120">
+            <code>00014120</code> — _GlobalMaxRcvWin
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014124">
+            <code>00014124</code> — _TcpHostOpts
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00014128">
+            <code>00014128</code> — _TransportName
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000141F8">
+            <code>000141F8</code> — _dbgmc
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000141FC">
+            <code>000141FC</code> — _NextUserPort
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00015288">
+            <code>00015288</code> — _UDPProtInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00015A3C">
+            <code>00015A3C</code> — _MaxRcvWin
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00017740">
+            <code>00017740</code> — _TCPRcvReqFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00017744">
+            <code>00017744</code> — _NumTCPRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00017748">
+            <code>00017748</code> — _MaxRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000192EC">
+            <code>000192EC</code> — _FreeTCBList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000192F0">
+            <code>000192F0</code> — _CurrentTCBs
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000192F4">
+            <code>000192F4</code> — _MaxTCBs
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="000192F8">
+            <code>000192F8</code> — _MaxFreeTCBs
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00019E50">
+            <code>00019E50</code> — _MaxConnReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00019E54">
+            <code>00019E54</code> — _ConnTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="00019E58">
+            <code>00019E58</code> — _AddrCheckTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001B778">
+            <code>0001B778</code> — _ReadAOTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001B780">
+            <code>0001B780</code> — _ReadTCBTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001BCD8">
+            <code>0001BCD8</code> — _TCPMaxSendFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001BCDC">
+            <code>0001BCDC</code> — _MaxSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001BCE0">
+            <code>0001BCE0</code> — _SendInited
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001DBA8">
+            <code>0001DBA8</code> — _DGCurrentSendFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001DBAC">
+            <code>0001DBAC</code> — _DGMaxSendFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001DBB0">
+            <code>0001DBB0</code> — _NumSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001DBB4">
+            <code>0001DBB4</code> — _NumRcvReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001DBB8">
+            <code>0001DBB8</code> — _DGHdrBPoolList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E0D4">
+            <code>0001E0D4</code> — _RawProtInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E538">
+            <code>0001E538</code> — _Tcp1323Opts
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E53C">
+            <code>0001E53C</code> — _SackOpts
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E65C">
+            <code>0001E65C</code> — _ConfigTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E76C">
+            <code>0001E76C</code> — _StartTime
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E770">
+            <code>0001E770</code> — _TCBTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E870">
+            <code>0001E870</code> — _DeadmanTicks
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E874">
+            <code>0001E874</code> — _TStats
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E8B0">
+            <code>0001E8B0</code> — _AORequestLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E8B8">
+            <code>0001E8B8</code> — _UStats
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E8CC">
+            <code>0001E8CC</code> — _DGRcvReqFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E8D0">
+            <code>0001E8D0</code> — _TCBWalkCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E8D4">
+            <code>0001E8D4</code> — _LastAO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E8D8">
+            <code>0001E8D8</code> — _LocalNetInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E928">
+            <code>0001E928</code> — _TCPProtInfo
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E92C">
+            <code>0001E92C</code> — _TCBDelayQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E934">
+            <code>0001E934</code> — _DGSendReqLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E93C">
+            <code>0001E93C</code> — _NTWMaxConnectCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E940">
+            <code>0001E940</code> — _MaxUserPort
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E944">
+            <code>0001E944</code> — _MaxConnections
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E948">
+            <code>0001E948</code> — _FinWait2TO
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E94C">
+            <code>0001E94C</code> — _NumConnReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E950">
+            <code>0001E950</code> — _AOIndexSize
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E954">
+            <code>0001E954</code> — _KAInterval
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E958">
+            <code>0001E958</code> — _PMTUDiscovery
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E95C">
+            <code>0001E95C</code> — _PreloadCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E960">
+            <code>0001E960</code> — _ConnTableLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E968">
+            <code>0001E968</code> — _TCPCurrentSendFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E96C">
+            <code>0001E96C</code> — _AddrObjTableLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E974">
+            <code>0001E974</code> — _DGHeaderList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E978">
+            <code>0001E978</code> — _DGHeaderSize
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E97C">
+            <code>0001E97C</code> — _DGDelayedEvent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E990">
+            <code>0001E990</code> — _FreeTCBListLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E998">
+            <code>0001E998</code> — _PendingFreeList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E99C">
+            <code>0001E99C</code> — _SendCompleteQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9A4">
+            <code>0001E9A4</code> — _LastTCB
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9A8">
+            <code>0001E9A8</code> — _TCBTableLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9B0">
+            <code>0001E9B0</code> — _KeepAliveTime
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9B4">
+            <code>0001E9B4</code> — _TCBDelayRtnLimit
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9B8">
+            <code>0001E9B8</code> — _DGRcvReqFreeLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9C0">
+            <code>0001E9C0</code> — _AOIndex
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9C4">
+            <code>0001E9C4</code> — _BSDUrgent
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9C8">
+            <code>0001E9C8</code> — _DGDelayed
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9D0">
+            <code>0001E9D0</code> — _ConnTableSize
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9D4">
+            <code>0001E9D4</code> — _TCPSendReqCompleteLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9DC">
+            <code>0001E9DC</code> — _DGHeaderPending
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9E4">
+            <code>0001E9E4</code> — _TCBTimer
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001E9FC">
+            <code>0001E9FC</code> — _EntityList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA00">
+            <code>0001EA00</code> — _MaxConnectRexmitCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA04">
+            <code>0001EA04</code> — _RequestCompleteFlags
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA08">
+            <code>0001EA08</code> — _MaxDataRexmitCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA0C">
+            <code>0001EA0C</code> — _AOInstance
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA10">
+            <code>0001EA10</code> — _DeadGWDetect
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA14">
+            <code>0001EA14</code> — _DefaultRcvWin
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA18">
+            <code>0001EA18</code> — _TCPTime
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA1C">
+            <code>0001EA1C</code> — _TCPSendReqFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA20">
+            <code>0001EA20</code> — _DummyBuf
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA30">
+            <code>0001EA30</code> — _NextAOIndex
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA34">
+            <code>0001EA34</code> — _NextConnIndex
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA38">
+            <code>0001EA38</code> — _TCBDelayRtnCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA3C">
+            <code>0001EA3C</code> — _TCPHdrBPoolList
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA40">
+            <code>0001EA40</code> — _ConnInst
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA44">
+            <code>0001EA44</code> — _MaxDupAcks
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA48">
+            <code>0001EA48</code> — _TCBDelayLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA50">
+            <code>0001EA50</code> — _TCPRcvReqFreeLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA58">
+            <code>0001EA58</code> — _PMTUBHDetect
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA5C">
+            <code>0001EA5C</code> — _AORequestFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EA60">
+            <code>0001EA60</code> — _TLDispatch
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EAB0">
+            <code>0001EAB0</code> — _TCPSendFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EAB4">
+            <code>0001EAB4</code> — _NTWMaxConnectTime
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EAB8">
+            <code>0001EAB8</code> — _ConnReqFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EABC">
+            <code>0001EABC</code> — _RequestCompleteLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EAC4">
+            <code>0001EAC4</code> — _AddrObjTable
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB04">
+            <code>0001EB04</code> — _NumTCPSendReq
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB08">
+            <code>0001EB08</code> — _EntityCount
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB0C">
+            <code>0001EB0C</code> — _DGSendReqFree
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB10">
+            <code>0001EB10</code> — _TCPSendReqFreeLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB18">
+            <code>0001EB18</code> — _TCPSendFreeLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB20">
+            <code>0001EB20</code> — _TCPSendBufferPool
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB24">
+            <code>0001EB24</code> — _ConnReqFreeLock
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB2C">
+            <code>0001EB2C</code> — _ConnRequestCompleteQ
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB34">
+            <code>0001EB34</code> — _BSSDataEnd
+            
+          </li>
+        
+          <li data-segment="00009740" data-offset="0001EB34">
+            <code>0001EB34</code> — _BSSBegin
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _CTEInitialize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — VTCP_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000045">
+            <code>00000045</code> — _IPPresent
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000050">
+            <code>00000050</code> — _TLGetIPInfo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000058">
+            <code>00000058</code> — _tlinit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000046C">
+            <code>0000046C</code> — _InitAddr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000524">
+            <code>00000524</code> — _InitTCPRcv
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005CC">
+            <code>000005CC</code> — _UnInitTCPRcv
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005D0">
+            <code>000005D0</code> — _InitTCB
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000634">
+            <code>00000634</code> — _UnInitTCB
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000644">
+            <code>00000644</code> — _InitTCPConn
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000654">
+            <code>00000654</code> — _UnInitTCPConn
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000658">
+            <code>00000658</code> — _InitTCPSend
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000071C">
+            <code>0000071C</code> — _UnInitTCPSend
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000748">
+            <code>00000748</code> — _InitDG
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

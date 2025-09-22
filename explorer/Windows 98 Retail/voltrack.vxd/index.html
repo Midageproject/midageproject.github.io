@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VOLTRACK — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../volaer.asm</li>
+      
+        <li>../volco.asm</li>
+      
+        <li>../volinit.asm</li>
+      
+        <li>../volreq.asm</li>
+      
+        <li>../voltrk.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00000930
+      </summary>
+      <ul>
+        
+          <li data-segment="00000930" data-offset="0000000C">
+            <code>0000000C</code> — vol_request
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000071">
+            <code>00000071</code> — vol_r_check_uncertain
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000018A">
+            <code>0000018A</code> — IsPagingDevice
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000019A">
+            <code>0000019A</code> — vol_lock_volume
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000209">
+            <code>00000209</code> — vol_unlock_volume
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000267">
+            <code>00000267</code> — vol_send_unlock
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000282">
+            <code>00000282</code> — vol_eject_media
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="000002B0">
+            <code>000002B0</code> — vol_call_down_request
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="000002EE">
+            <code>000002EE</code> — vol_cd_check_floppy_a_b
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000033E">
+            <code>0000033E</code> — vol_handle_media_change
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000036C">
+            <code>0000036C</code> — vol_prompt_for_media
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000380">
+            <code>00000380</code> — vol_async_event
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="000003B8">
+            <code>000003B8</code> — half_sec_note
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000041C">
+            <code>0000041C</code> — vol_distribute_uncertain
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000484">
+            <code>00000484</code> — vol_completion
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000050C">
+            <code>0000050C</code> — vol_call_back_request
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000051C">
+            <code>0000051C</code> — vol_completion_error
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="00000550">
+            <code>00000550</code> — vol_init_cd_ptr
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="0000056C">
+            <code>0000056C</code> — voltrack_DDB
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="000005BC">
+            <code>000005BC</code> — vol_ilb
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="000005F0">
+            <code>000005F0</code> — vol_prompt_sem
+            
+          </li>
+        
+          <li data-segment="00000930" data-offset="000005F4">
+            <code>000005F4</code> — vol_pDOSDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMGROUP @ 00000970
+      </summary>
+      <ul>
+        
+          <li data-segment="00000970" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="00000970" data-offset="00000020">
+            <code>00000020</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _IGROUP @ 00000A40
+      </summary>
+      <ul>
+        
+          <li data-segment="00000A40" data-offset="00000000">
+            <code>00000000</code> — Voltrk_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000A40" data-offset="00000084">
+            <code>00000084</code> — Drv_Reg_Pkt
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PTEXT @ 00001A00
+      </summary>
+      <ul>
+        
+          <li data-segment="00001A00" data-offset="00000000">
+            <code>00000000</code> — vol_recompute
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="000001C1">
+            <code>000001C1</code> — vol_issue_arrival_notify
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="000001D9">
+            <code>000001D9</code> — vol_prompt_for_floppy
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="0000022F">
+            <code>0000022F</code> — vol_eject_win32_event
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="0000023F">
+            <code>0000023F</code> — vol_eject_event
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000373">
+            <code>00000373</code> — vol_gen_ioctl
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="0000041D">
+            <code>0000041D</code> — vol_ior_to_ioctl_status
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000430">
+            <code>00000430</code> — vol_prompt_for_media_event
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="0000071B">
+            <code>0000071B</code> — vol_internal_request
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000726">
+            <code>00000726</code> — vol_internal_request_async
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000731">
+            <code>00000731</code> — vol_tracked_internal_request
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000848">
+            <code>00000848</code> — vol_phys_internal_request
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="0000087E">
+            <code>0000087E</code> — vol_ensure_safe_event
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="000008FD">
+            <code>000008FD</code> — VolIsIndosSafe
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000940">
+            <code>00000940</code> — vol_config_dcb
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="000009BC">
+            <code>000009BC</code> — vol_init_complete
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="000009CC">
+            <code>000009CC</code> — vol_shutdown
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000A18">
+            <code>00000A18</code> — vol_completion_error_event
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000B32">
+            <code>00000B32</code> — vol_start_next_vol
+            
+          </li>
+        
+          <li data-segment="00001A00" data-offset="00000B64">
+            <code>00000B64</code> — vol_issue_remove_notify
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — voltrk_device_count
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000004">
+            <code>00000004</code> — VolDrive
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000007">
+            <code>00000007</code> — VolSN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000011">
+            <code>00000011</code> — VolLabel
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000001D">
+            <code>0000001D</code> — VolMsgBuffer
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

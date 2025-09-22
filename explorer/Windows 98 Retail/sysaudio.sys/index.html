@@ -1,0 +1,2138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>SYSAUDIO — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>i386/exsup3.asm</li>
+      
+        <li>i386/exsup.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 000003F0
+      </summary>
+      <ul>
+        
+          <li data-segment="000003F0" data-offset="00000000">
+            <code>00000000</code> — _PinDispatchWrite@8
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="00000000">
+            <code>00000000</code> — _PinDispatchRead@8
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="0000000C">
+            <code>0000000C</code> — _ForwardPinIrp@4
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="00000054">
+            <code>00000054</code> — _ForwardIrpNode@16
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="0000019E">
+            <code>0000019E</code> — _KsDispatchInvalidDeviceRequest@8
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="000001A4">
+            <code>000001A4</code> — _KsDispatchFastReadFailure@32
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="000001AA">
+            <code>000001AA</code> — _KsDispatchFastIoDeviceControlFailure@36
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="000001B0">
+            <code>000001B0</code> — _wcslen
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="000001C0">
+            <code>000001C0</code> — __except_handler3
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="0000026E">
+            <code>0000026E</code> — __seh_longjmp_unwind@4
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="0000028A">
+            <code>0000028A</code> — _wcscpy
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="00000290">
+            <code>00000290</code> — _wcsncmp
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="00000298">
+            <code>00000298</code> — __global_unwind2
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="000002DA">
+            <code>000002DA</code> — __local_unwind2
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="00000334">
+            <code>00000334</code> — __abnormal_termination
+            
+          </li>
+        
+          <li data-segment="000003F0" data-offset="00000358">
+            <code>00000358</code> — _RtlUnwind@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .rdata @ 000006D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000006D0" data-offset="00000000">
+            <code>00000000</code> — _FilterTypeName
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000050">
+            <code>00000050</code> — _cwstrPlaybackShingleName
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000068">
+            <code>00000068</code> — _cwstrRecordShingleName
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000078">
+            <code>00000078</code> — _cwstrMidiShingleName
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000088">
+            <code>00000088</code> — _cwstrMixerShingleName
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000098">
+            <code>00000098</code> — _cwstrDefaultDevicePath
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000110">
+            <code>00000110</code> — _cwstrDefaultMidiDevicePath
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000001A8">
+            <code>000001A8</code> — _cwstrPlayback
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000001C0">
+            <code>000001C0</code> — _cwstrRecord
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000001D0">
+            <code>000001D0</code> — _cwstrMidi
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000248">
+            <code>00000248</code> — _FilterDispatchTable
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000270">
+            <code>00000270</code> — _FilterPropertyHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000400">
+            <code>00000400</code> — _TopologyPropertyHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000004A0">
+            <code>000004A0</code> — _DevicePropertyHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000680">
+            <code>00000680</code> — _AudioPropertyHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000006F8">
+            <code>000006F8</code> — _FilterPropertySet
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000748">
+            <code>00000748</code> — _SysaudioEventHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000760">
+            <code>00000760</code> — _FilterEvents
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000810">
+            <code>00000810</code> — _PinDispatchTable
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000838">
+            <code>00000838</code> — _PinPropertyHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000008B0">
+            <code>000008B0</code> — _PinConnectionHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000008D8">
+            <code>000008D8</code> — _PinAudioPropertyHandlers
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000900">
+            <code>00000900</code> — _PinPropertySet
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000950">
+            <code>00000950</code> — _ClockDispatchTable
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="00000978">
+            <code>00000978</code> — _AllocatorDispatchTable
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000009A0">
+            <code>000009A0</code> — _GUID_DEVICE_INTERFACE_REMOVAL
+            
+          </li>
+        
+          <li data-segment="000006D0" data-offset="000009B0">
+            <code>000009B0</code> — _GUID_DEVICE_INTERFACE_ARRIVAL
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 000007C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000007C0" data-offset="00000000">
+            <code>00000000</code> — _glPendingAddDelete
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000004">
+            <code>00000004</code> — _gcCallKernelProcess
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000008">
+            <code>00000008</code> — _glehCallKernelProcess
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000010">
+            <code>00000010</code> — _gWorkItem
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000020">
+            <code>00000020</code> — _gMutex
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000040">
+            <code>00000040</code> — _gSpinLock
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000044">
+            <code>00000044</code> — _gldhVirtualizedTopologyNodes
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000048">
+            <code>00000048</code> — _glbhFilterNode
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000050">
+            <code>00000050</code> — _gEventQueue
+            
+          </li>
+        
+          <li data-segment="000007C0" data-offset="00000058">
+            <code>00000058</code> — _gEventLock
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .idata$2 @ 00001150
+      </summary>
+      <ul>
+        
+          <li data-segment="00001150" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_ks
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000028">
+            <code>00000028</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000014C">
+            <code>0000014C</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000150">
+            <code>00000150</code> — __imp__IoCreateSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000154">
+            <code>00000154</code> — __imp__RtlUnwind@16
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000158">
+            <code>00000158</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000015C">
+            <code>0000015C</code> — __imp_@ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000160">
+            <code>00000160</code> — __imp__ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000164">
+            <code>00000164</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000168">
+            <code>00000168</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000016C">
+            <code>0000016C</code> — __imp_@ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000170">
+            <code>00000170</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000174">
+            <code>00000174</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000178">
+            <code>00000178</code> — __imp__ZwOpenKey@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000017C">
+            <code>0000017C</code> — __imp__ZwCreateFile@44
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000180">
+            <code>00000180</code> — __imp__wcsncmp
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000184">
+            <code>00000184</code> — __imp__KeInitializeMutex@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000188">
+            <code>00000188</code> — __imp__IoOpenDeviceInterfaceRegistryKey@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000018C">
+            <code>0000018C</code> — __imp__IoGetDeviceInterfaceAlias@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000190">
+            <code>00000190</code> — __imp__RtlEqualUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000194">
+            <code>00000194</code> — __imp__RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000198">
+            <code>00000198</code> — __imp__wcscpy
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000019C">
+            <code>0000019C</code> — __imp_@InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001A0">
+            <code>000001A0</code> — __imp_@InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001A4">
+            <code>000001A4</code> — __imp__IoUnregisterPlugPlayNotification@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001A8">
+            <code>000001A8</code> — __imp__IoRegisterPlugPlayNotification@28
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001AC">
+            <code>000001AC</code> — __imp__ObReferenceObjectByHandle@24
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001B0">
+            <code>000001B0</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001B4">
+            <code>000001B4</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001B8">
+            <code>000001B8</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001BC">
+            <code>000001BC</code> — __imp__IoDeleteSymbolicLink@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001C0">
+            <code>000001C0</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001C4">
+            <code>000001C4</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001C8">
+            <code>000001C8</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001CC">
+            <code>000001CC</code> — __imp__ProbeForWrite@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001D0">
+            <code>000001D0</code> — __imp__KeReleaseMutex@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001D4">
+            <code>000001D4</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001D8">
+            <code>000001D8</code> — __imp__wcslen
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001DC">
+            <code>000001DC</code> — __imp__IoGetRelatedDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001E0">
+            <code>000001E0</code> — __imp_@ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001E4">
+            <code>000001E4</code> — __imp_@ObfDereferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001E8">
+            <code>000001E8</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001EC">
+            <code>000001EC</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001F0">
+            <code>000001F0</code> — __imp__KsCreatePin@16
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001F4">
+            <code>000001F4</code> — __imp__KsGenerateEventList@20
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001F8">
+            <code>000001F8</code> — __imp__KsCreateAllocator@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="000001FC">
+            <code>000001FC</code> — __imp__KsValidateAllocatorCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000200">
+            <code>00000200</code> — __imp__KsCreateClock@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000204">
+            <code>00000204</code> — __imp__KsValidateClockCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000208">
+            <code>00000208</code> — __imp__KsDispatchFastIoDeviceControlFailure@36
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000020C">
+            <code>0000020C</code> — __imp__KsDispatchFastReadFailure@32
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000210">
+            <code>00000210</code> — __imp__KsValidateConnectRequest@16
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000214">
+            <code>00000214</code> — __imp__KsSynchronousIoControlDevice@32
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000218">
+            <code>00000218</code> — __imp__KsTopologyPropertyHandler@16
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000021C">
+            <code>0000021C</code> — __imp__KsPinPropertyHandler@20
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000220">
+            <code>00000220</code> — __imp__KsDefaultDeviceIoCompletion@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000224">
+            <code>00000224</code> — __imp__KsDisableEvent@16
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000228">
+            <code>00000228</code> — __imp__KsEnableEvent@24
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000022C">
+            <code>0000022C</code> — __imp__KsPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000230">
+            <code>00000230</code> — __imp__KsDereferenceSoftwareBusObject@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000234">
+            <code>00000234</code> — __imp__KsAllocateObjectHeader@20
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000238">
+            <code>00000238</code> — __imp__KsReferenceSoftwareBusObject@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000023C">
+            <code>0000023C</code> — __imp__KsFreeObjectHeader@4
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000240">
+            <code>00000240</code> — __imp__KsDispatchInvalidDeviceRequest@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000244">
+            <code>00000244</code> — __imp__KsAllocateDeviceHeader@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000248">
+            <code>00000248</code> — __imp__KsSetDevicePnpAndBaseObject@12
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="0000024C">
+            <code>0000024C</code> — __imp__KsDefaultDispatchPnp@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000250">
+            <code>00000250</code> — __imp__KsSetMajorFunctionHandler@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000254">
+            <code>00000254</code> — __imp__KsDefaultDispatchPower@8
+            
+          </li>
+        
+          <li data-segment="00001150" data-offset="00000258">
+            <code>00000258</code> — \177ks_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 000027D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000027D0" data-offset="00000000">
+            <code>00000000</code> — _IrpNotSupported@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000001B">
+            <code>0000001B</code> — _DriverEntry@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000000A2">
+            <code>000000A2</code> — _DriverUnload@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000000D8">
+            <code>000000D8</code> — _AddDevice@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000001A1">
+            <code>000001A1</code> — _FilterDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000002C8">
+            <code>000002C8</code> — _FilterDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000034C">
+            <code>0000034C</code> — _FilterDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000438">
+            <code>00000438</code> — _FilterPinPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000004D1">
+            <code>000004D1</code> — _FilterPinInstances@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000516">
+            <code>00000516</code> — _FilterTopologyHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000005A5">
+            <code>000005A5</code> — _FilterPinIntersection@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000717">
+            <code>00000717</code> — _PinDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000008B6">
+            <code>000008B6</code> — _PinDispatchCreateKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000009B8">
+            <code>000009B8</code> — _PinDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000009EF">
+            <code>000009EF</code> — _PinDispatchCloseKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000A4A">
+            <code>00000A4A</code> — _PinDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000B1F">
+            <code>00000B1F</code> — _PinStateHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000B5C">
+            <code>00000B5C</code> — _ClockDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000C86">
+            <code>00000C86</code> — _ClockDispatchCreateKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000CE2">
+            <code>00000CE2</code> — _ClockDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000D2D">
+            <code>00000D2D</code> — _ClockDispatchCloseCommon@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000D6E">
+            <code>00000D6E</code> — _ClockDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000DE1">
+            <code>00000DE1</code> — _AllocatorDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000F0B">
+            <code>00000F0B</code> — _AllocatorDispatchCreateKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000F67">
+            <code>00000F67</code> — _AllocatorDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000FB2">
+            <code>00000FB2</code> — _AllocatorDispatchCloseCommon@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00000FF3">
+            <code>00000FF3</code> — _AllocatorDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001066">
+            <code>00001066</code> — _InitializeNodes@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000107D">
+            <code>0000107D</code> — _RegisterForPlugPlayNotifications@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000010BF">
+            <code>000010BF</code> — _UnregisterForPlugPlayNotifications@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000010DF">
+            <code>000010DF</code> — _DecrementAddRemoveCount@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001103">
+            <code>00001103</code> — _AddFilterKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001121">
+            <code>00001121</code> — _DeleteFilterKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000113D">
+            <code>0000113D</code> — _AudioDeviceInterfaceNotification@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000011D7">
+            <code>000011D7</code> — _AddFilter@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001372">
+            <code>00001372</code> — _DeleteFilter@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000140F">
+            <code>0000140F</code> — _RemoveAllFilters@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001430">
+            <code>00001430</code> — _CreateFilterNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000014FD">
+            <code>000014FD</code> — _DestroyFilterNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001571">
+            <code>00001571</code> — _CreateAllPinNodes@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001A6F">
+            <code>00001A6F</code> — _DestroyAllPinNodes@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001A8F">
+            <code>00001A8F</code> — _SwitchVirtualFilterNodes@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001B3F">
+            <code>00001B3F</code> — _AddPinNodes@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001B86">
+            <code>00001B86</code> — _EnumerateFilterTopology@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001CC7">
+            <code>00001CC7</code> — _CreateAllVirtualFilterNodes@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001D00">
+            <code>00001D00</code> — _DestroyAllVirtualFilterNodes@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001D1A">
+            <code>00001D1A</code> — _CreatePhysicalConnection@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001D86">
+            <code>00001D86</code> — _AddFilterNodeToEndNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001DCE">
+            <code>00001DCE</code> — _CreateAllEndNodes@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001E3E">
+            <code>00001E3E</code> — _DestroyAllEndNodes@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001E58">
+            <code>00001E58</code> — _CreatePinInfo@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001EA8">
+            <code>00001EA8</code> — _DestroyPinInfo@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001F31">
+            <code>00001F31</code> — _CreatePinNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001F6C">
+            <code>00001F6C</code> — _DestroyPinNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001F7B">
+            <code>00001F7B</code> — _EnumerateEndNodes@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00001FCA">
+            <code>00001FCA</code> — _CreateEndNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000203F">
+            <code>0000203F</code> — _DestroyEndNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002069">
+            <code>00002069</code> — _CreateVirtualFilterNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000020F9">
+            <code>000020F9</code> — _RemoveVirtualFilterNode@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000211F">
+            <code>0000211F</code> — _DestroyVirtualFilterNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002161">
+            <code>00002161</code> — _GetFilterTypeFromGuid@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000021A1">
+            <code>000021A1</code> — _IsAudioFormat@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000021D9">
+            <code>000021D9</code> — _CreateStartNodeInstance@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000022C9">
+            <code>000022C9</code> — _DestroyStartNodeInstance@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002321">
+            <code>00002321</code> — _CreateConnectNodeInstance@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000249F">
+            <code>0000249F</code> — _DestroyConnectNodeInstance@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000024F3">
+            <code>000024F3</code> — _CreatePinNodeInstance@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000025E8">
+            <code>000025E8</code> — _DestroyPinNodeInstance@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002632">
+            <code>00002632</code> — _CreateFilterNodeInstance@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000275B">
+            <code>0000275B</code> — _DestroyFilterNodeInstance@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000027A0">
+            <code>000027A0</code> — _CreatePinConnect@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000028BA">
+            <code>000028BA</code> — _SetPinInstanceState@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000293C">
+            <code>0000293C</code> — _SetStateTopDown@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000029B4">
+            <code>000029B4</code> — _SetStateBottomUp@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000029F2">
+            <code>000029F2</code> — _SetStateConnectNodeInstance@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002A4C">
+            <code>00002A4C</code> — _SetState@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002ABF">
+            <code>00002ABF</code> — _CreateAllGraphs@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002BE7">
+            <code>00002BE7</code> — _DestroyAllGraphs@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002C14">
+            <code>00002C14</code> — _CreateGraph@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002EDE">
+            <code>00002EDE</code> — _DestroyGraph@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002F32">
+            <code>00002F32</code> — _FindVolumeNode@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002FD7">
+            <code>00002FD7</code> — _EnumStartNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00002FEF">
+            <code>00002FEF</code> — _CreatePinDescriptors@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000033A3">
+            <code>000033A3</code> — _DestroyPinDescriptors@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003430">
+            <code>00003430</code> — _CreateIdentifierArray@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000034BC">
+            <code>000034BC</code> — _CreateConnectNode@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003562">
+            <code>00003562</code> — _DestroyConnectNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003589">
+            <code>00003589</code> — _CreateConnectInstance@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000035E3">
+            <code>000035E3</code> — _DestroyConnectInstance@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000035F2">
+            <code>000035F2</code> — _CreateStartNode@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000036CE">
+            <code>000036CE</code> — _DestroyStartNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000036DD">
+            <code>000036DD</code> — _ComparePins@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003770">
+            <code>00003770</code> — _GetStartNodeDataRange@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000377D">
+            <code>0000377D</code> — _GetStartNodeInterface@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000378A">
+            <code>0000378A</code> — _GetStartNodeMedium@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003797">
+            <code>00003797</code> — _CreateSysAudioTopology@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003803">
+            <code>00003803</code> — _DestroySysAudioTopology@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000381C">
+            <code>0000381C</code> — _CreateFilterInstanceTopologyTable@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000388C">
+            <code>0000388C</code> — _GetTopologyNodeFileObject@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003905">
+            <code>00003905</code> — _GetTopologyNodeFileObjectKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000392D">
+            <code>0000392D</code> — _DestroyFilterInstanceTopologyTable@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003997">
+            <code>00003997</code> — _DestroyFilterInstanceTopologyTableKP@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000039C2">
+            <code>000039C2</code> — _CreatePinInstanceTopologyTable@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003A61">
+            <code>00003A61</code> — _CreateGraphTopologyTable@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003A99">
+            <code>00003A99</code> — _AddPinToFilterNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003ABA">
+            <code>00003ABA</code> — _AddPinToEndNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003B31">
+            <code>00003B31</code> — _CreatePinInfoConnection@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003C81">
+            <code>00003C81</code> — _DestroyGraphTopology@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003CFA">
+            <code>00003CFA</code> — _CreateTopologyTables@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003D80">
+            <code>00003D80</code> — _ProcessVirtualFilterNodeList@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003DAB">
+            <code>00003DAB</code> — _ProcessTopologyConnection@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003E88">
+            <code>00003E88</code> — _AddTopologyNode@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003EDE">
+            <code>00003EDE</code> — _AddTopologyConnection@24
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00003F12">
+            <code>00003F12</code> — _CreateTopology@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000412C">
+            <code>0000412C</code> — _DestroyTopology@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004159">
+            <code>00004159</code> — _CreateTopologyNode@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000041C2">
+            <code>000041C2</code> — _DestroyTopologyNode@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000041EB">
+            <code>000041EB</code> — _CreateTopologyPin@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000424E">
+            <code>0000424E</code> — _DestroyTopologyPin@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000429C">
+            <code>0000429C</code> — _IsTopologyConnectionOnEndNode@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004382">
+            <code>00004382</code> — _CheckDuplicateTopologyConnection@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000043BA">
+            <code>000043BA</code> — _CreateTopologyConnection@28
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004533">
+            <code>00004533</code> — _DestroyTopologyConnection@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000456C">
+            <code>0000456C</code> — _EnumerateTopology@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000045B2">
+            <code>000045B2</code> — _EnumerateGraphTopology@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000045E6">
+            <code>000045E6</code> — _EnumeratePinInfoTopology@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004626">
+            <code>00004626</code> — _EnumerateTopologyPin@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000479E">
+            <code>0000479E</code> — _EnumerateTopologyConnection@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004812">
+            <code>00004812</code> — _InitializeVirtualSource@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000049ED">
+            <code>000049ED</code> — _CreateVirtualSource@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004DB8">
+            <code>00004DB8</code> — _AttachVirtualSource@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004F35">
+            <code>00004F35</code> — _FilterVirtualPropertySupportHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00004F79">
+            <code>00004F79</code> — _FilterVirtualPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000051AB">
+            <code>000051AB</code> — _PinVirtualPropertySupportHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000051B3">
+            <code>000051B3</code> — _PinVirtualPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005254">
+            <code>00005254</code> — _CreateVirtualSourceData@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000053D9">
+            <code>000053D9</code> — _DestroyVirtualSourceData@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005450">
+            <code>00005450</code> — _VirtualizeFindNode@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000054C7">
+            <code>000054C7</code> — _VirtualizeFindSuperMix@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000054E0">
+            <code>000054E0</code> — _VirtualizeFindMute@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000054F9">
+            <code>000054F9</code> — _VirtualizeFindVolume@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005512">
+            <code>00005512</code> — _VirtualizeFilterTopology@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005599">
+            <code>00005599</code> — _GetControlRange@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005619">
+            <code>00005619</code> — _QueryPropertyRange@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000056B2">
+            <code>000056B2</code> — _SetVirtualVolume@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000574C">
+            <code>0000574C</code> — _MapVirtualLevel@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000576E">
+            <code>0000576E</code> — _GetVolumeNodeNumber@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000057CD">
+            <code>000057CD</code> — _GetSuperMixCaps@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005894">
+            <code>00005894</code> — _CountDevices@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000058A0">
+            <code>000058A0</code> — _GetIndexByNode@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000058F0">
+            <code>000058F0</code> — _GetNodeByIndex@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000593B">
+            <code>0000593B</code> — _PropertyReturnString@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000059B2">
+            <code>000059B2</code> — _GetFriendlyNameProperty@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005A6E">
+            <code>00005A6E</code> — _GetDeviceCount@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005AAF">
+            <code>00005AAF</code> — _GetInstanceDevice@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005AE8">
+            <code>00005AE8</code> — _SetInstanceDevice@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005B26">
+            <code>00005B26</code> — _SetDeviceDefault@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005B6C">
+            <code>00005B6C</code> — _GetDeviceInterfaceName@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005BBF">
+            <code>00005BBF</code> — _SelectGraph@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005C3D">
+            <code>00005C3D</code> — _FindTopologyNode@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005C77">
+            <code>00005C77</code> — _IsGraphValid@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005CB1">
+            <code>00005CB1</code> — _AddRemoveLock@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005CDD">
+            <code>00005CDD</code> — _AddRemoveUnlock@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005D0D">
+            <code>00005D0D</code> — _GetRenderPinInstances@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005DC8">
+            <code>00005DC8</code> — _GetRenderConnectionIndex@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005E38">
+            <code>00005E38</code> — _GetTopologyConnectionIndex@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005E5F">
+            <code>00005E5F</code> — _GetPinVolumeNode@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005E99">
+            <code>00005E99</code> — _InitializeUtil@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005EE3">
+            <code>00005EE3</code> — _UninitializeUtil@0
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005EE4">
+            <code>00005EE4</code> — _CompareDataRange@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005F58">
+            <code>00005F58</code> — _WaveFormatFromAudioRange@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00005FC4">
+            <code>00005FC4</code> — _LimitAudioRangeToWave@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000601A">
+            <code>0000601A</code> — _DataIntersectionRange@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000060FD">
+            <code>000060FD</code> — _DataIntersectionAudio@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000617F">
+            <code>0000617F</code> — _CompareDataRangeExact@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000061A7">
+            <code>000061A7</code> — _CompareDataRangeGuids@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000625A">
+            <code>0000625A</code> — _CompareIdentifier@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006299">
+            <code>00006299</code> — _EnumFriendlyNames@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006431">
+            <code>00006431</code> — _GetRegistryDefault@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000064BB">
+            <code>000064BB</code> — _GetRegistryPlaybackRecordFormat@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000065AA">
+            <code>000065AA</code> — _OpenDevice@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006602">
+            <code>00006602</code> — _OpenRegistryKey@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="0000664A">
+            <code>0000664A</code> — _QueryRegistryValue@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="000066AF">
+            <code>000066AF</code> — _GetPinProperty@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006700">
+            <code>00006700</code> — _PinConnectionProperty@20
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006746">
+            <code>00006746</code> — _GetPinPropertyEx@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006807">
+            <code>00006807</code> — _GetProperty@24
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006907">
+            <code>00006907</code> — _AsyncCallKernelProcessWorker@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006971">
+            <code>00006971</code> — _CallKernelProcessWorker@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006993">
+            <code>00006993</code> — _CallKernelProcess@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006A98">
+            <code>00006A98</code> — _EnumFreeMem@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006AA7">
+            <code>00006AA7</code> — _AllocMem@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006AE6">
+            <code>00006AE6</code> — _FreeMem@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006AFA">
+            <code>00006AFA</code> — _RemoveListSingle@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006B13">
+            <code>00006B13</code> — _EnumerateListSingle@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006B37">
+            <code>00006B37</code> — _EnumerateListSingle2@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006B63">
+            <code>00006B63</code> — _CountListData@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006B75">
+            <code>00006B75</code> — _AddListData@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006BA6">
+            <code>00006BA6</code> — _AddListDataEnd@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006BDE">
+            <code>00006BDE</code> — _AddListDataNoDup@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006C05">
+            <code>00006C05</code> — _AddOrderedListData@12
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006C4F">
+            <code>00006C4F</code> — _JoinListData@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006C6B">
+            <code>00006C6B</code> — _RemoveListData@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006C93">
+            <code>00006C93</code> — _DestroyListData@4
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006CB5">
+            <code>00006CB5</code> — _EnumerateListData@8
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006CDB">
+            <code>00006CDB</code> — _EnumerateListData2@16
+            
+          </li>
+        
+          <li data-segment="000027D0" data-offset="00006D09">
+            <code>00006D09</code> — _CreateUniqueList@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: PAGEDATA @ 00002EB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00002EB0" data-offset="00000000">
+            <code>00000000</code> — _NullShingleInstance
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000010">
+            <code>00000010</code> — _PlaybackShingleInstance
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000020">
+            <code>00000020</code> — _RecordShingleInstance
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000030">
+            <code>00000030</code> — _MidiShingleInstance
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000040">
+            <code>00000040</code> — _MixerShingleInstance
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000050">
+            <code>00000050</code> — _apShingleInstance
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000068">
+            <code>00000068</code> — _DeviceCreateItems
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000000F8">
+            <code>000000F8</code> — ??_C@_1CK@NKLM@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AAs?$AAy?$AAs?$AAa?$AAu?$AAd?$AAi?$AAo@
+            <em class="processed-tag">(L"\\DosDevices\\sysaudio")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000124">
+            <code>00000124</code> — ??_C@_1CC@MDB@?$AA?2?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AAs?$AAy?$AAs?$AAa?$AAu?$AAd?$AAi?$AAo?$AA?$AA@
+            <em class="processed-tag">(L"\\Device\\sysaudio")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000148">
+            <code>00000148</code> — _FilterCreateItems
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000160">
+            <code>00000160</code> — _SteppingLongVolume
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000170">
+            <code>00000170</code> — _MemberListVolume
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000188">
+            <code>00000188</code> — _PropertyValuesVolume
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000001AC">
+            <code>000001AC</code> — ??_C@_1DC@EJDC@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AAS?$AAW?$AAM?$AAI?$AAD?$AAI?$AA?2?$AAL@
+            <em class="processed-tag">(L"\\DosDevices\\SWMIDI\\L")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000001E0">
+            <code>000001E0</code> — _PinCreateItems
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000210">
+            <code>00000210</code> — _aWaveFormatEx
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000330">
+            <code>00000330</code> — _gcVirtualFilterNodes
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000334">
+            <code>00000334</code> — _gcAddRemoveLock
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000338">
+            <code>00000338</code> — _apguidAudioFormats
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000348">
+            <code>00000348</code> — _DataRangesNull
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000390">
+            <code>00000390</code> — _IdentifiersNull
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000003B0">
+            <code>000003B0</code> — _apguidCategories
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000003D0">
+            <code>000003D0</code> — _aulFilterType
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000003F0">
+            <code>000003F0</code> — _apvNotificationHandles
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000410">
+            <code>00000410</code> — _gcGraphRecursion
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000418">
+            <code>00000418</code> — _gcTopologyConnections
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000420">
+            <code>00000420</code> — _aguidSysAudioCategories
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000430">
+            <code>00000430</code> — _DataRangeWildCard
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000470">
+            <code>00000470</code> — _VirtualPinMedium
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000488">
+            <code>00000488</code> — _VirtualPinDataRange
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000004C8">
+            <code>000004C8</code> — _gcVirtualSources
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000004CC">
+            <code>000004CC</code> — _gcTopologyPinSum
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000004D0">
+            <code>000004D0</code> — _gpFilterNode
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000004D4">
+            <code>000004D4</code> — _gpTopologyNodeSum
+            
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000004D8">
+            <code>000004D8</code> — ??_C@_1BM@FCEF@?$AAV?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5?$AAM?$AAi?$AAx?$AAe?$AAr?$AA?$AA@
+            <em class="processed-tag">(L"Virtual Mixer")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000004F4">
+            <code>000004F4</code> — ??_C@_1BK@EFIC@?$AAF?$AAr?$AAi?$AAe?$AAn?$AAd?$AAl?$AAy?$AAN?$AAa?$AAm?$AAe?$AA?$AA@
+            <em class="processed-tag">(L"FriendlyName")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000510">
+            <code>00000510</code> — ??_C@_1HO@DIGF@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAU?$AAs?$AAe?$AAr?$AA?2?$AAS?$AAo?$AAf?$AAt?$AAw@
+            <em class="processed-tag">(L"\\Registry\\User\\Softw"...)</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="00000590">
+            <code>00000590</code> — ??_C@_1BM@FLAF@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAo?$AAr?$AAm?$AAa?$AAt?$AA?$AA@
+            <em class="processed-tag">(L"DefaultFormat")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000005AC">
+            <code>000005AC</code> — ??_C@_1CM@DGMI@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAP?$AAl?$AAa?$AAy?$AAb?$AAa?$AAc?$AAk?$AAF?$AAo?$AAr?$AAm?$AAa@
+            <em class="processed-tag">(L"DefaultPlaybackForma")</em>
+          </li>
+        
+          <li data-segment="00002EB0" data-offset="000005D8">
+            <code>000005D8</code> — ??_C@_1GG@PBDG@?$AA?2?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAr?$AAy?$AA?2?$AAU?$AAs?$AAe?$AAr?$AA?2?$AAS?$AAo?$AAf?$AAt?$AAw@
+            <em class="processed-tag">(L"\\Registry\\User\\Softw"...)</em>
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: PAGECONST @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _KSDATAFORMAT_SUBTYPE_MIDI
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — _KSDATAFORMAT_TYPE_MUSIC
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — _KSPROPSETID_Sysaudio_Pin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000030">
+            <code>00000030</code> — _KSPROPSETID_Sysaudio
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000040">
+            <code>00000040</code> — _KSEVENTSETID_Sysaudio
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000050">
+            <code>00000050</code> — _KSNODETYPE_VOLUME
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000060">
+            <code>00000060</code> — _KSNODETYPE_MUTE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000070">
+            <code>00000070</code> — _KSNODETYPE_SUM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000080">
+            <code>00000080</code> — _KSNODETYPE_DEMUX
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000090">
+            <code>00000090</code> — _KSNODETYPE_MUX
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000A0">
+            <code>000000A0</code> — _KSNODETYPE_SUPERMIX
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000B0">
+            <code>000000B0</code> — _KSNODETYPE_SRC
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000C0">
+            <code>000000C0</code> — _KSPROPSETID_Audio
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000D0">
+            <code>000000D0</code> — _KSDATAFORMAT_SPECIFIER_WAVEFORMATEX
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000E0">
+            <code>000000E0</code> — _KSDATAFORMAT_SUBTYPE_PCM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000F0">
+            <code>000000F0</code> — _KSDATAFORMAT_SUBTYPE_WAVEFORMATEX
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000100">
+            <code>00000100</code> — _KSDATAFORMAT_TYPE_AUDIO
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000110">
+            <code>00000110</code> — _KSCATEGORY_WDMAUD_USE_PIN_NAME
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000120">
+            <code>00000120</code> — _KSCATEGORY_ACOUSTIC_ECHO_CANCEL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000130">
+            <code>00000130</code> — _KSCATEGORY_TOPOLOGY
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000140">
+            <code>00000140</code> — _KSCATEGORY_AUDIO
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000150">
+            <code>00000150</code> — _KSPROPSETID_Connection
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000160">
+            <code>00000160</code> — _KSPROPSETID_Pin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000170">
+            <code>00000170</code> — _KSCATEGORY_DATATRANSFORM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000180">
+            <code>00000180</code> — _KSCATEGORY_MIXER
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000190">
+            <code>00000190</code> — _KSCATEGORY_RENDER
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001A0">
+            <code>000001A0</code> — _KSCATEGORY_CAPTURE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001B0">
+            <code>000001B0</code> — _KSCATEGORY_BRIDGE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001C0">
+            <code>000001C0</code> — _KSPROPSETID_Topology
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001D0">
+            <code>000001D0</code> — _KSPROPTYPESETID_General
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001E0">
+            <code>000001E0</code> — _GUID_NULL
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

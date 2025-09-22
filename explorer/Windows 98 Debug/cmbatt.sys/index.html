@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>CMBATT — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../cmbatt.c</li>
+      
+        <li>../cmbpnp.c</li>
+      
+        <li>../cmexe.c</li>
+      
+        <li>../cmhndlr.c</li>
+      
+        <li>../vxd.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00000EB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000EB0" data-offset="00000000">
+            <code>00000000</code> — _CmBattIoCompletion@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000040">
+            <code>00000040</code> — _CmBattSynchronousRequest@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000000A0">
+            <code>000000A0</code> — _CmBattAddDevice@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000260">
+            <code>00000260</code> — _CmBattAddBattery@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000004B0">
+            <code>000004B0</code> — _CmBattAddAcAdapter@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000006D0">
+            <code>000006D0</code> — _CmBattGetAcpiInterfaces@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000850">
+            <code>00000850</code> — _CmBattCreateFdo@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000A50">
+            <code>00000A50</code> — _CmBattPnpDispatch@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000DF0">
+            <code>00000DF0</code> — _CmBattPowerDispatch@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000F90">
+            <code>00000F90</code> — _CmBattForwardRequest@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001000">
+            <code>00001000</code> — _CmBattStartDevice@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001220">
+            <code>00001220</code> — _CmBattStopDevice@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000013B0">
+            <code>000013B0</code> — _CmBattVerifyStaticInfo@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001610">
+            <code>00001610</code> — _CmBattGetPsrData@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001720">
+            <code>00001720</code> — _CmBattGetBifData@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001C80">
+            <code>00001C80</code> — _CmBattGetBstData@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001EF0">
+            <code>00001EF0</code> — _GetDwordElement@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001F40">
+            <code>00001F40</code> — _GetStringElement@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00001FF0">
+            <code>00001FF0</code> — _CmBattNotifyHandler@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000021D0">
+            <code>000021D0</code> — _CmBattPowerNotifyHandler@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002240">
+            <code>00002240</code> — _CmBattNotifyVPOWERDOfPowerChange@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002276">
+            <code>00002276</code> — _BatteryClassInitializeDevice@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="0000227C">
+            <code>0000227C</code> — _BatteryClassUnload@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002282">
+            <code>00002282</code> — _BatteryClassIoctl@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002288">
+            <code>00002288</code> — _BatteryClassStatusNotify@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="0000228E">
+            <code>0000228E</code> — _KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002294">
+            <code>00002294</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="0000229A">
+            <code>0000229A</code> — _RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022A0">
+            <code>000022A0</code> — _RtlCompareUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022A6">
+            <code>000022A6</code> — _RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022AC">
+            <code>000022AC</code> — _IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022B2">
+            <code>000022B2</code> — _ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022B8">
+            <code>000022B8</code> — _IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022BE">
+            <code>000022BE</code> — _RtlAppendUnicodeToString@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022C4">
+            <code>000022C4</code> — _ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022CA">
+            <code>000022CA</code> — _IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022D0">
+            <code>000022D0</code> — @IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022D6">
+            <code>000022D6</code> — _IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022DC">
+            <code>000022DC</code> — _IoGetAttachedDeviceReference@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022E2">
+            <code>000022E2</code> — _RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022E8">
+            <code>000022E8</code> — @IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022EE">
+            <code>000022EE</code> — _PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022F4">
+            <code>000022F4</code> — _PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000022FA">
+            <code>000022FA</code> — _KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002300">
+            <code>00002300</code> — _KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002306">
+            <code>00002306</code> — _IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="0000230C">
+            <code>0000230C</code> — _RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002312">
+            <code>00002312</code> — _RtlAnsiStringToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002318">
+            <code>00002318</code> — _RtlInitAnsiString@8
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="0000231E">
+            <code>0000231E</code> — _KeGetCurrentThread@0
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002324">
+            <code>00002324</code> — _IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="0000232A">
+            <code>0000232A</code> — _IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00002330">
+            <code>00002330</code> — _KeGetCurrentIrql@0
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .rdata @ 000010E0
+      </summary>
+      <ul>
+        
+          <li data-segment="000010E0" data-offset="00000058">
+            <code>00000058</code> — _GUID_HWPROFILE_QUERY_CHANGE
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000068">
+            <code>00000068</code> — _GUID_HWPROFILE_CHANGE_CANCELLED
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000078">
+            <code>00000078</code> — _GUID_HWPROFILE_CHANGE_COMPLETE
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000088">
+            <code>00000088</code> — _GUID_DEVICE_INTERFACE_ARRIVAL
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000098">
+            <code>00000098</code> — _GUID_DEVICE_INTERFACE_REMOVAL
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="000000A8">
+            <code>000000A8</code> — _GUID_TARGET_DEVICE_QUERY_REMOVE
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="000000B8">
+            <code>000000B8</code> — _GUID_TARGET_DEVICE_REMOVE_CANCELLED
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="000000C8">
+            <code>000000C8</code> — _GUID_TARGET_DEVICE_REMOVE_COMPLETE
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="000000D8">
+            <code>000000D8</code> — _GUID_BUS_INTERFACE_STANDARD
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="000000E8">
+            <code>000000E8</code> — _GUID_PCI_BUS_INTERFACE_STANDARD
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="000000F8">
+            <code>000000F8</code> — _GUID_ARBITER_INTERFACE_STANDARD
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000108">
+            <code>00000108</code> — _GUID_TRANSLATOR_INTERFACE_STANDARD
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000118">
+            <code>00000118</code> — _GUID_ACPI_INTERFACE_STANDARD
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000128">
+            <code>00000128</code> — _GUID_BUS_TYPE_PCMCIA
+            
+          </li>
+        
+          <li data-segment="000010E0" data-offset="00000138">
+            <code>00000138</code> — _GUID_BUS_TYPE_PCI
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 000011B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000011B0" data-offset="00000000">
+            <code>00000000</code> — _HidCmBattery
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000004">
+            <code>00000004</code> — _HidAcAdapter
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000008">
+            <code>00000008</code> — _CmBattDeviceName
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000000C">
+            <code>0000000C</code> — _AcAdapterName
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000CFC">
+            <code>00000CFC</code> — _CmBattDebug
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000D00">
+            <code>00000D00</code> — _CmBattPrevPowerSource
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000021B8">
+            <code>000021B8</code> — _LowerPdo
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000021BC">
+            <code>000021BC</code> — _AcAdapterPdo
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000021D0">
+            <code>000021D0</code> — _AcpiInterfaces
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .idata$2 @ 00001700
+      </summary>
+      <ul>
+        
+          <li data-segment="00001700" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_BATTC
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_ntoskrnl
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000028">
+            <code>00000028</code> — __IMPORT_DESCRIPTOR_NTPNP
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000003C">
+            <code>0000003C</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000050">
+            <code>00000050</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="000000F4">
+            <code>000000F4</code> — __imp__BatteryClassUnload@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="000000F8">
+            <code>000000F8</code> — __imp__BatteryClassIoctl@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="000000FC">
+            <code>000000FC</code> — __imp__BatteryClassStatusNotify@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000100">
+            <code>00000100</code> — __imp__BatteryClassInitializeDevice@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000104">
+            <code>00000104</code> — \177BATTC_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000108">
+            <code>00000108</code> — __imp__KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000010C">
+            <code>0000010C</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000110">
+            <code>00000110</code> — __imp__IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000114">
+            <code>00000114</code> — \177NTPNP_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000118">
+            <code>00000118</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000011C">
+            <code>0000011C</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000120">
+            <code>00000120</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000124">
+            <code>00000124</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000128">
+            <code>00000128</code> — __imp__RtlAppendUnicodeToString@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000012C">
+            <code>0000012C</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000130">
+            <code>00000130</code> — __imp__IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000134">
+            <code>00000134</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000138">
+            <code>00000138</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000013C">
+            <code>0000013C</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000140">
+            <code>00000140</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000144">
+            <code>00000144</code> — __imp__RtlCompareUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000148">
+            <code>00000148</code> — __imp__PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000014C">
+            <code>0000014C</code> — __imp__PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000150">
+            <code>00000150</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000154">
+            <code>00000154</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000158">
+            <code>00000158</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000015C">
+            <code>0000015C</code> — __imp__RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000160">
+            <code>00000160</code> — __imp__RtlAnsiStringToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000164">
+            <code>00000164</code> — __imp__RtlInitAnsiString@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000168">
+            <code>00000168</code> — __imp__KeGetCurrentThread@0
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000016C">
+            <code>0000016C</code> — __imp__IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000170">
+            <code>00000170</code> — __imp__RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000174">
+            <code>00000174</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000178">
+            <code>00000178</code> — __imp__IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="0000017C">
+            <code>0000017C</code> — __imp__IoGetAttachedDeviceReference@4
+            
+          </li>
+        
+          <li data-segment="00001700" data-offset="00000180">
+            <code>00000180</code> — \177ntoskrnl_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 00001DD0
+      </summary>
+      <ul>
+        
+          <li data-segment="00001DD0" data-offset="00000000">
+            <code>00000000</code> — _CmBattUnload@4
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="000000D0">
+            <code>000000D0</code> — _CmBattOpenClose@8
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00000160">
+            <code>00000160</code> — _CmBattIoctl@8
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00000210">
+            <code>00000210</code> — _CmBattQueryTag@8
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00000370">
+            <code>00000370</code> — _CmBattQueryInformation@28
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="000007C0">
+            <code>000007C0</code> — _CmBattQueryStatus@12
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="000008A0">
+            <code>000008A0</code> — _CmBattSetStatusNotify@12
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00000B80">
+            <code>00000B80</code> — _CmBattDisableStatusNotify@4
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00000C10">
+            <code>00000C10</code> — _CmBattGetApiBatteryInfo@4
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00000D60">
+            <code>00000D60</code> — _CmBattGetBatteryStatus@8
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="000010C0">
+            <code>000010C0</code> — _CmBattSendDownStreamIrp@24
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00001220">
+            <code>00001220</code> — _CmBattGetUniqueId@8
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00001330">
+            <code>00001330</code> — _CmBattGetStaData@8
+            
+          </li>
+        
+          <li data-segment="00001DD0" data-offset="00001440">
+            <code>00001440</code> — _CmBattSetTripPpoint@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: INIT @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>ESDI_506 — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../esdiaer.asm</li>
+      
+        <li>../esdi.asm</li>
+      
+        <li>../esdierr.asm</li>
+      
+        <li>../esdigeom.asm</li>
+      
+        <li>../esdiinit.asm</li>
+      
+        <li>../esdiisr.asm</li>
+      
+        <li>../esdipm.asm</li>
+      
+        <li>../esdireq.asm</li>
+      
+        <li>../esdisgio.asm</li>
+      
+        <li>../esdisubs.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LDATA @ 000034B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000034B0" data-offset="00000000">
+            <code>00000000</code> — ESDI_506_DDB
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00000050">
+            <code>00000050</code> — BIOS_ID
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000058D">
+            <code>0000058D</code> — ESDISER_head
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00000591">
+            <code>00000591</code> — ESDISER_freeze_head
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00002ACC">
+            <code>00002ACC</code> — NumSerialize
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00002BC0">
+            <code>00002BC0</code> — ESDI_DDB_Ptr
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00002BC4">
+            <code>00002BC4</code> — ESDI_num_devices
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004014">
+            <code>00004014</code> — ESDI_async_event
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004094">
+            <code>00004094</code> — ESDI_acpi_request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000040F8">
+            <code>000040F8</code> — ESDI_internal_request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004307">
+            <code>00004307</code> — ESDI_nonio_request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004451">
+            <code>00004451</code> — ESDI_reset_timers
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000044F0">
+            <code>000044F0</code> — ESDI_reset_iopxs
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004536">
+            <code>00004536</code> — ESDI_IOP_Timeout
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000045EB">
+            <code>000045EB</code> — ESDI_dot_command
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000460F">
+            <code>0000460F</code> — ESDI_dump_help
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004619">
+            <code>00004619</code> — ESDI_spin_down_all_disks
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004674">
+            <code>00004674</code> — ESDI_Request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000046F3">
+            <code>000046F3</code> — ESDI_r_dequeue_request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000047C5">
+            <code>000047C5</code> — ESDI_Start_Request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004884">
+            <code>00004884</code> — ESDI_s_r_continue
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000493C">
+            <code>0000493C</code> — ESDI_IOPX_Retry
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004B22">
+            <code>00004B22</code> — ESDI_Start_Hardware
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004E21">
+            <code>00004E21</code> — ESDI_Func_Read
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004E6C">
+            <code>00004E6C</code> — ESDI_Func_Write
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004F04">
+            <code>00004F04</code> — ESDI_Func_Verify
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004F0F">
+            <code>00004F0F</code> — ESDI_Func_Flush
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00004FD6">
+            <code>00004FD6</code> — ESDI_Func_Spin_Down
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000509D">
+            <code>0000509D</code> — ESDI_Func_Spin_Up
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000510D">
+            <code>0000510D</code> — ESDI_Func_Lock
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000517F">
+            <code>0000517F</code> — ESDI_Func_Unlock
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000051F1">
+            <code>000051F1</code> — ESDI_Func_Eject
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005263">
+            <code>00005263</code> — ESDI_Func_Async_Spin
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000052CB">
+            <code>000052CB</code> — ESDI_Func_Recompute
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000053AB">
+            <code>000053AB</code> — ESDI_Func_Pass_Through
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000054A3">
+            <code>000054A3</code> — ESDI_Func_ATAPI
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000578B">
+            <code>0000578B</code> — ESDI_send_atapi_block
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005865">
+            <code>00005865</code> — ESDI_set_up_DMA_buffs
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005994">
+            <code>00005994</code> — ESDISER_request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005A94">
+            <code>00005A94</code> — ESDISER_callback
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005B38">
+            <code>00005B38</code> — ESDI_Irq_Handler
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005B75">
+            <code>00005B75</code> — ESDI_IRQ_Alt_Entry
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005D19">
+            <code>00005D19</code> — ESDI_Virt_EOI
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005D25">
+            <code>00005D25</code> — ESDI_Read_Data
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005D7B">
+            <code>00005D7B</code> — ESDI_Write_Data
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005DE0">
+            <code>00005DE0</code> — ESDI_Verify_Data
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005DF8">
+            <code>00005DF8</code> — ESDI_flush_Complete
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005EC0">
+            <code>00005EC0</code> — ESDI_Spindown_Complete
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00005FA4">
+            <code>00005FA4</code> — ESDI_Lock_Unlock_Complete
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006023">
+            <code>00006023</code> — ESDI_Eject_Complete
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000060E9">
+            <code>000060E9</code> — ESDI_Process_Atapi
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000620C">
+            <code>0000620C</code> — ESDI_Process_DMA
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000622E">
+            <code>0000622E</code> — ESDI_Complete_Request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000632A">
+            <code>0000632A</code> — ESDI_Start_Next_Request
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000064B8">
+            <code>000064B8</code> — ESDI_Call_Request_Back
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000650D">
+            <code>0000650D</code> — ESDI_Check_Seek
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000065C2">
+            <code>000065C2</code> — ESDI_Seek_Timer
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006601">
+            <code>00006601</code> — ESDI_Media_Status_Timer
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000672C">
+            <code>0000672C</code> — ESDI_Check_Media_Status
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006787">
+            <code>00006787</code> — ESDI_Eject_Media
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000067CF">
+            <code>000067CF</code> — ESDI_New_Medium
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000682C">
+            <code>0000682C</code> — ESDI_IODelay
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006834">
+            <code>00006834</code> — ESDI_wait_for_drq
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000686E">
+            <code>0000686E</code> — ESDI_wait_not_busy
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006902">
+            <code>00006902</code> — ESDI_reset_adapter
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000693D">
+            <code>0000693D</code> — ESDI_reset_atapi
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006984">
+            <code>00006984</code> — esdi_ilb
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000069B8">
+            <code>000069B8</code> — ESDI_get_drive_id
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006B78">
+            <code>00006B78</code> — ESDI_extract_geom
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006B85">
+            <code>00006B85</code> — ESDI_extract_current_geom
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006B92">
+            <code>00006B92</code> — ESDI_get_ctlr_type
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006C18">
+            <code>00006C18</code> — ESDI_enable_media_status
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006C94">
+            <code>00006C94</code> — ESDI_Error_Handler
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006C9F">
+            <code>00006C9F</code> — ESDI_error_iop_timeout
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006CAF">
+            <code>00006CAF</code> — ESDI_error_set_params_t_o
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006CBF">
+            <code>00006CBF</code> — ESDI_error_cmd_setup_t_o
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006CCF">
+            <code>00006CCF</code> — ESDI_error_write_cmd_t_o
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006CDF">
+            <code>00006CDF</code> — ESDI_error_write_drq_t_o
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006CEF">
+            <code>00006CEF</code> — ESDI_error_weird_cmd
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006CFF">
+            <code>00006CFF</code> — ESDI_error_read_cmd_t_o
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D0F">
+            <code>00006D0F</code> — ESDI_error_read_drq_t_o
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D1F">
+            <code>00006D1F</code> — ESDI_error_read_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D2F">
+            <code>00006D2F</code> — ESDI_error_write_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D3C">
+            <code>00006D3C</code> — ESDI_error_verify_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D49">
+            <code>00006D49</code> — ESDI_error_write_sg_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D56">
+            <code>00006D56</code> — ESDI_error_write_last_sector_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D63">
+            <code>00006D63</code> — ESDI_error_read_dma
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D70">
+            <code>00006D70</code> — ESDI_error_write_dma
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D7D">
+            <code>00006D7D</code> — ESDI_atapi_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D8A">
+            <code>00006D8A</code> — ESDI_atapi_busy
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006D97">
+            <code>00006D97</code> — ESDI_error_dma_error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006DA4">
+            <code>00006DA4</code> — ESDI_atapi_no_drq
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006DAF">
+            <code>00006DAF</code> — ESDI_error_common
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006F82">
+            <code>00006F82</code> — ESDI_Reset_If_Required
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006FE5">
+            <code>00006FE5</code> — ESDI_Map_Hard_Error
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00006FFF">
+            <code>00006FFF</code> — ESDI_Atapi_Error_Handler
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000723B">
+            <code>0000723B</code> — ESDI_Atapi_Error_Callback
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="0000735C">
+            <code>0000735C</code> — ESDI_SG_Read
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000074B9">
+            <code>000074B9</code> — ESDI_SG_Write
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00007622">
+            <code>00007622</code> — ESDI_Get_Next_SGD
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000076FB">
+            <code>000076FB</code> — ESDI_Port_Trap_Handler
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00007758">
+            <code>00007758</code> — ESDI_Byte_In
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="000078BD">
+            <code>000078BD</code> — ESDI_Byte_Out
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00007A5B">
+            <code>00007A5B</code> — ESDI_Unsupported_Port_IO
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00007A60">
+            <code>00007A60</code> — ESDI_Flush_Disk
+            
+          </li>
+        
+          <li data-segment="000034B0" data-offset="00007A90">
+            <code>00007A90</code> — ESDI_flush_worker
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _PTEXT @ 00005DB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00005DB0" data-offset="00000000">
+            <code>00000000</code> — ESDI_show_complete
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000002A">
+            <code>0000002A</code> — ESDI_shutdown
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000009C">
+            <code>0000009C</code> — ESDI_config_physical
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000031E">
+            <code>0000031E</code> — ESDI_unconfig_physical
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000049B">
+            <code>0000049B</code> — ESDI_device_inquiry
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001134">
+            <code>00001134</code> — ESDI_Uninit
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001157">
+            <code>00001157</code> — ESDI_set_int13_geom
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001490">
+            <code>00001490</code> — ESDI_app_chs_to_rba
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000014B8">
+            <code>000014B8</code> — ESDI_rba_to_app_chs
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000014E5">
+            <code>000014E5</code> — ESDI_rba_to_act_chs
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000150B">
+            <code>0000150B</code> — ESDI_do_bios_read
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000016A2">
+            <code>000016A2</code> — ESDI_geom_dct_to_dcb
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001781">
+            <code>00001781</code> — ESDI_Set_IRQ_Handler
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000182C">
+            <code>0000182C</code> — ESDI_Cfg_adapter_IRQ
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001874">
+            <code>00001874</code> — ESDI_check_IBM
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000018DF">
+            <code>000018DF</code> — ESDI_cmos_read
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000018F1">
+            <code>000018F1</code> — ESDI_trap_io_ports
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000191A">
+            <code>0000191A</code> — ESDI_untrap_io_ports
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000193E">
+            <code>0000193E</code> — ESDI_check_serialize
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000019A9">
+            <code>000019A9</code> — ESDI_check_one_drive
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001A02">
+            <code>00001A02</code> — ESDI_check_sharing
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001A5F">
+            <code>00001A5F</code> — ESDI_check_cd_msn
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001ABC">
+            <code>00001ABC</code> — ESDI_check_DMA
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001B17">
+            <code>00001B17</code> — ESDI_check_MSN
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001B96">
+            <code>00001B96</code> — ESDI_check_busted_atapi
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001BF3">
+            <code>00001BF3</code> — ESDI_check_enable_ints
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001C50">
+            <code>00001C50</code> — ESDI_check_no_cmos
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001CA9">
+            <code>00001CA9</code> — ESDI_check_no_ide
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001D19">
+            <code>00001D19</code> — ESDI_check_force_serialize
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001D86">
+            <code>00001D86</code> — ESDI_check_busted_pci
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001DAC">
+            <code>00001DAC</code> — ESDI_check_drive_ok_dma
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001DDA">
+            <code>00001DDA</code> — ESDI_check_wd_ok
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001E3F">
+            <code>00001E3F</code> — ESDI_update_registry
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001F7F">
+            <code>00001F7F</code> — ESDI_get_bds_ptr
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00001FEC">
+            <code>00001FEC</code> — ESDI_Register
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00002037">
+            <code>00002037</code> — ESDI_Initialize
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000022C4">
+            <code>000022C4</code> — ESDI_Create_DDB
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000022EE">
+            <code>000022EE</code> — ESDI_Destroy_DDB
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000230E">
+            <code>0000230E</code> — ESDI_Uninitialize
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000023B1">
+            <code>000023B1</code> — ESDI_Scan_Inp_Params
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000024B8">
+            <code>000024B8</code> — ESDI_drive_test
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="0000256D">
+            <code>0000256D</code> — ESDI_get_bios_id
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="000025A6">
+            <code>000025A6</code> — ESDI_Read_Cmos
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00002620">
+            <code>00002620</code> — ESDI_disable_media_status
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00002663">
+            <code>00002663</code> — ESDI_geom_from_eid
+            
+          </li>
+        
+          <li data-segment="00005DB0" data-offset="00002853">
+            <code>00002853</code> — ESDI_Hex_To_ASCII
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000004">
+            <code>00000004</code> — disk_type
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — drive_number
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000A">
+            <code>0000000A</code> — current_dcb
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000001A">
+            <code>0000001A</code> — ESDI_trap_data
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001274">
+            <code>00001274</code> — drv_reg_pkt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001788">
+            <code>00001788</code> — ESDI_controller_data
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

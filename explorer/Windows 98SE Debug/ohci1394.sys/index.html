@@ -1,0 +1,2318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>OHCI1394 — Windows 98SE Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../../common/common.c</li>
+      
+        <li>intel/ullshr.asm</li>
+      
+        <li>../interrup.c</li>
+      
+        <li>../ohciirp.c</li>
+      
+        <li>../ohcipnp.c</li>
+      
+        <li>../ohcisoch.c</li>
+      
+        <li>../openhci.c</li>
+      
+        <li>../../../../../wdm10/ddk/inc/wdm.h</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00003B30
+      </summary>
+      <ul>
+        
+          <li data-segment="00003B30" data-offset="00000000">
+            <code>00000000</code> — _OhciIsr@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00000102">
+            <code>00000102</code> — _OhciDpc@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00000423">
+            <code>00000423</code> — _OhciSynchGetIntBits@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00000465">
+            <code>00000465</code> — _OhciRestartIsochStreams@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00000468">
+            <code>00000468</code> — _OhciHandleIsochInt@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000007FA">
+            <code>000007FA</code> — _OhciHandleAsyncResponse@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00000E00">
+            <code>00000E00</code> — _OhciHandleAsyncRequest@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000016EC">
+            <code>000016EC</code> — _OhciHandleAsyncRspXmit@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000184D">
+            <code>0000184D</code> — _OhciHandleAsyncReqXmit@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00001BEB">
+            <code>00001BEB</code> — _OhciTimeOutDpc@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00001DFC">
+            <code>00001DFC</code> — _OhciRspTimeOutDpc@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00001F18">
+            <code>00001F18</code> — _OhciBusReset@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00001FE9">
+            <code>00001FE9</code> — _OhciHandleBusReset@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000217B">
+            <code>0000217B</code> — _OhciCleanupPendingLists@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00002477">
+            <code>00002477</code> — _ExFreeToNPagedLookasideList@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000024A5">
+            <code>000024A5</code> — _OhciCleanupDmaBlockWrite@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000258D">
+            <code>0000258D</code> — _OhciRetryAsyncRequest@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000025FA">
+            <code>000025FA</code> — _HandleIOCtl@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000265C">
+            <code>0000265C</code> — _CreatePortObjectAndSymLink@20
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000027C1">
+            <code>000027C1</code> — _OhciIOCtl@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000031A9">
+            <code>000031A9</code> — _ExAllocateFromNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000031D3">
+            <code>000031D3</code> — _OhciStartIo@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000441F">
+            <code>0000441F</code> — _OhciSetupAsyncDma@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000045B5">
+            <code>000045B5</code> — _OhciGetAsyncScatterGather@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000470F">
+            <code>0000470F</code> — _OhciInsertTailDbInDmaContext@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000048C7">
+            <code>000048C7</code> — _OhciMapPhysicalRange@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00004BFC">
+            <code>00004BFC</code> — _OhciGetAllocList@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00004DCD">
+            <code>00004DCD</code> — _OhciSetupAllocateDma@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00004FA4">
+            <code>00004FA4</code> — _OhciSynchCompletionRoutine@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00004FBA">
+            <code>00004FBA</code> — _OhciInitializeReceiveDma@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000050F3">
+            <code>000050F3</code> — _OhciInitializeHw@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000056B9">
+            <code>000056B9</code> — _OhciAccessPhyMap@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00005A72">
+            <code>00005A72</code> — _OhciShutdown@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00005CE4">
+            <code>00005CE4</code> — _OhciPower@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00005DAA">
+            <code>00005DAA</code> — _OhciSetPowerState@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00006064">
+            <code>00006064</code> — _OhciRequestPowerCompletion@20
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000060A7">
+            <code>000060A7</code> — _OhciPowerUpCompletionRoutine@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00006155">
+            <code>00006155</code> — _OhciGetIsochDmaContext@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000061D7">
+            <code>000061D7</code> — _OhciReturnIsochDmaContext@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00006214">
+            <code>00006214</code> — _OhciGetIsochScatterGather@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000622A">
+            <code>0000622A</code> — _OhciSetupIsochDma@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00006243">
+            <code>00006243</code> — _OhciCreateIsochDbDma@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00006B6F">
+            <code>00006B6F</code> — _OhciIsochDynamicAppend@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00006F89">
+            <code>00006F89</code> — _OhciConfigureContext@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000070E8">
+            <code>000070E8</code> — _OhciGetIsochDbHeap@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000722A">
+            <code>0000722A</code> — _OhciReturnIsochDbHeap@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000731C">
+            <code>0000731C</code> — _OhciCalcIsochDbDmaSize@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000073B4">
+            <code>000073B4</code> — _OhciBusManagementCsrs@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000074AB">
+            <code>000074AB</code> — _OhciIsochAllocateBandwidth@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00007687">
+            <code>00007687</code> — _OhciIsochAllocateChannel@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000791A">
+            <code>0000791A</code> — _OhciIsochFreeBandwidth@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000079CD">
+            <code>000079CD</code> — _OhciIsochFreeChannel@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00007A65">
+            <code>00007A65</code> — _OhciIsochQueryResources@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00007B5D">
+            <code>00007B5D</code> — _OhciIsochSetChannelBandwidth@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00007C61">
+            <code>00007C61</code> — _OhciUnload@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00007C64">
+            <code>00007C64</code> — _OhciBusResetFinished@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00007D1C">
+            <code>00007D1C</code> — _OhciFormTopologyMap@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000083B4">
+            <code>000083B4</code> — _OhciCalculateCrc@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000083D8">
+            <code>000083D8</code> — _OhciCrc16@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008413">
+            <code>00008413</code> — _OhciGenerateLocalSelfId@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000084EC">
+            <code>000084EC</code> — _Bus1394RegisterPortDriver@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000084F2">
+            <code>000084F2</code> — _KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000084F8">
+            <code>000084F8</code> — _WRITE_REGISTER_ULONG@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000084FE">
+            <code>000084FE</code> — _READ_REGISTER_ULONG@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008504">
+            <code>00008504</code> — @KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000850A">
+            <code>0000850A</code> — @KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008510">
+            <code>00008510</code> — _KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008516">
+            <code>00008516</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000851C">
+            <code>0000851C</code> — @ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008522">
+            <code>00008522</code> — @IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008528">
+            <code>00008528</code> — _MmUnmapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000852E">
+            <code>0000852E</code> — _KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008534">
+            <code>00008534</code> — _RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000853A">
+            <code>0000853A</code> — _KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008540">
+            <code>00008540</code> — @KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008546">
+            <code>00008546</code> — @KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000854C">
+            <code>0000854C</code> — @ExInterlockedPushEntrySList@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008552">
+            <code>00008552</code> — _ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008558">
+            <code>00008558</code> — _RtlCopyUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000855E">
+            <code>0000855E</code> — _IoCreateUnprotectedSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008564">
+            <code>00008564</code> — _ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000856A">
+            <code>0000856A</code> — _IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008570">
+            <code>00008570</code> — _RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008576">
+            <code>00008576</code> — _RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000857C">
+            <code>0000857C</code> — _RtlAppendUnicodeToString@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008582">
+            <code>00008582</code> — _RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008588">
+            <code>00008588</code> — _IoStartPacket@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000858E">
+            <code>0000858E</code> — _MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008594">
+            <code>00008594</code> — _ExDeleteNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000859A">
+            <code>0000859A</code> — _ExInitializeNPagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085A0">
+            <code>000085A0</code> — @InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085A6">
+            <code>000085A6</code> — @ExInterlockedPopEntrySList@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085AC">
+            <code>000085AC</code> — _IoStartNextPacket@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085B2">
+            <code>000085B2</code> — @ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085B8">
+            <code>000085B8</code> — _KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085BE">
+            <code>000085BE</code> — _KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085C4">
+            <code>000085C4</code> — _IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085CA">
+            <code>000085CA</code> — _IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085D0">
+            <code>000085D0</code> — _IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085D6">
+            <code>000085D6</code> — @IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085DC">
+            <code>000085DC</code> — _IoDeleteSymbolicLink@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085E2">
+            <code>000085E2</code> — _IoIsWdmVersionAvailable@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085E8">
+            <code>000085E8</code> — _IoConnectInterrupt@44
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085EE">
+            <code>000085EE</code> — _KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085F4">
+            <code>000085F4</code> — _IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="000085FA">
+            <code>000085FA</code> — _MmUnmapIoSpace@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008600">
+            <code>00008600</code> — _IoGetDmaAdapter@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008606">
+            <code>00008606</code> — _MmMapIoSpace@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000860C">
+            <code>0000860C</code> — _KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008612">
+            <code>00008612</code> — _KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008618">
+            <code>00008618</code> — _KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000861E">
+            <code>0000861E</code> — _KeStallExecutionProcessor@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008624">
+            <code>00008624</code> — _IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000862A">
+            <code>0000862A</code> — _IoDisconnectInterrupt@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008630">
+            <code>00008630</code> — _ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008636">
+            <code>00008636</code> — _IoOpenDeviceRegistryKey@16
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000863C">
+            <code>0000863C</code> — _ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008642">
+            <code>00008642</code> — _PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008648">
+            <code>00008648</code> — _PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="0000864E">
+            <code>0000864E</code> — _PoSetPowerState@12
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008654">
+            <code>00008654</code> — _PoRequestPowerIrp@24
+            
+          </li>
+        
+          <li data-segment="00003B30" data-offset="00008660">
+            <code>00008660</code> — __aullshr
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 00007410
+      </summary>
+      <ul>
+        
+          <li data-segment="00007410" data-offset="00000000">
+            <code>00000000</code> — ??_C@_0CM@BPBH@?8OhciDpc?3?5Could?5not?5stop?5async?5T@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000002C">
+            <code>0000002C</code> — ??_C@_0CC@FDGM@?8Ohcidpc?3?5Cycle?5Inconsistent?5INT@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000050">
+            <code>00000050</code> — ??_C@_0DG@PANH@?8OhciDpc?3?5UNRECOVARABLE?5ERROR?4?5R@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000088">
+            <code>00000088</code> — ??_C@_0CC@LLBG@?8OhciDpc?3?5Got?5posted?5write?5error@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000000AC">
+            <code>000000AC</code> — ??_C@_0CI@IFCC@?8OhciDpc?3?5Int?5mask?5at?5start?5of?5D@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000000D4">
+            <code>000000D4</code> — ??_C@_0DG@JHHJ@?8OhciDpc?3?5Driver?1Device?5not?5read@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000010C">
+            <code>0000010C</code> — ??_C@_0CH@GHBC@?8OhciDpc?3?5Invalid?5resource?5?$CFx?0?5c@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000134">
+            <code>00000134</code> — ??_C@_0CO@MMFC@?8OhciDpc?3?5No?5desc?0?5empty?5list?5of@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000164">
+            <code>00000164</code> — ??_C@_0CJ@ICMI@?8OhciDpc?3?5We?5are?5not?5streaming?$CB?$CB@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000190">
+            <code>00000190</code> — ??_C@_0DA@NMJL@?8OhciDpc?3?5Invalid?5desc?5?$CFx?5found?4@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000001C0">
+            <code>000001C0</code> — ??_C@_0CM@PJDH@?8OhciDpc?3?$CI2?$CJ?5We?5are?5not?5streamin@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000001EC">
+            <code>000001EC</code> — ??_C@_0EL@EHLI@?8OhciDpc?3?5Isoch?3Skipped?5rdsc?5?$CFx?0@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000238">
+            <code>00000238</code> — ??_C@_0DJ@PHML@?8OhciDpc?3?5Callback?5for?5desc?5?$CFx?5x@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000274">
+            <code>00000274</code> — ??_C@_0CA@IPO@?8OhciDpc?3ISO?3?5Skipping?5ctx?5?$CFxx?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000294">
+            <code>00000294</code> — ??_C@_0EF@KLEO@?8OhciHandleAsyncResponse?3?5Stale?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000002DC">
+            <code>000002DC</code> — ??_C@_0DB@DNFI@?8OhciHandleAsyncResponse?3?5Blowin@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000310">
+            <code>00000310</code> — ??_C@_03GDIH@irp?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000314">
+            <code>00000314</code> — ??_C@_0DG@LGIC@?8OhciHandleAsyncResponse?3?5NO?5IRP@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000034C">
+            <code>0000034C</code> — ??_C@_0CO@BOOD@bytesWrapped?5?$DM?5pkt?9?$DOu3?4Block?4OHC@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000037C">
+            <code>0000037C</code> — ??_C@_0FF@MKIA@?8OhciHandleAsyncResponse?3?5CORRUP@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000003D4">
+            <code>000003D4</code> — ??_C@_0DH@IBAN@?8OhciHandleAsyncResponse?3?5Error?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000040C">
+            <code>0000040C</code> — ??_C@_0EL@MHIA@asyncWorker?9?$DOAsyncWorkAreaIndex?$DM@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000458">
+            <code>00000458</code> — ??_C@_0O@PIGB@?4?4?2interrup?4c?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000468">
+            <code>00000468</code> — ??_C@_0EM@KHLJ@?8OhciHandleAsyncResponse?3?5Exceed@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000004B4">
+            <code>000004B4</code> — ??_C@_0DN@BMDI@?8OhciHandleAsyncResponse?3?5pkt?5wr@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000004F4">
+            <code>000004F4</code> — ??_C@_0DD@BGPF@?8OhciHandleAsyncResponse?3?5Segmen@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000528">
+            <code>00000528</code> — ??_C@_0EJ@KKKP@?8OhciHandleAsyncResponse?3?5Receiv@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000574">
+            <code>00000574</code> — ??_C@_0ED@NHNH@?8OhciHandleAsyncRequest?3?5Out?5of?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000005B8">
+            <code>000005B8</code> — ??_C@_0DJ@LBOO@?$CBIsListEmpty?$CI?$CGDeviceExtension?9?$DOA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000005F4">
+            <code>000005F4</code> — ??_C@_0DA@GEHM@?8OhciHandleAsyncRequest?3?5Blowing@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000624">
+            <code>00000624</code> — ??_C@_07MGJN@?$CBstatus?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000062C">
+            <code>0000062C</code> — ??_C@_0EH@JIJO@?8OhciHandleAsyncRequest?3?5DMA?5fai@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000674">
+            <code>00000674</code> — ??_C@_0BP@OCPD@allocateAdapterChannel?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000694">
+            <code>00000694</code> — ??_C@_0CD@PJBI@?4?4?2?4?4?2?4?4?2?4?4?2?4?4?2wdm10?2ddk?2inc?2wdm@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000006B8">
+            <code>000006B8</code> — ??_C@_0DH@INPP@?8OhciHandleAsyncRequest?3?5Sendind@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000006F0">
+            <code>000006F0</code> — ??_C@_0FD@DOJF@?8OhciHandleAsyncRequest?3?5Xmit?5Re@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000744">
+            <code>00000744</code> — ??_C@_0DL@NNJN@?8OhciHandleAsyncRequest?3?5Sendind@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000780">
+            <code>00000780</code> — ??_C@_0DK@NLDE@?8OhciHandleAsyncRequest?3?5sendind@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000007BC">
+            <code>000007BC</code> — ??_C@_0EG@CMLA@?8OhciHandleAsyncRequest?3?5Bus?5Ind@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000804">
+            <code>00000804</code> — ??_C@_0DM@PBCC@?8OhciHandleAsyncRequest?3?5Indicat@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000840">
+            <code>00000840</code> — ??_C@_0DB@LLHE@?8OhciHandleAsyncRequest?3?5Bus?5Res@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000874">
+            <code>00000874</code> — ??_C@_0EM@PIJH@asyncWorker?9?$DOAsyncWorkAreaIndex?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000008C0">
+            <code>000008C0</code> — ??_C@_0EL@PDFD@?8OhciHandleAsyncRequest?3?5Exceed?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000090C">
+            <code>0000090C</code> — ??_C@_05LLOB@FALSE?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000914">
+            <code>00000914</code> — ??_C@_0ED@JAIH@?8OhciHandleAsyncRequest?3?5mem?5cor@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000958">
+            <code>00000958</code> — ??_C@_0BO@BMMA@?8OhciHandleRspXmit?3?5PKT?5ERR?5?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000978">
+            <code>00000978</code> — ??_C@_0EJ@IKMA@?8OhciHandleRspXmit?3?5Response?5pac@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000009C4">
+            <code>000009C4</code> — ??_C@_0CO@FOJB@?8OhciHandleAsyncXmit?3?5ACK?5MISSIN@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000009F4">
+            <code>000009F4</code> — ??_C@_0DI@FACP@?8OhciHandleAsyncXmit?3?5AT?5FIFO?5EV@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000A2C">
+            <code>00000A2C</code> — ??_C@_0CO@LFDI@?8OhciHandleAsyncXmit?3?5EVT_TIMEOU@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000A5C">
+            <code>00000A5C</code> — ??_C@_0CP@FICE@?8OhciHandleAsyncXmit?3?5EVT_FLUSHE@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000A8C">
+            <code>00000A8C</code> — ??_C@_0BG@DMD@?$CBirp?9?$DOIoStatus?4Status?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000AA4">
+            <code>00000AA4</code> — ??_C@_0CO@KBCA@?8OhciHandleAsyncXmit?3?5ACK?5CRC?5ER@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000AD4">
+            <code>00000AD4</code> — ??_C@_0EG@DFJN@?8OhciHandleAsyncXmit?3?5Pulled?5out@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000B1C">
+            <code>00000B1C</code> — ??_C@_0FE@KMNO@?8OhciHandleAsyncXmit?3?5ACK_COMPLE@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000B70">
+            <code>00000B70</code> — ??_C@_0CI@OIGA@?8OhciHandleAsyncXmit?3?5EVT_PACKET@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000B98">
+            <code>00000B98</code> — ??_C@_0CP@FPJO@?8OhciHandleAsyncXmit?3?5ACK?5DATA?5E@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000BC8">
+            <code>00000BC8</code> — ??_C@_0EB@HMGK@?8OhciHandleAsyncXmit?3?5Request?5co@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000C0C">
+            <code>00000C0C</code> — ??_C@_0DP@DPGP@?8OhciTimeOutDpc?3?5Found?5timed?5out@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000C4C">
+            <code>00000C4C</code> — ??_C@_0GC@IPEL@?8OhciTimeoutDpc?3?5ACK_COMPLETE?5st@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000CB0">
+            <code>00000CB0</code> — ??_C@_0DF@CEJF@?8OhciTimeoutDpc?3?5BUSY?5retry?5of?5w@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000CE8">
+            <code>00000CE8</code> — ??_C@_0EA@GGON@?8OhciTimeOutDpc?3?5Found?5timed?5out@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000D28">
+            <code>00000D28</code> — ??_C@_0BP@ILIN@?8OhciBusReset?3?5Gap?5Count?5?$DN?5?$CFd?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000D48">
+            <code>00000D48</code> — ??_C@_0CD@IKNE@?8OhciBusReset?3?5Failed?5reg?51?5read@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000D6C">
+            <code>00000D6C</code> — ??_C@_0CH@HAFA@?8OhciBusReset?3?5Initiating?5Bus?5Re@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000D94">
+            <code>00000D94</code> — ??_C@_0DM@NPGB@?8OhciHandleBusReset?3?5Calling?5the@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000DD0">
+            <code>00000DD0</code> — ??_C@_0DP@FDBA@?8OhciHandleBusReset?3?5MANUALLy?5re@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000E10">
+            <code>00000E10</code> — ??_C@_0DJ@BBHB@?8OhciInitializeHw?3?5Failed?5PhyCon@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000E4C">
+            <code>00000E4C</code> — ??_C@_0CP@EPNA@?8OhciHandleBusReset?3?5Phy?5Reset?5h@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000E7C">
+            <code>00000E7C</code> — ??_C@_0BJ@BLDF@freeMapRegisters?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000E98">
+            <code>00000E98</code> — ??_C@_0BM@MGEC@flushAdapterBuffers?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000EB4">
+            <code>00000EB4</code> — ??_C@_0CP@IAKB@?8OhciCleanupLists?3?5Freeing?5addre@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000EE4">
+            <code>00000EE4</code> — ??_C@_0CN@EBDM@?8OhciCleanupLists?3?5Freeing?5addre@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000F14">
+            <code>00000F14</code> — ??_C@_0FB@PAEL@?8OhciCleanupLists?3?5Found?5stale?5r@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000F68">
+            <code>00000F68</code> — ??_C@_0DC@INKN@?8OhciRetryAsyncRequest?3?5Exceeded@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000F9C">
+            <code>00000F9C</code> — ??_C@_0CL@NAHF@?8OhciRetryAsyncRequest?3?5Device?5i@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000FC8">
+            <code>00000FC8</code> — ??_C@_1CI@KDMG@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AA1?$AA3?$AA9?$AA4?$AAB?$AAU?$AAS?$AA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00000FF0">
+            <code>00000FF0</code> — ??_C@_1CA@MPBH@?$AA?2?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AA1?$AA3?$AA9?$AA4?$AAB?$AAU?$AAS?$AA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001010">
+            <code>00001010</code> — ??_C@_0EE@KBAC@?8OhciIOCtl?3?5Failing?5read?1write?5d@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001054">
+            <code>00001054</code> — ??_C@_0DF@OING@?8OhciIOCtl?3?5Failing?5Lock?5due?5to?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000108C">
+            <code>0000108C</code> — ??_C@_0DP@BFBH@?8OhciIOCtl?3?5Failing?5Phy?5Config?5P@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000010CC">
+            <code>000010CC</code> — ??_C@_0CK@OJEG@?6OhciIOCTL?5Irp?5?$CFx?5returned?5with?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000010F8">
+            <code>000010F8</code> — ??_C@_0CI@KFEK@OhciIOCTL?5got?5Disable?5cycle?5star@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001120">
+            <code>00001120</code> — ??_C@_0BJ@FPNP@freeCommonBuffer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000113C">
+            <code>0000113C</code> — ??_C@_0CI@DNHL@?8OhciIOCTL?3?5Got?5ISOCH_FREE_RESOU@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001164">
+            <code>00001164</code> — ??_C@_0CI@KDGK@?8OhciIOCtl?3?5Common?5Buffer?5Addres@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000118C">
+            <code>0000118C</code> — ??_C@_0EC@JMGG@?8OhciIOCtl?3?5Couldn?8t?5allocate?5bi@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000011D0">
+            <code>000011D0</code> — ??_C@_0BN@IHIP@allocateCommonBuffer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000011F0">
+            <code>000011F0</code> — ??_C@_0EM@NOJI@?8OhciIOCtl?3?5Allocating?5Isoch?5res@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000123C">
+            <code>0000123C</code> — ??_C@_0EF@FHOJ@?8OhciIOCtl?3?5Allocating?5Isoch?5res@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001284">
+            <code>00001284</code> — ??_C@_0CF@FCJB@?8OhciIOCTL?3?5Could?5not?5allocate?5h@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000012AC">
+            <code>000012AC</code> — ??_C@_0CJ@OECE@?8OhciIOCTL?3?5Could?5not?5allocate?5r@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000012D8">
+            <code>000012D8</code> — ??_C@_0CJ@PKHD@?8OhciIOCTL?3?5Could?5not?5get?5dma?5co@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001304">
+            <code>00001304</code> — ??_C@_0BP@OFGO@?8OhciIOCTL?3?5payload?5too?5large?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001324">
+            <code>00001324</code> — ??_C@_0CB@ELGD@?8OhciIOCTL?3?5speed?5not?5supported?6@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001348">
+            <code>00001348</code> — ??_C@_0CK@OIKM@?8OhciIOCTL?3?5Got?5ISOCH_ALLOCATE_R@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001374">
+            <code>00001374</code> — ??_C@_0BM@FBCO@?8OhciIOCTL?3?5Irp?5?$CFx?0?5Irb?5?$CFx?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001390">
+            <code>00001390</code> — ??_C@_0CK@BJMI@?8OhciStartIo?3?5Got?5ISOCH_STOP?5for@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000013BC">
+            <code>000013BC</code> — ??_C@_0EE@BJAN@?8OhciStartIo?3?5ISOCH_TALK?5with?5sy@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001400">
+            <code>00001400</code> — ??_C@_0DD@GGJF@?8OhciStartIo?3?5Got?5ISOCH_TALK?0str@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001434">
+            <code>00001434</code> — ??_C@_0CL@NIGK@?8OhciStartIo?3?5Read?1write?5alloc?5D@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001460">
+            <code>00001460</code> — ??_C@_0CJ@BICM@?8OhciStartIo?3Db?5?$CFx?0Node?5?$DN?5?$CFx?0?5tL@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000148C">
+            <code>0000148C</code> — ??_C@_0DK@OAMB@?8OhciStartIo?3?5Got?5async?5Stream?5I@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000014C8">
+            <code>000014C8</code> — ??_C@_0BP@IDLO@?8OhciStartIo?3?5RAW?5Packet?5?$DN?5?$CFx?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000014E8">
+            <code>000014E8</code> — ??_C@_0ED@LKBI@?8OhciStartIo?3?5Run?5into?5pending?5w@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000152C">
+            <code>0000152C</code> — ??_C@_0CN@OIGA@?8OhciStartIo?3?5Read?1write?5invalid@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000155C">
+            <code>0000155C</code> — ??_C@_0CO@ILAF@?8OhciStartIo?3?5Run?5out?5of?5ASync?5T@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000158C">
+            <code>0000158C</code> — ??_C@_0EK@JOBO@?8OhciStartIo?3?5Converting?5resourc@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000015D8">
+            <code>000015D8</code> — ??_C@_0FK@JLMO@?8OhciStartIo?3?5Can?5Convert?5resour@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001634">
+            <code>00001634</code> — ??_C@_0EC@MKFF@?8OhciStartIo?3?5Enabling?5TI?5TSB12L@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001678">
+            <code>00001678</code> — ??_C@_0CM@LHII@?8OhciStartIo?3?5Got?5ISOCH_LISTEN?5f@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000016A4">
+            <code>000016A4</code> — ??_C@_0DH@HLOD@?8OhciStartIo?3?5Detached?5irp?5?$CFx?5ir@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000016DC">
+            <code>000016DC</code> — ??_C@_0EA@LPDP@?8OhciStartIo?3?5Detach?5Buffers?3Rec@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000171C">
+            <code>0000171C</code> — ??_C@_0CK@OLKG@?8OhciStartIo?3?5Detaching?5?$CFx?5reser@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001748">
+            <code>00001748</code> — ??_C@_0DP@DJFD@?8OhciStartIo?3?5Attach?5DMa?5mapping@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001788">
+            <code>00001788</code> — ??_C@_0N@BEMN@?4?4?2ohciirp?4c?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001798">
+            <code>00001798</code> — ??_C@_0DE@DLNN@?8OhciStartIo?3?5Attach?5failed?0out?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000017CC">
+            <code>000017CC</code> — ??_C@_0DA@LOHK@?8OhciStartIo?3?5Attach?5failed?0?5no?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000017FC">
+            <code>000017FC</code> — ??_C@_0CK@ILFJ@?8OhciStartIo?3?5Attaching?5?$CFx?5reser@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001828">
+            <code>00001828</code> — ??_C@_0CL@OHKB@slot?5?$DM?$DN?5MAX_OHCI_COMMAND_DESCRIP@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001854">
+            <code>00001854</code> — ??_C@_0CJ@BNKG@?8OhciAsyncAllocDma?3?5Exceed?5slot?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001880">
+            <code>00001880</code> — ??_C@_0ED@HGHP@?8OhciMapPhysical?3?5Not?5cleaning?5u@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000018C4">
+            <code>000018C4</code> — ??_C@_0CK@GBLL@?8OhciStartIo?3?5Allocate?5address?5f@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000018F0">
+            <code>000018F0</code> — ??_C@_0DD@FLDP@?6OhciMapRange?5got?5Notify?5callbac@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001924">
+            <code>00001924</code> — ??_C@_0P@JFOO@addressMapping?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001934">
+            <code>00001934</code> — ??_C@_0DP@FIMD@OhciAllocScatterGather?5got?5large@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001974">
+            <code>00001974</code> — ??_C@_0DG@PAJJ@Irb?9?$DOFunctionNumber?5?$DN?$DN?5REQUEST_A@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000019AC">
+            <code>000019AC</code> — ??_C@_0CP@DMKJ@?8OhciSetupAllocDma?5called?5with?5I@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000019DC">
+            <code>000019DC</code> — ??_C@_0DN@KKOK@OhciSetupAllocateDma?5got?5large?5s@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001A1C">
+            <code>00001A1C</code> — ??_C@_0DK@CIKH@?8OhciPnPAddDevice?3?5Failed?5to?5reg@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001A58">
+            <code>00001A58</code> — ??_C@_0EA@OPJL@Ohci1394?3?5OhchSystemControl?3?5IRP@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001A98">
+            <code>00001A98</code> — ??_C@_0CA@KOKF@?8OhciPnP?3?5Got?5unhandled?5irp?5?$CFx?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001AB8">
+            <code>00001AB8</code> — ??_C@_0CC@EFII@?8OhciPnP?3?5Got?5QUERY_CAPABILITIES@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001ADC">
+            <code>00001ADC</code> — ??_C@_0CI@GKOE@?8OhciPnP?3?5Got?5REMOVE_DEVICE?0?5dev@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001B04">
+            <code>00001B04</code> — ??_C@_0CE@NEKH@?8OhciPnP?3?5Got?5STOP_DEVICE?5devext@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001B28">
+            <code>00001B28</code> — ??_C@_0BN@HJMM@?8OhciPnP?3?5START?5Successful?$CB?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001B48">
+            <code>00001B48</code> — ??_C@_0DG@HOCB@?8OhciInitializeHw?3?5Couldn?8t?5conn@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001B80">
+            <code>00001B80</code> — ??_C@_0DC@MKCG@?8OhciPnP?3?5Couldn?8t?5initialize?5th@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001BB4">
+            <code>00001BB4</code> — ??_C@_0DN@NPBM@?8OhciPnP?3?5Couldn?8t?5allocate?5pool@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001BF4">
+            <code>00001BF4</code> — ??_C@_0EI@KNKP@?8OhciPnP?3?5Couldn?8t?5allocate?5cont@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001C3C">
+            <code>00001C3C</code> — ??_C@_0DB@NELL@?8OhciPnP?3?5allocating?5common?5buff@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001C70">
+            <code>00001C70</code> — ??_C@_0DC@EDE@?8OhciPnP?3?5We?8ve?5got?5?$CFd?5MapRegist@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001CA4">
+            <code>00001CA4</code> — ??_C@_0CM@NHPI@?8OhciPnP?3?5Couldn?8t?5allocate?5adap@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001CD0">
+            <code>00001CD0</code> — ??_C@_0DI@FJHM@?8OhciPnP?3?5Couldn?8t?5get?1translate@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001D08">
+            <code>00001D08</code> — ??_C@_0DO@JFJN@?8OHCIPnP?3?5Successfully?5stored?5Ve@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001D48">
+            <code>00001D48</code> — ??_C@_0DO@EELH@?8OHCIPnP?3?5Successfully?5stored?5Re@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001D88">
+            <code>00001D88</code> — ??_C@_0DC@JKLO@?8OHCIPnP?3?5Port?5Resources?5Found?5?$EA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001DBC">
+            <code>00001DBC</code> — ??_C@_0DO@OGAJ@?8OhciPnP?3?5Interrupt?5Resources?5Fo@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001DFC">
+            <code>00001DFC</code> — ??_C@_0EN@GIHL@?8OhciPnP?3?5Successfully?5mapped?5Me@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001E4C">
+            <code>00001E4C</code> — ??_C@_0DP@DGEI@?8OhciPnP?3?5Successfully?5mapped?5Me@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001E8C">
+            <code>00001E8C</code> — ??_C@_0CP@GENM@?8OhciPnP?3?5Successfully?5translate@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001EBC">
+            <code>00001EBC</code> — ??_C@_0DE@OPJN@?8OhciPnP?3?5Memory?5Resources?5Found@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001EF0">
+            <code>00001EF0</code> — ??_C@_0DO@NGJE@?$CI1?$CJ?5?$HM?5?$CI1?$CJ?5?$HM?5?$CI1?$CJ?5?$DP?5?$CIOhciSynchComp@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001F30">
+            <code>00001F30</code> — ??_C@_0N@FNGO@?4?4?2ohcipnp?4c?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001F40">
+            <code>00001F40</code> — ??_C@_0CF@KENK@?8OhciPnP?3?5Got?5START_DEVICE?5devex@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001F68">
+            <code>00001F68</code> — ??_C@_0DN@BPLG@?8OhciInitiliazeHw?3?5Found?5TI?5TSB1@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001FA8">
+            <code>00001FA8</code> — ??_C@_0EO@OGAD@?8OhciAccessPhyMap?3?5NO?5BIAS?5detec@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00001FF8">
+            <code>00001FF8</code> — ??_C@_0CH@PMDN@?8OhciAccessPhyMap?3?51394A?5Phy?5fou@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002020">
+            <code>00002020</code> — ??_C@_0DC@JDGD@?8OhciInitializeHw?3?5self?5id?5bfr?5?$DN@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002054">
+            <code>00002054</code> — ??_C@_0CN@BDOH@?8OhciInitializeHw?3?5Node?5Id?5?$DN?5?$CFx?0@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002084">
+            <code>00002084</code> — ??_C@_0CM@OOIL@?8OhciInitializeHw?3?5Setting?5Cycle@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000020B0">
+            <code>000020B0</code> — ??_C@_0BP@EKEE@?8OhciVerifyHw?3?5Clear?5all?5Ints?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000020D0">
+            <code>000020D0</code> — ??_C@_0CK@FHLI@?8OhciInitializeHw?3?5Performing?5So@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000020FC">
+            <code>000020FC</code> — ??_C@_0CL@NJFO@?8OhciAccessPhyMap?3?5Failed?5write?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002128">
+            <code>00002128</code> — ??_C@_0DF@NKML@?8OhciAccessPhyMap?3?5Setting?5contd@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002160">
+            <code>00002160</code> — ??_C@_0DD@FECH@?8OhciAccessPhyMap?3?5Setting?5conte@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002194">
+            <code>00002194</code> — ??_C@_0EC@BGPE@?8OhciAccessPhyMap?3?5Failed?5to?5ena@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000021D8">
+            <code>000021D8</code> — ??_C@_0DM@MGBL@?8OhciAccessPhyMap?3?5Setting?5ENABL@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002214">
+            <code>00002214</code> — ??_C@_0CN@IPDN@?8OhciAccessPhyMap?3Unrecognized?5O@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002244">
+            <code>00002244</code> — ??_C@_0DM@IBIB@?8OhciAccessPhyMap?3?5No?5Aphy?5or?5ex@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002280">
+            <code>00002280</code> — ??_C@_0CL@FFGG@?8OhciAccessPhyMap?3?5Read?3?5reg?5?$CFx?0@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000022AC">
+            <code>000022AC</code> — ??_C@_0CK@EGKK@?8OhciAccessPhyMap?3?5Failed?5read?5t@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000022D8">
+            <code>000022D8</code> — ??_C@_0CG@BHOJ@?8Ohci?5freeing?5Mdl?5for?5worker?5i?$CFx@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002300">
+            <code>00002300</code> — ??_C@_0CG@PEAI@?8OhciShutDown?3?5Performing?5Soft?5r@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002328">
+            <code>00002328</code> — ??_C@_0CG@JKDI@?8OhciShutDown?3?5Freeing?5Common?5bu@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002350">
+            <code>00002350</code> — ??_C@_0DK@FEKI@?8OhciGetRegistryParameters?3?5stat@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000238C">
+            <code>0000238C</code> — ??_C@_0DP@JOPP@?8OhciGetRegistryParams?3?5Retrieve@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000023CC">
+            <code>000023CC</code> — ??_C@_0DG@DOHO@?8OhciGetRegistryParams?3?5Retrieve@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002404">
+            <code>00002404</code> — ??_C@_1CA@PCLB@?$AAT?$AAr?$AAa?$AAn?$AAs?$AAm?$AAi?$AAt?$AAW?$AAo?$AAr?$AAk?$AAe?$AAr?$AAs?$AA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002424">
+            <code>00002424</code> — ??_C@_1CI@NBMB@?$AAH?$AAo?$AAs?$AAt?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAR?$AAo?$AAm?$AAL?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000244C">
+            <code>0000244C</code> — ??_C@_1BM@BBJK@?$AAH?$AAo?$AAs?$AAt?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAR?$AAo?$AAm?$AA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002468">
+            <code>00002468</code> — ??_C@_1BO@MLPO@?$AAD?$AAi?$AAa?$AAg?$AAn?$AAo?$AAs?$AAt?$AAi?$AAc?$AAM?$AAo?$AAd?$AAe?$AA?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002488">
+            <code>00002488</code> — ??_C@_0GI@KJMO@?8OhciGetRegistryKeyValue?3?5Regist@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000024F0">
+            <code>000024F0</code> — ??_C@_0CD@LFNA@?8OhciPower?3?5Type?5?$DN?5?$CFd?0?5State?5?$DN?5?$CF@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002514">
+            <code>00002514</code> — ??_C@_0DH@KGK@?8OhciPower?3?5Unknown?1Unhandled?5Po@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="0000254C">
+            <code>0000254C</code> — ??_C@_0CL@OKGH@?8OhciPower?3got?5Power?5IRP?5?$CFx?0?5min@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002578">
+            <code>00002578</code> — ??_C@_0CI@FLHE@irpStack?9?$DOMajorFunction?5?$DN?$DN?5IRP_M@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000025A0">
+            <code>000025A0</code> — ??_C@_0CB@MCF@OhciSetPower?3?5From?5?$CFd?5to?5?$CFd?5NOP?6@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000025C4">
+            <code>000025C4</code> — ??_C@_0EA@FJOH@?$CI1?$CJ?5?$HM?5?$CI1?$CJ?5?$HM?5?$CI1?$CJ?5?$DP?5?$CIOhciPowerUpCo@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002604">
+            <code>00002604</code> — ??_C@_0CJ@LGGD@OhciSetPower?3?5Powering?5on?4From?5?$CF@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002630">
+            <code>00002630</code> — ??_C@_0BE@JCIH@?8Ohci?5Powering?5off?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002644">
+            <code>00002644</code> — ??_C@_0CK@IBBP@OhciSetPower?3?5Powering?5off?4From?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002670">
+            <code>00002670</code> — ??_C@_0DD@BOBL@OhciSetPower?3?5Sending?5D?5Irp?5requ@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000026A4">
+            <code>000026A4</code> — ??_C@_0EB@EIC@OhciSetPower?3?5System?5ShutDown?5?0l@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000026E8">
+            <code>000026E8</code> — ??_C@_0DF@BPLJ@OhciSetPower?3?5System?5power?5chang@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002720">
+            <code>00002720</code> — ??_C@_0EB@CGKP@OhciRequestPowerCompletion?3?5Irp?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002764">
+            <code>00002764</code> — ??_C@_0CL@POHK@?8OhciPowerUpCompletion?3?5Causing?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002790">
+            <code>00002790</code> — ??_C@_0CK@IJMI@?8OhciPowerUpCompletion?3Irp?5?$CFx?0St@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000027BC">
+            <code>000027BC</code> — ??_C@_0DB@FNJA@reservedDsc?9?$DOIsochDbHeap?9?$DOHeapLe@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000027F0">
+            <code>000027F0</code> — ??_C@_0FN@NNLG@?8OhciSetupIsochDma?3?5?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002850">
+            <code>00002850</code> — ??_C@_0CP@NEPC@?6?5Ohci?5ISOCH?5Listen?5DMA?0?5buffer?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002880">
+            <code>00002880</code> — ??_C@_0BE@CIAH@mapTransfer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002894">
+            <code>00002894</code> — ??_C@_0DG@HLMF@?6?5OhciCreateIoschDma?0?5TX?5got?5hea@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000028CC">
+            <code>000028CC</code> — ??_C@_0BL@FBHM@?$CBisochResource?9?$DOHeaderDesc?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000028E8">
+            <code>000028E8</code> — ??_C@_0O@GMPK@?4?4?2ohcisoch?4c?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000028F8">
+            <code>000028F8</code> — ??_C@_0DK@FHKF@?8OhciStartIo?3?5Waking?5ISOCH?5Conte@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002934">
+            <code>00002934</code> — ??_C@_0DL@FDMC@?8OhciStartIo?3?5Restarting?5ISOCH?0?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002970">
+            <code>00002970</code> — ??_C@_0DJ@NHDG@?8OhciStartIo?3AttachBuffers?3?5Conn@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000029AC">
+            <code>000029AC</code> — ??_C@_0CN@DMCK@?8OhciStartIo?3?5Inserting?5VERy?5fir@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000029DC">
+            <code>000029DC</code> — ??_C@_03JPNJ@irb?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000029E0">
+            <code>000029E0</code> — ??_C@_0EE@PGB@?8OhciSetupIsochDma?3?5?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002A24">
+            <code>00002A24</code> — ??_C@_0DN@BCIA@?8OhciGetIsochDbHeap?3?5No?5enough?5h@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002A64">
+            <code>00002A64</code> — ??_C@_0CN@JKJF@?8OhciGetIsochDbHeap?3?5No?5more?5hea@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002A94">
+            <code>00002A94</code> — ??_C@_0CL@OFOA@?8OhciGetIsochDbHeap?3?5Empty?5list?0@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002AC0">
+            <code>00002AC0</code> — ??_C@_0DJ@IIIH@?8OhciManagementCSRs?3?5After?5opera@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002AFC">
+            <code>00002AFC</code> — ??_C@_0EN@ICC@?8OhciManagementCSRs?3?5Compare?9swa@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002B4C">
+            <code>00002B4C</code> — ??_C@_0DH@INGG@?8OhciManagementCSRs?3?5Compare?5?$CFx?0@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002B84">
+            <code>00002B84</code> — ??_C@_0DG@MBCG@?8OhciAllocateBandwidth?3SUCCESS?0?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002BBC">
+            <code>00002BBC</code> — ??_C@_0DJ@FAMJ@?8OhciAllocateBandwidth?3bandwidth@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002BF8">
+            <code>00002BF8</code> — ??_C@_0CP@PN@?8OhciAllocateBandwidth?3bandwidth@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002C28">
+            <code>00002C28</code> — ??_C@_0CP@LDB@?8OhciAllocateBandwidth?3speed?5use@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002C58">
+            <code>00002C58</code> — ??_C@_0CL@DABA@?8OhciAllocateChannel?3SUCCESS?0?5ch@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002C84">
+            <code>00002C84</code> — ??_C@_0DD@PNCC@?8OhciAllocateChannel?3FAILED?0?5req@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002CB8">
+            <code>00002CB8</code> — ??_C@_0DP@DOLK@?8OhciAllocateChannel?3SUCCESS?0?5re@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002CF8">
+            <code>00002CF8</code> — ??_C@_0DP@NGPH@?8OhciFreeBandwidth?3FAILED?0?5inval@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002D38">
+            <code>00002D38</code> — ??_C@_0DJ@KECP@?8OhciFreeBandwidth?3FAILED?0?5inval@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002D74">
+            <code>00002D74</code> — ??_C@_0CE@BCGB@?8OhciQueryResources?5Invalid?5spee@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002D98">
+            <code>00002D98</code> — ??_C@_0CD@MEBI@?8OhciQueryResources?5?3failed?5read@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002DBC">
+            <code>00002DBC</code> — ??_C@_0BN@KNFK@?8OhciQueryResources?5irb?5?$CFx?5?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002DDC">
+            <code>00002DDC</code> — ??_C@_0BN@DIBF@?8OhciSetBandwidth?3?5SUCCESS?5?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002DFC">
+            <code>00002DFC</code> — ??_C@_0CL@LHLE@?8OhciSetBandwidth?3?5Stale?5bandwid@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002E28">
+            <code>00002E28</code> — ??_C@_0BO@GOMG@?8OhciSetBandwidth?5struct?5?$CFx?5?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002E48">
+            <code>00002E48</code> — ??_C@_0EO@KODI@?8OhciFormTopologyMap?3?5Incosistan@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002E98">
+            <code>00002E98</code> — ??_C@_0CH@GAAA@?8OhciFormTopologyMap?3?5Bad?5SelfId@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002EC0">
+            <code>00002EC0</code> — ??_C@_0DD@HMKG@?8OhciFormTopologyMap?3?5Self?5ID?5ge@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002EF4">
+            <code>00002EF4</code> — ??_C@_0DP@LLPC@?8OhciFormTopologyMap?3?5Done?4?5BusR@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002F34">
+            <code>00002F34</code> — ??_C@_0N@OLNC@?4?4?2openhci?4c?$AA@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002F44">
+            <code>00002F44</code> — ??_C@_0EJ@JEHH@?8OhciFormTopologyMap?3?5Two?5or?5mor@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002F90">
+            <code>00002F90</code> — ??_C@_0CN@KDBI@?8OhciFormTopologyMap?3?5Found?5OWN?5@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002FC0">
+            <code>00002FC0</code> — ??_C@_0CD@LLHP@?8OhciFormTopologyMap?3?5SelfId?5?$DN?5?$CF@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00002FE4">
+            <code>00002FE4</code> — ??_C@_0FA@OJOD@?8OhciFormTopologyMap?3?5Self?5ID?5Er@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00003034">
+            <code>00003034</code> — ??_C@_0DE@OPA@?8OhciFormTopologyMap?3?5SelfIdCoun@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="00003068">
+            <code>00003068</code> — ??_C@_0DG@HDG@?8OhciFormTopologyMap?3?5ERROR?5read@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000030A0">
+            <code>000030A0</code> — ??_C@_0DA@DALJ@?8OhciFormTopologyMap?3?5Fabricated@
+            
+          </li>
+        
+          <li data-segment="00007410" data-offset="000030D0">
+            <code>000030D0</code> — _OhciDebugLevel
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .idata$2 @ 00007CF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00007CF0" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_1394BUS
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000028">
+            <code>00000028</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000003C">
+            <code>0000003C</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000150">
+            <code>00000150</code> — __imp__Bus1394RegisterPortDriver@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000154">
+            <code>00000154</code> — \1771394BUS_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000158">
+            <code>00000158</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000015C">
+            <code>0000015C</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000160">
+            <code>00000160</code> — __imp__KeStallExecutionProcessor@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000164">
+            <code>00000164</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000168">
+            <code>00000168</code> — __imp__KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000016C">
+            <code>0000016C</code> — __imp_@KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000170">
+            <code>00000170</code> — __imp_@KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000174">
+            <code>00000174</code> — __imp__READ_REGISTER_ULONG@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000178">
+            <code>00000178</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000017C">
+            <code>0000017C</code> — __imp__MmUnmapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000180">
+            <code>00000180</code> — __imp__KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000184">
+            <code>00000184</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000188">
+            <code>00000188</code> — __imp_@ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000018C">
+            <code>0000018C</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000190">
+            <code>00000190</code> — __imp__KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000194">
+            <code>00000194</code> — __imp__KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000198">
+            <code>00000198</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000019C">
+            <code>0000019C</code> — __imp__RtlCopyUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001A0">
+            <code>000001A0</code> — __imp__IoCreateUnprotectedSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001A4">
+            <code>000001A4</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001A8">
+            <code>000001A8</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001AC">
+            <code>000001AC</code> — __imp__RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001B0">
+            <code>000001B0</code> — __imp__RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001B4">
+            <code>000001B4</code> — __imp__RtlAppendUnicodeToString@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001B8">
+            <code>000001B8</code> — __imp__WRITE_REGISTER_ULONG@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001BC">
+            <code>000001BC</code> — __imp__IoStartPacket@16
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001C0">
+            <code>000001C0</code> — __imp__MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001C4">
+            <code>000001C4</code> — __imp__ExDeleteNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001C8">
+            <code>000001C8</code> — __imp__ExInitializeNPagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001CC">
+            <code>000001CC</code> — __imp_@ExInterlockedPushEntrySList@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001D0">
+            <code>000001D0</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001D4">
+            <code>000001D4</code> — __imp__IoStartNextPacket@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001D8">
+            <code>000001D8</code> — __imp_@ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001DC">
+            <code>000001DC</code> — __imp__KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001E0">
+            <code>000001E0</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001E4">
+            <code>000001E4</code> — __imp__IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001E8">
+            <code>000001E8</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001EC">
+            <code>000001EC</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001F0">
+            <code>000001F0</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001F4">
+            <code>000001F4</code> — __imp__IoDeleteSymbolicLink@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001F8">
+            <code>000001F8</code> — __imp__IoIsWdmVersionAvailable@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="000001FC">
+            <code>000001FC</code> — __imp__IoConnectInterrupt@44
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000200">
+            <code>00000200</code> — __imp__KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000204">
+            <code>00000204</code> — __imp__IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000208">
+            <code>00000208</code> — __imp__MmUnmapIoSpace@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000020C">
+            <code>0000020C</code> — __imp__IoGetDmaAdapter@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000210">
+            <code>00000210</code> — __imp__MmMapIoSpace@16
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000214">
+            <code>00000214</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000218">
+            <code>00000218</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000021C">
+            <code>0000021C</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000220">
+            <code>00000220</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000224">
+            <code>00000224</code> — __imp__IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000228">
+            <code>00000228</code> — __imp__IoDisconnectInterrupt@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000022C">
+            <code>0000022C</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000230">
+            <code>00000230</code> — __imp__IoOpenDeviceRegistryKey@16
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000234">
+            <code>00000234</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000238">
+            <code>00000238</code> — __imp__PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000023C">
+            <code>0000023C</code> — __imp__PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000240">
+            <code>00000240</code> — __imp__PoSetPowerState@12
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000244">
+            <code>00000244</code> — __imp__PoRequestPowerIrp@24
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="00000248">
+            <code>00000248</code> — __imp_@ExInterlockedPopEntrySList@8
+            
+          </li>
+        
+          <li data-segment="00007CF0" data-offset="0000024C">
+            <code>0000024C</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _OhciPnPAddDevice@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002BC">
+            <code>000002BC</code> — _OhciSystemControl@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002FE">
+            <code>000002FE</code> — _OhciPnP@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000E98">
+            <code>00000E98</code> — _OhciGetRegistryParameters@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000FE9">
+            <code>00000FE9</code> — _OhciGetRegistryKeyValue@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000108F">
+            <code>0000108F</code> — _DriverEntry@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

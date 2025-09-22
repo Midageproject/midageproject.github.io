@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>USBD — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../config.c</li>
+      
+        <li>../dbgsrvic.c</li>
+      
+        <li>../device.c</li>
+      
+        <li>../service.c</li>
+      
+        <li>../urb.c</li>
+      
+        <li>../usbd.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00001E30
+      </summary>
+      <ul>
+        
+          <li data-segment="00001E30" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000010">
+            <code>00000010</code> — _USBD_GetConfigValue@24
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000080">
+            <code>00000080</code> — _USBD_ProcessURB@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000550">
+            <code>00000550</code> — _USBD_MapError_UrbToNT@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000005C0">
+            <code>000005C0</code> — _USBD_SCT_GetSetDescriptor@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000007C0">
+            <code>000007C0</code> — _USBD_SCT_SetClearFeature@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000008A0">
+            <code>000008A0</code> — _USBD_SCT_GetStatus@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000009B0">
+            <code>000009B0</code> — _USBD_SCT_VendorClassCommand@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000AF0">
+            <code>00000AF0</code> — _USBD_AsyncTransfer@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000BC0">
+            <code>00000BC0</code> — _USBD_IsochTransfer@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000CB0">
+            <code>00000CB0</code> — _USBD_PassThru@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000D00">
+            <code>00000D00</code> — _USBD_ResetPipe@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000E80">
+            <code>00000E80</code> — _USBD_AbortPipe@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00000F10">
+            <code>00000F10</code> — _USBD_SCT_GetInterface@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001020">
+            <code>00001020</code> — _USBD_SCT_GetConfiguration@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001130">
+            <code>00001130</code> — _USBD_TakeFrameLengthControl@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001210">
+            <code>00001210</code> — _USBD_ReleaseFrameLengthControl@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000012B0">
+            <code>000012B0</code> — _USBD_GetFrameLength@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001360">
+            <code>00001360</code> — _USBD_SetFrameLength@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001450">
+            <code>00001450</code> — _USBD_SyncUrbTimeoutDPC@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000014A0">
+            <code>000014A0</code> — _USBD_GetUSBDIVersion@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000014C0">
+            <code>000014C0</code> — _USBD_Dispatch@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001560">
+            <code>00001560</code> — _USBD_WaitWakeIrpCompletion@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001650">
+            <code>00001650</code> — _USBD_SubmitWaitWakeIrpToHC@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000016C0">
+            <code>000016C0</code> — _USBD_WaitWakeCancel@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001780">
+            <code>00001780</code> — _USBD_PdoPower@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001A90">
+            <code>00001A90</code> — _USBD_PdoPnP@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001F30">
+            <code>00001F30</code> — _USBD_DeferPoRequestCompletion@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00001FB0">
+            <code>00001FB0</code> — _USBD_PdoDispatch@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00002240">
+            <code>00002240</code> — _USBD_PnPIrp_Complete@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00002330">
+            <code>00002330</code> — _USBD_FdoPower@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000026E0">
+            <code>000026E0</code> — _USBD_FdoDispatch@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003160">
+            <code>00003160</code> — _USBD_CompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003260">
+            <code>00003260</code> — _USBD_GetInterfaceLength@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003280">
+            <code>00003280</code> — _USBD_GetSuspendPowerState@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000032A0">
+            <code>000032A0</code> — _USBD_SetSuspendPowerState@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000032D0">
+            <code>000032D0</code> — _USBD_RegisterHcFilter@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000032F0">
+            <code>000032F0</code> — _USBD_RegisterHcDeviceCapabilities@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003460">
+            <code>00003460</code> — _USBD_InternalMakePdoName@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003560">
+            <code>00003560</code> — _USBD_MakePdoName@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003580">
+            <code>00003580</code> — _USBD_SymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000035F0">
+            <code>000035F0</code> — _USBD_CalculateUsbBandwidth@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003690">
+            <code>00003690</code> — _USBD_RestoreDevice@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003790">
+            <code>00003790</code> — _USBD_GetPdoRegistryParameter@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003830">
+            <code>00003830</code> — _USBD_InternalRestoreInterface@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003E20">
+            <code>00003E20</code> — _USBD_InternalRestoreConfiguration@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00003F20">
+            <code>00003F20</code> — _USBD_InternalCloseDefaultPipe@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000040C0">
+            <code>000040C0</code> — _USBD_Debug_LogEntry@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004130">
+            <code>00004130</code> — _USBD_LogInit@0
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004190">
+            <code>00004190</code> — _USBD_Debug_GetHeap@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004230">
+            <code>00004230</code> — _USBD_Debug_RetHeap@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004320">
+            <code>00004320</code> — _USBD_KdPrintX
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000043B0">
+            <code>000043B0</code> — _USBD_Warning@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004420">
+            <code>00004420</code> — _USBD_Assert@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004456">
+            <code>00004456</code> — _ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000445C">
+            <code>0000445C</code> — _ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004462">
+            <code>00004462</code> — _ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004468">
+            <code>00004468</code> — _RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000446E">
+            <code>0000446E</code> — _RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004474">
+            <code>00004474</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000447A">
+            <code>0000447A</code> — _KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004480">
+            <code>00004480</code> — _RtlQueryRegistryValues@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004486">
+            <code>00004486</code> — _ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000448C">
+            <code>0000448C</code> — _IoOpenDeviceRegistryKey@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004492">
+            <code>00004492</code> — _MmBuildMdlForNonPagedPool@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004498">
+            <code>00004498</code> — _IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000449E">
+            <code>0000449E</code> — _KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044A4">
+            <code>000044A4</code> — _KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044AA">
+            <code>000044AA</code> — _KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044B0">
+            <code>000044B0</code> — _KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044B6">
+            <code>000044B6</code> — _KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044BC">
+            <code>000044BC</code> — @IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044C2">
+            <code>000044C2</code> — _KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044C8">
+            <code>000044C8</code> — _IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044CE">
+            <code>000044CE</code> — _KeDelayExecutionThread@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044D4">
+            <code>000044D4</code> — _IoCancelIrp@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044DA">
+            <code>000044DA</code> — _IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044E0">
+            <code>000044E0</code> — _KeInitializeSemaphore@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044E6">
+            <code>000044E6</code> — _RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044EC">
+            <code>000044EC</code> — _IoCreateSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044F2">
+            <code>000044F2</code> — _KeReleaseSemaphore@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044F8">
+            <code>000044F8</code> — @IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="000044FE">
+            <code>000044FE</code> — @InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004504">
+            <code>00004504</code> — _IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000450A">
+            <code>0000450A</code> — _IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004510">
+            <code>00004510</code> — _PoRequestPowerIrp@24
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004516">
+            <code>00004516</code> — _PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000451C">
+            <code>0000451C</code> — _PoSetPowerState@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004522">
+            <code>00004522</code> — @ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004528">
+            <code>00004528</code> — _IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000452E">
+            <code>0000452E</code> — _PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004534">
+            <code>00004534</code> — _KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000453A">
+            <code>0000453A</code> — _IoDeleteSymbolicLink@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004540">
+            <code>00004540</code> — _IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004546">
+            <code>00004546</code> — _IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000454C">
+            <code>0000454C</code> — _RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004552">
+            <code>00004552</code> — _RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004558">
+            <code>00004558</code> — _IoSetDeviceInterfaceState@8
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="0000455E">
+            <code>0000455E</code> — _IoRegisterDeviceInterface@16
+            
+          </li>
+        
+          <li data-segment="00001E30" data-offset="00004564">
+            <code>00004564</code> — _RtlCompareMemory@12
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .rdata @ 00001E70
+      </summary>
+      <ul>
+        
+          <li data-segment="00001E70" data-offset="00000070">
+            <code>00000070</code> — _GUID_CLASS_USBHUB
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 00001F10
+      </summary>
+      <ul>
+        
+          <li data-segment="00001F10" data-offset="00000210">
+            <code>00000210</code> — _UrbDispatchTable
+            
+          </li>
+        
+          <li data-segment="00001F10" data-offset="00004300">
+            <code>00004300</code> — _USBD_Debug_Trace_Level
+            
+          </li>
+        
+          <li data-segment="00001F10" data-offset="0000445C">
+            <code>0000445C</code> — _Instance
+            
+          </li>
+        
+          <li data-segment="00001F10" data-offset="00004460">
+            <code>00004460</code> — _USBDTotalHeapAllocated
+            
+          </li>
+        
+          <li data-segment="00001F10" data-offset="00004464">
+            <code>00004464</code> — _LStart
+            
+          </li>
+        
+          <li data-segment="00001F10" data-offset="00004468">
+            <code>00004468</code> — _LEnd
+            
+          </li>
+        
+          <li data-segment="00001F10" data-offset="0000446C">
+            <code>0000446C</code> — _LPtr
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .idata$2 @ 00002590
+      </summary>
+      <ul>
+        
+          <li data-segment="00002590" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000028">
+            <code>00000028</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000000FC">
+            <code>000000FC</code> — __imp__KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000100">
+            <code>00000100</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000104">
+            <code>00000104</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000108">
+            <code>00000108</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000010C">
+            <code>0000010C</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000110">
+            <code>00000110</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000114">
+            <code>00000114</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000118">
+            <code>00000118</code> — __imp__RtlQueryRegistryValues@20
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000011C">
+            <code>0000011C</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000120">
+            <code>00000120</code> — __imp__IoOpenDeviceRegistryKey@16
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000124">
+            <code>00000124</code> — __imp__MmBuildMdlForNonPagedPool@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000128">
+            <code>00000128</code> — __imp__IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000012C">
+            <code>0000012C</code> — __imp__KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000130">
+            <code>00000130</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000134">
+            <code>00000134</code> — __imp__KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000138">
+            <code>00000138</code> — __imp__KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000013C">
+            <code>0000013C</code> — __imp__KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000140">
+            <code>00000140</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000144">
+            <code>00000144</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000148">
+            <code>00000148</code> — __imp__IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000014C">
+            <code>0000014C</code> — __imp__KeDelayExecutionThread@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000150">
+            <code>00000150</code> — __imp__IoCancelIrp@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000154">
+            <code>00000154</code> — __imp__IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000158">
+            <code>00000158</code> — __imp__KeInitializeSemaphore@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000015C">
+            <code>0000015C</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000160">
+            <code>00000160</code> — __imp__IoCreateSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000164">
+            <code>00000164</code> — __imp__KeReleaseSemaphore@16
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000168">
+            <code>00000168</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000016C">
+            <code>0000016C</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000170">
+            <code>00000170</code> — __imp__IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000174">
+            <code>00000174</code> — __imp__IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000178">
+            <code>00000178</code> — __imp__PoRequestPowerIrp@24
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000017C">
+            <code>0000017C</code> — __imp__PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000180">
+            <code>00000180</code> — __imp__PoSetPowerState@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000184">
+            <code>00000184</code> — __imp_@ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000188">
+            <code>00000188</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000018C">
+            <code>0000018C</code> — __imp__PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000190">
+            <code>00000190</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000194">
+            <code>00000194</code> — __imp__IoDeleteSymbolicLink@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="00000198">
+            <code>00000198</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="0000019C">
+            <code>0000019C</code> — __imp__IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001A0">
+            <code>000001A0</code> — __imp__RtlAppendUnicodeStringToString@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001A4">
+            <code>000001A4</code> — __imp__RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001A8">
+            <code>000001A8</code> — __imp__IoSetDeviceInterfaceState@8
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001AC">
+            <code>000001AC</code> — __imp__IoRegisterDeviceInterface@16
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001B0">
+            <code>000001B0</code> — __imp__RtlCompareMemory@12
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001B4">
+            <code>000001B4</code> — __imp__RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00002590" data-offset="000001B8">
+            <code>000001B8</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _USBD_GetRegistryKeyValue@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000120">
+            <code>00000120</code> — _USBD_GetGlobalRegistryParameters@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000230">
+            <code>00000230</code> — _USBD_GetPdoRegistryParameters@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000350">
+            <code>00000350</code> — _USBD_SubmitSynchronousURB@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000630">
+            <code>00000630</code> — _USBD_SendCommand@40
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000880">
+            <code>00000880</code> — _USBD_OpenEndpoint@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A50">
+            <code>00000A50</code> — _USBD_CloseEndpoint@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B80">
+            <code>00000B80</code> — _USBD_FreeUsbAddress@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000CF0">
+            <code>00000CF0</code> — _USBD_AllocateUsbAddress@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000E40">
+            <code>00000E40</code> — _USBD_GetEndpointState@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000FB0">
+            <code>00000FB0</code> — _USBD_GetDeviceInformation@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001150">
+            <code>00001150</code> — _GetString@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001240">
+            <code>00001240</code> — _USBD_GetDeviceName@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001340">
+            <code>00001340</code> — _USBD_AllocateDeviceName@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001440">
+            <code>00001440</code> — _USBD_FreeDeviceName@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000014C0">
+            <code>000014C0</code> — _USBD_RegisterHostController@28
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001870">
+            <code>00001870</code> — _USBD_CreateDevice@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001B10">
+            <code>00001B10</code> — _USBD_RemoveDevice@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001D30">
+            <code>00001D30</code> — _USBD_InitializeDevice@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002040">
+            <code>00002040</code> — _USBD_CreateConfigurationRequestEx@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000022E0">
+            <code>000022E0</code> — _USBD_ParseDescriptors@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000023D0">
+            <code>000023D0</code> — _USBD_ParseConfigurationDescriptorEx@28
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002540">
+            <code>00002540</code> — _USBD_ParseConfigurationDescriptor@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000025C0">
+            <code>000025C0</code> — _USBD_CreateConfigurationRequest@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002720">
+            <code>00002720</code> — _USBD_WaitDeviceMutex@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000027C0">
+            <code>000027C0</code> — _USBD_FreeDeviceMutex@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002860">
+            <code>00002860</code> — _USBD_InternalGetInterfaceLength@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002A20">
+            <code>00002A20</code> — _USBD_InternalParseConfigurationDescriptor@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002C20">
+            <code>00002C20</code> — _USBD_InitializeConfigurationHandle@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002DB0">
+            <code>00002DB0</code> — _USBD_InternalInterfaceBusy@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002EE0">
+            <code>00002EE0</code> — _USBD_InternalOpenInterface@24
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000036C0">
+            <code>000036C0</code> — _USBD_SelectConfiguration@16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003AC0">
+            <code>00003AC0</code> — _USBD_InternalCloseConfiguration@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003DF0">
+            <code>00003DF0</code> — _USBD_SelectInterface@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

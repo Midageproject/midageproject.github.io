@@ -1,0 +1,3686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>KS — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../alloc.c</li>
+      
+        <li>../api.c</li>
+      
+        <li>../clock.c</li>
+      
+        <li>../connect.c</li>
+      
+        <li>../device.c</li>
+      
+        <li>../event.c</li>
+      
+        <li>i386/exsup3.asm</li>
+      
+        <li>i386/exsup.asm</li>
+      
+        <li>intel/lldiv.asm</li>
+      
+        <li>intel/llmul.asm</li>
+      
+        <li>intel/llshl.asm</li>
+      
+        <li>intel/ulldiv.asm</li>
+      
+        <li>intel/ullrem.asm</li>
+      
+        <li>../irp.c</li>
+      
+        <li>../kcom.cpp</li>
+      
+        <li>../method.c</li>
+      
+        <li>../property.c</li>
+      
+        <li>../thread.c</li>
+      
+        <li>../topology.c</li>
+      
+        <li>../../../../wdm10/ddk/inc/kcom.h</li>
+      
+        <li>../../../../wdm10/ddk/inc/wdm.h</li>
+      
+        <li>excptlst.asm</li>
+      
+        <li>./ksguid.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00002250
+      </summary>
+      <ul>
+        
+          <li data-segment="00002250" data-offset="00000000">
+            <code>00000000</code> — _KsiCompletionRoutine@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000020">
+            <code>00000020</code> — _QueueOneShotWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000090">
+            <code>00000090</code> — _OneShotDpc@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000000B0">
+            <code>000000B0</code> — _CallbackDpc@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000170">
+            <code>00000170</code> — _WorkerDpc@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000230">
+            <code>00000230</code> — _EventDpc@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000420">
+            <code>00000420</code> — _KsGenerateEvent@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000870">
+            <code>00000870</code> — _KsGenerateDataEvent@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000A20">
+            <code>00000A20</code> — _PerformLockedOperation@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000B30">
+            <code>00000B30</code> — _AddEventSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000B80">
+            <code>00000B80</code> — _KsDiscardEvent@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000D00">
+            <code>00000D00</code> — _GenerateEventListSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000DC0">
+            <code>00000DC0</code> — _KsGenerateEventList@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000E00">
+            <code>00000E00</code> — _DisableEventSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000EF0">
+            <code>00000EF0</code> — _FreeEventListSynchronize@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00000FB0">
+            <code>00000FB0</code> — _KsRemoveIrpFromCancelableQueue@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001140">
+            <code>00001140</code> — _KsMoveIrpsOnCancelableQueue@28
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001300">
+            <code>00001300</code> — _KsRemoveSpecificIrpFromCancelableQueue@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001380">
+            <code>00001380</code> — _KsCancelRoutine@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001400">
+            <code>00001400</code> — _KsAddIrpToCancelableQueue@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001530">
+            <code>00001530</code> — _KsCancelIo@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000015E0">
+            <code>000015E0</code> — _KsReleaseIrpOnCancelableQueue@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001680">
+            <code>00001680</code> — _DefClockKillTimer@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000016E0">
+            <code>000016E0</code> — _DefResetTimer@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001770">
+            <code>00001770</code> — @DefGetTime@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000018C0">
+            <code>000018C0</code> — @DefGetPhysicalTime@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000019A0">
+            <code>000019A0</code> — @DefGetCorrelatedTime@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001B00">
+            <code>00001B00</code> — @DefGetCorrelatedPhysicalTime@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001BF0">
+            <code>00001BF0</code> — _DefGenerateEvent@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00001E90">
+            <code>00001E90</code> — _KsiDefaultClockAddMarkEvent@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000020C0">
+            <code>000020C0</code> — _DefRescheduleDefaultClockTimer@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002100">
+            <code>00002100</code> — _KsGetDefaultClockState@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002110">
+            <code>00002110</code> — _KsSetDefaultClockState@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000022E0">
+            <code>000022E0</code> — _KsGetDefaultClockTime@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002410">
+            <code>00002410</code> — _KsSetDefaultClockTime@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002550">
+            <code>00002550</code> — _DefAllocatorAlloc@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002600">
+            <code>00002600</code> — _DefAllocatorFree@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002620">
+            <code>00002620</code> — _iAlloc@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000026A0">
+            <code>000026A0</code> — _iFree@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000026F0">
+            <code>000026F0</code> — _iFreeAndStartWorker@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002730">
+            <code>00002730</code> — _ExAllocateFromNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000027A0">
+            <code>000027A0</code> — _ExFreeToNPagedLookasideList@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002800">
+            <code>00002800</code> — _iMethodAlloc@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002890">
+            <code>00002890</code> — _ServiceAllocRequests@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002900">
+            <code>00002900</code> — ??3@YAXPAX@Z
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002910">
+            <code>00002910</code> — _InitializeModule@0
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002970">
+            <code>00002970</code> — _InitializeWorkerModule@0
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002A10">
+            <code>00002A10</code> — _CreateWorker@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002B40">
+            <code>00002B40</code> — _KsUnregisterWorker@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002DB0">
+            <code>00002DB0</code> — _KsQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002F1E">
+            <code>00002F1E</code> — _ProbeForRead@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002F2C">
+            <code>00002F2C</code> — __except_handler3
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002FDA">
+            <code>00002FDA</code> — __seh_longjmp_unwind@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002FF6">
+            <code>00002FF6</code> — _KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00002FFC">
+            <code>00002FFC</code> — @IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003002">
+            <code>00003002</code> — _IoBuildSynchronousFsdRequest@28
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003008">
+            <code>00003008</code> — _KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000300E">
+            <code>0000300E</code> — _RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003014">
+            <code>00003014</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000301A">
+            <code>0000301A</code> — _KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003020">
+            <code>00003020</code> — _ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003026">
+            <code>00003026</code> — _ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000302C">
+            <code>0000302C</code> — _ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003032">
+            <code>00003032</code> — _ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003038">
+            <code>00003038</code> — _ZwOpenKey@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000303E">
+            <code>0000303E</code> — _RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003044">
+            <code>00003044</code> — _RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000304A">
+            <code>0000304A</code> — _wcscat
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003050">
+            <code>00003050</code> — _wcscpy
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003056">
+            <code>00003056</code> — _RtlStringFromGUID@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000305C">
+            <code>0000305C</code> — @IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003062">
+            <code>00003062</code> — _IoGetRelatedDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003068">
+            <code>00003068</code> — _KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000306E">
+            <code>0000306E</code> — @ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003074">
+            <code>00003074</code> — _IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000307A">
+            <code>0000307A</code> — _ExGetPreviousMode@0
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003080">
+            <code>00003080</code> — _ZwEnumerateValueKey@24
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003086">
+            <code>00003086</code> — @ObfDereferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000308C">
+            <code>0000308C</code> — _ObReferenceObjectByHandle@24
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003092">
+            <code>00003092</code> — _ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003098">
+            <code>00003098</code> — @InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000309E">
+            <code>0000309E</code> — _KeReleaseMutex@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030A4">
+            <code>000030A4</code> — @InterlockedCompareExchange@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030AA">
+            <code>000030AA</code> — @KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030B0">
+            <code>000030B0</code> — @InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030B6">
+            <code>000030B6</code> — @KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030BC">
+            <code>000030BC</code> — _KeReleaseSemaphore@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030C2">
+            <code>000030C2</code> — _KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030C8">
+            <code>000030C8</code> — _KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030CE">
+            <code>000030CE</code> — @ExReleaseFastMutexUnsafe@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030D4">
+            <code>000030D4</code> — @ExAcquireFastMutexUnsafe@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030DA">
+            <code>000030DA</code> — @ExReleaseFastMutex@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030E0">
+            <code>000030E0</code> — @ExAcquireFastMutex@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030E6">
+            <code>000030E6</code> — @KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030EC">
+            <code>000030EC</code> — @KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030F2">
+            <code>000030F2</code> — _KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030F8">
+            <code>000030F8</code> — _KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000030FE">
+            <code>000030FE</code> — _KeInitializeMutex@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003104">
+            <code>00003104</code> — _ProbeForWrite@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000310A">
+            <code>0000310A</code> — _ExAllocatePoolWithQuotaTag@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003110">
+            <code>00003110</code> — _KeRemoveQueueDpc@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003116">
+            <code>00003116</code> — _IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000311C">
+            <code>0000311C</code> — _IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003122">
+            <code>00003122</code> — _PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003128">
+            <code>00003128</code> — _PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000312E">
+            <code>0000312E</code> — _KeGetCurrentThread@0
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003134">
+            <code>00003134</code> — @InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000313A">
+            <code>0000313A</code> — _IoCreateFile@56
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003140">
+            <code>00003140</code> — _wcslen
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003146">
+            <code>00003146</code> — __wcsnicmp
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000314C">
+            <code>0000314C</code> — _MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003152">
+            <code>00003152</code> — _KeClearEvent@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003158">
+            <code>00003158</code> — _IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000315E">
+            <code>0000315E</code> — _MmUnlockPages@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003164">
+            <code>00003164</code> — _MmProbeAndLockPages@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000316A">
+            <code>0000316A</code> — _IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003170">
+            <code>00003170</code> — _ExRaiseStatus@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003176">
+            <code>00003176</code> — _IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000317C">
+            <code>0000317C</code> — _IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003182">
+            <code>00003182</code> — _MmBuildMdlForNonPagedPool@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003188">
+            <code>00003188</code> — _MmCreateMdl@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000318E">
+            <code>0000318E</code> — _KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003194">
+            <code>00003194</code> — _KeSetTimerEx@20
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000319A">
+            <code>0000319A</code> — _KeQueryPerformanceCounter@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000031A0">
+            <code>000031A0</code> — @ExInterlockedCompareExchange64@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000031B0">
+            <code>000031B0</code> — __aullrem
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003230">
+            <code>00003230</code> — __allshl
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003250">
+            <code>00003250</code> — __aulldiv
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000032C0">
+            <code>000032C0</code> — __allmul
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000032F4">
+            <code>000032F4</code> — _KeQueryTimeIncrement@0
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003300">
+            <code>00003300</code> — __alldiv
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033AA">
+            <code>000033AA</code> — _KeInitializeTimerEx@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033B0">
+            <code>000033B0</code> — _ExFreeToPagedLookasideList@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033B6">
+            <code>000033B6</code> — _ExAllocateFromPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033BC">
+            <code>000033BC</code> — _ExInitializePagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033C2">
+            <code>000033C2</code> — _ExInitializeNPagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033C8">
+            <code>000033C8</code> — @ExInterlockedPopEntrySList@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033CE">
+            <code>000033CE</code> — @ExInterlockedPushEntrySList@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033D4">
+            <code>000033D4</code> — _ExDeletePagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033DA">
+            <code>000033DA</code> — _ExDeleteNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033E0">
+            <code>000033E0</code> — _IoGetDeviceInterfaces@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033E6">
+            <code>000033E6</code> — _IoAllocateDriverObjectExtension@16
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033EC">
+            <code>000033EC</code> — _IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033F2">
+            <code>000033F2</code> — _IoGetDriverObjectExtension@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033F8">
+            <code>000033F8</code> — _IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000033FE">
+            <code>000033FE</code> — _KeInitializeSemaphore@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003404">
+            <code>00003404</code> — _PsTerminateSystemThread@4
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000340A">
+            <code>0000340A</code> — @ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003410">
+            <code>00003410</code> — _KeSetPriorityThread@8
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003416">
+            <code>00003416</code> — _PsCreateSystemThread@28
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="0000341C">
+            <code>0000341C</code> — @ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003424">
+            <code>00003424</code> — __global_unwind2
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="00003466">
+            <code>00003466</code> — __local_unwind2
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000034C0">
+            <code>000034C0</code> — __abnormal_termination
+            
+          </li>
+        
+          <li data-segment="00002250" data-offset="000034E4">
+            <code>000034E4</code> — _RtlUnwind@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .rdata @ 000022A0
+      </summary>
+      <ul>
+        
+          <li data-segment="000022A0" data-offset="000001C0">
+            <code>000001C0</code> — __GUID_72cf721c_525a_11d1_9aa1_00a0c9223196
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .idata$2 @ 00003040
+      </summary>
+      <ul>
+        
+          <li data-segment="00003040" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000028">
+            <code>00000028</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001CC">
+            <code>000001CC</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001D0">
+            <code>000001D0</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001D4">
+            <code>000001D4</code> — __imp_@ExAcquireFastMutex@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001D8">
+            <code>000001D8</code> — __imp_@ExReleaseFastMutex@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001DC">
+            <code>000001DC</code> — __imp__KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001E0">
+            <code>000001E0</code> — __imp__KeQueryPerformanceCounter@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001E4">
+            <code>000001E4</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001E8">
+            <code>000001E8</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001EC">
+            <code>000001EC</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001F0">
+            <code>000001F0</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001F4">
+            <code>000001F4</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001F8">
+            <code>000001F8</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000001FC">
+            <code>000001FC</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000200">
+            <code>00000200</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000204">
+            <code>00000204</code> — __imp__ZwOpenKey@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000208">
+            <code>00000208</code> — __imp__wcscat
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000020C">
+            <code>0000020C</code> — __imp__wcscpy
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000210">
+            <code>00000210</code> — __imp__RtlStringFromGUID@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000214">
+            <code>00000214</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000218">
+            <code>00000218</code> — __imp__IoGetRelatedDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000021C">
+            <code>0000021C</code> — __imp__RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000220">
+            <code>00000220</code> — __imp__IoBuildSynchronousFsdRequest@28
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000224">
+            <code>00000224</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000228">
+            <code>00000228</code> — __imp__ExGetPreviousMode@0
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000022C">
+            <code>0000022C</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000230">
+            <code>00000230</code> — __imp_@ObfDereferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000234">
+            <code>00000234</code> — __imp__ObReferenceObjectByHandle@24
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000238">
+            <code>00000238</code> — __imp__IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000238">
+            <code>00000238</code> — _IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000023C">
+            <code>0000023C</code> — __imp__ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000240">
+            <code>00000240</code> — __imp_@InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000244">
+            <code>00000244</code> — __imp__KeReleaseMutex@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000248">
+            <code>00000248</code> — __imp_@InterlockedCompareExchange@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000024C">
+            <code>0000024C</code> — __imp_@KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000250">
+            <code>00000250</code> — __imp_@InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000254">
+            <code>00000254</code> — __imp_@KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000258">
+            <code>00000258</code> — __imp__KeReleaseSemaphore@16
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000025C">
+            <code>0000025C</code> — __imp__KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000260">
+            <code>00000260</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000264">
+            <code>00000264</code> — __imp_@ExReleaseFastMutexUnsafe@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000268">
+            <code>00000268</code> — __imp_@ExAcquireFastMutexUnsafe@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000026C">
+            <code>0000026C</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000270">
+            <code>00000270</code> — __imp__IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000274">
+            <code>00000274</code> — __imp_@ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000278">
+            <code>00000278</code> — __imp__ZwEnumerateValueKey@24
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000027C">
+            <code>0000027C</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000280">
+            <code>00000280</code> — __imp__KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000284">
+            <code>00000284</code> — __imp__KeInitializeMutex@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000288">
+            <code>00000288</code> — __imp__ExSemaphoreObjectType
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000288">
+            <code>00000288</code> — _ExSemaphoreObjectType
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000028C">
+            <code>0000028C</code> — __imp__ExEventObjectType
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000028C">
+            <code>0000028C</code> — _ExEventObjectType
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000290">
+            <code>00000290</code> — __imp__KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000294">
+            <code>00000294</code> — __imp__ProbeForRead@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000298">
+            <code>00000298</code> — __imp__KeRemoveQueueDpc@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000029C">
+            <code>0000029C</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002A0">
+            <code>000002A0</code> — __imp__IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002A4">
+            <code>000002A4</code> — __imp__PoCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002A8">
+            <code>000002A8</code> — __imp__PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002AC">
+            <code>000002AC</code> — __imp__KeGetCurrentThread@0
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002B0">
+            <code>000002B0</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002B4">
+            <code>000002B4</code> — __imp__IoCreateFile@56
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002B8">
+            <code>000002B8</code> — __imp__wcslen
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002BC">
+            <code>000002BC</code> — __imp___wcsnicmp
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002C0">
+            <code>000002C0</code> — __imp__MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002C4">
+            <code>000002C4</code> — __imp__KeClearEvent@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002C8">
+            <code>000002C8</code> — __imp__IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002CC">
+            <code>000002CC</code> — __imp__MmUnlockPages@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002D0">
+            <code>000002D0</code> — __imp__MmProbeAndLockPages@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002D4">
+            <code>000002D4</code> — __imp__IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002D8">
+            <code>000002D8</code> — __imp__ExRaiseStatus@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002DC">
+            <code>000002DC</code> — __imp__IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002E0">
+            <code>000002E0</code> — __imp__IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002E4">
+            <code>000002E4</code> — __imp__MmBuildMdlForNonPagedPool@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002E8">
+            <code>000002E8</code> — __imp__MmCreateMdl@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002EC">
+            <code>000002EC</code> — __imp__KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002F0">
+            <code>000002F0</code> — __imp__KeSetTimerEx@20
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002F4">
+            <code>000002F4</code> — __imp__ProbeForWrite@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002F8">
+            <code>000002F8</code> — __imp_@ExInterlockedCompareExchange64@16
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="000002FC">
+            <code>000002FC</code> — __imp__KeQueryTimeIncrement@0
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000300">
+            <code>00000300</code> — __imp__KeInitializeTimerEx@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000304">
+            <code>00000304</code> — __imp__ExFreeToPagedLookasideList@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000308">
+            <code>00000308</code> — __imp__ExAllocateFromPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000030C">
+            <code>0000030C</code> — __imp__ExInitializePagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000310">
+            <code>00000310</code> — __imp__ExInitializeNPagedLookasideList@28
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000314">
+            <code>00000314</code> — __imp_@ExInterlockedPopEntrySList@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000318">
+            <code>00000318</code> — __imp_@ExInterlockedPushEntrySList@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000031C">
+            <code>0000031C</code> — __imp__ExDeletePagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000320">
+            <code>00000320</code> — __imp__ExDeleteNPagedLookasideList@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000324">
+            <code>00000324</code> — __imp__IoGetDeviceInterfaces@16
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000328">
+            <code>00000328</code> — __imp__IoAllocateDriverObjectExtension@16
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000032C">
+            <code>0000032C</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000330">
+            <code>00000330</code> — __imp__IoGetDriverObjectExtension@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000334">
+            <code>00000334</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000338">
+            <code>00000338</code> — __imp__KeInitializeSemaphore@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000033C">
+            <code>0000033C</code> — __imp__PsTerminateSystemThread@4
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000340">
+            <code>00000340</code> — __imp_@ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000344">
+            <code>00000344</code> — __imp__KeSetPriorityThread@8
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000348">
+            <code>00000348</code> — __imp__PsCreateSystemThread@28
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="0000034C">
+            <code>0000034C</code> — __imp_@ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000350">
+            <code>00000350</code> — __imp__RtlUnwind@16
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000354">
+            <code>00000354</code> — __imp__ExAllocatePoolWithQuotaTag@12
+            
+          </li>
+        
+          <li data-segment="00003040" data-offset="00000358">
+            <code>00000358</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 00006830
+      </summary>
+      <ul>
+        
+          <li data-segment="00006830" data-offset="00000000">
+            <code>00000000</code> — _KsAcquireResetValue@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000000E0">
+            <code>000000E0</code> — _KsQuerySoftwareBusInterface@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000001F0">
+            <code>000001F0</code> — _ReadNodeNameValue@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00000480">
+            <code>00000480</code> — _KsTopologyPropertyHandler@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00000620">
+            <code>00000620</code> — _KsCreateDefaultSecurity@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00000650">
+            <code>00000650</code> — _KsForwardIrp@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000007A0">
+            <code>000007A0</code> — _KsForwardAndCatchIrp@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000009E0">
+            <code>000009E0</code> — _KsSynchronousIoControlDevice@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00000B50">
+            <code>00000B50</code> — _KsUnserializeObjectPropertiesFromRegistry@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00000D50">
+            <code>00000D50</code> — _KsCreatePin@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00000DC0">
+            <code>00000DC0</code> — _KsValidateConnectRequest@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000016B0">
+            <code>000016B0</code> — _KsHandleSizedListQuery@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000017E0">
+            <code>000017E0</code> — _KsPinPropertyHandler@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00001B60">
+            <code>00001B60</code> — _KsPinDataIntersection@24
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002020">
+            <code>00002020</code> — _OneShotWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002040">
+            <code>00002040</code> — _CallbackWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002180">
+            <code>00002180</code> — @FindEventItem@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000021D0">
+            <code>000021D0</code> — @CreateDpc@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002240">
+            <code>00002240</code> — @CreateCallbackDpc@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000023A0">
+            <code>000023A0</code> — _KsEnableEvent@24
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002C90">
+            <code>00002C90</code> — _KsDisableEvent@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002D50">
+            <code>00002D50</code> — _KsFreeEventList@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002DA0">
+            <code>00002DA0</code> — _KsAcquireDeviceSecurityLock@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002DF0">
+            <code>00002DF0</code> — _KsReleaseDeviceSecurityLock@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002E40">
+            <code>00002E40</code> — _KsReferenceSoftwareBusObject@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00002F70">
+            <code>00002F70</code> — _KsDereferenceSoftwareBusObject@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003020">
+            <code>00003020</code> — _KsDefaultForwardIrp@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003140">
+            <code>00003140</code> — _KsDefaultDispatchPnp@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003240">
+            <code>00003240</code> — _KsDefaultDispatchPower@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000033D0">
+            <code>000033D0</code> — _KsSetDevicePnpAndBaseObject@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003440">
+            <code>00003440</code> — _KsQueryDevicePnpObject@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000034A0">
+            <code>000034A0</code> — _KsAllocateDeviceHeader@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003600">
+            <code>00003600</code> — _KsFreeDeviceHeader@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000036E0">
+            <code>000036E0</code> — _KsQueryObjectAccessMask@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003740">
+            <code>00003740</code> — _KsRecalculateStackDepth@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003870">
+            <code>00003870</code> — _KsSetTargetState@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000038E0">
+            <code>000038E0</code> — _KsSetTargetDeviceObject@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000039E0">
+            <code>000039E0</code> — _KsSetPowerDispatch@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003B10">
+            <code>00003B10</code> — _KsQueryObjectCreateItem@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003B70">
+            <code>00003B70</code> — _KsAllocateObjectHeader@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003C60">
+            <code>00003C60</code> — _KsFreeObjectHeader@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003D60">
+            <code>00003D60</code> — _KsiAddObjectCreateItem@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003DF0">
+            <code>00003DF0</code> — _KsAddObjectCreateItemToDeviceHeader@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003E60">
+            <code>00003E60</code> — _KsAddObjectCreateItemToObjectHeader@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003ED0">
+            <code>00003ED0</code> — _KsiCreateObjectType@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00003FC0">
+            <code>00003FC0</code> — _KsiCopyCreateParameter@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000040F0">
+            <code>000040F0</code> — _ValidateCreateAccess@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004100">
+            <code>00004100</code> — _FindCreateItem@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000041E0">
+            <code>000041E0</code> — _DispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004360">
+            <code>00004360</code> — _DispatchDeviceIoControl@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004390">
+            <code>00004390</code> — _DispatchFastDeviceIoControl@36
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000043E0">
+            <code>000043E0</code> — _DispatchRead@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004410">
+            <code>00004410</code> — _DispatchFastRead@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004450">
+            <code>00004450</code> — _DispatchWrite@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004480">
+            <code>00004480</code> — _DispatchFastWrite@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000044C0">
+            <code>000044C0</code> — _DispatchFlush@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000044F0">
+            <code>000044F0</code> — _DispatchClose@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004520">
+            <code>00004520</code> — _KsDispatchQuerySecurity@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004550">
+            <code>00004550</code> — _KsDispatchSetSecurity@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004580">
+            <code>00004580</code> — _DispatchQuerySecurity@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000045B0">
+            <code>000045B0</code> — _DispatchSetSecurity@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000045E0">
+            <code>000045E0</code> — _KsDispatchSpecificProperty@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004680">
+            <code>00004680</code> — _KsDispatchSpecificMethod@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000047A0">
+            <code>000047A0</code> — _KsDispatchInvalidDeviceRequest@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004810">
+            <code>00004810</code> — _KsDefaultDeviceIoCompletion@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004900">
+            <code>00004900</code> — _KsDispatchIrp@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004A70">
+            <code>00004A70</code> — _KsDispatchFastIoDeviceControlFailure@36
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004A80">
+            <code>00004A80</code> — _KsDispatchFastReadFailure@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004A90">
+            <code>00004A90</code> — _KsNullDriverUnload@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004AA0">
+            <code>00004AA0</code> — _KsSetMajorFunctionHandler@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004C10">
+            <code>00004C10</code> — _KsGetChildCreateParameter@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004D00">
+            <code>00004D00</code> — _KsReadFile@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00004FC0">
+            <code>00004FC0</code> — _KsWriteFile@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00005270">
+            <code>00005270</code> — _KsQueryInformationFile@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000054A0">
+            <code>000054A0</code> — _KsSetInformationFile@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000056C0">
+            <code>000056C0</code> — _KsStreamIo@44
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00005990">
+            <code>00005990</code> — _KsProbeStreamIrp@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00006090">
+            <code>00006090</code> — _KsAllocateExtraData@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000062B0">
+            <code>000062B0</code> — @FindMethodItem@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00006300">
+            <code>00006300</code> — _KsMethodHandler@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00006A10">
+            <code>00006A10</code> — @FindFastMethodItem@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00006A60">
+            <code>00006A60</code> — _KsFastMethodHandler@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00006CF0">
+            <code>00006CF0</code> — @FindPropertyItem@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00006D40">
+            <code>00006D40</code> — _SerializePropertySet@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000070F0">
+            <code>000070F0</code> — _UnserializePropertySet@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000073C0">
+            <code>000073C0</code> — _KsCreateMdlForProperty@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00007490">
+            <code>00007490</code> — _KsPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00007E30">
+            <code>00007E30</code> — @FindFastPropertyItem@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00007E80">
+            <code>00007E80</code> — _KsFastPropertyHandler@32
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008170">
+            <code>00008170</code> — _KsiPropertyDefaultClockGetTime@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000081F0">
+            <code>000081F0</code> — _KsiPropertyDefaultClockGetPhysicalTime@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008330">
+            <code>00008330</code> — _KsiPropertyDefaultClockGetCorrelatedTime@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000083B0">
+            <code>000083B0</code> — _KsiPropertyDefaultClockGetCorrelatedPhysicalTime@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008430">
+            <code>00008430</code> — _KsiPropertyDefaultClockGetResolution@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008500">
+            <code>00008500</code> — _KsiPropertyDefaultClockGetState@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008580">
+            <code>00008580</code> — _KsiPropertyDefaultClockGetFunctionTable@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008610">
+            <code>00008610</code> — _KsiPropertyDefaultClockGetParent@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008690">
+            <code>00008690</code> — _KsCreateClock@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008700">
+            <code>00008700</code> — _KsValidateClockCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000087B0">
+            <code>000087B0</code> — _KsAllocateDefaultClock@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008920">
+            <code>00008920</code> — _KsFreeDefaultClock@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000089A0">
+            <code>000089A0</code> — _KsCreateDefaultClock@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008AC0">
+            <code>00008AC0</code> — _DefClockIoControl@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008BD0">
+            <code>00008BD0</code> — _DefClockClose@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008CB0">
+            <code>00008CB0</code> — _DefPowerDispatch@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008E70">
+            <code>00008E70</code> — _KsCreateAllocator@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008EE0">
+            <code>00008EE0</code> — _KsValidateAllocatorCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00008F90">
+            <code>00008F90</code> — _KsCreateDefaultAllocator@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009250">
+            <code>00009250</code> — _DefAllocatorIoControl@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000093A0">
+            <code>000093A0</code> — _DefAllocatorClose@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009490">
+            <code>00009490</code> — _MethodAlloc@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009540">
+            <code>00009540</code> — _FreeWorker@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009560">
+            <code>00009560</code> — _MethodFree@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000095E0">
+            <code>000095E0</code> — _DefAllocatorGetFunctionTable@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009670">
+            <code>00009670</code> — _DefAllocatorGetStatus@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009710">
+            <code>00009710</code> — _KsCreateTopologyNode@16
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009780">
+            <code>00009780</code> — _KsValidateTopologyNodeCreateRequest@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009840">
+            <code>00009840</code> — _RemoveFactoryEntries@0
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000098D0">
+            <code>000098D0</code> — _LoadService@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="000099B0">
+            <code>000099B0</code> — _KoDecrementObjectCount@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009B50">
+            <code>00009B50</code> — _KoCreateInstance@20
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009E80">
+            <code>00009E80</code> — _KoDriverInitialize@12
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="00009F30">
+            <code>00009F30</code> — _PnpAddDevice@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="0000A000">
+            <code>0000A000</code> — _KoDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="0000A0C0">
+            <code>0000A0C0</code> — _KoDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="0000A120">
+            <code>0000A120</code> — _KoDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="0000A2B0">
+            <code>0000A2B0</code> — _WorkerThread@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="0000A490">
+            <code>0000A490</code> — _BackgroundCreateWorker@4
+            
+          </li>
+        
+          <li data-segment="00006830" data-offset="0000A550">
+            <code>0000A550</code> — _KsRegisterWorker@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: PAGECONST @ 00008D50
+      </summary>
+      <ul>
+        
+          <li data-segment="00008D50" data-offset="00000550">
+            <code>00000550</code> — _KoCreateObject
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000560">
+            <code>00000560</code> — _CLSID_Proxy
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000570">
+            <code>00000570</code> — _IID_IKsPropertySet
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000580">
+            <code>00000580</code> — _IID_IKsAllocator
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000590">
+            <code>00000590</code> — _IID_IKsClockPropertySet
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000005A0">
+            <code>000005A0</code> — _IID_IKsInterfaceHandler
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000005B0">
+            <code>000005B0</code> — _IID_IKsDataTypeHandler
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000005C0">
+            <code>000005C0</code> — _IID_IKsPin
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000005D0">
+            <code>000005D0</code> — _IID_IKsObject
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000005E0">
+            <code>000005E0</code> — _KSPROPSETID_TSRateChange
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000005F0">
+            <code>000005F0</code> — _KSDATAFORMAT_TYPE_DVD_ENCRYPTED_PACK
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000600">
+            <code>00000600</code> — _KSDATAFORMAT_SUBTYPE_Line21_GOPPacket
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000610">
+            <code>00000610</code> — _KSDATAFORMAT_SUBTYPE_Line21_BytePair
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000620">
+            <code>00000620</code> — _KSDATAFORMAT_TYPE_AUXLine21Data
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000630">
+            <code>00000630</code> — _KSEVENTSETID_VPVBINotify
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000640">
+            <code>00000640</code> — _KSEVENTSETID_VPNotify
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000650">
+            <code>00000650</code> — _KSPROPSETID_VPVBIConfig
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000660">
+            <code>00000660</code> — _KSPROPSETID_VPConfig
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000670">
+            <code>00000670</code> — _PROPSETID_VIDCAP_DROPPEDFRAMES
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000680">
+            <code>00000680</code> — _PROPSETID_VIDCAP_VIDEOCONTROL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000690">
+            <code>00000690</code> — _KSPROPSETID_OverlayUpdate
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000006A0">
+            <code>000006A0</code> — _KSDATAFORMAT_SUBTYPE_OVERLAY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000006B0">
+            <code>000006B0</code> — _PROPSETID_VIDCAP_VIDEOCOMPRESSION
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000006C0">
+            <code>000006C0</code> — _KSEVENTSETID_VIDCAP_TVAUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000006D0">
+            <code>000006D0</code> — _PROPSETID_VIDCAP_TVAUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000006E0">
+            <code>000006E0</code> — _EVENTSETID_CROSSBAR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000006F0">
+            <code>000006F0</code> — _PROPSETID_VIDCAP_CROSSBAR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000700">
+            <code>00000700</code> — _PROPSETID_VIDCAP_CAMERACONTROL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000710">
+            <code>00000710</code> — _EVENTSETID_VIDEODECODER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000720">
+            <code>00000720</code> — _PROPSETID_VIDCAP_VIDEODECODER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000730">
+            <code>00000730</code> — _PROPSETID_VIDCAP_VIDEOENCODER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000740">
+            <code>00000740</code> — _EVENTSETID_TUNER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000750">
+            <code>00000750</code> — _PROPSETID_TUNER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000760">
+            <code>00000760</code> — _PROPSETID_VIDCAP_VIDEOPROCAMP
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000770">
+            <code>00000770</code> — _PINNAME_VIDEO_VIDEOPORT_VBI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000780">
+            <code>00000780</code> — _PINNAME_VIDEO_TIMECODE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000790">
+            <code>00000790</code> — _PINNAME_VIDEO_STILL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000007A0">
+            <code>000007A0</code> — _PINNAME_VIDEO_CC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000007B0">
+            <code>000007B0</code> — _PINNAME_VIDEO_TELETEXT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000007C0">
+            <code>000007C0</code> — _PINNAME_VIDEO_EDS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000007D0">
+            <code>000007D0</code> — _PINNAME_VIDEO_NABTS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000007E0">
+            <code>000007E0</code> — _PINNAME_VIDEO_VIDEOPORT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000007F0">
+            <code>000007F0</code> — _PINNAME_VIDEO_VBI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000800">
+            <code>00000800</code> — _PINNAME_VIDEO_ANALOGVIDEOIN
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000810">
+            <code>00000810</code> — _PINNAME_VIDEO_PREVIEW
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000820">
+            <code>00000820</code> — _PINNAME_VIDEO_CAPTURE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000830">
+            <code>00000830</code> — _KSPROPSETID_VBICodecFiltering
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000840">
+            <code>00000840</code> — _KSDATAFORMAT_SUBTYPE_NABTS_FEC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000850">
+            <code>00000850</code> — _KSDATAFORMAT_TYPE_NABTS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000860">
+            <code>00000860</code> — _KSDATAFORMAT_SUBTYPE_TELETEXT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000870">
+            <code>00000870</code> — _KSDATAFORMAT_SUBTYPE_NABTS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000880">
+            <code>00000880</code> — _KSDATAFORMAT_SUBTYPE_RAW8
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000890">
+            <code>00000890</code> — _KSDATAFORMAT_TYPE_VBI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000008A0">
+            <code>000008A0</code> — _KSDATAFORMAT_SPECIFIER_VBI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000008B0">
+            <code>000008B0</code> — _KSDATAFORMAT_SPECIFIER_ANALOGVIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000008C0">
+            <code>000008C0</code> — _KSDATAFORMAT_TYPE_ANALOGVIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000008D0">
+            <code>000008D0</code> — _KSDATAFORMAT_SPECIFIER_VIDEOINFO2
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000008E0">
+            <code>000008E0</code> — _KSDATAFORMAT_SPECIFIER_VIDEOINFO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000008F0">
+            <code>000008F0</code> — _KSDATAFORMAT_SUBTYPE_VPVBI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000900">
+            <code>00000900</code> — _KSDATAFORMAT_SUBTYPE_VPVideo
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000910">
+            <code>00000910</code> — _KSCATEGORY_VBICODEC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000920">
+            <code>00000920</code> — _KSCATEGORY_VPMUX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000930">
+            <code>00000930</code> — _KSCATEGORY_TVAUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000940">
+            <code>00000940</code> — _KSCATEGORY_CROSSBAR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000950">
+            <code>00000950</code> — _KSCATEGORY_TVTUNER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000960">
+            <code>00000960</code> — _KSPROPSETID_CopyProt
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000970">
+            <code>00000970</code> — _KSPROPSETID_DvdSubPic
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000980">
+            <code>00000980</code> — _KSDATAFORMAT_SUBTYPE_SUBPICTURE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000990">
+            <code>00000990</code> — _KSPROPSETID_AudioDecoderOut
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000009A0">
+            <code>000009A0</code> — _KSPROPSETID_AC3
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000009B0">
+            <code>000009B0</code> — _KSDATAFORMAT_SPECIFIER_AC3_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000009C0">
+            <code>000009C0</code> — _KSDATAFORMAT_SUBTYPE_AC3_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000009D0">
+            <code>000009D0</code> — _KSDATAFORMAT_SPECIFIER_LPCM_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000009E0">
+            <code>000009E0</code> — _KSDATAFORMAT_SUBTYPE_LPCM_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000009F0">
+            <code>000009F0</code> — _KSDATAFORMAT_SPECIFIER_MPEG2_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A00">
+            <code>00000A00</code> — _KSDATAFORMAT_SUBTYPE_MPEG2_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A10">
+            <code>00000A10</code> — _KSPROPSETID_Mpeg2Vid
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A20">
+            <code>00000A20</code> — _KSDATAFORMAT_SPECIFIER_MPEG2_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A30">
+            <code>00000A30</code> — _KSDATAFORMAT_SUBTYPE_MPEG2_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A40">
+            <code>00000A40</code> — _KSDATAFORMAT_TYPE_MPEG2_TRANSPORT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A50">
+            <code>00000A50</code> — _KSDATAFORMAT_TYPE_MPEG2_PROGRAM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A60">
+            <code>00000A60</code> — _KSDATAFORMAT_TYPE_MPEG2_PES
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A70">
+            <code>00000A70</code> — _KSDATAFORMAT_SUBTYPE_DSS_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A80">
+            <code>00000A80</code> — _KSDATAFORMAT_SUBTYPE_DSS_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000A90">
+            <code>00000A90</code> — _KSDATAFORMAT_SPECIFIER_DIALECT_AC3_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000AA0">
+            <code>00000AA0</code> — _KSDATAFORMAT_SPECIFIER_DIALECT_MPEG2_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000AB0">
+            <code>00000AB0</code> — _KSDATAFORMAT_SPECIFIER_DIALECT_MPEG2_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000AC0">
+            <code>00000AC0</code> — _KSDATAFORMAT_SPECIFIER_DIALECT_MPEG1_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000AD0">
+            <code>00000AD0</code> — _KSDATAFORMAT_SPECIFIER_DIALECT_MPEG1_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000AE0">
+            <code>00000AE0</code> — _KSDATAFORMAT_SUBTYPE_STANDARD_AC3_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000AF0">
+            <code>00000AF0</code> — _KSDATAFORMAT_SUBTYPE_STANDARD_MPEG2_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B00">
+            <code>00000B00</code> — _KSDATAFORMAT_SUBTYPE_STANDARD_MPEG2_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B10">
+            <code>00000B10</code> — _KSDATAFORMAT_SUBTYPE_STANDARD_MPEG1_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B20">
+            <code>00000B20</code> — _KSDATAFORMAT_SUBTYPE_STANDARD_MPEG1_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B30">
+            <code>00000B30</code> — _KSDATAFORMAT_TYPE_STANDARD_PACK_HEADER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B40">
+            <code>00000B40</code> — _KSDATAFORMAT_TYPE_STANDARD_PES_PACKET
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B50">
+            <code>00000B50</code> — _KSDATAFORMAT_TYPE_STANDARD_ELEMENTARY_STREAM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B60">
+            <code>00000B60</code> — _KSDATAFORMAT_SUBTYPE_RIFFMIDI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B70">
+            <code>00000B70</code> — _KSDATAFORMAT_SUBTYPE_MIDI_BUS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B80">
+            <code>00000B80</code> — _KSDATAFORMAT_SUBTYPE_MIDI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000B90">
+            <code>00000B90</code> — _KSDATAFORMAT_TYPE_MIDI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000BA0">
+            <code>00000BA0</code> — _KSDATAFORMAT_TYPE_MUSIC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000BB0">
+            <code>00000BB0</code> — _KSPROPSETID_Linear
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000BC0">
+            <code>00000BC0</code> — _KSPROPSETID_Sysaudio_Pin
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000BD0">
+            <code>00000BD0</code> — _KSPROPSETID_Sysaudio
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000BE0">
+            <code>00000BE0</code> — _KSEVENTSETID_Sysaudio
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000BF0">
+            <code>00000BF0</code> — _KSEVENTSETID_LoopedStreaming
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C00">
+            <code>00000C00</code> — _KSPROPSETID_Cyclic
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C10">
+            <code>00000C10</code> — _KSEVENTSETID_Cyclic
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C20">
+            <code>00000C20</code> — _KSPROPSETID_WaveTable
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C30">
+            <code>00000C30</code> — _KSMUSIC_TECHNOLOGY_SWSYNTH
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C40">
+            <code>00000C40</code> — _KSMUSIC_TECHNOLOGY_WAVETABLE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C50">
+            <code>00000C50</code> — _KSMUSIC_TECHNOLOGY_FMSYNTH
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C60">
+            <code>00000C60</code> — _KSMUSIC_TECHNOLOGY_SQSYNTH
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C70">
+            <code>00000C70</code> — _KSMUSIC_TECHNOLOGY_PORT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C80">
+            <code>00000C80</code> — _KSPROPSETID_Wave
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000C90">
+            <code>00000C90</code> — _KSMETHODSETID_Wave_Queued
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000CA0">
+            <code>00000CA0</code> — _KSPROPSETID_Wave_Queued
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000CB0">
+            <code>00000CB0</code> — _KSPROPSETID_Iir3d
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000CC0">
+            <code>00000CC0</code> — _KSPROPSETID_Itd3d
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000CD0">
+            <code>00000CD0</code> — _KSMETHODSETID_Dls
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000CE0">
+            <code>00000CE0</code> — _KSPROPSETID_Dls
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000CF0">
+            <code>00000CF0</code> — _KSMETHODSETID_Wavetable
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D00">
+            <code>00000D00</code> — _KSAUDFNAME_WAVE_OUT_MIX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D10">
+            <code>00000D10</code> — _KSAUDFNAME_PC_SPEAKER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D20">
+            <code>00000D20</code> — _KSAUDFNAME_AUX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D30">
+            <code>00000D30</code> — _KSAUDFNAME_AUX_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D40">
+            <code>00000D40</code> — _KSAUDFNAME_AUX_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D50">
+            <code>00000D50</code> — _KSAUDFNAME_CD_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D60">
+            <code>00000D60</code> — _KSAUDFNAME_RECORDING_CONTROL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D70">
+            <code>00000D70</code> — _KSAUDFNAME_LINE_IN
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D80">
+            <code>00000D80</code> — _KSAUDFNAME_MIDI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000D90">
+            <code>00000D90</code> — _KSAUDFNAME_VOLUME_CONTROL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000DA0">
+            <code>00000DA0</code> — _KSAUDFNAME_WAVE_IN_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000DB0">
+            <code>00000DB0</code> — _KSAUDFNAME_MIC_IN_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000DC0">
+            <code>00000DC0</code> — _KSAUDFNAME_LINE_IN_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000DD0">
+            <code>00000DD0</code> — _KSAUDFNAME_CD_IN_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000DE0">
+            <code>00000DE0</code> — _KSAUDFNAME_MIDI_IN_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000DF0">
+            <code>00000DF0</code> — _KSAUDFNAME_PC_SPEAKER_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E00">
+            <code>00000E00</code> — _KSAUDFNAME_PC_SPEAKER_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E10">
+            <code>00000E10</code> — _KSAUDFNAME_RECORDING_SOURCE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E20">
+            <code>00000E20</code> — _KSAUDFNAME_MIC_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E30">
+            <code>00000E30</code> — _KSAUDFNAME_MIC_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E40">
+            <code>00000E40</code> — _KSAUDFNAME_LINE_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E50">
+            <code>00000E50</code> — _KSAUDFNAME_LINE_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E60">
+            <code>00000E60</code> — _KSAUDFNAME_CD_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E70">
+            <code>00000E70</code> — _KSAUDFNAME_CD_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E80">
+            <code>00000E80</code> — _KSAUDFNAME_MIDI_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000E90">
+            <code>00000E90</code> — _KSAUDFNAME_MIDI_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000EA0">
+            <code>00000EA0</code> — _KSAUDFNAME_WAVE_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000EB0">
+            <code>00000EB0</code> — _KSAUDFNAME_WAVE_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000EC0">
+            <code>00000EC0</code> — _KSAUDFNAME_MASTER_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000ED0">
+            <code>00000ED0</code> — _KSAUDFNAME_MASTER_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000EE0">
+            <code>00000EE0</code> — _KSAUDFNAME_3D_STEREO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000EF0">
+            <code>00000EF0</code> — _KSAUDFNAME_TREBLE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F00">
+            <code>00000F00</code> — _KSAUDFNAME_BASS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F10">
+            <code>00000F10</code> — _KSNODETYPE_DEV_SPECIFIC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F20">
+            <code>00000F20</code> — _KSNODETYPE_DEV_SPECIFIC_3D_EFFECTS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F30">
+            <code>00000F30</code> — _KSNODETYPE_IIR_3D_EFFECTS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F40">
+            <code>00000F40</code> — _KSNODETYPE_ITD_3D_EFFECTS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F50">
+            <code>00000F50</code> — _KSNODETYPE_CHORUS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F60">
+            <code>00000F60</code> — _KSNODETYPE_REVERB
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F70">
+            <code>00000F70</code> — _KSNODETYPE_STEREO_ENHANCE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F80">
+            <code>00000F80</code> — _KSNODETYPE_STEREO_WIDE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000F90">
+            <code>00000F90</code> — _KSNODETYPE_PROLOGIC_DECODER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000FA0">
+            <code>00000FA0</code> — _KSNODETYPE_LOUDNESS
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000FB0">
+            <code>00000FB0</code> — _KSNODETYPE_DELAY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000FC0">
+            <code>00000FC0</code> — _KSNODETYPE_AGC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000FD0">
+            <code>00000FD0</code> — _KSNODETYPE_EQUALIZER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000FE0">
+            <code>00000FE0</code> — _KSNODETYPE_TONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00000FF0">
+            <code>00000FF0</code> — _KSNODETYPE_VOLUME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001000">
+            <code>00001000</code> — _KSNODETYPE_MUTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001010">
+            <code>00001010</code> — _KSNODETYPE_SUM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001020">
+            <code>00001020</code> — _KSNODETYPE_DEMUX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001030">
+            <code>00001030</code> — _KSNODETYPE_MUX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001040">
+            <code>00001040</code> — _KSNODETYPE_SUPERMIX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001050">
+            <code>00001050</code> — _KSNODETYPE_SRC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001060">
+            <code>00001060</code> — _KSNODETYPE_ADC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001070">
+            <code>00001070</code> — _KSNODETYPE_DAC
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001080">
+            <code>00001080</code> — _KSPROPSETID_Audio
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001090">
+            <code>00001090</code> — _KSPROPSETID_TopologyNode
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000010A0">
+            <code>000010A0</code> — _KSPROPSETID_Bibliographic
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000010B0">
+            <code>000010B0</code> — _KSDATAFORMAT_SUBTYPE_RIFFWAVE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000010C0">
+            <code>000010C0</code> — _KSDATAFORMAT_SUBTYPE_RIFF
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000010D0">
+            <code>000010D0</code> — _KSPROPSETID_DirectSound3DBuffer
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000010E0">
+            <code>000010E0</code> — _KSPROPSETID_DirectSound3DListener
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000010F0">
+            <code>000010F0</code> — _KSDATAFORMAT_SPECIFIER_DSOUND
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001100">
+            <code>00001100</code> — _KSDATAFORMAT_SPECIFIER_WAVEFORMATEX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001110">
+            <code>00001110</code> — _KSDATAFORMAT_SPECIFIER_VC_ID
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001120">
+            <code>00001120</code> — _KSDATAFORMAT_SUBTYPE_MPEG
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001130">
+            <code>00001130</code> — _KSDATAFORMAT_SUBTYPE_ADPCM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001140">
+            <code>00001140</code> — _KSDATAFORMAT_SUBTYPE_MULAW
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001150">
+            <code>00001150</code> — _KSDATAFORMAT_SUBTYPE_ALAW
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001160">
+            <code>00001160</code> — _KSDATAFORMAT_SUBTYPE_PCM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001170">
+            <code>00001170</code> — _KSDATAFORMAT_SUBTYPE_ANALOG
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001180">
+            <code>00001180</code> — _KSDATAFORMAT_SUBTYPE_WAVEFORMATEX
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001190">
+            <code>00001190</code> — _KSDATAFORMAT_TYPE_TEXT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000011A0">
+            <code>000011A0</code> — _KSDATAFORMAT_TYPE_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000011B0">
+            <code>000011B0</code> — _KSDATAFORMAT_TYPE_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000011C0">
+            <code>000011C0</code> — _KSCATEGORY_WDMAUD_USE_PIN_NAME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000011D0">
+            <code>000011D0</code> — _KSCATEGORY_SYSAUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000011E0">
+            <code>000011E0</code> — _KSCATEGORY_ACOUSTIC_ECHO_CANCEL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000011F0">
+            <code>000011F0</code> — _KSCATEGORY_VIRTUAL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001200">
+            <code>00001200</code> — _KSCATEGORY_TOPOLOGY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001210">
+            <code>00001210</code> — _KSCATEGORY_TEXT
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001220">
+            <code>00001220</code> — _KSCATEGORY_VIDEO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001230">
+            <code>00001230</code> — _KSCATEGORY_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001240">
+            <code>00001240</code> — _KSNODETYPE_SWMIDI
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001250">
+            <code>00001250</code> — _KSNODETYPE_SWSYNTH
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001260">
+            <code>00001260</code> — _KSNODETYPE_SYNTHESIZER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001270">
+            <code>00001270</code> — _KSNODETYPE_MULTITRACK_RECORDER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001280">
+            <code>00001280</code> — _KSNODETYPE_RADIO_TRANSMITTER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001290">
+            <code>00001290</code> — _KSNODETYPE_RADIO_RECEIVER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000012A0">
+            <code>000012A0</code> — _KSNODETYPE_DSS_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000012B0">
+            <code>000012B0</code> — _KSNODETYPE_CABLE_TUNER_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000012C0">
+            <code>000012C0</code> — _KSNODETYPE_SATELLITE_RECEIVER_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000012D0">
+            <code>000012D0</code> — _KSNODETYPE_TV_TUNER_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000012E0">
+            <code>000012E0</code> — _KSNODETYPE_DVD_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000012F0">
+            <code>000012F0</code> — _KSNODETYPE_VIDEO_DISC_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001300">
+            <code>00001300</code> — _KSNODETYPE_VCR_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001310">
+            <code>00001310</code> — _KSNODETYPE_PHONOGRAPH
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001320">
+            <code>00001320</code> — _KSNODETYPE_ANALOG_TAPE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001330">
+            <code>00001330</code> — _KSNODETYPE_MINIDISK
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001340">
+            <code>00001340</code> — _KSNODETYPE_DCC_IO_DIGITAL_COMPACT_CASSETTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001350">
+            <code>00001350</code> — _KSNODETYPE_DAT_IO_DIGITAL_AUDIO_TAPE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001360">
+            <code>00001360</code> — _KSNODETYPE_CD_PLAYER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001370">
+            <code>00001370</code> — _KSNODETYPE_EQUALIZATION_NOISE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001380">
+            <code>00001380</code> — _KSNODETYPE_LEVEL_CALIBRATION_NOISE_SOURCE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001390">
+            <code>00001390</code> — _KSNODETYPE_1394_DV_STREAM_SOUNDTRACK
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000013A0">
+            <code>000013A0</code> — _KSNODETYPE_1394_DA_STREAM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000013B0">
+            <code>000013B0</code> — _KSNODETYPE_SPDIF_INTERFACE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000013C0">
+            <code>000013C0</code> — _KSNODETYPE_LEGACY_AUDIO_CONNECTOR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000013D0">
+            <code>000013D0</code> — _KSNODETYPE_LINE_CONNECTOR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000013E0">
+            <code>000013E0</code> — _KSNODETYPE_DIGITAL_AUDIO_INTERFACE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000013F0">
+            <code>000013F0</code> — _KSNODETYPE_ANALOG_CONNECTOR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001400">
+            <code>00001400</code> — _KSNODETYPE_DOWN_LINE_PHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001410">
+            <code>00001410</code> — _KSNODETYPE_TELEPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001420">
+            <code>00001420</code> — _KSNODETYPE_PHONE_LINE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001430">
+            <code>00001430</code> — _KSNODETYPE_ECHO_CANCELING_SPEAKERPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001440">
+            <code>00001440</code> — _KSNODETYPE_ECHO_SUPPRESSING_SPEAKERPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001450">
+            <code>00001450</code> — _KSNODETYPE_SPEAKERPHONE_NO_ECHO_REDUCTION
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001460">
+            <code>00001460</code> — _KSNODETYPE_HEADSET
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001470">
+            <code>00001470</code> — _KSNODETYPE_HANDSET
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001480">
+            <code>00001480</code> — _KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001490">
+            <code>00001490</code> — _KSNODETYPE_COMMUNICATION_SPEAKER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000014A0">
+            <code>000014A0</code> — _KSNODETYPE_ROOM_SPEAKER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000014B0">
+            <code>000014B0</code> — _KSNODETYPE_DESKTOP_SPEAKER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000014C0">
+            <code>000014C0</code> — _KSNODETYPE_HEAD_MOUNTED_DISPLAY_AUDIO
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000014D0">
+            <code>000014D0</code> — _KSNODETYPE_HEADPHONES
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000014E0">
+            <code>000014E0</code> — _KSNODETYPE_SPEAKER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000014F0">
+            <code>000014F0</code> — _KSNODETYPE_PROCESSING_MICROPHONE_ARRAY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001500">
+            <code>00001500</code> — _KSNODETYPE_MICROPHONE_ARRAY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001510">
+            <code>00001510</code> — _KSNODETYPE_OMNI_DIRECTIONAL_MICROPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001520">
+            <code>00001520</code> — _KSNODETYPE_PERSONAL_MICROPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001530">
+            <code>00001530</code> — _KSNODETYPE_DESKTOP_MICROPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001540">
+            <code>00001540</code> — _KSNODETYPE_MICROPHONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001550">
+            <code>00001550</code> — _KSINTERFACESETID_Media
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001560">
+            <code>00001560</code> — _KSMEDIUMSETID_VPBus
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001570">
+            <code>00001570</code> — _KSMEDIUMSETID_MidiBus
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001580">
+            <code>00001580</code> — _KSPROPSETID_Service
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001590">
+            <code>00001590</code> — _KSNAME_Server
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000015A0">
+            <code>000015A0</code> — _KSDEGRADESETID_Standard
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000015B0">
+            <code>000015B0</code> — _KSEVENTSETID_Connection
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000015C0">
+            <code>000015C0</code> — _KSEVENTSETID_Clock
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000015D0">
+            <code>000015D0</code> — _KSPROPSETID_Clock
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000015E0">
+            <code>000015E0</code> — _KSPROPSETID_Stream
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000015F0">
+            <code>000015F0</code> — _KSPROPSETID_StreamInterface
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001600">
+            <code>00001600</code> — _KSPROPSETID_StreamAllocator
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001610">
+            <code>00001610</code> — _KSMETHODSETID_StreamAllocator
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001620">
+            <code>00001620</code> — _KSEVENTSETID_StreamAllocator
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001630">
+            <code>00001630</code> — _KSPROPSETID_Connection
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001640">
+            <code>00001640</code> — _KSPROPSETID_Quality
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001650">
+            <code>00001650</code> — _KSDATAFORMAT_SPECIFIER_NONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001660">
+            <code>00001660</code> — _KSDATAFORMAT_SPECIFIER_FILEHANDLE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001670">
+            <code>00001670</code> — _KSDATAFORMAT_SPECIFIER_FILENAME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001680">
+            <code>00001680</code> — _KSDATAFORMAT_SUBTYPE_NONE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001690">
+            <code>00001690</code> — _KSDATAFORMAT_TYPE_STREAM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000016A0">
+            <code>000016A0</code> — _KSNAME_TopologyNode
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000016B0">
+            <code>000016B0</code> — _KSNAME_Allocator
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000016C0">
+            <code>000016C0</code> — _KSNAME_Clock
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000016D0">
+            <code>000016D0</code> — _KSNAME_Pin
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000016E0">
+            <code>000016E0</code> — _KSNAME_Filter
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000016F0">
+            <code>000016F0</code> — _IID_IMediumValidation
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001700">
+            <code>00001700</code> — _KSPROPSETID_Pin
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001710">
+            <code>00001710</code> — _KSMEDIUMSETID_FileIo
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001720">
+            <code>00001720</code> — _KSMEDIUMSETID_Standard
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001730">
+            <code>00001730</code> — _KSINTERFACESETID_Standard
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001740">
+            <code>00001740</code> — _KSTIME_FORMAT_MEDIA_TIME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001750">
+            <code>00001750</code> — _KSTIME_FORMAT_FIELD
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001760">
+            <code>00001760</code> — _KSTIME_FORMAT_SAMPLE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001770">
+            <code>00001770</code> — _KSTIME_FORMAT_BYTE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001780">
+            <code>00001780</code> — _KSTIME_FORMAT_FRAME
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001790">
+            <code>00001790</code> — _KSCATEGORY_QUALITY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000017A0">
+            <code>000017A0</code> — _KSCATEGORY_PROXY
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000017B0">
+            <code>000017B0</code> — _KSCATEGORY_CLOCK
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000017C0">
+            <code>000017C0</code> — _KSCATEGORY_FILESYSTEM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000017D0">
+            <code>000017D0</code> — _KSCATEGORY_MEDIUMTRANSFORM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000017E0">
+            <code>000017E0</code> — _KSCATEGORY_INTERFACETRANSFORM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000017F0">
+            <code>000017F0</code> — _KSCATEGORY_COMMUNICATIONSTRANSFORM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001800">
+            <code>00001800</code> — _KSCATEGORY_DATATRANSFORM
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001810">
+            <code>00001810</code> — _KSCATEGORY_DATADECOMPRESSOR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001820">
+            <code>00001820</code> — _KSCATEGORY_DATACOMPRESSOR
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001830">
+            <code>00001830</code> — _KSCATEGORY_SPLITTER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001840">
+            <code>00001840</code> — _KSCATEGORY_MIXER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001850">
+            <code>00001850</code> — _KSCATEGORY_RENDER
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001860">
+            <code>00001860</code> — _KSCATEGORY_CAPTURE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001870">
+            <code>00001870</code> — _KSCATEGORY_BRIDGE
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001880">
+            <code>00001880</code> — _KSPROPSETID_Topology
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="00001890">
+            <code>00001890</code> — _KSPROPSETID_MediaSeeking
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000018A0">
+            <code>000018A0</code> — _KSPROPSETID_General
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000018B0">
+            <code>000018B0</code> — _KSPROPTYPESETID_General
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000018C0">
+            <code>000018C0</code> — _GUID_NULL
+            
+          </li>
+        
+          <li data-segment="00008D50" data-offset="000018D0">
+            <code>000018D0</code> — _BUSID_SoftwareDeviceEnumerator
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: INIT @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

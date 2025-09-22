@@ -1,0 +1,3488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>PPPMAC — Windows 98SE Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>2../../../../../net/vxd/ndis31/mac/common/efilter.c</li>
+      
+        <li>3../../../../../net/vxd/ndis31/mac/common/ndisos.asm</li>
+      
+        <li>4../../../../../net/vxd/ndis31/mac/common/ndisdbg.asm</li>
+      
+        <li>4../../../../../net/vxd/ndis31/mac/common/ndishlp.asm</li>
+      
+        <li>4../../../../../net/vxd/ndis31/mac/common/ndismac.asm</li>
+      
+        <li>../ahdlc.c</li>
+      
+        <li>../ansihelp.c</li>
+      
+        <li>../asyncmac.c</li>
+      
+        <li>../asyutil.c</li>
+      
+        <li>../cbcp.c</li>
+      
+        <li>../ccp.c</li>
+      
+        <li>../chap.c</li>
+      
+        <li>../cip.c</li>
+      
+        <li>../cipx.c</li>
+      
+        <li>../../../../../dev/ddk/inc/vmmreg.h</li>
+      
+        <li>../driver.asm</li>
+      
+        <li>../fcs.c</li>
+      
+        <li>../fsa.c</li>
+      
+        <li>../fsasvc.c</li>
+      
+        <li>../hdlc.c</li>
+      
+        <li>../../inc/pppsvc.inc</li>
+      
+        <li>../ioctl.c</li>
+      
+        <li>../ip.c</li>
+      
+        <li>../ipcp.c</li>
+      
+        <li>../ipsvc.asm</li>
+      
+        <li>../ipxcp.c</li>
+      
+        <li>../ipxctrl.asm</li>
+      
+        <li>../lcp.c</li>
+      
+        <li>../lockit.asm</li>
+      
+        <li>../logger.asm</li>
+      
+        <li>../loopback.c</li>
+      
+        <li>../memory.c</li>
+      
+        <li>../miniport.c</li>
+      
+        <li>../mppc.c</li>
+      
+        <li>../mppcif.c</li>
+      
+        <li>../mppe.c</li>
+      
+        <li>../msg.asm</li>
+      
+        <li>../multilnk.c</li>
+      
+        <li>../nbfcp.c</li>
+      
+        <li>../nbsvc.asm</li>
+      
+        <li>../netbios.c</li>
+      
+        <li>../nwc.c</li>
+      
+        <li>../nwcsvc.c</li>
+      
+        <li>../packet.c</li>
+      
+        <li>../pap.c</li>
+      
+        <li>../perf.asm</li>
+      
+        <li>../ras.c</li>
+      
+        <li>../receive.c</li>
+      
+        <li>../reset.c</li>
+      
+        <li>../send.c</li>
+      
+        <li>../sha.c</li>
+      
+        <li>../slip.c</li>
+      
+        <li>../stacif.c</li>
+      
+        <li>../transfer.c</li>
+      
+        <li>../vcomm.c</li>
+      
+        <li>../wanif.h</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .bss @ 000024C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000024C0" data-offset="00000000">
+            <code>00000000</code> — _gCCPTimer
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000000C">
+            <code>0000000C</code> — _ShutdownEventDword
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000010">
+            <code>00000010</code> — _ctest
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000020">
+            <code>00000020</code> — _cframe
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000040">
+            <code>00000040</code> — _Scoreboard
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000298">
+            <code>00000298</code> — _GlobalAdapterHead
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000002A0">
+            <code>000002A0</code> — _GlobalLock
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000002A4">
+            <code>000002A4</code> — _AsyncMacHandle
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000002A8">
+            <code>000002A8</code> — _AsyncNdisWrapperHandle
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000002AC">
+            <code>000002AC</code> — _AsyncDriverObject
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000002C0">
+            <code>000002C0</code> — ___strlen@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000002F7">
+            <code>000002F7</code> — ___strcmp@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000003A5">
+            <code>000003A5</code> — ___strncmp@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000475">
+            <code>00000475</code> — ___strnicmp@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000068F">
+            <code>0000068F</code> — ___strcmpi@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000886">
+            <code>00000886</code> — ___strncpy@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000008F5">
+            <code>000008F5</code> — ___strcpy@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000952">
+            <code>00000952</code> — ___strcat@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000009C5">
+            <code>000009C5</code> — ___strstr@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000009D5">
+            <code>000009D5</code> — ___memchr@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000A34">
+            <code>00000A34</code> — ___strchr@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000A9F">
+            <code>00000A9F</code> — ___strrchr@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000AB9">
+            <code>00000AB9</code> — ___strlwr@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000B39">
+            <code>00000B39</code> — ___atoi@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000B84">
+            <code>00000B84</code> — ___itoa@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000C40">
+            <code>00000C40</code> — _rc4_key@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000CD0">
+            <code>00000CD0</code> — _rc4@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000D90">
+            <code>00000D90</code> — _LZS_SizeOfCompressionHistory@0
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000DA0">
+            <code>00000DA0</code> — _LZS_InitCompressionHistory@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00000DE0">
+            <code>00000DE0</code> — _LZS_Compress@28
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00001440">
+            <code>00001440</code> — _Compress_Lzs_drEngine@28
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00001C10">
+            <code>00001C10</code> — _LZS_InitDecompressionHistory@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00001C40">
+            <code>00001C40</code> — _LZS_SizeOfDecompressionHistory@0
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00001C50">
+            <code>00001C50</code> — _Expand_Lzs_drEngine@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002180">
+            <code>00002180</code> — _EocdToken@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002200">
+            <code>00002200</code> — _LZS_Decompress@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002AB0">
+            <code>00002AB0</code> — _Expand_Null_Engine@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002B30">
+            <code>00002B30</code> — _mem_copy_r@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002C00">
+            <code>00002C00</code> — _copy_prev_string_r@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002D40">
+            <code>00002D40</code> — _init_hash_tbl_r@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002DF8">
+            <code>00002DF8</code> — BeginLockable_Debug_Flags
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E34">
+            <code>00002E34</code> — _PPP_Get_Version
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E38">
+            <code>00002E38</code> — __FSARegisterCP
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E3C">
+            <code>00002E3C</code> — __FSAAllocFrame
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E40">
+            <code>00002E40</code> — __FSADeallocFrame
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E44">
+            <code>00002E44</code> — __FSAWriteFrame
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E48">
+            <code>00002E48</code> — __FSAWanUp
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E4C">
+            <code>00002E4C</code> — __FSAWanDown
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E50">
+            <code>00002E50</code> — __FSAPerformActions
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E54">
+            <code>00002E54</code> — __FSATransitState
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E58">
+            <code>00002E58</code> — __OverlappedComplete
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E5C">
+            <code>00002E5C</code> — __SetProtocolFilter
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E60">
+            <code>00002E60</code> — __MiniportReceiveIndication
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E64">
+            <code>00002E64</code> — __MiniportSendCompletionHandler
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002E68">
+            <code>00002E68</code> — PPPMAC_DDB
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002EF0">
+            <code>00002EF0</code> — _AssertPagesLocked@0
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002F00">
+            <code>00002F00</code> — _AsyncAllocateMemory@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002F7B">
+            <code>00002F7B</code> — _AsyncFreeMemory@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00002FE4">
+            <code>00002FE4</code> — _AsyncAllocateFrames@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000320A">
+            <code>0000320A</code> — _AsyncDeallocatePool@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000032BC">
+            <code>000032BC</code> — _AsyncGetFrameFromPool@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000350F">
+            <code>0000350F</code> — _AsyncDeallocFrame@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000365E">
+            <code>0000365E</code> — _DebugAdapterFrameInfo@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000036EE">
+            <code>000036EE</code> — _ValidateFrame@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003762">
+            <code>00003762</code> — _CheckFrameSupply@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003BC8">
+            <code>00003BC8</code> — C_Device_Init
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003BF9">
+            <code>00003BF9</code> — C_Device_Deinit
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003C00">
+            <code>00003C00</code> — C_Device_Sys_VM_Terminate
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003C07">
+            <code>00003C07</code> — PPPMAC_Control
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003CA4">
+            <code>00003CA4</code> — _AsyncScheduleGlobalEvent
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003CB0">
+            <code>00003CB0</code> — _AsyncCancelVMMGlobalEvent
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003CC4">
+            <code>00003CC4</code> — _VMM_RegOpenKey
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003CDE">
+            <code>00003CDE</code> — _VMM_RegCloseKey
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003CF2">
+            <code>00003CF2</code> — _VMM_RegEnumValue
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003D1B">
+            <code>00003D1B</code> — _PPPGetLastUpdatedSystemTime
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003D27">
+            <code>00003D27</code> — _AsyncClearDDBFlags
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003D47">
+            <code>00003D47</code> — _PPPYieldToVMM
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003D7F">
+            <code>00003D7F</code> — _AsyncPostMessage
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003DBE">
+            <code>00003DBE</code> — _DhcpSetInfo
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003DF0">
+            <code>00003DF0</code> — _sprintf
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003DF7">
+            <code>00003DF7</code> — _VMM_In_Debug_Chr
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003E09">
+            <code>00003E09</code> — _DIOCCompletionRoutine
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003E28">
+            <code>00003E28</code> — PPP_Get_Version
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003E38">
+            <code>00003E38</code> — _ScheduleVMEvent
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003E64">
+            <code>00003E64</code> — _PPPGetMessagePtr
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003E78">
+            <code>00003E78</code> — _NdisMoveMemory@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003E98">
+            <code>00003E98</code> — _MoveOverlappedMemory@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003ED4">
+            <code>00003ED4</code> — _NdisRawWritePortBufferUchar@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003EE8">
+            <code>00003EE8</code> — _NdisRawWritePortBufferUshort@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003EFD">
+            <code>00003EFD</code> — _NdisRawWritePortBufferUlong@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F11">
+            <code>00003F11</code> — _NdisRawReadPortBufferUchar@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F25">
+            <code>00003F25</code> — _NdisRawReadPortBufferUshort@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F3A">
+            <code>00003F3A</code> — _NdisRawReadPortBufferUlong@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F4E">
+            <code>00003F4E</code> — _NdisInitializeWrapper@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F54">
+            <code>00003F54</code> — _NdisTerminateWrapper@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F5A">
+            <code>00003F5A</code> — _NdisRegisterMac@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F60">
+            <code>00003F60</code> — _NdisDeregisterMac@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F66">
+            <code>00003F66</code> — _NdisRegisterAdapter@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F6C">
+            <code>00003F6C</code> — _NdisDeregisterAdapter@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F72">
+            <code>00003F72</code> — _NdisCompleteOpenAdapter@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F78">
+            <code>00003F78</code> — _NdisCompleteCloseAdapter@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F7E">
+            <code>00003F7E</code> — _NdisCompleteSend@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F84">
+            <code>00003F84</code> — _NdisCompleteTransferData@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F8A">
+            <code>00003F8A</code> — _NdisCompleteReset@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F90">
+            <code>00003F90</code> — _NdisCompleteRequest@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F96">
+            <code>00003F96</code> — _NdisIndicateReceive@32
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003F9C">
+            <code>00003F9C</code> — _NdisIndicateReceiveComplete@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FA2">
+            <code>00003FA2</code> — _NdisIndicateStatus@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FA8">
+            <code>00003FA8</code> — _NdisIndicateStatusComplete@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FAE">
+            <code>00003FAE</code> — _NdisCompleteQueryStatistics@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FB4">
+            <code>00003FB4</code> — _NdisReadMcaPosInformation@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FBA">
+            <code>00003FBA</code> — _NdisReadEisaSlotInformation@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FC0">
+            <code>00003FC0</code> — _NdisReadNetworkAddress@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FC6">
+            <code>00003FC6</code> — _NdisAllocateSharedMemory@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FCC">
+            <code>00003FCC</code> — _NdisFreeSharedMemory@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FD2">
+            <code>00003FD2</code> — _NdisReleaseAdapterResources@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FD8">
+            <code>00003FD8</code> — _WrapperDelayBinding@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FDE">
+            <code>00003FDE</code> — _WrapperResumeBinding@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FE4">
+            <code>00003FE4</code> — _WrapperRemoveChildren@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FEA">
+            <code>00003FEA</code> — _NdisImmediateReadPciSlotInformation@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FF0">
+            <code>00003FF0</code> — _NdisImmediateWritePciSlotInformation@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FF6">
+            <code>00003FF6</code> — _NdisReadPciSlotInformation@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00003FFC">
+            <code>00003FFC</code> — _NdisWritePciSlotInformation@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004002">
+            <code>00004002</code> — _NdisPciAssignResources@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004008">
+            <code>00004008</code> — _WrapperQueryAdapterResources
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004010">
+            <code>00004010</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004030">
+            <code>00004030</code> — _NdisGetVersion@0
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004036">
+            <code>00004036</code> — _NdisSetTimer@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000403C">
+            <code>0000403C</code> — _NdisCancelTimer@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004042">
+            <code>00004042</code> — _NdisInitializeInterrupt@40
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004048">
+            <code>00004048</code> — _NdisRemoveInterrupt@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000404E">
+            <code>0000404E</code> — _NdisSynchronizeWithInterrupt@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004054">
+            <code>00004054</code> — _NdisStallExecution@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000405A">
+            <code>0000405A</code> — _NdisAllocateMemory@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004060">
+            <code>00004060</code> — _NdisFreeMemory@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004066">
+            <code>00004066</code> — _NdisAllocatePacketPool@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000406C">
+            <code>0000406C</code> — _NdisFreePacketPool@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004072">
+            <code>00004072</code> — _NdisAllocatePacket@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004078">
+            <code>00004078</code> — _NdisReinitializePacket@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000407E">
+            <code>0000407E</code> — _NdisFreePacket@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004084">
+            <code>00004084</code> — _NdisQueryPacket@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000408A">
+            <code>0000408A</code> — _NdisAllocateBufferPool@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004090">
+            <code>00004090</code> — _NdisFreeBufferPool@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004096">
+            <code>00004096</code> — _NdisAllocateBuffer@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000409C">
+            <code>0000409C</code> — _NdisCopyBuffer@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040A2">
+            <code>000040A2</code> — _NdisFreeBuffer@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040A8">
+            <code>000040A8</code> — _NdisQueryBuffer@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040AE">
+            <code>000040AE</code> — _NdisGetBufferPhysicalAddress@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040B4">
+            <code>000040B4</code> — _NdisChainBufferAtFront@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040BA">
+            <code>000040BA</code> — _NdisChainBufferAtBack@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040C0">
+            <code>000040C0</code> — _NdisUnchainBufferAtFront@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040C6">
+            <code>000040C6</code> — _NdisUnchainBufferAtBack@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040CC">
+            <code>000040CC</code> — _NdisGetNextBuffer@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040D2">
+            <code>000040D2</code> — _NdisCopyFromPacketToPacket@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040D8">
+            <code>000040D8</code> — _NdisOpenConfiguration@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040DE">
+            <code>000040DE</code> — _NdisReadConfiguration@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040E4">
+            <code>000040E4</code> — _NdisCloseConfiguration@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040EA">
+            <code>000040EA</code> — _NdisEqualString@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040F0">
+            <code>000040F0</code> — _NdisOpenFile@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040F6">
+            <code>000040F6</code> — _NdisMapFile@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000040FC">
+            <code>000040FC</code> — _NdisUnmapFile@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004102">
+            <code>00004102</code> — _NdisCloseFile@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004108">
+            <code>00004108</code> — _NdisAllocateDmaChannel@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000410E">
+            <code>0000410E</code> — _NdisSetupDmaTransfer@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004114">
+            <code>00004114</code> — _NdisCompleteDmaTransfer@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000411A">
+            <code>0000411A</code> — _NdisReadDmaCounter@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004120">
+            <code>00004120</code> — _NdisFreeDmaChannel@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004126">
+            <code>00004126</code> — _NdisMapIoSpace@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000412C">
+            <code>0000412C</code> — _NdisWriteErrorLogEntry
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004132">
+            <code>00004132</code> — _NdisRegAdaptShutdown@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004138">
+            <code>00004138</code> — _NdisDeregAdaptShutdown@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004140">
+            <code>00004140</code> — _EthCreateFilter@28
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="0000427E">
+            <code>0000427E</code> — _EthDeleteFilter@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000042EE">
+            <code>000042EE</code> — _EthNoteFilterOpenAdapter@16
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000043F9">
+            <code>000043F9</code> — _EthDeleteFilterOpenAdapter@12
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004551">
+            <code>00004551</code> — _EthChangeFilterAddresses@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004982">
+            <code>00004982</code> — _EthFilterAdjust@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004A41">
+            <code>00004A41</code> — _EthNumberOfOpenFilterAddresses@8
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004AAC">
+            <code>00004AAC</code> — _EthQueryOpenFilterAddresses@24
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004B6D">
+            <code>00004B6D</code> — _EthQueryGlobalFilterAddresses@20
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004BC4">
+            <code>00004BC4</code> — _EthFilterIndicateReceive@32
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004C2C">
+            <code>00004C2C</code> — _EthFilterDprIndicateReceive@32
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004F2A">
+            <code>00004F2A</code> — _EthFilterIndicateReceiveComplete@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="00004F76">
+            <code>00004F76</code> — _EthFilterDprIndicateReceiveComplete@4
+            
+          </li>
+        
+          <li data-segment="000024C0" data-offset="000051D6">
+            <code>000051D6</code> — _EthShouldAddressLoopBack@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _PMSG$1 @ 00002500
+      </summary>
+      <ul>
+        
+          <li data-segment="00002500" data-offset="00000000">
+            <code>00000000</code> — @MSG_PAB
+            
+          </li>
+        
+          <li data-segment="00002500" data-offset="000001D4">
+            <code>000001D4</code> — @MSG_PDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PTEXT @ 00002EF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00002EF0" data-offset="00000005">
+            <code>00000005</code> — _IncPageLockCount@0
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="0000008A">
+            <code>0000008A</code> — _DecPageLockCount@0
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000107">
+            <code>00000107</code> — LockUnlockPageable
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000148">
+            <code>00000148</code> — PPPMAC_PM_API
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000001DE">
+            <code>000001DE</code> — PPPMAC_DeviceIOControl
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000223">
+            <code>00000223</code> — _AssertInts
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000240">
+            <code>00000240</code> — PPPMAC_V86_API
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="0000025C">
+            <code>0000025C</code> — _VxDWinPrintf
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000284">
+            <code>00000284</code> — _IPXLoaded
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000002A1">
+            <code>000002A1</code> — _IPXControlRouter
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000002CA">
+            <code>000002CA</code> — _IPXGetNetId
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000002F8">
+            <code>000002F8</code> — _IPXSetNetId
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000318">
+            <code>00000318</code> — _CheckVTDI
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="0000035C">
+            <code>0000035C</code> — _IPHook
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000003A5">
+            <code>000003A5</code> — _IPSetAddress
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000003CC">
+            <code>000003CC</code> — _NetBiosLoaded
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000003ED">
+            <code>000003ED</code> — _NetBiosEnum
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000003FF">
+            <code>000003FF</code> — _NetBiosSubmit
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="0000041A">
+            <code>0000041A</code> — _NBGWLoad
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000477">
+            <code>00000477</code> — _NBGWUnload
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="0000048E">
+            <code>0000048E</code> — _NBGWDeviceIOControl
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000004B3">
+            <code>000004B3</code> — _PPPLoadVxD
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000503">
+            <code>00000503</code> — _PPPUnloadVxD
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="0000051C">
+            <code>0000051C</code> — _CancelVMEvent
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000530">
+            <code>00000530</code> — _DoOpenLog
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000005AC">
+            <code>000005AC</code> — _DoCloseLog
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000005E2">
+            <code>000005E2</code> — _DoLogPrintf
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000005E8">
+            <code>000005E8</code> — _DoFlushLog
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="000005F0">
+            <code>000005F0</code> — _PerfRegister
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000622">
+            <code>00000622</code> — _PerfAddStat
+            
+          </li>
+        
+          <li data-segment="00002EF0" data-offset="00000666">
+            <code>00000666</code> — _PerfDeregister
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: L0CKABLE_BEGIN @ 00018B10
+      </summary>
+      <ul>
+        
+          <li data-segment="00018B10" data-offset="00000000">
+            <code>00000000</code> — BeginLockable
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000010">
+            <code>00000010</code> — _CBDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000000F4">
+            <code>000000F4</code> — _CBTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000194">
+            <code>00000194</code> — _CBThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000001EF">
+            <code>000001EF</code> — _CBGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000236">
+            <code>00000236</code> — _CBCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000266">
+            <code>00000266</code> — _CBParseRequest
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000068C">
+            <code>0000068C</code> — _CBCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000007AD">
+            <code>000007AD</code> — _CBMakeResponse
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000C46">
+            <code>00000C46</code> — _CBParseAck
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000D03">
+            <code>00000D03</code> — _CBInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00000EC0">
+            <code>00000EC0</code> — _DriverEntry@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000010E2">
+            <code>000010E2</code> — _Init_Complete@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000010EC">
+            <code>000010EC</code> — _AsyncAddAdapter@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000278E">
+            <code>0000278E</code> — _AsyncRemoveAdapter@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000028B2">
+            <code>000028B2</code> — _AsyncUnload@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000029FE">
+            <code>000029FE</code> — _AsyncDriverExit
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00002A39">
+            <code>00002A39</code> — _AsyncSystemExit
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00002A7E">
+            <code>00002A7E</code> — _AsyncRegisterAdapter@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00002B7A">
+            <code>00002B7A</code> — _AsyncOpenAdapter@36
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00002F7D">
+            <code>00002F7D</code> — _AsyncCloseAdapter@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000326C">
+            <code>0000326C</code> — _AsyncRequest@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00003363">
+            <code>00003363</code> — _AsyncQueryProtocolInformation@32
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000383C">
+            <code>0000383C</code> — _AsyncQueryInformation@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00003900">
+            <code>00003900</code> — _AsyncSetInformation@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00003E24">
+            <code>00003E24</code> — _AsyncSetPacketFilter@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00003F39">
+            <code>00003F39</code> — _AsyncFillInGlobalData@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00004105">
+            <code>00004105</code> — _AsyncQueryGlobalStatistics@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00004208">
+            <code>00004208</code> — _AsyncReset@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000437B">
+            <code>0000437B</code> — _AsyncSetInitializationBlock@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00004591">
+            <code>00004591</code> — _CalculateCRC@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00004639">
+            <code>00004639</code> — _AsyncChangeMulticastAddresses@28
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000466B">
+            <code>0000466B</code> — _AsyncChangeFilterClasses@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000469D">
+            <code>0000469D</code> — _AsyncCloseAction@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000046FB">
+            <code>000046FB</code> — _SetupForReset@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000047A2">
+            <code>000047A2</code> — _FinishPendOp@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00004860">
+            <code>00004860</code> — _AsyncSaveConfigInfo@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00004BDC">
+            <code>00004BDC</code> — _AsyncUpdateConfigInfo@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00005026">
+            <code>00005026</code> — _AsyncFindProtocolBinding
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00005076">
+            <code>00005076</code> — _TerminateConnection
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000050C5">
+            <code>000050C5</code> — _AsyncClosePort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000514F">
+            <code>0000514F</code> — _InetAddr@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00005261">
+            <code>00005261</code> — _scramble@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000052D7">
+            <code>000052D7</code> — _LoadCPList@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00005549">
+            <code>00005549</code> — _UnloadCPList@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00005625">
+            <code>00005625</code> — _FindAdapterByName@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000573E">
+            <code>0000573E</code> — _SetAdapterName@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000579C">
+            <code>0000579C</code> — _LogDumpBuffer@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00005D35">
+            <code>00005D35</code> — _DbgDumpBuffer@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00006208">
+            <code>00006208</code> — _slen@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000629A">
+            <code>0000629A</code> — _DebugTimerRoutine@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000632D">
+            <code>0000632D</code> — _DebugAdapterOpenInfo@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00006453">
+            <code>00006453</code> — _DebugAdapterInfo@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000064C5">
+            <code>000064C5</code> — _DebugAsyncInfo@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00006A7E">
+            <code>00006A7E</code> — _DebugQuery
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00006F90">
+            <code>00006F90</code> — _AsyncIOCtlRequest
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000B5D2">
+            <code>0000B5D2</code> — _PPPClosingTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000B620">
+            <code>0000B620</code> — _AsyncCopyFromPacketToBuffer@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000B752">
+            <code>0000B752</code> — _AsyncCopyFromBufferToPacket@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000B890">
+            <code>0000B890</code> — _AsyncTransferData@24
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000B980">
+            <code>0000B980</code> — _AsyncProcessLoopBack@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000BBD3">
+            <code>0000BBD3</code> — _AsyncPutPacketOnLoopBack@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000BD00">
+            <code>0000BD00</code> — _AsyncFakeARPResponse@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C23C">
+            <code>0000C23C</code> — _AsyncARPRequest@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C380">
+            <code>0000C380</code> — _ProcessReset@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C650">
+            <code>0000C650</code> — _VCommInit@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C6D2">
+            <code>0000C6D2</code> — _VCommShutdown@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C8AD">
+            <code>0000C8AD</code> — _VCommDeInit@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C8F6">
+            <code>0000C8F6</code> — _VcommDataReadyEvent
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000C9F4">
+            <code>0000C9F4</code> — _VcommDataReady
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000CA75">
+            <code>0000CA75</code> — _SetEventChar@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000CABB">
+            <code>0000CABB</code> — _VcommRequestData@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000CBCF">
+            <code>0000CBCF</code> — _VcommWriteCompletionRoutine
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000CC03">
+            <code>0000CC03</code> — _VCommWriteFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D145">
+            <code>0000D145</code> — _VCOMM_ClearCommError@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D16D">
+            <code>0000D16D</code> — _VCOMM_PurgeComm@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D192">
+            <code>0000D192</code> — _VCOMM_EnableSerialTimer@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D1BE">
+            <code>0000D1BE</code> — _VCOMM_WriteComm@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D1E9">
+            <code>0000D1E9</code> — _VCOMM_ReadComm@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D214">
+            <code>0000D214</code> — _VCOMM_SetReadCallbacks@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D23F">
+            <code>0000D23F</code> — _VCOMM_SetWriteCallbacks@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D26A">
+            <code>0000D26A</code> — _CancelSerialRequests@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D43A">
+            <code>0000D43A</code> — _VCOMM_GetCommState@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D45F">
+            <code>0000D45F</code> — _VCOMM_SetCommState@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D487">
+            <code>0000D487</code> — _VCOMM_GetEventMask@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D4AF">
+            <code>0000D4AF</code> — _VCOMM_SetEventMask@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D4D7">
+            <code>0000D4D7</code> — _VCOMM_EnableCommNotification@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D4FF">
+            <code>0000D4FF</code> — _VCOMM_SetEventChar@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D560">
+            <code>0000D560</code> — _MiniportInit@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D86D">
+            <code>0000D86D</code> — _MiniportDeInit@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000D9FC">
+            <code>0000D9FC</code> — _MiniportChangeHandler
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000DAA8">
+            <code>0000DAA8</code> — _MiniportSetLinkStatus@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000DB36">
+            <code>0000DB36</code> — _MiniportGetLinkStatus@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000DBC4">
+            <code>0000DBC4</code> — _MiniportSendFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000DDC2">
+            <code>0000DDC2</code> — _MiniportSendCompletionHandler
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000DE79">
+            <code>0000DE79</code> — _MiniportReceiveIndication
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000E2E0">
+            <code>0000E2E0</code> — _AsyncSendPacket@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000E58D">
+            <code>0000E58D</code> — _PacketShouldBeSent@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000E744">
+            <code>0000E744</code> — _AsyncPumpPacket@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000F2AB">
+            <code>0000F2AB</code> — _AsyncSendFrame@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000F4EF">
+            <code>0000F4EF</code> — _AsyncPumpFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000F587">
+            <code>0000F587</code> — _AsyncWriteCompletionRoutine
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000F755">
+            <code>0000F755</code> — _AsyncCompleteFinalWrite
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000F91D">
+            <code>0000F91D</code> — _AsyncIndicateFragment@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0000F950">
+            <code>0000F950</code> — _PPPInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001072A">
+            <code>0001072A</code> — _IndicateCP@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000109F0">
+            <code>000109F0</code> — _AsyncHDLCPrimeInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00010A7B">
+            <code>00010A7B</code> — _AsyncHDLCFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00010DCE">
+            <code>00010DCE</code> — _AsyncHDLCReadFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00011610">
+            <code>00011610</code> — _HDLCPrimeInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00011651">
+            <code>00011651</code> — _HDLCFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000116C0">
+            <code>000116C0</code> — _HDLCReadFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000119F0">
+            <code>000119F0</code> — _RasCRC@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00011A51">
+            <code>00011A51</code> — _RasPrimeInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00011AB9">
+            <code>00011AB9</code> — _RasFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00011DF4">
+            <code>00011DF4</code> — _RasReadFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00012890">
+            <code>00012890</code> — _SlipStart@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00012AE3">
+            <code>00012AE3</code> — _SlipStop@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00012BC8">
+            <code>00012BC8</code> — _SlipGetIPAddress@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00012D4B">
+            <code>00012D4B</code> — _SlipPrimeInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00012DE6">
+            <code>00012DE6</code> — _SlipFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00012FA4">
+            <code>00012FA4</code> — _SlipInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001317B">
+            <code>0001317B</code> — _SlipReadFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000138F0">
+            <code>000138F0</code> — _MultilinkHeader@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00013B39">
+            <code>00013B39</code> — _MLFindSendLink@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00013BA4">
+            <code>00013BA4</code> — _MLFindHoleInReassemblyList@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00013CF3">
+            <code>00013CF3</code> — _MLFlushToResync@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00013DEF">
+            <code>00013DEF</code> — _MLFlushOnPacketLoss@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00013FD6">
+            <code>00013FD6</code> — _MLTryToAssembleFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000145E9">
+            <code>000145E9</code> — _MLPInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00014DC7">
+            <code>00014DC7</code> — _MLDeleteDanglingBundle
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00014E28">
+            <code>00014E28</code> — _MLMergeBundle@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00014FE3">
+            <code>00014FE3</code> — _MLReallocReadFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00015047">
+            <code>00015047</code> — _RemoveLinkFromBundle@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00015220">
+            <code>00015220</code> — _pppfcs@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000152A0">
+            <code>000152A0</code> — _FSADeviceDeinit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00015310">
+            <code>00015310</code> — _FSAPortOpen@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00015FC9">
+            <code>00015FC9</code> — _FSAPortUp@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00016069">
+            <code>00016069</code> — _FSAPortDown@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000160D4">
+            <code>000160D4</code> — _FSAPortClose@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00016142">
+            <code>00016142</code> — _FSAPortTerminate@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00016362">
+            <code>00016362</code> — _FSATimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00016412">
+            <code>00016412</code> — _FSAInput@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00016901">
+            <code>00016901</code> — _FSAInvalidEvent@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001695A">
+            <code>0001695A</code> — _FSAThisLayerUp@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000174F7">
+            <code>000174F7</code> — _FSAThisLayerDown@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001787F">
+            <code>0001787F</code> — _FSAThisLayerStarted@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00017972">
+            <code>00017972</code> — _FSAThisLayerFinished@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00017E79">
+            <code>00017E79</code> — _FSAInitializeRestartCounter@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00017F21">
+            <code>00017F21</code> — _FSAZeroRestartCounter@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00017FA4">
+            <code>00017FA4</code> — _FSASendConfigReq@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000181C0">
+            <code>000181C0</code> — _FSASendConfigResponse@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018304">
+            <code>00018304</code> — _FSASendTermReq@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018476">
+            <code>00018476</code> — _FSASendTermAck@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018574">
+            <code>00018574</code> — _FSASendCodeReject@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000186F6">
+            <code>000186F6</code> — _FSASendEchoReply@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001887E">
+            <code>0001887E</code> — _FSASendProtoReject@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000189C0">
+            <code>000189C0</code> — _FSARecvProtoReject@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018B2E">
+            <code>00018B2E</code> — _FSAEnumProtocols@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018D1E">
+            <code>00018D1E</code> — _FSAProtocolInfo@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018DC0">
+            <code>00018DC0</code> — _DebugFSAInfo@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00018F73">
+            <code>00018F73</code> — _DebugAdapterFSAInfo@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019030">
+            <code>00019030</code> — _DebugFSAConnectionInfo@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000192A0">
+            <code>000192A0</code> — _FSARegisterCP
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019699">
+            <code>00019699</code> — _FSAGetCPContext
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001977D">
+            <code>0001977D</code> — _FSAShutdown@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019863">
+            <code>00019863</code> — _FSAAllocFrame
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001994A">
+            <code>0001994A</code> — _FSADeallocFrame
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019981">
+            <code>00019981</code> — _FSAWriteFrame
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000199BA">
+            <code>000199BA</code> — _FSAWanUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019B96">
+            <code>00019B96</code> — _FSAWanDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019D29">
+            <code>00019D29</code> — _FSAPerformActions
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019E04">
+            <code>00019E04</code> — _FSATransitState
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019EE6">
+            <code>00019EE6</code> — _SetProtocolFilter
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019F35">
+            <code>00019F35</code> — _OverlappedComplete
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00019FB8">
+            <code>00019FB8</code> — _PPPProtocolFromName
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A01E">
+            <code>0001A01E</code> — _PPPProtocolFromCode
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A080">
+            <code>0001A080</code> — _GetTime@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A0C2">
+            <code>0001A0C2</code> — _LCPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A1A1">
+            <code>0001A1A1</code> — _LCPSetConfigOptionDefaults@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A293">
+            <code>0001A293</code> — _LCPInitPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A4A5">
+            <code>0001A4A5</code> — _LCPThisLayerUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A8B9">
+            <code>0001A8B9</code> — _LCPThisLayerDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A94D">
+            <code>0001A94D</code> — _LCPThisLayerFinished
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001A9CE">
+            <code>0001A9CE</code> — _LCPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001AB1F">
+            <code>0001AB1F</code> — _LCPGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001AD38">
+            <code>0001AD38</code> — _LCPCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001B135">
+            <code>0001B135</code> — _LCPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001B5BC">
+            <code>0001B5BC</code> — _LCPParseConfigReq@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001CE53">
+            <code>0001CE53</code> — _LCPParseConfigAck@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001D45D">
+            <code>0001D45D</code> — _LCPParseConfigNak@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001E0C3">
+            <code>0001E0C3</code> — _LCPParseConfigReject@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001E80A">
+            <code>0001E80A</code> — _LCPGetProtocolInfo
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001E890">
+            <code>0001E890</code> — _IPXCPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001E96F">
+            <code>0001E96F</code> — _IPXCPSetConfigOptionDefaults@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001EA26">
+            <code>0001EA26</code> — _IPXCPInitPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001EADA">
+            <code>0001EADA</code> — _IPXCPTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001EB23">
+            <code>0001EB23</code> — _IPXCPThisLayerUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001ED37">
+            <code>0001ED37</code> — _IPXCPThisLayerDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001EDBA">
+            <code>0001EDBA</code> — _IPXCPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001EEDB">
+            <code>0001EEDB</code> — _IPXCPGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001EFCD">
+            <code>0001EFCD</code> — _IPXCPCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001F1E4">
+            <code>0001F1E4</code> — _IPXCPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0001F4EA">
+            <code>0001F4EA</code> — _IPXCPParseConfigReq@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002064A">
+            <code>0002064A</code> — _IPXCPParseConfigAck@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00020A4B">
+            <code>00020A4B</code> — _IPXCPParseConfigNak@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00020F8E">
+            <code>00020F8E</code> — _IPXCPParseConfigReject@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00021320">
+            <code>00021320</code> — _IPXCPGetANodeNumber@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000213EC">
+            <code>000213EC</code> — _IPXCPGetProtocolInfo
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00021470">
+            <code>00021470</code> — _CIPXDeallocSlots@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00021560">
+            <code>00021560</code> — _CIPXAllocSlots@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002185F">
+            <code>0002185F</code> — _CIPXInit@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000219D5">
+            <code>000219D5</code> — _CIPXDeinit@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00021A9E">
+            <code>00021A9E</code> — _CIPXSendPkt@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00021B8F">
+            <code>00021B8F</code> — _CIPXCompress
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00022462">
+            <code>00022462</code> — _CIPXDecompress
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000232CE">
+            <code>000232CE</code> — _CIPXSetOptions@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00023380">
+            <code>00023380</code> — _IPCPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00023461">
+            <code>00023461</code> — _IPCPSetConfigOptionDefaults@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000234FF">
+            <code>000234FF</code> — _IPCPInitPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000235E2">
+            <code>000235E2</code> — _IPCPTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002362E">
+            <code>0002362E</code> — _IPCPThisLayerUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00023B9C">
+            <code>00023B9C</code> — _IPCPThisLayerDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00023CBF">
+            <code>00023CBF</code> — _IPCPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002402B">
+            <code>0002402B</code> — _IPCPGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000241AA">
+            <code>000241AA</code> — _IPCPCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000243E2">
+            <code>000243E2</code> — _IPCPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002473E">
+            <code>0002473E</code> — _IPCPParseConfigReq@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00025662">
+            <code>00025662</code> — _IPCPParseConfigAck@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00025B45">
+            <code>00025B45</code> — _IPCPParseConfigNak@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002683F">
+            <code>0002683F</code> — _IPCPParseConfigReject@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00026CA7">
+            <code>00026CA7</code> — _IPCPGetProtocolInfo
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00026D21">
+            <code>00026D21</code> — _ConfigIP
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00026DA0">
+            <code>00026DA0</code> — _CIPDeallocSlots@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00026F24">
+            <code>00026F24</code> — _CIPAllocSlots@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000272B0">
+            <code>000272B0</code> — _CIPInit@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00027425">
+            <code>00027425</code> — _CIPDeinit@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000274EE">
+            <code>000274EE</code> — _CIPCompress
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000280E8">
+            <code>000280E8</code> — _CIPDecompress
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000294CF">
+            <code>000294CF</code> — _CIPSetOptions@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000295A0">
+            <code>000295A0</code> — _FindHardwareAddr
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000297DD">
+            <code>000297DD</code> — _IPGetAddress
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00029F8A">
+            <code>00029F8A</code> — _IsSameNetwork@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002A05B">
+            <code>0002A05B</code> — _AdjustRouteMetrics@24
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002B5AF">
+            <code>0002B5AF</code> — _IPUpdateRoutes
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002B733">
+            <code>0002B733</code> — _IPGetNetMask
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002B768">
+            <code>0002B768</code> — _IPAdapterUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002BBF5">
+            <code>0002BBF5</code> — _IPAdapterDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002BF60">
+            <code>0002BF60</code> — _NBFCPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C04B">
+            <code>0002C04B</code> — _NBFCPSetConfigOptionDefaults@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C0A5">
+            <code>0002C0A5</code> — _NBFCPInitPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C165">
+            <code>0002C165</code> — _NBFCPTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C238">
+            <code>0002C238</code> — _NBFCPThisLayerUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C334">
+            <code>0002C334</code> — _NBFCPThisLayerDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C3AB">
+            <code>0002C3AB</code> — _NBFCPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C4D0">
+            <code>0002C4D0</code> — _NBFCPGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C5D9">
+            <code>0002C5D9</code> — _NBFCPCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002C8C7">
+            <code>0002C8C7</code> — _NBFCPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002CB5B">
+            <code>0002CB5B</code> — _NBFCPParseConfigReq@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002D77C">
+            <code>0002D77C</code> — _NBFCPParseConfigAck@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002DB0A">
+            <code>0002DB0A</code> — _NBFCPParseConfigNak@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002DFD2">
+            <code>0002DFD2</code> — _NBFCPParseConfigReject@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002E3FE">
+            <code>0002E3FE</code> — _NBFCPGetProtocolInfo
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002E490">
+            <code>0002E490</code> — _GetNetBiosNames@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002E815">
+            <code>0002E815</code> — _LoadNetBiosGateway@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002E87F">
+            <code>0002E87F</code> — _UnloadNetBiosGateway@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002E908">
+            <code>0002E908</code> — _InitNetBiosGateway@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002E99E">
+            <code>0002E99E</code> — _ProjectNetBiosGateway@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002EA26">
+            <code>0002EA26</code> — _ProjectionCallback
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002EAF1">
+            <code>0002EAF1</code> — _StartNetBiosGateway@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002EB43">
+            <code>0002EB43</code> — _StopNetBiosGateway@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002EC34">
+            <code>0002EC34</code> — _NBGatewayCallback
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002EDA3">
+            <code>0002EDA3</code> — _NBProjectionDone@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002EF60">
+            <code>0002EF60</code> — _NWCFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002F1F9">
+            <code>0002F1F9</code> — _NWCReadFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002FD20">
+            <code>0002FD20</code> — _NWCStartup@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002FE2B">
+            <code>0002FE2B</code> — _NWCInitialize@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0002FF1C">
+            <code>0002FF1C</code> — _NWCPrimeInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030012">
+            <code>00030012</code> — _NWCClose@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000300A0">
+            <code>000300A0</code> — _NWCShutdown@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000301D0">
+            <code>000301D0</code> — _NWCInput@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030844">
+            <code>00030844</code> — _NWCHandleLoginResponse@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030A72">
+            <code>00030A72</code> — _NWCSendLoginRequest@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030BE1">
+            <code>00030BE1</code> — _NWCSendCP@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030C3E">
+            <code>00030C3E</code> — _NWCHandleEthernet@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030DA9">
+            <code>00030DA9</code> — _NWCPrepEthernet@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00030ECA">
+            <code>00030ECA</code> — _NWCVerifyLogin@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031147">
+            <code>00031147</code> — _NWCAuthCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003136D">
+            <code>0003136D</code> — _NWCTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000316D3">
+            <code>000316D3</code> — _NWCCalcCRC@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003171E">
+            <code>0003171E</code> — _NWCVerifyCRC@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003178C">
+            <code>0003178C</code> — _NWCEncryptPW@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000317FA">
+            <code>000317FA</code> — _NWCDecryptPW@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031872">
+            <code>00031872</code> — _NWCAllocFrame@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031912">
+            <code>00031912</code> — _DebugAdapterNWCInfo@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031A30">
+            <code>00031A30</code> — _CHAPGetLCPReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031A3A">
+            <code>00031A3A</code> — _CHAPBuildLCPRequest
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031A8E">
+            <code>00031A8E</code> — _CHAPParseLCPRequest
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031C86">
+            <code>00031C86</code> — _CHAPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031D67">
+            <code>00031D67</code> — _CHAPInitPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031E2E">
+            <code>00031E2E</code> — _CHAPTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00031F35">
+            <code>00031F35</code> — _CHAPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00032019">
+            <code>00032019</code> — _CHAPThisLayerUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00032063">
+            <code>00032063</code> — _CHAPThisLayerDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000320FD">
+            <code>000320FD</code> — _CHAPDelayTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000321AA">
+            <code>000321AA</code> — _CHAPResponseTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00032307">
+            <code>00032307</code> — _CHAPReauthTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000323F1">
+            <code>000323F1</code> — _CHAPGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000324A5">
+            <code>000324A5</code> — _CHAPCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000326F6">
+            <code>000326F6</code> — _CHAPParseChallenge
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00032ABE">
+            <code>00032ABE</code> — _CHAPChallengeCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00032BE3">
+            <code>00032BE3</code> — _CHAPMakeResponse
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003301A">
+            <code>0003301A</code> — _CHAPParseSuccess
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00033478">
+            <code>00033478</code> — _CHAPParseFailure
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003419A">
+            <code>0003419A</code> — _CHAPChangePasswordCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000342F5">
+            <code>000342F5</code> — _CHAPMakeChangePasswordResponse
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00034508">
+            <code>00034508</code> — _CHAPFailureCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00034766">
+            <code>00034766</code> — _CHAPParseResponse
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00034A9A">
+            <code>00034A9A</code> — _CHAPResponseCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00034FB5">
+            <code>00034FB5</code> — _CHAPDoFSAWork
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035167">
+            <code>00035167</code> — _CHAPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003551C">
+            <code>0003551C</code> — _AnsiToInt
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000355EA">
+            <code>000355EA</code> — _IntToAnsi
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035699">
+            <code>00035699</code> — _HexVal
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003571C">
+            <code>0003571C</code> — _HexChar
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035750">
+            <code>00035750</code> — _CCPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035831">
+            <code>00035831</code> — _CCPSetConfigOptionDefaults@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035891">
+            <code>00035891</code> — _CCPInitPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000359C3">
+            <code>000359C3</code> — _CCPTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000359F3">
+            <code>000359F3</code> — _SetCompressionFilters@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035C7B">
+            <code>00035C7B</code> — _SetEncryptionFilters@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00035F7B">
+            <code>00035F7B</code> — _CCPSetEncryptionFilter@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000362BB">
+            <code>000362BB</code> — _CCPThisLayerUp
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000364C7">
+            <code>000364C7</code> — _CCPThisLayerDown
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000366E5">
+            <code>000366E5</code> — _CCPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00036873">
+            <code>00036873</code> — _CCPThisLayerFinished
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000368BF">
+            <code>000368BF</code> — _CCPGetConfigReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00036954">
+            <code>00036954</code> — _CCPCreateConfigReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00036B1A">
+            <code>00036B1A</code> — _CCPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00036F7B">
+            <code>00036F7B</code> — _CCPParseConfigReq@24
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00037C5D">
+            <code>00037C5D</code> — _CCPParseConfigAck@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000380DF">
+            <code>000380DF</code> — _CCPParseConfigNak@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003888F">
+            <code>0003888F</code> — _CCPParseConfigReject@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00038BBE">
+            <code>00038BBE</code> — _CCPSendCompressReset
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00038D84">
+            <code>00038D84</code> — _CCPGetProtocolInfo
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00038E0A">
+            <code>00038E0A</code> — _CCPGetHighBit@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00038E3A">
+            <code>00038E3A</code> — _CCPCheckEncryption@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00038F60">
+            <code>00038F60</code> — _PAPDeviceInit@0
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039041">
+            <code>00039041</code> — _PAPTermPort
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039127">
+            <code>00039127</code> — _PAPThisLayerStarted
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000391BF">
+            <code>000391BF</code> — _PAPGetAuthReqSize
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039239">
+            <code>00039239</code> — _PAPCreateAuthReq
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039335">
+            <code>00039335</code> — _PAPInput
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039726">
+            <code>00039726</code> — _PAPParseAuthReq@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000399DB">
+            <code>000399DB</code> — _PAPProcessAuthReqResult@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039AD7">
+            <code>00039AD7</code> — _PAPAuthCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039DAC">
+            <code>00039DAC</code> — _PAPRetryTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039E2D">
+            <code>00039E2D</code> — _PAPDelayTimeout@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00039F62">
+            <code>00039F62</code> — _PAPLoginCallback@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A010">
+            <code>0003A010</code> — _GetStartKeyFromSHA@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A0FE">
+            <code>0003A0FE</code> — _GetNewKeyFromSHA@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A1CA">
+            <code>0003A1CA</code> — _MppeAllocSendContext@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A40B">
+            <code>0003A40B</code> — _MppeAllocRecvContext@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A640">
+            <code>0003A640</code> — _MppeFreeContext@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A6B8">
+            <code>0003A6B8</code> — _MppeSendReset@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A75B">
+            <code>0003A75B</code> — _MppeRecvReset@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A7FE">
+            <code>0003A7FE</code> — _MppeChangeKey@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003A93C">
+            <code>0003A93C</code> — _MppeDecryptPacket@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AC05">
+            <code>0003AC05</code> — _MppeEncryptPacket@20
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AD20">
+            <code>0003AD20</code> — _A_SHAInitCommon@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AD6C">
+            <code>0003AD6C</code> — _A_SHAUpdateCommon@16
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AE4B">
+            <code>0003AE4B</code> — _A_SHAFinalCommon@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AEFB">
+            <code>0003AEFB</code> — _A_SHAInit@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AF0E">
+            <code>0003AF0E</code> — _A_SHAUpdate@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AF2E">
+            <code>0003AF2E</code> — _A_SHAFinal@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003AF4A">
+            <code>0003AF4A</code> — _SHATransform@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C4EC">
+            <code>0003C4EC</code> — _SHAExpand@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C555">
+            <code>0003C555</code> — _ByteReverse@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C5C0">
+            <code>0003C5C0</code> — _lzsInitSend@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C6B6">
+            <code>0003C6B6</code> — _lzsDeinitSend@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C74C">
+            <code>0003C74C</code> — _lzsInitRecv@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C84C">
+            <code>0003C84C</code> — _lzsDeinitRecv@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C8EA">
+            <code>0003C8EA</code> — _lzsResetSendContext@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C944">
+            <code>0003C944</code> — _lzsResetRecvContext@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C954">
+            <code>0003C954</code> — _lzsCompress@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003C9F0">
+            <code>0003C9F0</code> — _lzsDecompress@24
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003CA70">
+            <code>0003CA70</code> — _msppcInitSend@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003CB91">
+            <code>0003CB91</code> — _msppcDeinitSend@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003CC65">
+            <code>0003CC65</code> — _msppcInitRecv@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003CD91">
+            <code>0003CD91</code> — _msppcDeinitRecv@8
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003CE70">
+            <code>0003CE70</code> — _msppcCompress@12
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003E7DA">
+            <code>0003E7DA</code> — _msppcResetSendContext@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003E886">
+            <code>0003E886</code> — _msppcResetRecvContext@4
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003E912">
+            <code>0003E912</code> — _msppcDecompress@24
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F98C">
+            <code>0003F98C</code> — _FramingTypeNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9A8">
+            <code>0003F9A8</code> — _NdisMediumTypeNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9C8">
+            <code>0003F9C8</code> — _NdisMediumSubtypeNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9DC">
+            <code>0003F9DC</code> — _NdisWanHeaderFormatNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9E4">
+            <code>0003F9E4</code> — _TraceMask
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9E8">
+            <code>0003F9E8</code> — _TraceLevel
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9EC">
+            <code>0003F9EC</code> — _hLog
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9F0">
+            <code>0003F9F0</code> — _dwLogRefCount
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9F4">
+            <code>0003F9F4</code> — _gDebugTimer
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9F8">
+            <code>0003F9F8</code> — _gMemAllocated
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003F9FC">
+            <code>0003F9FC</code> — _fPrintf
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003FA60">
+            <code>0003FA60</code> — _PPPVXDInfo
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003FA70">
+            <code>0003FA70</code> — _GlobalAdapterCount
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003FA74">
+            <code>0003FA74</code> — _HighestAcceptableMax
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003FA78">
+            <code>0003FA78</code> — _AsyncGlobalSupportedOids
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0003FB04">
+            <code>0003FB04</code> — _AsyncProtocolSupportedOids
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000444EC">
+            <code>000444EC</code> — _fMultiSingleLink
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000453D4">
+            <code>000453D4</code> — _dst_addr
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000453DC">
+            <code>000453DC</code> — _src_addr
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000453E4">
+            <code>000453E4</code> — _bcast_addr
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000465E4">
+            <code>000465E4</code> — _FsaEventNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00046628">
+            <code>00046628</code> — _FsaActionNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00046664">
+            <code>00046664</code> — _FsaStateNames
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00046690">
+            <code>00046690</code> — _FSAGlobal
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004669C">
+            <code>0004669C</code> — _FSAActionTable
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000466D4">
+            <code>000466D4</code> — _FSAEventStateTable
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000482C8">
+            <code>000482C8</code> — _fForceMultilink
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00049108">
+            <code>00049108</code> — _CipxOn
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00049928">
+            <code>00049928</code> — _pCIPXHandleList
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004A2D0">
+            <code>0004A2D0</code> — _CipOn
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004AC60">
+            <code>0004AC60</code> — _pCIPHandleList
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004C1C0">
+            <code>0004C1C0</code> — _NBFGlobal
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004D368">
+            <code>0004D368</code> — _ChapCodes
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004E324">
+            <code>0004E324</code> — _fPreferLZS
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004E328">
+            <code>0004E328</code> — _fNoHistory
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004FE90">
+            <code>0004FE90</code> — _SHApad1
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="0004FEB8">
+            <code>0004FEB8</code> — _SHApad2
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00050530">
+            <code>00050530</code> — _lookup_array1
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00050930">
+            <code>00050930</code> — _lookup_array2
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="00050D30">
+            <code>00050D30</code> — _lookup_array3
+            
+          </li>
+        
+          <li data-segment="00018B10" data-offset="000512AC">
+            <code>000512AC</code> — EndLockable
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _IDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="0000001C">
+            <code>0000001C</code> — _InitializeLockable@0
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>MMSYSTEM — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>again.H</li>
+      
+        <li>../../../debug/inc/mmthrd.c</li>
+      
+        <li>hb.h</li>
+      
+        <li>../../midiout.c</li>
+      
+        <li>../../soundi.c</li>
+      
+        <li>window.h</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: FIX @ 00000100
+      </summary>
+      <ul>
+        
+          <li data-segment="00000100" data-offset="000001D0">
+            <code>000001D0</code> — MMTASKSIGNAL
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="000001E1">
+            <code>000001E1</code> — MCIDRIVERNOTIFY
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="000001F8">
+            <code>000001F8</code> — TIMEGETTIME
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="00000206">
+            <code>00000206</code> — TIMEGETSYSTEMTIME
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="00000230">
+            <code>00000230</code> — TIMESETEVENT
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="000002BC">
+            <code>000002BC</code> — TIMEBEGINPERIOD
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="000002C1">
+            <code>000002C1</code> — TIMEENDPERIOD
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="000002C6">
+            <code>000002C6</code> — TIMEKILLEVENT
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="00000552">
+            <code>00000552</code> — STACKLEAVE
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="00000552">
+            <code>00000552</code> — STACKENTER
+            
+          </li>
+        
+          <li data-segment="00000100" data-offset="00000554">
+            <code>00000554</code> — DRIVERCALLBACK
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: FIXMIDI @ 00000170
+      </summary>
+      <ul>
+        
+          <li data-segment="00000170" data-offset="000000F0">
+            <code>000000F0</code> — MIDIOUTMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000170" data-offset="000001D2">
+            <code>000001D2</code> — MIDIOUTSHORTMSG
+            
+          </li>
+        
+          <li data-segment="00000170" data-offset="0000022A">
+            <code>0000022A</code> — MIDIOUTLONGMSG
+            
+          </li>
+        
+          <li data-segment="00000170" data-offset="000002C4">
+            <code>000002C4</code> — MIDIOUTRESET
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: WAVE @ 00000450
+      </summary>
+      <ul>
+        
+          <li data-segment="00000450" data-offset="0000165E">
+            <code>0000165E</code> — WAVEOUTGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000166E">
+            <code>0000166E</code> — WAVEOUTMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000170C">
+            <code>0000170C</code> — WAVEOUTGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="000017B2">
+            <code>000017B2</code> — WAVEOUTGETVOLUME
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000181C">
+            <code>0000181C</code> — WAVEOUTSETVOLUME
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000191C">
+            <code>0000191C</code> — WAVEOUTGETERRORTEXT
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001958">
+            <code>00001958</code> — WAVEOUTOPEN
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001B3C">
+            <code>00001B3C</code> — WAVEOUTCLOSE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001B8A">
+            <code>00001B8A</code> — WAVEOUTPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001C3E">
+            <code>00001C3E</code> — WAVEOUTUNPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001D08">
+            <code>00001D08</code> — WAVEOUTWRITE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001DB6">
+            <code>00001DB6</code> — WAVEOUTPAUSE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001DE8">
+            <code>00001DE8</code> — WAVEOUTRESTART
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001E1A">
+            <code>00001E1A</code> — WAVEOUTRESET
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001E4C">
+            <code>00001E4C</code> — WAVEOUTBREAKLOOP
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001E7E">
+            <code>00001E7E</code> — WAVEOUTGETPOSITION
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001ECC">
+            <code>00001ECC</code> — WAVEOUTGETPITCH
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001F12">
+            <code>00001F12</code> — WAVEOUTSETPITCH
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001F44">
+            <code>00001F44</code> — WAVEOUTGETPLAYBACKRATE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001F8A">
+            <code>00001F8A</code> — WAVEOUTSETPLAYBACKRATE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001FBC">
+            <code>00001FBC</code> — WAVEINGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00001FCC">
+            <code>00001FCC</code> — WAVEINMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000203E">
+            <code>0000203E</code> — WAVEINGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="000020E4">
+            <code>000020E4</code> — WAVEINGETERRORTEXT
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00002120">
+            <code>00002120</code> — WAVEINOPEN
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000230A">
+            <code>0000230A</code> — WAVEINCLOSE
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00002354">
+            <code>00002354</code> — WAVEINPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00002402">
+            <code>00002402</code> — WAVEINUNPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="000024C6">
+            <code>000024C6</code> — WAVEINADDBUFFER
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="00002578">
+            <code>00002578</code> — WAVEINSTART
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="000025AA">
+            <code>000025AA</code> — WAVEINSTOP
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="000025DC">
+            <code>000025DC</code> — WAVEINRESET
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000260E">
+            <code>0000260E</code> — WAVEINGETPOSITION
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="0000265C">
+            <code>0000265C</code> — WAVEINGETID
+            
+          </li>
+        
+          <li data-segment="00000450" data-offset="000026BC">
+            <code>000026BC</code> — WAVEOUTGETID
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _TEXT @ 000004D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000004D0" data-offset="0000034C">
+            <code>0000034C</code> — MMTASKYIELD
+            
+          </li>
+        
+          <li data-segment="000004D0" data-offset="0000036D">
+            <code>0000036D</code> — MMGETCURRENTTASK
+            
+          </li>
+        
+          <li data-segment="000004D0" data-offset="00000372">
+            <code>00000372</code> — MMTASKBLOCK
+            
+          </li>
+        
+          <li data-segment="000004D0" data-offset="00000700">
+            <code>00000700</code> — PLAYSOUND
+            
+          </li>
+        
+          <li data-segment="000004D0" data-offset="0000072A">
+            <code>0000072A</code> — SNDPLAYSOUND
+            
+          </li>
+        
+          <li data-segment="000004D0" data-offset="00000748">
+            <code>00000748</code> — MMTASKCREATE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: MCI @ 00000620
+      </summary>
+      <ul>
+        
+          <li data-segment="00000620" data-offset="00000BB8">
+            <code>00000BB8</code> — MCISENDCOMMAND
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="000018C6">
+            <code>000018C6</code> — MCISENDSTRING
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="000018FC">
+            <code>000018FC</code> — MCIEXECUTE
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="000019EC">
+            <code>000019EC</code> — MCIGETERRORSTRING
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="00001D8A">
+            <code>00001D8A</code> — MCIGETDEVICEIDFROMELEMENTID
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="00001EBA">
+            <code>00001EBA</code> — MCIGETDEVICEID
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="00001ED6">
+            <code>00001ED6</code> — MCIGETCREATORTASK
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="000031C4">
+            <code>000031C4</code> — MCIGETDRIVERDATA
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="0000320C">
+            <code>0000320C</code> — MCISETDRIVERDATA
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="00003258">
+            <code>00003258</code> — MCIDRIVERYIELD
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="000032B4">
+            <code>000032B4</code> — MCISETYIELDPROC
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="00003330">
+            <code>00003330</code> — MCIGETYIELDPROC
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="000038A2">
+            <code>000038A2</code> — MCILOADCOMMANDRESOURCE
+            
+          </li>
+        
+          <li data-segment="00000620" data-offset="00003B0A">
+            <code>00003B0A</code> — MCIFREECOMMANDRESOURCE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: MIDI @ 000008D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000008D0" data-offset="000001D8">
+            <code>000001D8</code> — MIDISTREAMOPEN
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="0000059E">
+            <code>0000059E</code> — MIDISTREAMCLOSE
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="000005F6">
+            <code>000005F6</code> — MIDISTREAMPROPERTY
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000680">
+            <code>00000680</code> — MIDISTREAMPOSITION
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="000008F0">
+            <code>000008F0</code> — MIDIINGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000900">
+            <code>00000900</code> — MIDIINMESSAGE
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000960">
+            <code>00000960</code> — MIDIINGETID
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="000009C0">
+            <code>000009C0</code> — MIDIINGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000A7A">
+            <code>00000A7A</code> — MIDIINGETERRORTEXT
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000AB6">
+            <code>00000AB6</code> — MIDIINOPEN
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000BE0">
+            <code>00000BE0</code> — MIDIINCLOSE
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000C42">
+            <code>00000C42</code> — MIDIINPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000CDE">
+            <code>00000CDE</code> — MIDIINUNPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000D8E">
+            <code>00000D8E</code> — MIDIINADDBUFFER
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000E1E">
+            <code>00000E1E</code> — MIDIINSTART
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000E52">
+            <code>00000E52</code> — MIDIINSTOP
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000E86">
+            <code>00000E86</code> — MIDIINRESET
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00000EBA">
+            <code>00000EBA</code> — MIDIOUTGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="0000103E">
+            <code>0000103E</code> — MIDIOUTGETID
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="0000109E">
+            <code>0000109E</code> — MIDIOUTGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="0000113A">
+            <code>0000113A</code> — MIDIOUTGETVOLUME
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="000011CE">
+            <code>000011CE</code> — MIDIOUTSETVOLUME
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00001244">
+            <code>00001244</code> — MIDIOUTGETERRORTEXT
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00001280">
+            <code>00001280</code> — MIDIOUTOPEN
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="000013B6">
+            <code>000013B6</code> — MIDIOUTCLOSE
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="0000141A">
+            <code>0000141A</code> — MIDIOUTPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00001684">
+            <code>00001684</code> — MIDIOUTUNPREPAREHEADER
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00001856">
+            <code>00001856</code> — MIDISTREAMSTOP
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="0000188A">
+            <code>0000188A</code> — MIDIOUTCACHEPATCHES
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00001916">
+            <code>00001916</code> — MIDIOUTCACHEDRUMPATCHES
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="000019D6">
+            <code>000019D6</code> — MIDISTREAMRESTART
+            
+          </li>
+        
+          <li data-segment="000008D0" data-offset="00001A8A">
+            <code>00001A8A</code> — MIDISTREAMOUT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: MMIO @ 00000A00
+      </summary>
+      <ul>
+        
+          <li data-segment="00000A00" data-offset="0000027C">
+            <code>0000027C</code> — MMIORENAME
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000340">
+            <code>00000340</code> — MMIOOPEN
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000516">
+            <code>00000516</code> — MMIOCLOSE
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000580">
+            <code>00000580</code> — MMIOREAD
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="000006B6">
+            <code>000006B6</code> — MMIOWRITE
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000820">
+            <code>00000820</code> — MMIOSEEK
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="0000095A">
+            <code>0000095A</code> — MMIOGETINFO
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="000009C8">
+            <code>000009C8</code> — MMIOSETINFO
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000A8E">
+            <code>00000A8E</code> — MMIOSETBUFFER
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000C9A">
+            <code>00000C9A</code> — MMIOFLUSH
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000D54">
+            <code>00000D54</code> — MMIOADVANCE
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="00000E6A">
+            <code>00000E6A</code> — MMIOSTRINGTOFOURCC
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="000010F0">
+            <code>000010F0</code> — MMIOINSTALLIOPROC
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="000011E0">
+            <code>000011E0</code> — MMIOSENDMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="0000156C">
+            <code>0000156C</code> — MMIODESCEND
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="0000174E">
+            <code>0000174E</code> — MMIOASCEND
+            
+          </li>
+        
+          <li data-segment="00000A00" data-offset="000018BC">
+            <code>000018BC</code> — MMIOCREATECHUNK
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 9: MIXER @ 00000AF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000AF0" data-offset="000001F4">
+            <code>000001F4</code> — MIXERGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000204">
+            <code>00000204</code> — MIXERGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000260">
+            <code>00000260</code> — MIXERGETID
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000640">
+            <code>00000640</code> — MIXEROPEN
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000868">
+            <code>00000868</code> — MIXERCLOSE
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="0000091A">
+            <code>0000091A</code> — MIXERMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000980">
+            <code>00000980</code> — MIXERGETLINEINFO
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000D36">
+            <code>00000D36</code> — MIXERGETLINECONTROLS
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="00000EBE">
+            <code>00000EBE</code> — MIXERGETCONTROLDETAILS
+            
+          </li>
+        
+          <li data-segment="00000AF0" data-offset="0000108A">
+            <code>0000108A</code> — MIXERSETCONTROLDETAILS
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 10: RARE @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — TIMEGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000496">
+            <code>00000496</code> — MMSYSTEMGETVERSION
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000077E">
+            <code>0000077E</code> — JOYGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000796">
+            <code>00000796</code> — JOYGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007E2">
+            <code>000007E2</code> — JOYGETPOS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000085C">
+            <code>0000085C</code> — JOYGETTHRESHOLD
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000008A0">
+            <code>000008A0</code> — JOYRELEASECAPTURE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000914">
+            <code>00000914</code> — JOYSETCAPTURE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A12">
+            <code>00000A12</code> — JOYSETTHRESHOLD
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B0A">
+            <code>00000B0A</code> — AUXOUTMESSAGE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000BC0">
+            <code>00000BC0</code> — AUXGETNUMDEVS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000BD0">
+            <code>00000BD0</code> — AUXGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C14">
+            <code>00000C14</code> — AUXGETVOLUME
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C4C">
+            <code>00000C4C</code> — AUXSETVOLUME
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

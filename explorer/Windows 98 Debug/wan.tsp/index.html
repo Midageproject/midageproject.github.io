@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>WAN — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>hX.h</li>
+      
+        <li>../libinit.asm</li>
+      
+        <li>../line.c</li>
+      
+        <li>lmul.asm</li>
+      
+        <li>../phone.c</li>
+      
+        <li>../rovcomm.c</li>
+      
+        <li>../rovini.c</li>
+      
+        <li>../rovmem.c</li>
+      
+        <li>../tspi.c</li>
+      
+        <li>../util.c</li>
+      
+        <li>../wan.c</li>
+      
+        <li>../wanioctl.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _TEXT @ 00001120
+      </summary>
+      <ul>
+        
+          <li data-segment="00001120" data-offset="00000000">
+            <code>00000000</code> — LIBENTRY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00000022">
+            <code>00000022</code> — LIBMAIN
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00000057">
+            <code>00000057</code> — CREATECALLBACKWINDOW
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000014B">
+            <code>0000014B</code> — WAN_WindowProc
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000002AC">
+            <code>000002AC</code> — TAPIMINIPORTREQUEST
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000009FD">
+            <code>000009FD</code> — DEVICEIOCONTROL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00000B2E">
+            <code>00000B2E</code> — MINIPORTIOCTLREQUEST
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00000D1D">
+            <code>00000D1D</code> — MINIPORTREQUEST
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00000E53">
+            <code>00000E53</code> — MINIPORTINIT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00000F56">
+            <code>00000F56</code> — MINIPORTDEINIT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000103F">
+            <code>0000103F</code> — MINIPORTGETASYNCCOMPLETEINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00001156">
+            <code>00001156</code> — MINIPORTGETEVENTNOTIFICATIONINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00001725">
+            <code>00001725</code> — MINIPORTENUMERATEADAPTERS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000198F">
+            <code>0000198F</code> — MINIPORTADDNEWADAPTER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00001C53">
+            <code>00001C53</code> — MINIPORTREMOVEADAPTER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00001ECB">
+            <code>00001ECB</code> — DEBUGDUMPMPR
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00001FA4">
+            <code>00001FA4</code> — TSPI_PROVIDERINSTALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000020F9">
+            <code>000020F9</code> — TSPI_PROVIDERENUMDEVICES
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000248C">
+            <code>0000248C</code> — TSPI_PROVIDERINIT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000028B7">
+            <code>000028B7</code> — TSPI_PROVIDERSHUTDOWN
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00002BE7">
+            <code>00002BE7</code> — TSPI_PROVIDERCONFIG
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00002C50">
+            <code>00002C50</code> — DEBUGDUMPWC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00002D26">
+            <code>00002D26</code> — DEBUGDUMPLD
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00002EB3">
+            <code>00002EB3</code> — DEBUGDUMPCALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00002F48">
+            <code>00002F48</code> — TSPI_LINEACCEPT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000307A">
+            <code>0000307A</code> — TSPI_LINEDIAL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000031A4">
+            <code>000031A4</code> — TSPI_LINEANSWER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000032D7">
+            <code>000032D7</code> — TSPI_LINEGETCALLSTATUS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00003528">
+            <code>00003528</code> — TSPI_LINEGETCALLINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000377A">
+            <code>0000377A</code> — TSPI_LINEGETCALLADDRESSID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000389E">
+            <code>0000389E</code> — TSPI_LINESETAPPSPECIFIC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00003961">
+            <code>00003961</code> — TSPI_LINEDROP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00003A94">
+            <code>00003A94</code> — TSPI_LINECLOSECALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00003C5F">
+            <code>00003C5F</code> — TSPI_LINESETMEDIAMODE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00003D22">
+            <code>00003D22</code> — THUNKTONEWLAC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00003FC9">
+            <code>00003FC9</code> — TSPI_LINEGETADDRESSCAPS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000043FC">
+            <code>000043FC</code> — TSPI_LINEGETADDRESSSTATUS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00004678">
+            <code>00004678</code> — TSPI_LINECLOSE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000048C1">
+            <code>000048C1</code> — TSPI_LINEMAKECALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00004E1C">
+            <code>00004E1C</code> — TSPI_LINENEGOTIATETSPIVERSION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00005191">
+            <code>00005191</code> — TSPI_LINEGETEXTENSIONID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00005383">
+            <code>00005383</code> — TSPI_LINENEGOTIATEEXTVERSION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00005565">
+            <code>00005565</code> — TSPI_LINEGETICON
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00005681">
+            <code>00005681</code> — THUNKTONEWLDC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000059B4">
+            <code>000059B4</code> — TSPI_LINEGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00005DD8">
+            <code>00005DD8</code> — TSPI_LINEGETDEVCONFIG
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00006664">
+            <code>00006664</code> — TSPI_LINESETDEVCONFIG
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00006A80">
+            <code>00006A80</code> — TSPI_LINECONFIGDIALOG
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00006BBD">
+            <code>00006BBD</code> — TSPI_LINECONFIGDIALOGEDIT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000070D2">
+            <code>000070D2</code> — TSPI_LINEOPEN
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000072F4">
+            <code>000072F4</code> — TSPI_LINESELECTEXTVERSION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00007431">
+            <code>00007431</code> — TSPI_LINEDEVSPECIFIC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000763A">
+            <code>0000763A</code> — TSPI_LINESETDEFAULTMEDIADETECTION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000076FD">
+            <code>000076FD</code> — TSPI_LINECONDITIONALMEDIADETECTION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00007874">
+            <code>00007874</code> — TSPI_LINEGETID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00007E63">
+            <code>00007E63</code> — TSPI_LINEGETLINEDEVSTATUS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000080DD">
+            <code>000080DD</code> — TSPI_LINEGETNUMADDRESSIDS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008284">
+            <code>00008284</code> — TSPI_LINESETSTATUSMESSAGES
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008372">
+            <code>00008372</code> — TSPI_LINEADDTOCONFERENCE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000844D">
+            <code>0000844D</code> — TSPI_LINEBLINDTRANSFER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008578">
+            <code>00008578</code> — TSPI_LINECOMPLETECALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000086EC">
+            <code>000086EC</code> — TSPI_LINECOMPLETETRANSFER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008944">
+            <code>00008944</code> — TSPI_LINEDEVSPECIFICFEATURE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008A90">
+            <code>00008A90</code> — TSPI_LINEFORWARD
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008D5C">
+            <code>00008D5C</code> — TSPI_LINEGATHERDIGITS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00008F15">
+            <code>00008F15</code> — TSPI_LINEGENERATEDIGITS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000903A">
+            <code>0000903A</code> — TSPI_LINEGENERATETONE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009185">
+            <code>00009185</code> — TSPI_LINEGETADDRESSID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="000092AE">
+            <code>000092AE</code> — TSPI_LINEHOLD
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000937A">
+            <code>0000937A</code> — TSPI_LINEMONITORDIGITS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009451">
+            <code>00009451</code> — TSPI_LINEMONITORMEDIA
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009528">
+            <code>00009528</code> — TSPI_LINEMONITORTONES
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000964E">
+            <code>0000964E</code> — TSPI_LINEPARK
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009826">
+            <code>00009826</code> — TSPI_LINEPICKUP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009A97">
+            <code>00009A97</code> — TSPI_LINEPREPAREADDTOCONFERENCE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009BF6">
+            <code>00009BF6</code> — TSPI_LINEREDIRECT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009D01">
+            <code>00009D01</code> — TSPI_LINEREMOVEFROMCONFERENCE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009DCD">
+            <code>00009DCD</code> — TSPI_LINESECURECALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009E99">
+            <code>00009E99</code> — TSPI_LINESENDUSERUSERINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="00009FE8">
+            <code>00009FE8</code> — TSPI_LINESETCALLPARAMS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A12A">
+            <code>0000A12A</code> — TSPI_LINESETMEDIACONTROL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A3C4">
+            <code>0000A3C4</code> — TSPI_LINESETTERMINAL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A4EA">
+            <code>0000A4EA</code> — TSPI_LINESETUPCONFERENCE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A689">
+            <code>0000A689</code> — TSPI_LINESETUPTRANSFER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A7E8">
+            <code>0000A7E8</code> — TSPI_LINESWAPHOLD
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A8C3">
+            <code>0000A8C3</code> — TSPI_LINEUNCOMPLETECALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000A99E">
+            <code>0000A99E</code> — TSPI_LINEUNHOLD
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000AA6A">
+            <code>0000AA6A</code> — TSPI_LINEUNPARK
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000ABDF">
+            <code>0000ABDF</code> — TSPI_LINERELEASEUSERUSERINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000ACAC">
+            <code>0000ACAC</code> — TSPI_PHONECLOSE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000AD73">
+            <code>0000AD73</code> — TSPI_PHONECONFIGDIALOG
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000ADA5">
+            <code>0000ADA5</code> — TSPI_PHONEDEVSPECIFIC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000AE9F">
+            <code>0000AE9F</code> — TSPI_PHONEGETBUTTONINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000AFCD">
+            <code>0000AFCD</code> — TSPI_PHONEGETDATA
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B0E4">
+            <code>0000B0E4</code> — TSPI_PHONEGETDEVCAPS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B221">
+            <code>0000B221</code> — TSPI_PHONEGETDISPLAY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B340">
+            <code>0000B340</code> — TSPI_PHONEGETEXTENSIONID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B43F">
+            <code>0000B43F</code> — TSPI_PHONEGETGAIN
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B53A">
+            <code>0000B53A</code> — TSPI_PHONEGETHOOKSWITCH
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B626">
+            <code>0000B626</code> — TSPI_PHONEGETICON
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B743">
+            <code>0000B743</code> — TSPI_PHONEGETID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B8B2">
+            <code>0000B8B2</code> — TSPI_PHONEGETLAMP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000B9AD">
+            <code>0000B9AD</code> — TSPI_PHONEGETRING
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000BAAC">
+            <code>0000BAAC</code> — TSPI_PHONEGETSTATUS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000BBCB">
+            <code>0000BBCB</code> — TSPI_PHONEGETVOLUME
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000BCC6">
+            <code>0000BCC6</code> — TSPI_PHONENEGOTIATEEXTVERSION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000BDDF">
+            <code>0000BDDF</code> — TSPI_PHONENEGOTIATETSPIVERSION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000BEE9">
+            <code>0000BEE9</code> — TSPI_PHONEOPEN
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000BFF3">
+            <code>0000BFF3</code> — TSPI_PHONESELECTEXTVERSION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C0CA">
+            <code>0000C0CA</code> — TSPI_PHONESETBUTTONINFO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C1CE">
+            <code>0000C1CE</code> — TSPI_PHONESETDATA
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C2D8">
+            <code>0000C2D8</code> — TSPI_PHONESETDISPLAY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C3F1">
+            <code>0000C3F1</code> — TSPI_PHONESETGAIN
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C4DB">
+            <code>0000C4DB</code> — TSPI_PHONESETHOOKSWITCH
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C5C5">
+            <code>0000C5C5</code> — TSPI_PHONESETLAMP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C6AF">
+            <code>0000C6AF</code> — TSPI_PHONESETRING
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C799">
+            <code>0000C799</code> — TSPI_PHONESETSTATUSMESSAGES
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C88E">
+            <code>0000C88E</code> — TSPI_PHONESETVOLUME
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C978">
+            <code>0000C978</code> — FINISHCOMPLETE_TRANSFER
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000C9BE">
+            <code>0000C9BE</code> — FINISHMAKE_CALL
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000CA4A">
+            <code>0000CA4A</code> — FINISHDEV_SPECIFIC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000CAC9">
+            <code>0000CAC9</code> — FINISHASYNCACTION
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000CDCD">
+            <code>0000CDCD</code> — GETCALLCBFROMCALLHANDLE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000CE80">
+            <code>0000CE80</code> — GETCALLCBFROMMINIPORTCALLHANDLE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000CF51">
+            <code>0000CF51</code> — GETCBFROMCALLHANDLE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000CFF8">
+            <code>0000CFF8</code> — GETCBFROMHANDLE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D076">
+            <code>0000D076</code> — GETPHONEFROMHANDLE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D0EC">
+            <code>0000D0EC</code> — GETCBFROMID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D178">
+            <code>0000D178</code> — GETPHONEFROMID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D1FC">
+            <code>0000D1FC</code> — GETCBFROMREQUESTID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D288">
+            <code>0000D288</code> — GETPHONEFROMREQUESTID
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D30C">
+            <code>0000D30C</code> — GETMINIPORTFROMHANDLE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D395">
+            <code>0000D395</code> — GETMINIPORTFROMREGPATH
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D41A">
+            <code>0000D41A</code> — REMOVELINEDEVICEFROMLIST
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D4D7">
+            <code>0000D4D7</code> — REMOVEPHONEDEVICEFROMLIST
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D594">
+            <code>0000D594</code> — REMOVECALLINSTANCEFROMLIST
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D651">
+            <code>0000D651</code> — WANCONFIG_CREATE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D807">
+            <code>0000D807</code> — WANCONFIG_DESTROY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000D846">
+            <code>0000D846</code> — WANPBCONFIG_CREATE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000DA98">
+            <code>0000DA98</code> — WANPBCONFIG_DESTROY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000DAD7">
+            <code>0000DAD7</code> — LINEDEV_CREATE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000DE7B">
+            <code>0000DE7B</code> — LINEDEV_DESTROY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000DFCA">
+            <code>0000DFCA</code> — PHONEDEV_CREATE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E0FB">
+            <code>0000E0FB</code> — PHONEDEV_DESTROY
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E1BF">
+            <code>0000E1BF</code> — VALIDATEDEVICECLASS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E2AA">
+            <code>0000E2AA</code> — LMEMSET
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E2EF">
+            <code>0000E2EF</code> — C_SZASSERTFAILED
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E31B">
+            <code>0000E31B</code> — C_SZDBG
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E324">
+            <code>0000E324</code> — C_SZTRACE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E32D">
+            <code>0000E32D</code> — C_SZNEWLINE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E330">
+            <code>0000E330</code> — LMEMMOVE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E3CF">
+            <code>0000E3CF</code> — @ChrCmp
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E41F">
+            <code>0000E41F</code> — @ChrCmpI
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E46F">
+            <code>0000E46F</code> — LSTRNICMP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E50F">
+            <code>0000E50F</code> — LSTRNCMP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E59D">
+            <code>0000E59D</code> — ANSITOINT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E7C5">
+            <code>0000E7C5</code> — ANSICHR
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E81A">
+            <code>0000E81A</code> — CONSTRUCTVMESSAGESTRING
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E8D9">
+            <code>0000E8D9</code> — _ConstructMessage
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E94E">
+            <code>0000E94E</code> — _MsgBox
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000E9FE">
+            <code>0000E9FE</code> — GETREASONSTRING
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EAEC">
+            <code>0000EAEC</code> — COMMONDEBUGBREAK
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EB32">
+            <code>0000EB32</code> — COMMONASSERTFAILED
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EBCF">
+            <code>0000EBCF</code> — _CommonAssertMsg
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EC1B">
+            <code>0000EC1B</code> — _CommonDebugMsg
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EC87">
+            <code>0000EC87</code> — DBG_SAFESTR
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000ECB2">
+            <code>0000ECB2</code> — ROVCOMM_INIT
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000ECD1">
+            <code>0000ECD1</code> — ROVCOMM_TERMINATE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000ECE4">
+            <code>0000ECE4</code> — ISINIYES
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDC9">
+            <code>0000EDC9</code> — C_SZINIKEYBREAKFLAGS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDD4">
+            <code>0000EDD4</code> — C_SZZERO
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDD6">
+            <code>0000EDD6</code> — C_SZINISECDEBUGUI
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDDD">
+            <code>0000EDDD</code> — C_SZINIFILE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDE8">
+            <code>0000EDE8</code> — C_SZINIKEYDUMPFLAGS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDF2">
+            <code>0000EDF2</code> — C_SZINIKEYTRACEFLAGS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EDFD">
+            <code>0000EDFD</code> — PROCESSINTEGERS
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EEC6">
+            <code>0000EEC6</code> — ROVCOMM_PROCESSINIFILE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000EEDE">
+            <code>0000EEDE</code> — SETSTRING
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F012">
+            <code>0000F012</code> — CATSTRING
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F15C">
+            <code>0000F15C</code> — MEM_TERMINATE
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F17A">
+            <code>0000F17A</code> — CREATEHEAP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F226">
+            <code>0000F226</code> — DESTROYHEAP
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F2EE">
+            <code>0000F2EE</code> — HEAPALLOC
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F320">
+            <code>0000F320</code> — __aFlmul
+            
+          </li>
+        
+          <li data-segment="00001120" data-offset="0000F320">
+            <code>0000F320</code> — __aFulmul
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _WEP @ 00001150
+      </summary>
+      <ul>
+        
+          <li data-segment="00001150" data-offset="00000000">
+            <code>00000000</code> — WEP
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: DGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — PLOCALHEAP
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — RSRVPTRS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — PATOMTABLE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000A">
+            <code>0000000A</code> — PSTACKTOP
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000C">
+            <code>0000000C</code> — PSTACKMIN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000E">
+            <code>0000000E</code> — PSTACKBOT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — GHINSTANCE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000012">
+            <code>00000012</code> — GDWNUMOFLINES
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000016">
+            <code>00000016</code> — GDWNUMOFPHONES
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000001A">
+            <code>0000001A</code> — GULNEXTWANREQUESTID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000001E">
+            <code>0000001E</code> — GHWNDWAN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — WAN_WNDCLASS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000002A">
+            <code>0000002A</code> — GFNCOMPLETIONCALLBACK
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000002E">
+            <code>0000002E</code> — GFNLINECREATEPROC
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000032">
+            <code>00000032</code> — GFNPHONECREATEPROC
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000036">
+            <code>00000036</code> — GHPROVIDER
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000003A">
+            <code>0000003A</code> — GPMINIPORTDEV
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000003C">
+            <code>0000003C</code> — GPLINEDEV
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000003E">
+            <code>0000003E</code> — GPPHONEDEV
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007D1A">
+            <code>00007D1A</code> — G_DWBREAKFLAGS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007D1E">
+            <code>00007D1E</code> — G_DWDUMPFLAGS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007D22">
+            <code>00007D22</code> — G_DWTRACEFLAGS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007F0E">
+            <code>00007F0E</code> — G_HHPFIRST
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007F50">
+            <code>00007F50</code> — GDWPROVIDERID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007F54">
+            <code>00007F54</code> — GDWLINEDEVICEIDBASE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00007F58">
+            <code>00007F58</code> — GDWPHONEDEVICEIDBASE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

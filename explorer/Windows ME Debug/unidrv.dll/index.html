@@ -1,0 +1,2649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>UNIDRV — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../advdmdlg.c</li>
+      
+        <li>../bandsize.c</li>
+      
+        <li>../bitblt.c</li>
+      
+        <li>../charwdth.c</li>
+      
+        <li>../control.c</li>
+      
+        <li>../devcaps.c</li>
+      
+        <li>../devmode.c</li>
+      
+        <li>../dib2.asm</li>
+      
+        <li>../dib.c</li>
+      
+        <li>../disable.c</li>
+      
+        <li>../djfont.c</li>
+      
+        <li>../dmdlg.c</li>
+      
+        <li>../dump.c</li>
+      
+        <li>../dumputil.asm</li>
+      
+        <li>../enable2.c</li>
+      
+        <li>../enable.c</li>
+      
+        <li>../enumobj.c</li>
+      
+        <li>../escutil.asm</li>
+      
+        <li>../fontmap.c</li>
+      
+        <li>../fontsum.c</li>
+      
+        <li>../fontutil.c</li>
+      
+        <li>../hcdump.c</li>
+      
+        <li>../install.c</li>
+      
+        <li>ldiv.asm</li>
+      
+        <li>../ldump.c</li>
+      
+        <li>../libentry.asm</li>
+      
+        <li>lmul.asm</li>
+      
+        <li>lrem.asm</li>
+      
+        <li>lshl.asm</li>
+      
+        <li>lshr.asm</li>
+      
+        <li>../message.c</li>
+      
+        <li>../newdib2.c</li>
+      
+        <li>../newdib3.asm</li>
+      
+        <li>../newdib.c</li>
+      
+        <li>../output.c</li>
+      
+        <li>../pcletto.c</li>
+      
+        <li>../pcletto/entry.c</li>
+      
+        <li>../pcletto/pclout.c</li>
+      
+        <li>../pcletto/tt.c</li>
+      
+        <li>../pcletto/tttab.c</li>
+      
+        <li>../physical.c</li>
+      
+        <li>../pq.asm</li>
+      
+        <li>../realize.c</li>
+      
+        <li>../sfutils.c</li>
+      
+        <li>../softfont.c</li>
+      
+        <li>../textout.c</li>
+      
+        <li>../tos.c</li>
+      
+        <li>../trig.c</li>
+      
+        <li>../ttcapsl.c</li>
+      
+        <li>../ttpcl.c</li>
+      
+        <li>../ttppds.c</li>
+      
+        <li>uldiv.asm</li>
+      
+        <li>ulrem.asm</li>
+      
+        <li>ulshr.asm</li>
+      
+        <li>../utils.asm</li>
+      
+        <li>../vector.c</li>
+      
+        <li>../voutput.c</li>
+      
+        <li>../wep.c</li>
+      
+        <li>../xcd.asm</li>
+      
+        <li>HHt.H</li>
+      
+        <li>../NEWID.H</li>
+      
+        <li>UNIDRV.H</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _TEXT @ 000007E0
+      </summary>
+      <ul>
+        
+          <li data-segment="000007E0" data-offset="00000000">
+            <code>00000000</code> — LibEntry
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="00000020">
+            <code>00000020</code> — WEP
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="00000024">
+            <code>00000024</code> — LibMain
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="00000070">
+            <code>00000070</code> — COPY
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="0000009C">
+            <code>0000009C</code> — SETBYTEVALUE
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="000000D1">
+            <code>000000D1</code> — OFFSETCLIPRECT
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="00000136">
+            <code>00000136</code> — __aFldiv
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="000001D0">
+            <code>000001D0</code> — __aFlmul
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="000001D0">
+            <code>000001D0</code> — __aFulmul
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="00000202">
+            <code>00000202</code> — __aFlrem
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="000002A2">
+            <code>000002A2</code> — __aFlshl
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="000002AE">
+            <code>000002AE</code> — __aFlshr
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="000002BA">
+            <code>000002BA</code> — __aFuldiv
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="0000031A">
+            <code>0000031A</code> — __aFulrem
+            
+          </li>
+        
+          <li data-segment="000007E0" data-offset="00000384">
+            <code>00000384</code> — __aFulshr
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _DEVMODE @ 00001640
+      </summary>
+      <ul>
+        
+          <li data-segment="00001640" data-offset="00000000">
+            <code>00000000</code> — UniDeviceMode
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000000B2">
+            <code>000000B2</code> — UniExtDeviceMode
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000000F4">
+            <code>000000F4</code> — UniExtDeviceModePropSheet
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="0000012A">
+            <code>0000012A</code> — UniAdvancedSetUpDialog
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000180">
+            <code>00000180</code> — SETDLGFLAGS
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000003E2">
+            <code>000003E2</code> — IENTERDEVMODE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000007EA">
+            <code>000007EA</code> — GETHELPFILENAME
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000852">
+            <code>00000852</code> — PROPPAGECALLBACK
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000874">
+            <code>00000874</code> — COMMITCHANGES
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000A04">
+            <code>00000A04</code> — IENDDEVMODE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000B9E">
+            <code>00000B9E</code> — GETMINPAPERSIZE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000C46">
+            <code>00000C46</code> — GETMAXPAPERSIZE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000CE4">
+            <code>00000CE4</code> — CHECKLEGALPRINTQUALITY
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000E82">
+            <code>00000E82</code> — CHECKLEGALRESVALUE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000EEC">
+            <code>00000EEC</code> — VERSIONCHECKLEGALRESVALUE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000F1A">
+            <code>00000F1A</code> — GETOLDDEVMODEINFO
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00000FD0">
+            <code>00000FD0</code> — MODIFYDEVICEMODE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000017DE">
+            <code>000017DE</code> — GETNEARESTMEMORYVALUE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001962">
+            <code>00001962</code> — ISVALIDUNIDRVVERSION
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000019AA">
+            <code>000019AA</code> — ISUSA
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000019EE">
+            <code>000019EE</code> — GETMODELNAMEID
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001A94">
+            <code>00001A94</code> — ISTHISOURDEVMODE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001B44">
+            <code>00001B44</code> — GETDEFAULTINDEX
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001BC6">
+            <code>00001BC6</code> — GETCACHEDDEVICEMODE
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001ED0">
+            <code>00001ED0</code> — GETTTCAPS
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001F70">
+            <code>00001F70</code> — GETTTDEF
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001FAA">
+            <code>00001FAA</code> — SUPPORTJOBSEPARATION
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00001FE0">
+            <code>00001FE0</code> — UniDeviceCapabilities
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="00002516">
+            <code>00002516</code> — GETPAPERDIMENSIONS
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="000025A8">
+            <code>000025A8</code> — GETBINNAMES
+            
+          </li>
+        
+          <li data-segment="00001640" data-offset="0000260C">
+            <code>0000260C</code> — GETPAPERNAMES
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _ENABLE @ 00002C60
+      </summary>
+      <ul>
+        
+          <li data-segment="00002C60" data-offset="00000000">
+            <code>00000000</code> — UniDisable
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00000370">
+            <code>00000370</code> — UniEnable
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000018FC">
+            <code>000018FC</code> — GETTTDOWNLOADINFO
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00001958">
+            <code>00001958</code> — SETGDIINFO
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00001A02">
+            <code>00001A02</code> — BUILDCOMMANDTABLE
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00002238">
+            <code>00002238</code> — GETBRUTE
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000244C">
+            <code>0000244C</code> — COMPUTEMINXMOVEUNITS
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000024F8">
+            <code>000024F8</code> — GETCOMPRESSIONINFO
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00002620">
+            <code>00002620</code> — LOADDATA
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000264E">
+            <code>0000264E</code> — GETTABLEINFO
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000026AC">
+            <code>000026AC</code> — FARGETTABLEINFO
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000026C2">
+            <code>000026C2</code> — HYPOTENEOUS
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000271C">
+            <code>0000271C</code> — GETPAPERFORMAT
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00002978">
+            <code>00002978</code> — GETMINPAPERMARGINS
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00002ADE">
+            <code>00002ADE</code> — CONVERTMARGINSUNIT
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00002D8C">
+            <code>00002D8C</code> — GETCOLORTRC
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00002E74">
+            <code>00002E74</code> — BUILDFONTMAPTABLE
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000322A">
+            <code>0000322A</code> — GETRESFONTIDS
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000346C">
+            <code>0000346C</code> — MAKEAPPNAME
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00003520">
+            <code>00003520</code> — BUILDRESFONTFM
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000370E">
+            <code>0000370E</code> — MERGEFONTS
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000038E4">
+            <code>000038E4</code> — FONTINFOTOFONTMAP
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000039F2">
+            <code>000039F2</code> — COPYFONT
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00003BA8">
+            <code>00003BA8</code> — GETSHORTMODULENAME
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00003C56">
+            <code>00003C56</code> — MAKEFONTSUMNAME
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00003D40">
+            <code>00003D40</code> — CHECKVALIDFONTSUM
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00003E50">
+            <code>00003E50</code> — FONTSUMTOFONTMAP
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00003FE8">
+            <code>00003FE8</code> — SAVEFONTSUM
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000042CE">
+            <code>000042CE</code> — DELETEFONTSUM
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="000042FA">
+            <code>000042FA</code> — FONTSUMSTRTOATOM
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000434A">
+            <code>0000434A</code> — FONTSUMATOMTOSTR
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000443C">
+            <code>0000443C</code> — HEAPINIT
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="0000447E">
+            <code>0000447E</code> — HEAPALLOC
+            
+          </li>
+        
+          <li data-segment="00002C60" data-offset="00004526">
+            <code>00004526</code> — HEAPDESTROY
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _REALIZE @ 00003900
+      </summary>
+      <ul>
+        
+          <li data-segment="00003900" data-offset="00000000">
+            <code>00000000</code> — UniDeviceSelectBitmap
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000003E">
+            <code>0000003E</code> — UniBitmapBits
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00000090">
+            <code>00000090</code> — UniGetCharWidth
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000023C">
+            <code>0000023C</code> — FONTINFOTOTEXTMETRIC
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="000003FA">
+            <code>000003FA</code> — UniEnumObj
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000045A">
+            <code>0000045A</code> — GPOINTLIST
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00000470">
+            <code>00000470</code> — UniColorInfo
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="000004B6">
+            <code>000004B6</code> — UniEnumDFonts
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000077A">
+            <code>0000077A</code> — FONTMAPTOLOGFONT
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="000007E4">
+            <code>000007E4</code> — BUILDFONTFACELIST
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="000008F8">
+            <code>000008F8</code> — RGB_ENUMOBJEXT
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00000912">
+            <code>00000912</code> — GAMMACORRECTION
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="000009DA">
+            <code>000009DA</code> — UniRealizeObject
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00000B5A">
+            <code>00000B5A</code> — BIT_INDEX
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00000B62">
+            <code>00000B62</code> — REALIZEFONT
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001262">
+            <code>00001262</code> — UDDELETEFONT
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001294">
+            <code>00001294</code> — TMTOSTRUCT
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000137A">
+            <code>0000137A</code> — SCALEFONT
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001638">
+            <code>00001638</code> — FONTMAPTOFONTINFO
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001ADC">
+            <code>00001ADC</code> — GETFUNCSCALEWIDTH
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001B6E">
+            <code>00001B6E</code> — BUILDENGINEFONTMAP
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001D0C">
+            <code>00001D0C</code> — REALIZERBRUSH
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001DF4">
+            <code>00001DF4</code> — DITHERBRUSH
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="00001F68">
+            <code>00001F68</code> — BUILDHALFTONEBRUSH
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000204C">
+            <code>0000204C</code> — ADJUSTSPOTDI
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="000020AA">
+            <code>000020AA</code> — REALIZERPEN
+            
+          </li>
+        
+          <li data-segment="00003900" data-offset="0000212C">
+            <code>0000212C</code> — RGB_REALIZEOBJECTEXT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _ESCAPE @ 00004760
+      </summary>
+      <ul>
+        
+          <li data-segment="00004760" data-offset="00000000">
+            <code>00000000</code> — GETBANDFORMAT
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000005E0">
+            <code>000005E0</code> — FREEBANDBUFFERS
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="0000064A">
+            <code>0000064A</code> — UniControl
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000010F2">
+            <code>000010F2</code> — GETPAPERMETRICS
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00001160">
+            <code>00001160</code> — ISMEMLOW
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000011B6">
+            <code>000011B6</code> — ENOUGHMEMFORONEPAGE
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00001238">
+            <code>00001238</code> — ENOUGHMEMFORNONTT
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000012CC">
+            <code>000012CC</code> — GETNUMDEVFONTSUSED
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00001310">
+            <code>00001310</code> — GETNUMSOFTFONTSUSED
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00001358">
+            <code>00001358</code> — GETEXTENDEDSTUFF
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000015B4">
+            <code>000015B4</code> — SENDINITCMDS
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000017CE">
+            <code>000017CE</code> — CONTROLNEXTBAND
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00001E28">
+            <code>00001E28</code> — DRAWPATTERNRECT
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00002052">
+            <code>00002052</code> — LOGPAGEERRS
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000020A8">
+            <code>000020A8</code> — REPORTPAGEERRS
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000020DE">
+            <code>000020DE</code> — SETPAGEERRS
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="0000219A">
+            <code>0000219A</code> — WRITEDIALOGBUF
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="000021EA">
+            <code>000021EA</code> — FLUSHSPOOLBUF
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00002240">
+            <code>00002240</code> — GETFREEMEMINFO
+            
+          </li>
+        
+          <li data-segment="00004760" data-offset="00002260">
+            <code>00002260</code> — INITBITMAP
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _TEXTOUT @ 000060F0
+      </summary>
+      <ul>
+        
+          <li data-segment="000060F0" data-offset="00000000">
+            <code>00000000</code> — XMOVETO
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000002E0">
+            <code>000002E0</code> — JUSTIFYX
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000003F2">
+            <code>000003F2</code> — RELXMOVETO
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00000476">
+            <code>00000476</code> — FINEXMOVETO
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000054C">
+            <code>0000054C</code> — YMOVETO
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000008D0">
+            <code>000008D0</code> — WriteSpoolBuf
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000095C">
+            <code>0000095C</code> — _WriteChannel
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00000CA6">
+            <code>00000CA6</code> — FORMATNUM
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00000F90">
+            <code>00000F90</code> — SELECTCOLOR
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00000FF2">
+            <code>00000FF2</code> — UniExtTextOut
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000144E">
+            <code>0000144E</code> — SBCSEXTTEXTOUT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00001BB0">
+            <code>00001BB0</code> — CHPOSITION
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00001E62">
+            <code>00001E62</code> — BMTEXTOUT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000209E">
+            <code>0000209E</code> — SENDTEXT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000023E8">
+            <code>000023E8</code> — DRAWOPAQUERECT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002600">
+            <code>00002600</code> — SELECTGRAYPATTERN
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000027C0">
+            <code>000027C0</code> — DOWNLOADPCLHEADER
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000296C">
+            <code>0000296C</code> — DOWNLOADPCLCHAR
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002C50">
+            <code>00002C50</code> — IFSCALEWIDTH
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002CB6">
+            <code>00002CB6</code> — TTSCALEWIDTH
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002D3C">
+            <code>00002D3C</code> — PCLSENDSCALABLEFONTCMD
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002E10">
+            <code>00002E10</code> — GETPOINTSIZE100
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002E4A">
+            <code>00002E4A</code> — CONVERTFONTSIZETOSTR
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002F00">
+            <code>00002F00</code> — ITOA
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002F3F">
+            <code>00002F3F</code> — LTOA
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002F90">
+            <code>00002F90</code> — CALCXCD
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00002FFA">
+            <code>00002FFA</code> — UDSELECTFONT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000032B8">
+            <code>000032B8</code> — DOWNLOADCHARS
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000036EE">
+            <code>000036EE</code> — SETFNTINFO
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003770">
+            <code>00003770</code> — GETFNTINFO
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000380E">
+            <code>0000380E</code> — FILTERCHAR
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003858">
+            <code>00003858</code> — OUTPUTCHAR
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003ABA">
+            <code>00003ABA</code> — LOADCTT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003AFE">
+            <code>00003AFE</code> — SELECTCTT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003B68">
+            <code>00003B68</code> — UNSELECTCTT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003B9A">
+            <code>00003B9A</code> — TTGETSFDL
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003D84">
+            <code>00003D84</code> — TTBITMAP
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003E9C">
+            <code>00003E9C</code> — REGISTERFONTUSE
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00003F8C">
+            <code>00003F8C</code> — DL_ADDFONT
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="0000400E">
+            <code>0000400E</code> — DL_GETSFDL
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000040C0">
+            <code>000040C0</code> — DL_ERASEDLFONTLIST
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000041B0">
+            <code>000041B0</code> — SENDFONTCMD
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="00004224">
+            <code>00004224</code> — GETMEM
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000042C6">
+            <code>000042C6</code> — ISJUSTIFIED
+            
+          </li>
+        
+          <li data-segment="000060F0" data-offset="000042F0">
+            <code>000042F0</code> — SETSTYLE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: _GRAPH @ 00006440
+      </summary>
+      <ul>
+        
+          <li data-segment="00006440" data-offset="00000000">
+            <code>00000000</code> — UniBitblt
+            
+          </li>
+        
+          <li data-segment="00006440" data-offset="000001A8">
+            <code>000001A8</code> — UniStretchBlt
+            
+          </li>
+        
+          <li data-segment="00006440" data-offset="00000324">
+            <code>00000324</code> — UniOutput
+            
+          </li>
+        
+          <li data-segment="00006440" data-offset="000006EA">
+            <code>000006EA</code> — FIXBANDOFFSET
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: _LDUMP @ 00007140
+      </summary>
+      <ul>
+        
+          <li data-segment="00007140" data-offset="00000000">
+            <code>00000000</code> — STRIPBLANKS
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="00000053">
+            <code>00000053</code> — TRANSPOSEBITMAP
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="000001CF">
+            <code>000001CF</code> — ISHORIZBANDWHITE
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="0000022B">
+            <code>0000022B</code> — REMOVEBLACK
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="0000028E">
+            <code>0000028E</code> — FINDLEFTBOUND
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="000002DF">
+            <code>000002DF</code> — INVERT
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="0000030F">
+            <code>0000030F</code> — TIFF_COMP
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="000003C3">
+            <code>000003C3</code> — SETNEWBOUND
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="0000045A">
+            <code>0000045A</code> — DRC
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="000004EC">
+            <code>000004EC</code> — LASERDUMP
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="00000DE8">
+            <code>00000DE8</code> — LASERBLOCKOUT
+            
+          </li>
+        
+          <li data-segment="00007140" data-offset="00001352">
+            <code>00001352</code> — GETCOMPRESSIONBUFFERS
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 9: _DIMAPS @ 00009570
+      </summary>
+      <ul>
+        
+          <li data-segment="00009570" data-offset="00000000">
+            <code>00000000</code> — UniDIBBlt
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000001A5">
+            <code>000001A5</code> — DWCOLORTABLE
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000001C6">
+            <code>000001C6</code> — UniSetDIBitsToDevice
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="0000028E">
+            <code>0000028E</code> — UniStretchDIB
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000003A6">
+            <code>000003A6</code> — NEWDIBTORGBBITMAP
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000017F6">
+            <code>000017F6</code> — BUILD8COLORMAP
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000018C4">
+            <code>000018C4</code> — BUILD256COLORMAP
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00001BF4">
+            <code>00001BF4</code> — MAKEBWTABLE
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00001C28">
+            <code>00001C28</code> — MAKERGBTABLES
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00001E6C">
+            <code>00001E6C</code> — CORRECTTRC
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00001F26">
+            <code>00001F26</code> — GETSRCSCAN
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00001FBA">
+            <code>00001FBA</code> — INITPATTERNARRAY
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00001FE0">
+            <code>00001FE0</code> — RGBTO4BPPDIB
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000021A4">
+            <code>000021A4</code> — UMULDIV
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000021B5">
+            <code>000021B5</code> — L_MUL
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="000021C2">
+            <code>000021C2</code> — STRETCHSCANLINE
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="0000244D">
+            <code>0000244D</code> — ONETOONESCANLINE
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="0000265A">
+            <code>0000265A</code> — CREATEONEPLANEDEST
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002CA3">
+            <code>00002CA3</code> — CREATETHREEPLANEDEST
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002E53">
+            <code>00002E53</code> — INITLINEBUF
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002EB2">
+            <code>00002EB2</code> — CLONEDESTSCANLINE
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002F45">
+            <code>00002F45</code> — STRETCHLINEBUF
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002F6E">
+            <code>00002F6E</code> — INITMASKBYTES
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002FB2">
+            <code>00002FB2</code> — NORMALIZESUMBUF
+            
+          </li>
+        
+          <li data-segment="00009570" data-offset="00002FD2">
+            <code>00002FD2</code> — COMPRESSSCANLINE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 10: _DMDLG @ 0000B260
+      </summary>
+      <ul>
+        
+          <li data-segment="0000B260" data-offset="00000000">
+            <code>00000000</code> — DEVICEOPTIONSDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000003B0">
+            <code>000003B0</code> — SETPAGEPROTECTION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00000456">
+            <code>00000456</code> — INITDEVICEOPTIONSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000007B8">
+            <code>000007B8</code> — REFRESHPRINTERMEMORY
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000087A">
+            <code>0000087A</code> — SETUPMEMORYCOMBOBOX
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00000A20">
+            <code>00000A20</code> — GETMEMDISPLAYSTR
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00000B0C">
+            <code>00000B0C</code> — SAVEDEVICEOPTIONSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00000C4E">
+            <code>00000C4E</code> — SETDEVICEOPTIONSDEFAULTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00000E32">
+            <code>00000E32</code> — GRAPHICSDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000011BA">
+            <code>000011BA</code> — INITGRAPHICSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000133C">
+            <code>0000133C</code> — SETRESOLUTION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001494">
+            <code>00001494</code> — SETDITHER
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000015EE">
+            <code>000015EE</code> — SETVECTORMODE
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001642">
+            <code>00001642</code> — SAVEGRAPHICSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000172A">
+            <code>0000172A</code> — SETGRAPHICSDEFAULTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001788">
+            <code>00001788</code> — COLORGRAPHICSDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000018B4">
+            <code>000018B4</code> — INITCOLORGRAPHICSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001928">
+            <code>00001928</code> — SAVECOLORGRAPHICSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000019C2">
+            <code>000019C2</code> — SETCOLORGRAPHICSDEFAULTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000019F4">
+            <code>000019F4</code> — SETICMINTENT
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001A74">
+            <code>00001A74</code> — CALLFONTINSTALLER
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001B26">
+            <code>00001B26</code> — FONTSDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001D46">
+            <code>00001D46</code> — INITFONTSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00001F9C">
+            <code>00001F9C</code> — SETTRUETYPE
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000207A">
+            <code>0000207A</code> — GETEXTERNALCARTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000021C8">
+            <code>000021C8</code> — GETWINCARTHANDLE
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002220">
+            <code>00002220</code> — UPDATELIST
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000247C">
+            <code>0000247C</code> — SHOWCURRENTCARTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002598">
+            <code>00002598</code> — SHIFTLIST
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000025D2">
+            <code>000025D2</code> — CLEARLIST
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000025F0">
+            <code>000025F0</code> — SAVEFONTSDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000026C0">
+            <code>000026C0</code> — SETFONTSDEFAULTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002736">
+            <code>00002736</code> — GETMARGINS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002808">
+            <code>00002808</code> — DISPLAYMARGINS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002854">
+            <code>00002854</code> — SETMARGINSPINRANGE
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000029BE">
+            <code>000029BE</code> — MARGINSDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002C74">
+            <code>00002C74</code> — GETPAPERFLAGS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002C7A">
+            <code>00002C7A</code> — SETORIENTATION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002CDC">
+            <code>00002CDC</code> — SETDUPLEX
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002D52">
+            <code>00002D52</code> — LOADRESOURCESTR
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002DB0">
+            <code>00002DB0</code> — WRITERESOLUTIONSTR
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00002E36">
+            <code>00002E36</code> — SETUPCOMBOORLISTBOX
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000303C">
+            <code>0000303C</code> — GETGPCDATA
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000309C">
+            <code>0000309C</code> — PAPERDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000035DE">
+            <code>000035DE</code> — INITPAPERDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000375C">
+            <code>0000375C</code> — SAVEPAPERDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003890">
+            <code>00003890</code> — CHECKPAPERS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003AE4">
+            <code>00003AE4</code> — CHECKPAGEPROTECTION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003B9A">
+            <code>00003B9A</code> — SETPAPERDEFAULTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003CDC">
+            <code>00003CDC</code> — GETONEUSERPAPERSIZE
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003D44">
+            <code>00003D44</code> — SHOWMINMAXPAPERSIZES
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003DCA">
+            <code>00003DCA</code> — SETCUSTOMPAPERRANGE
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00003E86">
+            <code>00003E86</code> — PAPERSIZEDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="0000428A">
+            <code>0000428A</code> — INITABOUTDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004452">
+            <code>00004452</code> — ABOUTDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004496">
+            <code>00004496</code> — PRNTSELECTDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000044A2">
+            <code>000044A2</code> — PAGEERRDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004592">
+            <code>00004592</code> — GETPAGEERRMSGID
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000045BA">
+            <code>000045BA</code> — CHECKPRINTABLEREGION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004606">
+            <code>00004606</code> — POSITIONCONTROLS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004714">
+            <code>00004714</code> — TESTFORJOBSEPARATION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004780">
+            <code>00004780</code> — MOREPAPERDLGPROC
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004988">
+            <code>00004988</code> — SHOWJOBSEPARATION
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="000049F2">
+            <code>000049F2</code> — INITMOREPAPERDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004B14">
+            <code>00004B14</code> — SAVEMOREPAPERDLG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004BF8">
+            <code>00004BF8</code> — SETMOREPAPERDEFAULTS
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004C52">
+            <code>00004C52</code> — WRITEMSGSTR
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004C9C">
+            <code>00004C9C</code> — PRINTMSG
+            
+          </li>
+        
+          <li data-segment="0000B260" data-offset="00004D16">
+            <code>00004D16</code> — PRINTMSGPARAM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 11: _DJFONT @ 0000B5F0
+      </summary>
+      <ul>
+        
+          <li data-segment="0000B5F0" data-offset="00000000">
+            <code>00000000</code> — DJ_ADJUSTFONTINFO
+            
+          </li>
+        
+          <li data-segment="0000B5F0" data-offset="000000FD">
+            <code>000000FD</code> — GPERMOPTS
+            
+          </li>
+        
+          <li data-segment="0000B5F0" data-offset="00000164">
+            <code>00000164</code> — DJ_PERMUTATERESFONT
+            
+          </li>
+        
+          <li data-segment="0000B5F0" data-offset="00000268">
+            <code>00000268</code> — DJ_PERMUTATESOFTFONT
+            
+          </li>
+        
+          <li data-segment="0000B5F0" data-offset="0000033C">
+            <code>0000033C</code> — DJ_DUPLICATEFONT
+            
+          </li>
+        
+          <li data-segment="0000B5F0" data-offset="000006C0">
+            <code>000006C0</code> — READNUM
+            
+          </li>
+        
+          <li data-segment="0000B5F0" data-offset="00000722">
+            <code>00000722</code> — DJ_GETPERMINFO
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 12: _INSTALL @ 0000BA80
+      </summary>
+      <ul>
+        
+          <li data-segment="0000BA80" data-offset="00000000">
+            <code>00000000</code> — UniDevInstall
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="000000A1">
+            <code>000000A1</code> — GPROFILEENTRIES
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="00000263">
+            <code>00000263</code> — GDMFIELDS
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="00000296">
+            <code>00000296</code> — COPYPROFILESECTION
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="00000352">
+            <code>00000352</code> — GETONEPROFILEINRANGE
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="00000396">
+            <code>00000396</code> — GETONEDWORDPROFILEINRANGE
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="0000044C">
+            <code>0000044C</code> — GETONEPROFILEINRESLIST
+            
+          </li>
+        
+          <li data-segment="0000BA80" data-offset="000004E2">
+            <code>000004E2</code> — GETDEVICEMODE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 13: _TEXTOUT2 @ 0000C190
+      </summary>
+      <ul>
+        
+          <li data-segment="0000C190" data-offset="00000000">
+            <code>00000000</code> — INITPQ
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="0000006A">
+            <code>0000006A</code> — SELECTTEXTCOLOR
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000000B0">
+            <code>000000B0</code> — CREATEPQ
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000000DE">
+            <code>000000DE</code> — MINPQ
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000000E2">
+            <code>000000E2</code> — EXTRACTPQ
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000000E6">
+            <code>000000E6</code> — GETMIN
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000001BC">
+            <code>000001BC</code> — SIZEPQ
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000001F7">
+            <code>000001F7</code> — INSERTPQ
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000002CA">
+            <code>000002CA</code> — UDUNSELECTFONT
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="0000032C">
+            <code>0000032C</code> — INSERTTOS
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="00000544">
+            <code>00000544</code> — CHLINEOUT
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000006A0">
+            <code>000006A0</code> — STROUT
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000006DA">
+            <code>000006DA</code> — TOSOUT
+            
+          </li>
+        
+          <li data-segment="0000C190" data-offset="000009CE">
+            <code>000009CE</code> — OUTPUTLOOKAHEAD
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 14: _DUMP @ 0000CAD0
+      </summary>
+      <ul>
+        
+          <li data-segment="0000CAD0" data-offset="00000000">
+            <code>00000000</code> — DUMP
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="00000252">
+            <code>00000252</code> — BLOCKOUT
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="000004EA">
+            <code>000004EA</code> — TRANSPOSE
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="00000560">
+            <code>00000560</code> — RGBDUMP
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="0000086E">
+            <code>0000086E</code> — UniPixel
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="000008F4">
+            <code>000008F4</code> — ZF0
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="000008F8">
+            <code>000008F8</code> — ZF7
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="000008FE">
+            <code>000008FE</code> — ZF15
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="00000910">
+            <code>00000910</code> — BMTRANSPOSE
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="000009A8">
+            <code>000009A8</code> — BMUNINTERLACE
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="00000A8C">
+            <code>00000A8C</code> — ISVERTBANDWHITE
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="00000ADB">
+            <code>00000ADB</code> — CONVERTCOLOR
+            
+          </li>
+        
+          <li data-segment="0000CAD0" data-offset="00000BEE">
+            <code>00000BEE</code> — RESETADJACENT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 15: _TEXTOUT3 @ 0000CE10
+      </summary>
+      <ul>
+        
+          <li data-segment="0000CE10" data-offset="00000000">
+            <code>00000000</code> — SIMULATEUNDERLINE
+            
+          </li>
+        
+          <li data-segment="0000CE10" data-offset="000002A6">
+            <code>000002A6</code> — DRAWLINES
+            
+          </li>
+        
+          <li data-segment="0000CE10" data-offset="00000382">
+            <code>00000382</code> — MAKEPATTERNRECT
+            
+          </li>
+        
+          <li data-segment="0000CE10" data-offset="0000041C">
+            <code>0000041C</code> — CREATETRANSMATRICES
+            
+          </li>
+        
+          <li data-segment="0000CE10" data-offset="000004E6">
+            <code>000004E6</code> — TRANSFORMPOINT
+            
+          </li>
+        
+          <li data-segment="0000CE10" data-offset="0000053E">
+            <code>0000053E</code> — TRANSFORMRECT
+            
+          </li>
+        
+          <li data-segment="0000CE10" data-offset="000005E6">
+            <code>000005E6</code> — SENDROTATEDTEXT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 16: _PCLETTO @ 0000DDC0
+      </summary>
+      <ul>
+        
+          <li data-segment="0000DDC0" data-offset="00000000">
+            <code>00000000</code> — DOWNLOADTTOUTLINEHEADER
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000019E">
+            <code>0000019E</code> — RGWUNICODE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000003B0">
+            <code>000003B0</code> — DOWNLOADTTOUTLINECHARS
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000005BA">
+            <code>000005BA</code> — DOWNLOADUSERSYMSET
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000006EA">
+            <code>000006EA</code> — SETFONTPITCHANDHEIGHT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000774">
+            <code>00000774</code> — INITFONTDESC
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000079E">
+            <code>0000079E</code> — EXECFONTDESC
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000866">
+            <code>00000866</code> — RELEASEFONT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000874">
+            <code>00000874</code> — CONVERTPCLSPECINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000906">
+            <code>00000906</code> — CONVERTINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000B52">
+            <code>00000B52</code> — INITPCLFILE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000B78">
+            <code>00000B78</code> — ENDFONTDESC
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000BE2">
+            <code>00000BE2</code> — SENDALLGLYPHDATA
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000D0C">
+            <code>00000D0C</code> — OUTPUTGLYPH
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00000DD0">
+            <code>00000DD0</code> — INITBOUNDFILE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000111C">
+            <code>0000111C</code> — INITUNBOUNDFILE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001444">
+            <code>00001444</code> — CALCCHECKSUM
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001474">
+            <code>00001474</code> — OUTPUTSEGCC
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000014B4">
+            <code>000014B4</code> — OUTPUTSEGPA
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000014F6">
+            <code>000014F6</code> — OUTPUTSEGGT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000152C">
+            <code>0000152C</code> — OUTPUTSEGNULL
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001550">
+            <code>00001550</code> — INITTT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001730">
+            <code>00001730</code> — PREPARETTOUT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001978">
+            <code>00001978</code> — GETTTINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001AA0">
+            <code>00001AA0</code> — GETPCLTABLEINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001B0A">
+            <code>00001B0A</code> — RELEASETT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001BA2">
+            <code>00001BA2</code> — GETDEFPITCH
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001C36">
+            <code>00001C36</code> — GETDEFSTYLESTROKE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001D1E">
+            <code>00001D1E</code> — GETDEFXHEIGHT
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001DDE">
+            <code>00001DDE</code> — CALCTABLECHECKSUM
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001E46">
+            <code>00001E46</code> — GETHEADINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001EE6">
+            <code>00001EE6</code> — GETHEADINFOA
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001F04">
+            <code>00001F04</code> — GETMAXPINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00001F22">
+            <code>00001F22</code> — GETNAMEINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00002020">
+            <code>00002020</code> — GETPOSTINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000205C">
+            <code>0000205C</code> — GETOS2INFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000020F8">
+            <code>000020F8</code> — GETOS2INFOA
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00002132">
+            <code>00002132</code> — GETHHEAINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00002150">
+            <code>00002150</code> — GETHMTXINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000021AC">
+            <code>000021AC</code> — GETPCLTINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000227E">
+            <code>0000227E</code> — GETGLYPHYMAX
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000229C">
+            <code>0000229C</code> — GETGLYPHID
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000022CE">
+            <code>000022CE</code> — GETSPECGLYPHID
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00002306">
+            <code>00002306</code> — GETGLYPHDATA
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="000024D8">
+            <code>000024D8</code> — GETCOMPONENTINFO
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="0000257A">
+            <code>0000257A</code> — GETFORMAT4TABLE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00002644">
+            <code>00002644</code> — GETSPECFORMAT4TABLE
+            
+          </li>
+        
+          <li data-segment="0000DDC0" data-offset="00002728">
+            <code>00002728</code> — COMPUTEINDEX4
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 17: _SOFTFONT @ 0000E500
+      </summary>
+      <ul>
+        
+          <li data-segment="0000E500" data-offset="00000000">
+            <code>00000000</code> — INITWINSF
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="000000E8">
+            <code>000000E8</code> — NEXTWINSF
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="000001EC">
+            <code>000001EC</code> — ENDWINSF
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="00000200">
+            <code>00000200</code> — NEXTWINCART
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="000004BC">
+            <code>000004BC</code> — GETNUMCARTFONTS
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="000005D7">
+            <code>000005D7</code> — RGNOTRANS
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="0000062C">
+            <code>0000062C</code> — BUILDCARTFONTFM
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="0000079E">
+            <code>0000079E</code> — BUILDSOFTFONTFM
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="00000984">
+            <code>00000984</code> — CONVERTTOGPCFONTMETRICS
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="00000FA2">
+            <code>00000FA2</code> — CONVERTESCAPESTR
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="00001018">
+            <code>00001018</code> — DOWNLOADSOFTFONT
+            
+          </li>
+        
+          <li data-segment="0000E500" data-offset="000011D2">
+            <code>000011D2</code> — DL_ISFONTDOWN
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 18: _CAPSL @ 0000E750
+      </summary>
+      <ul>
+        
+          <li data-segment="0000E750" data-offset="00000000">
+            <code>00000000</code> — DOWNLOADCAPSLHEADER
+            
+          </li>
+        
+          <li data-segment="0000E750" data-offset="00000114">
+            <code>00000114</code> — DOWNLOADCAPSLCHAR
+            
+          </li>
+        
+          <li data-segment="0000E750" data-offset="000004AC">
+            <code>000004AC</code> — CAPSLSCALEWIDTH
+            
+          </li>
+        
+          <li data-segment="0000E750" data-offset="0000051A">
+            <code>0000051A</code> — CAPSLSENDSCALABLEFONTCMD
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 19: _PPDS @ 0000E9E0
+      </summary>
+      <ul>
+        
+          <li data-segment="0000E9E0" data-offset="00000000">
+            <code>00000000</code> — DOWNLOADPPDSHEADER
+            
+          </li>
+        
+          <li data-segment="0000E9E0" data-offset="00000230">
+            <code>00000230</code> — DOWNLOADPPDSCHAR
+            
+          </li>
+        
+          <li data-segment="0000E9E0" data-offset="0000051A">
+            <code>0000051A</code> — PPDSSCALEWIDTH
+            
+          </li>
+        
+          <li data-segment="0000E9E0" data-offset="0000058E">
+            <code>0000058E</code> — PPDSSENDSCALABLEFONTCMD
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 20: _VECTOR @ 0000F510
+      </summary>
+      <ul>
+        
+          <li data-segment="0000F510" data-offset="00000000">
+            <code>00000000</code> — ATAN
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="000000CA">
+            <code>000000CA</code> — SCALESHORT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00000100">
+            <code>00000100</code> — TRANSPOINT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="0000017E">
+            <code>0000017E</code> — SCALEPOINT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="000001D0">
+            <code>000001D0</code> — TRANSRECT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="000002A4">
+            <code>000002A4</code> — ENTERVECT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="000002D8">
+            <code>000002D8</code> — EXITVECT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="0000030C">
+            <code>0000030C</code> — TRANSSELECT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="0000034C">
+            <code>0000034C</code> — PENSELECT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00000538">
+            <code>00000538</code> — BRUSHSELECT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00000934">
+            <code>00000934</code> — REALIZEVBRUSH
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00000D00">
+            <code>00000D00</code> — DELETEVBRUSH
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00000D5A">
+            <code>00000D5A</code> — REALIZEVPEN
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00000F3C">
+            <code>00000F3C</code> — VECTOROUTPUT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="000016D8">
+            <code>000016D8</code> — VECTOUTPUT
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00001C54">
+            <code>00001C54</code> — GETNULLPEN
+            
+          </li>
+        
+          <li data-segment="0000F510" data-offset="00001D10">
+            <code>00001D10</code> — VECTORBITBLT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 21: DGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — pLocalHeap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — rsrvptrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — pAtomTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000A">
+            <code>0000000A</code> — pStackTop
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000C">
+            <code>0000000C</code> — pStackMin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000E">
+            <code>0000000E</code> — pStackBot
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000AC">
+            <code>000000AC</code> — GDEFINITCMDORDER
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000B8">
+            <code>000000B8</code> — SZNULL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000BA">
+            <code>000000BA</code> — RGCHMODULENAME
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000C2">
+            <code>000000C2</code> — GHINSTUNIDRV
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000C4">
+            <code>000000C4</code> — GCONSTMAP
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001F0">
+            <code>000001F0</code> — GBMPATTERN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000210">
+            <code>00000210</code> — BIT_MASK
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000218">
+            <code>00000218</code> — GCOARSE8X8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000258">
+            <code>00000258</code> — GFINE8X8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000298">
+            <code>00000298</code> — GLINEART8X8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000398">
+            <code>00000398</code> — COLORTRC
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000410">
+            <code>00000410</code> — DWHELPMAP
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000770">
+            <code>00000770</code> — SZSIZEUNIT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000077A">
+            <code>0000077A</code> — SZBRUSH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000780">
+            <code>00000780</code> — SZINTENSITY
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000078A">
+            <code>0000078A</code> — SZBAND
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000790">
+            <code>00000790</code> — SZMEMORY
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000798">
+            <code>00000798</code> — SZMEMRESERVE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007A4">
+            <code>000007A4</code> — SZNUMCARTS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007BA">
+            <code>000007BA</code> — SZCARTRIDGE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007C6">
+            <code>000007C6</code> — SZPAGEPROTECT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007D6">
+            <code>000007D6</code> — SZLEFTMARGIN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007DC">
+            <code>000007DC</code> — SZTOPMARGIN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007E0">
+            <code>000007E0</code> — SZRIGHTMARGIN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007E6">
+            <code>000007E6</code> — SZBOTTOMMARGIN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007EE">
+            <code>000007EE</code> — SZVECTOR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000898">
+            <code>00000898</code> — TANTABLE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C90">
+            <code>00000C90</code> — RESERVED_CHARID_STRING
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000CF8">
+            <code>00000CF8</code> — GTTINTABLETAG
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000D3E">
+            <code>00000D3E</code> — GTTOUTTABLEINFO
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000D90">
+            <code>00000D90</code> — GFNRGB_ENUMOBJ
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000D94">
+            <code>00000D94</code> — RGBBITS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000DC4">
+            <code>00000DC4</code> — GFNRGB_REALIZEOBJECT
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

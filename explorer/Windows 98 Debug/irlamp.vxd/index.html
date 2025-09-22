@@ -1,0 +1,2128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>IRLAMP — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>abort.c</li>
+      
+        <li>clientop.c</li>
+      
+        <li>connect.c</li>
+      
+        <li>cvxdctrl.asm</li>
+      
+        <li>discover.c</li>
+      
+        <li>iasutils.c</li>
+      
+        <li>irlap.c</li>
+      
+        <li>irlmpmux.c</li>
+      
+        <li>lampinit.c</li>
+      
+        <li>laptimer.c</li>
+      
+        <li>list.c</li>
+      
+        <li>lmclient.c</li>
+      
+        <li>lmserver.c</li>
+      
+        <li>muxcb.c</li>
+      
+        <li>muxcon.c</li>
+      
+        <li>muxicc.c</li>
+      
+        <li>muxutils.c</li>
+      
+        <li>primary.c</li>
+      
+        <li>serverop.c</li>
+      
+        <li>smooth.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00003C30
+      </summary>
+      <ul>
+        
+          <li data-segment="00003C30" data-offset="00000000">
+            <code>00000000</code> — IRLAMP_Control
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000003A">
+            <code>0000003A</code> — _IRLAMP_Register
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000040">
+            <code>00000040</code> — _VTD_Get_Date_And_Time
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000046">
+            <code>00000046</code> — _VTD_GetRealTime
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000004C">
+            <code>0000004C</code> — _InitializeW32Event
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000006F">
+            <code>0000006F</code> — _SetW32Event
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000081">
+            <code>00000081</code> — _ClearW32Event
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000008C">
+            <code>0000008C</code> — _ResetW32Event
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000009B">
+            <code>0000009B</code> — _PulseW32Event
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000000AA">
+            <code>000000AA</code> — _WaitSingleObject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000000C4">
+            <code>000000C4</code> — _CreateR0Thread
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000000E5">
+            <code>000000E5</code> — _LM_IoCtl
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000000FE">
+            <code>000000FE</code> — _DebugPrintf
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000011B">
+            <code>0000011B</code> — the_idtr
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000123">
+            <code>00000123</code> — old_desc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000012B">
+            <code>0000012B</code> — our_idt
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000133">
+            <code>00000133</code> — DbgLogSystemMessage
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000160">
+            <code>00000160</code> — _InitThreadExLock
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000001AC">
+            <code>000001AC</code> — _FreeThreadExLock
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000001DC">
+            <code>000001DC</code> — _EnterThreadExLock
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000220">
+            <code>00000220</code> — _LeaveThreadExLock
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000285">
+            <code>00000285</code> — _IrLapInit
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000058D">
+            <code>0000058D</code> — _IRLAP_InitializeWrapper
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000005EB">
+            <code>000005EB</code> — _IRLAP_DeinitializeWrapper
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000061C">
+            <code>0000061C</code> — _IRLAP_AllocatePort
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000709">
+            <code>00000709</code> — _IRLAP_DeallocatePort
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000073B">
+            <code>0000073B</code> — _IRLAP_SendUnitData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000838">
+            <code>00000838</code> — _IRLAP_MediaBusy
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000853">
+            <code>00000853</code> — _IRLAP_Sniff
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000008FB">
+            <code>000008FB</code> — _IrLapSniffTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000096F">
+            <code>0000096F</code> — _IrLapGetDispatchBuffer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000A90">
+            <code>00000A90</code> — _IrLapFinishDispatchBuffer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000B1D">
+            <code>00000B1D</code> — _RecordDebugRx
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000B9D">
+            <code>00000B9D</code> — _IrLapDispatchBuffers
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00000E0F">
+            <code>00000E0F</code> — _CheckAddress
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001004">
+            <code>00001004</code> — _IrLapAllocateTxPacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001146">
+            <code>00001146</code> — _IrLapFreeTxPacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001249">
+            <code>00001249</code> — _IrLapGetProcessPacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000131F">
+            <code>0000131F</code> — _IrLapFinishProcessPacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001345">
+            <code>00001345</code> — _IrLapProcessTxPackets
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001409">
+            <code>00001409</code> — _RecordDebugTx
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001472">
+            <code>00001472</code> — _SendCompleteDpc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001491">
+            <code>00001491</code> — _IRLAPFRM_Send
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000014E4">
+            <code>000014E4</code> — _IrLapErrorHandler
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001536">
+            <code>00001536</code> — _IrLapState_NDM
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001969">
+            <code>00001969</code> — _IrLapMediaChangeHandler
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001980">
+            <code>00001980</code> — _IrLapNextState_NDM
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001A1F">
+            <code>00001A1F</code> — _memCopy
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001A62">
+            <code>00001A62</code> — _zeroMemory
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001A96">
+            <code>00001A96</code> — _IrLapGenerateDeviceAddress
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001ACF">
+            <code>00001ACF</code> — _IrdaRand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001B09">
+            <code>00001B09</code> — _IrLapSendDMRsp
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001B5E">
+            <code>00001B5E</code> — _IrLapSendTest
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001CBE">
+            <code>00001CBE</code> — _IRLAMP_DebugQuery@0
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001CE8">
+            <code>00001CE8</code> — _InitEventMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001D2A">
+            <code>00001D2A</code> — _FreeEventMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001D5A">
+            <code>00001D5A</code> — _EnterEventMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001DB6">
+            <code>00001DB6</code> — _LeaveEventMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001DF2">
+            <code>00001DF2</code> — _RecordDebugEvent
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001E49">
+            <code>00001E49</code> — _PutEventRecord
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001F0E">
+            <code>00001F0E</code> — _GetEventRecord
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00001FBE">
+            <code>00001FBE</code> — _Win32ThreadFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002126">
+            <code>00002126</code> — _IrLapStartTimer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000021AA">
+            <code>000021AA</code> — _IrLapEventProc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000021F6">
+            <code>000021F6</code> — _IrLapTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000224A">
+            <code>0000224A</code> — _IrLapDisableTimers
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000022DC">
+            <code>000022DC</code> — _IrLapTimerHandler
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000232F">
+            <code>0000232F</code> — _MinTimerPeriod
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002396">
+            <code>00002396</code> — _DetermineTimerPeriod
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002435">
+            <code>00002435</code> — _AdjustTimerPeriod
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002479">
+            <code>00002479</code> — _LmStartTimer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000259B">
+            <code>0000259B</code> — _LmCancelTimer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002620">
+            <code>00002620</code> — _IRLAP_DiscoverDevices
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000027B1">
+            <code>000027B1</code> — _IrLapState_QUERY
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000029AC">
+            <code>000029AC</code> — _IrLapState_REPLY
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002B3F">
+            <code>00002B3F</code> — _GetRxDiscoveryInfo
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002C0B">
+            <code>00002C0B</code> — _IrLapSendBOS
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002C95">
+            <code>00002C95</code> — _IrLapRxDiscoveryAction
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00002E74">
+            <code>00002E74</code> — _IrLapSendXIDDiscovery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003018">
+            <code>00003018</code> — _AcquireListsMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000030A2">
+            <code>000030A2</code> — _InitListData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000030E4">
+            <code>000030E4</code> — _FreeListData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003114">
+            <code>00003114</code> — _InitListHead
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003143">
+            <code>00003143</code> — _InsertTailList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003228">
+            <code>00003228</code> — _RemoveHeadList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000331A">
+            <code>0000331A</code> — _RemoveEntryList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000033D6">
+            <code>000033D6</code> — _InsertHeadList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000034C2">
+            <code>000034C2</code> — _IsNodeOnList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003559">
+            <code>00003559</code> — _IsListCircular
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000360C">
+            <code>0000360C</code> — _DbgLogListAction
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003834">
+            <code>00003834</code> — _DbgRecordList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003954">
+            <code>00003954</code> — _IRLAP_Connect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003AE8">
+            <code>00003AE8</code> — _IRLAP_ConnectResp
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003BA1">
+            <code>00003BA1</code> — _IrLapState_SETUP
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00003F14">
+            <code>00003F14</code> — _IrLapState_SSETUP
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004044">
+            <code>00004044</code> — _IrLapState_SETUP2
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000411F">
+            <code>0000411F</code> — _IrLapState_CONN
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000423B">
+            <code>0000423B</code> — _IrLapState_CONN2
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004277">
+            <code>00004277</code> — _DisconnectIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000042F7">
+            <code>000042F7</code> — _IrLapRxConnectAction
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000043E1">
+            <code>000043E1</code> — _InitConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000491C">
+            <code>0000491C</code> — _FinishConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004986">
+            <code>00004986</code> — _InitCurConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000049F7">
+            <code>000049F7</code> — _CalculateCapacity
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004A8A">
+            <code>00004A8A</code> — _ScanBits
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004ADD">
+            <code>00004ADD</code> — _SetConnectionParameters
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004C3F">
+            <code>00004C3F</code> — _AdjustNegotiationParms
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004D7A">
+            <code>00004D7A</code> — _GenRandomConnectAddr
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004E53">
+            <code>00004E53</code> — _GenRandomBackoff
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004E8E">
+            <code>00004E8E</code> — _ParseConnectionParms
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00004F5F">
+            <code>00004F5F</code> — _FillNegParms
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00005066">
+            <code>00005066</code> — _IrLapSendSNRM
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000511E">
+            <code>0000511E</code> — _IrLapSendUA
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000051D8">
+            <code>000051D8</code> — _IRLAP_SendData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000053CE">
+            <code>000053CE</code> — _IRLAP_Disconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000054FA">
+            <code>000054FA</code> — _InitPollTimer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000559E">
+            <code>0000559E</code> — _IrLapSetStateNRM
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00005632">
+            <code>00005632</code> — _IrLapState_NRM
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000056CA">
+            <code>000056CA</code> — _IrLapConState_XMIT
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000059AA">
+            <code>000059AA</code> — _IrLapConState_RECV_P
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00005BEC">
+            <code>00005BEC</code> — _IrLapConState_RECV_S
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00005D9C">
+            <code>00005D9C</code> — _IrLapConState_PCLOSE_P
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00005F41">
+            <code>00005F41</code> — _IrLapConState_PCLOSE_S
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006156">
+            <code>00006156</code> — _IrLapConState_PCLOSE_S2
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000061CA">
+            <code>000061CA</code> — _IrLapConState_ERROR_P
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000062DE">
+            <code>000062DE</code> — _IrLapConState_ERROR_S
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000064A2">
+            <code>000064A2</code> — _NextStateRECV
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000065C5">
+            <code>000065C5</code> — _NextStateXMIT
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006683">
+            <code>00006683</code> — _CheckProgress
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006855">
+            <code>00006855</code> — _CheckRemoteBusy
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006A3C">
+            <code>00006A3C</code> — _Disconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006AF9">
+            <code>00006AF9</code> — _ValidNR
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006BC6">
+            <code>00006BC6</code> — _ProcessNR
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006DCC">
+            <code>00006DCC</code> — _SendData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00006FBF">
+            <code>00006FBF</code> — _PutBackUnackedFrames
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000071C1">
+            <code>000071C1</code> — _SendSelectedFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000072DA">
+            <code>000072DA</code> — _SendIFrames
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000075A7">
+            <code>000075A7</code> — _SendUIFrames
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00007807">
+            <code>00007807</code> — _ReleaseBufferedData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00007A57">
+            <code>00007A57</code> — _ProcessConnectionEnd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00007BF2">
+            <code>00007BF2</code> — _HandleInvalidFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00007DD6">
+            <code>00007DD6</code> — _HandleUFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000080FD">
+            <code>000080FD</code> — _HandleIFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008294">
+            <code>00008294</code> — _HandleSFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000083DD">
+            <code>000083DD</code> — _HandleFTimer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000084CD">
+            <code>000084CD</code> — _Between
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000855A">
+            <code>0000855A</code> — _IrLapSendSUFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000086A8">
+            <code>000086A8</code> — _IrLapSendUAFrame
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000087A0">
+            <code>000087A0</code> — _IrLapFrmInit
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008800">
+            <code>00008800</code> — _LM_AllocateMemory
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008905">
+            <code>00008905</code> — _IRLAMPEX_Init
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008949">
+            <code>00008949</code> — _IRLAMP_Dynamic_Shutdown@0
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000089A4">
+            <code>000089A4</code> — _IRLAMP_Dynamic_Exit@0
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008A4B">
+            <code>00008A4B</code> — _LMI_GetMediaFlag
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008A72">
+            <code>00008A72</code> — _LMI_GetSpeed
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008A91">
+            <code>00008A91</code> — _LMI_SetMaxSpeed
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008AB3">
+            <code>00008AB3</code> — _LmCheckPtr
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008AF0">
+            <code>00008AF0</code> — _IRLAP_AbortPackets
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008CF8">
+            <code>00008CF8</code> — _AbortUnackedList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008E3F">
+            <code>00008E3F</code> — _AbortState
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00008EE8">
+            <code>00008EE8</code> — _LM_Startup
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000090EB">
+            <code>000090EB</code> — _LM_Shutdown
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000915E">
+            <code>0000915E</code> — _LM_InitClient
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000091BB">
+            <code>000091BB</code> — _LM_AddIncoming
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000927D">
+            <code>0000927D</code> — _LM_RemoveIncoming
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009362">
+            <code>00009362</code> — _LM_BindClient
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000958B">
+            <code>0000958B</code> — _LM_UnBindClient
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000975A">
+            <code>0000975A</code> — _LM_DiscoveryReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000981B">
+            <code>0000981B</code> — _LM_ConnectReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009A59">
+            <code>00009A59</code> — _LM_ConnectRsp
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009B3D">
+            <code>00009B3D</code> — _LM_DisconnectReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009CC4">
+            <code>00009CC4</code> — _LM_Idle
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009D44">
+            <code>00009D44</code> — _LM_DeviceStatus
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009DEC">
+            <code>00009DEC</code> — _LM_StatusReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009EA2">
+            <code>00009EA2</code> — _LM_ReceiveData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009EEF">
+            <code>00009EEF</code> — _LM_DataReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009F48">
+            <code>00009F48</code> — _LM_UDataReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00009FA1">
+            <code>00009FA1</code> — _LM_NoConnectDataReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A0B0">
+            <code>0000A0B0</code> — _LM_GetIrLapFrmStats
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A0FC">
+            <code>0000A0FC</code> — _LM_GetDeviceStats
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A183">
+            <code>0000A183</code> — _LM_GetDiscoveryCache
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A1D1">
+            <code>0000A1D1</code> — _LM_SetNickname
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A268">
+            <code>0000A268</code> — _LM_SetHints
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A313">
+            <code>0000A313</code> — _LM_Sniff
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A36A">
+            <code>0000A36A</code> — _LM_PeriodicDiscovery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A482">
+            <code>0000A482</code> — _LM_GetPeriodicDiscoveryPeriod
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A4C8">
+            <code>0000A4C8</code> — _LM_LocalBusy
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A53E">
+            <code>0000A53E</code> — _LM_AbortConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A5CC">
+            <code>0000A5CC</code> — _LmFindCacheConflicts
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A77A">
+            <code>0000A77A</code> — _LmRemoveCacheConflicts
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A887">
+            <code>0000A887</code> — _LmAddDeviceToCache
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A934">
+            <code>0000A934</code> — _LmValidClientForConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000A99B">
+            <code>0000A99B</code> — _LmGiveStatusIndication
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000AA1E">
+            <code>0000AA1E</code> — _LmDisconnectPendingConnections
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000AB2B">
+            <code>0000AB2B</code> — _LmStartIrLapConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000ABB0">
+            <code>0000ABB0</code> — _LmFindIcc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000AC68">
+            <code>0000AC68</code> — _LmFindIdleIcc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000AD38">
+            <code>0000AD38</code> — _LmProcessConnectResponse
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000AE21">
+            <code>0000AE21</code> — _LmProcessConnectCommand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000AFD0">
+            <code>0000AFD0</code> — _LmProcessDisconnectCommand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B0EC">
+            <code>0000B0EC</code> — _LmProcessAccessModeCommand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B1BB">
+            <code>0000B1BB</code> — _LmSendDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B2C7">
+            <code>0000B2C7</code> — _LmSetWatchDogTime
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B2D2">
+            <code>0000B2D2</code> — _LmClearWatchDogTime
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B2DD">
+            <code>0000B2DD</code> — _LmValidatePacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B3BD">
+            <code>0000B3BD</code> — _LmUpdateXidInfo
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B490">
+            <code>0000B490</code> — _LmInitCallbacks
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B540">
+            <code>0000B540</code> — _IrLapDiscoverConf
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B6A1">
+            <code>0000B6A1</code> — _IrLapDiscoverIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B754">
+            <code>0000B754</code> — _IrLapConnectConf
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B7AA">
+            <code>0000B7AA</code> — _IrlapConnectIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000B861">
+            <code>0000B861</code> — _IrLapDisconIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BABD">
+            <code>0000BABD</code> — _IrLapSendHandler
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BBA6">
+            <code>0000BBA6</code> — _IrLapDataIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BE25">
+            <code>0000BE25</code> — _IrLapUnitDataHand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BE50">
+            <code>0000BE50</code> — _IrLapUnitDataIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BF11">
+            <code>0000BF11</code> — _IrLapStatusIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BF7C">
+            <code>0000BF7C</code> — _IrLmpErrorHandler
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000BFD8">
+            <code>0000BFD8</code> — _LmIasInitClient
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C1FE">
+            <code>0000C1FE</code> — _LMIAS_ClientRequest
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C42B">
+            <code>0000C42B</code> — _LmIasClientStatusInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C45B">
+            <code>0000C45B</code> — _LmIasClientConnectCnf
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C4DB">
+            <code>0000C4DB</code> — _LmIasClientDisconnectInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C58D">
+            <code>0000C58D</code> — _LmIasClientDataInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C5DC">
+            <code>0000C5DC</code> — _LmIasClientPacketHandled
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C6A1">
+            <code>0000C6A1</code> — _LmIasClientState_Calling
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C720">
+            <code>0000C720</code> — _LmIasClientState_Outstanding
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C83D">
+            <code>0000C83D</code> — _LmIasClientErrorHandler
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C848">
+            <code>0000C848</code> — _LmIasFindConnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000C900">
+            <code>0000C900</code> — _LmIasStartNewConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000CB1B">
+            <code>0000CB1B</code> — _LmIasFindIdleConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000CC2E">
+            <code>0000CC2E</code> — _LmIasDisconnectPendingConnections
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000CD1C">
+            <code>0000CD1C</code> — _LmIasStartOperation
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000CDF3">
+            <code>0000CDF3</code> — _LmIasFindPendingToken
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000CE8E">
+            <code>0000CE8E</code> — _LmIasEndOperation
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000CEA6">
+            <code>0000CEA6</code> — _LmIasClientSendCommand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D00C">
+            <code>0000D00C</code> — _LmIasSetTokenTime
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D04E">
+            <code>0000D04E</code> — _LmIasProcessWaitingOpers
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D116">
+            <code>0000D116</code> — _LmIasClientTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D1CE">
+            <code>0000D1CE</code> — _LmIasClientDiscTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D22E">
+            <code>0000D22E</code> — _LmIasClientWdTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D2C8">
+            <code>0000D2C8</code> — _LmIasSendAck
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D382">
+            <code>0000D382</code> — _LmIasClientSendDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D3D4">
+            <code>0000D3D4</code> — _LmIasClientDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D524">
+            <code>0000D524</code> — _LMIAS_RegisterObject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D5F2">
+            <code>0000D5F2</code> — _LMIAS_DeregisterObject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D739">
+            <code>0000D739</code> — _LMIAS_SetDeviceName
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D7B7">
+            <code>0000D7B7</code> — _LmIasInitServer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000D9E9">
+            <code>0000D9E9</code> — _LmIasServerConnectInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DAFF">
+            <code>0000DAFF</code> — _LmIasServerDisconnectInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DB2C">
+            <code>0000DB2C</code> — _LmIasServerDataInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DBC9">
+            <code>0000DBC9</code> — _LmIasServerPacketHandled
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DC7D">
+            <code>0000DC7D</code> — _LmIasServerErrorHnd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DC88">
+            <code>0000DC88</code> — _LmIasServerState_Receiving
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DE37">
+            <code>0000DE37</code> — _LmIasServerState_Returning
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DEB3">
+            <code>0000DEB3</code> — _LmIasUpdateHints
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000DF8A">
+            <code>0000DF8A</code> — _LmIasServerFindConnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E04E">
+            <code>0000E04E</code> — _LmIasServerSendDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E082">
+            <code>0000E082</code> — _LmIasServerDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E0AD">
+            <code>0000E0AD</code> — _LmIasServerSendAck
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E135">
+            <code>0000E135</code> — _LmIasServerSendReject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E1C8">
+            <code>0000E1C8</code> — _LmIasServerAddObject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E276">
+            <code>0000E276</code> — _LmIasServerRemoveObject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E29F">
+            <code>0000E29F</code> — _LmIasServerStartQuery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E2C0">
+            <code>0000E2C0</code> — _LmIasServerFinishQuery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E3B0">
+            <code>0000E3B0</code> — _LmIasServerValidateObject
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E574">
+            <code>0000E574</code> — _LmIasServerDetermineCommand
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E62E">
+            <code>0000E62E</code> — _ProcessCommandNull
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E639">
+            <code>0000E639</code> — _ProcessResultNull
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E644">
+            <code>0000E644</code> — _ProcessCommandGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E7F7">
+            <code>0000E7F7</code> — _ProcessResultGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E8F8">
+            <code>0000E8F8</code> — _GetNumObjectsGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000E95B">
+            <code>0000E95B</code> — _FillTxBufferGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EA77">
+            <code>0000EA77</code> — _SendTxBufferGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EAF3">
+            <code>0000EAF3</code> — _StoreIasAttributeValue
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EC07">
+            <code>0000EC07</code> — _IasAttribValueSize
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EC92">
+            <code>0000EC92</code> — _FindNextResultGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EDB4">
+            <code>0000EDB4</code> — _FindObjectViaClassName
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EE26">
+            <code>0000EE26</code> — _FindAttribViaName
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EEA8">
+            <code>0000EEA8</code> — _StrnCmp
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000EF29">
+            <code>0000EF29</code> — _SendServerTxBuffer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F01C">
+            <code>0000F01C</code> — _LmIasValidateClientToken
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F447">
+            <code>0000F447</code> — _ProcessAttribValue
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F722">
+            <code>0000F722</code> — _ProcessEndGVBC
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F79F">
+            <code>0000F79F</code> — _ProcessRetCode
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F7F9">
+            <code>0000F7F9</code> — _TokenCallBack
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F854">
+            <code>0000F854</code> — _MuxCon_ValidateActiveConnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F8DE">
+            <code>0000F8DE</code> — _MuxCon_ValidForReq
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000F97E">
+            <code>0000F97E</code> — _MuxCon_ValidForRsp
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FA15">
+            <code>0000FA15</code> — _MuxCon_ValidForDisc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FAB8">
+            <code>0000FAB8</code> — _MuxCon_SendConnectPacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FB12">
+            <code>0000FB12</code> — _MuxCon_SendResponsePacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FB60">
+            <code>0000FB60</code> — _MuxCon_Init
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FBDC">
+            <code>0000FBDC</code> — _MuxCon_MakeDisconnected
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FC81">
+            <code>0000FC81</code> — _MuxCon_MakeActive
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FCD3">
+            <code>0000FCD3</code> — _MuxCon_MakeIncoming
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FD64">
+            <code>0000FD64</code> — _MuxCon_MakePending
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FDE9">
+            <code>0000FDE9</code> — _MuxCon_InitConPacket
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FE55">
+            <code>0000FE55</code> — _MuxCon_SendData
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FF30">
+            <code>0000FF30</code> — _MuxCon_Idle
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0000FF80">
+            <code>0000FF80</code> — _MuxCon_CheckDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001001A">
+            <code>0001001A</code> — _MuxCon_CheckPendingDisc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010053">
+            <code>00010053</code> — _MuxCon_Disconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010170">
+            <code>00010170</code> — _MuxIcc_Init
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000101B4">
+            <code>000101B4</code> — _MuxIcc_Allocate
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010234">
+            <code>00010234</code> — _MuxIcc_Free
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000102D9">
+            <code>000102D9</code> — _MuxIcc_MakePending
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001036E">
+            <code>0001036E</code> — _MuxIcc_MakeActive
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010496">
+            <code>00010496</code> — _MuxIcc_MakeClosing
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001059A">
+            <code>0001059A</code> — _MuxIcc_MakeClosed
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000106E6">
+            <code>000106E6</code> — _MuxIcc_ChangeToActive
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001078B">
+            <code>0001078B</code> — _MuxIcc_StartConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010835">
+            <code>00010835</code> — _MuxIcc_ProcessPendingConnects
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010923">
+            <code>00010923</code> — _MuxIcc_FindConnection
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000109DF">
+            <code>000109DF</code> — _MuxIcc_DisconnectList
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010A34">
+            <code>00010A34</code> — _MuxIcc_Disconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010AC2">
+            <code>00010AC2</code> — _MuxIcc_AddIncomingConnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010B45">
+            <code>00010B45</code> — _MuxIcc_AddPendingConnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010B82">
+            <code>00010B82</code> — _MuxIcc_AllocateIncoming
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010C10">
+            <code>00010C10</code> — _MuxIcc_RemoveConnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010C4E">
+            <code>00010C4E</code> — _MuxIcc_StatusIndic
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010D3F">
+            <code>00010D3F</code> — _MuxIcc_CheckForPossibleIcc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010DA4">
+            <code>00010DA4</code> — _MuxIcc_CheckClosing
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00010F4C">
+            <code>00010F4C</code> — _MuxIcc_CheckDisconnect
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011015">
+            <code>00011015</code> — _MuxIcc_DiscTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011120">
+            <code>00011120</code> — _LmSmoothCache
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011219">
+            <code>00011219</code> — _LmAddDeviceToSmoothCache
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011358">
+            <code>00011358</code> — _LmRemoveFailedItems
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000114F7">
+            <code>000114F7</code> — _LmDiscoveryTimerFunc
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001156A">
+            <code>0001156A</code> — _LmPerformPeriodicDiscovery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011610">
+            <code>00011610</code> — _LmPerformDiscovery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001175A">
+            <code>0001175A</code> — _LmSmoothStatusInd
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000117A9">
+            <code>000117A9</code> — _LmStartPinging
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000118AC">
+            <code>000118AC</code> — _LmProcessPingResult
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011A98">
+            <code>00011A98</code> — _LmConfirmDiscovery
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011B3A">
+            <code>00011B3A</code> — _LmStartPeriodicDiscoveryTimer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011BA9">
+            <code>00011BA9</code> — _LmUpdateDiscoveryCache
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011C0B">
+            <code>00011C0B</code> — _LmIndicateCacheChange
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011C82">
+            <code>00011C82</code> — _LmDiscoveryConfirm
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011D08">
+            <code>00011D08</code> — IRLAMPEX_DDB
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011E60">
+            <code>00011E60</code> — _IrLap
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011E6C">
+            <code>00011E6C</code> — _ThreadExLock
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011E70">
+            <code>00011E70</code> — _RXBack
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00011E74">
+            <code>00011E74</code> — _TXBack
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000120F4">
+            <code>000120F4</code> — _doRetroactiveShutdown
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000120F8">
+            <code>000120F8</code> — _Win32ThreadFuncActive
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000120FC">
+            <code>000120FC</code> — _EventMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00012100">
+            <code>00012100</code> — _EQFront
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00012104">
+            <code>00012104</code> — _EQBack
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00012108">
+            <code>00012108</code> — _DebugEQBack
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00012260">
+            <code>00012260</code> — _slotTable
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001234C">
+            <code>0001234C</code> — _allListsMutex
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00012354">
+            <code>00012354</code> — _DbgListLog
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00016354">
+            <code>00016354</code> — _DbgListRecords
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000167F8">
+            <code>000167F8</code> — _ParmIdentifierTable
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00016800">
+            <code>00016800</code> — _DefaultNegTable
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00016C90">
+            <code>00016C90</code> — _PollTime2Table
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00016CA0">
+            <code>00016CA0</code> — _PollTime3Table
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017564">
+            <code>00017564</code> — _IrLapFrmCap
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017568">
+            <code>00017568</code> — _IrLapFrmWrap
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001756C">
+            <code>0001756C</code> — _IrLapFrmParm
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017570">
+            <code>00017570</code> — _IrLampParm
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017574">
+            <code>00017574</code> — _NumIccs
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001757C">
+            <code>0001757C</code> — _IrLampWrap
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017604">
+            <code>00017604</code> — _IoCtlTable
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017610">
+            <code>00017610</code> — _IoCtlTableSize
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017788">
+            <code>00017788</code> — _IrLmp
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001778C">
+            <code>0001778C</code> — _IrLmpInitialized
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017E6C">
+            <code>00017E6C</code> — _IasClient
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017E74">
+            <code>00017E74</code> — _IasClientNoConCB
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00017E94">
+            <code>00017E94</code> — _IasClientCB
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000185D4">
+            <code>000185D4</code> — _IasServer
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000185DC">
+            <code>000185DC</code> — _IasServerNoConCB
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="000185FC">
+            <code>000185FC</code> — _IasServerCB
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00018D04">
+            <code>00018D04</code> — _IrlapEventNames
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00018D68">
+            <code>00018D68</code> — _dwsNumPackets
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00018D6C">
+            <code>00018D6C</code> — _EventQueue
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00018E6C">
+            <code>00018E6C</code> — _stServbuff
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00018E8C">
+            <code>00018E8C</code> — _DebugEventQueue
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00019E8C">
+            <code>00019E8C</code> — _ThreadExRef
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="00019E90">
+            <code>00019E90</code> — _DebugRxQueue
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001AE90">
+            <code>0001AE90</code> — _DebugTxQueue
+            
+          </li>
+        
+          <li data-segment="00003C30" data-offset="0001BE90">
+            <code>0001BE90</code> — _fThreadEnable
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IGROUP @ 00003D00
+      </summary>
+      <ul>
+        
+          <li data-segment="00003D00" data-offset="00000000">
+            <code>00000000</code> — IRLAMP_Dynamic_Init
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000020">
+            <code>00000020</code> — _IRLAMPEX_DynamicInit
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _RARE @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _CCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — _CCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — _CCODE__Trace_Out_Service@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000018">
+            <code>00000018</code> — _CCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000002C">
+            <code>0000002C</code> — _CCODE_Schedule_Global_Event@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000044">
+            <code>00000044</code> — _CCODE_Get_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000050">
+            <code>00000050</code> — _CCODE_Set_Global_Time_Out@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000006C">
+            <code>0000006C</code> — _CCODE_Cancel_Time_Out@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000007C">
+            <code>0000007C</code> — _CCODE_Get_Last_Updated_System_Time
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000084">
+            <code>00000084</code> — _CCODE__CreateMutex
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000008C">
+            <code>0000008C</code> — _CCODE__DestroyMutex
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000094">
+            <code>00000094</code> — _CCODE__EnterMutex
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000009C">
+            <code>0000009C</code> — _CCODE__LeaveMutex
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000A4">
+            <code>000000A4</code> — _CCODE__lmemcpy
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000AC">
+            <code>000000AC</code> — _CCODE_Call_Restricted_Event@24
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>KSUSER — Windows 98SE Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .rdata @ 000000F0
+      </summary>
+      <ul>
+        
+          <li data-segment="000000F0" data-offset="00000180">
+            <code>00000180</code> — _KsiCreateObjectType@20
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="0000024B">
+            <code>0000024B</code> — _KsCreateAllocator@12
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="00000269">
+            <code>00000269</code> — _KsCreateClock@12
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="00000287">
+            <code>00000287</code> — _KsCreatePin@16
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="000002A4">
+            <code>000002A4</code> — _KsCreateTopologyNode@16
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="000002C1">
+            <code>000002C1</code> — _DllInstanceInit@12
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="000002D0">
+            <code>000002D0</code> — _wcscpy
+            
+          </li>
+        
+          <li data-segment="000000F0" data-offset="00000300">
+            <code>00000300</code> — _wcslen
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .idata$2 @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_NTDLL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_KERNEL32
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000028">
+            <code>00000028</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000058">
+            <code>00000058</code> — __imp__GetProcessHeap@0
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000005C">
+            <code>0000005C</code> — __imp__HeapAlloc@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000060">
+            <code>00000060</code> — __imp__HeapFree@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000064">
+            <code>00000064</code> — \177KERNEL32_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000068">
+            <code>00000068</code> — __imp__NtCreateFile@44
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000006C">
+            <code>0000006C</code> — __imp__RtlNtStatusToDosError@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000070">
+            <code>00000070</code> — \177NTDLL_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

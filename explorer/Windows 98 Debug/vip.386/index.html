@@ -1,0 +1,2740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VIP — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>/f/ndis31/mac/common/ndisdbg.asm</li>
+      
+        <li>/f/ndis31/mac/common/ndisos.asm</li>
+      
+        <li>/f/ndis31/mac/common/ndisprot.asm</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/arp.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/chicfg.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/icmp.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/igmp.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/info.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/init.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/iploop.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/iprcv.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/iproute.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/ipxmit.c</li>
+      
+        <li>../../../../../../net/vxd/tcpip/ip/vip.asm</li>
+      
+        <li>/../../../../../../net/vxd/tcpip/vtdi/cxport.asm</li>
+      
+        <li>iprcv.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 0000A550
+      </summary>
+      <ul>
+        
+          <li data-segment="0000A550" data-offset="00000000">
+            <code>00000000</code> — _CTEStartTimer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000006">
+            <code>00000006</code> — _CTEStopTimer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000000C">
+            <code>0000000C</code> — _CTESystemUpTime
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000012">
+            <code>00000012</code> — __ICTEGetLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000018">
+            <code>00000018</code> — __ICTEFreeLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000001E">
+            <code>0000001E</code> — _CTEScheduleEvent
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000024">
+            <code>00000024</code> — _CTEScheduleEvent_N
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000002A">
+            <code>0000002A</code> — _CTECancelEvent
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000030">
+            <code>00000030</code> — _CTEAllocMem
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000074">
+            <code>00000074</code> — _CTEFreeMem
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000008C">
+            <code>0000008C</code> — _CTERefillMem
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000092">
+            <code>00000092</code> — _CTEBlock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000098">
+            <code>00000098</code> — _CTEBlock1
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000009E">
+            <code>0000009E</code> — _CTESignal
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000000A4">
+            <code>000000A4</code> — __CTECheckMem
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000000AA">
+            <code>000000AA</code> — _CTEPrint
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000000BC">
+            <code>000000BC</code> — _CTEPrintNum
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000105">
+            <code>00000105</code> — _CTEPrintCRLF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000115">
+            <code>00000115</code> — _CTEUnload
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000120">
+            <code>00000120</code> — _CTESetLoadNotifyProc
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000012B">
+            <code>0000012B</code> — _CTESetUnloadNotifyProc
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000013E">
+            <code>0000013E</code> — VIP_Get_Version
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000014C">
+            <code>0000014C</code> — _GetTime
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000001C2">
+            <code>000001C2</code> — _RequestDHCPAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000001D7">
+            <code>000001D7</code> — VIP_Register_Addr_Change
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000001EA">
+            <code>000001EA</code> — VIP_Register_Addr_ChangeEx
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000001FD">
+            <code>000001FD</code> — VIP_Register_Rt_Change_Handler
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000210">
+            <code>00000210</code> — VIP_Register_Interface_Change
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000021D">
+            <code>0000021D</code> — _NotifyOfUnload
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000233">
+            <code>00000233</code> — RefillEvent
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000243">
+            <code>00000243</code> — _RefillReasmMem
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000270">
+            <code>00000270</code> — VIP_Get_Net_Info
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000283">
+            <code>00000283</code> — VIP_Register_Protocol
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000296">
+            <code>00000296</code> — VIP_Register_Driver
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000002A6">
+            <code>000002A6</code> — VIP_Set_Addr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000002B9">
+            <code>000002B9</code> — VIP_Set_Addr_Ex
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000002CC">
+            <code>000002CC</code> — VIP_Set_DHCP_Interface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000002DF">
+            <code>000002DF</code> — VIP_LookupRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000002F2">
+            <code>000002F2</code> — VIP_IP_Add_Interface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000305">
+            <code>00000305</code> — VIP_IP_Delete_Interface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000312">
+            <code>00000312</code> — ConvertPtr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000348">
+            <code>00000348</code> — PingDone
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000003D2">
+            <code>000003D2</code> — VIP_V86_API
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000004C8">
+            <code>000004C8</code> — VIP_ICMP_Echo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000004D5">
+            <code>000004D5</code> — _DisplayPopup
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000004D6">
+            <code>000004D6</code> — _NotifyConflictProc
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000004EC">
+            <code>000004EC</code> — _DisplayConflictPopup
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000054B">
+            <code>0000054B</code> — _EnableInts
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000551">
+            <code>00000551</code> — VIP_Terminate
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000055D">
+            <code>0000055D</code> — VIP_Device_Exit
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000055F">
+            <code>0000055F</code> — VIP_Control
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000582">
+            <code>00000582</code> — VIP_DeviceIoControl
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000648">
+            <code>00000648</code> — _SetDHCPNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000006CC">
+            <code>000006CC</code> — _IsDHCPInterface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000006E4">
+            <code>000006E4</code> — _CloseNets
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000704">
+            <code>00000704</code> — _IPRegisterProtocol
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000007B0">
+            <code>000007B0</code> — _IPSetMCastAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000080C">
+            <code>0000080C</code> — _IPGetAddrType
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000081C">
+            <code>0000081C</code> — _IPGetLocalMTU
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000868">
+            <code>00000868</code> — _IPUpdateRcvdOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000AA8">
+            <code>00000AA8</code> — _ValidRouteOption
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000ADC">
+            <code>00000ADC</code> — _IPInitOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000B08">
+            <code>00000B08</code> — _IPCopyOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000ED8">
+            <code>00000ED8</code> — _IPFreeOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000F08">
+            <code>00000F08</code> — _IPGetInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00000FAC">
+            <code>00000FAC</code> — _IPTimeout
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001090">
+            <code>00001090</code> — _IPpSetNTEAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000012A8">
+            <code>000012A8</code> — _IPSetNTEAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000131C">
+            <code>0000131C</code> — _IPSetNTEAddrEx
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001394">
+            <code>00001394</code> — _InitNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000141C">
+            <code>0000141C</code> — _InitInterface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000016A4">
+            <code>000016A4</code> — _RegisterAddrNotify
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001700">
+            <code>00001700</code> — _RegisterAddrNotifyEx
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001740">
+            <code>00001740</code> — _RegisterRtNotify
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001784">
+            <code>00001784</code> — _NotifyInterfaceChange
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000017B4">
+            <code>000017B4</code> — _RegisterInterfaceNotify
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000017F4">
+            <code>000017F4</code> — _NotifyAddrChange
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001834">
+            <code>00001834</code> — _RtChangeNotify
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001860">
+            <code>00001860</code> — _VipApiHandler
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001AF0">
+            <code>00001AF0</code> — _IPAddNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00001D48">
+            <code>00001D48</code> — _IPAddInterface@24
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000022A8">
+            <code>000022A8</code> — _IPDelNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002424">
+            <code>00002424</code> — _IPDeleteDynamicNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000024F4">
+            <code>000024F4</code> — _IPGetNTEInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002590">
+            <code>00002590</code> — _IPDelInterface@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000282C">
+            <code>0000282C</code> — _DoNDISRequest
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000028C0">
+            <code>000028C0</code> — _FreeARPBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002920">
+            <code>00002920</code> — _GrowARPHeaders
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002A74">
+            <code>00002A74</code> — _GetARPBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002BAC">
+            <code>00002BAC</code> — _BitSwap
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002BE4">
+            <code>00002BE4</code> — _SendARPPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00002D48">
+            <code>00002D48</code> — _SendARPRequest
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003018">
+            <code>00003018</code> — _SendARPReply
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000322C">
+            <code>0000322C</code> — _ARPRemoveRCE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003290">
+            <code>00003290</code> — _ARPLookup
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000032E4">
+            <code>000032E4</code> — _IsBCastOnIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000337C">
+            <code>0000337C</code> — _ARPSendBCast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003690">
+            <code>00003690</code> — _ARPSendData
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000038E4">
+            <code>000038E4</code> — _CreateARPTableEntry
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003A28">
+            <code>00003A28</code> — _ARPTransmit@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003C18">
+            <code>00003C18</code> — _RemoveARPTableEntry
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003C40">
+            <code>00003C40</code> — _ARPXferData@28
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003C78">
+            <code>00003C78</code> — _ARPClose@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003D20">
+            <code>00003D20</code> — _ARPInvalidate@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00003DAC">
+            <code>00003DAC</code> — _ARPSetMCastList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00004004">
+            <code>00004004</code> — _ARPFindMCast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000402C">
+            <code>0000402C</code> — _ARPDelMCast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000040F0">
+            <code>000040F0</code> — _ARPAddMCast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00004208">
+            <code>00004208</code> — _ARPAddAddr@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000043BC">
+            <code>000043BC</code> — _ARPDeleteAddr@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000044F4">
+            <code>000044F4</code> — _ARPTimeout
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000047CC">
+            <code>000047CC</code> — _IsLocalAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00004820">
+            <code>00004820</code> — _ARPLocalAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000048EC">
+            <code>000048EC</code> — _DisplayConflictProc
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000049F0">
+            <code>000049F0</code> — _HandleARPPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000503C">
+            <code>0000503C</code> — _InitAdapter
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000513C">
+            <code>0000513C</code> — _ARPOAComplete@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005158">
+            <code>00005158</code> — _ARPCAComplete@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005174">
+            <code>00005174</code> — _ARPSendComplete@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005230">
+            <code>00005230</code> — _ARPTDComplete@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000524C">
+            <code>0000524C</code> — _ARPResetComplete@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005250">
+            <code>00005250</code> — _ARPRequestComplete@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000526C">
+            <code>0000526C</code> — _ARPRcv@28
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000053B0">
+            <code>000053B0</code> — _ARPRcvComplete@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000053B8">
+            <code>000053B8</code> — _ARPStatus@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000053D8">
+            <code>000053D8</code> — _ARPStatusComplete@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000053DC">
+            <code>000053DC</code> — _ARPReadNext
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005500">
+            <code>00005500</code> — _ARPValidateContext
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005584">
+            <code>00005584</code> — _ARPQueryInfo@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005B08">
+            <code>00005B08</code> — _ARPSetInfo@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00005FD8">
+            <code>00005FD8</code> — _FreeARPInterface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006150">
+            <code>00006150</code> — _ARPOpen@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006160">
+            <code>00006160</code> — _ARPGetEList@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006204">
+            <code>00006204</code> — _ARPRegister
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006788">
+            <code>00006788</code> — _ARPDynRegister@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000067A8">
+            <code>000067A8</code> — _ARPBindAdapter@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000068FC">
+            <code>000068FC</code> — _ARPUnbindAdapter@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000069EC">
+            <code>000069EC</code> — _ARPUnloadProtocol@0
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006A1C">
+            <code>00006A1C</code> — _FindUserRcv
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006A84">
+            <code>00006A84</code> — _IPRcvComplete@0
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006AAC">
+            <code>00006AAC</code> — _FindRH
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006AF8">
+            <code>00006AF8</code> — _ParseRcvdOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006BCC">
+            <code>00006BCC</code> — _BCastRcv
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006C5C">
+            <code>00006C5C</code> — _DeliverToUser
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006D4C">
+            <code>00006D4C</code> — _FreeRH
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00006D78">
+            <code>00006D78</code> — _ReassembleFragment
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000071E8">
+            <code>000071E8</code> — _RATDComplete
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007274">
+            <code>00007274</code> — _IPReassemble
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000746C">
+            <code>0000746C</code> — _CheckLocalOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000074FC">
+            <code>000074FC</code> — _TDUserRcv
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007600">
+            <code>00007600</code> — _IPRcv@28
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007A04">
+            <code>00007A04</code> — _IPTDComplete@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007A50">
+            <code>00007A50</code> — _FreeIPHdrBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007A64">
+            <code>00007A64</code> — _FreeIPBufferChain
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007A90">
+            <code>00007A90</code> — _FreeIPPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007C34">
+            <code>00007C34</code> — _GrowIPPacketList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007D4C">
+            <code>00007D4C</code> — _GrowHdrBufList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007E7C">
+            <code>00007E7C</code> — _GetIPPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007E98">
+            <code>00007E98</code> — _GetIPHdrBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007EB8">
+            <code>00007EB8</code> — _GetIPHeader
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007EF8">
+            <code>00007EF8</code> — _ReferenceBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007F34">
+            <code>00007F34</code> — _IPSendComplete@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00007FDC">
+            <code>00007FDC</code> — _xsum
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00008028">
+            <code>00008028</code> — _SendIPPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00008130">
+            <code>00008130</code> — _SendDHCPPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00008178">
+            <code>00008178</code> — _IPCopyBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00008220">
+            <code>00008220</code> — _IPFragment
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000085A8">
+            <code>000085A8</code> — _UpdateRouteOption
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000085DC">
+            <code>000085DC</code> — _UpdateOptions
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00008764">
+            <code>00008764</code> — _SendIPBCast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00008C98">
+            <code>00008C98</code> — _IPTransmit
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009490">
+            <code>00009490</code> — _FindULStatus
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000094DC">
+            <code>000094DC</code> — _ULMTUNotify
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000955C">
+            <code>0000955C</code> — _IPULUnloadNotify
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009598">
+            <code>00009598</code> — _IPStatus@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000968C">
+            <code>0000968C</code> — _DummyXmit@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000096C4">
+            <code>000096C4</code> — _DummyXfer@28
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009700">
+            <code>00009700</code> — _DummyClose@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009738">
+            <code>00009738</code> — _DummyInvalidate@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009770">
+            <code>00009770</code> — _DummyQInfo@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000097AC">
+            <code>000097AC</code> — _DummySetInfo@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000097E8">
+            <code>000097E8</code> — _DummyAddAddr@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009818">
+            <code>00009818</code> — _DummyDelAddr@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009854">
+            <code>00009854</code> — _DummyGetEList@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000988C">
+            <code>0000988C</code> — _DerefIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000098E0">
+            <code>000098E0</code> — _LockedDerefIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009930">
+            <code>00009930</code> — _GetHashMask
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009964">
+            <code>00009964</code> — _AddrOnIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009994">
+            <code>00009994</code> — _BestNTEForIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009A10">
+            <code>00009A10</code> — _IsBCastOnNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009B10">
+            <code>00009B10</code> — _InvalidSourceAddress
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009BB0">
+            <code>00009BB0</code> — _FlushATCache
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009BDC">
+            <code>00009BDC</code> — _GetAddrType
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009D08">
+            <code>00009D08</code> — _IPHash
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009D28">
+            <code>00009D28</code> — _GetLocalNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009E5C">
+            <code>00009E5C</code> — _FindSpecificRTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009EEC">
+            <code>00009EEC</code> — _IsRouteICMP
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00009F34">
+            <code>00009F34</code> — _FindRTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A010">
+            <code>0000A010</code> — _ValidateDefaultGWs
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A074">
+            <code>0000A074</code> — _InvalidateRCEChain
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A16C">
+            <code>0000A16C</code> — _FindValidIFForRTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A230">
+            <code>0000A230</code> — _LookupRTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A2C0">
+            <code>0000A2C0</code> — _GetRouteContext
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A30C">
+            <code>0000A30C</code> — _FindInsertPoint
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A35C">
+            <code>0000A35C</code> — _LookupNextHop
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A3E4">
+            <code>0000A3E4</code> — _LookupNextHopWithBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A4A4">
+            <code>0000A4A4</code> — _RTReadNext
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A5B8">
+            <code>0000A5B8</code> — _RTRead
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A6C4">
+            <code>0000A6C4</code> — _LookupRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A6FC">
+            <code>0000A6FC</code> — _RTValidateContext
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A784">
+            <code>0000A784</code> — _DeleteRTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A7D8">
+            <code>0000A7D8</code> — _DeleteRTEOnIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A7F8">
+            <code>0000A7F8</code> — _InvalidateRCEOnIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A814">
+            <code>0000A814</code> — _SetMTUOnIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A830">
+            <code>0000A830</code> — _SetMTUToAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A850">
+            <code>0000A850</code> — _RTWalk
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000A8C4">
+            <code>0000A8C4</code> — _AttachRCEToRTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000AB9C">
+            <code>0000AB9C</code> — _IPGetPInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000AC0C">
+            <code>0000AC0C</code> — _IPCheckRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000ADF4">
+            <code>0000ADF4</code> — _FindRCE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000AE48">
+            <code>0000AE48</code> — _OpenRCE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B0B8">
+            <code>0000B0B8</code> — _CloseRCE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B210">
+            <code>0000B210</code> — _LockedAddRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B66C">
+            <code>0000B66C</code> — _AddRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B6F0">
+            <code>0000B6F0</code> — _DeleteRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B79C">
+            <code>0000B79C</code> — _Redirect
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B98C">
+            <code>0000B98C</code> — _GetRaisedMTU
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B9B4">
+            <code>0000B9B4</code> — _GuessNewMTU
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000B9D8">
+            <code>0000B9D8</code> — _RouteFragNeeded
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000BB04">
+            <code>0000BB04</code> — _IPRouteTimeout
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000BCB0">
+            <code>0000BCB0</code> — _FreeFWPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000BD80">
+            <code>0000BD80</code> — _GrowFWPackets
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000BF1C">
+            <code>0000BF1C</code> — _GrowFWBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C04C">
+            <code>0000C04C</code> — _FWSendComplete
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C1B0">
+            <code>0000C1B0</code> — _TransmitFWPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C30C">
+            <code>0000C30C</code> — _SendFWPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C3CC">
+            <code>0000C3CC</code> — _RemoveRandomFWPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C4B8">
+            <code>0000C4B8</code> — _GetFWBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C74C">
+            <code>0000C74C</code> — _GetFWPacket
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000C808">
+            <code>0000C808</code> — _IPForward
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000CE84">
+            <code>0000CE84</code> — _AddNTERoutes
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000CFD8">
+            <code>0000CFD8</code> — _InitNTERouting
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D0AC">
+            <code>0000D0AC</code> — _UpdateICMPStats
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D164">
+            <code>0000D164</code> — _GetICMPBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D280">
+            <code>0000D280</code> — _FreeICMPBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D334">
+            <code>0000D334</code> — _DeleteEC
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D38C">
+            <code>0000D38C</code> — _ICMPSendComplete
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D3D0">
+            <code>0000D3D0</code> — _XsumBufChain
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D42C">
+            <code>0000D42C</code> — _SendEcho
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D68C">
+            <code>0000D68C</code> — _SendICMPMsg
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D780">
+            <code>0000D780</code> — _SendICMPErr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D868">
+            <code>0000D868</code> — _ICMPTimer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D8F4">
+            <code>0000D8F4</code> — _CompleteEcho
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D940">
+            <code>0000D940</code> — _ICMPStatus
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000D988">
+            <code>0000D988</code> — _ICMPMapStatus
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000DA48">
+            <code>0000DA48</code> — _SendRouterSolicitation
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000DA6C">
+            <code>0000DA6C</code> — _ICMPRouterTimer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000DB44">
+            <code>0000DB44</code> — _ProcessRouterAdvertisement
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000DD00">
+            <code>0000DD00</code> — _ICMPRcv
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000E1C0">
+            <code>0000E1C0</code> — _ICMPEcho
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000E428">
+            <code>0000E428</code> — _ICMPEchoRequest
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000E53C">
+            <code>0000E53C</code> — _ICMPEchoComplete
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000E764">
+            <code>0000E764</code> — _VXDEchoComplete
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000E798">
+            <code>0000E798</code> — _VXDEchoRequest
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000E854">
+            <code>0000E854</code> — _LoopXmitRtn
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EA20">
+            <code>0000EA20</code> — _LoopXmit@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EAC0">
+            <code>0000EAC0</code> — _LoopXfer@28
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EC1C">
+            <code>0000EC1C</code> — _LoopClose@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EC20">
+            <code>0000EC20</code> — _LoopInvalidate@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EC24">
+            <code>0000EC24</code> — _LoopQInfo@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000ED70">
+            <code>0000ED70</code> — _LoopSetInfo@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EDF0">
+            <code>0000EDF0</code> — _LoopAddAddr@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EDF8">
+            <code>0000EDF8</code> — _LoopDelAddr@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EE00">
+            <code>0000EE00</code> — _LoopGetEList@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EE68">
+            <code>0000EE68</code> — _IGMPRandomTicks
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EEB0">
+            <code>0000EEB0</code> — _FindIGMPAddr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000EED8">
+            <code>0000EED8</code> — _IGMPRcv
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F154">
+            <code>0000F154</code> — _SendIGMPReport
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F298">
+            <code>0000F298</code> — _IGMPAddrChange
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F620">
+            <code>0000F620</code> — _IGMPTimer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F6F4">
+            <code>0000F6F4</code> — _InitIGMPForNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F768">
+            <code>0000F768</code> — _StopIGMPForNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F784">
+            <code>0000F784</code> — _CopyToNdis
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000F89C">
+            <code>0000F89C</code> — _IPQueryInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0000FDBC">
+            <code>0000FDBC</code> — _IPSetInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000100C4">
+            <code>000100C4</code> — _IPGetEList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001018C">
+            <code>0001018C</code> — _VxdMapSegmentOffsetToFlat
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000101D4">
+            <code>000101D4</code> — _VxdLockBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010226">
+            <code>00010226</code> — _VxdUnlockBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010279">
+            <code>00010279</code> — _VxdValidateBuffer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000102C0">
+            <code>000102C0</code> — _IPGetConfig
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000105C0">
+            <code>000105C0</code> — _OpenIFConfig
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000105F0">
+            <code>000105F0</code> — _GetArpCacheLife
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000105F8">
+            <code>000105F8</code> — _GetArpRetryCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010600">
+            <code>00010600</code> — _IsLLInterfaceValueNull
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010654">
+            <code>00010654</code> — _String2Addr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010700">
+            <code>00010700</code> — _GetGeneralIFConfig
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010840">
+            <code>00010840</code> — _GetIFAddrList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A0C">
+            <code>00010A0C</code> — _CloseIFConfig
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A18">
+            <code>00010A18</code> — _IPFreeConfig
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A28">
+            <code>00010A28</code> — _UseEtherSNAP
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A30">
+            <code>00010A30</code> — _GetAlwaysSourceRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A4C">
+            <code>00010A4C</code> — _IPDelNTEContextList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A50">
+            <code>00010A50</code> — _IPAddNTEContextList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A54">
+            <code>00010A54</code> — _NdisRegisterProtocol@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A5A">
+            <code>00010A5A</code> — _NdisDeregisterProtocol@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A60">
+            <code>00010A60</code> — _NdisOpenAdapter@44
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A66">
+            <code>00010A66</code> — _NdisCloseAdapter@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A6C">
+            <code>00010A6C</code> — _NdisSend@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A72">
+            <code>00010A72</code> — _NdisTransferData@28
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A78">
+            <code>00010A78</code> — _NdisReset@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A7E">
+            <code>00010A7E</code> — _NdisRequest@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A84">
+            <code>00010A84</code> — _NdisQueryGlobalStatistics@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A8A">
+            <code>00010A8A</code> — _NdisOpenProtocolConfiguration@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A90">
+            <code>00010A90</code> — _NdisCompleteBindAdapter@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A96">
+            <code>00010A96</code> — _NdisCompleteUnbindAdapter@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010A9C">
+            <code>00010A9C</code> — _NdisGetVersion@0
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AA2">
+            <code>00010AA2</code> — _NdisSetTimer@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AA8">
+            <code>00010AA8</code> — _NdisCancelTimer@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AAE">
+            <code>00010AAE</code> — _NdisInitializeInterrupt@40
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AB4">
+            <code>00010AB4</code> — _NdisRemoveInterrupt@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010ABA">
+            <code>00010ABA</code> — _NdisSynchronizeWithInterrupt@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AC0">
+            <code>00010AC0</code> — _NdisStallExecution@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AC6">
+            <code>00010AC6</code> — _NdisAllocateMemory@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010ACC">
+            <code>00010ACC</code> — _NdisFreeMemory@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AD2">
+            <code>00010AD2</code> — _NdisAllocatePacketPool@16
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AD8">
+            <code>00010AD8</code> — _NdisFreePacketPool@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010ADE">
+            <code>00010ADE</code> — _NdisAllocatePacket@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AE4">
+            <code>00010AE4</code> — _NdisReinitializePacket@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AEA">
+            <code>00010AEA</code> — _NdisFreePacket@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AF0">
+            <code>00010AF0</code> — _NdisQueryPacket@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AF6">
+            <code>00010AF6</code> — _NdisAllocateBufferPool@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010AFC">
+            <code>00010AFC</code> — _NdisFreeBufferPool@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B02">
+            <code>00010B02</code> — _NdisAllocateBuffer@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B08">
+            <code>00010B08</code> — _NdisCopyBuffer@24
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B0E">
+            <code>00010B0E</code> — _NdisFreeBuffer@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B14">
+            <code>00010B14</code> — _NdisQueryBuffer@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B1A">
+            <code>00010B1A</code> — _NdisGetBufferPhysicalAddress@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B20">
+            <code>00010B20</code> — _NdisChainBufferAtFront@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B26">
+            <code>00010B26</code> — _NdisChainBufferAtBack@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B2C">
+            <code>00010B2C</code> — _NdisUnchainBufferAtFront@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B32">
+            <code>00010B32</code> — _NdisUnchainBufferAtBack@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B38">
+            <code>00010B38</code> — _NdisGetNextBuffer@8
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B3E">
+            <code>00010B3E</code> — _NdisCopyFromPacketToPacket@24
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B44">
+            <code>00010B44</code> — _NdisOpenConfiguration@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B4A">
+            <code>00010B4A</code> — _NdisReadConfiguration@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B50">
+            <code>00010B50</code> — _NdisCloseConfiguration@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B56">
+            <code>00010B56</code> — _NdisEqualString@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B5C">
+            <code>00010B5C</code> — _NdisOpenFile@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B62">
+            <code>00010B62</code> — _NdisMapFile@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B68">
+            <code>00010B68</code> — _NdisUnmapFile@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B6E">
+            <code>00010B6E</code> — _NdisCloseFile@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B74">
+            <code>00010B74</code> — _NdisAllocateDmaChannel@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B7A">
+            <code>00010B7A</code> — _NdisSetupDmaTransfer@24
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B80">
+            <code>00010B80</code> — _NdisCompleteDmaTransfer@24
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B86">
+            <code>00010B86</code> — _NdisReadDmaCounter@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B8C">
+            <code>00010B8C</code> — _NdisFreeDmaChannel@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B92">
+            <code>00010B92</code> — _NdisMapIoSpace@20
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B98">
+            <code>00010B98</code> — _NdisWriteErrorLogEntry
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010B9E">
+            <code>00010B9E</code> — _NdisRegAdaptShutdown@12
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010BA4">
+            <code>00010BA4</code> — _NdisDeregAdaptShutdown@4
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010BAC">
+            <code>00010BAC</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010BCC">
+            <code>00010BCC</code> — CTETotalMem
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010BEC">
+            <code>00010BEC</code> — __vxdhandle__
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C4C">
+            <code>00010C4C</code> — _VIP_Get_Version
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C50">
+            <code>00010C50</code> — _VIP_Get_Net_Info
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C54">
+            <code>00010C54</code> — _VIP_Register_Protocol
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C58">
+            <code>00010C58</code> — _VIP_Register_Driver
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C5C">
+            <code>00010C5C</code> — _VIP_Set_Addr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C60">
+            <code>00010C60</code> — _VIP_ICMP_Echo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C64">
+            <code>00010C64</code> — _VIP_Register_Addr_Change
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C68">
+            <code>00010C68</code> — _VIP_Register_Interface_Change
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C6C">
+            <code>00010C6C</code> — _VIP_Set_DHCP_Interface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C70">
+            <code>00010C70</code> — _VIP_IP_Add_Interface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C74">
+            <code>00010C74</code> — _VIP_IP_Delete_Interface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C78">
+            <code>00010C78</code> — _VIP_Set_Addr_Ex
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C7C">
+            <code>00010C7C</code> — _VIP_Register_Rt_Change_Handler
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C80">
+            <code>00010C80</code> — _VIP_Register_Addr_ChangeEx
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010C84">
+            <code>00010C84</code> — VIP_DDB
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D77">
+            <code>00010D77</code> — RefillEventSched
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D7B">
+            <code>00010D7B</code> — _VIPTerminate
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D80">
+            <code>00010D80</code> — _UniqueIfNumber
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D84">
+            <code>00010D84</code> — _ifuniadapter
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D88">
+            <code>00010D88</code> — _RawPI
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D8C">
+            <code>00010D8C</code> — _TrRii
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D90">
+            <code>00010D90</code> — _DHCPActivityCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010D94">
+            <code>00010D94</code> — _DHCPNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00010FF8">
+            <code>00010FF8</code> — _UniAdapter
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00011038">
+            <code>00011038</code> — _TRFunctionalMcast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001107C">
+            <code>0001107C</code> — _SwapTableLo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001108C">
+            <code>0001108C</code> — _SwapTableHi
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001109C">
+            <code>0001109C</code> — _IFieldSize
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113B0">
+            <code>000113B0</code> — _RcvFile
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113B8">
+            <code>000113B8</code> — _dbg_hdrincl
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113BC">
+            <code>000113BC</code> — _HdrBufList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113C0">
+            <code>000113C0</code> — _PacketPoolList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113C4">
+            <code>000113C4</code> — _HdrPoolList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113C8">
+            <code>000113C8</code> — _CurrentPacketCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113CC">
+            <code>000113CC</code> — _MaxPacketCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113D0">
+            <code>000113D0</code> — _CurrentHdrBufCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000113D4">
+            <code>000113D4</code> — _MaxHdrBufCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00011638">
+            <code>00011638</code> — _Rcefailures
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001163C">
+            <code>0001163C</code> — _RtPI
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00011640">
+            <code>00011640</code> — _IPMaskTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00011680">
+            <code>00011680</code> — _MTUTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000116AC">
+            <code>000116AC</code> — _BCastMinMTU
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012600">
+            <code>00012600</code> — _IcmpEchoPendingCnt
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012604">
+            <code>00012604</code> — _IcmpErrPendingCnt
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000127FC">
+            <code>000127FC</code> — _LoopXmitHead
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012800">
+            <code>00012800</code> — _LoopXmitTail
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012804">
+            <code>00012804</code> — _LoopXmitRtnRunning
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012808">
+            <code>00012808</code> — _LoopName
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012824">
+            <code>00012824</code> — _LoopEntityType
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012BF8">
+            <code>00012BF8</code> — _GlobalConfigTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012D74">
+            <code>00012D74</code> — _IFConfigTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012EAC">
+            <code>00012EAC</code> — __IPAlwaysSR
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012EB0">
+            <code>00012EB0</code> — _ICMPOutStats
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012EE4">
+            <code>00012EE4</code> — _RouteTableLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012EEC">
+            <code>00012EEC</code> — _DummyInterface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FA8">
+            <code>00012FA8</code> — _ForwardPackets
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FAC">
+            <code>00012FAC</code> — _LoopInstance
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FB0">
+            <code>00012FB0</code> — __LLInterface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FB4">
+            <code>00012FB4</code> — _FWPacketFree
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FB8">
+            <code>00012FB8</code> — _ICMPInStats
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FEC">
+            <code>00012FEC</code> — _ARPHandle
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FF0">
+            <code>00012FF0</code> — _LastPI
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FF4">
+            <code>00012FF4</code> — _RATimeout
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FF8">
+            <code>00012FF8</code> — _Seed
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00012FFC">
+            <code>00012FFC</code> — _RandomValue
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013000">
+            <code>00013000</code> — _MaxFWBufferSize
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013004">
+            <code>00013004</code> — _ArpRetryCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013008">
+            <code>00013008</code> — _IPProtInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001306C">
+            <code>0001306C</code> — _IGMPProtInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013070">
+            <code>00013070</code> — _LoopNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013074">
+            <code>00013074</code> — _NumIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013078">
+            <code>00013078</code> — _IFBitMask
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013080">
+            <code>00013080</code> — _FWBufFree
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013084">
+            <code>00013084</code> — _PMTUDiscovery
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013088">
+            <code>00013088</code> — _CurrentICMPHeaders
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001308C">
+            <code>0001308C</code> — _ArpCacheLife
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013090">
+            <code>00013090</code> — _HeaderLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013098">
+            <code>00013098</code> — _NextPI
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001309C">
+            <code>0001309C</code> — _AddrNotifyTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130BC">
+            <code>000130BC</code> — __ArpRetryCount
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130C0">
+            <code>000130C0</code> — _IPID
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130C4">
+            <code>000130C4</code> — _ICMPHeaderLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130CC">
+            <code>000130CC</code> — _NetTableList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130D0">
+            <code>000130D0</code> — _TSFlag
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130D4">
+            <code>000130D4</code> — _LoopXmitEvent
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130E8">
+            <code>000130E8</code> — _MaxICMPHeaders
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130EC">
+            <code>000130EC</code> — _FWPacketFreeLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130F4">
+            <code>000130F4</code> — _IGMPBlockList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000130F8">
+            <code>000130F8</code> — _ATCache
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013128">
+            <code>00013128</code> — _FWBufFreeLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013130">
+            <code>00013130</code> — _IFList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013134">
+            <code>00013134</code> — _LoopInterface
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000131F0">
+            <code>000131F0</code> — _AddChangeNotifyQueue
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000131F8">
+            <code>000131F8</code> — _ATCIndex
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000131FC">
+            <code>000131FC</code> — _CurrentFWPackets
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013200">
+            <code>00013200</code> — _IGMPLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013208">
+            <code>00013208</code> — _ClientNotifyQueue
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013210">
+            <code>00013210</code> — _IPRouteTimer
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013228">
+            <code>00013228</code> — _InterfaceSize
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001322C">
+            <code>0001322C</code> — _sIPAlwaysSourceRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013230">
+            <code>00013230</code> — _LoopIndex
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013234">
+            <code>00013234</code> — __UseEtherSNAP
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013238">
+            <code>00013238</code> — _BCastRSQ
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001323C">
+            <code>0001323C</code> — _ICMPInstance
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013240">
+            <code>00013240</code> — _RtChangeNotifyQueue
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013248">
+            <code>00013248</code> — _ForwardFilterPtr
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001324C">
+            <code>0001324C</code> — _ForwardBCast
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013250">
+            <code>00013250</code> — _NumNTE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013254">
+            <code>00013254</code> — _DefaultTTL
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013258">
+            <code>00013258</code> — _DeadGWDetect
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001325C">
+            <code>0001325C</code> — _LoopIFE
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132B9">
+            <code>000132B9</code> — _NextNTEContext
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132BC">
+            <code>000132BC</code> — _MaxFWPackets
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132C0">
+            <code>000132C0</code> — _FirstIF
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132C4">
+            <code>000132C4</code> — _DefGWConfigured
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132C8">
+            <code>000132C8</code> — _TimeStamp
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132CC">
+            <code>000132CC</code> — _RouterConfigured
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000132D0">
+            <code>000132D0</code> — _IPSInfo
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001332C">
+            <code>0001332C</code> — __TRSingleRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013330">
+            <code>00013330</code> — _DefaultTOS
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013334">
+            <code>00013334</code> — _IPInstance
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013338">
+            <code>00013338</code> — __AlwaysSR
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001333C">
+            <code>0001333C</code> — _ICMPHeaderList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013340">
+            <code>00013340</code> — _RtNotifyTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013360">
+            <code>00013360</code> — _ClientNotifyQueueLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013368">
+            <code>00013368</code> — _RouteTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000133E8">
+            <code>000133E8</code> — _DODCallout
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000133EC">
+            <code>000133EC</code> — _DefGWActive
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="000133F0">
+            <code>000133F0</code> — _InterfaceNotifyTable
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013410">
+            <code>00013410</code> — _LoopLock
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013418">
+            <code>00013418</code> — __ArpCacheLife
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001341C">
+            <code>0001341C</code> — _sArpAlwaysSourceRoute
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013420">
+            <code>00013420</code> — _PacketList
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013424">
+            <code>00013424</code> — _IGMPBlockFlag
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013428">
+            <code>00013428</code> — _BufferPool
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="0001342C">
+            <code>0001342C</code> — _IGMPLevel
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013430">
+            <code>00013430</code> — _CurrentFWBufferSize
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013434">
+            <code>00013434</code> — _AddrNotifyTableEx
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013454">
+            <code>00013454</code> — _BSSDataEnd
+            
+          </li>
+        
+          <li data-segment="0000A550" data-offset="00013454">
+            <code>00013454</code> — _BSSBegin
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMGROUP @ 0000A590
+      </summary>
+      <ul>
+        
+          <li data-segment="0000A590" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="0000A590" data-offset="00000014">
+            <code>00000014</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _IGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _CTEInitialize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — VIP_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000045">
+            <code>00000045</code> — GetNextInterface
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000089">
+            <code>00000089</code> — ConvertBoolean
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000094">
+            <code>00000094</code> — ConvertDecimal
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000A9">
+            <code>000000A9</code> — SkipWS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000BC">
+            <code>000000BC</code> — ConvertIPAddress
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000012E">
+            <code>0000012E</code> — atol
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000014A">
+            <code>0000014A</code> — _GetGMTDelta
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001DC">
+            <code>000001DC</code> — _InitTimestamp
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000240">
+            <code>00000240</code> — _FreeNets
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000260">
+            <code>00000260</code> — _IPInit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000004F0">
+            <code>000004F0</code> — _ARPInit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005BC">
+            <code>000005BC</code> — _InitRouting
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000006EC">
+            <code>000006EC</code> — _InitGateway
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A44">
+            <code>00000A44</code> — _ICMPInit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000ABC">
+            <code>00000ABC</code> — _InitLoopback
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C8C">
+            <code>00000C8C</code> — _IGMPInit
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

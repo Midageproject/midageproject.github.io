@@ -1,0 +1,5236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VDD — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../fileio.asm</li>
+      
+        <li>../mainvdd.h</li>
+      
+        <li>../vddasd.c</li>
+      
+        <li>../vddbeep.c</li>
+      
+        <li>../vddctl.asm</li>
+      
+        <li>../vdddebug.asm</li>
+      
+        <li>../vdddev.c</li>
+      
+        <li>../vddedid.c</li>
+      
+        <li>../vddenum.c</li>
+      
+        <li>../vddfonts.asm</li>
+      
+        <li>../vddgrab.asm</li>
+      
+        <li>../vddint.asm</li>
+      
+        <li>../vddioctl.c</li>
+      
+        <li>../vddoem.asm</li>
+      
+        <li>../vddpci.c</li>
+      
+        <li>../vddphmem.asm</li>
+      
+        <li>../vddpnp.asm</li>
+      
+        <li>../vddproc.asm</li>
+      
+        <li>../vddpwr.c</li>
+      
+        <li>../vddrom.c</li>
+      
+        <li>../vddstate.asm</li>
+      
+        <li>../vddsvc.asm</li>
+      
+        <li>../vddtio.asm</li>
+      
+        <li>../vddvga.asm</li>
+      
+        <li>../vddvmmem.asm</li>
+      
+        <li>../vddirp.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00001E70
+      </summary>
+      <ul>
+        
+          <li data-segment="00001E70" data-offset="00000000">
+            <code>00000000</code> — VDD_Control
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000B1">
+            <code>000000B1</code> — _VDD_Device_Control
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000B8">
+            <code>000000B8</code> — VDD_Device_DIOC
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000C7">
+            <code>000000C7</code> — VDD_DIOC
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000D6">
+            <code>000000D6</code> — VDD_Do_Physical_IO
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000E6">
+            <code>000000E6</code> — VDPIWordInput
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000F2">
+            <code>000000F2</code> — VDPIByteInput
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000000FD">
+            <code>000000FD</code> — VDPIDWordInput
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000108">
+            <code>00000108</code> — VDPIWordOutput
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000114">
+            <code>00000114</code> — VDPIByteOutput
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000011F">
+            <code>0000011F</code> — VDPIDWordOutput
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000012E">
+            <code>0000012E</code> — VDPIHandleStringIO
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000013C">
+            <code>0000013C</code> — VDPI32BitOUTS
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001A0">
+            <code>000001A0</code> — VDPI32BitINSW
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001B1">
+            <code>000001B1</code> — VDPI32BitINSD
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001C2">
+            <code>000001C2</code> — VDPI32BitINSB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001D0">
+            <code>000001D0</code> — VDPI32BitOUTSW
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001DF">
+            <code>000001DF</code> — VDPI32BitOUTSD
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001EE">
+            <code>000001EE</code> — VDPI32BitOUTSB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000001FA">
+            <code>000001FA</code> — VDPI16BitStringIO
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000250">
+            <code>00000250</code> — VDPI16BitINSW
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000025F">
+            <code>0000025F</code> — VDPI16BitINSD
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000026E">
+            <code>0000026E</code> — VDPI16BitINSB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000027A">
+            <code>0000027A</code> — VDPI16BitOUTSW
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000287">
+            <code>00000287</code> — VDPI16BitOUTSD
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000294">
+            <code>00000294</code> — VDPI16BitOUTSB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000029E">
+            <code>0000029E</code> — AmIHiResMode
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000002C6">
+            <code>000002C6</code> — AHRMCheckNonVESAHiRes
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000002F3">
+            <code>000002F3</code> — AHRMHiResVM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000002F6">
+            <code>000002F6</code> — AHRMNotHiResVM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000002FA">
+            <code>000002FA</code> — CloseDownVESAVM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000030C">
+            <code>0000030C</code> — VDD_State_Chk_MemC
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000003F5">
+            <code>000003F5</code> — VDD_State_Schedule_Debug_Event
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000042C">
+            <code>0000042C</code> — VDD_Queue_Debug_String
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000441">
+            <code>00000441</code> — VDD_Debug_Dump_Flags
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000463">
+            <code>00000463</code> — VDD_DebugQuery
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000092F">
+            <code>0000092F</code> — VDD_Reg_Dump
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000A30">
+            <code>00000A30</code> — VDD_Start_Of_VESA_Call
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000A94">
+            <code>00000A94</code> — SOVCGetMode
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000AA8">
+            <code>00000AA8</code> — SOVCDontCallVESA
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000AAE">
+            <code>00000AAE</code> — SOVCExit
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000AAF">
+            <code>00000AAF</code> — VDD_End_Of_VESA_Call
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000AFC">
+            <code>00000AFC</code> — VDD_Int_2F_PM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000B1B">
+            <code>00000B1B</code> — VDD_Int_2F
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000BD1">
+            <code>00000BD1</code> — VDD_Int_Set_CanRestore
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000D11">
+            <code>00000D11</code> — VDD_Bell
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000D58">
+            <code>00000D58</code> — VDD_PH_Mem_Debug_Validate_PH
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000D9E">
+            <code>00000D9E</code> — VDD_PH_Mem_Debug_Dump_Pages
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000ED8">
+            <code>00000ED8</code> — VDDSetBusyFlagAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000F18">
+            <code>00000F18</code> — VDD_VM_Mem_Chk_Bank_DEBUG
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00000F3B">
+            <code>00000F3B</code> — VDD_VM_Mem_Debug_Dump_Pages
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001030">
+            <code>00001030</code> — _VDD_SimulateBeep
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001068">
+            <code>00001068</code> — _VDD_CancelSimulatedBeeps
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001090">
+            <code>00001090</code> — _FindDevice
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000110E">
+            <code>0000110E</code> — _FindDeviceFromDevNode
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001133">
+            <code>00001133</code> — _VDDNotify
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001170">
+            <code>00001170</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001174">
+            <code>00001174</code> — WDMIofCompleteRequest
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001180">
+            <code>00001180</code> — _VDD_Get_Version
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001184">
+            <code>00001184</code> — _VDD_PIF_State
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001188">
+            <code>00001188</code> — _VDD_Get_GrabRtn
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000118C">
+            <code>0000118C</code> — _VDD_Hide_Cursor
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001190">
+            <code>00001190</code> — _VDD_Set_VMType
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001194">
+            <code>00001194</code> — _VDD_Get_ModTime
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001198">
+            <code>00001198</code> — _VDD_Set_HCurTrk
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000119C">
+            <code>0000119C</code> — _VDD_Msg_ClrScrn
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011A0">
+            <code>000011A0</code> — _VDD_Msg_ForColor
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011A4">
+            <code>000011A4</code> — _VDD_Msg_BakColor
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011A8">
+            <code>000011A8</code> — _VDD_Msg_TextOut
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011AC">
+            <code>000011AC</code> — _VDD_Msg_SetCursPos
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011B0">
+            <code>000011B0</code> — _VDD_Query_Access
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011B4">
+            <code>000011B4</code> — _VDD_Check_Update_Soon
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011B8">
+            <code>000011B8</code> — _VDD_Get_Mini_Dispatch_Table
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011BC">
+            <code>000011BC</code> — _VDD_Register_Virtual_Port
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011C0">
+            <code>000011C0</code> — _VDD_Get_VM_Info
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011C4">
+            <code>000011C4</code> — _VDD_Get_Special_VM_IDs
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011C8">
+            <code>000011C8</code> — _VDD_Register_Extra_Screen_Selector
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011CC">
+            <code>000011CC</code> — _VDD_Takeover_VGA_Port
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011D0">
+            <code>000011D0</code> — _VDD_Get_DISPLAYINFO
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011D4">
+            <code>000011D4</code> — _VDD_Do_Physical_IO
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011D8">
+            <code>000011D8</code> — _VDD_Set_Sleep_Flag_Addr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011DC">
+            <code>000011DC</code> — _VDD_EnableDevice
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011E0">
+            <code>000011E0</code> — VDD_DDB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000011E0">
+            <code>000011E0</code> — _VDD_DDB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001230">
+            <code>00001230</code> — Vid_Flags
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001234">
+            <code>00001234</code> — VT_Flags
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001238">
+            <code>00001238</code> — Vid_CB_Off
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000123C">
+            <code>0000123C</code> — _MiniVDDDispatchTable
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000123C">
+            <code>0000123C</code> — MiniVDDDispatchTable
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001334">
+            <code>00001334</code> — DOSVMCount
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001338">
+            <code>00001338</code> — CheckHiResChainAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000133C">
+            <code>0000133C</code> — HiResSaveBlockID
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001340">
+            <code>00001340</code> — ModeChangeFlags
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001341">
+            <code>00001341</code> — MemoryDisabledFlag
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001342">
+            <code>00001342</code> — ScreenSwitchSemaphores
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001343">
+            <code>00001343</code> — GetVESAMemSizeReentryFlag
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001344">
+            <code>00001344</code> — Vid_Focus_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001344">
+            <code>00001344</code> — _Vid_Focus_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001348">
+            <code>00001348</code> — _Vid_CRTC_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001348">
+            <code>00001348</code> — Vid_CRTC_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000134C">
+            <code>0000134C</code> — _Vid_MemC_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000134C">
+            <code>0000134C</code> — Vid_MemC_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001358">
+            <code>00001358</code> — Vid_Msg_Pseudo_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000135C">
+            <code>0000135C</code> — Vid_Msg_Pseudo_CB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000013FC">
+            <code>000013FC</code> — Vid_Msg_DAC
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001998">
+            <code>00001998</code> — Vid_Planar_Pseudo_CB
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001A38">
+            <code>00001A38</code> — Vid_Initial_Text_Rows
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001A39">
+            <code>00001A39</code> — Vid_Msg_Pages
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001A44">
+            <code>00001A44</code> — VDD_State_MemC_Debug_Event
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001A48">
+            <code>00001A48</code> — VDD_State_MemC_Debug_TS
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001A74">
+            <code>00001A74</code> — VDD_NoSR
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00001F00">
+            <code>00001F00</code> — fVT_NameTable
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026B0">
+            <code>000026B0</code> — Vid_I10_OldVector
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026B4">
+            <code>000026B4</code> — Vid_Stub_I10_Vector
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026B8">
+            <code>000026B8</code> — Vid_I10_Next_CS
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026BC">
+            <code>000026BC</code> — Vid_I10_Next_EIP
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026C0">
+            <code>000026C0</code> — Vid_I2F_Next_CS
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026C4">
+            <code>000026C4</code> — Vid_I2F_Next_EIP
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026FC">
+            <code>000026FC</code> — Vid_PhysA0000
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="000026FC">
+            <code>000026FC</code> — _Vid_PhysA0000
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002700">
+            <code>00002700</code> — Vid_Sys_Visible_Pages
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002704">
+            <code>00002704</code> — Vid_Sys_First_Visible
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002706">
+            <code>00002706</code> — Video_Pages
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000270A">
+            <code>0000270A</code> — Video_Page_Table
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002714">
+            <code>00002714</code> — VDD_DPD
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002844">
+            <code>00002844</code> — Vid_Msg_VM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002848">
+            <code>00002848</code> — Vid_MsgMode_Text_Rows
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000284C">
+            <code>0000284C</code> — Vid_MsgMode_Text_Cols
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002850">
+            <code>00002850</code> — Vid_Scrn_Attr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002852">
+            <code>00002852</code> — PIF_Save
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002854">
+            <code>00002854</code> — WindowsVMHandle
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002858">
+            <code>00002858</code> — SleepFlagAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000285C">
+            <code>0000285C</code> — _UserExeFlagsAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000285C">
+            <code>0000285C</code> — UserExeFlagsAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002860">
+            <code>00002860</code> — BusyBitAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002864">
+            <code>00002864</code> — SetHiResModeCallback
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002868">
+            <code>00002868</code> — OriginalVideoPages
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000286C">
+            <code>0000286C</code> — VGAShadowMemStatusAddr
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002870">
+            <code>00002870</code> — ExtraSelectorArray
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002918">
+            <code>00002918</code> — VFlatDFlag
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002919">
+            <code>00002919</code> — SelectorDisabledFlag
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="0000291A">
+            <code>0000291A</code> — BusyBitBitmask
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002A80">
+            <code>00002A80</code> — Vid_Win_Update_Time
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002A84">
+            <code>00002A84</code> — Vid_Mode_Update_Time
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002A88">
+            <code>00002A88</code> — Vid_Scroll_Freq
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002A8C">
+            <code>00002A8C</code> — Vid_VM_Idle_Chain
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002AC0">
+            <code>00002AC0</code> — VDD_Force_Trapping
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002AC8">
+            <code>00002AC8</code> — VIOT_Dispatch
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002B4C">
+            <code>00002B4C</code> — MiniVDDSpecialPortFlags
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002B78">
+            <code>00002B78</code> — _BiosPostCodeBegin_Debug_Flags
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00002EB8">
+            <code>00002EB8</code> — _linLowROM
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003428">
+            <code>00003428</code> — _EstTimeTable
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003580">
+            <code>00003580</code> — _Invalid_MiniVDD2_Calls
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003B10">
+            <code>00003B10</code> — _LastVgaOwner
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003B14">
+            <code>00003B14</code> — _fVESA
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003B18">
+            <code>00003B18</code> — _RomOwner
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003B1C">
+            <code>00003B1C</code> — _DeviceList
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003B20">
+            <code>00003B20</code> — _fInitSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003B24">
+            <code>00003B24</code> — _asdFail
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003BF0">
+            <code>00003BF0</code> — _vgaDevNode
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003BF4">
+            <code>00003BF4</code> — _dnPCI
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003BF8">
+            <code>00003BF8</code> — _VgaOwner
+            
+          </li>
+        
+          <li data-segment="00001E70" data-offset="00003BFC">
+            <code>00003BFC</code> — _fAPM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IMGROUP @ 00001EB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00001EB0" data-offset="00000000">
+            <code>00000000</code> — @MSG_IAB
+            
+          </li>
+        
+          <li data-segment="00001EB0" data-offset="00000014">
+            <code>00000014</code> — @MSG_IDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PMGROUP @ 00001EF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00001EF0" data-offset="00000000">
+            <code>00000000</code> — @MSG_PAB
+            
+          </li>
+        
+          <li data-segment="00001EF0" data-offset="0000001C">
+            <code>0000001C</code> — @MSG_PDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _IGROUP @ 00003070
+      </summary>
+      <ul>
+        
+          <li data-segment="00003070" data-offset="00000000">
+            <code>00000000</code> — VDD_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000007A">
+            <code>0000007A</code> — VDD_Device_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000168">
+            <code>00000168</code> — VDD_State_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000018C">
+            <code>0000018C</code> — VDD_State_Device_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000001DE">
+            <code>000001DE</code> — VDD_State_Get_Initial_Lines
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000021E">
+            <code>0000021E</code> — VDD_State_Init_MemC_Planar
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000002A5">
+            <code>000002A5</code> — VDD_State_Init_Message_Mode
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000003EA">
+            <code>000003EA</code> — VDD_State_Set_Mode
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000459">
+            <code>00000459</code> — VDD_Get_Special_VM_IDs
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000470">
+            <code>00000470</code> — VDD_Debug_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000004B0">
+            <code>000004B0</code> — VDD_Int_Device_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000054D">
+            <code>0000054D</code> — InstallVESAStub
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000574">
+            <code>00000574</code> — InstallBellStub
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000638">
+            <code>00000638</code> — VDD_PH_Mem_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000006C4">
+            <code>000006C4</code> — VDD_VM_Mem_Device_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000A03">
+            <code>00000A03</code> — VDD_VM_Mem_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000A24">
+            <code>00000A24</code> — VDD_Font_Setup_Msg_Mode_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000AA0">
+            <code>00000AA0</code> — VDD_Font_Save_Msg_Font
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000D4C">
+            <code>00000D4C</code> — VDD_Font_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000DA8">
+            <code>00000DA8</code> — VDD_Proc_Device_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000E04">
+            <code>00000E04</code> — VDD_TIO_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000E06">
+            <code>00000E06</code> — VDD_TIO_Device_Init
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00000EB8">
+            <code>00000EB8</code> — VDD_PNP_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001070">
+            <code>00001070</code> — VMPagesBuf
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001300">
+            <code>00001300</code> — VDD_Time_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001311">
+            <code>00001311</code> — VDD_SuspMsg_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001324">
+            <code>00001324</code> — VDD_NoSusp_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001338">
+            <code>00001338</code> — Vid_Text_Rows_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001344">
+            <code>00001344</code> — Vid_Text_Rows_Sect
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="00001352">
+            <code>00001352</code> — VDD_2nd_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000135E">
+            <code>0000135E</code> — VDD_Mono_Text_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000136A">
+            <code>0000136A</code> — VDD_Rsrv_C6C7_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000137A">
+            <code>0000137A</code> — VDD_VM_SaveRes_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000138C">
+            <code>0000138C</code> — VDD_VM_Scroll_Freq_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="0000139C">
+            <code>0000139C</code> — VDD_Use_ROM_Font_Ini
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000013A8">
+            <code>000013A8</code> — Vid_Mono_IO_Table
+            
+          </li>
+        
+          <li data-segment="00003070" data-offset="000013BC">
+            <code>000013BC</code> — Vid_IO_Table
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PTEXT @ 00003D00
+      </summary>
+      <ul>
+        
+          <li data-segment="00003D00" data-offset="00000000">
+            <code>00000000</code> — _VDD_BeepCallback
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000090">
+            <code>00000090</code> — _ReadPCI
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000000B5">
+            <code>000000B5</code> — _WritePCI
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000000D1">
+            <code>000000D1</code> — _ReadPCIW
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000000F7">
+            <code>000000F7</code> — _WritePCIW
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000113">
+            <code>00000113</code> — __EnablePCI
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000148">
+            <code>00000148</code> — _EnablePCI
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000015C">
+            <code>0000015C</code> — _GetRootPCI
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000001DF">
+            <code>000001DF</code> — __EnableVGA
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000265">
+            <code>00000265</code> — _BeginVGA
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000345">
+            <code>00000345</code> — _EndVGA
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000042B">
+            <code>0000042B</code> — _CanDisableVGA
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000478">
+            <code>00000478</code> — _ReadPhysDWORD
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000004DC">
+            <code>000004DC</code> — _TestVGA
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000053D">
+            <code>0000053D</code> — _AreAllDevicesPCI
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000005AD">
+            <code>000005AD</code> — _EnableVGA
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000007C0">
+            <code>000007C0</code> — _GetROMData
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000007E3">
+            <code>000007E3</code> — _GetROMFilename
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000008CB">
+            <code>000008CB</code> — _SaveROM
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000096A">
+            <code>0000096A</code> — _LoadROM
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000A61">
+            <code>00000A61</code> — _GetDeviceROM
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000B4F">
+            <code>00000B4F</code> — _AreWePagingThroughDOS
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000B80">
+            <code>00000B80</code> — _VDDEnumIODevices
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000CB3">
+            <code>00000CB3</code> — _VDDWriteEDID
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000D2F">
+            <code>00000D2F</code> — _VDDSetupMonitor
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00000FB2">
+            <code>00000FB2</code> — _VDDEnumMonitor
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000011D0">
+            <code>000011D0</code> — _VDDEnumInitComplete
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000011FD">
+            <code>000011FD</code> — _VDDEnumPowerUpMonitors
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000126C">
+            <code>0000126C</code> — _VDD_Enum_Handler
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000013D0">
+            <code>000013D0</code> — _SetSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001406">
+            <code>00001406</code> — _GetSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000144B">
+            <code>0000144B</code> — _BeginSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000014D3">
+            <code>000014D3</code> — _EndSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001540">
+            <code>00001540</code> — FileOpen
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001557">
+            <code>00001557</code> — FileRead
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="0000156E">
+            <code>0000156E</code> — FileWrite
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001585">
+            <code>00001585</code> — FileClose
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001598">
+            <code>00001598</code> — _FileSetAttributes
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000015BC">
+            <code>000015BC</code> — _FileOpen
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="000015F2">
+            <code>000015F2</code> — _FileClose
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001614">
+            <code>00001614</code> — _FileRead
+            
+          </li>
+        
+          <li data-segment="00003D00" data-offset="00001663">
+            <code>00001663</code> — _FileWrite
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _PDATA @ 00003DC0
+      </summary>
+      <ul>
+        
+          <li data-segment="00003DC0" data-offset="000012F8">
+            <code>000012F8</code> — _szPnPMonitor
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="000014A8">
+            <code>000014A8</code> — _NumDevices
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="000014AC">
+            <code>000014AC</code> — _NumDevicesVGA
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="000014B0">
+            <code>000014B0</code> — _NumUnits
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="000016A4">
+            <code>000016A4</code> — _FailReasonString
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="000016E0">
+            <code>000016E0</code> — _szFailReason
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="000016F8">
+            <code>000016F8</code> — _szDEFAULT
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="00001718">
+            <code>00001718</code> — _asd_key
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="00001728">
+            <code>00001728</code> — _asd_def
+            
+          </li>
+        
+          <li data-segment="00003DC0" data-offset="0000172C">
+            <code>0000172C</code> — _asd_guid
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: _DBOGROUP @ 00003E20
+      </summary>
+      <ul>
+        
+          <li data-segment="00003E20" data-offset="00000000">
+            <code>00000000</code> — VDD_Real_init
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: _LOCKABLE @ 00004520
+      </summary>
+      <ul>
+        
+          <li data-segment="00004520" data-offset="00000000">
+            <code>00000000</code> — _BiosPostCodeBegin
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000000">
+            <code>00000000</code> — DrawTextLogo
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000030">
+            <code>00000030</code> — VDD_Int_1A
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000056">
+            <code>00000056</code> — _BeginPOST
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000056">
+            <code>00000056</code> — BeginPOST
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000000A7">
+            <code>000000A7</code> — EndPOST
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000000A7">
+            <code>000000A7</code> — _EndPOST
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000000E1">
+            <code>000000E1</code> — PostROM
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000000E1">
+            <code>000000E1</code> — _PostROM
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000267">
+            <code>00000267</code> — Disable_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000267">
+            <code>00000267</code> — _Disable_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000002E4">
+            <code>000002E4</code> — _Enable_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000002E4">
+            <code>000002E4</code> — Enable_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000360">
+            <code>00000360</code> — _EnableROM
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000953">
+            <code>00000953</code> — _IsPhysMem
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="000009B0">
+            <code>000009B0</code> — _InitROM
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000CED">
+            <code>00000CED</code> — _ReInitROM
+            
+          </li>
+        
+          <li data-segment="00004520" data-offset="00000F3C">
+            <code>00000F3C</code> — _BiosPostCodeEnd
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 9: _RARE @ 00007580
+      </summary>
+      <ul>
+        
+          <li data-segment="00007580" data-offset="00000000">
+            <code>00000000</code> — VDD_System_Exit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000000A">
+            <code>0000000A</code> — VDD_Sys_Critical_Exit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000003C">
+            <code>0000003C</code> — VDD_State_Set_Message_Mode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000011C">
+            <code>0000011C</code> — VDD_Int_Sys_Critical_Exit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000144">
+            <code>00000144</code> — VDD_PH_Mem_Set_Sys_Latch_Addr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000015F">
+            <code>0000015F</code> — VDD_PH_Mem_Save_Sys_Latch_Addr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000168">
+            <code>00000168</code> — VDD_PH_Mem_Set_Latch_Addr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000017A">
+            <code>0000017A</code> — VDD_Get_Mini_Dispatch_Table
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000001B7">
+            <code>000001B7</code> — VDD_Register_Virtual_Port
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000001C7">
+            <code>000001C7</code> — VRVPRegisterGCRPort
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000203">
+            <code>00000203</code> — VDD_Takeover_VGA_Port
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000022D">
+            <code>0000022D</code> — VDD_Get_Version
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000024D">
+            <code>0000024D</code> — VDD_EnableDevice
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000260">
+            <code>00000260</code> — VDD_Set_Sleep_Flag_Addr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000026E">
+            <code>0000026E</code> — VDD_Begin_Msg_Mode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000002A4">
+            <code>000002A4</code> — VDD_End_Msg_Mode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000338">
+            <code>00000338</code> — VDD_Msg_ClrScrn
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000003DA">
+            <code>000003DA</code> — VDD_Msg_ForColor
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000042D">
+            <code>0000042D</code> — VDD_Msg_BakColor
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000483">
+            <code>00000483</code> — VDD_Msg_TextOut
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000530">
+            <code>00000530</code> — VDD_Msg_SetCursPos
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000005A5">
+            <code>000005A5</code> — VDD_Set_HCurTrk
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000005C0">
+            <code>000005C0</code> — VDD_Get_GrabRtn
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000005CE">
+            <code>000005CE</code> — VDD_Grab
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000616">
+            <code>00000616</code> — VDD_Register_Extra_Screen_Selector
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000637">
+            <code>00000637</code> — VESSCheckDupLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000063B">
+            <code>0000063B</code> — VESSCheckNext
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000641">
+            <code>00000641</code> — VESSSearchForOpenEntry
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000064B">
+            <code>0000064B</code> — VESSSearchLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000659">
+            <code>00000659</code> — VESSMakeEntry
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000006AB">
+            <code>000006AB</code> — VESSGoodExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000006AD">
+            <code>000006AD</code> — VDDDriverRegister
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000741">
+            <code>00000741</code> — VDRNo4PlaneVirtualization
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000074D">
+            <code>0000074D</code> — VDRCallMiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000764">
+            <code>00000764</code> — VDRSetupVirtualization
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000775">
+            <code>00000775</code> — VDRCalcTotalMemoryUsage
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000077C">
+            <code>0000077C</code> — VDRGoodExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000785">
+            <code>00000785</code> — VDDDriverRegister2
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000794">
+            <code>00000794</code> — VDDDriverUnRegister
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000816">
+            <code>00000816</code> — VDDDriverUnRegister2
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000082B">
+            <code>0000082B</code> — VDDSaveDriverState
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000876">
+            <code>00000876</code> — VDDRegisterDisplayDriverInfo
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000892">
+            <code>00000892</code> — VDDRegisterDisplayDriverInfo2
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000008A8">
+            <code>000008A8</code> — VDDRegisterSSBFlags
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000008C0">
+            <code>000008C0</code> — VDDPreModeChange
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000008E5">
+            <code>000008E5</code> — VDDPostModeChange
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000094A">
+            <code>0000094A</code> — VDDSetUserFlags
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000977">
+            <code>00000977</code> — VDD_Error_Cvt_FullScrn
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000099B">
+            <code>0000099B</code> — VDD_Error_NoPagesAvail
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000009B4">
+            <code>000009B4</code> — VDD_Error_NoFGrnd
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000009D9">
+            <code>000009D9</code> — VDD_Error_NoMainMem
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000009F0">
+            <code>000009F0</code> — VDD_Error_Message
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000009FD">
+            <code>000009FD</code> — VDD_Message
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000A2C">
+            <code>00000A2C</code> — VDD_VM_Mem_Alloc_Msg_Mode_Mem
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000A7C">
+            <code>00000A7C</code> — VDD_Font_Restore_Msg_Font
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000AE5">
+            <code>00000AE5</code> — VDD_Font_Expand_Msg_Font
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B18">
+            <code>00000B18</code> — VIOST_Trap_Mono
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B64">
+            <code>00000B64</code> — _CurrentDevNode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B68">
+            <code>00000B68</code> — _CurrentDevice
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B6C">
+            <code>00000B6C</code> — _CurrentUnit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B70">
+            <code>00000B70</code> — ValueTypeReturn
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B74">
+            <code>00000B74</code> — BufferSizeReturn
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B78">
+            <code>00000B78</code> — DisplaySettingsHandle
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B7C">
+            <code>00000B7C</code> — BPPReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B8C">
+            <code>00000B8C</code> — BPPDataBufferSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000B90">
+            <code>00000B90</code> — DPIReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BA0">
+            <code>00000BA0</code> — DPIDataBufferSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BA4">
+            <code>00000BA4</code> — ResReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BC4">
+            <code>00000BC4</code> — ResDataBufferSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BC8">
+            <code>00000BC8</code> — RefreshRateReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BE8">
+            <code>00000BE8</code> — RefreshRateDataSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BEC">
+            <code>00000BEC</code> — DDCReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BF4">
+            <code>00000BF4</code> — DDCDataBufferSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000BF8">
+            <code>00000BF8</code> — ExtModeReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000C00">
+            <code>00000C00</code> — ExtModeDataBufferSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000C24">
+            <code>00000C24</code> — DesktopPosReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000C44">
+            <code>00000C44</code> — DesktopSizeReturnValue
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000C84">
+            <code>00000C84</code> — DisplayDriverName
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000CA4">
+            <code>00000CA4</code> — DisplayDriverNameLen
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000CA8">
+            <code>00000CA8</code> — MiniVDDName
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000CC8">
+            <code>00000CC8</code> — MiniVDDNameLen
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000CCC">
+            <code>00000CCC</code> — CardVDDName
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000CEC">
+            <code>00000CEC</code> — CardVDDNameLen
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000CF0">
+            <code>00000CF0</code> — ScratchBuffer
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000D70">
+            <code>00000D70</code> — ScratchBufferSize
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000D74">
+            <code>00000D74</code> — RefreshRateStr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000DF4">
+            <code>00000DF4</code> — LowHorz
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000DF8">
+            <code>00000DF8</code> — HighHorz
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000DFC">
+            <code>00000DFC</code> — LowVert
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E00">
+            <code>00000E00</code> — HighVert
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E04">
+            <code>00000E04</code> — RefreshRateMax
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E08">
+            <code>00000E08</code> — RefreshRateMin
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E14">
+            <code>00000E14</code> — DisplaySettingsString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E25">
+            <code>00000E25</code> — BPPString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E32">
+            <code>00000E32</code> — ResString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E3D">
+            <code>00000E3D</code> — DPIString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E49">
+            <code>00000E49</code> — ExtModeString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E8C">
+            <code>00000E8C</code> — DrvString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E90">
+            <code>00000E90</code> — DrvString2
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000E95">
+            <code>00000E95</code> — MiniVDDString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EA6">
+            <code>00000EA6</code> — CardVDDString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EB7">
+            <code>00000EB7</code> — ChipIDString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EBE">
+            <code>00000EBE</code> — ChipIDLength
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EC2">
+            <code>00000EC2</code> — MODESString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EC9">
+            <code>00000EC9</code> — DEFAULTString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000ED1">
+            <code>00000ED1</code> — Negative1String
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000ED4">
+            <code>00000ED4</code> — MonitorDevNodeKeyHandle
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000ED8">
+            <code>00000ED8</code> — MonitorModeString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EDD">
+            <code>00000EDD</code> — MonitorModesString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EE3">
+            <code>00000EE3</code> — MonitorModeNumber
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EE4">
+            <code>00000EE4</code> — MonitorModeASCII
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000EE8">
+            <code>00000EE8</code> — MonitorDevNodeKey
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00000FE8">
+            <code>00000FE8</code> — MonitorSubKeyBuffer
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001008">
+            <code>00001008</code> — MonitorBestMatchDelta
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000100C">
+            <code>0000100C</code> — MonitorBestMatchSubkey
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000103E">
+            <code>0000103E</code> — NONEString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001043">
+            <code>00001043</code> — Fallback640x480Str
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000104B">
+            <code>0000104B</code> — _VDDPNPFlags
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000104D">
+            <code>0000104D</code> — IgnoreRegistryFlag
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000104E">
+            <code>0000104E</code> — GetDisplayConfigFlags
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001050">
+            <code>00001050</code> — HorizontalSyncPolarity
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001051">
+            <code>00001051</code> — VerticalSyncPolarity
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001052">
+            <code>00001052</code> — DisplayStr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000105A">
+            <code>0000105A</code> — IgnoreRegistryStr
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001069">
+            <code>00001069</code> — RefreshRateString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001086">
+            <code>00001086</code> — RefreshRateFudge
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001096">
+            <code>00001096</code> — VDD_VPICD_Hook
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000010AA">
+            <code>000010AA</code> — _VDD_Begin_Load_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000010AA">
+            <code>000010AA</code> — VDD_Begin_Load_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000010CD">
+            <code>000010CD</code> — VDD_End_Load_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000010CD">
+            <code>000010CD</code> — _VDD_End_Load_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000010EB">
+            <code>000010EB</code> — VDD_PNP_Load_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000010EB">
+            <code>000010EB</code> — _VDD_PNP_Load_MiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001175">
+            <code>00001175</code> — VPLM_CheckRegistryIgnore
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000118D">
+            <code>0000118D</code> — VPLM_CheckForNoneEntry
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000011B1">
+            <code>000011B1</code> — VPLM_LoadMiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000011F0">
+            <code>000011F0</code> — VPLM_GetChipIDFromRegistry
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001242">
+            <code>00001242</code> — VPLM_CompareChipID
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001291">
+            <code>00001291</code> — VPLM_WriteChipIDToRegistry
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000012D6">
+            <code>000012D6</code> — VPLM_LoadCardVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001317">
+            <code>00001317</code> — VPLM_Good_Exit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000131C">
+            <code>0000131C</code> — VPLM_Error_Exit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001321">
+            <code>00001321</code> — VDD_PNP_Get_Display_Info
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000015EA">
+            <code>000015EA</code> — VPGI_GetOperationFlags
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001645">
+            <code>00001645</code> — get_refresh_rate
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000165E">
+            <code>0000165E</code> — get_mode_specifig_refresh_rate
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000016C2">
+            <code>000016C2</code> — get_default_refresh_rate
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001707">
+            <code>00001707</code> — got_refresh_rate
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001747">
+            <code>00001747</code> — VPGI_GetDriverName
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001880">
+            <code>00001880</code> — VPGI_GetDefaultDisplayDriver
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000018E4">
+            <code>000018E4</code> — VPGI_GetDefaultMiniVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000193A">
+            <code>0000193A</code> — VPGI_GetDefaultCardVDD
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001992">
+            <code>00001992</code> — VPGI_GetRefreshRateData
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000019EB">
+            <code>000019EB</code> — VPGI_ErrorExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000019ED">
+            <code>000019ED</code> — VDD_PNP_Get_Monitor_Info
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001AC1">
+            <code>00001AC1</code> — VGMIEnumKeysLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001B18">
+            <code>00001B18</code> — VGMIEndEnumKeysLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001B21">
+            <code>00001B21</code> — VGMIEndofKeyEnumeration
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001B46">
+            <code>00001B46</code> — VGMICloseKey
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001B62">
+            <code>00001B62</code> — VGMISetupRefreshRateLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001B7D">
+            <code>00001B7D</code> — VGMIGetRefreshRateLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001BFA">
+            <code>00001BFA</code> — VGMICrackString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001C86">
+            <code>00001C86</code> — VGMICalcRefreshRateMax
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001CD2">
+            <code>00001CD2</code> — VGMICalcRefreshRateMin
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001CF9">
+            <code>00001CF9</code> — VGMINextMonitorMode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001D15">
+            <code>00001D15</code> — VGMIDoneGettingRefreshRate
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001D78">
+            <code>00001D78</code> — VGMIGoodExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001D99">
+            <code>00001D99</code> — VGMIUseEDID
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001E2C">
+            <code>00001E2C</code> — VGMIErrorExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001E37">
+            <code>00001E37</code> — VDD_PNP_GetDisplayConfig
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001EA8">
+            <code>00001EA8</code> — VPFD_GoodExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001EB1">
+            <code>00001EB1</code> — VPFD_ErrorExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001EC8">
+            <code>00001EC8</code> — VDD_Get_DISPLAYINFO
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001F37">
+            <code>00001F37</code> — VGDI_GoodExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001F3B">
+            <code>00001F3B</code> — VGDI_ErrorExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00001F41">
+            <code>00001F41</code> — VDD_PNP_FillDISPLAYINFO
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002009">
+            <code>00002009</code> — VFDI_FillDesktopData
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000208D">
+            <code>0000208D</code> — VFDI_FillMonitorData
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002141">
+            <code>00002141</code> — VFDI_DetermineReturnCode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000021AA">
+            <code>000021AA</code> — Exec_VESA_Int
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002210">
+            <code>00002210</code> — VESA_Timeout
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002279">
+            <code>00002279</code> — VDD_PNP_GetVESAEDID
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002279">
+            <code>00002279</code> — _VDD_PNP_GetVESAEDID
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002324">
+            <code>00002324</code> — VGVEAllocAlternate
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002350">
+            <code>00002350</code> — VGVEPrepareForBIOSCall
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000023AA">
+            <code>000023AA</code> — VGVEDeallocTempScheme
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000023C0">
+            <code>000023C0</code> — VGVEDeallocV86MMGRScheme
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000023D8">
+            <code>000023D8</code> — VGVECheckVESAReturnCode
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000023E2">
+            <code>000023E2</code> — VGVEValidateEDIDHeader
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000023F9">
+            <code>000023F9</code> — VGVEGoodExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002408">
+            <code>00002408</code> — VGVEFailExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000240F">
+            <code>0000240F</code> — VGVEErrorExit1
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002416">
+            <code>00002416</code> — VGVEErrorExit2
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000241D">
+            <code>0000241D</code> — VGVEErrorExit3
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002424">
+            <code>00002424</code> — VGVEErrorExit4
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000242B">
+            <code>0000242B</code> — VGVEErrorExit5
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002432">
+            <code>00002432</code> — VGVEErrorExit6
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002439">
+            <code>00002439</code> — VGVEErrorExit7
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002440">
+            <code>00002440</code> — VGVEErrorExit8
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002447">
+            <code>00002447</code> — VGVEErrorExit
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002451">
+            <code>00002451</code> — VDD_VESA_CALL
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002451">
+            <code>00002451</code> — _VDD_VESA_CALL
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000024CE">
+            <code>000024CE</code> — StringConcat
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000024EA">
+            <code>000024EA</code> — SC_DoneCopyingFirstString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000024F7">
+            <code>000024F7</code> — SC_DoneConcatenating
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000024FC">
+            <code>000024FC</code> — StringCompare
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002508">
+            <code>00002508</code> — SCmp_Loop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000252D">
+            <code>0000252D</code> — SCmp_DoneWithCompare
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002531">
+            <code>00002531</code> — IsStringNumeric
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000253C">
+            <code>0000253C</code> — ISN_Loop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000254B">
+            <code>0000254B</code> — ISN_StringIsntNumeric
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000254E">
+            <code>0000254E</code> — ISN_StringIsNumeric
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002552">
+            <code>00002552</code> — ConvertStringToInteger
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000256C">
+            <code>0000256C</code> — CSTIGotStringLength
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002576">
+            <code>00002576</code> — CSTIConvertLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002591">
+            <code>00002591</code> — ConvertXYString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000025AF">
+            <code>000025AF</code> — ConvertHexToString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000025C6">
+            <code>000025C6</code> — CHTSLoop
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000025EF">
+            <code>000025EF</code> — CHTSDoneConverting
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="000025F4">
+            <code>000025F4</code> — BreakUpString
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000260B">
+            <code>0000260B</code> — BUSFoundDelimitor
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002613">
+            <code>00002613</code> — SearchForDelimitor
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="00002628">
+            <code>00002628</code> — SFDFoundDelimitor
+            
+          </li>
+        
+          <li data-segment="00007580" data-offset="0000262B">
+            <code>0000262B</code> — SFDDelimitorNotFound
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 10: _VMCREATE @ 00007A20
+      </summary>
+      <ul>
+        
+          <li data-segment="00007A20" data-offset="00000000">
+            <code>00000000</code> — VDD_Create_VM
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="00000066">
+            <code>00000066</code> — VDD_Sys_VM_Init
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="0000007B">
+            <code>0000007B</code> — VDD_VM_Init
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="000000AD">
+            <code>000000AD</code> — VDD_VM_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="000000E0">
+            <code>000000E0</code> — VDD_State_Create_VM
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="0000018B">
+            <code>0000018B</code> — VDD_State_VM_Init
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="0000028A">
+            <code>0000028A</code> — VDD_PIF_State
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="000002DC">
+            <code>000002DC</code> — VDD_Grb_Version
+            
+          </li>
+        
+          <li data-segment="00007A20" data-offset="0000031C">
+            <code>0000031C</code> — VDD_VM_Mem_Create_VM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 11: _VMDESTROY @ 00007C10
+      </summary>
+      <ul>
+        
+          <li data-segment="00007C10" data-offset="00000000">
+            <code>00000000</code> — VDD_Destroy_VM
+            
+          </li>
+        
+          <li data-segment="00007C10" data-offset="00000059">
+            <code>00000059</code> — VDD_End_PM_App
+            
+          </li>
+        
+          <li data-segment="00007C10" data-offset="00000080">
+            <code>00000080</code> — VDD_State_Destroy_VM
+            
+          </li>
+        
+          <li data-segment="00007C10" data-offset="00000104">
+            <code>00000104</code> — VDD_VM_Mem_Destroy_VM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 12: _THCREATE @ 00007D20
+      </summary>
+      <ul>
+        
+          <li data-segment="00007D20" data-offset="00000000">
+            <code>00000000</code> — VDD_VM_Suspend
+            
+          </li>
+        
+          <li data-segment="00007D20" data-offset="00000038">
+            <code>00000038</code> — VDD_VM_Mem_VM_Suspend
+            
+          </li>
+        
+          <li data-segment="00007D20" data-offset="00000045">
+            <code>00000045</code> — VDD_VM_Mem_Unlock_Save_Mem
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 13: _VMRESUME @ 00007E40
+      </summary>
+      <ul>
+        
+          <li data-segment="00007E40" data-offset="00000000">
+            <code>00000000</code> — VDD_VM_Resume
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000003C">
+            <code>0000003C</code> — VDD_VM_Mem_VM_Resume
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 14: _PNP @ 00009BE0
+      </summary>
+      <ul>
+        
+          <li data-segment="00009BE0" data-offset="00000000">
+            <code>00000000</code> — _GetBIOSData
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000000">
+            <code>00000000</code> — GetBIOSData
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000071">
+            <code>00000071</code> — SetBIOSData
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000071">
+            <code>00000071</code> — _SetBIOSData
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000000F0">
+            <code>000000F0</code> — _DetTimeRATE
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000015D">
+            <code>0000015D</code> — _GetRefreshRatesFromEDID
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000039E">
+            <code>0000039E</code> — _IsValidEDID
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000003D6">
+            <code>000003D6</code> — _GetDeviceIDFromEDID
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000463">
+            <code>00000463</code> — _GetStringFromEDID
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000004B0">
+            <code>000004B0</code> — _VDD_SetDeviceBusyBit
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000508">
+            <code>00000508</code> — _IsThisDevNodeTheVGA
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000005A7">
+            <code>000005A7</code> — _GetMemoryBaseAndSize
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000634">
+            <code>00000634</code> — _GetMemBase
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000647">
+            <code>00000647</code> — _WriteBootLog
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000664">
+            <code>00000664</code> — _FailReason
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000723">
+            <code>00000723</code> — _MakeDeviceName
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000007A8">
+            <code>000007A8</code> — _FreeDeviceName
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000007FD">
+            <code>000007FD</code> — _GetDeviceName
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000854">
+            <code>00000854</code> — _OpenDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000098F">
+            <code>0000098F</code> — _CloseDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000009E2">
+            <code>000009E2</code> — _GetDeviceID
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000A15">
+            <code>00000A15</code> — _VDD_Get_Monitor
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000A40">
+            <code>00000A40</code> — _PerUserProfilesOn
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000AA0">
+            <code>00000AA0</code> — _IsDefaultUser
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000B64">
+            <code>00000B64</code> — _OpenDeviceKey
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000CBD">
+            <code>00000CBD</code> — _VDD_EnableDevice_Error
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000D03">
+            <code>00000D03</code> — _EnableDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00000D4B">
+            <code>00000D4B</code> — __EnableDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001023">
+            <code>00001023</code> — _AddDeviceToList
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001059">
+            <code>00001059</code> — _RemoveDeviceFromList
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000108E">
+            <code>0000108E</code> — _CallMiniVDD2
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001112">
+            <code>00001112</code> — _GetDeviceIntStatus
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000116C">
+            <code>0000116C</code> — _LoadMiniVDD
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000146C">
+            <code>0000146C</code> — _StartDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000018F6">
+            <code>000018F6</code> — _CanStopDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000198A">
+            <code>0000198A</code> — _StopDevice
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001A54">
+            <code>00001A54</code> — _VDD_PnP_Handler
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001C09">
+            <code>00001C09</code> — _VDD_Register_DevLoader
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001C19">
+            <code>00001C19</code> — _VDD_New_DevNode@12
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001C86">
+            <code>00001C86</code> — _CreateDeviceDDB
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001D20">
+            <code>00001D20</code> — _VESA_CALL
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001DD4">
+            <code>00001DD4</code> — _GetSystemPowerMgmtType
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001E16">
+            <code>00001E16</code> — _InitAdapterPowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001ED6">
+            <code>00001ED6</code> — _InitPowerOverrides
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00001F3A">
+            <code>00001F3A</code> — _InitMonitorPowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002010">
+            <code>00002010</code> — _SMPSviaAPM
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000020F5">
+            <code>000020F5</code> — _CallPowerStateFunc
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002191">
+            <code>00002191</code> — _SetAdapterPowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002230">
+            <code>00002230</code> — _SetMonitorPowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000022E8">
+            <code>000022E8</code> — _SetDevicePowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000233D">
+            <code>0000233D</code> — __SetDevicePowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000023B9">
+            <code>000023B9</code> — _GetDevicePowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002430">
+            <code>00002430</code> — _VDD_IOCTL@4
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000244D">
+            <code>0000244D</code> — _VDD_Device_IOCTL@8
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000253C">
+            <code>0000253C</code> — _CCODE__VPOWERD_Set_Device_Power_State
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002544">
+            <code>00002544</code> — _CCODE__SHELL_CallAtAppyTime
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000254C">
+            <code>0000254C</code> — _CCODE__SHELL_CallDll
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002554">
+            <code>00002554</code> — _CCODE__SHELL_CancelAppyTimeEvent
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000255C">
+            <code>0000255C</code> — _CCODE__SHELL_LoadLibrary
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002564">
+            <code>00002564</code> — _CCODE__SHELL_GetProcAddress
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000256C">
+            <code>0000256C</code> — _CCODE__RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002574">
+            <code>00002574</code> — _CCODE__RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000257C">
+            <code>0000257C</code> — _CCODE__RegCreateKey
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002584">
+            <code>00002584</code> — _CCODE__RegEnumKey
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000258C">
+            <code>0000258C</code> — _CCODE__RegDeleteValue
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002594">
+            <code>00002594</code> — _CCODE__RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000259C">
+            <code>0000259C</code> — _CCODE__RegSetValueEx
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000025A4">
+            <code>000025A4</code> — _CCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000025AC">
+            <code>000025AC</code> — _CCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000025B4">
+            <code>000025B4</code> — _CCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000025C8">
+            <code>000025C8</code> — _CCODE_Get_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000025D4">
+            <code>000025D4</code> — _CCODE_Directed_Sys_Control@24
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002600">
+            <code>00002600</code> — _CCODE__Sprintf
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002608">
+            <code>00002608</code> — _CCODE__PageAllocate
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002610">
+            <code>00002610</code> — _CCODE_VMM_GetSystemInitState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002618">
+            <code>00002618</code> — _CCODE__PageFree
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002620">
+            <code>00002620</code> — _CCODE_Get_Cur_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000262C">
+            <code>0000262C</code> — _CCODE_Get_Cur_Thread_Handle
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002638">
+            <code>00002638</code> — _CCODE__LinPageLock
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002640">
+            <code>00002640</code> — _CCODE__LinPageUnLock
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002648">
+            <code>00002648</code> — _CCODE__AttemptingSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002650">
+            <code>00002650</code> — _CCODE_Open_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002658">
+            <code>00002658</code> — _CCODE_Write_Boot_Log@8
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002664">
+            <code>00002664</code> — _CCODE_Close_Boot_Log
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000266C">
+            <code>0000266C</code> — _CCODE__CopyPageTable
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002674">
+            <code>00002674</code> — _CCODE__PhysIntoV86
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000267C">
+            <code>0000267C</code> — _CCODE__LinMapIntoV86
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002684">
+            <code>00002684</code> — _CCODE__PageReAllocate
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000268C">
+            <code>0000268C</code> — _CCODE_VMM_Add_DDB@4
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026A0">
+            <code>000026A0</code> — _CCODE_VMM_Remove_DDB@4
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026B4">
+            <code>000026B4</code> — _CCODE__Allocate_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026BC">
+            <code>000026BC</code> — _CCODE__Free_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026C4">
+            <code>000026C4</code> — _CCODE__CONFIGMG_Locate_DevNode
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026CC">
+            <code>000026CC</code> — _CCODE__CONFIGMG_Get_Parent
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026D4">
+            <code>000026D4</code> — _CCODE__CONFIGMG_Get_Child
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026DC">
+            <code>000026DC</code> — _CCODE__CONFIGMG_Get_Sibling
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026E4">
+            <code>000026E4</code> — _CCODE__CONFIGMG_Get_Device_ID
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026EC">
+            <code>000026EC</code> — _CCODE__CONFIGMG_Create_DevNode
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026F4">
+            <code>000026F4</code> — _CCODE__CONFIGMG_Register_Device_Driver
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000026FC">
+            <code>000026FC</code> — _CCODE__CONFIGMG_Register_Enumerator
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002704">
+            <code>00002704</code> — _CCODE__CONFIGMG_Get_First_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000270C">
+            <code>0000270C</code> — _CCODE__CONFIGMG_Get_Next_Res_Des
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002714">
+            <code>00002714</code> — _CCODE__CONFIGMG_Load_DLVxDs
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000271C">
+            <code>0000271C</code> — _CCODE__CONFIGMG_Get_DDBs
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002724">
+            <code>00002724</code> — _CCODE__CONFIGMG_Register_DevLoader
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000272C">
+            <code>0000272C</code> — _CCODE__CONFIGMG_Reenumerate_DevNode
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002734">
+            <code>00002734</code> — _CCODE__CONFIGMG_Reset_Children_Marks
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000273C">
+            <code>0000273C</code> — _CCODE__CONFIGMG_Remove_Unmarked_Children
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002744">
+            <code>00002744</code> — _CCODE__CONFIGMG_Get_Alloc_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000274C">
+            <code>0000274C</code> — _CCODE__CONFIGMG_Get_DevNode_Key
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002754">
+            <code>00002754</code> — _CCODE__CONFIGMG_Read_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000275C">
+            <code>0000275C</code> — _CCODE__CONFIGMG_Write_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002764">
+            <code>00002764</code> — _CCODE__CONFIGMG_Get_Bus_Info
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000276C">
+            <code>0000276C</code> — _CCODE__CONFIGMG_Get_Device_Driver_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002774">
+            <code>00002774</code> — _CCODE__CONFIGMG_Set_Device_Driver_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000277C">
+            <code>0000277C</code> — _CCODE__CONFIGMG_Get_Hardware_Profile_Info
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002784">
+            <code>00002784</code> — _CCODE__CONFIGMG_Call_Enumerator_Function
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000278C">
+            <code>0000278C</code> — _CCODE__CONFIGMG_Get_Global_State
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="00002794">
+            <code>00002794</code> — _CCODE__CONFIGMG_Discard_Boot_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="0000279C">
+            <code>0000279C</code> — _CCODE__CONFIGMG_Set_Dependent_DevNode
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000027A4">
+            <code>000027A4</code> — _CCODE__CONFIGMG_Set_DevNode_PowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000027AC">
+            <code>000027AC</code> — _CCODE__CONFIGMG_Get_DevNode_PowerState
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000027B4">
+            <code>000027B4</code> — _CCODE__CONFIGMG_Set_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000027BC">
+            <code>000027BC</code> — _CCODE__CONFIGMG_Get_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000027C4">
+            <code>000027C4</code> — _CCODE__CONFIGMG_Get_DevNode_Handler
+            
+          </li>
+        
+          <li data-segment="00009BE0" data-offset="000027CC">
+            <code>000027CC</code> — _CCODE__CONFIGMG_System_Device_Power_State_Mapping
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 15: _DOSVM @ 000127F0
+      </summary>
+      <ul>
+        
+          <li data-segment="000127F0" data-offset="00000000">
+            <code>00000000</code> — VDD_Set_Device_Focus
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000068">
+            <code>00000068</code> — VDD_Ctl_Set_Focus
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000090">
+            <code>00000090</code> — VDD_Ctl_End_Dsp_Crit
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000000B0">
+            <code>000000B0</code> — VDD_Grab_DoGrab
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000001B0">
+            <code>000001B0</code> — VDD_Grab_ACopy
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000001F8">
+            <code>000001F8</code> — VDD_Grab_DCopy
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000238">
+            <code>00000238</code> — VDD_Grab_Get_Text_Copy_Buf
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000002A3">
+            <code>000002A3</code> — VDD_Grab_Delete_Text_Copy_Buf
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000030D">
+            <code>0000030D</code> — VDD_Grab_Change_Query
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000003A5">
+            <code>000003A5</code> — VDD_Grab_Clear_Mod_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000003EC">
+            <code>000003EC</code> — VDD_Grab_Save_Dirty_Pages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000004D6">
+            <code>000004D6</code> — VDD_Grab_Get_Chgs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000584">
+            <code>00000584</code> — VDD_OEM_CRTC_Enable
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000598">
+            <code>00000598</code> — GoToWindowsMode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000005D7">
+            <code>000005D7</code> — GRWMRescheduleThis
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000005EE">
+            <code>000005EE</code> — GRWMOKToContinue
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000627">
+            <code>00000627</code> — GRWMFoolBIOSMode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000062E">
+            <code>0000062E</code> — GRWMSetToHiResMode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000694">
+            <code>00000694</code> — GRWMReenableTraps
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000006BE">
+            <code>000006BE</code> — DoneGoingToWindows
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000006C0">
+            <code>000006C0</code> — GoToVGAMode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000723">
+            <code>00000723</code> — GRWMGoingToHiResVM
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000073C">
+            <code>0000073C</code> — GRWMCheckVGAToVGA
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000075A">
+            <code>0000075A</code> — HiResToVGAMode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000777">
+            <code>00000777</code> — GRWMSaveBIOSStates
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000007C0">
+            <code>000007C0</code> — GRWMSaveInt43H
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000838">
+            <code>00000838</code> — GRWMDoneWithBIOSModeChange
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000085E">
+            <code>0000085E</code> — DisableVGAPortTraps
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000089C">
+            <code>0000089C</code> — EnableVGAPortTraps
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000008DA">
+            <code>000008DA</code> — VDD_LinearModeRemap
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000955">
+            <code>00000955</code> — SLMRSetMemoryEnabled
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000095F">
+            <code>0000095F</code> — BLTerDrawRegTrap
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000009D7">
+            <code>000009D7</code> — SDRTSetOwnerToWindows
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000A39">
+            <code>00000A39</code> — SDRTPerformPhysicalIO
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000A5E">
+            <code>00000A5E</code> — BLTerDrawVGARegTrap
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000AC4">
+            <code>00000AC4</code> — BDVTSetOwnerToWindows
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000B21">
+            <code>00000B21</code> — SaveOurPages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000B32">
+            <code>00000B32</code> — SOPSaveLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000B48">
+            <code>00000B48</code> — SOPEndLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000B50">
+            <code>00000B50</code> — UnmapOffScreenPages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000B6F">
+            <code>00000B6F</code> — UOSPUnmapLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000BCC">
+            <code>00000BCC</code> — UOSPEndLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000BE2">
+            <code>00000BE2</code> — CheckHiResSwitchAllowed
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000C76">
+            <code>00000C76</code> — CHSAGetSaveBufferSize
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000C9C">
+            <code>00000C9C</code> — CHSAAllocHiResSaveBuffer
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000D24">
+            <code>00000D24</code> — CHSAForceSaveToHappenNow
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000D44">
+            <code>00000D44</code> — CHSAJumpToNextHandler
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000D4B">
+            <code>00000D4B</code> — CHSAFail
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000D4E">
+            <code>00000D4E</code> — GetVESAMemory
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000DB1">
+            <code>00000DB1</code> — GVMPrepareForBIOSCall
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000E16">
+            <code>00000E16</code> — GVMGotAnAnswer
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000E24">
+            <code>00000E24</code> — GVMGoodExit
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000E2D">
+            <code>00000E2D</code> — GVMErrorDealloc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000E34">
+            <code>00000E34</code> — GVMError
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000E44">
+            <code>00000E44</code> — SaveHiResScreen
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000F32">
+            <code>00000F32</code> — SHRSGetBankSize
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00000F68">
+            <code>00000F68</code> — SHRSGetLinearVRAMAddr
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000101E">
+            <code>0000101E</code> — SHRSBankSizeFailure
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000102A">
+            <code>0000102A</code> — SHRSBankSizeSuccess
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000103D">
+            <code>0000103D</code> — SHRSSaveDisplayStartData
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000107F">
+            <code>0000107F</code> — SHRSSetupVRAMCopy
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000111A">
+            <code>0000111A</code> — SHRSSaveLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001170">
+            <code>00001170</code> — SHRSDoneSaving
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000011AF">
+            <code>000011AF</code> — RestoreHiResScreen
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000011ED">
+            <code>000011ED</code> — RHRSNoSaveWasDone
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001213">
+            <code>00001213</code> — RHRSSaveWasOK
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000122F">
+            <code>0000122F</code> — RHRSRestoreVESA
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000127F">
+            <code>0000127F</code> — RHRSSetupRestoreLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001303">
+            <code>00001303</code> — RHRSRestoreLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001359">
+            <code>00001359</code> — RHRSRestoreState
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000136A">
+            <code>0000136A</code> — RHRSRestoreDisplayStartData
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001397">
+            <code>00001397</code> — RHRSRestoreBank
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000013ED">
+            <code>000013ED</code> — RHRSFreeSaveBuffer
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000141D">
+            <code>0000141D</code> — RHRSRestoreTrappingState
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000147F">
+            <code>0000147F</code> — RHRSExit
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001488">
+            <code>00001488</code> — VDD_State_Begin_SR_Section
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000014B7">
+            <code>000014B7</code> — VDD_State_End_SR_Section
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001518">
+            <code>00001518</code> — VDD_State_Set_Latches_Owner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000158B">
+            <code>0000158B</code> — VDD_State_Clear_MemC_Owner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000015A9">
+            <code>000015A9</code> — VDD_State_Set_MemC_Owner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000015F8">
+            <code>000015F8</code> — VDD_State_DisableLinearMemory
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001752">
+            <code>00001752</code> — VDD_State_Set_CRTC_Owner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000178A">
+            <code>0000178A</code> — VSSCO_SuspendLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000017C1">
+            <code>000017C1</code> — VSSCO_SuspendVM
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000182D">
+            <code>0000182D</code> — VSSCO_DoSuspend
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001837">
+            <code>00001837</code> — VSSCO_NoSuspendNeeded
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001849">
+            <code>00001849</code> — VSSCO_DoneSuspending
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000018C4">
+            <code>000018C4</code> — VSSCO_ResumeVMs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000018D6">
+            <code>000018D6</code> — VSSCO_ResumeLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001908">
+            <code>00001908</code> — VSSCO_ResumeVM
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000190E">
+            <code>0000190E</code> — VSSCO_NoResumeNeeded
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000019A2">
+            <code>000019A2</code> — VDD_State_Get_CRTC_Index_Port
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000019BB">
+            <code>000019BB</code> — VDD_State_Restore_Regs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001A4A">
+            <code>00001A4A</code> — VSRRRestoreAttribute
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001A8F">
+            <code>00001A8F</code> — VSRRRestoreDAC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001AA8">
+            <code>00001AA8</code> — VDD_State_Restore_MemC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001B20">
+            <code>00001B20</code> — VSRRRestoreMisc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001B43">
+            <code>00001B43</code> — VSRRCheckForPhonyA0Mapping
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001B5C">
+            <code>00001B5C</code> — MiniVDD_Restore
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001B82">
+            <code>00001B82</code> — VSRR_Exit
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001B84">
+            <code>00001B84</code> — VDD_State_Restore_CRTC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001BAA">
+            <code>00001BAA</code> — VDD_State_Restore_DAC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001BEA">
+            <code>00001BEA</code> — VDD_State_Get_Screen_Start
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001C10">
+            <code>00001C10</code> — VDD_State_Get_Display_Dimensions
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001C2E">
+            <code>00001C2E</code> — VDD_State_Get_Dimensions
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001C90">
+            <code>00001C90</code> — gvp_graphics
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001CC5">
+            <code>00001CC5</code> — GVPWeAreModeX
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001D27">
+            <code>00001D27</code> — VDD_State_Scrn_On
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001D98">
+            <code>00001D98</code> — VDD_State_Scrn_Off
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001E10">
+            <code>00001E10</code> — VDD_State_Restore_Index
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001E6A">
+            <code>00001E6A</code> — VDD_State_Modify_VMs_MemC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001EB4">
+            <code>00001EB4</code> — VDD_State_Set_MemC_Planar
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001F7A">
+            <code>00001F7A</code> — VDD_State_Internal_Set_MemC_Planar
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00001FD4">
+            <code>00001FD4</code> — VDD_State_Save_CRTC_Owner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000204B">
+            <code>0000204B</code> — VDD_State_Restore_Latches
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002098">
+            <code>00002098</code> — VSRLCheckLatchOwner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000020AC">
+            <code>000020AC</code> — VSRLSetupForLatchRestore
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000213B">
+            <code>0000213B</code> — VDD_State_Save_Latches
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002189">
+            <code>00002189</code> — VSSLSetupForLatchSave
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000218E">
+            <code>0000218E</code> — MiniVDD_LatchSave
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000021FC">
+            <code>000021FC</code> — VDD_State_Get_Mode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000231B">
+            <code>0000231B</code> — VDD_State_Get_Mem_Mapping
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000233F">
+            <code>0000233F</code> — VDD_State_Change_Query
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002369">
+            <code>00002369</code> — VDD_State_Get_Chgs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000023F7">
+            <code>000023F7</code> — VDD_State_Chk_CRTC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000248A">
+            <code>0000248A</code> — VDD_State_Clear_Mod_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000024A1">
+            <code>000024A1</code> — VDD_State_Chk_Cursor
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000024EE">
+            <code>000024EE</code> — VDD_State_Get_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000025DD">
+            <code>000025DD</code> — VDD_State_Get_Cursor_Posn
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002609">
+            <code>00002609</code> — VDD_State_Copy_Ctlr_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002658">
+            <code>00002658</code> — VDD_VGA_Save_Regs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000026EB">
+            <code>000026EB</code> — VDD_VGA_Save_Attr
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000279C">
+            <code>0000279C</code> — VDD_VGA_Save_Misc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000027BD">
+            <code>000027BD</code> — VDD_VGA_Save_CRTC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000027F6">
+            <code>000027F6</code> — VDD_VGA_Save_Grp
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002825">
+            <code>00002825</code> — VDD_VGA_Save_Seq
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002854">
+            <code>00002854</code> — VDD_VGA_Save_DAC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002890">
+            <code>00002890</code> — VDD_Int_Can_Emulate
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002901">
+            <code>00002901</code> — VDD_Int_9
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002922">
+            <code>00002922</code> — VDD_Int_16
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002989">
+            <code>00002989</code> — UpdateModRect
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000029EA">
+            <code>000029EA</code> — VDD_Int_10
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002E77">
+            <code>00002E77</code> — VI10VESA
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002EAA">
+            <code>00002EAA</code> — VESA_NotHandledByMiniVDD
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002ED2">
+            <code>00002ED2</code> — VESA_GetMode
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002EE7">
+            <code>00002EE7</code> — VESA_ModeSetDone
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002F30">
+            <code>00002F30</code> — VMSDModeSet
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002F6A">
+            <code>00002F6A</code> — ScrollWinUp
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00002FB3">
+            <code>00002FB3</code> — ScrollWinDown
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000300B">
+            <code>0000300B</code> — VDD_Dspy_SetPosn
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003064">
+            <code>00003064</code> — VDD_Int_10_Mode_Switch
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000030A9">
+            <code>000030A9</code> — VDD_Int_10_Mode_Change_Start
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003173">
+            <code>00003173</code> — VDD_Int_10_Mode_Sw_Done
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003185">
+            <code>00003185</code> — VDD_Int_10_Mode_Change_End
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000031EA">
+            <code>000031EA</code> — VDD_Int_10_PM
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003248">
+            <code>00003248</code> — VDD_PH_Mem_Access_Latch_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000327E">
+            <code>0000327E</code> — VDD_PH_Mem_End_Access_Latch_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003297">
+            <code>00003297</code> — VDD_PH_Mem_Shared_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003301">
+            <code>00003301</code> — VDD_PH_Mem_Get_PPD_Ptr
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003336">
+            <code>00003336</code> — VDD_PH_Mem_VM_Using_All
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003380">
+            <code>00003380</code> — VDD_PH_Mem_CalcPagePhys
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003396">
+            <code>00003396</code> — cpp_SetToVDDBank
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000033A8">
+            <code>000033A8</code> — cpp_SetToWindowsBank
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000033B8">
+            <code>000033B8</code> — cpp_CalcBanking
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000033CD">
+            <code>000033CD</code> — VDD_PH_Mem_Mapped_Phys
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003421">
+            <code>00003421</code> — VDD_PH_Mem_Get_Visible_Pages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003453">
+            <code>00003453</code> — VGVPHiResVM
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000347F">
+            <code>0000347F</code> — VGVPLieAboutScreenSize
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003514">
+            <code>00003514</code> — VDD_PH_Mem_Page_Visible
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000353A">
+            <code>0000353A</code> — VDD_PH_Mem_CalcPageId
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003590">
+            <code>00003590</code> — VDD_PH_Mem_CalcPageAddr
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000035DB">
+            <code>000035DB</code> — VDD_PH_Mem_Alloc_Video_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000365C">
+            <code>0000365C</code> — find_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000366E">
+            <code>0000366E</code> — MiniVDDPageAdjust
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003690">
+            <code>00003690</code> — MiniVDDPageAdjustDone
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000036E7">
+            <code>000036E7</code> — alloc_page_free
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000036FF">
+            <code>000036FF</code> — no_page_free
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000373E">
+            <code>0000373E</code> — alloc_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000037E8">
+            <code>000037E8</code> — VDD_PH_Mem_LRU_Sweep
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000385E">
+            <code>0000385E</code> — VDD_PH_Mem_update_LRU
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000038CF">
+            <code>000038CF</code> — VDD_PH_Mem_Change_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000392F">
+            <code>0000392F</code> — VDD_PH_Mem_Get_Page_Owner
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003979">
+            <code>00003979</code> — VDD_PH_Mem_Free_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003A2D">
+            <code>00003A2D</code> — VDD_PH_Mem_Restore_Mapping
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003A3F">
+            <code>00003A3F</code> — VDD_PH_Mem_Set_A0_Mapping
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003A62">
+            <code>00003A62</code> — VDD_PH_Mem_Modify_VMs_MemC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003AA5">
+            <code>00003AA5</code> — VDD_PH_Mem_Clear_MemC_mods
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003AC6">
+            <code>00003AC6</code> — VDD_PH_Mem_Access_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003B9A">
+            <code>00003B9A</code> — VDD_PH_Mem_Page_Accessible
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003BCB">
+            <code>00003BCB</code> — VDD_PH_Mem_Release_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003BEA">
+            <code>00003BEA</code> — VDD_Get_VM_Info
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003C05">
+            <code>00003C05</code> — VDD_Hide_Cursor
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003C5F">
+            <code>00003C5F</code> — VDD_Query_Access
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003CB3">
+            <code>00003CB3</code> — VQA_CheckSuspended
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003CBE">
+            <code>00003CBE</code> — VQA_AllowAccess
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003CC1">
+            <code>00003CC1</code> — VQA_DontAllowAccess
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003CCB">
+            <code>00003CCB</code> — VDD_Set_VMType
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003D66">
+            <code>00003D66</code> — VDD_Check_Update_Soon
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003DD6">
+            <code>00003DD6</code> — VDD_Get_ModTime
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003E27">
+            <code>00003E27</code> — VDD_InvalidateSelector
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003E4B">
+            <code>00003E4B</code> — VISInvalidateLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003E71">
+            <code>00003E71</code> — VISEndInvalidateLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003E81">
+            <code>00003E81</code> — VISBadness
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003E84">
+            <code>00003E84</code> — VDD_ValidateSelector
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003EB5">
+            <code>00003EB5</code> — VVSSearchLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003EE3">
+            <code>00003EE3</code> — VVSEndSearchLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003EEB">
+            <code>00003EEB</code> — VVSCheckInstruction
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F11">
+            <code>00003F11</code> — VVSOurGPFault
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F1B">
+            <code>00003F1B</code> — VVSValidateLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F3B">
+            <code>00003F3B</code> — VVSEndValidateLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F50">
+            <code>00003F50</code> — VVSBadness
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F53">
+            <code>00003F53</code> — VVSChain
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F60">
+            <code>00003F60</code> — VVSChain0C
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F6A">
+            <code>00003F6A</code> — VDD_PM_API
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003F97">
+            <code>00003F97</code> — VPAItsAMiniVDDCall
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003FBF">
+            <code>00003FBF</code> — VPA_IOCTL
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00003FEB">
+            <code>00003FEB</code> — VPAItsAGrabberCall
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000040AB">
+            <code>000040AB</code> — VDD_Get_GrbState
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000040B8">
+            <code>000040B8</code> — VDD_Get_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004119">
+            <code>00004119</code> — VDD_Get_Mod
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000041A4">
+            <code>000041A4</code> — VDD_Clear_Mod
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000041B9">
+            <code>000041B9</code> — VDD_Get_Mem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000041FC">
+            <code>000041FC</code> — VDD_Get_GrbMem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004218">
+            <code>00004218</code> — VGMm_Set_Struc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004307">
+            <code>00004307</code> — VDD_Suspend_NormSch
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000432F">
+            <code>0000432F</code> — VDD_Free_Grab
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004343">
+            <code>00004343</code> — VDD_Free_Mem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000435A">
+            <code>0000435A</code> — VDD_Unlock_APP
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000043A8">
+            <code>000043A8</code> — VDD_VM_Mem_Alloc_PageMaps
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004434">
+            <code>00004434</code> — VDD_VM_Mem_Grow_PageMaps
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000044D1">
+            <code>000044D1</code> — VDD_VM_Mem_VM_Critical_Init
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004512">
+            <code>00004512</code> — VDD_VM_Mem_alloc_visible_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004612">
+            <code>00004612</code> — VDD_VM_Mem_Chk_VideoPages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004669">
+            <code>00004669</code> — VDD_VM_Mem_Set_Device_Focus
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004743">
+            <code>00004743</code> — VDD_VM_Mem_Dealloc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000047A7">
+            <code>000047A7</code> — VDD_VM_Mem_DMain
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000047BD">
+            <code>000047BD</code> — VDD_VM_Mem_Adjust_Plane_Sizes
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004870">
+            <code>00004870</code> — mr_mod_plane_size
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004889">
+            <code>00004889</code> — VDD_VM_Mem_Realloc_Plane
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000048F3">
+            <code>000048F3</code> — VDD_VM_Mem_Realloc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000049BC">
+            <code>000049BC</code> — VDD_VM_Mem_Font_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000049D6">
+            <code>000049D6</code> — VDD_VM_Mem_End_Mode_Chg
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004B13">
+            <code>00004B13</code> — VDD_VM_Mem_Change_SaveMem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004B67">
+            <code>00004B67</code> — VDD_VM_Mem_Adjust_Visible_Pages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004BDA">
+            <code>00004BDA</code> — VDD_VM_Mem_Chk_Alloc
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004C80">
+            <code>00004C80</code> — VDD_VM_Mem_MemC_about_to_change
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004CD4">
+            <code>00004CD4</code> — VDD_VM_Mem_Disable
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004D6C">
+            <code>00004D6C</code> — VDD_VM_Mem_VM_can_use_savemem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004D92">
+            <code>00004D92</code> — VDD_PFault
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004DDD">
+            <code>00004DDD</code> — VPFSleepLoop
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004DF1">
+            <code>00004DF1</code> — VPFNoSleepNeeded
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004E51">
+            <code>00004E51</code> — pf_pgmp_ok
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004EB2">
+            <code>00004EB2</code> — pf_try_using_VRAM
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004EE9">
+            <code>00004EE9</code> — pf_alloc_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004FAF">
+            <code>00004FAF</code> — pf_exit
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00004FE7">
+            <code>00004FE7</code> — VDD_VM_Mem_Map_SaveMem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005047">
+            <code>00005047</code> — msm_map_null
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005063">
+            <code>00005063</code> — msm_map_vram
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000050FE">
+            <code>000050FE</code> — VDD_VM_Mem_Unmap_SaveMem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000051BF">
+            <code>000051BF</code> — VDD_VM_Mem_MapNull
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000521F">
+            <code>0000521F</code> — VDD_VM_Mem_Disable_Null
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000528D">
+            <code>0000528D</code> — VDD_VM_Mem_Page_Handler
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005363">
+            <code>00005363</code> — VPHTrashShadow
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005376">
+            <code>00005376</code> — unmap_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000537B">
+            <code>0000537B</code> — VDD_VM_Mem_Msg_Page_Handler
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005385">
+            <code>00005385</code> — VDD_VM_Mem_Unmap_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000053F6">
+            <code>000053F6</code> — VDD_VM_Mem_Get_PTE
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005421">
+            <code>00005421</code> — VDD_VM_Mem_Is_Page_Dirty
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005450">
+            <code>00005450</code> — VDD_VM_Mem_Chk_SaveMem
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005486">
+            <code>00005486</code> — VDD_VM_Mem_Chk_MemC_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005506">
+            <code>00005506</code> — VDD_VM_Mem_Save_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000056D8">
+            <code>000056D8</code> — VDD_VM_Mem_Restore_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000057BB">
+            <code>000057BB</code> — rp_text
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005854">
+            <code>00005854</code> — rp_chain4
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000058C1">
+            <code>000058C1</code> — rp_exit
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000058D9">
+            <code>000058D9</code> — VDD_VM_Mem_Select_Plane
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000591B">
+            <code>0000591B</code> — VDD_VM_Mem_Chk_Plane_Size
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005941">
+            <code>00005941</code> — VDD_VM_Mem_Lock_SaveMem_Page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005970">
+            <code>00005970</code> — VDD_VM_Mem_copy_from_plane
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000059B8">
+            <code>000059B8</code> — VDD_VM_Mem_save_attribute_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005A03">
+            <code>00005A03</code> — VDD_VM_Mem_restore_attribute_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005A35">
+            <code>00005A35</code> — VDD_VM_Mem_copy_to_plane
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005A82">
+            <code>00005A82</code> — VDD_VM_Mem_zero_page
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005A90">
+            <code>00005A90</code> — VDD_VM_Mem_zero_page_no_pushad
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005ABD">
+            <code>00005ABD</code> — VDD_VM_Mem_init_text
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005AF0">
+            <code>00005AF0</code> — VDD_VM_Mem_Save_Dirty_State
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005B80">
+            <code>00005B80</code> — VDD_VM_Mem_Free_Pages
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005BF8">
+            <code>00005BF8</code> — VDD_VM_Mem_Record_VRAM_Mod
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005C44">
+            <code>00005C44</code> — VDD_Font_save_font
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005CD2">
+            <code>00005CD2</code> — VDD_Font_restore_font
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005D4C">
+            <code>00005D4C</code> — VDD_VMIdle
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005D9C">
+            <code>00005D9C</code> — VDD_VMTimeOut
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005DDC">
+            <code>00005DDC</code> — VDD_Update_Window
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005E48">
+            <code>00005E48</code> — VDD_Set_VM_Time_Out
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005E90">
+            <code>00005E90</code> — VDD_Clr_VM_Time_Out
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005EAA">
+            <code>00005EAA</code> — VDD_Update_Event
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005EE5">
+            <code>00005EE5</code> — VDD_Upd_CallBack
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005F13">
+            <code>00005F13</code> — VDD_VMDA_Grab
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005F6D">
+            <code>00005F6D</code> — VDD_Grab_Event
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005FAA">
+            <code>00005FAA</code> — VDD_Grab_CallBack
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005FC5">
+            <code>00005FC5</code> — VDD_Proc_VM_Resume
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00005FFB">
+            <code>00005FFB</code> — VDD_Proc_VM_Suspend
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000600F">
+            <code>0000600F</code> — VDD_Proc_BGrnd_INT2F
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000060C7">
+            <code>000060C7</code> — VDD_Proc_FGrnd_INT2F
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006103">
+            <code>00006103</code> — SYONG
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000618B">
+            <code>0000618B</code> — VDD_Proc_BGrnd_Notify
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000061E3">
+            <code>000061E3</code> — VDD_Proc_Notify_Bkgnd_VMs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006240">
+            <code>00006240</code> — VDD_Proc_Chk_Bkgnd_Usage
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006292">
+            <code>00006292</code> — VDD_Proc_Suspend_Bkgnd_VMs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000633D">
+            <code>0000633D</code> — VDD_Proc_Resume_Bkgnd_VMs
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000063E8">
+            <code>000063E8</code> — rbv_call_resume
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000641C">
+            <code>0000641C</code> — VDD_Proc_Force_Cur_VM_Fgrnd
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006451">
+            <code>00006451</code> — VDD_Proc_Set_Device_Focus
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000064A5">
+            <code>000064A5</code> — VSDFCheckSuspendParams
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000064F4">
+            <code>000064F4</code> — VDD_TIO_Set_Trap
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006620">
+            <code>00006620</code> — VIOST_EnableTrap
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006658">
+            <code>00006658</code> — VIOT_Disp
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000066BB">
+            <code>000066BB</code> — VIOT_Disp0
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000066CB">
+            <code>000066CB</code> — VIOT_Dispatch_Jump
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000066FF">
+            <code>000066FF</code> — VIOT_Disp_Ignore
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006711">
+            <code>00006711</code> — VIOT_CRTC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006744">
+            <code>00006744</code> — VIOT_In_Undef
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006750">
+            <code>00006750</code> — VIOT_Ignore
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000675C">
+            <code>0000675C</code> — VIOT_3C0
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000677F">
+            <code>0000677F</code> — VIOT_In_3C0
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006788">
+            <code>00006788</code> — VIOT_3C1
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000067C9">
+            <code>000067C9</code> — VIOT_In_3C1
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000067DC">
+            <code>000067DC</code> — VIOT_3C2
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006850">
+            <code>00006850</code> — VIOT_3C4
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006888">
+            <code>00006888</code> — VIOT_3C5
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000068C9">
+            <code>000068C9</code> — VIOT_VO_Seq
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006964">
+            <code>00006964</code> — VIOT_3C6
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="0000699B">
+            <code>0000699B</code> — VIOT_In_3C6
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="000069B8">
+            <code>000069B8</code> — VIOT_3C7
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006A44">
+            <code>00006A44</code> — VIOT_3C8
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006ADC">
+            <code>00006ADC</code> — VIOT_3C9
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006B9C">
+            <code>00006B9C</code> — VIOT_3CA
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006BB0">
+            <code>00006BB0</code> — VIOT_3CC
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006BCC">
+            <code>00006BCC</code> — VIOT_3CE
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006BFA">
+            <code>00006BFA</code> — VIOT_3CENoSpecialHandling
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006C2C">
+            <code>00006C2C</code> — VIOT_3CF
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006C5A">
+            <code>00006C5A</code> — VIOT_3CFNoSpecialHandling
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006D88">
+            <code>00006D88</code> — VIOT_3D4
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006DA4">
+            <code>00006DA4</code> — VIOT_3D5
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006E0F">
+            <code>00006E0F</code> — VIOT_In_CRT
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006E13">
+            <code>00006E13</code> — VIOT_VI_CRT
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006E44">
+            <code>00006E44</code> — VIOT_3DA
+            
+          </li>
+        
+          <li data-segment="000127F0" data-offset="00006EA4">
+            <code>00006EA4</code> — VIOT_3DB
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 16: _TEXT @ 00012A20
+      </summary>
+      <ul>
+        
+          <li data-segment="00012A20" data-offset="000001BC">
+            <code>000001BC</code> — _VDD_Irp_ProcessIrp
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 18: CONST @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _GUID_I2C_INTERFACE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — _GUID_GPIO_INTERFACE
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

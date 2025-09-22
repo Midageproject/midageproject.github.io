@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>STREAM — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>i386/exsup3.asm</li>
+      
+        <li>i386/exsup.asm</li>
+      
+        <li>intel/llmul.asm</li>
+      
+        <li>intel/ulldiv.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00000F90
+      </summary>
+      <ul>
+        
+          <li data-segment="00000F90" data-offset="00000000">
+            <code>00000000</code> — _StreamClassPower@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000002EF">
+            <code>000002EF</code> — _SCQueryWorker@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000332">
+            <code>00000332</code> — _StreamClassGetDmaBuffer@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000033F">
+            <code>0000033F</code> — _SCSynchCompletionRoutine@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000355">
+            <code>00000355</code> — _SCSynchPowerCompletionRoutine@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000395">
+            <code>00000395</code> — _SCBustedSynchPowerCompletionRoutine@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000003B5">
+            <code>000003B5</code> — _StreamClassEnableEventHandler@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000043F">
+            <code>0000043F</code> — _StreamClassDisableEventHandler@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000486">
+            <code>00000486</code> — _StreamClassEnableDeviceEventHandler@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000502">
+            <code>00000502</code> — _StreamClassDisableDeviceEventHandler@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000544">
+            <code>00000544</code> — _SCCloseInstanceCallback@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000612">
+            <code>00000612</code> — _SCCloseStreamCallback@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000712">
+            <code>00000712</code> — _StreamClassInterrupt@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000762">
+            <code>00000762</code> — _StreamClassTickHandler@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000834">
+            <code>00000834</code> — _StreamClassCancelPendingIrp@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000091D">
+            <code>0000091D</code> — _StreamClassCancelOutstandingIrp@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000097C">
+            <code>0000097C</code> — _StreamFlushIo@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000AA7">
+            <code>00000AA7</code> — _StreamClassStreamNotification
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000BA4">
+            <code>00000BA4</code> — _StreamClassDeviceNotification
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000C40">
+            <code>00000C40</code> — _StreamClassScheduleTimer@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000CA8">
+            <code>00000CA8</code> — _StreamClassCallAtNewPriority@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000D38">
+            <code>00000D38</code> — _StreamClassLogError@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000D89">
+            <code>00000D89</code> — _StreamClassDebugPrint
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000D8A">
+            <code>00000D8A</code> — _StreamClassGetPhysicalAddress@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000EA5">
+            <code>00000EA5</code> — _StreamClassDebugAssert@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000EAD">
+            <code>00000EAD</code> — _SCRequestDpcForStream@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000EE4">
+            <code>00000EE4</code> — _StreamClassAbortOutstandingRequests@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00000F8F">
+            <code>00000F8F</code> — _StreamClassGetNextEvent@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001035">
+            <code>00001035</code> — _StreamClassQueryMasterClock@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001072">
+            <code>00001072</code> — _StreamClassReenumerateStreams@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000010AA">
+            <code>000010AA</code> — _StreamClassRegisterFilterWithNoKSPins@24
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001268">
+            <code>00001268</code> — _StreamClassReadWriteConfig@20
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000132D">
+            <code>0000132D</code> — _StreamClassQueryMasterClockSync@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000013D3">
+            <code>000013D3</code> — _StreamClassCompleteRequestAndMarkQueueReady@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001431">
+            <code>00001431</code> — _SCDequeueAndStartStreamDataRequest@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000014AF">
+            <code>000014AF</code> — _SCDequeueAndStartStreamControlRequest@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001505">
+            <code>00001505</code> — _SCDequeueAndStartDeviceRequest@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001588">
+            <code>00001588</code> — _SCSetUpForDMA@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000015B6">
+            <code>000015B6</code> — _StreamClassDmaCallback@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000016BC">
+            <code>000016BC</code> — _SCStartMinidriverRequest@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000172B">
+            <code>0000172B</code> — _StreamClassDpc@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000019C2">
+            <code>000019C2</code> — _SCStartRequestOnStream@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001A23">
+            <code>00001A23</code> — _SCGetInterruptState@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001A8C">
+            <code>00001A8C</code> — _SCProcessCompletedRequest@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001AAF">
+            <code>00001AAF</code> — _SCDequeueAndDeleteSrb@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001B15">
+            <code>00001B15</code> — _SCProcessCompletedDataRequest@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001C15">
+            <code>00001C15</code> — _SCMinidriverStreamTimerDpc@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001C77">
+            <code>00001C77</code> — _SCMinidriverDeviceTimerDpc@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001CC0">
+            <code>00001CC0</code> — _StreamClassSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001CCB">
+            <code>00001CCB</code> — _SCCompleteIrp@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001D0E">
+            <code>00001D0E</code> — _SCDummyMinidriverRoutine@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001D13">
+            <code>00001D13</code> — _SCSignalSRBEvent@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001D28">
+            <code>00001D28</code> — _SCErrorDataSRB@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001D50">
+            <code>00001D50</code> — _SCIssueRequestToDevice@24
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001E63">
+            <code>00001E63</code> — _SCCheckFilterInstanceStreamsForIrp@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001EAF">
+            <code>00001EAF</code> — _SCCheckRequestsForIrp@16
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001F0B">
+            <code>00001F0B</code> — _SCNotifyMinidriverCancel@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001F2A">
+            <code>00001F2A</code> — _SCCancelOutstandingIrp@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00001FBF">
+            <code>00001FBF</code> — _SCInsertStreamInFilter@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002006">
+            <code>00002006</code> — _SCInterlockedRemoveEntryList@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002037">
+            <code>00002037</code> — _SCProcessTimerRequest@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002079">
+            <code>00002079</code> — _SCProcessPriorityChangeRequest@12
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002107">
+            <code>00002107</code> — _SCBeginSynchronizedMinidriverCallin@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000210A">
+            <code>0000210A</code> — _SCBeginUnsynchronizedMinidriverCallin@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002123">
+            <code>00002123</code> — _SCEndSynchronizedMinidriverStreamCallin@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000212F">
+            <code>0000212F</code> — _SCEndSynchronizedMinidriverDeviceCallin@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000213A">
+            <code>0000213A</code> — _SCEndUnsynchronizedMinidriverDeviceCallin@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000216F">
+            <code>0000216F</code> — _SCEndUnsynchronizedMinidriverStreamCallin@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000021B6">
+            <code>000021B6</code> — _SCWaitForOutstandingIo@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000220D">
+            <code>0000220D</code> — _SCMinidriverTimeFunction@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000225F">
+            <code>0000225F</code> — _SCGetStreamTime@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000022A0">
+            <code>000022A0</code> — @SCGetPhysicalTime@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000022DF">
+            <code>000022DF</code> — @SCGetSynchronizedTime@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000232A">
+            <code>0000232A</code> — _SCEnableEventSynchronized@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002382">
+            <code>00002382</code> — _SCEnableDeviceEventSynchronized@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000023DA">
+            <code>000023DA</code> — _SCFreeDeadEvents@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002449">
+            <code>00002449</code> — _SCGetDeadListSynchronized@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000249B">
+            <code>0000249B</code> — _SCCheckIfStreamsRunning@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000024BD">
+            <code>000024BD</code> — _SCCallBackSrb@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002502">
+            <code>00002502</code> — _KsDispatchFastReadFailure@32
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002508">
+            <code>00002508</code> — _KsDispatchFastIoDeviceControlFailure@36
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000250E">
+            <code>0000250E</code> — _KsDispatchInvalidDeviceRequest@8
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002514">
+            <code>00002514</code> — _wcscpy
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000251A">
+            <code>0000251A</code> — _wcslen
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002520">
+            <code>00002520</code> — _wcscat
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002526">
+            <code>00002526</code> — _memmove
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002534">
+            <code>00002534</code> — __except_handler3
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000025E2">
+            <code>000025E2</code> — __seh_longjmp_unwind@4
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000025FE">
+            <code>000025FE</code> — _DbgBreakPoint@0
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002610">
+            <code>00002610</code> — __allmul
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002650">
+            <code>00002650</code> — __aulldiv
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000026B8">
+            <code>000026B8</code> — _sprintf
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="000026C0">
+            <code>000026C0</code> — __global_unwind2
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002702">
+            <code>00002702</code> — __local_unwind2
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="0000275C">
+            <code>0000275C</code> — __abnormal_termination
+            
+          </li>
+        
+          <li data-segment="00000F90" data-offset="00002780">
+            <code>00002780</code> — _RtlUnwind@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .data @ 00001070
+      </summary>
+      <ul>
+        
+          <li data-segment="00001070" data-offset="00000000">
+            <code>00000000</code> — ??_C@_1BA@HGNA@?$AAS?$AAt?$AAr?$AAe?$AAa?$AAm?$AA?2?$AA?$AA@
+            <em class="processed-tag">(L"Stream\\")</em>
+          </li>
+        
+          <li data-segment="00001070" data-offset="00000010">
+            <code>00000010</code> — ??_C@_1BG@CMJG@?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAD?$AAa?$AAt?$AAa?$AA?$AA@
+            <em class="processed-tag">(L"FilterData")</em>
+          </li>
+        
+          <li data-segment="00001070" data-offset="00000028">
+            <code>00000028</code> — ??_C@_0BB@IBBA@Pin?$CFd?2Properties?$AA@
+            <em class="processed-tag">("Pin%d\\Properties")</em>
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .idata$2 @ 00001F00
+      </summary>
+      <ul>
+        
+          <li data-segment="00001F00" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_ks
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000028">
+            <code>00000028</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000003C">
+            <code>0000003C</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000204">
+            <code>00000204</code> — __imp__KeQueryPerformanceCounter@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000208">
+            <code>00000208</code> — __imp_@KfLowerIrql@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000020C">
+            <code>0000020C</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000210">
+            <code>00000210</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000214">
+            <code>00000214</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000218">
+            <code>00000218</code> — __imp_@InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000021C">
+            <code>0000021C</code> — __imp__MmUnmapIoSpace@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000220">
+            <code>00000220</code> — __imp__IoDisconnectInterrupt@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000224">
+            <code>00000224</code> — __imp__IoStopTimer@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000228">
+            <code>00000228</code> — __imp__sprintf
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000022C">
+            <code>0000022C</code> — __imp__RtlInitAnsiString@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000230">
+            <code>00000230</code> — __imp__RtlAnsiStringToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000234">
+            <code>00000234</code> — __imp__MmMapIoSpace@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000238">
+            <code>00000238</code> — __imp__KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000023C">
+            <code>0000023C</code> — __imp__MmResetDriverPaging@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000240">
+            <code>00000240</code> — __imp__IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000244">
+            <code>00000244</code> — __imp__MmPageEntireDriver@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000248">
+            <code>00000248</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000024C">
+            <code>0000024C</code> — __imp__IoAllocateErrorLogEntry@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000250">
+            <code>00000250</code> — __imp__IoWriteErrorLogEntry@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000254">
+            <code>00000254</code> — __imp__IoFreeMdl@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000258">
+            <code>00000258</code> — __imp__ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000025C">
+            <code>0000025C</code> — __imp__MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000260">
+            <code>00000260</code> — __imp__IoAllocateMdl@20
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000264">
+            <code>00000264</code> — __imp__IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000268">
+            <code>00000268</code> — __imp__MmBuildMdlForNonPagedPool@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000026C">
+            <code>0000026C</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000270">
+            <code>00000270</code> — __imp__IoAllocateDriverObjectExtension@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000274">
+            <code>00000274</code> — __imp__KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000278">
+            <code>00000278</code> — __imp__IoInitializeTimer@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000027C">
+            <code>0000027C</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000280">
+            <code>00000280</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000284">
+            <code>00000284</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000288">
+            <code>00000288</code> — __imp__IoGetDriverObjectExtension@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000028C">
+            <code>0000028C</code> — __imp__IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000290">
+            <code>00000290</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000294">
+            <code>00000294</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000298">
+            <code>00000298</code> — __imp_@InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000029C">
+            <code>0000029C</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002A0">
+            <code>000002A0</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002A4">
+            <code>000002A4</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002A8">
+            <code>000002A8</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002AC">
+            <code>000002AC</code> — __imp__PoRequestPowerIrp@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002B0">
+            <code>000002B0</code> — __imp__wcscpy
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002B4">
+            <code>000002B4</code> — __imp__IoOpenDeviceRegistryKey@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002B8">
+            <code>000002B8</code> — __imp__PoStartNextPowerIrp@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002BC">
+            <code>000002BC</code> — __imp__IoStartTimer@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002C0">
+            <code>000002C0</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002C4">
+            <code>000002C4</code> — __imp__IoConnectInterrupt@44
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002C8">
+            <code>000002C8</code> — __imp__IoGetDmaAdapter@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002CC">
+            <code>000002CC</code> — __imp__IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002D0">
+            <code>000002D0</code> — __imp__KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002D4">
+            <code>000002D4</code> — __imp__KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002D8">
+            <code>000002D8</code> — __imp__wcscat
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002DC">
+            <code>000002DC</code> — __imp__KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002E0">
+            <code>000002E0</code> — __imp__memmove
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002E4">
+            <code>000002E4</code> — _IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002E4">
+            <code>000002E4</code> — __imp__IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002E8">
+            <code>000002E8</code> — __imp__RtlUnwind@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002EC">
+            <code>000002EC</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002F0">
+            <code>000002F0</code> — __imp__IoOpenDeviceInterfaceRegistryKey@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002F4">
+            <code>000002F4</code> — __imp__IoSetDeviceInterfaceState@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002F8">
+            <code>000002F8</code> — __imp__IoRegisterDeviceInterface@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000002FC">
+            <code>000002FC</code> — __imp__ZwSetValueKey@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000300">
+            <code>00000300</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000304">
+            <code>00000304</code> — __imp__IoGetDeviceInterfaces@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000308">
+            <code>00000308</code> — __imp__IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000030C">
+            <code>0000030C</code> — __imp__wcslen
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000310">
+            <code>00000310</code> — __imp__ZwEnumerateKey@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000314">
+            <code>00000314</code> — __imp__ZwOpenKey@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000318">
+            <code>00000318</code> — __imp__ObReferenceObjectByHandle@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000031C">
+            <code>0000031C</code> — __imp__DbgBreakPoint@0
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000320">
+            <code>00000320</code> — __imp__RtlIntegerToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000324">
+            <code>00000324</code> — __imp_@ObfReferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000328">
+            <code>00000328</code> — __imp_@KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000032C">
+            <code>0000032C</code> — __imp_@KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000330">
+            <code>00000330</code> — __imp__ProbeForRead@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000334">
+            <code>00000334</code> — __imp_@ObfDereferenceObject@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000338">
+            <code>00000338</code> — __imp__KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000033C">
+            <code>0000033C</code> — __imp__IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000340">
+            <code>00000340</code> — __imp__IoCancelIrp@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000344">
+            <code>00000344</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000348">
+            <code>00000348</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000034C">
+            <code>0000034C</code> — __imp__KsFreeDeviceHeader@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000350">
+            <code>00000350</code> — __imp__KsSetMajorFunctionHandler@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000354">
+            <code>00000354</code> — __imp__KsDiscardEvent@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000358">
+            <code>00000358</code> — __imp__KsDispatchFastReadFailure@32
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000035C">
+            <code>0000035C</code> — __imp__KsDispatchFastIoDeviceControlFailure@36
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000360">
+            <code>00000360</code> — __imp__KsUnserializeObjectPropertiesFromRegistry@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000364">
+            <code>00000364</code> — __imp__KsAllocateDeviceHeader@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000368">
+            <code>00000368</code> — __imp__KsProbeStreamIrp@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000036C">
+            <code>0000036C</code> — __imp__KsAllocateExtraData@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000370">
+            <code>00000370</code> — __imp__KsGenerateEvent@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000374">
+            <code>00000374</code> — __imp__KsGenerateEventList@20
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000378">
+            <code>00000378</code> — __imp__KsPinDataIntersection@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000037C">
+            <code>0000037C</code> — __imp__KsTopologyPropertyHandler@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000380">
+            <code>00000380</code> — __imp__KsSynchronousIoControlDevice@32
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000384">
+            <code>00000384</code> — __imp__KsCreateDefaultAllocator@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000388">
+            <code>00000388</code> — __imp__KsValidateClockCreateRequest@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000038C">
+            <code>0000038C</code> — __imp__KsPinPropertyHandler@20
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000390">
+            <code>00000390</code> — __imp__KsFreeEventList@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000394">
+            <code>00000394</code> — __imp__KsDisableEvent@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="00000398">
+            <code>00000398</code> — __imp__KsEnableEvent@24
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="0000039C">
+            <code>0000039C</code> — __imp__KsPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000003A0">
+            <code>000003A0</code> — __imp__KsValidateConnectRequest@16
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000003A4">
+            <code>000003A4</code> — __imp__KsDispatchInvalidDeviceRequest@8
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000003A8">
+            <code>000003A8</code> — __imp__KsAllocateObjectHeader@20
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000003AC">
+            <code>000003AC</code> — __imp__KsNullDriverUnload@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000003B0">
+            <code>000003B0</code> — __imp__KsFreeObjectHeader@4
+            
+          </li>
+        
+          <li data-segment="00001F00" data-offset="000003B4">
+            <code>000003B4</code> — \177ks_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 000028C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000028C0" data-offset="00000000">
+            <code>00000000</code> — _StreamClassRegisterAdapter@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000100">
+            <code>00000100</code> — _StreamClassPnPAddDevice@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000116">
+            <code>00000116</code> — _StreamClassPnPAddDeviceWorker@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000029B">
+            <code>0000029B</code> — _StreamClassPnP@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000624">
+            <code>00000624</code> — _SCUnknownPNPCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000657">
+            <code>00000657</code> — _SCUnknownPowerCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000068A">
+            <code>0000068A</code> — _SCStartWorker@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000AA5">
+            <code>00000AA5</code> — _SCInitializeCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000B7A">
+            <code>00000B7A</code> — _SCStreamInfoCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000D80">
+            <code>00000D80</code> — _SCInsertStreamInfo@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000DC8">
+            <code>00000DC8</code> — _SCPowerCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000E48">
+            <code>00000E48</code> — _SCUninitializeMinidriver@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000EA8">
+            <code>00000EA8</code> — _SCUninitializeCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000EDB">
+            <code>00000EDB</code> — _SCFreeAllResources@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00000FF2">
+            <code>00000FF2</code> — _SCCreateSymbolicLinks@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000118D">
+            <code>0000118D</code> — _SCDestroySymbolicLinks@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000011E2">
+            <code>000011E2</code> — _SCCreateChildPdo@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000012AE">
+            <code>000012AE</code> — _SCEnumerateChildren@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000014F7">
+            <code>000014F7</code> — _SCEnumGetCaps@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001525">
+            <code>00001525</code> — _SCQueryEnumId@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000015D5">
+            <code>000015D5</code> — _StreamClassForwardUnsupported@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000161A">
+            <code>0000161A</code> — _FilterDispatchGlobalCreate@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000016EC">
+            <code>000016EC</code> — _SCGlobalInstanceCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001749">
+            <code>00001749</code> — _StreamDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001959">
+            <code>00001959</code> — _SCOpenStreamCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001B27">
+            <code>00001B27</code> — _StreamDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001D9E">
+            <code>00001D9E</code> — _SCStreamDeviceState@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001E0D">
+            <code>00001E0D</code> — _SCGetStreamDeviceState@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001E7E">
+            <code>00001E7E</code> — _SCStreamDeviceRate@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001ECC">
+            <code>00001ECC</code> — _SCStreamDeviceRateCapability@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001F25">
+            <code>00001F25</code> — _SCStreamProposeNewFormat@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001F74">
+            <code>00001F74</code> — _SCStreamSetFormat@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001FC3">
+            <code>00001FC3</code> — _StreamClassMinidriverDeviceGetProperty@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001FDC">
+            <code>00001FDC</code> — _StreamClassMinidriverDeviceSetProperty@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00001FF5">
+            <code>00001FF5</code> — _StreamClassMinidriverStreamGetProperty@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000200B">
+            <code>0000200B</code> — _StreamClassMinidriverStreamSetProperty@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002021">
+            <code>00002021</code> — _FilterDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000211F">
+            <code>0000211F</code> — _ClockDispatchIoControl@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000021F4">
+            <code>000021F4</code> — _FilterDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000237A">
+            <code>0000237A</code> — _StreamDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002447">
+            <code>00002447</code> — _SCFilterPinInstances@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002493">
+            <code>00002493</code> — _SCFilterPinPropertyHandler@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000024BE">
+            <code>000024BE</code> — _ClockDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000025C1">
+            <code>000025C1</code> — _AllocatorDispatchCreate@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002613">
+            <code>00002613</code> — _SCOpenMasterCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002657">
+            <code>00002657</code> — _SCGetMasterClock@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000265F">
+            <code>0000265F</code> — _SCSetMasterClock@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000027D3">
+            <code>000027D3</code> — _SCClockGetTime@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002813">
+            <code>00002813</code> — _SCClockGetPhysicalTime@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002852">
+            <code>00002852</code> — _SCClockGetFunctionTable@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000028A9">
+            <code>000028A9</code> — _SCClockGetParent@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000028CB">
+            <code>000028CB</code> — _ClockDispatchClose@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000293E">
+            <code>0000293E</code> — _SCCloseClockCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000299E">
+            <code>0000299E</code> — _SCFilterTopologyHandler@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000029C6">
+            <code>000029C6</code> — _SCFilterPinIntersectionHandler@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000029F6">
+            <code>000029F6</code> — _SCIntersectHandler@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002A8D">
+            <code>00002A8D</code> — _SCDataIntersectionCallback@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002AC4">
+            <code>00002AC4</code> — _SCGetStreamHeaderSize@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002AE9">
+            <code>00002AE9</code> — _SCBuildRequestPacket@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002B95">
+            <code>00002B95</code> — _SCProcessDataBuffers@28
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002C3C">
+            <code>00002C3C</code> — _SCLogError@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002C79">
+            <code>00002C79</code> — _SCOpenMinidriverInstance@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002DBE">
+            <code>00002DBE</code> — _SCSubmitRequest@44
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00002E8A">
+            <code>00002E8A</code> — _SCProcessDataTransfer@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003009">
+            <code>00003009</code> — _SCMinidriverDevicePropertyHandler@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000030BA">
+            <code>000030BA</code> — _SCMinidriverStreamPropertyHandler@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000316F">
+            <code>0000316F</code> — _SCProcessCompletedPropertyRequest@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003190">
+            <code>00003190</code> — _SCUpdateMinidriverProperties@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003212">
+            <code>00003212</code> — _SCUpdateMinidriverEvents@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003263">
+            <code>00003263</code> — _SCReadRegistryValues@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000032C9">
+            <code>000032C9</code> — _SCGetRegistryValue@20
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000335C">
+            <code>0000335C</code> — _SCDereferenceDriver@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003484">
+            <code>00003484</code> — _SCReferenceDriver@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000034D0">
+            <code>000034D0</code> — _SCCheckPoweredUp@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000355D">
+            <code>0000355D</code> — _SCCheckPowerDown@4
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000035DF">
+            <code>000035DF</code> — _SCShowIoPending@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003622">
+            <code>00003622</code> — _SCCallNextDriver@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003691">
+            <code>00003691</code> — _SCSendUnknownCommand@16
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000036C5">
+            <code>000036C5</code> — _SCMapMemoryAddress@28
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="00003752">
+            <code>00003752</code> — _SCUpdatePersistedProperties@12
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="000037CB">
+            <code>000037CB</code> — _SCQueryCapabilities@8
+            
+          </li>
+        
+          <li data-segment="000028C0" data-offset="0000385B">
+            <code>0000385B</code> — _SCRescanStreams@4
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: PAGECONST @ 00002A70
+      </summary>
+      <ul>
+        
+          <li data-segment="00002A70" data-offset="00000090">
+            <code>00000090</code> — _PinInterfaces
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="000000A8">
+            <code>000000A8</code> — _PinMediums
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000160">
+            <code>00000160</code> — _FilterDispatchTable
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000458">
+            <code>00000458</code> — _StreamStreamHandlers
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="000004D0">
+            <code>000004D0</code> — _StreamInterfaceHandlers
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000538">
+            <code>00000538</code> — _ConstructedStreamHandlers
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="000005A8">
+            <code>000005A8</code> — _StreamDispatchTable
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="000005D0">
+            <code>000005D0</code> — _ClockDispatchTable
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="000005F8">
+            <code>000005F8</code> — _ClockPropertyItems
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="000006C0">
+            <code>000006C0</code> — _ClockPropertySets
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000828">
+            <code>00000828</code> — _KSPROPSETID_Clock
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000838">
+            <code>00000838</code> — _KSPROPSETID_Stream
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000848">
+            <code>00000848</code> — _KSPROPSETID_StreamInterface
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000858">
+            <code>00000858</code> — _KSPROPSETID_Connection
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000868">
+            <code>00000868</code> — _KSPROPSETID_Pin
+            
+          </li>
+        
+          <li data-segment="00002A70" data-offset="00000878">
+            <code>00000878</code> — _KSPROPSETID_Topology
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: INIT @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

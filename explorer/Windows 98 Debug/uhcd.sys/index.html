@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>UHCD — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../async.c</li>
+      
+        <li>../bandwdth.c</li>
+      
+        <li>../control.c</li>
+      
+        <li>../dbg.c</li>
+      
+        <li>../dscrptor.c</li>
+      
+        <li>../hub.c</li>
+      
+        <li>../int.c</li>
+      
+        <li>../isoch.c</li>
+      
+        <li>../roothub.c</li>
+      
+        <li>../transfer.c</li>
+      
+        <li>../uhcd.c</li>
+      
+        <li>../urb.c</li>
+      
+        <li>../../../../../wdm10/ddk/inc/wdm.h</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00004850
+      </summary>
+      <ul>
+        
+          <li data-segment="00004850" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000000D0">
+            <code>000000D0</code> — _UHCD_ProcessPnPIrp@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000440">
+            <code>00000440</code> — _UHCD_Dispatch@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000007D0">
+            <code>000007D0</code> — _UHCD_SetDevicePowerState@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000A60">
+            <code>00000A60</code> — _UHCD_PowerIrp_Complete@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000BE0">
+            <code>00000BE0</code> — _UHCD_Unload@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000C00">
+            <code>00000C00</code> — _UHCD_PnPAddDevice@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000DA0">
+            <code>00000DA0</code> — _UHCD_QueryCapabilitiesCompletion@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000E90">
+            <code>00000E90</code> — _UHCD_DeferIrpCompletion@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00000EC0">
+            <code>00000EC0</code> — _UHCD_StopDevice@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001060">
+            <code>00001060</code> — _UHCD_CompleteGlobalReset@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001350">
+            <code>00001350</code> — _UHCD_GetCurrentFrame@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000013B0">
+            <code>000013B0</code> — _UHCD_SaveHCstate@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001430">
+            <code>00001430</code> — _UHCD_RestoreHCstate@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000014E0">
+            <code>000014E0</code> — _UHCD_Resume@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001740">
+            <code>00001740</code> — _UHCD_RootHubPower@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001840">
+            <code>00001840</code> — _UHCD_FixPIIX4@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001A00">
+            <code>00001A00</code> — _UHCD_StartBIOS@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001B20">
+            <code>00001B20</code> — _UHCD_GetResources@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001EB0">
+            <code>00001EB0</code> — _UHCD_DeferredStartDevice@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00001FA0">
+            <code>00001FA0</code> — _UHCD_UpdateFrameCounter@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002070">
+            <code>00002070</code> — _UHCD_DisableIdleCheck@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000020C0">
+            <code>000020C0</code> — _UHCD_WakeIdle@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002120">
+            <code>00002120</code> — _UHCD_CheckIdle@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002550">
+            <code>00002550</code> — _UHCD_GetSOFRegModifyValue@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002660">
+            <code>00002660</code> — _UHCD_GetConfigValue@24
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000026C0">
+            <code>000026C0</code> — _UHCD_GetClassGlobalRegistryParameters@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000027B0">
+            <code>000027B0</code> — _UHCD_GetGlobalRegistryParameters@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000028A0">
+            <code>000028A0</code> — _UHCD_InterruptService@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002BA0">
+            <code>00002BA0</code> — _UHCD_IsrDpc@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002E80">
+            <code>00002E80</code> — _UHCD_RequestInterrupt@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00002FE0">
+            <code>00002FE0</code> — _UHCD_CompleteIrp@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000031E0">
+            <code>000031E0</code> — _UHCD_URB_Dispatch@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00003B40">
+            <code>00003B40</code> — _UHCD_StartIo@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00003E10">
+            <code>00003E10</code> — _UHCD_OpenEndpoint_StartIo@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00004230">
+            <code>00004230</code> — _UHCD_CloseEndpoint_StartIo@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00004410">
+            <code>00004410</code> — _UHCD_InsertQueueHeadInSchedule@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00004910">
+            <code>00004910</code> — _UHCD_RemoveQueueHeadFromSchedule@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00004B90">
+            <code>00004B90</code> — _UHCD_CopyInterruptScheduleToFrameList@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00004C60">
+            <code>00004C60</code> — _UHCD_StartIoCancel@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00004D40">
+            <code>00004D40</code> — _UHCD_GetSetEndpointState_StartIo@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005020">
+            <code>00005020</code> — _UHCD_InitializeEndpoint@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005270">
+            <code>00005270</code> — _UHCD_GetNumTDsPerEndoint@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000052B0">
+            <code>000052B0</code> — _UHCD_BW_Reclimation@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005410">
+            <code>00005410</code> — _UHCD_KdPrintX
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000054A0">
+            <code>000054A0</code> — _UHCD_Debug_DumpTD@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005690">
+            <code>00005690</code> — _UHCD_Assert@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000056D0">
+            <code>000056D0</code> — _UHCD_CheckSystemBuffer@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005730">
+            <code>00005730</code> — _UHCD_Debug_GetHeap@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005760">
+            <code>00005760</code> — _UHCD_Debug_RetHeap@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005780">
+            <code>00005780</code> — _UHCD_PrintPowerMessage@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000057F0">
+            <code>000057F0</code> — _UHCD_PrintPnPMessage@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000058C0">
+            <code>000058C0</code> — _UHCD_Debug_LogEntry@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000059D0">
+            <code>000059D0</code> — _UHCD_LogInit@0
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005A40">
+            <code>00005A40</code> — _UHCD_LogTD@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005AA0">
+            <code>00005AA0</code> — _UHCD_Transfer_StartIo@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00005E20">
+            <code>00005E20</code> — _UHCD_CompleteTransferDPC@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000064D0">
+            <code>000064D0</code> — _UHCD_StartDmaTransfer@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00006720">
+            <code>00006720</code> — _UHCD_InitializeDmaTransfer@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000068D0">
+            <code>000068D0</code> — _UHCD_TransferCancel@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00006B60">
+            <code>00006B60</code> — _UHCD_BeginTransfer@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00006D50">
+            <code>00006D50</code> — _UHCD_RemoveQueuedUrbs@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00006EE0">
+            <code>00006EE0</code> — _UHCD_EndpointWorker@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007140">
+            <code>00007140</code> — _UHCD_LockAccess@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007180">
+            <code>00007180</code> — _UHCD_UnLockAccess@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000071C0">
+            <code>000071C0</code> — _UHCD_SelectBufferPool@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007260">
+            <code>00007260</code> — _UHCD_FreePoolSize@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000072C0">
+            <code>000072C0</code> — _UHCD_InitializeHardwareQueueHeadDescriptor@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007340">
+            <code>00007340</code> — _UHCD_InitializeHardwareTransferDescriptor@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007390">
+            <code>00007390</code> — _UHCD_AllocateHardwareDescriptors@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000075A0">
+            <code>000075A0</code> — _UHCD_FreeHardwareDescriptors@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007610">
+            <code>00007610</code> — _UHCD_DoAllocateCommonBuffer@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000076E0">
+            <code>000076E0</code> — _UHCD_AllocateCommonBuffer@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000077A0">
+            <code>000077A0</code> — _UHCD_FreeCommonBuffer@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007870">
+            <code>00007870</code> — _UHCD_AllocateCommonBufferBlock@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007B80">
+            <code>00007B80</code> — _UHCD_FreeCommonBufferBlocks@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007BB0">
+            <code>00007BB0</code> — _UHCD_CheckCommonBufferPool@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007C40">
+            <code>00007C40</code> — _UHCD_MoreCommonBuffers@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007DF0">
+            <code>00007DF0</code> — _UHCD_GrowBufferPool@24
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00007F80">
+            <code>00007F80</code> — _UHCD_GrowPoolWorker@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00008010">
+            <code>00008010</code> — _UHCD_PrepareStatusPacket@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00008120">
+            <code>00008120</code> — _UHCD_PrepareSetupPacket@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00008230">
+            <code>00008230</code> — _UHCD_MapTDError@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000083D0">
+            <code>000083D0</code> — _UHCD_InitializeAsyncTD@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000084A0">
+            <code>000084A0</code> — _UHCD_QueueBusy@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000087F0">
+            <code>000087F0</code> — _UHCD_PrepareAsyncDataPacket@24
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00008B00">
+            <code>00008B00</code> — _UHCD_InitializeAsyncTransfer@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="000090D0">
+            <code>000090D0</code> — _UHCD_ProcessAsyncTransfer@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00009A00">
+            <code>00009A00</code> — _UHCD_PrepareMoreAsyncTDs@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="00009E40">
+            <code>00009E40</code> — _UHCD_GetPacketBuffer@24
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000A0B0">
+            <code>0000A0B0</code> — _UHCD_RootHub_OpenEndpoint@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000A270">
+            <code>0000A270</code> — _UHCD_RootHub_CloseEndpoint@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000A360">
+            <code>0000A360</code> — _UHCD_RootHub_ControlTransfer@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000A580">
+            <code>0000A580</code> — _UHCD_RootHub_InterruptTransfer@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000A740">
+            <code>0000A740</code> — _UHCD_RootHubPoll@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000A9D0">
+            <code>0000A9D0</code> — _UHCD_RootHub_ReadPort@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AA10">
+            <code>0000AA10</code> — _UHCD_RootHub_Timer@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AB00">
+            <code>0000AB00</code> — _UHCD_RootHubTimerDpc@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AB90">
+            <code>0000AB90</code> — _UHCD_RootHub_WritePort@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000ABE0">
+            <code>0000ABE0</code> — _UHCD_RootHub_InterruptTransferCancel@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AC70">
+            <code>0000AC70</code> — _UHCD_RootHubPollDpc@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AD20">
+            <code>0000AD20</code> — _RootHub_ResetTimerHandler@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000ADE0">
+            <code>0000ADE0</code> — _RootHub_SuspendTimerHandler@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AE50">
+            <code>0000AE50</code> — _RootHub_Initialize@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000AF60">
+            <code>0000AF60</code> — _RootHub_Endpoint0@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000B020">
+            <code>0000B020</code> — _RootHub_StandardCommand@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000B3C0">
+            <code>0000B3C0</code> — _RootHub_ClassCommand@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000BDC0">
+            <code>0000BDC0</code> — _RootHub_Endpoint1@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000BF60">
+            <code>0000BF60</code> — _RootHub_PortsIdle@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000BFD0">
+            <code>0000BFD0</code> — _UHCD_SyncInsertIsochDescriptor@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000C090">
+            <code>0000C090</code> — _UHCD_InsertIsochDescriptor@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000C130">
+            <code>0000C130</code> — _UHCD_InitializeIsochTransfer@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000C2A0">
+            <code>0000C2A0</code> — _UHCD_ScheduleIsochTransfer@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000C700">
+            <code>0000C700</code> — _UHCD_ProcessIsochTransfer@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CB60">
+            <code>0000CB60</code> — _UHCD_InitBandwidthTable@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CBA0">
+            <code>0000CBA0</code> — _UHCD_ManageBandwidth@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CD8E">
+            <code>0000CD8E</code> — _USBD_FreeDeviceName@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CD94">
+            <code>0000CD94</code> — _USBD_Dispatch@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CD9A">
+            <code>0000CD9A</code> — _USBD_RegisterHostController@28
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDA0">
+            <code>0000CDA0</code> — _USBD_AllocateDeviceName@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDA6">
+            <code>0000CDA6</code> — _USBD_GetPdoRegistryParameter@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDAC">
+            <code>0000CDAC</code> — _USBD_RegisterHcDeviceCapabilities@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDB2">
+            <code>0000CDB2</code> — _USBD_CompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDB8">
+            <code>0000CDB8</code> — _USBD_CalculateUsbBandwidth@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDBE">
+            <code>0000CDBE</code> — _RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDC4">
+            <code>0000CDC4</code> — _IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDCA">
+            <code>0000CDCA</code> — _IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDD0">
+            <code>0000CDD0</code> — @IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDD6">
+            <code>0000CDD6</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDDC">
+            <code>0000CDDC</code> — _KeQuerySystemTime@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDE2">
+            <code>0000CDE2</code> — _IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDE8">
+            <code>0000CDE8</code> — _KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDEE">
+            <code>0000CDEE</code> — _RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDF4">
+            <code>0000CDF4</code> — _IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CDFA">
+            <code>0000CDFA</code> — _KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE00">
+            <code>0000CE00</code> — _IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE06">
+            <code>0000CE06</code> — _KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE0C">
+            <code>0000CE0C</code> — _KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE12">
+            <code>0000CE12</code> — _IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE18">
+            <code>0000CE18</code> — _IoDisconnectInterrupt@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE1E">
+            <code>0000CE1E</code> — _READ_PORT_USHORT@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE24">
+            <code>0000CE24</code> — _WRITE_PORT_USHORT@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE2A">
+            <code>0000CE2A</code> — _KeDelayExecutionThread@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE30">
+            <code>0000CE30</code> — _KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE36">
+            <code>0000CE36</code> — _READ_PORT_ULONG@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE3C">
+            <code>0000CE3C</code> — _WRITE_PORT_UCHAR@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE42">
+            <code>0000CE42</code> — _WRITE_PORT_ULONG@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE48">
+            <code>0000CE48</code> — _READ_PORT_UCHAR@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE4E">
+            <code>0000CE4E</code> — _MmMapIoSpace@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE54">
+            <code>0000CE54</code> — _IoConnectInterrupt@44
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE5A">
+            <code>0000CE5A</code> — _KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE60">
+            <code>0000CE60</code> — _IoGetDmaAdapter@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE66">
+            <code>0000CE66</code> — @KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE6C">
+            <code>0000CE6C</code> — @KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE72">
+            <code>0000CE72</code> — @KfLowerIrql@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE78">
+            <code>0000CE78</code> — @KfRaiseIrql@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE7E">
+            <code>0000CE7E</code> — @KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE84">
+            <code>0000CE84</code> — _KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE8A">
+            <code>0000CE8A</code> — @KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE90">
+            <code>0000CE90</code> — _RtlQueryRegistryValues@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE96">
+            <code>0000CE96</code> — _KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CE9C">
+            <code>0000CE9C</code> — _IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEA2">
+            <code>0000CEA2</code> — @InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEA8">
+            <code>0000CEA8</code> — _IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEAE">
+            <code>0000CEAE</code> — _IoStartPacket@16
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEB4">
+            <code>0000CEB4</code> — _IoStartNextPacket@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEBA">
+            <code>0000CEBA</code> — _ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEC0">
+            <code>0000CEC0</code> — _ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEC6">
+            <code>0000CEC6</code> — _MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CECC">
+            <code>0000CECC</code> — @ExfInterlockedPopEntryList@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CED2">
+            <code>0000CED2</code> — @ExfInterlockedPushEntryList@12
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CED8">
+            <code>0000CED8</code> — _ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEDE">
+            <code>0000CEDE</code> — _KeSetTimerEx@20
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEE4">
+            <code>0000CEE4</code> — _KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEEA">
+            <code>0000CEEA</code> — _KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00004850" data-offset="0000CEF0">
+            <code>0000CEF0</code> — _KeSetTimer@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 00004B30
+      </summary>
+      <ul>
+        
+          <li data-segment="00004B30" data-offset="00000BCC">
+            <code>00000BCC</code> — ??_C@_0BJ@FPNP@freeCommonBuffer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00000BE8">
+            <code>00000BE8</code> — ??_C@_0CD@PJBI@?4?4?2?4?4?2?4?4?2?4?4?2?4?4?2wdm10?2ddk?2inc?2wdm@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00000D74">
+            <code>00000D74</code> — ??_C@_0BN@IHIP@allocateCommonBuffer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="000029F8">
+            <code>000029F8</code> — _UHCD_Debug_Trace_Level
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="000029FC">
+            <code>000029FC</code> — _LogMask
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00002D38">
+            <code>00002D38</code> — _TransferDispatchTable
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00003038">
+            <code>00003038</code> — ??_C@_0BJ@BLDF@freeMapRegisters?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00003054">
+            <code>00003054</code> — ??_C@_0BM@MGEC@flushAdapterBuffers?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00003214">
+            <code>00003214</code> — ??_C@_0BE@CIAH@mapTransfer?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="000032A8">
+            <code>000032A8</code> — ??_C@_0BP@OCPD@allocateAdapterChannel?5?$CB?$DN?5NULL?$AA@
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00004A58">
+            <code>00004A58</code> — _RH_DeviceDescriptor
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00004A70">
+            <code>00004A70</code> — _RH_ConfigurationDescriptor
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00004A90">
+            <code>00004A90</code> — _RH_HubDescriptor
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00005150">
+            <code>00005150</code> — _TrapOn
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00005154">
+            <code>00005154</code> — _UHCD_TotalAllocatedHeapSpace
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00005158">
+            <code>00005158</code> — _HcdLStart
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="0000515C">
+            <code>0000515C</code> — _UHCD_CommonBufferBytes
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00005160">
+            <code>00005160</code> — _LogSpinLock
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00005164">
+            <code>00005164</code> — _HcdLEnd
+            
+          </li>
+        
+          <li data-segment="00004B30" data-offset="00005168">
+            <code>00005168</code> — _HcdLPtr
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .idata$2 @ 000053B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000053B0" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_USBD
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000028">
+            <code>00000028</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000003C">
+            <code>0000003C</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000014C">
+            <code>0000014C</code> — __imp__WRITE_PORT_ULONG@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000150">
+            <code>00000150</code> — __imp__READ_PORT_UCHAR@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000154">
+            <code>00000154</code> — __imp__WRITE_PORT_UCHAR@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000158">
+            <code>00000158</code> — __imp_@KfRaiseIrql@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000015C">
+            <code>0000015C</code> — __imp_@KfLowerIrql@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000160">
+            <code>00000160</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000164">
+            <code>00000164</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000168">
+            <code>00000168</code> — __imp__READ_PORT_ULONG@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000016C">
+            <code>0000016C</code> — __imp__KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000170">
+            <code>00000170</code> — __imp__READ_PORT_USHORT@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000174">
+            <code>00000174</code> — __imp__WRITE_PORT_USHORT@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000178">
+            <code>00000178</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000017C">
+            <code>0000017C</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000180">
+            <code>00000180</code> — __imp__IoDetachDevice@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000184">
+            <code>00000184</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000188">
+            <code>00000188</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000018C">
+            <code>0000018C</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000190">
+            <code>00000190</code> — __imp__RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000194">
+            <code>00000194</code> — __imp__IoAttachDeviceToDeviceStack@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000198">
+            <code>00000198</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000019C">
+            <code>0000019C</code> — __imp__IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001A0">
+            <code>000001A0</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001A4">
+            <code>000001A4</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001A8">
+            <code>000001A8</code> — __imp__IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001AC">
+            <code>000001AC</code> — __imp__IoDisconnectInterrupt@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001B0">
+            <code>000001B0</code> — __imp__KeQuerySystemTime@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001B4">
+            <code>000001B4</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001B8">
+            <code>000001B8</code> — __imp__KeDelayExecutionThread@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001BC">
+            <code>000001BC</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001C0">
+            <code>000001C0</code> — __imp__KeInsertQueueDpc@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001C4">
+            <code>000001C4</code> — __imp__KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001C8">
+            <code>000001C8</code> — __imp__IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001CC">
+            <code>000001CC</code> — __imp__MmMapIoSpace@16
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001D0">
+            <code>000001D0</code> — __imp__IoConnectInterrupt@44
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001D4">
+            <code>000001D4</code> — __imp__KeInitializeDpc@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001D8">
+            <code>000001D8</code> — __imp__IoGetDmaAdapter@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001DC">
+            <code>000001DC</code> — __imp__IoAcquireCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001E0">
+            <code>000001E0</code> — __imp__IoStartPacket@16
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001E4">
+            <code>000001E4</code> — __imp__KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001E8">
+            <code>000001E8</code> — __imp__KeSetTimerEx@20
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001EC">
+            <code>000001EC</code> — __imp_@KefReleaseSpinLockFromDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001F0">
+            <code>000001F0</code> — __imp__KeSynchronizeExecution@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001F4">
+            <code>000001F4</code> — __imp_@KefAcquireSpinLockAtDpcLevel@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001F8">
+            <code>000001F8</code> — __imp__RtlQueryRegistryValues@20
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="000001FC">
+            <code>000001FC</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000200">
+            <code>00000200</code> — __imp__IoStartNextPacket@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000204">
+            <code>00000204</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000208">
+            <code>00000208</code> — __imp__KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000020C">
+            <code>0000020C</code> — __imp_@ExfInterlockedPushEntryList@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000210">
+            <code>00000210</code> — __imp__ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000214">
+            <code>00000214</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000218">
+            <code>00000218</code> — __imp__MmMapLockedPages@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000021C">
+            <code>0000021C</code> — __imp_@ExfInterlockedPopEntryList@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000220">
+            <code>00000220</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000224">
+            <code>00000224</code> — __imp__USBD_AllocateDeviceName@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000228">
+            <code>00000228</code> — __imp__USBD_CalculateUsbBandwidth@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000022C">
+            <code>0000022C</code> — __imp__USBD_CompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000230">
+            <code>00000230</code> — __imp__USBD_GetPdoRegistryParameter@20
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000234">
+            <code>00000234</code> — __imp__USBD_RegisterHcDeviceCapabilities@12
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000238">
+            <code>00000238</code> — __imp__USBD_FreeDeviceName@4
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="0000023C">
+            <code>0000023C</code> — __imp__USBD_RegisterHostController@28
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000240">
+            <code>00000240</code> — __imp__USBD_Dispatch@16
+            
+          </li>
+        
+          <li data-segment="000053B0" data-offset="00000244">
+            <code>00000244</code> — \177USBD_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: PAGE @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _UHCD_CreateDeviceObject@12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000E0">
+            <code>000000E0</code> — _UHCD_ReadWriteConfig@20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000300">
+            <code>00000300</code> — _UHCD_QueryCapabilities@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000004E0">
+            <code>000004E0</code> — _UHCD_CleanupDevice@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000800">
+            <code>00000800</code> — _UHCD_InitializeSchedule@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000E90">
+            <code>00000E90</code> — _UHCD_StartGlobalReset@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000FB0">
+            <code>00000FB0</code> — _UHCD_Suspend@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000012C0">
+            <code>000012C0</code> — _UHCD_StopBIOS@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000015F0">
+            <code>000015F0</code> — _UHCD_StartDevice@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001D00">
+            <code>00001D00</code> — _UHCD_InitializeCommonBufferPool@16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

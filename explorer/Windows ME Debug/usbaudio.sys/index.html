@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>USBAUDIO — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>intel/lldiv.asm</li>
+      
+        <li>intel/llmul.asm</li>
+      
+        <li>intel/llshr.asm</li>
+      
+        <li>intel/ulldiv.asm</li>
+      
+        <li>intel/ullrem.asm</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/capture.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/debug.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/device.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/filter.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/hardware.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/intrsect.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/midiin.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/midiout.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/parsedsc.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/pin.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/property.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/topology.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/typei.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/typeii.c</li>
+      
+        <li>/ntc/private/ntos/dd/wdm/audio/drivers/usbaudio.2/usbaudio.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 00006890
+      </summary>
+      <ul>
+        
+          <li data-segment="00006890" data-offset="00000063">
+            <code>00000063</code> — _DriverEntry@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000017D">
+            <code>0000017D</code> — _USBAudioAddDevice@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000034A">
+            <code>0000034A</code> — _USBAudioPnpStart@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000005B8">
+            <code>000005B8</code> — _USBAudioPnpQueryStop@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00000764">
+            <code>00000764</code> — _USBAudioPnpCancelStop@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000090B">
+            <code>0000090B</code> — _USBAudioPnpStop@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00000AD6">
+            <code>00000AD6</code> — _USBAudioPnpQueryRemove@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00000C8A">
+            <code>00000C8A</code> — _USBAudioPnpCancelRemove@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00000E38">
+            <code>00000E38</code> — _USBAudioPnpRemove@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00000FEE">
+            <code>00000FEE</code> — _USBAudioPnpQueryCapabilities@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000011D5">
+            <code>000011D5</code> — _USBAudioSurpriseRemoval@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000012BA">
+            <code>000012BA</code> — _USBAudioQueryPower@28
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000135D">
+            <code>0000135D</code> — _USBAudioSetPower@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000142A">
+            <code>0000142A</code> — _USBAudioDeferIrpCompletion@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00001660">
+            <code>00001660</code> — _USBAudioGetUsbBusInterface@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000192A">
+            <code>0000192A</code> — _USBAudioFilterCreate@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00001A92">
+            <code>00001A92</code> — _USBAudioCreateFilterContext@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00001BDE">
+            <code>00001BDE</code> — _USBAudioPinValidateDataFormat@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00001E09">
+            <code>00001E09</code> — _USBAudioPinCreate@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000215B">
+            <code>0000215B</code> — _USBAudioPinClose@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00002396">
+            <code>00002396</code> — _USBAudioPinSetDeviceState@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000025C5">
+            <code>000025C5</code> — _USBAudioPinSetDataFormat@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000026C0">
+            <code>000026C0</code> — _USBAudioPinProcess@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000276E">
+            <code>0000276E</code> — _USBAudioPinReset@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000027C6">
+            <code>000027C6</code> — _USBAudioPinDataIntersect@32
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00002838">
+            <code>00002838</code> — _USBAudioPinWaitForStarvation@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000288C">
+            <code>0000288C</code> — _USBMIDIOutPinWaitForStarvation@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000290E">
+            <code>0000290E</code> — _USBAudioPinReturnFromStandby@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000029C3">
+            <code>000029C3</code> — _USBAudioPinGoToStandby@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00002B66">
+            <code>00002B66</code> — _USBMIDIPinCreate@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00002E5E">
+            <code>00002E5E</code> — _USBMIDIPinClose@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000306C">
+            <code>0000306C</code> — _USBMIDIPinSetDeviceState@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000031B8">
+            <code>000031B8</code> — _USBMIDIPinSetDataFormat@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003250">
+            <code>00003250</code> — _USBMIDIPinProcess@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000032E0">
+            <code>000032E0</code> — _USBMIDIPinReset@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003355">
+            <code>00003355</code> — @USBAudioCorrelatedTime@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000349B">
+            <code>0000349B</code> — _USBMIDIPinDataIntersect@32
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003583">
+            <code>00003583</code> — _USBAudioPinBuildDescriptors@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003A0E">
+            <code>00003A0E</code> — _ConvertTermTypeToNodeType@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003AF4">
+            <code>00003AF4</code> — _ProcessMIDIOutJack@32
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003B74">
+            <code>00003B74</code> — _ProcessInputTerminalUnit@28
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003BF6">
+            <code>00003BF6</code> — _ProcessOutputTerminalUnit@28
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003C92">
+            <code>00003C92</code> — _ProcessMixerUnit@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003D56">
+            <code>00003D56</code> — _ProcessSelectorUnit@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00003DE6">
+            <code>00003DE6</code> — _ProcessFeatureUnit@24
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000433E">
+            <code>0000433E</code> — _ProcessProcessingUnit@24
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00004564">
+            <code>00004564</code> — _ProcessExtensionUnit@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000497E">
+            <code>0000497E</code> — _BuildUSBAudioFilterTopology@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000520A">
+            <code>0000520A</code> — _GetPinIndex@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000054B3">
+            <code>000054B3</code> — _GetPinName@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000056EA">
+            <code>000056EA</code> — _GetSetProperty@40
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000576C">
+            <code>0000576C</code> — _GetSetByte@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000057F2">
+            <code>000057F2</code> — _GetSetShort@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000058EA">
+            <code>000058EA</code> — _GetSetDBLevel@24
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00005A85">
+            <code>00005A85</code> — _GetDbLevelRange@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00005CD0">
+            <code>00005CD0</code> — _InitializeDbLevelCache@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00005E58">
+            <code>00005E58</code> — _GetSetProcessingUnitValue@24
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00005EFE">
+            <code>00005EFE</code> — _GetSetProcessingUnitEnable@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00005F63">
+            <code>00005F63</code> — _GetProcessingUnitRange@24
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00005FF8">
+            <code>00005FF8</code> — _GetSampleRate@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006065">
+            <code>00006065</code> — _SetSampleRate@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006142">
+            <code>00006142</code> — _GetSetSampleRate@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006182">
+            <code>00006182</code> — _GetAudioLatency@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000624D">
+            <code>0000624D</code> — _GetAudioPosition@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000062F6">
+            <code>000062F6</code> — _GetSetCopyProtection@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006384">
+            <code>00006384</code> — _GetChannelConfiguration@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000063F8">
+            <code>000063F8</code> — _GetSetMixLevels@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000067C0">
+            <code>000067C0</code> — _GetMuxSource@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006826">
+            <code>00006826</code> — _SetMuxSource@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006884">
+            <code>00006884</code> — _GetEqualizerValues@28
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006A1C">
+            <code>00006A1C</code> — _SetEqualizerValues@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006AF2">
+            <code>00006AF2</code> — _GetNumEqualizerBands@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006B3E">
+            <code>00006B3E</code> — _GetEqualizerBands@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006B8E">
+            <code>00006B8E</code> — _GetSetEqualizerLevels@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006C0C">
+            <code>00006C0C</code> — _GetEqDbRanges@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00006E1E">
+            <code>00006E1E</code> — _GetSetDeviceSpecific@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007070">
+            <code>00007070</code> — _GetSetAudioControlLevel@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007170">
+            <code>00007170</code> — _GetSetBoolean@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000072C0">
+            <code>000072C0</code> — _GetSetVolumeLevel@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000736A">
+            <code>0000736A</code> — _GetSetToneLevel@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000741E">
+            <code>0000741E</code> — _GetBasicSupport@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007640">
+            <code>00007640</code> — _GetSetTopologyNodeEnable@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000077DB">
+            <code>000077DB</code> — _RestoreCachedSettings@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007A35">
+            <code>00007A35</code> — _DrmAudioStream_SetContentId@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007B42">
+            <code>00007B42</code> — _RtAudio_GetAudioPositionFunction@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007BA0">
+            <code>00007BA0</code> — _BuildNodePropertySet@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007C1B">
+            <code>00007C1B</code> — _BuildFilterPropertySet@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007C82">
+            <code>00007C82</code> — _BuildPinPropertySet@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007E68">
+            <code>00007E68</code> — _RtAudioTypeIGetPlayPosition@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00007FBE">
+            <code>00007FBE</code> — _TypeIAsyncEPPollCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00008152">
+            <code>00008152</code> — _TypeIAsyncEndpointPoll@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000829D">
+            <code>0000829D</code> — _TypeIRenderBytePosition@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00008466">
+            <code>00008466</code> — _TypeICountUSBCyclesInStreamPointer@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000859C">
+            <code>0000859C</code> — _TypeI1MsCompleteCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000086FC">
+            <code>000086FC</code> — _TypeIBuild1MsecIsocRequest@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00008818">
+            <code>00008818</code> — _TypeICompleteCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000894A">
+            <code>0000894A</code> — _TypeILockDelayCompleteCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00008AAE">
+            <code>00008AAE</code> — _TypeIBuildIsochRequest@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00008DB5">
+            <code>00008DB5</code> — _TypeILockDelay@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00008FA2">
+            <code>00008FA2</code> — _TypeIProcessStreamPtr@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000091BA">
+            <code>000091BA</code> — _TypeIStateChange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000929D">
+            <code>0000929D</code> — _TypeIRenderStreamInit@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000094F6">
+            <code>000094F6</code> — _TypeIRenderStreamClose@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009564">
+            <code>00009564</code> — _TypeIIGetFrameSize@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000096DC">
+            <code>000096DC</code> — _TypeIIProcessCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000985F">
+            <code>0000985F</code> — _TypeIIBuildIsochRequest@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009B00">
+            <code>00009B00</code> — _TypeIIProcessStreamPtr@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009D1E">
+            <code>00009D1E</code> — _TypeIIWaitForStarvation@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009D5A">
+            <code>00009D5A</code> — _TypeIIStateChange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009D72">
+            <code>00009D72</code> — _TypeIIRenderStreamInit@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009E7C">
+            <code>00009E7C</code> — _TypeIIRenderStreamClose@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009ED2">
+            <code>00009ED2</code> — _CaptureBytePosition@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00009FEA">
+            <code>00009FEA</code> — _CaptureGateOnWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000A09C">
+            <code>0000A09C</code> — _CaptureCompleteCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000A2DC">
+            <code>0000A2DC</code> — _CaptureInitializeUrbAndIrp@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000A469">
+            <code>0000A469</code> — _CaptureReQueueUrb@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000A529">
+            <code>0000A529</code> — _CaptureResetWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000A748">
+            <code>0000A748</code> — _CaptureProcess@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000AB26">
+            <code>0000AB26</code> — _CaptureStartIsocTransfer@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000AC05">
+            <code>0000AC05</code> — _CaptureStateChange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000AD22">
+            <code>0000AD22</code> — _CaptureStreamInit@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000AEC1">
+            <code>0000AEC1</code> — _CaptureStreamClose@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000B1A0">
+            <code>0000B1A0</code> — _GenerateCodeIndexNumber@28
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000B5C2">
+            <code>0000B5C2</code> — _CreateUSBMIDIEventPacket@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000B716">
+            <code>0000B716</code> — _USBMIDIBulkCompleteCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000B800">
+            <code>0000B800</code> — _CreateMIDIBulkUrb@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000BB1F">
+            <code>0000BB1F</code> — _SendBulkMIDIRequest@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000BF87">
+            <code>0000BF87</code> — _USBMIDIOutProcessStreamPtr@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C161">
+            <code>0000C161</code> — _USBMIDIOutStateChange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C1E6">
+            <code>0000C1E6</code> — _USBMIDIOutStreamInit@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C2F9">
+            <code>0000C2F9</code> — _USBMIDIOutStreamClose@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C3A8">
+            <code>0000C3A8</code> — _GetCurrentTime@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C50D">
+            <code>0000C50D</code> — _AbortMIDIInPipe@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C672">
+            <code>0000C672</code> — _USBMIDIInGateOnWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C7C6">
+            <code>0000C7C6</code> — _USBMIDIInInitializeUrbAndIrp@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C8CA">
+            <code>0000C8CA</code> — _USBMIDIInReQueueUrb@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000C9B0">
+            <code>0000C9B0</code> — _USBMIDIInRequeueWorkItem@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000CB30">
+            <code>0000CB30</code> — _AddMIDIEventToPinQueue@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000CD47">
+            <code>0000CD47</code> — _USBMIDIInCompleteCallback@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000CE92">
+            <code>0000CE92</code> — _ConvertCINToBytes@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000D065">
+            <code>0000D065</code> — _CopyUSBMIDIEvent@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000D1A0">
+            <code>0000D1A0</code> — _IsRealTimeEvent@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000D35F">
+            <code>0000D35F</code> — _USBMIDIInProcessStreamPtr@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000D642">
+            <code>0000D642</code> — _USBMIDIInStartBulkTransfer@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000D7EE">
+            <code>0000D7EE</code> — _USBMIDIInStateChange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DAB7">
+            <code>0000DAB7</code> — _USBMIDIPipeInit@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DCD4">
+            <code>0000DCD4</code> — _USBMIDIInGetPipeInfo@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DD08">
+            <code>0000DD08</code> — _USBMIDIInFreePipeInfo@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DD58">
+            <code>0000DD58</code> — _USBMIDIInRemovePinFromPipe@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DDAE">
+            <code>0000DDAE</code> — _USBMIDIInAddPinToPipe@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DE3A">
+            <code>0000DE3A</code> — _USBMIDIInStreamInit@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DF4B">
+            <code>0000DF4B</code> — _USBMIDIInStreamClose@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000DFEE">
+            <code>0000DFEE</code> — _SubmitUrbToUsbdSynch@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000E0F4">
+            <code>0000E0F4</code> — _SelectDeviceConfiguration@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000E3AE">
+            <code>0000E3AE</code> — _StartUSBAudioDevice@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000E5DE">
+            <code>0000E5DE</code> — _StopUSBAudioDevice@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000E72E">
+            <code>0000E72E</code> — _SelectStreamingAudioInterface@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000EB53">
+            <code>0000EB53</code> — _SelectStreamingMIDIInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000EED0">
+            <code>0000EED0</code> — _SelectZeroBandwidthInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000EF80">
+            <code>0000EF80</code> — _ResetUSBPipe@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F063">
+            <code>0000F063</code> — _AbortUSBPipe@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F164">
+            <code>0000F164</code> — _GetCurrentUSBFrame@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F198">
+            <code>0000F198</code> — _GetNextAudioInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F1C2">
+            <code>0000F1C2</code> — _GetFirstAudioStreamingInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F236">
+            <code>0000F236</code> — _GetAudioSpecificInterface@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F296">
+            <code>0000F296</code> — _GetEndpointDescriptor@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F2DA">
+            <code>0000F2DA</code> — _GetSyncEndpointDescriptor@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F34C">
+            <code>0000F34C</code> — _GetMaxPacketSizeForInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F36C">
+            <code>0000F36C</code> — _GetUnit@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F436">
+            <code>0000F436</code> — _IsSupportedFormat@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F49A">
+            <code>0000F49A</code> — _IsZeroBWInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F4C4">
+            <code>0000F4C4</code> — _CountTerminalUnits@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F5FE">
+            <code>0000F5FE</code> — _CountFormatsForAudioStreamingInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F642">
+            <code>0000F642</code> — _CountInputChannels@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F6A0">
+            <code>0000F6A0</code> — _ConvertInterfaceToDataRange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000F866">
+            <code>0000F866</code> — _CountTopologyComponents@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FAEE">
+            <code>0000FAEE</code> — _GetDataFlowDirectionForInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FB8A">
+            <code>0000FB8A</code> — _GetDataFlowDirectionForMIDIInterface@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FC80">
+            <code>0000FC80</code> — _GetTerminalUnitForInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FCAE">
+            <code>0000FCAE</code> — _GetTerminalUnitForBridgePin@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FD8E">
+            <code>0000FD8E</code> — _IsBridgePinDigital@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FDC8">
+            <code>0000FDC8</code> — _GetCategoryForBridgePin@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FE1E">
+            <code>0000FE1E</code> — _GetDataFlowForBridgePin@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FE46">
+            <code>0000FE46</code> — _GetPinNumberForStreamingTerminalUnit@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FE92">
+            <code>0000FE92</code> — _GetPinNumberForMIDIJack@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FF50">
+            <code>0000FF50</code> — _GetChannelConfigForUnit@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0000FFC4">
+            <code>0000FFC4</code> — _GetUnitControlInterface@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010040">
+            <code>00010040</code> — _IsSampleRateInRange@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010136">
+            <code>00010136</code> — _GetUsbDataRangeForFormat@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010381">
+            <code>00010381</code> — _GetPinDataRangesFromInterface@16
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010616">
+            <code>00010616</code> — _GetContextForMIDIPin@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010892">
+            <code>00010892</code> — _GetIntersectFormatSize@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000108C8">
+            <code>000108C8</code> — _ConvertDatarangeToFormat@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000109E8">
+            <code>000109E8</code> — _CheckFormatMatch@8
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010AAA">
+            <code>00010AAA</code> — _GetMaxSampleRate@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010B5A">
+            <code>00010B5A</code> — _FindBestMatchForInterfaces@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010C92">
+            <code>00010C92</code> — _FindDataIntersection@12
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010D44">
+            <code>00010D44</code> — _dprintf
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010D5E">
+            <code>00010D5E</code> — _DebugGetCommandChar@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010E13">
+            <code>00010E13</code> — _DumpUSBAudioLog@4
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010F36">
+            <code>00010F36</code> — _DebugCommand@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010F5E">
+            <code>00010F5E</code> — _DebugDotCommand@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010F96">
+            <code>00010F96</code> — _InitializeDebuggerCommand@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00010FBA">
+            <code>00010FBA</code> — _UninitializeDebuggerCommand@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011045">
+            <code>00011045</code> — _DbugLogInitialization@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011116">
+            <code>00011116</code> — _DbugLogUninitialization@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011150">
+            <code>00011150</code> — _DbugLogEntry@20
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011244">
+            <code>00011244</code> — _DbgPrint
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011250">
+            <code>00011250</code> — __allshr
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011280">
+            <code>00011280</code> — __allmul
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000112C0">
+            <code>000112C0</code> — __aulldiv
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011328">
+            <code>00011328</code> — _DbgBreakPoint@0
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="00011330">
+            <code>00011330</code> — __aullrem
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="000113B0">
+            <code>000113B0</code> — __alldiv
+            
+          </li>
+        
+          <li data-segment="00006890" data-offset="0001145A">
+            <code>0001145A</code> — _DrmForwardContentToDeviceObject@12
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: .idata$5 @ 00007400
+      </summary>
+      <ul>
+        
+          <li data-segment="00007400" data-offset="00000000">
+            <code>00000000</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000004">
+            <code>00000004</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000008">
+            <code>00000008</code> — __imp__KeGetCurrentIrql@0
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000000C">
+            <code>0000000C</code> — __imp__KeQueryPerformanceCounter@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000010">
+            <code>00000010</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000014">
+            <code>00000014</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000018">
+            <code>00000018</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000001C">
+            <code>0000001C</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000020">
+            <code>00000020</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000024">
+            <code>00000024</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000028">
+            <code>00000028</code> — __imp__IoAllocateIrp@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000002C">
+            <code>0000002C</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000030">
+            <code>00000030</code> — __imp__PoUnregisterSystemState@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000034">
+            <code>00000034</code> — __imp__PoRegisterSystemState@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000038">
+            <code>00000038</code> — __imp__IoFreeIrp@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000003C">
+            <code>0000003C</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000040">
+            <code>00000040</code> — __imp__KeResetEvent@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000044">
+            <code>00000044</code> — __imp__RtlAssert@16
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000048">
+            <code>00000048</code> — __imp__DbgPrint
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000004C">
+            <code>0000004C</code> — __imp__wcsncpy
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000050">
+            <code>00000050</code> — __imp__swprintf
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000054">
+            <code>00000054</code> — __imp__wcslen
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000058">
+            <code>00000058</code> — __imp__IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000005C">
+            <code>0000005C</code> — __imp__DbgBreakPoint@0
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000060">
+            <code>00000060</code> — __imp__IoInitializeIrp@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000064">
+            <code>00000064</code> — __imp__KeReleaseSemaphore@16
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000068">
+            <code>00000068</code> — __imp_@ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000006C">
+            <code>0000006C</code> — __imp__KeInitializeSemaphore@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000070">
+            <code>00000070</code> — __imp_@InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000074">
+            <code>00000074</code> — __imp__IoCancelIrp@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000078">
+            <code>00000078</code> — __imp__IoBuildDeviceIoControlRequest@36
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000007C">
+            <code>0000007C</code> — __imp__KeQuerySystemTime@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000080">
+            <code>00000080</code> — __imp_@InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000084">
+            <code>00000084</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000088">
+            <code>00000088</code> — __imp__USBD_ParseConfigurationDescriptorEx@28
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000008C">
+            <code>0000008C</code> — __imp__USBD_CreateConfigurationRequestEx@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000090">
+            <code>00000090</code> — __imp__USBD_ParseDescriptors@16
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000094">
+            <code>00000094</code> — \177USBD_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000098">
+            <code>00000098</code> — __imp__DrmForwardContentToDeviceObject@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000009C">
+            <code>0000009C</code> — \177drmk_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000A0">
+            <code>000000A0</code> — __imp__KsInitializeDriver@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000A4">
+            <code>000000A4</code> — __imp__KsPinGetNextSiblingPin@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000A8">
+            <code>000000A8</code> — __imp__KsFilterGetFirstChildPin@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000AC">
+            <code>000000AC</code> — __imp__KsGetFirstChild@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000B0">
+            <code>000000B0</code> — __imp__KsGetParent@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000B4">
+            <code>000000B4</code> — __imp__KsCreateFilterFactory@32
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000B8">
+            <code>000000B8</code> — __imp___KsEdit@20
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000BC">
+            <code>000000BC</code> — __imp__KsPinGetParentFilter@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000C0">
+            <code>000000C0</code> — __imp__KsGetFilterFromIrp@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000C4">
+            <code>000000C4</code> — __imp__KsPinAttemptProcessing@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000C8">
+            <code>000000C8</code> — __imp__KsPinGetAndGate@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000CC">
+            <code>000000CC</code> — __imp__KsPinReleaseProcessingMutex@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000D0">
+            <code>000000D0</code> — __imp__KsPinAcquireProcessingMutex@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000D4">
+            <code>000000D4</code> — __imp__KsGetPinFromIrp@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000D8">
+            <code>000000D8</code> — __imp__KsGetObjectFromFileObject@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000DC">
+            <code>000000DC</code> — __imp__KsAddItemToObjectBag@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000E0">
+            <code>000000E0</code> — __imp__KsGetNextSibling@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000E4">
+            <code>000000E4</code> — __imp__KsStreamPointerClone@16
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000E8">
+            <code>000000E8</code> — __imp__KsPinGetLeadingEdgeStreamPointer@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000EC">
+            <code>000000EC</code> — __imp__KsStreamPointerAdvanceOffsets@16
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000F0">
+            <code>000000F0</code> — __imp__KsQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000F4">
+            <code>000000F4</code> — __imp__KsStreamPointerAdvanceOffsetsAndUnlock@16
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000F8">
+            <code>000000F8</code> — __imp__KsRegisterWorker@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000000FC">
+            <code>000000FC</code> — __imp__KsUnregisterWorker@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000100">
+            <code>00000100</code> — __imp__KsDecrementCountedWorker@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000104">
+            <code>00000104</code> — __imp__KsIncrementCountedWorker@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000108">
+            <code>00000108</code> — __imp__KsRegisterCountedWorker@12
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000010C">
+            <code>0000010C</code> — __imp__KsReleaseDevice@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000110">
+            <code>00000110</code> — __imp__KsReleaseControl@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000114">
+            <code>00000114</code> — __imp__KsAcquireControl@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000118">
+            <code>00000118</code> — __imp__KsAcquireDevice@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000011C">
+            <code>0000011C</code> — __imp__KsStreamPointerDelete@4
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000120">
+            <code>00000120</code> — __imp__KsStreamPointerUnlock@8
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000124">
+            <code>00000124</code> — \177ks_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000001A0">
+            <code>000001A0</code> — _USBAudioDeviceDispatch
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000001D8">
+            <code>000001D8</code> — _USBAudioDeviceDescriptor
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000001E8">
+            <code>000001E8</code> — _USB_BUS_INTERFACE_USBDI_GUID
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000001F8">
+            <code>000001F8</code> — _USBAudioFilterDispatch
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000218">
+            <code>00000218</code> — _USBAudioPinDispatch
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000240">
+            <code>00000240</code> — _USBMIDIPinDispatch
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000268">
+            <code>00000268</code> — _AudioBridgePinDataFormat
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000002A8">
+            <code>000002A8</code> — _MIDIBridgePinDataFormat
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="000002E8">
+            <code>000002E8</code> — _MIDIStreamingPinDataFormat
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000348">
+            <code>00000348</code> — _PinInterface
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000360">
+            <code>00000360</code> — _PinMedium
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000378">
+            <code>00000378</code> — _pAudioBridgePinFormats
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="0000037C">
+            <code>0000037C</code> — _pMIDIBridgePinFormats
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000380">
+            <code>00000380</code> — _pMIDIStreamingPinFormats
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000388">
+            <code>00000388</code> — _AllocatorFraming
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000AD8">
+            <code>00000AD8</code> — _RtAudioPropertyItems
+            
+          </li>
+        
+          <li data-segment="00007400" data-offset="00000B00">
+            <code>00000B00</code> — _DrmAudioStreamPropertyItems
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: .data @ 000074C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000074C0" data-offset="00000000">
+            <code>00000000</code> — _USBAudioDebugLevel
+            
+          </li>
+        
+          <li data-segment="000074C0" data-offset="00000018">
+            <code>00000018</code> — _ProcessUnitControlsMap
+            
+          </li>
+        
+          <li data-segment="000074C0" data-offset="000000C0">
+            <code>000000C0</code> — _AC3FrameSizeLookupTable
+            
+          </li>
+        
+          <li data-segment="000074C0" data-offset="00000290">
+            <code>00000290</code> — _ulNumDevices
+            
+          </li>
+        
+          <li data-segment="000074C0" data-offset="00000294">
+            <code>00000294</code> — _LogSpinLock
+            
+          </li>
+        
+          <li data-segment="000074C0" data-offset="00000298">
+            <code>00000298</code> — _gpLogPtr
+            
+          </li>
+        
+          <li data-segment="000074C0" data-offset="000002A0">
+            <code>000002A0</code> — _MapPropertyToNode
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: PAGECONST @ 00007910
+      </summary>
+      <ul>
+        
+          <li data-segment="00007910" data-offset="00000000">
+            <code>00000000</code> — _PINNAME_VIDEO_CAPTURE
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000010">
+            <code>00000010</code> — _KSDATAFORMAT_SUBTYPE_AC3_AUDIO
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000020">
+            <code>00000020</code> — _KSNODETYPE_DEV_SPECIFIC
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000030">
+            <code>00000030</code> — _KSNODETYPE_CHORUS
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000040">
+            <code>00000040</code> — _KSNODETYPE_REVERB
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000050">
+            <code>00000050</code> — _KSNODETYPE_STEREO_WIDE
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000060">
+            <code>00000060</code> — _KSNODETYPE_PROLOGIC_DECODER
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000070">
+            <code>00000070</code> — _KSNODETYPE_LOUDNESS
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000080">
+            <code>00000080</code> — _KSNODETYPE_DELAY
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000090">
+            <code>00000090</code> — _KSNODETYPE_AGC
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000000A0">
+            <code>000000A0</code> — _KSNODETYPE_EQUALIZER
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000000B0">
+            <code>000000B0</code> — _KSNODETYPE_TONE
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000000C0">
+            <code>000000C0</code> — _KSNODETYPE_VOLUME
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000000D0">
+            <code>000000D0</code> — _KSNODETYPE_MUTE
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000000E0">
+            <code>000000E0</code> — _KSNODETYPE_SUM
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000000F0">
+            <code>000000F0</code> — _KSNODETYPE_MUX
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000100">
+            <code>00000100</code> — _KSNODETYPE_SUPERMIX
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000110">
+            <code>00000110</code> — _KSNODETYPE_SRC
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000120">
+            <code>00000120</code> — _KSNODETYPE_ADC
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000130">
+            <code>00000130</code> — _KSNODETYPE_DAC
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000140">
+            <code>00000140</code> — _KSPROPSETID_Audio
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000150">
+            <code>00000150</code> — _KSPROPSETID_DrmAudioStream
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000160">
+            <code>00000160</code> — _KSPROPSETID_RtAudio
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000170">
+            <code>00000170</code> — _KSDATAFORMAT_SPECIFIER_WAVEFORMATEX
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000180">
+            <code>00000180</code> — _KSDATAFORMAT_SUBTYPE_MPEG
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000190">
+            <code>00000190</code> — _KSDATAFORMAT_SUBTYPE_MULAW
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000001A0">
+            <code>000001A0</code> — _KSDATAFORMAT_SUBTYPE_ALAW
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000001B0">
+            <code>000001B0</code> — _KSDATAFORMAT_SUBTYPE_IEEE_FLOAT
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000001C0">
+            <code>000001C0</code> — _KSDATAFORMAT_SUBTYPE_PCM
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000001D0">
+            <code>000001D0</code> — _KSDATAFORMAT_SUBTYPE_WAVEFORMATEX
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000001E0">
+            <code>000001E0</code> — _KSDATAFORMAT_TYPE_AUDIO
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="000001F0">
+            <code>000001F0</code> — _KSCATEGORY_WDMAUD_USE_PIN_NAME
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000200">
+            <code>00000200</code> — _KSCATEGORY_AUDIO
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000210">
+            <code>00000210</code> — _KSPROPSETID_Stream
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000220">
+            <code>00000220</code> — _KSPROPSETID_Connection
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000230">
+            <code>00000230</code> — _KSNAME_Filter
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000240">
+            <code>00000240</code> — _KSPROPSETID_Pin
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000250">
+            <code>00000250</code> — _KSCATEGORY_RENDER
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000260">
+            <code>00000260</code> — _KSCATEGORY_CAPTURE
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000270">
+            <code>00000270</code> — _KSPROPTYPESETID_General
+            
+          </li>
+        
+          <li data-segment="00007910" data-offset="00000280">
+            <code>00000280</code> — _GUID_NULL
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: .idata$2 @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000028">
+            <code>00000028</code> — __IMPORT_DESCRIPTOR_USBD
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000003C">
+            <code>0000003C</code> — __IMPORT_DESCRIPTOR_ks
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000050">
+            <code>00000050</code> — __IMPORT_DESCRIPTOR_drmk
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000064">
+            <code>00000064</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

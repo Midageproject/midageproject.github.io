@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>JOYHID — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../joyhid.c</li>
+      
+        <li>../shutdown.c</li>
+      
+        <li>../vxd.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00000220
+      </summary>
+      <ul>
+        
+          <li data-segment="00000220" data-offset="00000000">
+            <code>00000000</code> — ControlProc
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="00000030">
+            <code>00000030</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="00000034">
+            <code>00000034</code> — WDMExFreePool
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="00000040">
+            <code>00000040</code> — __imp__RtlUnicodeStringToAnsiString@12
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="00000044">
+            <code>00000044</code> — WDMRtlUnicodeStringToAnsiString
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="00000050">
+            <code>00000050</code> — JOYHID_DDB
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000A0">
+            <code>000000A0</code> — _GUID_CLASS_INPUT
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000B0">
+            <code>000000B0</code> — _GUID_DEVICE_SYS_BUTTON
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000C0">
+            <code>000000C0</code> — _devHead
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000C4">
+            <code>000000C4</code> — _pHidP_GetUsages
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000C8">
+            <code>000000C8</code> — _pHidP_GetCaps
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000CC">
+            <code>000000CC</code> — _devTail
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000D0">
+            <code>000000D0</code> — _pHidP_GetValueCaps
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000D4">
+            <code>000000D4</code> — _pHidP_GetUsageValue
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000D8">
+            <code>000000D8</code> — _pIoGetDeviceInterfaces
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000DC">
+            <code>000000DC</code> — _pHidP_GetScaledUsageValue
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="000000E0">
+            <code>000000E0</code> — _pHidP_MaxUsageListLength
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IGROUP @ 00001130
+      </summary>
+      <ul>
+        
+          <li data-segment="00001130" data-offset="00000000">
+            <code>00000000</code> — _JOYHID_UnicodeStrcmp@8
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000039">
+            <code>00000039</code> — _UnicodeStringLength@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000058">
+            <code>00000058</code> — _GetImportFunctions@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000160">
+            <code>00000160</code> — _JOYHID_Enqueue@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000199">
+            <code>00000199</code> — _JOYHID_Dequeue@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000001CF">
+            <code>000001CF</code> — _JOYHID_Is_Active_Device@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000001F0">
+            <code>000001F0</code> — _JOYHID_Find_Device_By_Name@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000223">
+            <code>00000223</code> — _JOYHID_Find_Device_By_VJOYD_ID@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000245">
+            <code>00000245</code> — _JOYHID_Find_Device_By_Our_ID@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000260">
+            <code>00000260</code> — _JOYHID_Find_Unused_Device@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000278">
+            <code>00000278</code> — _JOYHID_Exit@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000299">
+            <code>00000299</code> — _JOYHID_Callback_Close@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000324">
+            <code>00000324</code> — _JOYHID_SetOpen@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000036E">
+            <code>0000036E</code> — _InitializeDevice@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000007FB">
+            <code>000007FB</code> — _JOYHID_Callback_Open@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000085E">
+            <code>0000085E</code> — _TryOpenDevices@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000AE6">
+            <code>00000AE6</code> — _JOYHID_GetUsage@16
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000B55">
+            <code>00000B55</code> — _JOYHID_ReadComplete@12
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000DC3">
+            <code>00000DC3</code> — _JOYHID_Callback_Read@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000E2D">
+            <code>00000E2D</code> — _JOYHID_PollProc@12
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000EB5">
+            <code>00000EB5</code> — _JOYHID_HWCapsProc@8
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000EEE">
+            <code>00000EEE</code> — _JOYHID_GetCaps@8
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00000FC0">
+            <code>00000FC0</code> — _JOYHID_JoyIdProc@8
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001002">
+            <code>00001002</code> — _JOYHID_GetJoyData@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000010E4">
+            <code>000010E4</code> — _JOYHID_ObtainJoyData@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000114C">
+            <code>0000114C</code> — _JOYHID_RegisterVJOYD@8
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001449">
+            <code>00001449</code> — _JOYHID_Initialize@8
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001470">
+            <code>00001470</code> — __RegisterVJOYD@4@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001470">
+            <code>00001470</code> — _RegisterVJOYD@4
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001488">
+            <code>00001488</code> — _JOYHID_Hook
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000014A0">
+            <code>000014A0</code> — _JOYHID_Unhook
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000014B8">
+            <code>000014B8</code> — Hook_GamePort
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000014D1">
+            <code>000014D1</code> — _CallRestrictedEvent@16
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001503">
+            <code>00001503</code> — JOYHID_Device_Init
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000152D">
+            <code>0000152D</code> — JOYHID_Device_Exit
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000153C">
+            <code>0000153C</code> — JOYHID_Kernel32Shutdown
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001543">
+            <code>00001543</code> — JOYHID_ScheduleOpen_Callback
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001587">
+            <code>00001587</code> — JOYHID_OpenOnOwnThread_Callback
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001593">
+            <code>00001593</code> — JOYHID_Handle_NewDevnode
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000015C0">
+            <code>000015C0</code> — JOYHID_NewDevnode_Callback
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000015CC">
+            <code>000015CC</code> — JOYHID_NewDevnode
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000015D3">
+            <code>000015D3</code> — _JOYHID_Enter_Lock@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001605">
+            <code>00001605</code> — _JOYHID_Leave_Lock@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000161C">
+            <code>0000161C</code> — _JOYHID_Destroy_Lock@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="00001640">
+            <code>00001640</code> — _IncPendingActionCount@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="0000164C">
+            <code>0000164C</code> — _DecPendingActionCount@0
+            
+          </li>
+        
+          <li data-segment="00001130" data-offset="000016B2">
+            <code>000016B2</code> — _HandleShutdown
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PDATA @ 00001210
+      </summary>
+      <ul>
+        
+          <li data-segment="00001210" data-offset="00000000">
+            <code>00000000</code> — _ojd
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="00000040">
+            <code>00000040</code> — _UsageToMask
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="0000005C">
+            <code>0000005C</code> — _CheckX
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="0000006C">
+            <code>0000006C</code> — _CheckY
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="0000007C">
+            <code>0000007C</code> — _CheckZ
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="000000A4">
+            <code>000000A4</code> — _CheckRudder
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="000000BC">
+            <code>000000BC</code> — _CheckThrottle
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="000000DC">
+            <code>000000DC</code> — _CheckW
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="000000EC">
+            <code>000000EC</code> — _CheckHatswitch
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="000000FC">
+            <code>000000FC</code> — _UsageLists
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="0000024C">
+            <code>0000024C</code> — _shuttingDown
+            
+          </li>
+        
+          <li data-segment="00001210" data-offset="00000250">
+            <code>00000250</code> — _pendingActionCount
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _RARE @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _CCODE__NtKernCreateFile@44
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — _CCODE__NtKernClose@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — _CCODE__NtKernReadFile@36
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000018">
+            <code>00000018</code> — _CCODE__NtKernDeviceIoControl@40
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — _CCODE__NtKernQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000028">
+            <code>00000028</code> — _CCODE__PELDR_GetProcAddress
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000030">
+            <code>00000030</code> — _CCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000038">
+            <code>00000038</code> — _CCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000040">
+            <code>00000040</code> — _CCODE_Get_DDB@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

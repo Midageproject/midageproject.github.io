@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VKD — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../vad.asm</li>
+      
+        <li>../vkd.asm</li>
+      
+        <li>../vkdhk.asm</li>
+      
+        <li>../vkdio.asm</li>
+      
+        <li>../vkdphys.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00002180
+      </summary>
+      <ul>
+        
+          <li data-segment="00002180" data-offset="00000000">
+            <code>00000000</code> — VKD_Control
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000005C">
+            <code>0000005C</code> — VKD_Get_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000068">
+            <code>00000068</code> — VKD_Set_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000086">
+            <code>00000086</code> — VKD_Begin_Msg_Mode
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000000BB">
+            <code>000000BB</code> — VKD_End_Msg_Mode
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000000DA">
+            <code>000000DA</code> — VKD_Power_Handler
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000100">
+            <code>00000100</code> — VKD_Force_Keys
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000014C">
+            <code>0000014C</code> — VKD_Get_Kbd_Owner
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000153">
+            <code>00000153</code> — VKD_Get_Msg_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000180">
+            <code>00000180</code> — VKD_Peek_Msg_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000001A8">
+            <code>000001A8</code> — VKD_Flush_Msg_Key_Queue
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000001D0">
+            <code>000001D0</code> — VKD_VM_Service_Phys
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000001D8">
+            <code>000001D8</code> — VKD_VM_Server
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000254">
+            <code>00000254</code> — VKD_Beep
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000266">
+            <code>00000266</code> — VKD_VM_Server_Part_2
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000032C">
+            <code>0000032C</code> — VKD_Pause_Block
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000348">
+            <code>00000348</code> — VKD_Get_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000372">
+            <code>00000372</code> — Build_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000003CC">
+            <code>000003CC</code> — Simulate_VM_INT9
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000494">
+            <code>00000494</code> — Queue_Output
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000004B0">
+            <code>000004B0</code> — Queue_Ext_Shift
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000005A6">
+            <code>000005A6</code> — Queue_Virtual_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000607">
+            <code>00000607</code> — Queue_Msg_Mode_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000666">
+            <code>00000666</code> — VKD_send_ralt_pre
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000067D">
+            <code>0000067D</code> — Update_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000007A8">
+            <code>000007A8</code> — VKD_EOI
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000007D8">
+            <code>000007D8</code> — VKD_Virt_Int
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000007F4">
+            <code>000007F4</code> — VKD_IRET
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000084C">
+            <code>0000084C</code> — VKD_Next_Paste_Code
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000085D">
+            <code>0000085D</code> — VKD_Release_TS_Hook
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000008B0">
+            <code>000008B0</code> — Chk_Win_Key_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000008EB">
+            <code>000008EB</code> — IsShiftKey
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000008F7">
+            <code>000008F7</code> — IsModifierKey
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000091E">
+            <code>0000091E</code> — VKD_Chk_BIOS_Toggle_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000094A">
+            <code>0000094A</code> — VKD_Convert_BIOS_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000994">
+            <code>00000994</code> — CombineShiftKeys
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000009B2">
+            <code>000009B2</code> — Chk_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000A4C">
+            <code>00000A4C</code> — Chk_Hot_Keys
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000AEC">
+            <code>00000AEC</code> — VKD_Trap_CommandR
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000C00">
+            <code>00000C00</code> — VKD_Trap_DataR
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000D96">
+            <code>00000D96</code> — _8042_Buf_Empty
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000D9F">
+            <code>00000D9F</code> — Get_8042_Byte
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000DB5">
+            <code>00000DB5</code> — Put_8042_Byte
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000DC9">
+            <code>00000DC9</code> — VKD_8042_Response
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000DE4">
+            <code>00000DE4</code> — VKD_8042_Server
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000E0A">
+            <code>00000E0A</code> — VKD_OutputByte
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000E15">
+            <code>00000E15</code> — VKD_send_queued_command
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000E30">
+            <code>00000E30</code> — VKD_Filter_Keyboard_Input
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000E34">
+            <code>00000E34</code> — VKD_Int_09
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000F3F">
+            <code>00000F3F</code> — Kybd_Wait_Out
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000F70">
+            <code>00000F70</code> — VKD_Send_Data
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000F9A">
+            <code>00000F9A</code> — VKD_Send_Cmd
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000FA2">
+            <code>00000FA2</code> — VKD_Buf_Empty
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000FB0">
+            <code>00000FB0</code> — VKD_Get_Byte
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000FD5">
+            <code>00000FD5</code> — VKD_Put_Byte
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00000FFF">
+            <code>00000FFF</code> — VKD_Clear_Data_Buf
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000100C">
+            <code>0000100C</code> — VKD_Poll_ACK
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001038">
+            <code>00001038</code> — VKD_Set_LEDs
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000107A">
+            <code>0000107A</code> — VKD_Set_Key_Rate
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000010BC">
+            <code>000010BC</code> — VKD_Get_Key_Rate
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000010C2">
+            <code>000010C2</code> — VKD_ACK_Timeout
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000010E5">
+            <code>000010E5</code> — VKD_Reboot
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000010F8">
+            <code>000010F8</code> — VAD_Read_Command
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001140">
+            <code>00001140</code> — VAD_Write_Command
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001154">
+            <code>00001154</code> — VAD_Read_Data
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011BC">
+            <code>000011BC</code> — _VKD_Get_Version
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011C0">
+            <code>000011C0</code> — _VKD_Define_Hot_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011C4">
+            <code>000011C4</code> — _VKD_Remove_Hot_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011C8">
+            <code>000011C8</code> — _VKD_Local_Enable_Hot_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011CC">
+            <code>000011CC</code> — _VKD_Local_Disable_Hot_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011D0">
+            <code>000011D0</code> — _VKD_Reflect_Hot_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011D4">
+            <code>000011D4</code> — _VKD_Cancel_Hot_Key_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011D8">
+            <code>000011D8</code> — _VKD_Force_Keys
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011DC">
+            <code>000011DC</code> — _VKD_Get_Kbd_Owner
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011E0">
+            <code>000011E0</code> — _VKD_Define_Paste_Mode
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011E4">
+            <code>000011E4</code> — _VKD_Start_Paste
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011E8">
+            <code>000011E8</code> — _VKD_Cancel_Paste
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011EC">
+            <code>000011EC</code> — _VKD_Get_Msg_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011F0">
+            <code>000011F0</code> — _VKD_Peek_Msg_Key
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011F4">
+            <code>000011F4</code> — _VKD_Flush_Msg_Key_Queue
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011F8">
+            <code>000011F8</code> — _VKD_Enable_Keyboard
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000011FC">
+            <code>000011FC</code> — _VKD_Disable_Keyboard
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001200">
+            <code>00001200</code> — _VKD_Get_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001204">
+            <code>00001204</code> — _VKD_Filter_Keyboard_Input
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001208">
+            <code>00001208</code> — _VKD_Put_Byte
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000120C">
+            <code>0000120C</code> — _VKD_Set_Shift_State
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001210">
+            <code>00001210</code> — _VKD_Send_Data
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001214">
+            <code>00001214</code> — _VKD_Set_LEDs
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001218">
+            <code>00001218</code> — _VKD_Set_Key_Rate
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000121C">
+            <code>0000121C</code> — _VKD_Get_Key_Rate
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001220">
+            <code>00001220</code> — VKD_DDB
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001270">
+            <code>00001270</code> — VKD_irq_Handle
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001274">
+            <code>00001274</code> — VKD_CB_Offset
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001278">
+            <code>00001278</code> — VKD_Kbd_Owner
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001284">
+            <code>00001284</code> — NewShell
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001288">
+            <code>00001288</code> — VKD_Int_Boost_Amount
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001291">
+            <code>00001291</code> — VKD_gbl_shift_state
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000012B5">
+            <code>000012B5</code> — VKD_flags
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="000012BE">
+            <code>000012BE</code> — VKD_attempt_reboot
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000136C">
+            <code>0000136C</code> — Hot_Key_List
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001370">
+            <code>00001370</code> — Hot_Key_Notify_List
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="0000137C">
+            <code>0000137C</code> — VKD_8042_owner
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001380">
+            <code>00001380</code> — VKD_8042_cmd_table
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001480">
+            <code>00001480</code> — VKD_Last_LED
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001481">
+            <code>00001481</code> — VKD_Last_Key_Rate
+            
+          </li>
+        
+          <li data-segment="00002180" data-offset="00001579">
+            <code>00001579</code> — VAD_Exists
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IMGROUP @ 000021C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000021C0" data-offset="00000000">
+            <code>00000000</code> — @MSG_IAB
+            
+          </li>
+        
+          <li data-segment="000021C0" data-offset="00000014">
+            <code>00000014</code> — @MSG_IDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _IGROUP @ 00002AC0
+      </summary>
+      <ul>
+        
+          <li data-segment="00002AC0" data-offset="00000000">
+            <code>00000000</code> — VKD_Wait_Busy
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="0000000C">
+            <code>0000000C</code> — VKD_Wait_Empty
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000018">
+            <code>00000018</code> — VKD_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="000001CC">
+            <code>000001CC</code> — VKD_Device_Init
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000399">
+            <code>00000399</code> — VKD_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="000003F8">
+            <code>000003F8</code> — Force_Upper_Case
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000403">
+            <code>00000403</code> — VKD_skip_white_space
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000410">
+            <code>00000410</code> — VKD_process_cmd_ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000490">
+            <code>00000490</code> — VKD_IO_Init
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="0000053C">
+            <code>0000053C</code> — VAD_Device_Init
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="0000081C">
+            <code>0000081C</code> — Kbd_Boost_Time
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000829">
+            <code>00000829</code> — Kbd_Alt_Delay
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000835">
+            <code>00000835</code> — Kbd_Paste_TimeOut
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000845">
+            <code>00000845</code> — Kbd_Paste_Pause_Ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000857">
+            <code>00000857</code> — Kbd_CR_Paste_Pause_Ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="0000086B">
+            <code>0000086B</code> — Kbd_SlowPaste_Delay
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000879">
+            <code>00000879</code> — Kbd_AltPaste_Delay
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000887">
+            <code>00000887</code> — Kbd_PasteBuf_Delay
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="00000896">
+            <code>00000896</code> — Kbd_MCA_Passwd_Ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="000008A1">
+            <code>000008A1</code> — Kbd_8042_ReadCmd_Ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="000008AD">
+            <code>000008AD</code> — Kbd_8042_WriteCmd_Ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="000008BA">
+            <code>000008BA</code> — Kbd_Reboot_Ini
+            
+          </li>
+        
+          <li data-segment="00002AC0" data-offset="000008C5">
+            <code>000008C5</code> — Key_Delay_Ini
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PTEXT @ 000035E0
+      </summary>
+      <ul>
+        
+          <li data-segment="000035E0" data-offset="00000000">
+            <code>00000000</code> — VKD_Disable_Keyboard
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000003C">
+            <code>0000003C</code> — VKD_Enable_Keyboard
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000006A">
+            <code>0000006A</code> — VKD_Int_15h
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000000F7">
+            <code>000000F7</code> — VKD_Set_Focus
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="00000164">
+            <code>00000164</code> — VKD_Get_Version
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000016B">
+            <code>0000016B</code> — VKD_Define_Hot_Key
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000001EA">
+            <code>000001EA</code> — VKD_Remove_Hot_Key
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000022E">
+            <code>0000022E</code> — VKD_Local_Enable_Hot_Key
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="00000245">
+            <code>00000245</code> — VKD_Local_Disable_Hot_Key
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000025C">
+            <code>0000025C</code> — VKD_Reflect_Hot_Key
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000029E">
+            <code>0000029E</code> — VKD_Cancel_Hot_Key_State
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000002B4">
+            <code>000002B4</code> — QueueFromPasteBuf
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000003C1">
+            <code>000003C1</code> — VKD_Paste_Restart
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000003CA">
+            <code>000003CA</code> — VKD_Alt_Timeout
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000003D4">
+            <code>000003D4</code> — VKD_Int_16
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000040A">
+            <code>0000040A</code> — VKD_Nudge_Int16h_Hook
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000040F">
+            <code>0000040F</code> — I16_Paste
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000004A8">
+            <code>000004A8</code> — VKD_INT16_write
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000004EC">
+            <code>000004EC</code> — Hot_Key_Activate_Monitor
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="00000507">
+            <code>00000507</code> — Hot_Key_Entered
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="0000057E">
+            <code>0000057E</code> — Hot_Key_Notify
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000005E7">
+            <code>000005E7</code> — Hot_Key_Ended
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="00000646">
+            <code>00000646</code> — VKD_PriorityNotify
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="00000698">
+            <code>00000698</code> — VKD_Enable_Kbd
+            
+          </li>
+        
+          <li data-segment="000035E0" data-offset="000006A2">
+            <code>000006A2</code> — VKD_Disable_Kbd
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _LOCKABLE @ 00003760
+      </summary>
+      <ul>
+        
+          <li data-segment="00003760" data-offset="00000000">
+            <code>00000000</code> — VKD_Sys_VM_Terminate
+            
+          </li>
+        
+          <li data-segment="00003760" data-offset="0000000E">
+            <code>0000000E</code> — VKD_System_Exit
+            
+          </li>
+        
+          <li data-segment="00003760" data-offset="00000052">
+            <code>00000052</code> — VKD_Sys_Crit_Exit
+            
+          </li>
+        
+          <li data-segment="00003760" data-offset="0000005C">
+            <code>0000005C</code> — VAD_System_Exit
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _RARE @ 00003E00
+      </summary>
+      <ul>
+        
+          <li data-segment="00003E00" data-offset="00000000">
+            <code>00000000</code> — VKD_Define_Paste_Mode
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="00000015">
+            <code>00000015</code> — paste_alloc_failed
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="00000019">
+            <code>00000019</code> — VKD_Start_Paste
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="000000B8">
+            <code>000000B8</code> — VKD_Cancel_Paste
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="000000C1">
+            <code>000000C1</code> — VKD_Abort_INT16_Paste
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="000000E0">
+            <code>000000E0</code> — VKD_Trap_CommandR_Reboot
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="000000F4">
+            <code>000000F4</code> — VAD_Set_Focus
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="00000135">
+            <code>00000135</code> — VAD_PM_Int_15_Emulation
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="00000158">
+            <code>00000158</code> — VAD_Int_15_Emulation
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="00000280">
+            <code>00000280</code> — VAD_Test_Data_Avail
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="000002C4">
+            <code>000002C4</code> — VAD_Request_Int
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="00000300">
+            <code>00000300</code> — VAD_INT
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="0000039C">
+            <code>0000039C</code> — VAD_IRET
+            
+          </li>
+        
+          <li data-segment="00003E00" data-offset="000003A8">
+            <code>000003A8</code> — VAD_BIOS_Far_Call
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: _VMCREATE @ 00004020
+      </summary>
+      <ul>
+        
+          <li data-segment="00004020" data-offset="00000000">
+            <code>00000000</code> — VKD_Set_VM_SysIni_Defaults
+            
+          </li>
+        
+          <li data-segment="00004020" data-offset="0000002C">
+            <code>0000002C</code> — VKD_VM_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00004020" data-offset="00000083">
+            <code>00000083</code> — VKD_VM_Init
+            
+          </li>
+        
+          <li data-segment="00004020" data-offset="0000009B">
+            <code>0000009B</code> — VKD_Notify_Property_Change
+            
+          </li>
+        
+          <li data-segment="00004020" data-offset="000000F0">
+            <code>000000F0</code> — VAD_Create_VM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: _VMDESTROY @ 000041E0
+      </summary>
+      <ul>
+        
+          <li data-segment="000041E0" data-offset="00000000">
+            <code>00000000</code> — VKD_VM_Not_Executeable
+            
+          </li>
+        
+          <li data-segment="000041E0" data-offset="0000000B">
+            <code>0000000B</code> — VKD_Destroy_VM
+            
+          </li>
+        
+          <li data-segment="000041E0" data-offset="0000003D">
+            <code>0000003D</code> — VKD_End_Paste
+            
+          </li>
+        
+          <li data-segment="000041E0" data-offset="00000080">
+            <code>00000080</code> — VAD_Destroy_VM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 9: _THCREATE @ 00004250
+      </summary>
+      <ul>
+        
+          <li data-segment="00004250" data-offset="00000000">
+            <code>00000000</code> — VKD_VM_Suspend
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 10: _DOSVM @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — VKD_PM_API_Entry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000020">
+            <code>00000020</code> — VKD_API_Get_Version
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000002C">
+            <code>0000002C</code> — VKD_API_Force_Key
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

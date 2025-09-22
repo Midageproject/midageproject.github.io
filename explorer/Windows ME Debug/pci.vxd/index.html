@@ -1,0 +1,2577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>PCI — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../agp.c</li>
+      
+        <li>../bridgarb.c</li>
+      
+        <li>../busnoarb.c</li>
+      
+        <li>../debug.c</li>
+      
+        <li>../../../../dev/ddk/inc/pci.inc</li>
+      
+        <li>../enum1dev.c</li>
+      
+        <li>../fdma.c</li>
+      
+        <li>../gart.c</li>
+      
+        <li>../getroutc.c</li>
+      
+        <li>../ide.c</li>
+      
+        <li>../init.c</li>
+      
+        <li>../int1a.c</li>
+      
+        <li>../irqarb.c</li>
+      
+        <li>../link.c</li>
+      
+        <li>../miniport.c</li>
+      
+        <li>../misc.c</li>
+      
+        <li>../pci.asm</li>
+      
+        <li>../pci_cfg.c</li>
+      
+        <li>../pcienm.c</li>
+      
+        <li>../power.c</li>
+      
+        <li>../rebal.c</li>
+      
+        <li>../registry.c</li>
+      
+        <li>../rmbios.asm</li>
+      
+        <li>../services.c</li>
+      
+        <li>../video.c</li>
+      
+        <li>Ht.H</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LDATA @ 00000B60
+      </summary>
+      <ul>
+        
+          <li data-segment="00000B60" data-offset="00000000">
+            <code>00000000</code> — _BeginLockable_Debug_Flags
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000004">
+            <code>00000004</code> — __PCI_Get_Version
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000008">
+            <code>00000008</code> — __PCI_Read_Config
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="0000000C">
+            <code>0000000C</code> — __PCI_Write_Config
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000010">
+            <code>00000010</code> — __PCI_Lock_Unlock
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000014">
+            <code>00000014</code> — _PCIDDB
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000014">
+            <code>00000014</code> — PCI_DDB
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000088">
+            <code>00000088</code> — _dwTracing
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00000090">
+            <code>00000090</code> — _DebuggerCommands
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00001C40">
+            <code>00001C40</code> — PCI_Control
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00001C7A">
+            <code>00001C7A</code> — _ValidateHappy
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00001C95">
+            <code>00001C95</code> — _ValidateCurrentDevNode
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00001CD2">
+            <code>00001CD2</code> — _SelectIndex
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00001D01">
+            <code>00001D01</code> — _DebListDevNode
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00001E2C">
+            <code>00001E2C</code> — _DebProcessDevNode
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000022C6">
+            <code>000022C6</code> — _PCIWalk
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="0000237C">
+            <code>0000237C</code> — _PCIWalkDepth
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000023FC">
+            <code>000023FC</code> — _PCIDetectIntProc
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="0000249D">
+            <code>0000249D</code> — _CheckTestCard
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000027C9">
+            <code>000027C9</code> — _GetFirstBitSet
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000027E5">
+            <code>000027E5</code> — _CheckInts
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002A3A">
+            <code>00002A3A</code> — _DebDumpBridgeInfo
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002CEF">
+            <code>00002CEF</code> — _ShowAll
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002D02">
+            <code>00002D02</code> — _ShowList
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002D33">
+            <code>00002D33</code> — _ShowBus
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002D5F">
+            <code>00002D5F</code> — _ConfigSpace
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002D8B">
+            <code>00002D8B</code> — _EnterDataDword
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002E0C">
+            <code>00002E0C</code> — _EnterData
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002E92">
+            <code>00002E92</code> — _FindIRQRouting
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002EA1">
+            <code>00002EA1</code> — _GlobalInfo
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00002FCB">
+            <code>00002FCB</code> — _GetLink
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003176">
+            <code>00003176</code> — _ShowDevNode
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="0000318C">
+            <code>0000318C</code> — _TraceAccess
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000031A0">
+            <code>000031A0</code> — _SelectByDevNode
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000031B4">
+            <code>000031B4</code> — _SelectByIndex
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="0000320B">
+            <code>0000320B</code> — _AppyIDETest
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000032C0">
+            <code>000032C0</code> — _IDETest
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000032D8">
+            <code>000032D8</code> — _AppyShowROM
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="0000348E">
+            <code>0000348E</code> — _ShowROM
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000034A6">
+            <code>000034A6</code> — _SetState
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="000034F5">
+            <code>000034F5</code> — _AppyDebugger
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003512">
+            <code>00003512</code> — _PMSchedDebugger
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003542">
+            <code>00003542</code> — _Debugger@0
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003563">
+            <code>00003563</code> — _DisplayPowerManagement
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003660">
+            <code>00003660</code> — _LCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003680">
+            <code>00003680</code> — @CMDReadNumber@12
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003774">
+            <code>00003774</code> — _LCODE__CONFIGMG_Call_At_Appy_Time
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003780">
+            <code>00003780</code> — @CMDMenu@8
+            
+          </li>
+        
+          <li data-segment="00000B60" data-offset="00003840">
+            <code>00003840</code> — @CMDInChar@0
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: RARE @ 00000EB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000EB0" data-offset="00000000">
+            <code>00000000</code> — _PCIExit@0
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000031">
+            <code>00000031</code> — _StrCat
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000069">
+            <code>00000069</code> — _StrStr
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000000A1">
+            <code>000000A1</code> — _StrChr
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000000B9">
+            <code>000000B9</code> — _IsBehindACPI
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000102">
+            <code>00000102</code> — _RegCopyKey
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000002EF">
+            <code>000002EF</code> — _RegRenameKey
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000003A3">
+            <code>000003A3</code> — _InternalRegReplaceString
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="00000665">
+            <code>00000665</code> — _RegReplaceString
+            
+          </li>
+        
+          <li data-segment="00000EB0" data-offset="000006DE">
+            <code>000006DE</code> — _RegSearchAndReplace
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: PNP @ 00003AB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00003AB0" data-offset="00000000">
+            <code>00000000</code> — _LinToPhys
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000043">
+            <code>00000043</code> — _QueryBridgeArbitrate
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000000B6">
+            <code>000000B6</code> — _FreeArbResInfo
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000000E3">
+            <code>000000E3</code> — _GetAlloc
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000118">
+            <code>00000118</code> — _GetSize
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000015E">
+            <code>0000015E</code> — _GetAlignment
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000001AA">
+            <code>000001AA</code> — _GetNextResDes
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000219">
+            <code>00000219</code> — _GetSortedResDes
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000002DE">
+            <code>000002DE</code> — _SaveAlloc
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000312">
+            <code>00000312</code> — _Unalloc
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000003A4">
+            <code>000003A4</code> — _InitializeArb
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000053D">
+            <code>0000053D</code> — _BridgeArbTest
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000061B">
+            <code>0000061B</code> — _BridgeArbRetest
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000006A7">
+            <code>000006A7</code> — _BridgeArbSet
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000006D5">
+            <code>000006D5</code> — _BridgeArbitrate
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000088C">
+            <code>0000088C</code> — _BridgeIOArbitrator
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000008FD">
+            <code>000008FD</code> — _BridgeMemArbitrator
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000096E">
+            <code>0000096E</code> — _GetBusNumberAlloc
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000009C1">
+            <code>000009C1</code> — _SetBusNumber
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000A67">
+            <code>00000A67</code> — _GetTopLevelBridge
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000A9C">
+            <code>00000A9C</code> — _FindBusNumLimit
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000AF1">
+            <code>00000AF1</code> — _RecursiveInitializeTemp
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000B7C">
+            <code>00000B7C</code> — _SetTopLevelUsed
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000C22">
+            <code>00000C22</code> — _RecursiveResetBridges
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000C90">
+            <code>00000C90</code> — _RecursiveSetBridges
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000D88">
+            <code>00000D88</code> — _RebalanceAllBusNum
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000EAC">
+            <code>00000EAC</code> — _RecursiveGetLargest
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00000F15">
+            <code>00000F15</code> — _IsBusNumFeasible
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000114C">
+            <code>0000114C</code> — _CanAssignBusNum
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000169F">
+            <code>0000169F</code> — _BusNumTesting
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000016F0">
+            <code>000016F0</code> — _BusNumberArbitrator
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001766">
+            <code>00001766</code> — _UpdateSystemDMAUsage
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001794">
+            <code>00001794</code> — _ComputeDMAUsage
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001865">
+            <code>00001865</code> — _RecursiveComputeDMAUsage
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000018B6">
+            <code>000018B6</code> — _InitFDMA
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001911">
+            <code>00001911</code> — _ExitFDMA
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001945">
+            <code>00001945</code> — _LocateGARTMiniport
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000194B">
+            <code>0000194B</code> — _PCIReserve
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000019A5">
+            <code>000019A5</code> — _PCIMap
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001A00">
+            <code>00001A00</code> — _PCIUnMap
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001A28">
+            <code>00001A28</code> — _PCIFree
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001A5E">
+            <code>00001A5E</code> — _ExitGART
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001A87">
+            <code>00001A87</code> — _HandleGART
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001BC6">
+            <code>00001BC6</code> — _AllocateDOSMemory
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001C17">
+            <code>00001C17</code> — _DeallocateDOSMemory
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001C4A">
+            <code>00001C4A</code> — _GetRealModeIRQRoute
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001C94">
+            <code>00001C94</code> — _BIOSGetRealModeIRQRoute
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001DAE">
+            <code>00001DAE</code> — _PCIBIOSGetRealModeIRQRoute
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001E25">
+            <code>00001E25</code> — _GetChannelStatus
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00001F45">
+            <code>00001F45</code> — _RewriteVRM
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00002043">
+            <code>00002043</code> — _GetIRQResDes
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000020AF">
+            <code>000020AF</code> — _IRQArbitrator
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000023A1">
+            <code>000023A1</code> — _RegisterIRQArbitrator
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00002437">
+            <code>00002437</code> — _FindIRQInfo
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000247B">
+            <code>0000247B</code> — _GetBarberPoleInfo
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000025AA">
+            <code>000025AA</code> — _BarberPole
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000026A5">
+            <code>000026A5</code> — _FindLink
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000026C1">
+            <code>000026C1</code> — _DestroyUnusedIRQHolder
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000026E7">
+            <code>000026E7</code> — _MakeIRQHoldersPNP
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00002717">
+            <code>00002717</code> — _PCIBIOSGetIRQRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000027F3">
+            <code>000027F3</code> — _ValidateIRQInfoHeader
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00002872">
+            <code>00002872</code> — _ACPIGetOneRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00002E72">
+            <code>00002E72</code> — _ACPIAddPRT
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00002F52">
+            <code>00002F52</code> — _ACPIRemovePRT
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003012">
+            <code>00003012</code> — _ACPIGetIRQRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003056">
+            <code>00003056</code> — _BIOSGetIRQRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003110">
+            <code>00003110</code> — _RegGetIRQRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000321C">
+            <code>0000321C</code> — _GetIRQRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000330F">
+            <code>0000330F</code> — _ScanForMiniportData
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000336C">
+            <code>0000336C</code> — _GetIRQMiniportData
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000034C1">
+            <code>000034C1</code> — _UpdateStatusFlags
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000034F0">
+            <code>000034F0</code> — _CleanUpIRQRouting
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003557">
+            <code>00003557</code> — _IsStringInBIOS
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000358C">
+            <code>0000358C</code> — _CheckRoutingTableEntry
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003707">
+            <code>00003707</code> — _SanityCheckIRQRoutingTable
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000038BD">
+            <code>000038BD</code> — _InitIRQRouting
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003B96">
+            <code>00003B96</code> — _NewIRQHolder
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003D39">
+            <code>00003D39</code> — _ReadMiniportData
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003DDB">
+            <code>00003DDB</code> — _FindMiniport
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003E56">
+            <code>00003E56</code> — _LoadMiniport
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003EFC">
+            <code>00003EFC</code> — _FreeMiniport
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003F5B">
+            <code>00003F5B</code> — _FindArbRes
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003FBD">
+            <code>00003FBD</code> — _IsVideo
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00003FEE">
+            <code>00003FEE</code> — _IsCardBusCard
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004033">
+            <code>00004033</code> — _IsVGA
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004070">
+            <code>00004070</code> — _CheckCMDPrimaryIDE
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000040A8">
+            <code>000040A8</code> — _CheckCMDSecondaryIDE
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000040F2">
+            <code>000040F2</code> — _CheckMechanism1
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004174">
+            <code>00004174</code> — _DetectMechanismAndNumDev
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004337">
+            <code>00004337</code> — _FindPCI32Entry
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000043ED">
+            <code>000043ED</code> — _GetBIOSAttributes
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000043F9">
+            <code>000043F9</code> — _PCIPropChange
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000044EB">
+            <code>000044EB</code> — _PCISetupDevNode
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004810">
+            <code>00004810</code> — _WalkBus
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004A03">
+            <code>00004A03</code> — _GetSetConfigSpace
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004C79">
+            <code>00004C79</code> — _PCIEnumFuncHandler
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004E11">
+            <code>00004E11</code> — _ShouldKillLogConf
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004E8B">
+            <code>00004E8B</code> — _UseParentIRQ
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00004FA3">
+            <code>00004FA3</code> — _PCIFilterDevNode
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000511F">
+            <code>0000511F</code> — _RegisterPCIBusEnumerator
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005169">
+            <code>00005169</code> — _PCIPnPNewDevNode@8
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000521A">
+            <code>0000521A</code> — _InitPowerManagement
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005253">
+            <code>00005253</code> — _UpdateResourceRequirement
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000528F">
+            <code>0000528F</code> — _IncreaseBridgeRequirements
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000054B6">
+            <code>000054B6</code> — _GetMaxRequirement
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000551D">
+            <code>0000551D</code> — _AddNonPCIResourceRequirements
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000055D1">
+            <code>000055D1</code> — _DoMyNonPCIChildren
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="0000565A">
+            <code>0000565A</code> — _AdjustBridgeRequirements
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005A53">
+            <code>00005A53</code> — _BridgeTestCanStop
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005A85">
+            <code>00005A85</code> — _BridgeTestCanStopFailed
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005C58">
+            <code>00005C58</code> — _CallRealModePCIBIOS
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005D57">
+            <code>00005D57</code> — _BeginRecursiveVGA
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005EFD">
+            <code>00005EFD</code> — _BeginVGA
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="00005FB7">
+            <code>00005FB7</code> — _EndRecursiveVGA
+            
+          </li>
+        
+          <li data-segment="00003AB0" data-offset="000060CD">
+            <code>000060CD</code> — _EndVGA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: L0CKABLE_BEGIN @ 00007E40
+      </summary>
+      <ul>
+        
+          <li data-segment="00007E40" data-offset="00000000">
+            <code>00000000</code> — _BeginLockable
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000004">
+            <code>00000004</code> — _HandleAGP
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000002CA">
+            <code>000002CA</code> — _CheckOptionROM
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000002F5">
+            <code>000002F5</code> — _AddResource
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000413">
+            <code>00000413</code> — _AddIRQ
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000457">
+            <code>00000457</code> — _AddIO
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000004EE">
+            <code>000004EE</code> — _AddMem
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000056C">
+            <code>0000056C</code> — _DoIRQ
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000848">
+            <code>00000848</code> — _DoMems
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000008B2">
+            <code>000008B2</code> — _DoIOs
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000008F9">
+            <code>000008F9</code> — _DoROM
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000922">
+            <code>00000922</code> — _AddDisabledIDE
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000093E">
+            <code>0000093E</code> — _DoNativeIDE
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000009DB">
+            <code>000009DB</code> — _AddCompatibilityMem
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000A91">
+            <code>00000A91</code> — _AddCompatibilityIO
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000B58">
+            <code>00000B58</code> — _LoadResources
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000D6F">
+            <code>00000D6F</code> — _DoResources
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000DA9">
+            <code>00000DA9</code> — _SanityCheckBridgeEnabled
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000E23">
+            <code>00000E23</code> — _InitializeWindowRes
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00000F0B">
+            <code>00000F0B</code> — _HandleBridge
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000012E8">
+            <code>000012E8</code> — _HandlePCMCIA
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000131F">
+            <code>0000131F</code> — _HandleVideo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000013CD">
+            <code>000013CD</code> — _IsBrokenIntelOrion
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000141B">
+            <code>0000141B</code> — _HandleIDE
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000184E">
+            <code>0000184E</code> — _HandleDeviceNameChange
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001BB5">
+            <code>00001BB5</code> — _CreateDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001CD8">
+            <code>00001CD8</code> — _EnumerateOneDevice
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001E9B">
+            <code>00001E9B</code> — _ConfigureFDMA
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001EFE">
+            <code>00001EFE</code> — _ReprogramFDMA
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001F14">
+            <code>00001F14</code> — _InterceptDeviceChangeMsg
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001F64">
+            <code>00001F64</code> — _SaveGART
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001FAA">
+            <code>00001FAA</code> — _RestoreGART
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00001FC3">
+            <code>00001FC3</code> — _HandleInt1A@8
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002363">
+            <code>00002363</code> — _PCI_Int_1A
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000236E">
+            <code>0000236E</code> — _FindDeviceCallback
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000245C">
+            <code>0000245C</code> — _PCIWalk2
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000251A">
+            <code>0000251A</code> — _TriggerHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000025E2">
+            <code>000025E2</code> — _GetLinkIRQ
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002699">
+            <code>00002699</code> — _StartLink
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000026CC">
+            <code>000026CC</code> — _IRQLinkEnumHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002776">
+            <code>00002776</code> — _IRQLinkConfigHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002928">
+            <code>00002928</code> — _CreateIRQHolderDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000029D3">
+            <code>000029D3</code> — _CreateNormalIRQHolderDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002C8F">
+            <code>00002C8F</code> — _GetValidLinkInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002D2D">
+            <code>00002D2D</code> — _AllocateIRQ
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002DF1">
+            <code>00002DF1</code> — _AddIRQHolders
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002F7B">
+            <code>00002F7B</code> — _RecreateIRQHolders
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002F98">
+            <code>00002F98</code> — _GetHeaderType
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00002FF0">
+            <code>00002FF0</code> — _GetSubSystem
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003079">
+            <code>00003079</code> — _IsEnabled
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003173">
+            <code>00003173</code> — _IsThisADevice
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000318B">
+            <code>0000318B</code> — _GetDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000031DB">
+            <code>000031DB</code> — _SetDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000031F6">
+            <code>000031F6</code> — _GetBridgeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000327F">
+            <code>0000327F</code> — _SetBridgeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000032CC">
+            <code>000032CC</code> — _GetClassDescription
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000032F3">
+            <code>000032F3</code> — _IsTopBusDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003317">
+            <code>00003317</code> — _AddPositionalInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000339A">
+            <code>0000339A</code> — _GetName
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000034C5">
+            <code>000034C5</code> — _HasNewCapabilities
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003514">
+            <code>00003514</code> — _GetCapability
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000035C1">
+            <code>000035C1</code> — _LockDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003634">
+            <code>00003634</code> — _UnlockDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000367F">
+            <code>0000367F</code> — _IsIDE
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000036A6">
+            <code>000036A6</code> — _OpenPCIKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003707">
+            <code>00003707</code> — _ReadRegistryValue
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000379D">
+            <code>0000379D</code> — _WriteRegistryValue
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000381D">
+            <code>0000381D</code> — _ClosePCIKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003878">
+            <code>00003878</code> — _InitDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000390A">
+            <code>0000390A</code> — _LockMe
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003981">
+            <code>00003981</code> — _UnlockMe
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000039F0">
+            <code>000039F0</code> — _InDebugger
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003A1B">
+            <code>00003A1B</code> — _PCIOutput
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003A4D">
+            <code>00003A4D</code> — _PCIInput
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003AA2">
+            <code>00003AA2</code> — _PCICallBIOS
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003B33">
+            <code>00003B33</code> — _PCIASDCallBIOS
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003BB8">
+            <code>00003BB8</code> — _ReadConfig
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00003EFB">
+            <code>00003EFB</code> — _WriteConfig
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004252">
+            <code>00004252</code> — _PCIEXP_GetVersion
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004258">
+            <code>00004258</code> — _PCIEXP_GetHandleInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004299">
+            <code>00004299</code> — _PCIEXP_ReadConfig
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000042B1">
+            <code>000042B1</code> — _PCIEXP_WriteConfig
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000042CC">
+            <code>000042CC</code> — _PCIEXP_AllocatePages
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004382">
+            <code>00004382</code> — _PCIEXP_FreePages
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004393">
+            <code>00004393</code> — _PCIEXP_LinToPhys
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000043A1">
+            <code>000043A1</code> — _PCIEXP_SetPhysicalCacheTypeRange
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000043CD">
+            <code>000043CD</code> — _GetIRQCount
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000043EC">
+            <code>000043EC</code> — _SetIRQ
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004639">
+            <code>00004639</code> — _GetWindow
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000046AC">
+            <code>000046AC</code> — _SetWindow
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000471F">
+            <code>0000471F</code> — _EnableDevice
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004854">
+            <code>00004854</code> — _TekramOutDI
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000048B7">
+            <code>000048B7</code> — _TekramInDO
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000048FD">
+            <code>000048FD</code> — _CheckTekram
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004A1B">
+            <code>00004A1B</code> — _GetBABaseAndLength
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004B06">
+            <code>00004B06</code> — _GetROMBAR
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004B29">
+            <code>00004B29</code> — _GetROMSize
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004B9F">
+            <code>00004B9F</code> — _GetROMData
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004E5C">
+            <code>00004E5C</code> — _IsPositiveDecodeBridge
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00004EDF">
+            <code>00004EDF</code> — _IsGhost
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000502E">
+            <code>0000502E</code> — _LockIOS
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005096">
+            <code>00005096</code> — _ESDIGetAltStatusPort
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000050EC">
+            <code>000050EC</code> — _ESDIWaitNotBusy
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000511B">
+            <code>0000511B</code> — _ESDIWaitForDRQ
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000514A">
+            <code>0000514A</code> — _ESDIGetDriveId
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000051BB">
+            <code>000051BB</code> — _FindIDE
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005359">
+            <code>00005359</code> — _SanityCheckMechanism2
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005468">
+            <code>00005468</code> — _KillBridge
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005494">
+            <code>00005494</code> — _ReadConfigByte
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000054DA">
+            <code>000054DA</code> — _ReadConfigWord
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005520">
+            <code>00005520</code> — _ReadConfigDword
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005566">
+            <code>00005566</code> — _WriteConfigByte
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000055B1">
+            <code>000055B1</code> — _WriteConfigWord
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000055FC">
+            <code>000055FC</code> — _WriteConfigDword
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005645">
+            <code>00005645</code> — _FindDevice
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005881">
+            <code>00005881</code> — _OpRegionHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000059C1">
+            <code>000059C1</code> — _StopUHCDBIOS
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005ACA">
+            <code>00005ACA</code> — _StopOHCIBIOS
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005BDF">
+            <code>00005BDF</code> — _QuickDisableDevice
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005C68">
+            <code>00005C68</code> — _ValidateRoutingTableEntries
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005CE0">
+            <code>00005CE0</code> — _CheckForBadChipsets
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005D1F">
+            <code>00005D1F</code> — _CanSetWPEBit
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00005D4D">
+            <code>00005D4D</code> — _PCIStartDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000064CE">
+            <code>000064CE</code> — _DisableDevice
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000670A">
+            <code>0000670A</code> — _PCIStopDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00006787">
+            <code>00006787</code> — _GetMaxBus
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000067AB">
+            <code>000067AB</code> — _RecreateNonPCIChildren
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000687E">
+            <code>0000687E</code> — _EnumerateBus
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000068D1">
+            <code>000068D1</code> — _EnumerateRootBus
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00006950">
+            <code>00006950</code> — _PCIEnumHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00006E70">
+            <code>00006E70</code> — _PCIPowerHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00006ECF">
+            <code>00006ECF</code> — _ChangePowerState
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00006FB2">
+            <code>00006FB2</code> — _PutDeviceInD0
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00006FF3">
+            <code>00006FF3</code> — _AcknowledgePME
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000709C">
+            <code>0000709C</code> — _PCIArmDisarmWakeEnable
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007146">
+            <code>00007146</code> — _SetAPMCapabilities
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007210">
+            <code>00007210</code> — _WakeUpWalk
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007298">
+            <code>00007298</code> — _PCIAPMDevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000745C">
+            <code>0000745C</code> — _PCI_Get_Version
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007462">
+            <code>00007462</code> — _PCI_Read_Config
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000747A">
+            <code>0000747A</code> — _PCI_Write_Config
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007495">
+            <code>00007495</code> — _PCI_Lock_Unlock
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007500">
+            <code>00007500</code> — _KCODE__CONFIGMG_Get_Sibling
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007508">
+            <code>00007508</code> — _KCODE__CONFIGMG_Get_Child
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007510">
+            <code>00007510</code> — _KCODE__CONFIGMG_Get_Parent
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007518">
+            <code>00007518</code> — _KCODE__CONFIGMG_Free_Range_List
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007520">
+            <code>00007520</code> — _KCODE__CONFIGMG_Get_Next_Res_Des
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007528">
+            <code>00007528</code> — _KCODE__CONFIGMG_Delete_Range
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007530">
+            <code>00007530</code> — _KCODE__CONFIGMG_Get_First_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007538">
+            <code>00007538</code> — _KCODE__CONFIGMG_Dup_Range_List
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007540">
+            <code>00007540</code> — _KCODE__CONFIGMG_Add_Range
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007548">
+            <code>00007548</code> — _KCODE__CONFIGMG_Find_Range
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007550">
+            <code>00007550</code> — _KCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007564">
+            <code>00007564</code> — _KCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000756C">
+            <code>0000756C</code> — _KCODE__CONFIGMG_Get_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007574">
+            <code>00007574</code> — _KCODE__CONFIGMG_Set_Bus_Info
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000757C">
+            <code>0000757C</code> — _KCODE__CONFIGMG_Next_Range
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007584">
+            <code>00007584</code> — _KCODE__CONFIGMG_First_Range
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000758C">
+            <code>0000758C</code> — _KCODE__CONFIGMG_Invert_Range_List
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007594">
+            <code>00007594</code> — _KCODE__CONFIGMG_Create_Range_List
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000759C">
+            <code>0000759C</code> — _KCODE__CONFIGMG_Assert_Structure
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075A4">
+            <code>000075A4</code> — _KCODE__CONFIGMG_Debug_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075AC">
+            <code>000075AC</code> — _KCODE__CONFIGMG_Dump_Range_List
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075B4">
+            <code>000075B4</code> — _KCODE_VPICD_Phys_EOI@4
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075C4">
+            <code>000075C4</code> — _KCODE__CONFIGMG_Reenumerate_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075CC">
+            <code>000075CC</code> — _KCODE__CONFIGMG_Remove_SubTree
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075D4">
+            <code>000075D4</code> — _KCODE_VPICD_Force_Default_Behavior@4
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075E4">
+            <code>000075E4</code> — _KCODE_VPICD_Physically_Unmask@4
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000075F4">
+            <code>000075F4</code> — _KCODE_VPICD_Virtualize_IRQ@4
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007608">
+            <code>00007608</code> — _KCODE__CONFIGMG_Query_Arbitrator_Free_Data
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007610">
+            <code>00007610</code> — _KCODE__CONFIGMG_Disable_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007618">
+            <code>00007618</code> — _KCODE__CONFIGMG_Call_Enumerator_Function
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007620">
+            <code>00007620</code> — _KCODE__CONFIGMG_Get_Next_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007628">
+            <code>00007628</code> — _KCODE__CONFIGMG_Add_Res_Des
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007630">
+            <code>00007630</code> — _KCODE__CONFIGMG_Add_Empty_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007638">
+            <code>00007638</code> — _KCODE__CONFIGMG_Set_Dependent_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007640">
+            <code>00007640</code> — _KCODE__CONFIGMG_Get_Dependent_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007648">
+            <code>00007648</code> — _KCODE__CONFIGMG_Register_Arbitrator
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007650">
+            <code>00007650</code> — _KCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007658">
+            <code>00007658</code> — _KCODE__CONFIGMG_Get_Depth
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007660">
+            <code>00007660</code> — _KCODE__CONFIGMG_Read_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007668">
+            <code>00007668</code> — _KCODE__CONFIGMG_Write_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007670">
+            <code>00007670</code> — _KCODE__CONFIGMG_Change_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007678">
+            <code>00007678</code> — _KCODE__RegEnumKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007680">
+            <code>00007680</code> — _KCODE__RegQueryInfoKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007688">
+            <code>00007688</code> — _KCODE__RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007690">
+            <code>00007690</code> — _KCODE__RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007698">
+            <code>00007698</code> — _KCODE__Sprintf
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076A0">
+            <code>000076A0</code> — _KCODE__RegCreateKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076A8">
+            <code>000076A8</code> — _KCODE__CONFIGMG_Create_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076B0">
+            <code>000076B0</code> — _KCODE__SHELL_HookSystemBroadcast
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076B8">
+            <code>000076B8</code> — _KCODE__CONFIGMG_Locate_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076C0">
+            <code>000076C0</code> — _KCODE__SHELL_UnhookSystemBroadcast
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076C8">
+            <code>000076C8</code> — _KCODE__FlushCaches
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076D0">
+            <code>000076D0</code> — _KCODE__RegisterGARTHandler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076D8">
+            <code>000076D8</code> — _KCODE__Allocate_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076E0">
+            <code>000076E0</code> — _KCODE__Free_Temp_V86_Data_Area
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076E8">
+            <code>000076E8</code> — _KCODE__lmemcpy
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076F0">
+            <code>000076F0</code> — _KCODE__AttemptingSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000076F8">
+            <code>000076F8</code> — _KCODE__RegFlushKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007700">
+            <code>00007700</code> — _KCODE__MapPhysToLinear
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007708">
+            <code>00007708</code> — _KCODE__PELDR_AddExportTable
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007710">
+            <code>00007710</code> — _KCODE__PELDR_RemoveExportTable
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007718">
+            <code>00007718</code> — _KCODE__CONFIGMG_Enable_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007720">
+            <code>00007720</code> — _KCODE__CONFIGMG_Set_Device_Driver_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007728">
+            <code>00007728</code> — _KCODE__CONFIGMG_Get_Device_Driver_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007730">
+            <code>00007730</code> — _KCODE__CONFIGMG_Discard_Boot_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007738">
+            <code>00007738</code> — _KCODE__CONFIGMG_Set_DevNode_PowerState
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007740">
+            <code>00007740</code> — _KCODE__LinRegionLock
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007748">
+            <code>00007748</code> — _KCODE__LinRegionUnLock
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007750">
+            <code>00007750</code> — _KCODE__CONFIGMG_Set_DevNode_Problem
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007758">
+            <code>00007758</code> — _KCODE__HeapReAllocate
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007760">
+            <code>00007760</code> — _KCODE__ACPI_GetNameSpaceObject
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007768">
+            <code>00007768</code> — _KCODE__ACPI_EvalPkgDataElement
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007770">
+            <code>00007770</code> — _KCODE__ACPI_FreeDataBuffs
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007778">
+            <code>00007778</code> — _KCODE__ACPI_RunControlMethod
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007780">
+            <code>00007780</code> — _KCODE__ACPI_GetObject
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007788">
+            <code>00007788</code> — _KCODE__ACPI_DevNodeToNameSpace
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007790">
+            <code>00007790</code> — _KCODE__RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007798">
+            <code>00007798</code> — _KCODE__CONFIGMG_Register_DevLoader
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077A0">
+            <code>000077A0</code> — _KCODE__VPICD_Register_Trigger_Handler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077A8">
+            <code>000077A8</code> — _KCODE__CONFIGMG_Register_Device_Driver
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077B0">
+            <code>000077B0</code> — _KCODE__CONFIGMG_Register_Enumerator
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077B8">
+            <code>000077B8</code> — _KCODE__VPOWERD_Disable_Hibernate
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077C0">
+            <code>000077C0</code> — _KCODE__CONFIGMG_Set_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077C8">
+            <code>000077C8</code> — _KCODE__CONFIGMG_Get_Bus_Info
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077D0">
+            <code>000077D0</code> — _KCODE__CONFIGMG_Add_Remove_DevNode_Property
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077D8">
+            <code>000077D8</code> — _KCODE__PELDR_FreeModule
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077E0">
+            <code>000077E0</code> — _KCODE__PELDR_GetProcAddress
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077E8">
+            <code>000077E8</code> — _KCODE__PELDR_LoadModule
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077F0">
+            <code>000077F0</code> — _KCODE__CONFIGMG_Get_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000077F8">
+            <code>000077F8</code> — _KCODE__CONFIGMG_Set_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007800">
+            <code>00007800</code> — _KCODE__GetRegistryKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007808">
+            <code>00007808</code> — _KCODE__CONFIGMG_Get_Global_State
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007810">
+            <code>00007810</code> — _KCODE__RegSetValueEx
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007818">
+            <code>00007818</code> — _KCODE__PageModifyPermissions
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007820">
+            <code>00007820</code> — _KCODE__PageAllocate
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007828">
+            <code>00007828</code> — _KCODE__PageFree
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007830">
+            <code>00007830</code> — _KCODE_MTRRSetPhysicalCacheTypeRange@12
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007848">
+            <code>00007848</code> — _KCODE__VPICD_Clear_IR_Bits
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007850">
+            <code>00007850</code> — _KCODE__CONFIGMG_Yield
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007858">
+            <code>00007858</code> — _KCODE__LinPageLock
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007860">
+            <code>00007860</code> — _KCODE__PageCommitPhys
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007868">
+            <code>00007868</code> — _KCODE__PageReserve
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007870">
+            <code>00007870</code> — _KCODE__ACPI_WalkNameSpace
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007878">
+            <code>00007878</code> — _KCODE_VTD_Get_Real_Time
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007880">
+            <code>00007880</code> — _KCODE__VTD_Delay_Ex
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007888">
+            <code>00007888</code> — _KCODE__CONFIGMG_Get_Res_Des_Data_Size
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007890">
+            <code>00007890</code> — _KCODE__CONFIGMG_Add_ID
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007898">
+            <code>00007898</code> — _KCODE__CONFIGMG_Free_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078A0">
+            <code>000078A0</code> — _KCODE__CONFIGMG_Get_Device_ID
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078A8">
+            <code>000078A8</code> — _KCODE__CONFIGMG_Remove_Unmarked_Children
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078B0">
+            <code>000078B0</code> — _KCODE__CONFIGMG_Reset_Children_Marks
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078B8">
+            <code>000078B8</code> — _KCODE__CONFIGMG_System_Device_Power_State_Mapping
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078C0">
+            <code>000078C0</code> — _KCODE_Hook_V86_Int_Chain@8
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078DC">
+            <code>000078DC</code> — _KCODE_Unhook_V86_Int_Chain@8
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000078F8">
+            <code>000078F8</code> — _KCODE__CONFIGMG_Register_Enumerator_Function
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007900">
+            <code>00007900</code> — _KCODE__VPOWERD_Get_Global_Flags
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007908">
+            <code>00007908</code> — _KCODE__CONFIGMG_Get_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007910">
+            <code>00007910</code> — _KCODE__CONFIGMG_Waking_Up_From_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007918">
+            <code>00007918</code> — _KCODE__VPOWERD_Register_Power_Handler
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007920">
+            <code>00007920</code> — _KCODE__CONFIGMG_Modify_Res_Des
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007928">
+            <code>00007928</code> — _KCODE__CONFIGMG_Refilter_DevNode
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007930">
+            <code>00007930</code> — _KCODE__RegEnumValue
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007938">
+            <code>00007938</code> — _KCODE__RegDeleteKey
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007940">
+            <code>00007940</code> — _KCODE__CONFIGMG_Lock
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00007948">
+            <code>00007948</code> — _KCODE__CONFIGMG_Unlock
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000083FC">
+            <code>000083FC</code> — _pGARTRefData
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00008400">
+            <code>00008400</code> — _pGARTDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000087FC">
+            <code>000087FC</code> — _pGlobalIRQInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00008800">
+            <code>00008800</code> — _IRQMP
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00008814">
+            <code>00008814</code> — _fACPISteering
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="00008818">
+            <code>00008818</code> — _pGlobalLinkInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091A4">
+            <code>000091A4</code> — _dwPCIOptions
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091A8">
+            <code>000091A8</code> — _fCantUseBIOS
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091AC">
+            <code>000091AC</code> — _fUseMechanism1
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091B0">
+            <code>000091B0</code> — _fUseDWORDOnly
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091B4">
+            <code>000091B4</code> — _PCI32Entry
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091B8">
+            <code>000091B8</code> — _dwLockCount
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091BC">
+            <code>000091BC</code> — _fResumeFromOSHibernate
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091F0">
+            <code>000091F0</code> — _fLockMe
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="000091F4">
+            <code>000091F4</code> — _pfnPCIHookFunc
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000A374">
+            <code>0000A374</code> — _dnPCIRoot
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000A378">
+            <code>0000A378</code> — _dwBIOSAttributes
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000A37C">
+            <code>0000A37C</code> — _pISABusDevNodeInfo
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000A380">
+            <code>0000A380</code> — _bMaxBus
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000A384">
+            <code>0000A384</code> — _bMaxFoundBus
+            
+          </li>
+        
+          <li data-segment="00007E40" data-offset="0000AB58">
+            <code>0000AB58</code> — _EndLockable
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PDATA @ 00007F90
+      </summary>
+      <ul>
+        
+          <li data-segment="00007F90" data-offset="00000018">
+            <code>00000018</code> — _lpszReturnCRName
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="000000E8">
+            <code>000000E8</code> — _lpszArbFuncName
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00000BE0">
+            <code>00000BE0</code> — _fGARTInitialized
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00000BE4">
+            <code>00000BE4</code> — _ulGARTCapabilities
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00000CD8">
+            <code>00000CD8</code> — _ghHandler
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00000FDC">
+            <code>00000FDC</code> — _hlPCIExportList
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00001378">
+            <code>00001378</code> — _wBestIRQs
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="0000137C">
+            <code>0000137C</code> — _dwGlobalIRQInfoCount
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00001430">
+            <code>00001430</code> — _aepIRQ
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="000020F4">
+            <code>000020F4</code> — _hkPCI
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="000020FC">
+            <code>000020FC</code> — _bNumDev
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00002100">
+            <code>00002100</code> — _pROMInfoListHead
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="000021F0">
+            <code>000021F0</code> — _dwPCIRootDepth
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00002688">
+            <code>00002688</code> — _lpszResourceName
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00002FBC">
+            <code>00002FBC</code> — _fBegin
+            
+          </li>
+        
+          <li data-segment="00007F90" data-offset="00002FC0">
+            <code>00002FC0</code> — _dnOldVGADevNode
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _IDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000018">
+            <code>00000018</code> — _szPebbles
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000A0">
+            <code>000000A0</code> — _GetOptionROMInfo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001A1">
+            <code>000001A1</code> — _PCIInit@0
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000240">
+            <code>00000240</code> — _ICODE__ACPI_RegisterOpRegionCookedHandler
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

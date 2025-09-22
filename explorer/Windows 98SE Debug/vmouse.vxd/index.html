@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VMOUSE — Windows 98SE Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../busmouse.asm</li>
+      
+        <li>../cursor.asm</li>
+      
+        <li>../inport.asm</li>
+      
+        <li>../ps2.asm</li>
+      
+        <li>../search.asm</li>
+      
+        <li>../serial.asm</li>
+      
+        <li>../vmd.asm</li>
+      
+        <li>../vmdcursr.asm</li>
+      
+        <li>../vmddebug.asm</li>
+      
+        <li>../vmdini.asm</li>
+      
+        <li>../vmdint33.asm</li>
+      
+        <li>../vmdmessg.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00001380
+      </summary>
+      <ul>
+        
+          <li data-segment="00001380" data-offset="00000000">
+            <code>00000000</code> — VMD_Control
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000070">
+            <code>00000070</code> — VMDDEBUG_Debug_Query
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000001EC">
+            <code>000001EC</code> — VMDDEBUG_Dump_VM_Info
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000002F0">
+            <code>000002F0</code> — VMD_Slave_Mask_Change_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000304">
+            <code>00000304</code> — VMD_Mask_Change_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000324">
+            <code>00000324</code> — MakeQueueReady
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="0000033C">
+            <code>0000033C</code> — VMD_Post_Absolute_Pointer_Message
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="0000039C">
+            <code>0000039C</code> — VMD_Post_Pointer_Message
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="0000042C">
+            <code>0000042C</code> — BUSMOUSE_Hw_Int_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000004C0">
+            <code>000004C0</code> — VAD_PM_Int_15_Emulation
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000004E4">
+            <code>000004E4</code> — VAD_Int_15_Emulation
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000005F8">
+            <code>000005F8</code> — VAD_INT
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000867">
+            <code>00000867</code> — VKD_Send_Data
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000008C4">
+            <code>000008C4</code> — INPORT_Hw_Int_Proc_Secondary_Base
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000008CC">
+            <code>000008CC</code> — INPORT_Hw_Int_Proc_Primary_Base
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000008D2">
+            <code>000008D2</code> — INPORT_Hw_Int_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000934">
+            <code>00000934</code> — Serial_Hw_Int_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000A5C">
+            <code>00000A5C</code> — My_Install_Mult_IO_Handlers
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000AD0">
+            <code>00000AD0</code> — VKD_Send_Cmd
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B00">
+            <code>00000B00</code> — _VMD_Get_Version
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B04">
+            <code>00000B04</code> — _VMD_Set_Mouse_Type
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B08">
+            <code>00000B08</code> — _VMD_Get_Mouse_Owner
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B0C">
+            <code>00000B0C</code> — _VMD_Post_Pointer_Message
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B10">
+            <code>00000B10</code> — _VMD_Set_Cursor_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B14">
+            <code>00000B14</code> — _VMD_Call_Cursor_Proc
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B18">
+            <code>00000B18</code> — _VMD_Set_Mouse_Data
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B1C">
+            <code>00000B1C</code> — _VMD_Get_Mouse_Data
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B20">
+            <code>00000B20</code> — _VMD_Manipulate_Pointer_Message
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B24">
+            <code>00000B24</code> — _VMD_Set_Middle_Button
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B28">
+            <code>00000B28</code> — _VMD_Enable_Disable_Mouse_Events
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B2C">
+            <code>00000B2C</code> — _VMD_Post_Absolute_Pointer_Message
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B30">
+            <code>00000B30</code> — VMOUSE_DDB
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B80">
+            <code>00000B80</code> — VMD_CB_Offset
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B84">
+            <code>00000B84</code> — VMD_Owner
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B88">
+            <code>00000B88</code> — VMD_Mouse_Type
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B89">
+            <code>00000B89</code> — VMD_Mouse_IRQ
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B8A">
+            <code>00000B8A</code> — VMD_Button_Count
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B8B">
+            <code>00000B8B</code> — VMD_PortNumber
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B8C">
+            <code>00000B8C</code> — NewShell
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B8D">
+            <code>00000B8D</code> — VMD_Wheel_Present
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00000B8E">
+            <code>00000B8E</code> — VKD_IRQ_Handle
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010BC">
+            <code>000010BC</code> — VMDMESSG_EasyBall_Ports
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010BE">
+            <code>000010BE</code> — VMDMESSG_EasyBall_Active
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010D0">
+            <code>000010D0</code> — VKD_VerOK
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010D8">
+            <code>000010D8</code> — VAD_Next_I15_CS
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010DC">
+            <code>000010DC</code> — VAD_Next_I15_EIP
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010E0">
+            <code>000010E0</code> — VAD_IRQ_Handle
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010E4">
+            <code>000010E4</code> — VAD_Ballpoint_ID
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010E6">
+            <code>000010E6</code> — VAD_Z_Mode
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010E8">
+            <code>000010E8</code> — VAD_BytesInPacket
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010EA">
+            <code>000010EA</code> — VAD_Reset_Pending
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010EC">
+            <code>000010EC</code> — V_710_Status
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010ED">
+            <code>000010ED</code> — VAD_Exists
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010EE">
+            <code>000010EE</code> — VADHotPlug
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010F4">
+            <code>000010F4</code> — VAD_CB_Offset
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010F9">
+            <code>000010F9</code> — VAD_Initialized
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010FA">
+            <code>000010FA</code> — VAD_Internal_Int_15
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010FB">
+            <code>000010FB</code> — VAD_Exiting
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010FC">
+            <code>000010FC</code> — VAD_exit_init
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010FD">
+            <code>000010FD</code> — VAD_Packet_Count
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000010FE">
+            <code>000010FE</code> — VAD_Data
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00001102">
+            <code>00001102</code> — VK_D_QFlag
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011AC">
+            <code>000011AC</code> — Vid_I10_OldVector
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011B0">
+            <code>000011B0</code> — Vid_Stub_I10_Vector
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011B4">
+            <code>000011B4</code> — INPORT_Chip_Version
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011B8">
+            <code>000011B8</code> — ZoomMouse_Ports
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011F4">
+            <code>000011F4</code> — Real_IMIH
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011F8">
+            <code>000011F8</code> — Handler_3c4
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="000011FC">
+            <code>000011FC</code> — Handler_3c5
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00001200">
+            <code>00001200</code> — Handler_3ce
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00001204">
+            <code>00001204</code> — Handler_3cf
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="00001208">
+            <code>00001208</code> — Handler_6845
+            
+          </li>
+        
+          <li data-segment="00001380" data-offset="0000120C">
+            <code>0000120C</code> — Addr_6845
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _IGROUP @ 000019D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000019D0" data-offset="00000000">
+            <code>00000000</code> — VMD_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="0000006A">
+            <code>0000006A</code> — My_Virtualize_IRQ
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="00000098">
+            <code>00000098</code> — My_Hook_V86_Int_Chain
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="000000D8">
+            <code>000000D8</code> — VMD_Int_11h_Emulation
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="000000F4">
+            <code>000000F4</code> — VMD_Device_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="000001B3">
+            <code>000001B3</code> — VMD_Init_Complete
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="000001C8">
+            <code>000001C8</code> — VMDINT33_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="0000026C">
+            <code>0000026C</code> — VMDINI_Device_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="000003F2">
+            <code>000003F2</code> — VMDINI_Post_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="0000047B">
+            <code>0000047B</code> — VMDCURSR_Device_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="0000052C">
+            <code>0000052C</code> — Cursor_Device_Init
+            
+          </li>
+        
+          <li data-segment="000019D0" data-offset="0000070C">
+            <code>0000070C</code> — VAD_exit_init_Ini
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PTEXT @ 000073C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000073C0" data-offset="00000000">
+            <code>00000000</code> — VMD_Set_Device_Focus
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000006F">
+            <code>0000006F</code> — VMD_Set_Device_Focus_Event
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000000BD">
+            <code>000000BD</code> — VMD_Destroy_VM
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000000E3">
+            <code>000000E3</code> — _VMOUSE_System_Broadcast_Hook
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000134">
+            <code>00000134</code> — VMD_Get_Version
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000149">
+            <code>00000149</code> — VMD_Set_Mouse_Type
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000166">
+            <code>00000166</code> — VMD_Get_Mouse_Owner
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000178">
+            <code>00000178</code> — VMDINT33_Sys_Critical_Exit
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000018C">
+            <code>0000018C</code> — VMDINT33_Int_33h
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000001C1">
+            <code>000001C1</code> — VMDINT33_Service_Not_Implemented
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000001D5">
+            <code>000001D5</code> — MouseIRQReset
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000210">
+            <code>00000210</code> — VMDINT33_Mouse_Reset_And_Status
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000023C">
+            <code>0000023C</code> — VMDINT33_Show_Cursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000270">
+            <code>00000270</code> — VMDINT33_Hide_Cursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000295">
+            <code>00000295</code> — VMDINT33_Get_Mouse_Position_Status
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000002B4">
+            <code>000002B4</code> — VMDINT33_Set_Mouse_Position
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000002EE">
+            <code>000002EE</code> — VMDINT33_Get_Button_Press_Information
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000334">
+            <code>00000334</code> — VMDINT33_Get_Button_Release_Information
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000037B">
+            <code>0000037B</code> — VMDINT33_Set_Horizontal_Cursor_Range
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000003A2">
+            <code>000003A2</code> — VMDINT33_Set_Vertical_Cursor_Range
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000003C9">
+            <code>000003C9</code> — VMDINT33_Read_Motion_Counters
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000003E2">
+            <code>000003E2</code> — VMDINT33_Set_Interrupt_Subroutine
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000041A">
+            <code>0000041A</code> — VMDINT33_Enable_Lightpen_Emulation
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000426">
+            <code>00000426</code> — VMDINT33_Disable_Lightpen_Emulation
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000432">
+            <code>00000432</code> — VMDINT33_Set_Mickey_Pixel_Ratio
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000454">
+            <code>00000454</code> — VMDINT33_Set_Conditional_Off
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000048A">
+            <code>0000048A</code> — VMDINT33_Set_DoubleSpeed_Threshold
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000493">
+            <code>00000493</code> — VMDINT33_Swap_Interrupt_Subroutines
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000004C0">
+            <code>000004C0</code> — VMDINT33_Get_Driver_Storage_Requirements
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000004DC">
+            <code>000004DC</code> — VMDINT33_Save_Driver_State
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000502">
+            <code>00000502</code> — VMDINT33_Restore_Driver_State
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000052A">
+            <code>0000052A</code> — VMDINT33_Set_Alternate_User_Handler
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000560">
+            <code>00000560</code> — VMDINT33_Get_Alternate_User_Handler
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000059D">
+            <code>0000059D</code> — VMDINT33_Set_Mouse_Sensitivity
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000005E7">
+            <code>000005E7</code> — VMDINT33_Get_Mouse_Sensitivity
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000606">
+            <code>00000606</code> — VMDINT33_Set_Mouse_Interrupt_Rate
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000060F">
+            <code>0000060F</code> — VMDINT33_Set_CRT_Page_Number
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000062A">
+            <code>0000062A</code> — VMDINT33_Get_CRT_Page_Number
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000063F">
+            <code>0000063F</code> — VMDINT33_Disable_Mouse_Driver
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000065E">
+            <code>0000065E</code> — VMDINT33_Enable_Mouse_Driver
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000678">
+            <code>00000678</code> — VMDINT33_Software_Reset
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000699">
+            <code>00000699</code> — VMDINT33_Set_Language_Number
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000006AE">
+            <code>000006AE</code> — VMDINT33_Get_Language_Number
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000006BF">
+            <code>000006BF</code> — VMDINT33_Get_Driver_Information
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000006E5">
+            <code>000006E5</code> — VMDINT33_Get_Mouse_Information
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000718">
+            <code>00000718</code> — VMDINT33_Get_Maximum_Virtual_Coordinates
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000739">
+            <code>00000739</code> — VMDINT33_Get_Text_Masks_And_Raw_Mickeys
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000763">
+            <code>00000763</code> — VMDINT33_Set_Video_Mode
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000007BE">
+            <code>000007BE</code> — VMDINT33_Enumerate_Video_Modes
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000007F9">
+            <code>000007F9</code> — VMDINT33_Get_Cursor_Hot_Spot
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000823">
+            <code>00000823</code> — VMDINT33_Bound_Virtual_Screen
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000866">
+            <code>00000866</code> — VMDINT33_Granularize_Virtual_Coordinate
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000008B3">
+            <code>000008B3</code> — VMDINT33_Find_Alternate_User_Handler
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000008F4">
+            <code>000008F4</code> — VMDINT33_Compute_Sensitivity_Factor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000091E">
+            <code>0000091E</code> — VMDINT33_VM_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000954">
+            <code>00000954</code> — VMD_Reset_Control_Block
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000A0E">
+            <code>00000A0E</code> — VMD_Set_Mouse_Data
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000A46">
+            <code>00000A46</code> — VMD_API_Proc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000B70">
+            <code>00000B70</code> — VMD_Update_Mouse_State_API
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000C18">
+            <code>00000C18</code> — VMD_UMSA_Event
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000C42">
+            <code>00000C42</code> — VMD_Manipulate_Pointer_Message
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000C4C">
+            <code>00000C4C</code> — VMDMESSG_Post_Pointer_Message_Event
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000DC6">
+            <code>00000DC6</code> — VMD_Convert_Absolute_To_Pixels
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000E33">
+            <code>00000E33</code> — VMD_Convert_Abs_Pixels_Mickeys
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000E60">
+            <code>00000E60</code> — VMD_Absolute_Mouse_Message
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000F98">
+            <code>00000F98</code> — VMD_Set_Middle_Button
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000FA1">
+            <code>00000FA1</code> — VMD_Enable_Disable_Mouse_Events
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000FC8">
+            <code>00000FC8</code> — VMDMESSG_Set_Button_Status
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00000FFC">
+            <code>00000FFC</code> — VMDMESSG_Test_Button_Status_Change
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001070">
+            <code>00001070</code> — VMDMESSG_Scale_Counts
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000010CC">
+            <code>000010CC</code> — VMD_Convert_Mickeys_Pixels
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001118">
+            <code>00001118</code> — VMD_Convert_Pixels_Mickeys
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001150">
+            <code>00001150</code> — VMDMESSG_Call_User_Callback
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000011C8">
+            <code>000011C8</code> — VMDMESSG_Call_USER_Mouse_Event
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000126D">
+            <code>0000126D</code> — VMDMESSG_Reset_Message_State
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001289">
+            <code>00001289</code> — VMD_Get_Mouse_Data
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000012B0">
+            <code>000012B0</code> — PS2_Create_VM
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000012D5">
+            <code>000012D5</code> — PS2_System_Exit
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000013B7">
+            <code>000013B7</code> — VAD_Do_Reset
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001408">
+            <code>00001408</code> — VAD_BIOS_Far_Call
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000014C8">
+            <code>000014C8</code> — VMDINI_VM_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000014FB">
+            <code>000014FB</code> — ParseMouseType
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000158C">
+            <code>0000158C</code> — VMDCURSR_System_Exit
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000015B1">
+            <code>000015B1</code> — VideoOldSetTextCursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000160F">
+            <code>0000160F</code> — VideoOldSetGraphicsCursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001688">
+            <code>00001688</code> — VMD_Set_Cursor_Proc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000016F3">
+            <code>000016F3</code> — VMD_Call_Cursor_Proc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001729">
+            <code>00001729</code> — VMDCURSR_Int_10h
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000179C">
+            <code>0000179C</code> — VMD_Int_10_Mode_Switch
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000017BC">
+            <code>000017BC</code> — VMD_Int_10_Mode_Change_Start
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000017D6">
+            <code>000017D6</code> — VMD_Int_10_Mode_Sw_Done
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001861">
+            <code>00001861</code> — CheckInt10Notifications
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000186B">
+            <code>0000186B</code> — ConfigureVideoSupport
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000193C">
+            <code>0000193C</code> — UpdateDMI
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001976">
+            <code>00001976</code> — SetDefaultPointer
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000019AF">
+            <code>000019AF</code> — VMDCURSR_SetTextCur
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000019E9">
+            <code>000019E9</code> — VMDCURSR_SetGraphicsCur
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001A35">
+            <code>00001A35</code> — VerifyGraphicsCursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001AA0">
+            <code>00001AA0</code> — Call10
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001AEC">
+            <code>00001AEC</code> — VerifyTextCursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001AF6">
+            <code>00001AF6</code> — PerformLCDText
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001AFF">
+            <code>00001AFF</code> — PerformLCDGraphics
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001B08">
+            <code>00001B08</code> — RemoveCursorTrail
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001B11">
+            <code>00001B11</code> — SetTrailLength
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001B1C">
+            <code>00001B1C</code> — CursorProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001B4A">
+            <code>00001B4A</code> — QueryDisplayModeProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001B5E">
+            <code>00001B5E</code> — SetConditionalReg
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001B95">
+            <code>00001B95</code> — SetDisplayModeProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001BC7">
+            <code>00001BC7</code> — SDM_Special
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001BF1">
+            <code>00001BF1</code> — SetCurrentdmi
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001D10">
+            <code>00001D10</code> — scd_graphics
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001E05">
+            <code>00001E05</code> — scd_skip10
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001F6B">
+            <code>00001F6B</code> — GetDisplayModeInfoProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00001FAD">
+            <code>00001FAD</code> — SetTextCur
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002002">
+            <code>00002002</code> — SetGraphicsCur
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002044">
+            <code>00002044</code> — CheckInverse
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002084">
+            <code>00002084</code> — MoveMask
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000020CA">
+            <code>000020CA</code> — RemoveCur
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002111">
+            <code>00002111</code> — draw_graphics
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000218F">
+            <code>0000218F</code> — Erase_GraphicsCursor
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000021BA">
+            <code>000021BA</code> — EraseOldPointer
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000021F4">
+            <code>000021F4</code> — CopyScreenToScrSave
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002238">
+            <code>00002238</code> — CopyScreenToScrSave1
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000231C">
+            <code>0000231C</code> — CopyPtrSaveToScreen
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002368">
+            <code>00002368</code> — CopyPtrSaveToScreen1
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000023A0">
+            <code>000023A0</code> — CopyPtrSaveToScrSave
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000023EC">
+            <code>000023EC</code> — CopyPtrSaveToScrSave1
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002430">
+            <code>00002430</code> — CopyScrSaveToScreen
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000247C">
+            <code>0000247C</code> — CopyScrSaveToScreen1
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000024B8">
+            <code>000024B8</code> — CopyScrSaveToPtrSave
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002504">
+            <code>00002504</code> — CopyScrSaveToPtrSave1
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002550">
+            <code>00002550</code> — GetScrBuffOffset
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000025E0">
+            <code>000025E0</code> — GetScreenOffset
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002614">
+            <code>00002614</code> — PutNormal
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002634">
+            <code>00002634</code> — PutEGA
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000026F8">
+            <code>000026F8</code> — PutVga
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000272B">
+            <code>0000272B</code> — PutPointerInScrSave
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002778">
+            <code>00002778</code> — PutPointerInScrSave1
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000027B4">
+            <code>000027B4</code> — GetOffsetIntoScrSave
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002800">
+            <code>00002800</code> — CopyBufferToScreen
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000028D5">
+            <code>000028D5</code> — SetState
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002968">
+            <code>00002968</code> — RestoreState
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000029F1">
+            <code>000029F1</code> — RotateMasks
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002A43">
+            <code>00002A43</code> — rotLeft
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002A70">
+            <code>00002A70</code> — rotRight
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002A97">
+            <code>00002A97</code> — MoveCur
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002C4A">
+            <code>00002C4A</code> — BuildDrawData
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002CC9">
+            <code>00002CC9</code> — ResetCurDriver
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002E72">
+            <code>00002E72</code> — SaveRestoreStateProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002E92">
+            <code>00002E92</code> — SetDisplayPageProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002EB1">
+            <code>00002EB1</code> — GetTextAddress
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002EC3">
+            <code>00002EC3</code> — QueryMemoryProc
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002ED7">
+            <code>00002ED7</code> — SetCurTrail
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00002EEC">
+            <code>00002EEC</code> — Serial_Device_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003037">
+            <code>00003037</code> — Inform_VCD_About_Mouse
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000030BD">
+            <code>000030BD</code> — Install_Mouse_Handler
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003183">
+            <code>00003183</code> — SearchForSerialMouse
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000031A9">
+            <code>000031A9</code> — SERMOUSE_Test_IO_Base
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000325F">
+            <code>0000325F</code> — Serial_TestLoop
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003495">
+            <code>00003495</code> — Serial_Reset_Hardware
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000034C7">
+            <code>000034C7</code> — Serial_Disable
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003508">
+            <code>00003508</code> — INPORT_Device_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000035B9">
+            <code>000035B9</code> — INPORT_Hardware_Detect
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003658">
+            <code>00003658</code> — INPORT_Hardware_Detect_Base_Address
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000368C">
+            <code>0000368C</code> — INPORT_Hardware_Detect_IRQ_Number
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000036FC">
+            <code>000036FC</code> — INPORT_Reset_Hardware
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003718">
+            <code>00003718</code> — Inport_Disable
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003729">
+            <code>00003729</code> — Release_IRQ
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003741">
+            <code>00003741</code> — BUSMOUSE_Device_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000037E8">
+            <code>000037E8</code> — BUSMOUSE_Hardware_Detect
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003857">
+            <code>00003857</code> — BUSMOUSE_Disable
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000386D">
+            <code>0000386D</code> — PS2_Device_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003DA0">
+            <code>00003DA0</code> — PS2_Reset
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003DE0">
+            <code>00003DE0</code> — PS2_Disable
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003E85">
+            <code>00003E85</code> — VMD_Enable_Keyboard
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003ED0">
+            <code>00003ED0</code> — VMD_Disable_Keyboard
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003F29">
+            <code>00003F29</code> — VMD_Hardware_Init
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="00003FFD">
+            <code>00003FFD</code> — VMD_New_DevNode
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="0000414A">
+            <code>0000414A</code> — VMD_NextInstance
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000041AC">
+            <code>000041AC</code> — GetEntryFromReg
+            
+          </li>
+        
+          <li data-segment="000073C0" data-offset="000041DE">
+            <code>000041DE</code> — _VMD_PnP_Driver
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PDATA @ 00007540
+      </summary>
+      <ul>
+        
+          <li data-segment="00007540" data-offset="00000000">
+            <code>00000000</code> — BallPoint_ID
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000002">
+            <code>00000002</code> — GlobalFlags
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000050">
+            <code>00000050</code> — VMDINT33_Profile_Count
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000054">
+            <code>00000054</code> — VMDINT33_Profile_Table
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="000000FD">
+            <code>000000FD</code> — MouseButtons
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000214">
+            <code>00000214</code> — Int33_Standard_TextCursor
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000224">
+            <code>00000224</code> — Int33_Standard_GraphicsCursor
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000276">
+            <code>00000276</code> — VMD_Primary_Button_Mask
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000277">
+            <code>00000277</code> — VMD_Secondary_Button_Mask
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000278">
+            <code>00000278</code> — SearchMouseType
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="000002EA">
+            <code>000002EA</code> — pVideoModeTable
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="000002EE">
+            <code>000002EE</code> — NumSupportedModes
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="00000440">
+            <code>00000440</code> — VMD_InstanceList
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="0000047D">
+            <code>0000047D</code> — VMD_Mouse_Port
+            
+          </li>
+        
+          <li data-segment="00007540" data-offset="000004C5">
+            <code>000004C5</code> — InternalCalls
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _DBOGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — VMD_Real_Init
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

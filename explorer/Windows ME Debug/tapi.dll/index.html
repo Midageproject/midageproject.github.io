@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>TAPI — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>crt0fp.asm</li>
+      
+        <li>dos/crt0dat.asm</li>
+      
+        <li>dos/crt0msg.asm</li>
+      
+        <li>dos/nmsghdr.asm</li>
+      
+        <li>dos/stdalloc.asm</li>
+      
+        <li>dos/stdenvp.asm</li>
+      
+        <li>fdata.asm</li>
+      
+        <li>fmalloc.asm</li>
+      
+        <li>freelist.asm</li>
+      
+        <li>growseg.asm</li>
+      
+        <li>initseg.asm</li>
+      
+        <li>linkseg.asm</li>
+      
+        <li>nearstub.asm</li>
+      
+        <li>newseg.asm</li>
+      
+        <li>searchsg.asm</li>
+      
+        <li>strcpy.asm</li>
+      
+        <li>strlen.asm</li>
+      
+        <li>strrchr.asm</li>
+      
+        <li>../thunk.c</li>
+      
+        <li>windows/crt0.asm</li>
+      
+        <li>windows/fatal.asm</li>
+      
+        <li>windows/stubmain.asm</li>
+      
+        <li>windows/windgrp.asm</li>
+      
+        <li>windows/windgrpx.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: THUNK_TEXT @ 00001840
+      </summary>
+      <ul>
+        
+          <li data-segment="00001840" data-offset="00000000">
+            <code>00000000</code> — _LoadTAPI32IfNecessary
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000009A">
+            <code>0000009A</code> — _DoFullLoad
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000000F4">
+            <code>000000F4</code> — LibMain
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000182">
+            <code>00000182</code> — WEP
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000001AA">
+            <code>000001AA</code> — Tapi16HiddenWndProc
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000002AA">
+            <code>000002AA</code> — _LineResult
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000002EA">
+            <code>000002EA</code> — _PhoneResult
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000032A">
+            <code>0000032A</code> — _TapiResult
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000036A">
+            <code>0000036A</code> — _MyCreateIcon
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000003F0">
+            <code>000003F0</code> — XXXINITIALIZE
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000070E">
+            <code>0000070E</code> — ISVALIDXXXAPP
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000746">
+            <code>00000746</code> — lineAccept
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000007C4">
+            <code>000007C4</code> — lineAddProvider
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000846">
+            <code>00000846</code> — lineAddToConference
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000088A">
+            <code>0000088A</code> — lineAnswer
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000908">
+            <code>00000908</code> — lineBlindTransfer
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000096A">
+            <code>0000096A</code> — lineClose
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000009AA">
+            <code>000009AA</code> — lineCompleteCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000A10">
+            <code>00000A10</code> — lineCompleteTransfer
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000A86">
+            <code>00000A86</code> — lineConfigDialog
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000AFA">
+            <code>00000AFA</code> — LINECONFIGDIALOGEDIT
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000BAC">
+            <code>00000BAC</code> — lineConfigProvider
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000BF8">
+            <code>00000BF8</code> — lineDeallocateCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000C38">
+            <code>00000C38</code> — lineDevSpecific
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000CA4">
+            <code>00000CA4</code> — lineDevSpecificFeature
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000D0C">
+            <code>00000D0C</code> — lineDial
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000D6E">
+            <code>00000D6E</code> — lineDrop
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000DEC">
+            <code>00000DEC</code> — lineForward
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000E8C">
+            <code>00000E8C</code> — lineGatherDigits
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000F06">
+            <code>00000F06</code> — lineGenerateDigits
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000F74">
+            <code>00000F74</code> — lineGenerateTone
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00000FC4">
+            <code>00000FC4</code> — lineGetAddressCaps
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000103A">
+            <code>0000103A</code> — lineGetAddressID
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000108A">
+            <code>0000108A</code> — lineGetAddressStatus
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000010D2">
+            <code>000010D2</code> — lineGetAppPriority
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000112E">
+            <code>0000112E</code> — lineGetCallInfo
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001172">
+            <code>00001172</code> — lineGetCallStatus
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000011B6">
+            <code>000011B6</code> — lineGetConfRelatedCalls
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000011FA">
+            <code>000011FA</code> — lineGetCountry
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000124A">
+            <code>0000124A</code> — lineGetDevCaps
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000012BC">
+            <code>000012BC</code> — lineGetDevConfig
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000130C">
+            <code>0000130C</code> — lineGetIcon
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001390">
+            <code>00001390</code> — lineGetID
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000013E4">
+            <code>000013E4</code> — lineGetLineDevStatus
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001428">
+            <code>00001428</code> — lineGetNewCalls
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001474">
+            <code>00001474</code> — lineGetNumRings
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000014BC">
+            <code>000014BC</code> — lineGetProviderList
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001508">
+            <code>00001508</code> — lineGetRequest
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001572">
+            <code>00001572</code> — lineGetStatusMessages
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000015BA">
+            <code>000015BA</code> — lineGetTranslateCaps
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001644">
+            <code>00001644</code> — lineHandoff
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000168C">
+            <code>0000168C</code> — lineHold
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000016CC">
+            <code>000016CC</code> — lineInitialize
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000016F8">
+            <code>000016F8</code> — lineMakeCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000177A">
+            <code>0000177A</code> — lineMonitorDigits
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000017BE">
+            <code>000017BE</code> — lineMonitorMedia
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001802">
+            <code>00001802</code> — lineMonitorTones
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000184A">
+            <code>0000184A</code> — lineNegotiateAPIVersion
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000018C0">
+            <code>000018C0</code> — lineNegotiateExtVersion
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001936">
+            <code>00001936</code> — lineOpen
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000019B8">
+            <code>000019B8</code> — linePark
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001A04">
+            <code>00001A04</code> — linePickup
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001A9C">
+            <code>00001A9C</code> — linePrepareAddToConference
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001AFE">
+            <code>00001AFE</code> — lineRedirect
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001B46">
+            <code>00001B46</code> — lineRegisterRequestRecipient
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001BBC">
+            <code>00001BBC</code> — lineReleaseUserUserInfo
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001BFC">
+            <code>00001BFC</code> — lineRemoveFromConference
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001C3C">
+            <code>00001C3C</code> — lineRemoveProvider
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001C88">
+            <code>00001C88</code> — lineSecureCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001CC8">
+            <code>00001CC8</code> — lineSendUserUserInfo
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001D46">
+            <code>00001D46</code> — lineSetAppPriority
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001DA2">
+            <code>00001DA2</code> — lineSetAppSpecific
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001DE6">
+            <code>00001DE6</code> — lineSetCallParams
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001E36">
+            <code>00001E36</code> — lineSetCallPrivilege
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001E7A">
+            <code>00001E7A</code> — lineSetCurrentLocation
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001EE8">
+            <code>00001EE8</code> — lineSetDevConfig
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001F3C">
+            <code>00001F3C</code> — lineSetMediaControl
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001FAA">
+            <code>00001FAA</code> — lineSetMediaMode
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00001FEE">
+            <code>00001FEE</code> — lineSetNumRings
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002036">
+            <code>00002036</code> — lineSetStatusMessages
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000207E">
+            <code>0000207E</code> — lineSetTerminal
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000020D6">
+            <code>000020D6</code> — lineSetTollList
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000214C">
+            <code>0000214C</code> — lineSetupConference
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000021E0">
+            <code>000021E0</code> — lineSetupTransfer
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002242">
+            <code>00002242</code> — lineShutdown
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000022CA">
+            <code>000022CA</code> — lineSwapHold
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000230E">
+            <code>0000230E</code> — lineTranslateAddress
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002390">
+            <code>00002390</code> — lineTranslateDialog
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000240C">
+            <code>0000240C</code> — lineUncompleteCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002450">
+            <code>00002450</code> — lineUnhold
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002490">
+            <code>00002490</code> — lineUnpark
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000024F6">
+            <code>000024F6</code> — phoneClose
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002536">
+            <code>00002536</code> — phoneConfigDialog
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000025AA">
+            <code>000025AA</code> — phoneDevSpecific
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="0000260E">
+            <code>0000260E</code> — phoneGetButtonInfo
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002656">
+            <code>00002656</code> — phoneGetData
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000026A2">
+            <code>000026A2</code> — phoneGetDevCaps
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002714">
+            <code>00002714</code> — phoneGetDisplay
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002758">
+            <code>00002758</code> — phoneGetGain
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000027A0">
+            <code>000027A0</code> — phoneGetHookSwitch
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000027E4">
+            <code>000027E4</code> — phoneGetIcon
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002868">
+            <code>00002868</code> — phoneGetID
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000028B0">
+            <code>000028B0</code> — phoneGetLamp
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000028F8">
+            <code>000028F8</code> — phoneGetRing
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002940">
+            <code>00002940</code> — phoneGetStatus
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002984">
+            <code>00002984</code> — phoneGetStatusMessages
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000029D0">
+            <code>000029D0</code> — phoneGetVolume
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002A18">
+            <code>00002A18</code> — phoneInitialize
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002A44">
+            <code>00002A44</code> — phoneNegotiateAPIVersion
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002ABA">
+            <code>00002ABA</code> — phoneNegotiateExtVersion
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002B30">
+            <code>00002B30</code> — phoneOpen
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002BAA">
+            <code>00002BAA</code> — phoneSetButtonInfo
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002BF2">
+            <code>00002BF2</code> — phoneSetData
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002C3E">
+            <code>00002C3E</code> — phoneSetDisplay
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002C8E">
+            <code>00002C8E</code> — phoneSetGain
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002CD6">
+            <code>00002CD6</code> — phoneSetHookSwitch
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002D1E">
+            <code>00002D1E</code> — phoneSetLamp
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002D66">
+            <code>00002D66</code> — phoneSetRing
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002DAE">
+            <code>00002DAE</code> — phoneSetStatusMessages
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002DFA">
+            <code>00002DFA</code> — phoneSetVolume
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002E42">
+            <code>00002E42</code> — phoneShutdown
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002ECA">
+            <code>00002ECA</code> — tapiRequestMakeCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002F1E">
+            <code>00002F1E</code> — tapiRequestMediaCall
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002F8E">
+            <code>00002F8E</code> — tapiRequestDrop
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00002FDC">
+            <code>00002FDC</code> — tapiGetLocationInfo
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00003028">
+            <code>00003028</code> — LAddrParamsInited
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="00003070">
+            <code>00003070</code> — LOpenDialAsst
+            
+          </li>
+        
+          <li data-segment="00001840" data-offset="000030CA">
+            <code>000030CA</code> — LocWizardDlgProc
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _TEXT @ 00002890
+      </summary>
+      <ul>
+        
+          <li data-segment="00002890" data-offset="00000010">
+            <code>00000010</code> — __wflags
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000054">
+            <code>00000054</code> — __astart
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000000F6">
+            <code>000000F6</code> — __nomain
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000010E">
+            <code>0000010E</code> — _strcpy
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000014A">
+            <code>0000014A</code> — _strlen
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000164">
+            <code>00000164</code> — __fstrrchr
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000198">
+            <code>00000198</code> — __stubmain
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000001C4">
+            <code>000001C4</code> — __cinit
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000020C">
+            <code>0000020C</code> — __cexit
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000021D">
+            <code>0000021D</code> — __c_exit
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000026B">
+            <code>0000026B</code> — __ctermsub
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000002A8">
+            <code>000002A8</code> — __FF_MSGBANNER
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000002CC">
+            <code>000002CC</code> — __setenvp
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000364">
+            <code>00000364</code> — __ffree
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000385">
+            <code>00000385</code> — __fmalloc
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000042C">
+            <code>0000042C</code> — __NMSG_TEXT
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000463">
+            <code>00000463</code> — __NMSG_WRITE
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000047A">
+            <code>0000047A</code> — __newseg
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000004FC">
+            <code>000004FC</code> — __freefarheap
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000050A">
+            <code>0000050A</code> — __growseg
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000059B">
+            <code>0000059B</code> — __incseg
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000601">
+            <code>00000601</code> — __findlast
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000622">
+            <code>00000622</code> — __fptrap
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000628">
+            <code>00000628</code> — __myalloc
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000656">
+            <code>00000656</code> — __GetDGROUP
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000666">
+            <code>00000666</code> — __nearstub
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000668">
+            <code>00000668</code> — __searchseg
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000006E4">
+            <code>000006E4</code> — __cintDIV
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000006EE">
+            <code>000006EE</code> — __amsg_exit
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="00000730">
+            <code>00000730</code> — __freelist
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000075A">
+            <code>0000075A</code> — ___ExportedStub
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="0000076E">
+            <code>0000076E</code> — __initseg
+            
+          </li>
+        
+          <li data-segment="00002890" data-offset="000007A2">
+            <code>000007A2</code> — __linkseg
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: DGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000004">
+            <code>00000004</code> — rsrvptrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007E4">
+            <code>000007E4</code> — _gaFuncNames
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009BC">
+            <code>000009BC</code> — _ghLib
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009C0">
+            <code>000009C0</code> — _pfnCallProc1
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009C4">
+            <code>000009C4</code> — _pfnCallProc2
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009C8">
+            <code>000009C8</code> — _pfnCallProc3
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009CC">
+            <code>000009CC</code> — _pfnCallProc4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009D0">
+            <code>000009D0</code> — _pfnCallProc5
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009D4">
+            <code>000009D4</code> — _pfnCallProc6
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009D8">
+            <code>000009D8</code> — _pfnCallProc7
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009DC">
+            <code>000009DC</code> — _pfnCallProc8
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009E0">
+            <code>000009E0</code> — _pfnCallProc9
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009E4">
+            <code>000009E4</code> — _pfnCallProc10
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009E8">
+            <code>000009E8</code> — _pfnCallProc11
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009EC">
+            <code>000009EC</code> — _pfnCallProc12
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009F0">
+            <code>000009F0</code> — _gszWndClass
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A02">
+            <code>00000A02</code> — _gszTapi32
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A0E">
+            <code>00000A0E</code> — _gfShutdownDone
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A10">
+            <code>00000A10</code> — _ghIcon
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001162">
+            <code>00001162</code> — _STKHQQ
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001164">
+            <code>00001164</code> — __hModule
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001166">
+            <code>00001166</code> — __wDataSeg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001168">
+            <code>00001168</code> — __wHeapSize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000116A">
+            <code>0000116A</code> — __lpszCmdLine
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000116E">
+            <code>0000116E</code> — __dllinit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000116F">
+            <code>0000116F</code> — _aseglo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001171">
+            <code>00001171</code> — _aseghi
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001173">
+            <code>00001173</code> — ___aDBswpflg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001175">
+            <code>00001175</code> — ___aDBrterr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001178">
+            <code>00001178</code> — __aintdiv
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000117C">
+            <code>0000117C</code> — __fac
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001186">
+            <code>00001186</code> — _errno
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001188">
+            <code>00001188</code> — __umaskval
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118A">
+            <code>0000118A</code> — __winminor
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118A">
+            <code>0000118A</code> — __winver
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118B">
+            <code>0000118B</code> — __winmajor
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118C">
+            <code>0000118C</code> — __osver
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118C">
+            <code>0000118C</code> — __osminor
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118D">
+            <code>0000118D</code> — __osmajor
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000118E">
+            <code>0000118E</code> — __osversion
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001190">
+            <code>00001190</code> — __osmode
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001191">
+            <code>00001191</code> — __cpumode
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001192">
+            <code>00001192</code> — __doserrno
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001192">
+            <code>00001192</code> — __oserr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001194">
+            <code>00001194</code> — __nfile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001196">
+            <code>00001196</code> — __osfile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011AA">
+            <code>000011AA</code> — ___argc
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011AC">
+            <code>000011AC</code> — ___argv
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011B0">
+            <code>000011B0</code> — __environ
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011B4">
+            <code>000011B4</code> — __pgmptr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011B9">
+            <code>000011B9</code> — __child
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011BB">
+            <code>000011BB</code> — __exitflag
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011BC">
+            <code>000011BC</code> — __adbgmsg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011C0">
+            <code>000011C0</code> — __pnhFarHeap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011C4">
+            <code>000011C4</code> — __fheap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011D2">
+            <code>000011D2</code> — __amblksiz
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011D6">
+            <code>000011D6</code> — __fpinit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000012C2">
+            <code>000012C2</code> — _edata
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000012C2">
+            <code>000012C2</code> — __edata
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000012D0">
+            <code>000012D0</code> — _ghInst
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000012D2">
+            <code>000012D2</code> — _gaProcs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000014AA">
+            <code>000014AA</code> — _gdwDebugLevel
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000014AE">
+            <code>000014AE</code> — _end
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000014AE">
+            <code>000014AE</code> — __end
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

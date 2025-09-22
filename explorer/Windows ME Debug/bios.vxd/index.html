@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>BIOS — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../bios.asm</li>
+      
+        <li>../callbios.c</li>
+      
+        <li>../convert.c</li>
+      
+        <li>../debug.c</li>
+      
+        <li>../../../../dev/ddk/inc/bios.inc</li>
+      
+        <li>../enum.c</li>
+      
+        <li>../escd.c</li>
+      
+        <li>../events.c</li>
+      
+        <li>../selector.c</li>
+      
+        <li>../services.c</li>
+      
+        <li>../sysctrl.c</li>
+      
+        <li>../sysmsgs.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LDATA @ 000004E0
+      </summary>
+      <ul>
+        
+          <li data-segment="000004E0" data-offset="00000000">
+            <code>00000000</code> — _BeginLockable_Debug_Flags
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000004">
+            <code>00000004</code> — __BIOSGetVersion
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000008">
+            <code>00000008</code> — __BIOSSoftUndock
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="0000000C">
+            <code>0000000C</code> — __BIOSGetCapabilities
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000010">
+            <code>00000010</code> — __BIOSGetAPMTable
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000014">
+            <code>00000014</code> — BIOS_DDB
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="000001C8">
+            <code>000001C8</code> — _DebuggerCommands
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="000007C8">
+            <code>000007C8</code> — _pbyEventNotification
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000830">
+            <code>00000830</code> — BIOS_Control
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="0000085D">
+            <code>0000085D</code> — _GetMsec
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="0000087E">
+            <code>0000087E</code> — _DebLogEvent
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="000008FE">
+            <code>000008FE</code> — _ValidateCurrentDevNode
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000934">
+            <code>00000934</code> — _SelectIndex
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000954">
+            <code>00000954</code> — _DebListDevNode
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="000009CD">
+            <code>000009CD</code> — _DebProcessDevNode
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000A76">
+            <code>00000A76</code> — _BIOSWalk
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000AAD">
+            <code>00000AAD</code> — _ShowAll
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000AB9">
+            <code>00000AB9</code> — _DumpEvents
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000B7F">
+            <code>00000B7F</code> — _ShowList
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000BAA">
+            <code>00000BAA</code> — _ShowDevNode
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000BC0">
+            <code>00000BC0</code> — _SelectByDevNode
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000BD4">
+            <code>00000BD4</code> — _SelectByIndex
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000C25">
+            <code>00000C25</code> — _Debugger@0
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000C34">
+            <code>00000C34</code> — _LogEvent
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000C46">
+            <code>00000C46</code> — _PollEventProc
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000C7C">
+            <code>00000C7C</code> — _LCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000C90">
+            <code>00000C90</code> — @CMDReadNumber@12
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000D90">
+            <code>00000D90</code> — @CMDMenu@8
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000E50">
+            <code>00000E50</code> — _LCODE__CONFIGMG_Call_At_Appy_Time
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000E58">
+            <code>00000E58</code> — _LCODE_Set_Global_Time_Out@12
+            
+          </li>
+        
+          <li data-segment="000004E0" data-offset="00000E80">
+            <code>00000E80</code> — @CMDInChar@0
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: PNP @ 00002330
+      </summary>
+      <ul>
+        
+          <li data-segment="00002330" data-offset="00000000">
+            <code>00000000</code> — _BIOSAddInstanceHook
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000097">
+            <code>00000097</code> — APIHandler
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000000A9">
+            <code>000000A9</code> — _PNPBIOS_GetAPMTable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000118">
+            <code>00000118</code> — _PNPBIOS_SetOldISARes
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000184">
+            <code>00000184</code> — _PNPBIOS_GetOldISARes
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000001F0">
+            <code>000001F0</code> — _PNPBIOS_GetEscdInfo
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000262">
+            <code>00000262</code> — _PNPBIOS_GetEscd
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000002D5">
+            <code>000002D5</code> — _PNPBIOS_SetEscd
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000348">
+            <code>00000348</code> — _EisaID
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000003EE">
+            <code>000003EE</code> — _DWordAscii
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000436">
+            <code>00000436</code> — _MemCpy
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000045B">
+            <code>0000045B</code> — _MemCmp
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000486">
+            <code>00000486</code> — _StrChr
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000004AC">
+            <code>000004AC</code> — _StrStr
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000004F1">
+            <code>000004F1</code> — _MakeChicagoDeviceName
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000055A">
+            <code>0000055A</code> — _ConvertChicagoToCMConfig
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000006F3">
+            <code>000006F3</code> — _DontStaticallyDisable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000735">
+            <code>00000735</code> — _IsDevNodeMarkedDisabled
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000079F">
+            <code>0000079F</code> — _BIOSSetupDevNode
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000007D2">
+            <code>000007D2</code> — _BIOSDisableable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000822">
+            <code>00000822</code> — _BIOSRemovable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000088F">
+            <code>0000088F</code> — _BIOSEnumerate
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000D9A">
+            <code>00000D9A</code> — _BIOSPreShutDown
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000E47">
+            <code>00000E47</code> — _BIOSShutDown
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000E50">
+            <code>00000E50</code> — _BIOSStopDevNode
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000F51">
+            <code>00000F51</code> — _NewEnumerator
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000F74">
+            <code>00000F74</code> — _CheckSum
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000F97">
+            <code>00000F97</code> — _EscdGetNextBrdHdrOffset
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000FB5">
+            <code>00000FB5</code> — _EscdGetTotalFuncLen
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000FC2">
+            <code>00000FC2</code> — _EscdGetFuncOffset
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00000FF0">
+            <code>00000FF0</code> — _EscdGetFuncCount
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001035">
+            <code>00001035</code> — _EscdUpdateSizesAndChecksums
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000010BC">
+            <code>000010BC</code> — _EscdGetBrdECD
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001109">
+            <code>00001109</code> — _EscdFindFunctionID
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000011B9">
+            <code>000011B9</code> — _EscdLockFunction
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001202">
+            <code>00001202</code> — _EscdFindSlotNumber
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001239">
+            <code>00001239</code> — _EscdFindBoardID
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000126D">
+            <code>0000126D</code> — _EscdDetermineLegacySlot
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000012F8">
+            <code>000012F8</code> — _EscdDeleteDevice
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000134B">
+            <code>0000134B</code> — _ConfigContainsResources
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001379">
+            <code>00001379</code> — _ConfigDelMemRes
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000013CB">
+            <code>000013CB</code> — _ConfigDelIrqRes
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000142B">
+            <code>0000142B</code> — _ConfigDelDmaRes
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000148B">
+            <code>0000148B</code> — _ConfigDelIoRes
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000014DF">
+            <code>000014DF</code> — _EscdCheckMemoryEntries
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000015A6">
+            <code>000015A6</code> — _EscdCheckIRQEntries
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000015F7">
+            <code>000015F7</code> — _EscdCheckDMAEntries
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001648">
+            <code>00001648</code> — _EscdCheckIOEntries
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000016FD">
+            <code>000016FD</code> — _ConfigDelFnConflicts
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000017A5">
+            <code>000017A5</code> — _ConfigRemoveConflicts
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001831">
+            <code>00001831</code> — _EscdReplaceFunction
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000018C6">
+            <code>000018C6</code> — _EscdOverwriteMemory
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001967">
+            <code>00001967</code> — _EscdOverwriteIrq
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001A1F">
+            <code>00001A1F</code> — _EscdOverwriteDma
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001AA6">
+            <code>00001AA6</code> — _EscdOverwriteIo
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001B69">
+            <code>00001B69</code> — _EscdMergeResourcesIntoFunction
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001D67">
+            <code>00001D67</code> — _EscdMergeResources
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001DF7">
+            <code>00001DF7</code> — _EscdAddOldLegacyFunction
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00001F30">
+            <code>00001F30</code> — _ValidateESCDImage
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002070">
+            <code>00002070</code> — _AllowUndocking
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000215F">
+            <code>0000215F</code> — _ProcessEvent
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002325">
+            <code>00002325</code> — _ProcessUnknownEvent
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000233B">
+            <code>0000233B</code> — _LockTimedOut
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002376">
+            <code>00002376</code> — _BIOS_Lock_CM
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000023A8">
+            <code>000023A8</code> — _BIOS_Unlock_CM
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000023D7">
+            <code>000023D7</code> — _AppyPollEventProc
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000242E">
+            <code>0000242E</code> — _InitDockInfo
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000024B8">
+            <code>000024B8</code> — _CreateGDTSelector
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002514">
+            <code>00002514</code> — _ModifyGDTSelector
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000257A">
+            <code>0000257A</code> — _FreeGDTSelector
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000025C5">
+            <code>000025C5</code> — _APIDispatch
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002669">
+            <code>00002669</code> — _GetVersion
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000266F">
+            <code>0000266F</code> — _BIOSGetVersion
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002674">
+            <code>00002674</code> — _V86GetVersion
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002679">
+            <code>00002679</code> — _GetCapabilities
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002690">
+            <code>00002690</code> — _BIOSGetCapabilities
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002695">
+            <code>00002695</code> — _V86GetCapabilities
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000269A">
+            <code>0000269A</code> — _DoIt
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000026DE">
+            <code>000026DE</code> — _SoftUndock
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000026F3">
+            <code>000026F3</code> — _BIOSSoftUndock
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000026F8">
+            <code>000026F8</code> — _V86SoftUndock
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000026FD">
+            <code>000026FD</code> — _GetAPMTable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002718">
+            <code>00002718</code> — _BIOSGetAPMTable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000276F">
+            <code>0000276F</code> — _V86GetAPMTable
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000027AB">
+            <code>000027AB</code> — _CheckBIOSExt
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000027D5">
+            <code>000027D5</code> — _InstallPollingHandler
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000282F">
+            <code>0000282F</code> — _BIOSInit
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002C29">
+            <code>00002C29</code> — _BIOS_NewDevNode@8
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002C94">
+            <code>00002C94</code> — _BIOS_W32DeviceIOControl@4
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002D03">
+            <code>00002D03</code> — _AdvancePastSubString
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002D4B">
+            <code>00002D4B</code> — _PciBusNum
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002D72">
+            <code>00002D72</code> — _PciDevFnNum
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002DD5">
+            <code>00002DD5</code> — _CompressedPnpID
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002DF9">
+            <code>00002DF9</code> — _PnpCompressedID
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002E1D">
+            <code>00002E1D</code> — _PnpSerialID
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002E5A">
+            <code>00002E5A</code> — _PnpFunctionNum
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002E83">
+            <code>00002E83</code> — _ReplaceForcedConfig
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00002FF1">
+            <code>00002FF1</code> — _TraverseDevNodeSubTree
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00003042">
+            <code>00003042</code> — _UpdateForcedConfigs
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000306E">
+            <code>0000306E</code> — _AddDevNodeResToESCDBuf
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000030F5">
+            <code>000030F5</code> — _GetCheckAndSaveESCD
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00003319">
+            <code>00003319</code> — _AddDevNodeResToISABuf
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="00003451">
+            <code>00003451</code> — _CheckAndSaveOldISA
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="000034F3">
+            <code>000034F3</code> — _SaveInNVRAM
+            
+          </li>
+        
+          <li data-segment="00002330" data-offset="0000356A">
+            <code>0000356A</code> — _AddLegacyToNVRAM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: L0CKABLE_BEGIN @ 00003090
+      </summary>
+      <ul>
+        
+          <li data-segment="00003090" data-offset="00000000">
+            <code>00000000</code> — _BeginLockable
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000004">
+            <code>00000004</code> — _CallBIOS@4
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000199">
+            <code>00000199</code> — _PNPBIOS_GetEvent
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000214">
+            <code>00000214</code> — _PNPBIOS_GetNodeInfo
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="0000029C">
+            <code>0000029C</code> — _PNPBIOS_GetDevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000364">
+            <code>00000364</code> — _PNPBIOS_SetDevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000003E9">
+            <code>000003E9</code> — _PNPBIOS_SendMessage
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000456">
+            <code>00000456</code> — _PNPBIOS_GetDockInfo
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000004D3">
+            <code>000004D3</code> — _SkipToNextList
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="0000053F">
+            <code>0000053F</code> — _BIOSStartDevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000006F5">
+            <code>000006F5</code> — _BIOSEnumHandler
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000948">
+            <code>00000948</code> — _KCODE__LinPageUnLock
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000950">
+            <code>00000950</code> — _KCODE__Call_On_My_Not_Flat_Stack
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000958">
+            <code>00000958</code> — _KCODE__AttemptingSomethingDangerous
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000960">
+            <code>00000960</code> — _KCODE__LinPageLock
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000968">
+            <code>00000968</code> — _KCODE__Sprintf
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000970">
+            <code>00000970</code> — _KCODE__CONFIGMG_Get_Next_Res_Des
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000978">
+            <code>00000978</code> — _KCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="0000098C">
+            <code>0000098C</code> — _KCODE__CONFIGMG_Assert_Structure
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000994">
+            <code>00000994</code> — _KCODE__CONFIGMG_Get_Device_ID
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="0000099C">
+            <code>0000099C</code> — _KCODE__CONFIGMG_Get_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009A4">
+            <code>000009A4</code> — _KCODE__CONFIGMG_Debug_DevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009AC">
+            <code>000009AC</code> — _KCODE__CONFIGMG_Get_Sibling
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009B4">
+            <code>000009B4</code> — _KCODE__CONFIGMG_Get_Child
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009BC">
+            <code>000009BC</code> — _KCODE__CONFIGMG_Read_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009C4">
+            <code>000009C4</code> — _KCODE__CONFIGMG_ISAPNP_To_CM
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009CC">
+            <code>000009CC</code> — _KCODE__CONFIGMG_Get_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009D4">
+            <code>000009D4</code> — _KCODE__CONFIGMG_Get_Global_State
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009DC">
+            <code>000009DC</code> — _KCODE__CONFIGMG_Remove_Unmarked_Children
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009E4">
+            <code>000009E4</code> — _KCODE__CONFIGMG_Write_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009EC">
+            <code>000009EC</code> — _KCODE__CONFIGMG_Disable_DevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009F4">
+            <code>000009F4</code> — _KCODE__CONFIGMG_Remove_SubTree
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="000009FC">
+            <code>000009FC</code> — _KCODE__RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A04">
+            <code>00000A04</code> — _KCODE__RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A0C">
+            <code>00000A0C</code> — _KCODE__GetRegistryKey
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A14">
+            <code>00000A14</code> — _KCODE__CONFIGMG_Free_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A1C">
+            <code>00000A1C</code> — _KCODE__CONFIGMG_Add_Res_Des
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A24">
+            <code>00000A24</code> — _KCODE__CONFIGMG_Add_Empty_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A2C">
+            <code>00000A2C</code> — _KCODE__CONFIGMG_Get_Next_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A34">
+            <code>00000A34</code> — _KCODE__CONFIGMG_Get_First_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A3C">
+            <code>00000A3C</code> — _KCODE__CONFIGMG_Set_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A44">
+            <code>00000A44</code> — _KCODE__CONFIGMG_Set_Bus_Info
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A4C">
+            <code>00000A4C</code> — _KCODE__CONFIGMG_Set_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A54">
+            <code>00000A54</code> — _KCODE__CONFIGMG_Create_DevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A5C">
+            <code>00000A5C</code> — _KCODE__CONFIGMG_Reset_Children_Marks
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A64">
+            <code>00000A64</code> — _KCODE__HeapReAllocate
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A6C">
+            <code>00000A6C</code> — _KCODE__RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A74">
+            <code>00000A74</code> — _KCODE__CONFIGMG_Change_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A7C">
+            <code>00000A7C</code> — _KCODE__lmemcpy
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A84">
+            <code>00000A84</code> — _KCODE__CONFIGMG_Set_DevNode_Problem
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A8C">
+            <code>00000A8C</code> — _KCODE__CONFIGMG_CM_To_ISAPNP
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A94">
+            <code>00000A94</code> — _KCODE__CONFIGMG_Get_Parent
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000A9C">
+            <code>00000A9C</code> — _KCODE__LinRegionLock
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AA4">
+            <code>00000AA4</code> — _KCODE__LinRegionUnLock
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AAC">
+            <code>00000AAC</code> — _KCODE__CONFIGMG_Register_Enumerator
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AB4">
+            <code>00000AB4</code> — _KCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000ABC">
+            <code>00000ABC</code> — _KCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AC4">
+            <code>00000AC4</code> — _KCODE__CONFIGMG_Reenumerate_DevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000ACC">
+            <code>00000ACC</code> — _KCODE__CONFIGMG_Fail_Change_HW_Prof
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AD4">
+            <code>00000AD4</code> — _KCODE__CONFIGMG_Query_Remove_SubTree
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000ADC">
+            <code>00000ADC</code> — _KCODE__CONFIGMG_Query_Change_HW_Prof
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AE4">
+            <code>00000AE4</code> — _KCODE__CONFIGMG_Recompute_HW_Prof
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AEC">
+            <code>00000AEC</code> — _KCODE_Cancel_Time_Out@4
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000AFC">
+            <code>00000AFC</code> — _KCODE__CONFIGMG_Lock
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B04">
+            <code>00000B04</code> — _KCODE__CONFIGMG_Unlock
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B0C">
+            <code>00000B0C</code> — _KCODE_Set_Global_Time_Out@12
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B28">
+            <code>00000B28</code> — _KCODE_VMM_GetSystemInitState
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B30">
+            <code>00000B30</code> — _KCODE__MapPhysToLinear
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B38">
+            <code>00000B38</code> — _KCODE__PageAllocate
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B40">
+            <code>00000B40</code> — _KCODE__CONFIGMG_Register_Device_Driver
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B48">
+            <code>00000B48</code> — _KCODE__CONFIGMG_Add_Remove_DevNode_Property
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B50">
+            <code>00000B50</code> — _KCODE__CONFIGMG_Get_Device_ID_Size
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B58">
+            <code>00000B58</code> — _KCODE__CONFIGMG_Locate_DevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B60">
+            <code>00000B60</code> — _KCODE__CONFIGMG_Get_Alloc_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B6C">
+            <code>00000B6C</code> — _wBIOSEntrySeg
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B70">
+            <code>00000B70</code> — _wBIOSEntryOff
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B74">
+            <code>00000B74</code> — _BIOSDataSel
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B78">
+            <code>00000B78</code> — _pBIOSData
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B7C">
+            <code>00000B7C</code> — _wBIOSDataSel
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B80">
+            <code>00000B80</code> — _wBIOSStackSS
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B84">
+            <code>00000B84</code> — _pBIOSStack
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000B8C">
+            <code>00000B8C</code> — _bCallVxD
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000DA0">
+            <code>00000DA0</code> — _dwMaxResourceSize
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000DA8">
+            <code>00000DA8</code> — _dnBIOSDevNode
+            
+          </li>
+        
+          <li data-segment="00003090" data-offset="00000EF0">
+            <code>00000EF0</code> — _EndLockable
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="0000018C">
+            <code>0000018C</code> — _fDellProblem
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000198">
+            <code>00000198</code> — _dwOEMNumber
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003E0">
+            <code>000003E0</code> — _fEscdShareEdge
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000064C">
+            <code>0000064C</code> — _fProcessingSoftUndock
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000650">
+            <code>00000650</code> — _fProcessingDockChange
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000008EC">
+            <code>000008EC</code> — __pClientRegisters
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000008F0">
+            <code>000008F0</code> — _fBIOSWorking
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000928">
+            <code>00000928</code> — _dwAddInstanceAddr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000092C">
+            <code>0000092C</code> — _dwEventNotify
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B30">
+            <code>00000B30</code> — _gpbyNVRAM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B34">
+            <code>00000B34</code> — _gpbyOldNVRAM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B38">
+            <code>00000B38</code> — _gwNVRAMSize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B3C">
+            <code>00000B3C</code> — _gwNVRAMBufSel
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B40">
+            <code>00000B40</code> — _gpbyCurResTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B44">
+            <code>00000B44</code> — _gwCurResTableSel
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B48">
+            <code>00000B48</code> — _gdwCurBufOffset
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B4C">
+            <code>00000B4C</code> — _gdwSysBufSize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B50">
+            <code>00000B50</code> — _gbyLegacyCardSlot
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B54">
+            <code>00000B54</code> — _gabyTempEscdFn
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

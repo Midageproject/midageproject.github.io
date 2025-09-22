@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>MMCI — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../../allowins.c</li>
+      
+        <li>../../libinit.ASM</li>
+      
+        <li>lshl.asm</li>
+      
+        <li>../../mminstal.c</li>
+      
+        <li>../../selbest.c</li>
+      
+        <li>strchr.asm</li>
+      
+        <li>strcspn.asm</li>
+      
+        <li>strspn.asm</li>
+      
+        <li>strstr.asm</li>
+      
+        <li>strupr.asm</li>
+      
+        <li>mmsys.c</li>
+      
+        <li>work.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _TEXT @ 000011B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000011B0" data-offset="00000000">
+            <code>00000000</code> — LibEntry
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000021">
+            <code>00000021</code> — WEP
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000001E5">
+            <code>000001E5</code> — _aszMRClassDrvr
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000021F">
+            <code>0000021F</code> — _aszMessageSvr
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000241">
+            <code>00000241</code> — _aszConfigured
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000024C">
+            <code>0000024C</code> — _aszDriverKey
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000025A">
+            <code>0000025A</code> — _aszDriversSec
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000262">
+            <code>00000262</code> — _aszJoyClass
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000026B">
+            <code>0000026B</code> — _aszAuxClass
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000026F">
+            <code>0000026F</code> — _aszMixerClass
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000275">
+            <code>00000275</code> — _aszMidiClass
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000027A">
+            <code>0000027A</code> — _aszWaveClass
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000027F">
+            <code>0000027F</code> — _aszSWKey
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000028B">
+            <code>0000028B</code> — _aszMediaType
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000295">
+            <code>00000295</code> — _aszMediaResKey
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000002CC">
+            <code>000002CC</code> — _aszNewDrvKey
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000315">
+            <code>00000315</code> — _aszNULL
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000316">
+            <code>00000316</code> — _aszSection
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000410">
+            <code>00000410</code> — LibMain
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000908">
+            <code>00000908</code> — _MMInfDoUpdateInis
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000990">
+            <code>00000990</code> — _MMInfDoAddReg
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000C76">
+            <code>00000C76</code> — _MMInfDoCopyFiles
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000EB4">
+            <code>00000EB4</code> — _MMGetDisksInfo
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00000FEA">
+            <code>00000FEA</code> — MEDIA_CONVERTOLDINF
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000134C">
+            <code>0000134C</code> — MEDIA_SELECTDEVICE
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000139E">
+            <code>0000139E</code> — INITDRVCONFIGINFO
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000013C6">
+            <code>000013C6</code> — CONFIGUREDRIVER
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00001426">
+            <code>00001426</code> — CONFIGURENEWDRIVERS
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00001C18">
+            <code>00001C18</code> — _ParseVersion
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00001D2A">
+            <code>00001D2A</code> — _PerUserSetupPreferredAudioDevices
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00001E0C">
+            <code>00001E0C</code> — _SetupPreferredAudioDevices
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000020DE">
+            <code>000020DE</code> — REMOVERING3REGENTRIES
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002362">
+            <code>00002362</code> — REMOVEDEVICE
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002656">
+            <code>00002656</code> — MEDIA_INSTALLSOFTWAREDEVICE
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002766">
+            <code>00002766</code> — DIINSTALLDEVICEUICALLBACKPROC
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="0000284A">
+            <code>0000284A</code> — MEDIA_INSTALLDEVICESECTION
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002930">
+            <code>00002930</code> — _FindPathToOtherInf
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="000029B6">
+            <code>000029B6</code> — MEDIA_INSTALLOTHERDEVICES
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002ABA">
+            <code>00002ABA</code> — MEDIA_INSTALLHARDWAREDEVICE
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002C3C">
+            <code>00002C3C</code> — MEDIATYPEISSOFTWARE
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002C7A">
+            <code>00002C7A</code> — MEDIA_INSTALLDEVICE
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002CE8">
+            <code>00002CE8</code> — CLASSINSTALL
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002DA4">
+            <code>00002DA4</code> — __aFlshl
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002DB0">
+            <code>00002DB0</code> — __fstrchr
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002DE2">
+            <code>00002DE2</code> — __fstrupr
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002E06">
+            <code>00002E06</code> — __fstrcspn
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002E62">
+            <code>00002E62</code> — __fstrspn
+            
+          </li>
+        
+          <li data-segment="000011B0" data-offset="00002EBE">
+            <code>00002EBE</code> — __fstrstr
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: ALLOWINS_TEXT @ 00001990
+      </summary>
+      <ul>
+        
+          <li data-segment="00001990" data-offset="00000074">
+            <code>00000074</code> — FILEEXISTS
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000098">
+            <code>00000098</code> — MYSTRTOK
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="0000012E">
+            <code>0000012E</code> — _LPSTRtoDWORD
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="000001A0">
+            <code>000001A0</code> — FILENAMEFROMPATH
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="000001F6">
+            <code>000001F6</code> — _GetFileVersion
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="000002EA">
+            <code>000002EA</code> — ISINFSHIPPEDWITHWINDOWS
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000482">
+            <code>00000482</code> — _FindPathToInf
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000532">
+            <code>00000532</code> — _ProcessDDBKey
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000680">
+            <code>00000680</code> — _GetUpgradeWarningFromDDB
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000738">
+            <code>00000738</code> — _SearchDDB
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000914">
+            <code>00000914</code> — GETUPGRADEWARNINGSENUM
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000986">
+            <code>00000986</code> — _IsInRegistry
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000D06">
+            <code>00000D06</code> — _RegTestsTrue
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000DD6">
+            <code>00000DD6</code> — _ProcessKnownRegSection
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000EAA">
+            <code>00000EAA</code> — SEARCHINFREGWARNINGS
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00000F22">
+            <code>00000F22</code> — GETUPGRADEWARNINGS
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="00001076">
+            <code>00001076</code> — GETEXISTINGDRIVERINFO
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="000011DE">
+            <code>000011DE</code> — GETNEWDRIVERINFO
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="0000123E">
+            <code>0000123E</code> — INITDRVUPGRADEINFO
+            
+          </li>
+        
+          <li data-segment="00001990" data-offset="000012B2">
+            <code>000012B2</code> — ALLOWDRIVERINSTALL
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: SELBEST_TEXT @ 00001C40
+      </summary>
+      <ul>
+        
+          <li data-segment="00001C40" data-offset="00000034">
+            <code>00000034</code> — GETDRIVERTYPEENUM
+            
+          </li>
+        
+          <li data-segment="00001C40" data-offset="000000C8">
+            <code>000000C8</code> — _GetDriverType
+            
+          </li>
+        
+          <li data-segment="00001C40" data-offset="000001BE">
+            <code>000001BE</code> — BETTERDRIVER
+            
+          </li>
+        
+          <li data-segment="00001C40" data-offset="000002CC">
+            <code>000002CC</code> — _GetExistingDriverMatchParams
+            
+          </li>
+        
+          <li data-segment="00001C40" data-offset="00000394">
+            <code>00000394</code> — PICKBESTDRIVER
+            
+          </li>
+        
+          <li data-segment="00001C40" data-offset="000004E4">
+            <code>000004E4</code> — SELECTBESTCOMPATDRV
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: DGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — rsrvptrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — pLocalHeap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — pAtomTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000A">
+            <code>0000000A</code> — pStackTop
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000C">
+            <code>0000000C</code> — pStackMin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000E">
+            <code>0000000E</code> — pStackBot
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000001C">
+            <code>0000001C</code> — ?szSTExecFmt@?2??SysTray_EnableService@@9@9
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000002C">
+            <code>0000002C</code> — ??_C@_0BA@MAHH@SystemTray_Main?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000003C">
+            <code>0000003C</code> — ??_C@_0BP@HPJI@system?4ini?0386Enh?0?0?$CCdevice?$DN?$CFs?$CC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000005C">
+            <code>0000005C</code> — ??_C@_04IBCE@?$FLMCI?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000062">
+            <code>00000062</code> — ??_C@_03MFOG@MCI?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000066">
+            <code>00000066</code> — ??_C@_01PCFE@?2?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000068">
+            <code>00000068</code> — ??_C@_04PLDJ@Wave?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000006E">
+            <code>0000006E</code> — ??_C@_04CCOG@MIDI?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000074">
+            <code>00000074</code> — ??_C@_05JHOC@Mixer?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000007A">
+            <code>0000007A</code> — ??_C@_03IEAK@Aux?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000007E">
+            <code>0000007E</code> — ??_C@_08GCCE@Joystick?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000088">
+            <code>00000088</code> — ??_C@_07NGLM@MSVIDEO?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000090">
+            <code>00000090</code> — ??_C@_0L@LLFA@WaveMapper?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000009C">
+            <code>0000009C</code> — ??_C@_0L@OIOM@MidiMapper?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000A8">
+            <code>000000A8</code> — ??_C@_06LFAG@MAPPER?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000B0">
+            <code>000000B0</code> — ??_C@_04DDDH@VIDC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000B6">
+            <code>000000B6</code> — ??_C@_04JKEH@VIDS?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000BC">
+            <code>000000BC</code> — ??_C@_03CHOA@ICM?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000C0">
+            <code>000000C0</code> — ??_C@_05PBMJ@MSACM?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000C6">
+            <code>000000C6</code> — ??_C@_03LHFF@ACM?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000CA">
+            <code>000000CA</code> — ??_C@_07CNPM@UNKNOWN?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000D2">
+            <code>000000D2</code> — ??_C@_0L@MEGC@HKLM?0?$CFs?0?0?0?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000DE">
+            <code>000000DE</code> — ??_C@_0BF@JNLF@HKLM?0?$CFs?0Driver?0?0?$CC?$CFs?$CC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000F4">
+            <code>000000F4</code> — ??_C@_0BK@LJDG@HKLM?0?$CFs?0Description?0?0?$CC?$CFs?$CC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000010E">
+            <code>0000010E</code> — ??_C@_0BJ@NJDM@HKLM?0?$CFs?0Parameters?0?0?$CC?$CFs?$CC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000128">
+            <code>00000128</code> — ??_C@_0BB@PMCK@SourceDisksFiles?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000013A">
+            <code>0000013A</code> — ??_C@_05IPJG@?$CFs?3?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000140">
+            <code>00000140</code> — ??_C@_02MECO@?$CFd?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000144">
+            <code>00000144</code> — ??_C@_0M@BHNN@?$CFs?5?$DN?5?$CFs?0?$CFs?0?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000150">
+            <code>00000150</code> — ??_C@_05DMPF@disks?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000156">
+            <code>00000156</code> — ??_C@_08NKAM@oemdisks?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000160">
+            <code>00000160</code> — ??_C@_07PCHH@Unknown?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000168">
+            <code>00000168</code> — ??_C@_08FKFA@Provider?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000172">
+            <code>00000172</code> — ??_C@_07BPOH@version?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000017A">
+            <code>0000017A</code> — ??_C@_07PCHH@OldDrvs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000182">
+            <code>00000182</code> — ??_C@_0N@NONH@Manufacturer?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000190">
+            <code>00000190</code> — ??_C@_02PIFG@11?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000194">
+            <code>00000194</code> — ??_C@_0P@KHII@DefaultDestDir?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001A4">
+            <code>000001A4</code> — ??_C@_0BA@CKAH@DestinationDirs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001B4">
+            <code>000001B4</code> — ??_C@_07FFBB@Strings?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001BC">
+            <code>000001BC</code> — ??_C@_06JCDB@?$CF?$CF?$CFs?$CF?$CF?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001C4">
+            <code>000001C4</code> — ??_C@_04JBBA@?$CC?$CFs?$CC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001CA">
+            <code>000001CA</code> — ??_C@_0N@HPDF@Copyfiles?4?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001D8">
+            <code>000001D8</code> — ??_C@_0O@EACA@Updateinis?4?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001E6">
+            <code>000001E6</code> — ??_C@_09IFNE@AddReg?4?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001F0">
+            <code>000001F0</code> — ??_C@_0P@NLGL@?0?5Copyfiles?4?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000200">
+            <code>00000200</code> — ??_C@_0BA@BIE@?0?5Updateinis?4?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000210">
+            <code>00000210</code> — ??_C@_0M@NCCE@?0?5AddReg?4?$CFs?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000021C">
+            <code>0000021C</code> — ??_C@_09PGDB@CopyFiles?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000226">
+            <code>00000226</code> — ??_C@_0L@POOM@Updateinis?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000232">
+            <code>00000232</code> — ??_C@_06IKJC@AddReg?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000023A">
+            <code>0000023A</code> — ??_C@_08LOIE@Software?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000244">
+            <code>00000244</code> — ??_C@_01FBAH@1?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000246">
+            <code>00000246</code> — ??_C@_0FA@NMKJ@Software?2Microsoft?2Active?5Setup?2@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000296">
+            <code>00000296</code> — ??_C@_07MNFD@Version?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000029E">
+            <code>0000029E</code> — ??_C@_0M@ENIL@?$CFu?0?$CFu?0?$CFu?0?$CFu?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002AA">
+            <code>000002AA</code> — ??_C@_08FNF@StubPath?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002B4">
+            <code>000002B4</code> — ??_C@_0N@EJIA@rundll32?4exe?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002C2">
+            <code>000002C2</code> — ??_C@_0CK@HHEC@shell32?4dll?0Control_RunDLL?5mmsys@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002EC">
+            <code>000002EC</code> — ??_C@_01FCOA@?5?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002EE">
+            <code>000002EE</code> — ??_C@_0O@IKHH@EnumPropPages?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002FC">
+            <code>000002FC</code> — ??_C@_09BHKM@DevLoader?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000306">
+            <code>00000306</code> — ??_C@_06LCIG@Driver?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000030E">
+            <code>0000030E</code> — ??_C@_0L@MNFF@NTMPDriver?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000031A">
+            <code>0000031A</code> — ??_C@_0BC@NLBA@AssociatedFilters?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000032C">
+            <code>0000032C</code> — ??_C@_04BKDP@FDMA?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000332">
+            <code>00000332</code> — ??_C@_0BD@IFEJ@UnretainedSettings?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000346">
+            <code>00000346</code> — ??_C@_0L@CMJP@SubClasses?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000352">
+            <code>00000352</code> — ??_C@_0L@OEGH@NewDrivers?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000035E">
+            <code>0000035E</code> — ??_C@_00A@?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000360">
+            <code>00000360</code> — ??_C@_0M@CAHD@AlsoInstall?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000036C">
+            <code>0000036C</code> — ??_C@_01KMAE@?0?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000036E">
+            <code>0000036E</code> — ??_C@_02NDAK@?5?$CI?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000372">
+            <code>00000372</code> — ??_C@_02HJJN@?5?$CJ?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000376">
+            <code>00000376</code> — ??_C@_0BL@DMCO@SetupPreferredAudioDevices?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000392">
+            <code>00000392</code> — ??_C@_0DA@KCKP@Software?2Microsoft?2Windows?2Curre@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003C2">
+            <code>000003C2</code> — ??_C@_07HFM@HWSetup?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003CA">
+            <code>000003CA</code> — ??_C@_03IGFG@?5?0?7?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003CE">
+            <code>000003CE</code> — ??_C@_09BBGE@?2INFBACK?2?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003D8">
+            <code>000003D8</code> — ??_C@_07NKML@?2OTHER?2?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003E0">
+            <code>000003E0</code> — ??_C@_07IHKF@strings?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003E8">
+            <code>000003E8</code> — ??_C@_01BJG@?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003EA">
+            <code>000003EA</code> — ??_C@_0BD@FGDD@?$CFs?4?$CFu?4?$CFu?4?$CFu?4?$CFu?4?$CFlu?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003FE">
+            <code>000003FE</code> — ??_C@_07PMOP@drivers?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000406">
+            <code>00000406</code> — ??_C@_0M@BKAA@update?4list?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000412">
+            <code>00000412</code> — ??_C@_0L@DFB@KnownFiles?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000041E">
+            <code>0000041E</code> — ??_C@_07IOPL@Default?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000426">
+            <code>00000426</code> — ??_C@_04FFPF@HKCR?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000042C">
+            <code>0000042C</code> — ??_C@_04BA@HKCU?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000432">
+            <code>00000432</code> — ??_C@_04CJNJ@HKLM?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000438">
+            <code>00000438</code> — ??_C@_03DNGK@HKU?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000043C">
+            <code>0000043C</code> — ??_C@_04FGBC@HKCC?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000442">
+            <code>00000442</code> — ??_C@_03GIIP@HKR?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000446">
+            <code>00000446</code> — ??_C@_02GIEM@?0?5?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000044A">
+            <code>0000044A</code> — ??_C@_0BA@JMOP@KnownRegEntries?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000045A">
+            <code>0000045A</code> — ??_C@_0L@KAFL@DriverDesc?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000466">
+            <code>00000466</code> — ??_C@_0L@PKHD@InfSection?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000472">
+            <code>00000472</code> — ??_C@_07EGBM@InfPath?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000047A">
+            <code>0000047A</code> — ??_C@_0M@HCOO@drivers?4ddb?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000486">
+            <code>00000486</code> — ??_C@_04JDOB@?$CFs?6?6?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000048C">
+            <code>0000048C</code> — ??_C@_04GNEN@?4VXD?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000492">
+            <code>00000492</code> — ??_C@_04JNDO@?4SYS?$AA@
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C50">
+            <code>00000C50</code> — _ghInstance
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C52">
+            <code>00000C52</code> — _IsMaintenanceMode
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000C54">
+            <code>00000C54</code> — _SkipCopyIfFilePresent
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

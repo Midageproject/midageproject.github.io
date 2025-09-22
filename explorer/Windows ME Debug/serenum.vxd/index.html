@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>SERENUM — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../enum.c</li>
+      
+        <li>../serenum.asm</li>
+      
+        <li>../sysctrl.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LDATA @ 000000D0
+      </summary>
+      <ul>
+        
+          <li data-segment="000000D0" data-offset="00000000">
+            <code>00000000</code> — SERENUM_DDB
+            
+          </li>
+        
+          <li data-segment="000000D0" data-offset="00000050">
+            <code>00000050</code> — _SERENUM_GetVersion
+            
+          </li>
+        
+          <li data-segment="000000D0" data-offset="00000054">
+            <code>00000054</code> — SERENUM_Control
+            
+          </li>
+        
+          <li data-segment="000000D0" data-offset="00000064">
+            <code>00000064</code> — _LCODE__Debug_Printf_Service
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: PNP @ 00000FB0
+      </summary>
+      <ul>
+        
+          <li data-segment="00000FB0" data-offset="00000000">
+            <code>00000000</code> — _strcmpi@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000053">
+            <code>00000053</code> — _StringSubst@16
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000007F">
+            <code>0000007F</code> — _AddOtherInstalledDevices
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000239">
+            <code>00000239</code> — _SafeCloseComm
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000026A">
+            <code>0000026A</code> — _AbortEnumeration
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000002C4">
+            <code>000002C4</code> — _RestartEnumeration
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000037A">
+            <code>0000037A</code> — _fixpt_to_ascii@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000003E1">
+            <code>000003E1</code> — _get_dev_OtherID@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000418">
+            <code>00000418</code> — _htoi@4
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000452">
+            <code>00000452</code> — _get_dev_pnprev@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000747">
+            <code>00000747</code> — _get_dev_name@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000007F5">
+            <code>000007F5</code> — _get_dev_serialno@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000877">
+            <code>00000877</code> — _get_dev_class@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000008C9">
+            <code>000008C9</code> — _get_dev_compid@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000091B">
+            <code>0000091B</code> — _get_dev_desc@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000096D">
+            <code>0000096D</code> — _BuildDevNode
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000E4D">
+            <code>00000E4D</code> — _SerEnumCollectPhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00000FB6">
+            <code>00000FB6</code> — _ReadEvent
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001003">
+            <code>00001003</code> — _SerEnumSetup1stAPhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000107B">
+            <code>0000107B</code> — _SerEnumSetup1stBPhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001094">
+            <code>00001094</code> — _SerEnumWait1stPhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000010C0">
+            <code>000010C0</code> — _SerEnumSetup2ndPhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000010F2">
+            <code>000010F2</code> — _SerEnumWait2ndPhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000112A">
+            <code>0000112A</code> — _SerEnumFailurePhase
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001142">
+            <code>00001142</code> — _GenericTimeOutHandler
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000011CC">
+            <code>000011CC</code> — _ArmTimeOutHandler
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001219">
+            <code>00001219</code> — _FindCOM
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001406">
+            <code>00001406</code> — _SerEnumerator
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000150E">
+            <code>0000150E</code> — _NewEnumerator
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001522">
+            <code>00001522</code> — _SERENUM_NewDevNode@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001542">
+            <code>00001542</code> — SERENUM_GetVersion
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001551">
+            <code>00001551</code> — _StringAppend@8
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001580">
+            <code>00001580</code> — _CCODE__RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001588">
+            <code>00001588</code> — _CCODE__CONFIGMG_Create_DevNode
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001590">
+            <code>00001590</code> — _CCODE__RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001598">
+            <code>00001598</code> — _CCODE__CONFIGMG_Get_Device_ID
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015A0">
+            <code>000015A0</code> — _CCODE__RegEnumKey
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015A8">
+            <code>000015A8</code> — _CCODE__RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015B0">
+            <code>000015B0</code> — _CCODE__CONFIGMG_Remove_Unmarked_Children
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015B8">
+            <code>000015B8</code> — _CCODE__VCOMM_CloseComm
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015C0">
+            <code>000015C0</code> — _CCODE_Call_Restricted_Event@24
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015EC">
+            <code>000015EC</code> — _CCODE_Cancel_Time_Out@4
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000015FC">
+            <code>000015FC</code> — _CCODE_Get_Last_Updated_System_Time
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001604">
+            <code>00001604</code> — _CCODE__VCOMM_ClearCommError
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000160C">
+            <code>0000160C</code> — _CCODE__VCOMM_PurgeComm
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001614">
+            <code>00001614</code> — _CCODE__VCOMM_EscapeCommFunction
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000161C">
+            <code>0000161C</code> — _CCODE__VCOMM_SetCommState
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001624">
+            <code>00001624</code> — _CCODE__CONFIGMG_Write_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000162C">
+            <code>0000162C</code> — _CCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001634">
+            <code>00001634</code> — _CCODE__lstrlen
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000163C">
+            <code>0000163C</code> — _CCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001650">
+            <code>00001650</code> — _CCODE__CONFIGMG_Call_At_Appy_Time
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001658">
+            <code>00001658</code> — _CCODE__VCOMM_ReadComm
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001660">
+            <code>00001660</code> — _CCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001668">
+            <code>00001668</code> — _CCODE__VCOMM_GetModemStatus
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001670">
+            <code>00001670</code> — _CCODE__VCOMM_SetReadCallBack
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001678">
+            <code>00001678</code> — _CCODE_Set_Global_Time_Out@12
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001694">
+            <code>00001694</code> — _CCODE__CONFIGMG_Reset_Children_Marks
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="0000169C">
+            <code>0000169C</code> — _CCODE__VCOMM_SetupComm
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016A4">
+            <code>000016A4</code> — _CCODE__CONFIGMG_Remove_SubTree
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016AC">
+            <code>000016AC</code> — _CCODE__CONFIGMG_Get_Sibling
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016B4">
+            <code>000016B4</code> — _CCODE__CONFIGMG_Query_Remove_SubTree
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016BC">
+            <code>000016BC</code> — _CCODE__CONFIGMG_Get_Child
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016C4">
+            <code>000016C4</code> — _CCODE__VCOMM_OpenComm
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016CC">
+            <code>000016CC</code> — _CCODE_Get_Sys_VM_Handle
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016D8">
+            <code>000016D8</code> — _CCODE__lstrcpyn
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016E0">
+            <code>000016E0</code> — _CCODE__CONFIGMG_Read_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016E8">
+            <code>000016E8</code> — _CCODE_VMM_GetSystemInitState
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016F0">
+            <code>000016F0</code> — _CCODE__CONFIGMG_Set_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="000016F8">
+            <code>000016F8</code> — _CCODE__CONFIGMG_Get_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00000FB0" data-offset="00001700">
+            <code>00001700</code> — _CCODE__CONFIGMG_Register_Enumerator
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _PDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _cszEnumSerEnum
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — _ctoTimeOutArray
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

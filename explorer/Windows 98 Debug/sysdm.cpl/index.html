@@ -1,0 +1,3867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>SYSDM — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../asd.c</li>
+      
+        <li>assistance.C</li>
+      
+        <li>../browse.c</li>
+      
+        <li>changes.c</li>
+      
+        <li>../classgen.c</li>
+      
+        <li>../compprop.c</li>
+      
+        <li>../cpuid.asm</li>
+      
+        <li>ctype.asm</li>
+      
+        <li>../../../../../dev/ddk/inc/configmg.h</li>
+      
+        <li>../devdrv.c</li>
+      
+        <li>../devgen.c</li>
+      
+        <li>device.H</li>
+      
+        <li>../devres.c</li>
+      
+        <li>../diskinfo.c</li>
+      
+        <li>../dmadddev.c</li>
+      
+        <li>../dmaddid.c</li>
+      
+        <li>../dmaskcfg.c</li>
+      
+        <li>../dm.asm</li>
+      
+        <li>../dmconfig.c</li>
+      
+        <li>../dmconfli.c</li>
+      
+        <li>../dmdetect.c</li>
+      
+        <li>../dmprint.c</li>
+      
+        <li>../dmprop.c</li>
+      
+        <li>../dmreenum.c</li>
+      
+        <li>../dmremove.c</li>
+      
+        <li>../dmremrom.c</li>
+      
+        <li>../dmsetup.c</li>
+      
+        <li>../dmtree.c</li>
+      
+        <li>../dmundock.c</li>
+      
+        <li>../drvadv.c</li>
+      
+        <li>../drvinf.asm</li>
+      
+        <li>../drvintro.c</li>
+      
+        <li>../drvwiz.c</li>
+      
+        <li>../dwep.c</li>
+      
+        <li>../dynapage.asm</li>
+      
+        <li>../fptdlg.c</li>
+      
+        <li>../fscompat.c</li>
+      
+        <li>../fsopt.c</li>
+      
+        <li>../grfopt.c</li>
+      
+        <li>hardware.c</li>
+      
+        <li>hmemcmp.asm</li>
+      
+        <li>hmemcpy.asm</li>
+      
+        <li>hmemset.asm</li>
+      
+        <li>../inetdrv.c</li>
+      
+        <li>../irqcnflt.c</li>
+      
+        <li>../joeusr.c</li>
+      
+        <li>../libentry.asm</li>
+      
+        <li>lmul.asm</li>
+      
+        <li>../midebug.c</li>
+      
+        <li>../miscutil.c</li>
+      
+        <li>../mru.c</li>
+      
+        <li>../mystrtol.asm</li>
+      
+        <li>../ndwanaly.c</li>
+      
+        <li>../ndwask.c</li>
+      
+        <li>../ndwclass.c</li>
+      
+        <li>../ndwconfl.c</li>
+      
+        <li>../ndwdet.c</li>
+      
+        <li>../ndwfail.c</li>
+      
+        <li>../ndwfin.c</li>
+      
+        <li>../ndwintro.c</li>
+      
+        <li>../ndwnores.c</li>
+      
+        <li>../ndwpnp.c</li>
+      
+        <li>../ndwprob.c</li>
+      
+        <li>../ndwprog.c</li>
+      
+        <li>../ndwsel.c</li>
+      
+        <li>../ndwshowr.c</li>
+      
+        <li>../newdev.c</li>
+      
+        <li>../pcmcia.c</li>
+      
+        <li>../perfpage.c</li>
+      
+        <li>../profile.c</li>
+      
+        <li>../proputil.c</li>
+      
+        <li>../selclass.c</li>
+      
+        <li>../setupapi.c</li>
+      
+        <li>strcat.asm</li>
+      
+        <li>strchr.asm</li>
+      
+        <li>strcpy.asm</li>
+      
+        <li>strlen.asm</li>
+      
+        <li>strnicmp.asm</li>
+      
+        <li>strrchr.asm</li>
+      
+        <li>strstr.asm</li>
+      
+        <li>strtok.asm</li>
+      
+        <li>strupr.asm</li>
+      
+        <li>../sysdm.c</li>
+      
+        <li>sysdm.c</li>
+      
+        <li>SYSDM.C</li>
+      
+        <li>../sysset.c</li>
+      
+        <li>uldiv.asm</li>
+      
+        <li>../update.c</li>
+      
+        <li>../verutil.c</li>
+      
+        <li>../virtmem.c</li>
+      
+        <li>Windows.H</li>
+      
+        <li>WINDOWS.H</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _TEXT @ 00000F10
+      </summary>
+      <ul>
+        
+          <li data-segment="00000F10" data-offset="00000000">
+            <code>00000000</code> — LibEntry
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000021">
+            <code>00000021</code> — int1
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000024">
+            <code>00000024</code> — Mystrtoul
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000030">
+            <code>00000030</code> — Mystrtol
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000015E">
+            <code>0000015E</code> — GetPagerInfo
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000019E">
+            <code>0000019E</code> — GetCPUIDFamily
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000001CC">
+            <code>000001CC</code> — GetCPUID
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000208">
+            <code>00000208</code> — cx_r
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000021B">
+            <code>0000021B</code> — cx_w
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000261">
+            <code>00000261</code> — IsDrivePmode
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000002FE">
+            <code>000002FE</code> — LibMain
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000037A">
+            <code>0000037A</code> — WEP
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000393">
+            <code>00000393</code> — DllEntryPoint
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000003C9">
+            <code>000003C9</code> — CPlApplet
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000007F0">
+            <code>000007F0</code> — SETCLEARBITMAP
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00000890">
+            <code>00000890</code> — POLICYAPPROVAL
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000090D">
+            <code>0000090D</code> — SYSTEMINFODLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00001076">
+            <code>00001076</code> — ADDJOEPAGE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00001103">
+            <code>00001103</code> — REMOVEJOEPAGE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00001138">
+            <code>00001138</code> — JOEUSERPROPERTIES
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00001260">
+            <code>00001260</code> — IDENTIFYCPUTYPE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00001BD8">
+            <code>00001BD8</code> — PHONESUPPORTPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00001DB1">
+            <code>00001DB1</code> — CYRIX_CPU_TYPE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002079">
+            <code>00002079</code> — RESMESSAGEBOX
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000020C6">
+            <code>000020C6</code> — UPDATEFLAG
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000020F2">
+            <code>000020F2</code> — GETCOMPATOPTIONS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000021EB">
+            <code>000021EB</code> — SETCOMPATOPTIONS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000022BE">
+            <code>000022BE</code> — INITCOMPATOPTIONS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002323">
+            <code>00002323</code> — COMMITCOMPATOPTIONS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002385">
+            <code>00002385</code> — UPDATEOPTIONFROMCHECKBOX
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000023F1">
+            <code>000023F1</code> — FSCOMPATDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002770">
+            <code>00002770</code> — _PerfPage_AddProblem
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000027D3">
+            <code>000027D3</code> — INITIOSAPI
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000027ED">
+            <code>000027ED</code> — GETCOMPFLAGS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000281E">
+            <code>0000281E</code> — GETBADDRIVERINFO
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002883">
+            <code>00002883</code> — INITFSPERFINFO
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002A77">
+            <code>00002A77</code> — PERF_SETDETAILSBTN
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002AC0">
+            <code>00002AC0</code> — PERF_INITPAGE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002DFB">
+            <code>00002DFB</code> — DOTOPICHELP
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002E54">
+            <code>00002E54</code> — PERF_DLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002F70">
+            <code>00002F70</code> — PERF_DOVIRTMEMSETTINGS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00002FBB">
+            <code>00002FBB</code> — PERF_DOFILESYSSETTINGS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000030A3">
+            <code>000030A3</code> — PERF_DOGRAPHICSSETTINGS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000030EE">
+            <code>000030EE</code> — PERFWARNMSGBOX
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000315E">
+            <code>0000315E</code> — DisplayRealModeWarning
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003200">
+            <code>00003200</code> — FIRSTBOOTDOSPAGEWARN
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000331E">
+            <code>0000331E</code> — STRTOUINT
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003375">
+            <code>00003375</code> — GETDUALSWITCH
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000034AF">
+            <code>000034AF</code> — SETDUALSWITCH
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003622">
+            <code>00003622</code> — GETRAWACCELERATIONVALUES
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003657">
+            <code>00003657</code> — SETRAWACCELERATIONVALUES
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000368C">
+            <code>0000368C</code> — DESCRIBERAWACCELERATIONVALUES
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003709">
+            <code>00003709</code> — GETACCELERATIONINFO
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003762">
+            <code>00003762</code> — COMPUTERAWACCELERATION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000037BB">
+            <code>000037BB</code> — SETACCELERATION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000037DA">
+            <code>000037DA</code> — DESCRIBEACCELERATION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003802">
+            <code>00003802</code> — UPDATEGRAPHICSTEXT
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003831">
+            <code>00003831</code> — INITGRAPHICSOPTIONS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000038CC">
+            <code>000038CC</code> — COMMITGRAPHICSOPTIONS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000038FF">
+            <code>000038FF</code> — GRAPHICSDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003DED">
+            <code>00003DED</code> — LOCATEMOVEDDEVNODE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003EAB">
+            <code>00003EAB</code> — TREE_GETITEMDATA
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003EEB">
+            <code>00003EEB</code> — GETCURLPDI
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003F59">
+            <code>00003F59</code> — GETCURLPCI
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00003FC7">
+            <code>00003FC7</code> — WALKHARDWARETREE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000421E">
+            <code>0000421E</code> — BHIDEDEVICE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000444F">
+            <code>0000444F</code> — ADDCHILDRENDEVICESTOTREE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000467D">
+            <code>0000467D</code> — INITDEVICETREE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00004DD7">
+            <code>00004DD7</code> — REFRESHUI
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00004E30">
+            <code>00004E30</code> — DM_ONCONTEXTMENU
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00004FBD">
+            <code>00004FBD</code> — DMREENUMERATE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000050BE">
+            <code>000050BE</code> — DEVMGRDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00005E5A">
+            <code>00005E5A</code> — CHECKFORMINWINDOWS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00005E82">
+            <code>00005E82</code> — GETREGISTRYVIEWTYPE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00005F3F">
+            <code>00005F3F</code> — SETREGISTRYVIEWTYPE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000062F9">
+            <code>000062F9</code> — ISPCMCIADEVICE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000636E">
+            <code>0000636E</code> — DEVINSTALLDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00006B94">
+            <code>00006B94</code> — AREWEDOCKED
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00006C6E">
+            <code>00006C6E</code> — GETENUMERATOR
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00006D05">
+            <code>00006D05</code> — ISSPANNINGBUS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00006D76">
+            <code>00006D76</code> — ISCARDBUS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00006E84">
+            <code>00006E84</code> — DMCONFIGUREDEVNODE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000077A9">
+            <code>000077A9</code> — ISBADHARDWARE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00007814">
+            <code>00007814</code> — BDEVICEHASDMA
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000789E">
+            <code>0000789E</code> — BISBADISADEVICE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000079AD">
+            <code>000079AD</code> — BSKIPPRESETUP
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00007E50">
+            <code>00007E50</code> — CLEANUPIDE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00007ED4">
+            <code>00007ED4</code> — DEVICEMANAGERLOGINIT
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00007F50">
+            <code>00007F50</code> — DEVICEMANAGERENDLOGGING
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00007F89">
+            <code>00007F89</code> — DMFirstTimeSetup
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000807B">
+            <code>0000807B</code> — DMPrivateProblem
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008160">
+            <code>00008160</code> — INSTALLUNHANDLEDPROBLEM
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000081C7">
+            <code>000081C7</code> — LOGPROBLEMHANDLERPROLOG
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000082B6">
+            <code>000082B6</code> — SETREDETECTFLAGS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000847D">
+            <code>0000847D</code> — TROUBLESHOOT
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000848F">
+            <code>0000848F</code> — RESETSOURCEPATH
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008587">
+            <code>00008587</code> — CLEANUPOLDINFS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000085E4">
+            <code>000085E4</code> — ENUMWNDPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000863D">
+            <code>0000863D</code> — FINDINFOBARPROGRESSWINDOW
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000869E">
+            <code>0000869E</code> — CLEANUPBIOSCIDS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000087A4">
+            <code>000087A4</code> — REGDELETEKEYRECURSIVE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008857">
+            <code>00008857</code> — CLEANUPPCMCIADRIVERS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="000089E7">
+            <code>000089E7</code> — CLEANUPPCMCIA
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008BC9">
+            <code>00008BC9</code> — CLEANUPISAPNP
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008D3B">
+            <code>00008D3B</code> — GETNUMBEROFDEVICES
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008EE4">
+            <code>00008EE4</code> — ESTIMATEDEVICESETUPTIME
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00008FBA">
+            <code>00008FBA</code> — DMSetupDevNode
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00009D2F">
+            <code>00009D2F</code> — IREGRESTORE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="00009D60">
+            <code>00009D60</code> — REGRESTOREDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A026">
+            <code>0000A026</code> — REGFLUSHDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A319">
+            <code>0000A319</code> — REGREBOOTDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A4A9">
+            <code>0000A4A9</code> — REGNOBCKUPDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A66A">
+            <code>0000A66A</code> — DMRegistryError
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A72F">
+            <code>0000A72F</code> — DMProcessMWD
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A8CE">
+            <code>0000A8CE</code> — REMOVEFROMOTHERPROFILES
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000A9FA">
+            <code>0000A9FA</code> — PROCESSDETECTRESULTS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000AD7A">
+            <code>0000AD7A</code> — REDETECTCB
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000AECC">
+            <code>0000AECC</code> — REDETECTDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B0B9">
+            <code>0000B0B9</code> — DMRedetect
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B2EF">
+            <code>0000B2EF</code> — DEVUPGRADEDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B3B9">
+            <code>0000B3B9</code> — REMOVEDEVNODE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B442">
+            <code>0000B442</code> — COPYBOOTTOFORCEDCONFIG
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B5E1">
+            <code>0000B5E1</code> — RESTARTAFTERRUNONCE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B789">
+            <code>0000B789</code> — DETECTCB
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000B8BB">
+            <code>0000B8BB</code> — INITDETECTIONDLG
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000BA60">
+            <code>0000BA60</code> — DETECTIONDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000BAFA">
+            <code>0000BAFA</code> — SHOWDETECTIONERROR
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000BB82">
+            <code>0000BB82</code> — DMOpenDetection
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000BE67">
+            <code>0000BE67</code> — DMCloseDetection
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000BF0D">
+            <code>0000BF0D</code> — DMRunDetection
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000C060">
+            <code>0000C060</code> — DMIsInstallMediaReady
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000C41C">
+            <code>0000C41C</code> — ISPRECOPIEDCLASS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000C50A">
+            <code>0000C50A</code> — BASECLASSLIST
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000C57E">
+            <code>0000C57E</code> — DMIsInstallMediaNeeded
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000C8B4">
+            <code>0000C8B4</code> — FIRSTPROCESSTREEDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000CB8C">
+            <code>0000CB8C</code> — DPMI_GETFREEMEMORYINFORMATION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000CBC4">
+            <code>0000CBC4</code> — SHOWVALUE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000CC92">
+            <code>0000CC92</code> — SELECTDRIVEINCOMBO
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000CD09">
+            <code>0000CD09</code> — HANDLEUISWITCHCHANGE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000CE3D">
+            <code>0000CE3D</code> — VIRTUALMEMORYDLGPROC
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000D744">
+            <code>0000D744</code> — ENABLECONTROLS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000D858">
+            <code>0000D858</code> — VALIDATENUMBERS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000D9E9">
+            <code>0000D9E9</code> — PROCESSOKCLICK
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DBB7">
+            <code>0000DBB7</code> — DISSUADEUSER
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DD7C">
+            <code>0000DD7C</code> — GETPRIVATEPROFILELONG
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DE10">
+            <code>0000DE10</code> — VIRTMEM_RECOMMENDEDDRIVE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DE63">
+            <code>0000DE63</code> — VIRTMEM_RECOMMENDEDMINSIZE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DEB4">
+            <code>0000DEB4</code> — VIRTMEM_RECOMMENDEDMAXSIZE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DEC9">
+            <code>0000DEC9</code> — VIRTMEM_POTENTIALMAXSIZE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DEF8">
+            <code>0000DEF8</code> — VIRTMEM_PAGING
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000DF40">
+            <code>0000DF40</code> — VIRTMEM_ISREALMODECOMPRESSED
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E01A">
+            <code>0000E01A</code> — VIRTMEM_ISDRIVEOK
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E086">
+            <code>0000E086</code> — GETCURRENTPAGINGFILE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E12C">
+            <code>0000E12C</code> — VIRTMEM_CURRENTDRIVE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E185">
+            <code>0000E185</code> — VIRTMEM_CURRENTMAXSIZE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E1DA">
+            <code>0000E1DA</code> — VIRTMEM_ISREALLYNOLIMIT
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E20D">
+            <code>0000E20D</code> — VIRTMEM_CURRENTMINSIZE
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E25F">
+            <code>0000E25F</code> — REALLOCINISECTION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E2F6">
+            <code>0000E2F6</code> — FREEINISECTION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E313">
+            <code>0000E313</code> — LOADINISECTION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E396">
+            <code>0000E396</code> — APPENDINISECTION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E420">
+            <code>0000E420</code> — WRITEINISECTION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E448">
+            <code>0000E448</code> — SCHEDULEFILEDELETION
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E4F0">
+            <code>0000E4F0</code> — CLEANOLDSETTINGS
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E569">
+            <code>0000E569</code> — VIRTMEM_SETNEW
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E74A">
+            <code>0000E74A</code> — __aFulmul
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E74A">
+            <code>0000E74A</code> — __aFlmul
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E77C">
+            <code>0000E77C</code> — __aFuldiv
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E7DC">
+            <code>0000E7DC</code> — __fmemcmp
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E838">
+            <code>0000E838</code> — __fmemcpy
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E896">
+            <code>0000E896</code> — __fstrchr
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E8C8">
+            <code>0000E8C8</code> — __fstrrchr
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E8FC">
+            <code>0000E8FC</code> — __fstrupr
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E920">
+            <code>0000E920</code> — __fstrlen
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E93A">
+            <code>0000E93A</code> — __fstrcpy
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E976">
+            <code>0000E976</code> — __fstrcat
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000E9CA">
+            <code>0000E9CA</code> — __fmemset
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EA12">
+            <code>0000EA12</code> — __fstrtok
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EABA">
+            <code>0000EABA</code> — __fstrstr
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EB26">
+            <code>0000EB26</code> — __fstrnicmp
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EB7E">
+            <code>0000EB7E</code> — INTVAL
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EBCE">
+            <code>0000EBCE</code> — ISSBSSETUP
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EC56">
+            <code>0000EC56</code> — GETINISECTIONDATA
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EC6E">
+            <code>0000EC6E</code> — GETINISECTIONINSERTPTR
+            
+          </li>
+        
+          <li data-segment="00000F10" data-offset="0000EC86">
+            <code>0000EC86</code> — GETINISECTIONFREEPTR
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: DM_TEXT @ 00000F50
+      </summary>
+      <ul>
+        
+          <li data-segment="00000F50" data-offset="00000004">
+            <code>00000004</code> — dm_ThunkConnect16
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _COMPPROP_TEXT @ 000019A0
+      </summary>
+      <ul>
+        
+          <li data-segment="000019A0" data-offset="00000590">
+            <code>00000590</code> — GETALLOCVALUE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000006CB">
+            <code>000006CB</code> — SETALLOCVALUE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000007B3">
+            <code>000007B3</code> — BISIRQSHAREABLE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000007E6">
+            <code>000007E6</code> — BVALIDATERESOURCEVAL
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00000ADF">
+            <code>00000ADF</code> — BCONFLICTWARN
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00000B58">
+            <code>00000B58</code> — CLEAREDITRESCONFLICTLIST
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00000C56">
+            <code>00000C56</code> — UPDATEEDITRESCONFLICTLIST
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00000EA6">
+            <code>00000EA6</code> — MAKEINSTANCESTRING
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00000F7B">
+            <code>00000F7B</code> — UPDATEMFCHILDLIST
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00001201">
+            <code>00001201</code> — INITEDITRESDLG
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00001589">
+            <code>00001589</code> — EDITRESOURCEDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00001948">
+            <code>00001948</code> — CONVERTEDITTEXT
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000019F5">
+            <code>000019F5</code> — BALLREADYRESERVED
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00001AD5">
+            <code>00001AD5</code> — VALIDATEEDITRANGELC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00002145">
+            <code>00002145</code> — VALIDATENEWVAL
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000022A4">
+            <code>000022A4</code> — EDITRANGEDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00002B29">
+            <code>00002B29</code> — UNFORMATRESSTRING
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00002D74">
+            <code>00002D74</code> — FORMATRESSTRING
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00002E1D">
+            <code>00002E1D</code> — FORMATSINGLERESSTRING
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00002F37">
+            <code>00002F37</code> — FORMATDUALRESSTRING
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00003089">
+            <code>00003089</code> — INSERTRESOURCE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000320B">
+            <code>0000320B</code> — UPDATESELECTION
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000033F1">
+            <code>000033F1</code> — INSERTCOMPUTERRESOURCE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00003488">
+            <code>00003488</code> — INITDEVICERESOURCELIST
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000357B">
+            <code>0000357B</code> — ADDNONDEVICERESOURCES
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00003781">
+            <code>00003781</code> — INITRESOURCELIST
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000397B">
+            <code>0000397B</code> — DMWALKTHETREE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00003A2F">
+            <code>00003A2F</code> — CHECKFORRESOURCES
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00003E19">
+            <code>00003E19</code> — HASRESOURCECONFLICT
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00003F45">
+            <code>00003F45</code> — BUILDDEVICEINFO
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000413C">
+            <code>0000413C</code> — GETTOPLEVELMFPARENT
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000420B">
+            <code>0000420B</code> — CHECKFORDEVCONFLICT
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000467E">
+            <code>0000467E</code> — CHECKFORCONFLICTDEVWALK
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000471E">
+            <code>0000471E</code> — NEWCHECKFORCONFLICTDEVWALK
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000479A">
+            <code>0000479A</code> — RESOURCECONFLICTWARNDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00004B14">
+            <code>00004B14</code> — BGETDEVALLOCCONFIG
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00004D8B">
+            <code>00004D8B</code> — GETLISTVIEWITEMDATA
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00004DD7">
+            <code>00004DD7</code> — SELECTALLLISTVIEWITEMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00004E2F">
+            <code>00004E2F</code> — BGETDEVICEFLAGS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00004EA5">
+            <code>00004EA5</code> — BSETCLEARDEVICEFLAGS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00004F8E">
+            <code>00004F8E</code> — BISDEVDISABLED
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000501B">
+            <code>0000501B</code> — _STRSTR
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000050A5">
+            <code>000050A5</code> — _STRSTRI
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000512F">
+            <code>0000512F</code> — BISSPECIALMFDEVICE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00005187">
+            <code>00005187</code> — BISMULTIFUNCTIONCHILD
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000053BA">
+            <code>000053BA</code> — ADDDMPAGE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00005447">
+            <code>00005447</code> — DMCOMPUTERPROPERTIES
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00005511">
+            <code>00005511</code> — VIEWRESOURCESDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000570F">
+            <code>0000570F</code> — GETCHECKEDRESTYPE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00005781">
+            <code>00005781</code> — ENABLEMODIFYREMOVEBUTTONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000582D">
+            <code>0000582D</code> — RESERVERESOURCESDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000064D8">
+            <code>000064D8</code> — BGETDEVCLASSNAMES
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000066A0">
+            <code>000066A0</code> — MAKESUREDEVNODEISREADY
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000673A">
+            <code>0000673A</code> — IRQ_RESOLVECONFLICT
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00006A0F">
+            <code>00006A0F</code> — SHOULDDISABLEDEVICE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00006A98">
+            <code>00006A98</code> — IRQ_OPTIONAL
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00006B32">
+            <code>00006B32</code> — IRQ_SETFORCEDCONFIG
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00006D99">
+            <code>00006D99</code> — FINDCONFLICTINGDEVNODE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00006DE6">
+            <code>00006DE6</code> — CHECKFORRESCONFLICT
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000723E">
+            <code>0000723E</code> — ISTRUE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00007283">
+            <code>00007283</code> — DISPDEVNODEKEY
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000074CB">
+            <code>000074CB</code> — SQUIRTYDWORD
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000074FE">
+            <code>000074FE</code> — READREGDWORD
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000755A">
+            <code>0000755A</code> — WRITEREGDWORD
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000075A7">
+            <code>000075A7</code> — FINDCURRENTDISKPROFILEINDEX
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000763E">
+            <code>0000763E</code> — FINDCURRENTREADAHEADCUTOFF
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000076C8">
+            <code>000076C8</code> — INITDISKPERFOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000077A6">
+            <code>000077A6</code> — SETDISKPERFINDEX
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000078EF">
+            <code>000078EF</code> — SETREADAHEADCUTOFF
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000793E">
+            <code>0000793E</code> — DISPLAYREADAHEADINFO
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000079CB">
+            <code>000079CB</code> — INITFLOPPYOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00007C17">
+            <code>00007C17</code> — COMMITFLOPPYOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00007E49">
+            <code>00007E49</code> — FLOPPYOPTIONSDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00007FE5">
+            <code>00007FE5</code> — GETWRITEBEHINDSTATE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008039">
+            <code>00008039</code> — SETWRITEBEHINDSTATE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000807F">
+            <code>0000807F</code> — INITREMOVABLEOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000080D7">
+            <code>000080D7</code> — COMMITREMOVABLEOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000080FD">
+            <code>000080FD</code> — REMOVABLEOPTIONSDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000082E0">
+            <code>000082E0</code> — INITFSOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000083CD">
+            <code>000083CD</code> — COMMITFSOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008437">
+            <code>00008437</code> — FSOPTIONSDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000865B">
+            <code>0000865B</code> — SQUIRTYRAWCDFSPARAMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000086D6">
+            <code>000086D6</code> — READRAWCDFSPARAMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000087BC">
+            <code>000087BC</code> — WRITERAWCDFSPARAMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000889B">
+            <code>0000889B</code> — GETCDFSSPINDATARATE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000088CB">
+            <code>000088CB</code> — FINDMATCHINGCDFSSPINRATE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000896B">
+            <code>0000896B</code> — GETCDFSSPINRATENAME
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000089A6">
+            <code>000089A6</code> — GETCDFSLRUSIZE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="000089D1">
+            <code>000089D1</code> — FINDMATCHINGCDFSLRUSIZE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008A92">
+            <code>00008A92</code> — GETCDFSPARAMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008B95">
+            <code>00008B95</code> — COMPUTECDFSPARAMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008CE8">
+            <code>00008CE8</code> — SETCDFSPARAMS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008D09">
+            <code>00008D09</code> — DISPLAYCDFSCACHEINFO
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008D6F">
+            <code>00008D6F</code> — INITCDFSOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008E24">
+            <code>00008E24</code> — COMMITCDFSOPTIONS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00008E4C">
+            <code>00008E4C</code> — CDFSOPTIONSDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00009111">
+            <code>00009111</code> — DISABLEDEVNODE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00009402">
+            <code>00009402</code> — RESIZEREMOVEDIALOG
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000951B">
+            <code>0000951B</code> — INITREMOVEDEIVCEDLG
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00009A6A">
+            <code>00009A6A</code> — REMOVEDEVICETREEWALK
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00009BD2">
+            <code>00009BD2</code> — REMOVEDEVICE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00009D2C">
+            <code>00009D2C</code> — REMOVEDEVICEDLGPROC
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="00009F06">
+            <code>00009F06</code> — __MiDebugMsg
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000A3D2">
+            <code>0000A3D2</code> — DEVNODEWALK
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000A4B0">
+            <code>0000A4B0</code> — SIMPLERESOURCEOVERLAP
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000AB23">
+            <code>0000AB23</code> — FULLRESOURCEOVERLAP
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000B124">
+            <code>0000B124</code> — ISVGA
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000B28A">
+            <code>0000B28A</code> — HAVEROOTDEVMATCH
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000B5E0">
+            <code>0000B5E0</code> — BISDEVINSYSCFGCLASS
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000B69B">
+            <code>0000B69B</code> — FIXREENUMERATEDEVNODE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000B92F">
+            <code>0000B92F</code> — CHECKFORRESOURCEMATCH
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000BC74">
+            <code>0000BC74</code> — DMPROCESSDUPLICATEDEVNODE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000BFAC">
+            <code>0000BFAC</code> — DMCHECKFORNORESOURCEDUPLICATE
+            
+          </li>
+        
+          <li data-segment="000019A0" data-offset="0000C301">
+            <code>0000C301</code> — ADDSELECTEDKEYBOARDID
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PROFILE_TEXT @ 00001D70
+      </summary>
+      <ul>
+        
+          <li data-segment="00001D70" data-offset="000000AC">
+            <code>000000AC</code> — DISPLAYERROR
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000000CC">
+            <code>000000CC</code> — WTOSZ
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000000ED">
+            <code>000000ED</code> — SZTOW
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00000156">
+            <code>00000156</code> — PROFILETOFRIENDLYNAME
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00000243">
+            <code>00000243</code> — GETCURRENTCONFIG
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000002D2">
+            <code>000002D2</code> — FILLINLISTBOX
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00000542">
+            <code>00000542</code> — DELETEITEM
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000007F9">
+            <code>000007F9</code> — GETLINE
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000008B5">
+            <code>000008B5</code> — MENUITEMTYPE
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00000AD5">
+            <code>00000AD5</code> — GETBOOTDRIVELETTER
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00000AE9">
+            <code>00000AE9</code> — FILLINCOMBO
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00000DC2">
+            <code>00000DC2</code> — GETCFGDLGPROC
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00001174">
+            <code>00001174</code> — RENAMEITEM
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000012F5">
+            <code>000012F5</code> — COPYITEM
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000014ED">
+            <code>000014ED</code> — DELETECONFIG
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000015FE">
+            <code>000015FE</code> — COMPUTEACTUALCFGS
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000017B6">
+            <code>000017B6</code> — COPYKEYTOKEYR
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00001978">
+            <code>00001978</code> — COPYCFGTOCFG
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00001BD0">
+            <code>00001BD0</code> — FLUSHACTIONS
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00001F35">
+            <code>00001F35</code> — PROFILEDLGPROC
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000026E8">
+            <code>000026E8</code> — COPYSPECIALMFVALUES
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000027BC">
+            <code>000027BC</code> — ISCLASSKNOWN
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="0000294C">
+            <code>0000294C</code> — WRITEMATCHINGDEVICEID
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00002A61">
+            <code>00002A61</code> — REMOVENOPOWERMGMTBIT
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00002AF2">
+            <code>00002AF2</code> — STARTDEVNODE
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00002B9F">
+            <code>00002B9F</code> — ISNEWDRIVER
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00002C26">
+            <code>00002C26</code> — ISWINDOWSINF
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00002E3A">
+            <code>00002E3A</code> — ENUMPRESENTDRIVERFILES
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003032">
+            <code>00003032</code> — BALLFILESPRESENT
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003172">
+            <code>00003172</code> — INSTALLDEV
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003823">
+            <code>00003823</code> — ASKFORCONFIGDLGPROC
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003AB0">
+            <code>00003AB0</code> — DMAskForConfig
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003BEF">
+            <code>00003BEF</code> — SAY
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003C27">
+            <code>00003C27</code> — TESTCSENABLED
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003C79">
+            <code>00003C79</code> — ENABLETHISCONFIG
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003CA3">
+            <code>00003CA3</code> — ENUMEACHCONFIG
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003DF0">
+            <code>00003DF0</code> — ISDISABLEDSOMEWHERE
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003EF3">
+            <code>00003EF3</code> — GETPCMCIAPERFSTAT
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00003F94">
+            <code>00003F94</code> — ENABLEPCMCIAEVERYWHERE
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00004034">
+            <code>00004034</code> — ENABLEPCMCIA_RUNDLL
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000041CA">
+            <code>000041CA</code> — WAITFORUNDOCKDLGPROC
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00004290">
+            <code>00004290</code> — ISFULLSCREENDOSBOXACTIVE
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="0000436D">
+            <code>0000436D</code> — DMWaitForUndock
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000044A5">
+            <code>000044A5</code> — REMOVEROMOKAYDLGPROC
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000045E8">
+            <code>000045E8</code> — DMRemoveRomOkay
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="000046A5">
+            <code>000046A5</code> — SDIINSTALLINTERFACEDEVICES
+            
+          </li>
+        
+          <li data-segment="00001D70" data-offset="00004794">
+            <code>00004794</code> — CONVERTDEVICEINFOTOSETUPDIINFO
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PROPERTIES_TEXT @ 00002540
+      </summary>
+      <ul>
+        
+          <li data-segment="00002540" data-offset="000000BA">
+            <code>000000BA</code> — DMShowDeviceProperties
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000176">
+            <code>00000176</code> — DMDOPROPERTIES
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000005E8">
+            <code>000005E8</code> — DEFAULTCLASSGENERALPROPERTIESDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000AF2">
+            <code>00000AF2</code> — ISPNPDEVICE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000B63">
+            <code>00000B63</code> — ISBIOSDEVICE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000BD4">
+            <code>00000BD4</code> — ISACPIDEVICE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000C45">
+            <code>00000C45</code> — ISPCIDEVICE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000CB6">
+            <code>00000CB6</code> — ISLEGACYDEVICE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000D27">
+            <code>00000D27</code> — ISROOTBUSDEVLOADER
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000F30">
+            <code>00000F30</code> — ISPCISTEERINGENABLED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00000FBE">
+            <code>00000FBE</code> — ISDMDISABLED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00001041">
+            <code>00001041</code> — ISDMNOTSTARTED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000109F">
+            <code>0000109F</code> — DMUNKNOWNRESOURCEGETINFNAME
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000110A">
+            <code>0000110A</code> — GETFAILDSTARTPROBLEMDESCRIPTION
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000011ED">
+            <code>000011ED</code> — PROCESSDEVLOADERNOTFOUND
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000013F8">
+            <code>000013F8</code> — ISDISABLEDANCESTORPROBLEM
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000014AE">
+            <code>000014AE</code> — GETDISABLEDANCESTOR
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000155F">
+            <code>0000155F</code> — PROCESSDEVLOADERNOTREADY
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00001696">
+            <code>00001696</code> — INITDEVGENDLG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00002E4E">
+            <code>00002E4E</code> — SAVEDEVGENSETTINGS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000354C">
+            <code>0000354C</code> — CHECKFORREBOOTNOW
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003661">
+            <code>00003661</code> — FIXPROBLEMSTARTDEVICE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000393C">
+            <code>0000393C</code> — FIXPROBLEMDISABLED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003974">
+            <code>00003974</code> — FIXPROBLEMREINSTALL
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003C3C">
+            <code>00003C3C</code> — FIXPROBLEMREGISTRY
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003C53">
+            <code>00003C53</code> — FIXHELPCONFLICTTROUBLESHOOTER
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003C8A">
+            <code>00003C8A</code> — FIXNORMALCONFLICT
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003D02">
+            <code>00003D02</code> — FIXCONFLICT
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003DC5">
+            <code>00003DC5</code> — FIXHARDWAREDISABLED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003E97">
+            <code>00003E97</code> — FIXPROBLEMLEGACYDETECTION
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00003EC6">
+            <code>00003EC6</code> — FIXANCESTORPROBLEM
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00004001">
+            <code>00004001</code> — FIXDEPENDENTPROBLEM
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000040EB">
+            <code>000040EB</code> — FIXDEVLOADERNOTREADYPROBLEM
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000041B5">
+            <code>000041B5</code> — DEFAULTDEVGENERALPROPERTIESDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000474A">
+            <code>0000474A</code> — DRIVERFILESREQUIRED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00004872">
+            <code>00004872</code> — GETNEFILEVERSIONINFO
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00004990">
+            <code>00004990</code> — SETDRVFILEDETAILS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00004B0F">
+            <code>00004B0F</code> — INITDEVDRVDIALOG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00004D06">
+            <code>00004D06</code> — INSTALLUPDATEDDRIVER
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00004F34">
+            <code>00004F34</code> — DEFAULTDEVDRIVERPROPERTIESDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005399">
+            <code>00005399</code> — GETFULLYQUALIFIEDPATH
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005597">
+            <code>00005597</code> — FILLDEVDRIVERLIST
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005858">
+            <code>00005858</code> — INITDRIVERFILEDETAILS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000059E5">
+            <code>000059E5</code> — ENUMDRIVERFILES
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005A50">
+            <code>00005A50</code> — DRIVERFILEDETAILSDIALOG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005B96">
+            <code>00005B96</code> — ADDDRIVERTOTREEVIEW
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005C27">
+            <code>00005C27</code> — ISITEMPRESENT
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00005D2E">
+            <code>00005D2E</code> — GETDRIVERFROMREG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000623E">
+            <code>0000623E</code> — SHOWRESOURCECHANGECONTROLS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000062CD">
+            <code>000062CD</code> — DISABLERESOURCECHANGECONTROLS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000633E">
+            <code>0000633E</code> — SHOWMFCHILDTEXTCONTROLS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00006386">
+            <code>00006386</code> — ENABLERESOURCECHANGE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000063CE">
+            <code>000063CE</code> — DUPCOPY
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000643D">
+            <code>0000643D</code> — HASCONFIGCHANGED
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000064D6">
+            <code>000064D6</code> — DEVHASLOGCONFIGS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000657E">
+            <code>0000657E</code> — CLEANUPRESOURCELIST
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000065FD">
+            <code>000065FD</code> — DEVHASRESOURCES
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000672D">
+            <code>0000672D</code> — DEVHASKNOWNCONFIG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00006878">
+            <code>00006878</code> — GETMINLCPRI
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000069A9">
+            <code>000069A9</code> — SAVEDEVRESSETTINGS
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00006D69">
+            <code>00006D69</code> — ISITEMEDITABLE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00006F0A">
+            <code>00006F0A</code> — BISRESOURCESHARABLE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00006F72">
+            <code>00006F72</code> — UPDATEDEVRESCONFLICTLIST
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000072DD">
+            <code>000072DD</code> — GETRESDES
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00007432">
+            <code>00007432</code> — GETRESDESOFFSET
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00007546">
+            <code>00007546</code> — GETLOGCONF
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000778B">
+            <code>0000778B</code> — FREELOGCONF
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000077BE">
+            <code>000077BE</code> — LOADALLOCCONFIG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00007B85">
+            <code>00007B85</code> — LOADSETTINGSLIST
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000876C">
+            <code>0000876C</code> — DEVHASCONFIG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00008868">
+            <code>00008868</code> — UPDATERESDES
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00008962">
+            <code>00008962</code> — BVALIDATELC
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000089D7">
+            <code>000089D7</code> — INITDEVRESOURCEDLG
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="000093ED">
+            <code>000093ED</code> — WARNRESSETTINGNOTEDITABLE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00009437">
+            <code>00009437</code> — DEFAULTDEVRESOURCEPROPERTIESDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="00009FD7">
+            <code>00009FD7</code> — OPENVERSIONRESOURCE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000A1B9">
+            <code>0000A1B9</code> — READVERSIONVALUE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000A222">
+            <code>0000A222</code> — CLOSEVERSIONRESOURCE
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000A46A">
+            <code>0000A46A</code> — CLEARASDPROBLEM
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000A538">
+            <code>0000A538</code> — WALKALLDEVICESFORSTANDBY
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000A626">
+            <code>0000A626</code> — BALLDEVICESSUPPORTSTANDBY
+            
+          </li>
+        
+          <li data-segment="00002540" data-offset="0000A64F">
+            <code>0000A64F</code> — SETCLEARSTANDBYPROBLEM
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _NEWDEV_TEXT @ 00002C10
+      </summary>
+      <ul>
+        
+          <li data-segment="00002C10" data-offset="00000130">
+            <code>00000130</code> — PARSETOCOMMA
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00000248">
+            <code>00000248</code> — SZTODW
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000032B">
+            <code>0000032B</code> — InstallDevice_RunDLL
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000043F">
+            <code>0000043F</code> — INSTALLNEWDEVICEWIZARD
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00000B61">
+            <code>00000B61</code> — CHECKFORMULTIPLEINSTANCE
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00000D47">
+            <code>00000D47</code> — RUNDETECTION
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00000F23">
+            <code>00000F23</code> — GETDEVNODETYPE
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00001313">
+            <code>00001313</code> — CANALLOCATENEWCONFIG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00001609">
+            <code>00001609</code> — BDEVICEISHWENUMERATED
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00001719">
+            <code>00001719</code> — BDEVICEISPNP
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000019E5">
+            <code>000019E5</code> — BHAVEPCMCIA
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00001A2A">
+            <code>00001A2A</code> — BHAVEDISABLEDPCMCIA
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00001ADB">
+            <code>00001ADB</code> — ANALYZEDEVCONFIG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00001BB2">
+            <code>00001BB2</code> — NDW_ANALYZEDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00002254">
+            <code>00002254</code> — ENABLECLASSLIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00002288">
+            <code>00002288</code> — SHOWSELECTEDCLASS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000022BE">
+            <code>000022BE</code> — REMOVEWIZARDPAGES
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000023C6">
+            <code>000023C6</code> — INITNDW_PICKCLASSDLG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00002567">
+            <code>00002567</code> — NDW_PICKCLASSDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000305F">
+            <code>0000305F</code> — SHOWDETECTEDDEVSLIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00003239">
+            <code>00003239</code> — HIDEDETECTEDDEVSLIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000327E">
+            <code>0000327E</code> — ISNEWDEV
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000032ED">
+            <code>000032ED</code> — GETINFNAME
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000338B">
+            <code>0000338B</code> — BUILDDETECTEDANDMISSINGDEVSLIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000351F">
+            <code>0000351F</code> — BISTOPLEVELBUS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000035AE">
+            <code>000035AE</code> — REMOVEMISSINGDEVS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00003678">
+            <code>00003678</code> — INSTALLDETECTEDDEVS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00003B27">
+            <code>00003B27</code> — REMOVEDETECTEDDEVS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00003C44">
+            <code>00003C44</code> — NDW_INSTALLDETECTEDDEVSDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000418C">
+            <code>0000418C</code> — NDW_NORESOURCEFINISHDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000043C6">
+            <code>000043C6</code> — INIT_NDW_WELCOMEDLG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00004423">
+            <code>00004423</code> — NDW_WELCOMEDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00004688">
+            <code>00004688</code> — DETPROGRESSCALLBACK
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000477D">
+            <code>0000477D</code> — NDW_DETECTWARNDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00004DA6">
+            <code>00004DA6</code> — FREESELECTEDDRIVER
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00004DF5">
+            <code>00004DF5</code> — SHOWLISTFORMFG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00005455">
+            <code>00005455</code> — FILLINDEVICELIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00005B4D">
+            <code>00005B4D</code> — INITNDW_PICKDEVDLG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00005DD8">
+            <code>00005DD8</code> — HANDLESELECTOEM
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00006392">
+            <code>00006392</code> — NDW_PICKDEVDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000072F7">
+            <code>000072F7</code> — GETDEVICEIDS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000073FA">
+            <code>000073FA</code> — COMPARESUBSTRDATA
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000748B">
+            <code>0000748B</code> — BANYMATCHINGIDS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00007743">
+            <code>00007743</code> — FILLRESOURCELIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00007AF4">
+            <code>00007AF4</code> — INITRESLIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00007BA5">
+            <code>00007BA5</code> — DISPLAYRESOURCELIST
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00007BF3">
+            <code>00007BF3</code> — CONVERTDEVCONFIGTOREGLC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00007DB2">
+            <code>00007DB2</code> — CONVERTCMCTOREGLC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000081BF">
+            <code>000081BF</code> — SETDEVCONFIG
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00008278">
+            <code>00008278</code> — NDW_INSTALLINTERFACEDEVICES
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000083E6">
+            <code>000083E6</code> — NDW_SHOWRESOURCESDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00008719">
+            <code>00008719</code> — NDWSHOWRESOURCES_ONCOMMANDPRINT
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000889C">
+            <code>0000889C</code> — PRINTCONFIGDATA
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00008D50">
+            <code>00008D50</code> — NDW_CONFLICTFINISHDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00008EA2">
+            <code>00008EA2</code> — NDW_NORMALFINISHDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00009082">
+            <code>00009082</code> — INSTALLFAILEDWARNING
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000090F5">
+            <code>000090F5</code> — NDW_ERRORFINISHDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="000091BE">
+            <code>000091BE</code> — NDW_ASKDETECTDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000961F">
+            <code>0000961F</code> — WALKALLDEVICES
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000975F">
+            <code>0000975F</code> — GETNEWLPDI
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000992D">
+            <code>0000992D</code> — NDW_PNPENUMERATIONDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00009C81">
+            <code>00009C81</code> — INITFOUNDPNP
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="00009DAA">
+            <code>00009DAA</code> — NDW_FOUNDPNPDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000A239">
+            <code>0000A239</code> — FINDCONFIGSPECIFICDEVICEREMOVALS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000A509">
+            <code>0000A509</code> — WALKDEVICESFORPROBLEMS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000A674">
+            <code>0000A674</code> — COPYSELECTEDLPDI
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000A7EE">
+            <code>0000A7EE</code> — INITPROBLEMDEVICES
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000AAC1">
+            <code>0000AAC1</code> — NDW_PROBLEMDEVICESDLGPROC
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000AEA3">
+            <code>0000AEA3</code> — IANYDEVICESHAVEPROBLEMS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000AF87">
+            <code>0000AF87</code> — BANYDEVICESHAVEPROBLEMS
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000AFD4">
+            <code>0000AFD4</code> — INITPROBLEMDEVICESFINISH
+            
+          </li>
+        
+          <li data-segment="00002C10" data-offset="0000B099">
+            <code>0000B099</code> — NDW_PROBLEMDEVICESFINISHDLGPROC
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: _PRINT_TEXT @ 00003800
+      </summary>
+      <ul>
+        
+          <li data-segment="00003800" data-offset="0000013D">
+            <code>0000013D</code> — DMDOPRINTINIT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00000195">
+            <code>00000195</code> — DMDOPRINTCLEANUP
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000001C5">
+            <code>000001C5</code> — DMDOPRINT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000003F4">
+            <code>000003F4</code> — SELECTREPORTHOOKPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00001E8E">
+            <code>00001E8E</code> — PRINTLINE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002098">
+            <code>00002098</code> — _PrintDynamicString
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000022FD">
+            <code>000022FD</code> — DMDoFileReport
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000245A">
+            <code>0000245A</code> — GETDISKINFO
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002A1D">
+            <code>00002A1D</code> — DOSGETCURRENTDRIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002A38">
+            <code>00002A38</code> — DOSSETDEFAULTDRIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002A58">
+            <code>00002A58</code> — DOUBLESPACEDISKCHECK
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002A9D">
+            <code>00002A9D</code> — _GetDoubleSpaceBytesFree
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002AF7">
+            <code>00002AF7</code> — ISDOUBLESPACEVOLUME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002B15">
+            <code>00002B15</code> — ISDOUBLESPACEDRIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002BA7">
+            <code>00002BA7</code> — DOUBLESPACEHOSTDRIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002C5D">
+            <code>00002C5D</code> — DRVUPDCLEANUPLPDI
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002DC6">
+            <code>00002DC6</code> — SETSTATICSTR
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002DF5">
+            <code>00002DF5</code> — FREEICON
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002E2F">
+            <code>00002E2F</code> — GETPATHROOT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002F18">
+            <code>00002F18</code> — PATHBUILDROOT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002F50">
+            <code>00002F50</code> — SETDLGCONTROLS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00002FF8">
+            <code>00002FF8</code> — BSHOWSELECTWIZARDPAGE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000307F">
+            <code>0000307F</code> — SETCURRENTDRIVERNODE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00003336">
+            <code>00003336</code> — GETCURRENTDRIVERNODE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000367C">
+            <code>0000367C</code> — ADDCURRENTDRIVERFROMINTERNET
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00003768">
+            <code>00003768</code> — RECURSESEARCHFORDRIVERONPATH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00003839">
+            <code>00003839</code> — SEARCHFORDRIVERONREMOVABLEMEDIA
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00003B41">
+            <code>00003B41</code> — SEARCHFORDRIVERONPATH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00003D0C">
+            <code>00003D0C</code> — DRIVERUPDATENEXTPRESSED
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00003FCC">
+            <code>00003FCC</code> — DRIVERUPDATESETTODEFAULT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00004083">
+            <code>00004083</code> — DRIVERUPDATEDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000441D">
+            <code>0000441D</code> — SEARCHINGSETTODEFAULT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000044AF">
+            <code>000044AF</code> — DRIVERUPDATESEARCHINGDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00004777">
+            <code>00004777</code> — DRIVERUPDATESELECTSETTODEFAULT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00004A34">
+            <code>00004A34</code> — DRIVERUPDATESELECTDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00004F25">
+            <code>00004F25</code> — INITSELECTOTHERDRIVERDLG
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000529E">
+            <code>0000529E</code> — SELECTOTHERDRIVERDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000548A">
+            <code>0000548A</code> — INITWIZHEADERS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00005512">
+            <code>00005512</code> — ADDPAGE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000055AC">
+            <code>000055AC</code> — FREEWIZDATA
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000055DD">
+            <code>000055DD</code> — SAVEWIZSETTINGS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00005668">
+            <code>00005668</code> — DOWIZARD
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000571D">
+            <code>0000571D</code> — DRIVERUPDATEWIZARD
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000593C">
+            <code>0000593C</code> — INITWIZSHEET
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000059AC">
+            <code>000059AC</code> — CLEANUPWIZDATA
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000059F6">
+            <code>000059F6</code> — DMUpgradeDriver
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00005B8E">
+            <code>00005B8E</code> — SETINSTALLBUTTONS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00005BB4">
+            <code>00005BB4</code> — SETDRVUPDATECONTROLS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00005CDC">
+            <code>00005CDC</code> — INSTALLSETACTIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00005EC0">
+            <code>00005EC0</code> — DRIVERUPDATEINSTALLDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000065E4">
+            <code>000065E4</code> — DRIVERUPDATEFINISHSETACTIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00006807">
+            <code>00006807</code> — DRIVERUPDATEFINISHDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00006A7C">
+            <code>00006A7C</code> — BDRIVEINSYSTEM
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00006ACE">
+            <code>00006ACE</code> — SEARCHOPTIONSSETACTIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00006C87">
+            <code>00006C87</code> — SEARCHOPTIONSDLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000072F2">
+            <code>000072F2</code> — DRIVERUPDATEDRVUPDINTROSETDEFAULT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00007389">
+            <code>00007389</code> — DRVUPDINTRODLGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000077A7">
+            <code>000077A7</code> — WRITECDMSTATUS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000077F8">
+            <code>000077F8</code> — BISREINSTALL
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00007846">
+            <code>00007846</code> — UpdateDriver_Start
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000078F3">
+            <code>000078F3</code> — UpdateDriver_Finish
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00007A4F">
+            <code>00007A4F</code> — UpdateDriver_RunDLL
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00007EF1">
+            <code>00007EF1</code> — WALKHARDWAREFORMATCHINGIDS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000081D1">
+            <code>000081D1</code> — MYCOPYFILE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00008320">
+            <code>00008320</code> — GENINSTALLCALLBACK
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00008352">
+            <code>00008352</code> — CLEANUPSRCLDIDS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000084FD">
+            <code>000084FD</code> — BACKUPCATALOGFILE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000085D8">
+            <code>000085D8</code> — BACKUPINCLUDEDINFS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000875D">
+            <code>0000875D</code> — BACKUPORIGINALDRIVERS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00008D8A">
+            <code>00008D8A</code> — COMPLETEBACKUPORIGINALDRIVER
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00008F17">
+            <code>00008F17</code> — CLEANUPBACKUPDRIVER
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009007">
+            <code>00009007</code> — ENUMBACKUPDRIVERFILES
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000092BE">
+            <code>000092BE</code> — CONVERTIDTOFILENAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009324">
+            <code>00009324</code> — LFNRENAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009357">
+            <code>00009357</code> — ADDREGREINSTALLKEYS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009442">
+            <code>00009442</code> — GETFULLINFPATH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009502">
+            <code>00009502</code> — LFNGETFILETIME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009549">
+            <code>00009549</code> — LFNSETFILETIME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000957E">
+            <code>0000957E</code> — LFNREMOVEDIRECTORY
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009612">
+            <code>00009612</code> — GETREINSTALLBACKUPDIRECTORY
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009704">
+            <code>00009704</code> — GETDISPLAYNAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000097AB">
+            <code>000097AB</code> — MKDIRLFN
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000097D7">
+            <code>000097D7</code> — BENOUGHDISKSPACE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="000098DC">
+            <code>000098DC</code> — INSTALLDOWNLOADDRIVER
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009A64">
+            <code>00009A64</code> — IATOI
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009ADB">
+            <code>00009ADB</code> — CALLCDM
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009C9C">
+            <code>00009C9C</code> — ISFLOPPYDRIVE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009CE6">
+            <code>00009CE6</code> — SETCURRENTDRIVE0
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009CF9">
+            <code>00009CF9</code> — GETCURRENTDRIVE0
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009D12">
+            <code>00009D12</code> — IDRIVE0FROMPATH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009D56">
+            <code>00009D56</code> — GETDIR
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009D7E">
+            <code>00009D7E</code> — SETDIR
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009DA0">
+            <code>00009DA0</code> — MUSTSETDIR
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009DCE">
+            <code>00009DCE</code> — MUSTSETDRIVEDIR
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009E25">
+            <code>00009E25</code> — REMDIR
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009E3B">
+            <code>00009E3B</code> — GETSHORTNAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009E57">
+            <code>00009E57</code> — QUICKDELETE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009E71">
+            <code>00009E71</code> — SETDTA
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009E86">
+            <code>00009E86</code> — FINDFIRSTDIRECTORY
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009EB4">
+            <code>00009EB4</code> — FINDNEXT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009EDB">
+            <code>00009EDB</code> — DORECURSIVELY
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="00009F6A">
+            <code>00009F6A</code> — DWEP
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A01C">
+            <code>0000A01C</code> — DMGETFULLPATHNAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A0CA">
+            <code>0000A0CA</code> — SELECTCLASSSETTODEFAULT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A260">
+            <code>0000A260</code> — SELECTCLASSDIALOGPROC
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A552">
+            <code>0000A552</code> — ALLOCP
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A586">
+            <code>0000A586</code> — FINDMRUSTRING
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A681">
+            <code>0000A681</code> — FREEMRULIST
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A70A">
+            <code>0000A70A</code> — ENUMMRULIST
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000A7B3">
+            <code>0000A7B3</code> — CREATEMRULIST
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AA99">
+            <code>0000AA99</code> — BUILDMRULIST
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AB96">
+            <code>0000AB96</code> — PATHREMOVEBACKSLASH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000ABE9">
+            <code>0000ABE9</code> — PATHISROOT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AD89">
+            <code>0000AD89</code> — SETDLGTEXT
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AE2F">
+            <code>0000AE2F</code> — _LoadDynamicString
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AE7A">
+            <code>0000AE7A</code> — _ONSYSCOLORCHANGE
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AEBF">
+            <code>0000AEBF</code> — UIYIELD
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AF1A">
+            <code>0000AF1A</code> — DEVNODRIVERWARNING
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AFA7">
+            <code>0000AFA7</code> — DMGETSHORTPATHNAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AFD9">
+            <code>0000AFD9</code> — SHR64
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000AFFC">
+            <code>0000AFFC</code> — MULT64
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B04F">
+            <code>0000B04F</code> — GETDRIVESIZESTATS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B198">
+            <code>0000B198</code> — IGETFULLYQUALIFIEDPATH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B2E3">
+            <code>0000B2E3</code> — PATHFILEEXISTS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B326">
+            <code>0000B326</code> — ISDRIVERMANUALINSTALLED
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B39D">
+            <code>0000B39D</code> — ISCONFIGFLAGSET
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B429">
+            <code>0000B429</code> — ADDPATH
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B4A2">
+            <code>0000B4A2</code> — GETFILENAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B505">
+            <code>0000B505</code> — GETREBOOTFLAGS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B57B">
+            <code>0000B57B</code> — SETREBOOTFLAGS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B5CC">
+            <code>0000B5CC</code> — DELETEREBOOTFLAGS
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B60A">
+            <code>0000B60A</code> — GETDEVICEDISPLAYNAME
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B6E9">
+            <code>0000B6E9</code> — CONVERTCHARTOHEX
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B7C0">
+            <code>0000B7C0</code> — VALIDATESTRINGISHEX
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B82E">
+            <code>0000B82E</code> — ISMACHINEREGISTERED
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B8CA">
+            <code>0000B8CA</code> — INITDRIVERUPDATEWIZ
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000B8E8">
+            <code>0000B8E8</code> — UPDATEFILEINFO
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000BA00">
+            <code>0000BA00</code> — INSTALLINITPROPSHEET
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000BA24">
+            <code>0000BA24</code> — INITFINISHWIZ
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000BA42">
+            <code>0000BA42</code> — INITSEARCHOPTIONSWIZ
+            
+          </li>
+        
+          <li data-segment="00003800" data-offset="0000BA60">
+            <code>0000BA60</code> — INITDRVUPDINTROWIZ
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: DGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — rsrvptrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000006">
+            <code>00000006</code> — pLocalHeap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — pAtomTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000A">
+            <code>0000000A</code> — pStackTop
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000C">
+            <code>0000000C</code> — pStackMin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000000E">
+            <code>0000000E</code> — pStackBot
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000010">
+            <code>00000010</code> — dm_ThunkData16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000028">
+            <code>00000028</code> — _SZDLL16
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000032">
+            <code>00000032</code> — _SZDLL32
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000040">
+            <code>00000040</code> — CPL_HINSTANCE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000042">
+            <code>00000042</code> — BISMAINTENANCEMODE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000044">
+            <code>00000044</code> — DWSETUPFLAGS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000048">
+            <code>00000048</code> — DWRESTARTFLAGS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000004C">
+            <code>0000004C</code> — AGENERALHELPIDS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000C4">
+            <code>000000C4</code> — _386ENH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000CC">
+            <code>000000CC</code> — _SYSTEMINI
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000D8">
+            <code>000000D8</code> — _MINVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000EA">
+            <code>000000EA</code> — _MAXVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000FC">
+            <code>000000FC</code> — _DRIVEVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000108">
+            <code>00000108</code> — _FILEVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000114">
+            <code>00000114</code> — _PERMSIZEVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000122">
+            <code>00000122</code> — _PERMDRIVEVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000134">
+            <code>00000134</code> — _NOTEMPVAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003CE">
+            <code>000003CE</code> — SAFESWITCH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003EC">
+            <code>000003EC</code> — MMIOSWITCH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000040A">
+            <code>0000040A</code> — SWCURSWITCH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000042C">
+            <code>0000042C</code> — G_BMINWIN
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000994">
+            <code>00000994</code> — G_HLIB
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000996">
+            <code>00000996</code> — G_HLIBSETUPAPI
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000099A">
+            <code>0000099A</code> — G_PROPERTIESDEVNODE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009A0">
+            <code>000009A0</code> — G_HWNDPROGRESS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001A4E">
+            <code>00001A4E</code> — SZMEMRANGEFORMAT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001A54">
+            <code>00001A54</code> — SZIORANGEFORMAT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001A5A">
+            <code>00001A5A</code> — SZIRQDMARANGEFORMAT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000020E2">
+            <code>000020E2</code> — READAHEADCUTOFFS
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002F7E">
+            <code>00002F7E</code> — SZENUMKEY
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002F84">
+            <code>00002F84</code> — SZIDCONFIGDBPATH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002FB0">
+            <code>00002FB0</code> — SZPCMCIACLASSNAME
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002FB8">
+            <code>00002FB8</code> — SZMAPVALUE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002FBC">
+            <code>00002FBC</code> — SZCONFIGFLAGSVALUE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002FC8">
+            <code>00002FC8</code> — SZCSCONFIGFLAGSVALUE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000031DC">
+            <code>000031DC</code> — CMPROBLEMNUMTOSTRINGID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003220">
+            <code>00003220</code> — CMPROBLEMSHOWFIXITBUTTON
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003A78">
+            <code>00003A78</code> — G_COMPANYNAME
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003A84">
+            <code>00003A84</code> — G_FILEVERSION
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003A90">
+            <code>00003A90</code> — G_LEGALCOPYRIGHT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003C2E">
+            <code>00003C2E</code> — G_HWNDNEWDEVICE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003C30">
+            <code>00003C30</code> — G_HTASKNEWDEVICE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003C32">
+            <code>00003C32</code> — G_PCMCIARUNDLL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003CDC">
+            <code>00003CDC</code> — G_SZLEGINSTANALYZEDEVNODEID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003CF6">
+            <code>00003CF6</code> — G_SZLEGINSTANALYZEDEVNODEKEY
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004326">
+            <code>00004326</code> — UCOMPRESSIONTYPE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004660">
+            <code>00004660</code> — C_SZDIRSLASH
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004B58">
+            <code>00004B58</code> — ATTRDEL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004B5A">
+            <code>00004B5A</code> — SZSTAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004B5C">
+            <code>00004B5C</code> — SZSTARDOTSTAR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004B60">
+            <code>00004B60</code> — SZDOTDOT
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004B6C">
+            <code>00004B6C</code> — SZINSTSECTION
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004B80">
+            <code>00004B80</code> — SZDRIVEA
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004BF8">
+            <code>00004BF8</code> — __ctype
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004BF8">
+            <code>00004BF8</code> — __ctype_
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005CC0">
+            <code>00005CC0</code> — DEVICEID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005D88">
+            <code>00005D88</code> — G_HWNDFIRSTPROCESSTREEDLG
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005D8A">
+            <code>00005D8A</code> — _SCRATCH1
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005E8A">
+            <code>00005E8A</code> — DNCOMPUTERDEVNODE
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005E8E">
+            <code>00005E8E</code> — SZDESC
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005F8E">
+            <code>00005F8E</code> — DWTEMP
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00005F92">
+            <code>00005F92</code> — G_RDDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

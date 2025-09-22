@@ -1,0 +1,3073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VWIN32 — Windows 98SE Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../apc.asm</li>
+      
+        <li>../fault.asm</li>
+      
+        <li>../handle.c</li>
+      
+        <li>../intrlapi.asm</li>
+      
+        <li>../ntexp.asm</li>
+      
+        <li>../object.c</li>
+      
+        <li>../sync.asm</li>
+      
+        <li>../sysload.asm</li>
+      
+        <li>../term.c</li>
+      
+        <li>../timer.asm</li>
+      
+        <li>../trapc.c</li>
+      
+        <li>../vdeb.c</li>
+      
+        <li>../vwin32.asm</li>
+      
+        <li>../w32sy.c</li>
+      
+        <li>../w32sync.asm</li>
+      
+        <li>APC.ASM</li>
+      
+        <li>../../../../../dev/ddk/inc/debug.inc</li>
+      
+        <li>../../../../../dev/ddk/inc/opttest.inc</li>
+      
+        <li>mer.asm</li>
+      
+        <li>../../../../../win/cor../trapc.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .data @ 00004000
+      </summary>
+      <ul>
+        
+          <li data-segment="00004000" data-offset="00000090">
+            <code>00000090</code> — __NLG_Destination
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000100">
+            <code>00000100</code> — __global_unwind2
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000142">
+            <code>00000142</code> — __local_unwind2
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000019A">
+            <code>0000019A</code> — __NLG_Return2
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000001AA">
+            <code>000001AA</code> — __abnormal_termination
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000001CD">
+            <code>000001CD</code> — __NLG_Notify1
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000001D6">
+            <code>000001D6</code> — __NLG_Notify
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000001E9">
+            <code>000001E9</code> — __NLG_Dispatch
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000001F8">
+            <code>000001F8</code> — __except_handler3
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002B5">
+            <code>000002B5</code> — __seh_longjmp_unwind@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002D0">
+            <code>000002D0</code> — _VWIN32_Get_Version
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002D4">
+            <code>000002D4</code> — _VWIN32_DIOCCompletionRoutine
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002D8">
+            <code>000002D8</code> — __VWIN32_QueueUserApc
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002DC">
+            <code>000002DC</code> — __VWIN32_Get_Thread_Context
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002E0">
+            <code>000002E0</code> — __VWIN32_Set_Thread_Context
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002E4">
+            <code>000002E4</code> — __VWIN32_CopyMem
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002E8">
+            <code>000002E8</code> — __VWIN32_Npx_Exception
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002EC">
+            <code>000002EC</code> — __VWIN32_Emulate_Npx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002F0">
+            <code>000002F0</code> — __VWIN32_CheckDelayedNpxTrap
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002F4">
+            <code>000002F4</code> — _VWIN32_EnterCrstR0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002F8">
+            <code>000002F8</code> — _VWIN32_LeaveCrstR0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000002FC">
+            <code>000002FC</code> — __VWIN32_FaultPopup
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000300">
+            <code>00000300</code> — _VWIN32_GetContextHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000304">
+            <code>00000304</code> — _VWIN32_GetCurrentProcessHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000308">
+            <code>00000308</code> — __VWIN32_SetWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000030C">
+            <code>0000030C</code> — __VWIN32_PulseWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000310">
+            <code>00000310</code> — __VWIN32_ResetWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000314">
+            <code>00000314</code> — __VWIN32_WaitSingleObject
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000318">
+            <code>00000318</code> — __VWIN32_WaitMultipleObjects
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000031C">
+            <code>0000031C</code> — __VWIN32_CreateRing0Thread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000320">
+            <code>00000320</code> — __VWIN32_CloseVxDHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000324">
+            <code>00000324</code> — _VWIN32_ActiveTimeBiasSet
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000328">
+            <code>00000328</code> — _VWIN32_GetCurrentDirectory
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000032C">
+            <code>0000032C</code> — _VWIN32_BlueScreenPopup
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000330">
+            <code>00000330</code> — _VWIN32_TerminateApp
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000334">
+            <code>00000334</code> — __VWIN32_QueueKernelAPC
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000338">
+            <code>00000338</code> — _VWIN32_SysErrorBox
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000033C">
+            <code>0000033C</code> — __VWIN32_IsClientWin32
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000340">
+            <code>00000340</code> — _VWIN32_IFSRIPWhenLev2Taken
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000344">
+            <code>00000344</code> — __VWIN32_InitWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000348">
+            <code>00000348</code> — __VWIN32_InitWin32Mutex
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000034C">
+            <code>0000034C</code> — __VWIN32_ReleaseWin32Mutex
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000350">
+            <code>00000350</code> — __VWIN32_BlockThreadEx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000354">
+            <code>00000354</code> — _VWIN32_GetProcessHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000358">
+            <code>00000358</code> — __VWIN32_InitWin32Semaphore
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000035C">
+            <code>0000035C</code> — __VWIN32_SignalWin32Sem
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000360">
+            <code>00000360</code> — __VWIN32_QueueUserApcEx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000364">
+            <code>00000364</code> — __VWIN32_OpenVxDHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000368">
+            <code>00000368</code> — __VWIN32_CloseWin32Handle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000036C">
+            <code>0000036C</code> — __VWIN32_AllocExternalHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000370">
+            <code>00000370</code> — __VWIN32_UseExternalHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000374">
+            <code>00000374</code> — __VWIN32_UnuseExternalHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000378">
+            <code>00000378</code> — _KeInitializeTimer
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000037C">
+            <code>0000037C</code> — _KeSetTimer
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000380">
+            <code>00000380</code> — _KeCancelTimer
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000384">
+            <code>00000384</code> — _KeReadStateTimer
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000388">
+            <code>00000388</code> — __VWIN32_ReferenceObject
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000038C">
+            <code>0000038C</code> — __VWIN32_GetExternalHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000390">
+            <code>00000390</code> — _VWIN32_ConvertNtTimeout
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000394">
+            <code>00000394</code> — __VWIN32_SetWin32EventBoostPriority
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000398">
+            <code>00000398</code> — __VWIN32_GetRing3Flat32Selectors
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000039C">
+            <code>0000039C</code> — __VWIN32_GetCurThreadCondition
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000003A0">
+            <code>000003A0</code> — _VWIN32_Init_FP
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000003A4">
+            <code>000003A4</code> — _R0SetWaitableTimer
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000003A8">
+            <code>000003A8</code> — VWIN32_DDB
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000003F8">
+            <code>000003F8</code> — _Dos386PSPSeg
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000003FA">
+            <code>000003FA</code> — _Dos386PSPSel
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000003FC">
+            <code>000003FC</code> — SystemContext
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000400">
+            <code>00000400</code> — _K32CurrentThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000414">
+            <code>00000414</code> — _ThreadDataSlot
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000418">
+            <code>00000418</code> — _pDOSCurPDB
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000041C">
+            <code>0000041C</code> — _LastScheduledWin32tdbx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000420">
+            <code>00000420</code> — _hmutexCrst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000424">
+            <code>00000424</code> — hmutexForceCrst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000428">
+            <code>00000428</code> — _UnlockObjectFunc
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000042C">
+            <code>0000042C</code> — CreateR0ThreadFunc
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000430">
+            <code>00000430</code> — VWIN32_PTS_EvtCB_Addr
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000434">
+            <code>00000434</code> — W32_DIOCCompletionAddr
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000438">
+            <code>00000438</code> — ptcbKernelService
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000043C">
+            <code>0000043C</code> — _VWIN32_ptcbScheduled
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000440">
+            <code>00000440</code> — SimulateCtrlCAPCHandlerFunc
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000444">
+            <code>00000444</code> — flRestrictedEvent
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000448">
+            <code>00000448</code> — _VWIN32_dwIdObsfucator
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000005D4">
+            <code>000005D4</code> — _frinfoForceCrsts
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000BD8">
+            <code>00000BD8</code> — LdrHandleTable
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000BDA">
+            <code>00000BDA</code> — SysPSP
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000BDE">
+            <code>00000BDE</code> — SysPSPSeg
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000BEE">
+            <code>00000BEE</code> — LdrFaultMutex
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000BF2">
+            <code>00000BF2</code> — KrnFaultMutex
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000C9C">
+            <code>00000C9C</code> — VWIN32_fWin16TermStackInUse
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000C9D">
+            <code>00000C9D</code> — offCurPri
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000CA1">
+            <code>00000CA1</code> — cMissedRITEvents
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00000CA5">
+            <code>00000CA5</code> — _ptdbxDROwner
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000010CC">
+            <code>000010CC</code> — QueuedSyncAPCHead
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000010D0">
+            <code>000010D0</code> — QueuedSyncAPCTail
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001298">
+            <code>00001298</code> — WaitNodeList
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000016E4">
+            <code>000016E4</code> — _pfmdArray
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001718">
+            <code>00001718</code> — _ppmutxSysLst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000171C">
+            <code>0000171C</code> — _ppcrstSysLst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001764">
+            <code>00001764</code> — TimerSysLst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001A0C">
+            <code>00001A0C</code> — VWIN32_Control
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001A92">
+            <code>00001A92</code> — VWIN32_Get_Version
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001AA7">
+            <code>00001AA7</code> — VWIN32_GetCurrentDirectory
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001AFE">
+            <code>00001AFE</code> — VWIN32_IFSRIPWhenLev2Taken
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001B2C">
+            <code>00001B2C</code> — VWIN32_GetCurrentProcessHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001B41">
+            <code>00001B41</code> — VWIN32_GetProcessHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001B6F">
+            <code>00001B6F</code> — VWIN32_DIOCCompletionRoutine
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001B8B">
+            <code>00001B8B</code> — VWIN32_ActiveTimeBiasSet
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001B95">
+            <code>00001B95</code> — _VWIN32_IsClientWin32
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001BCF">
+            <code>00001BCF</code> — _VWIN32_GetCurThreadCondition
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001D46">
+            <code>00001D46</code> — VWIN32_BlueScreenPopup
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001DF6">
+            <code>00001DF6</code> — _VWIN32_BlockOnID@0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001E23">
+            <code>00001E23</code> — VWIN32_ForceCrstTimeOut1
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001E4E">
+            <code>00001E4E</code> — VWIN32_ForceCrstTimeOut2
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001E78">
+            <code>00001E78</code> — mutexTest
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001E90">
+            <code>00001E90</code> — crstTest
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001EC2">
+            <code>00001EC2</code> — _dqeTAPC@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001F06">
+            <code>00001F06</code> — VWIN32_Debug_Query
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00001F88">
+            <code>00001F88</code> — VWIN32_DebugQueryEvent
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002338">
+            <code>00002338</code> — LDRReadMappedFile
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000243A">
+            <code>0000243A</code> — _ReadWritePage
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002660">
+            <code>00002660</code> — R0_OpenFile
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002708">
+            <code>00002708</code> — R0_CloseDosFileHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000279C">
+            <code>0000279C</code> — _BlockForTermination
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000027C0">
+            <code>000027C0</code> — _WakeBlockForTermination
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000027D8">
+            <code>000027D8</code> — _BlockTerminationHandler@0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000027FA">
+            <code>000027FA</code> — _VWIN32_WaitForWin16TermStack@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002864">
+            <code>00002864</code> — _SuspendAPCHandler@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000290C">
+            <code>0000290C</code> — _SuspendThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002990">
+            <code>00002990</code> — ResumeThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002990">
+            <code>00002990</code> — _ResumeThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000029D9">
+            <code>000029D9</code> — CancelSuspendAPC
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002A35">
+            <code>00002A35</code> — ProcessSuspend
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002A62">
+            <code>00002A62</code> — _BlockThreadSetBit@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002B53">
+            <code>00002B53</code> — BlockThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002B53">
+            <code>00002B53</code> — _BlockThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002B73">
+            <code>00002B73</code> — WakeThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002B73">
+            <code>00002B73</code> — _WakeThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002C21">
+            <code>00002C21</code> — _TimeOutThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002C75">
+            <code>00002C75</code> — _LongTimeOutThread
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002CA9">
+            <code>00002CA9</code> — VWIN32_Init_FP
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002CED">
+            <code>00002CED</code> — _VW32_AttachConappThreadToVM@16
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002D0D">
+            <code>00002D0D</code> — VWIN32_ThreadSwitch
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002DB7">
+            <code>00002DB7</code> — _VWIN32_SwitchDebugReg
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002E53">
+            <code>00002E53</code> — VWIN32_GetContextHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002E6F">
+            <code>00002E6F</code> — _VWIN32_UseTdbx@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002E85">
+            <code>00002E85</code> — _VWIN32_UnuseTdbx@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002EB8">
+            <code>00002EB8</code> — UserAPCNew
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002ED4">
+            <code>00002ED4</code> — UserAPCDispose
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002EFC">
+            <code>00002EFC</code> — UserAPCAddList
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002F7D">
+            <code>00002F7D</code> — CancelUserAPC
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002F9E">
+            <code>00002F9E</code> — ValidateUserAPC
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00002FEB">
+            <code>00002FEB</code> — _VWIN32_QueueUserApcEx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000030AE">
+            <code>000030AE</code> — _VWIN32_QueueUserAPC
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000030CD">
+            <code>000030CD</code> — _VW32_CleanAPCList@8
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000310C">
+            <code>0000310C</code> — _FreeAPCList
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003176">
+            <code>00003176</code> — _VWIN32_CloseVxDHandle
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000031B8">
+            <code>000031B8</code> — _BlockThreadEx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003212">
+            <code>00003212</code> — IsSyncObjAvailable
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000323F">
+            <code>0000323F</code> — InternalObjTake
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003285">
+            <code>00003285</code> — NewWnod
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000032FC">
+            <code>000032FC</code> — DisposeWnod
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003372">
+            <code>00003372</code> — _ReleaseWnodLst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003372">
+            <code>00003372</code> — ReleaseWnodLst
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003436">
+            <code>00003436</code> — _dwBlockSingleWnod
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003543">
+            <code>00003543</code> — _dwBlockMultipleWnod
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000036AB">
+            <code>000036AB</code> — _ReleaseSyncObject@8
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000037B9">
+            <code>000037B9</code> — _VWIN32_SetWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000037D1">
+            <code>000037D1</code> — _VWIN32_SetWin32EventBoostPriority
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000383C">
+            <code>0000383C</code> — _VWIN32_PulseWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003855">
+            <code>00003855</code> — _VWIN32_ResetWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000386D">
+            <code>0000386D</code> — _VWIN32_WaitSingleObject
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003899">
+            <code>00003899</code> — _VWIN32_WaitMultipleObjects
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000038D5">
+            <code>000038D5</code> — _InitWin32Object
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000038FB">
+            <code>000038FB</code> — _VWIN32_InitWin32Event
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000392E">
+            <code>0000392E</code> — _VWIN32_InitWin32Mutex
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003951">
+            <code>00003951</code> — _VWIN32_InitWin32Semaphore
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000397E">
+            <code>0000397E</code> — _VWIN32_ReleaseWin32Mutex
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003993">
+            <code>00003993</code> — _VWIN32_SignalWin32Sem
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000039BE">
+            <code>000039BE</code> — _VWIN32_BlockThreadEx
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000039E3">
+            <code>000039E3</code> — _VWIN32_SaveIrql@0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003A23">
+            <code>00003A23</code> — _VWIN32_RestoreIrql@0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003A42">
+            <code>00003A42</code> — _VWIN32_CheckDelayedNpxTrap
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003CC4">
+            <code>00003CC4</code> — _mmfPageOut
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003D1C">
+            <code>00003D1C</code> — _VW32_InterlockedAdd386@16
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003D34">
+            <code>00003D34</code> — _VW32_InterlockedCmpxchg386@20
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003D54">
+            <code>00003D54</code> — _VW32_InterlockedXadd386@16
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003D6C">
+            <code>00003D6C</code> — _SetError@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003D8C">
+            <code>00003D8C</code> — _bIsSyncObjAvailable@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003DC1">
+            <code>00003DC1</code> — _InternalObjTake@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003E20">
+            <code>00003E20</code> — _bInternalObjTryTake@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003EBF">
+            <code>00003EBF</code> — _psSyncObjPtr@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003F1D">
+            <code>00003F1D</code> — _WaitMultipleObjects@20
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00003FF8">
+            <code>00003FF8</code> — _WaitSingleObject@12
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000407E">
+            <code>0000407E</code> — _ReleaseSem@12
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000040CE">
+            <code>000040CE</code> — _SetEvent@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000040FB">
+            <code>000040FB</code> — _PulseEvent@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004130">
+            <code>00004130</code> — _ResetEvent@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004151">
+            <code>00004151</code> — _ReleaseMutex@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000041BB">
+            <code>000041BB</code> — _ReleaseOwnedMutexes@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000425E">
+            <code>0000425E</code> — _ReleaseOwnedCrsts@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004320">
+            <code>00004320</code> — _RtlUnwind@16
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000432A">
+            <code>0000432A</code> — _KeInitializeTimer@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004338">
+            <code>00004338</code> — _KeInitializeTimerEx@8
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004387">
+            <code>00004387</code> — _KeCancelTimer@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000043A9">
+            <code>000043A9</code> — _KeReadStateTimer@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000043B3">
+            <code>000043B3</code> — _KeSetTimer@16
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000440D">
+            <code>0000440D</code> — _KeSetTimerEx@20
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004469">
+            <code>00004469</code> — _R0SetWaitableTimer@20
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000044D4">
+            <code>000044D4</code> — _VWIN32_ConvertNtTimeout@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000044F7">
+            <code>000044F7</code> — _GetRealTime@0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004505">
+            <code>00004505</code> — _AddTimerToSysLst@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000454F">
+            <code>0000454F</code> — _RemoveTimerFromSysLst@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000045A8">
+            <code>000045A8</code> — _GetNextResumeDueTime@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000045F4">
+            <code>000045F4</code> — QueueTimerCompletion
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000468E">
+            <code>0000468E</code> — TimerDb_Global_Timeout
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000046B3">
+            <code>000046B3</code> — TimerDb_Timeout
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="00004737">
+            <code>00004737</code> — _SetTimerDb@28
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000047FD">
+            <code>000047FD</code> — _CancelTimerDb@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000048A1">
+            <code>000048A1</code> — TimerDb_Set_Timeout
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000048EE">
+            <code>000048EE</code> — _TimerDb_Cleanup_Botched_Timer@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000493A">
+            <code>0000493A</code> — _ConvertNtTimeout@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="0000498B">
+            <code>0000498B</code> — _ConvertDueTimeToVMMTimeout@8
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049B0">
+            <code>000049B0</code> — __Debug_Out_Service@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049B8">
+            <code>000049B8</code> — __Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049CC">
+            <code>000049CC</code> — __Debug_Flags_Service@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049D4">
+            <code>000049D4</code> — __imp__RtlRaiseStatus@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049D8">
+            <code>000049D8</code> — WDMRtlRaiseStatus
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049E4">
+            <code>000049E4</code> — __imp_@KfLowerIrql@4
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049E8">
+            <code>000049E8</code> — WDMKfLowerIrql
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049F4">
+            <code>000049F4</code> — __imp__KfRaiseIrqlToDpcLevel@0
+            
+          </li>
+        
+          <li data-segment="00004000" data-offset="000049F8">
+            <code>000049F8</code> — WDMKfRaiseIrqlToDpcLevel
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMSG$1 @ 000040B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000040B0" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="000040B0" data-offset="00000014">
+            <code>00000014</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: SYSEXIT @ 00004AF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00004AF0" data-offset="00000000">
+            <code>00000000</code> — VWIN32_Begin_Sys_PM_App
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="000000D1">
+            <code>000000D1</code> — VWIN32_End_Sys_PM_App
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="0000013E">
+            <code>0000013E</code> — _VW32_VMM_Replace_Global_Env@12
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="00000153">
+            <code>00000153</code> — _VW32_GetCR0State@12
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="0000016F">
+            <code>0000016F</code> — _VW32_SetCR0State@16
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="00000188">
+            <code>00000188</code> — _VW32_GetVMCPDVersion@12
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="000001A6">
+            <code>000001A6</code> — _VW32_Initialize@12
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="00000364">
+            <code>00000364</code> — LoadWin32DLLs
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="0000041D">
+            <code>0000041D</code> — SYSLOAD$MapDLL
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="000005BF">
+            <code>000005BF</code> — GetObjectTable
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="00000653">
+            <code>00000653</code> — InitPagers
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="00000721">
+            <code>00000721</code> — _VW32_GetPager@48
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="00000794">
+            <code>00000794</code> — _LdrCloseDlls@0
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="000007BB">
+            <code>000007BB</code> — _LdrClosePagers@0
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="000007EC">
+            <code>000007EC</code> — _VW32_AllocSyncPrimitive@20
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="0000082B">
+            <code>0000082B</code> — _VW32_EnableAPCService@12
+            
+          </li>
+        
+          <li data-segment="00004AF0" data-offset="0000084A">
+            <code>0000084A</code> — _VW32_SendKernelShutdown@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: RARE @ 00004B70
+      </summary>
+      <ul>
+        
+          <li data-segment="00004B70" data-offset="00000000">
+            <code>00000000</code> — UnExportNTFunctions
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PTEXT @ 0000A970
+      </summary>
+      <ul>
+        
+          <li data-segment="0000A970" data-offset="00000000">
+            <code>00000000</code> — _VW32_CreateThread@44
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000019">
+            <code>00000019</code> — _VW32_BlockThread@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000032">
+            <code>00000032</code> — _VW32_WakeThread@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000004B">
+            <code>0000004B</code> — _VW32_TerminateThread@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000064">
+            <code>00000064</code> — _VW32_QueueUserAPC@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000007D">
+            <code>0000007D</code> — _VW32_QueueKernelAPC@24
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000096">
+            <code>00000096</code> — _VW32_AdjustThreadPri@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000000AF">
+            <code>000000AF</code> — _VW32_SuspendThread@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000000C8">
+            <code>000000C8</code> — _VW32_ResumeThread@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000000E1">
+            <code>000000E1</code> — _VW32_DeliverPendingKernelAPCs@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000000FA">
+            <code>000000FA</code> — _VW32_BlockForTermination@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000113">
+            <code>00000113</code> — _VW32_TerminationHandler2@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000012C">
+            <code>0000012C</code> — _VW32_BlockThreadEx@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000145">
+            <code>00000145</code> — _VW32_UndoCrst@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000015E">
+            <code>0000015E</code> — _VW32_ForceCrsts@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000177">
+            <code>00000177</code> — _VW32_RestoreCrsts@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000190">
+            <code>00000190</code> — _VW32_ForceLeaveCrst@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000001A9">
+            <code>000001A9</code> — _VW32_ForceEnterCrst@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000001C2">
+            <code>000001C2</code> — _VW32_RestoreSysCrst@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000001DB">
+            <code>000001DB</code> — _VW32_QueueUserAPCEx@24
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000001F4">
+            <code>000001F4</code> — vWin32_DIOC_Ex
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000204">
+            <code>00000204</code> — _VWIN32_GetRing3Flat32Selectors
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000220">
+            <code>00000220</code> — VWIN32_Begin_PM_App
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000236">
+            <code>00000236</code> — VWIN32_End_PM_App
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000024C">
+            <code>0000024C</code> — _VWIN32_PMAPI_Proc
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000269">
+            <code>00000269</code> — VWIN32_PMAPI_Success
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000273">
+            <code>00000273</code> — VWIN32_PMAPI_Get_Version
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000285">
+            <code>00000285</code> — VWIN32_PMAPI_Thread_Switch
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000295">
+            <code>00000295</code> — ThreadSwitch
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000031A">
+            <code>0000031A</code> — VWIN32_PTS_Evt_CallBack
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000322">
+            <code>00000322</code> — VWin32_PMAPI_MMGR_Functions
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000379">
+            <code>00000379</code> — VWIN32_PMAPI_RealNetx_Info
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000387">
+            <code>00000387</code> — VWIN32_PMAPI_Event_Set
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000397">
+            <code>00000397</code> — VWIN32_PMAPI_Event_Wait
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000003AA">
+            <code>000003AA</code> — VWIN32_PMAPI_Event_Create
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000003B7">
+            <code>000003B7</code> — VWIN32_PMAPI_Event_Destroy
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000003CA">
+            <code>000003CA</code> — VWIN32_PMAPI_Thread_Boost_Pri
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000003DF">
+            <code>000003DF</code> — VWIN32_PMAPI_Wait_Crst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000003F2">
+            <code>000003F2</code> — VWIN32_PMAPI_Wake_Crst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000405">
+            <code>00000405</code> — VWIN32_PMAPI_Boost_Thread_Group
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000427">
+            <code>00000427</code> — VWIN32_PMAPI_Boost_Thread_Static
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000449">
+            <code>00000449</code> — VWIN32_PMAPI_Boost_Thread_Decay
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000045D">
+            <code>0000045D</code> — VWIN32_PMAPI_Make_Idle_Sys
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000468">
+            <code>00000468</code> — VWIN32_PMAPI_Wake_Idle_Sys
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000473">
+            <code>00000473</code> — VWIN32_PMAPI_Set_Fault_Info
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000050B">
+            <code>0000050B</code> — VWIN32_PMAPI_Get_IFSMGR_Xlat_Ptr
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000521">
+            <code>00000521</code> — _VW32_DeviceIOCtl@52
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000634">
+            <code>00000634</code> — vWin32_DIOC_Exception_Handler
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000063B">
+            <code>0000063B</code> — vWin32_DIOC_Ex_Start
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000653">
+            <code>00000653</code> — vWin32_DIOC_Ex_End
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000671">
+            <code>00000671</code> — VWIN32_DIOC_Get_Version
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000681">
+            <code>00000681</code> — VWIN32_DIOC_Handler
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000008EE">
+            <code>000008EE</code> — _VW32_IFSMGR_DupHandle@32
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000091B">
+            <code>0000091B</code> — _VW32_IFSMGR_CloseHandle@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000935">
+            <code>00000935</code> — _VW32_ActiveTimeBiasSet@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000946">
+            <code>00000946</code> — _VW32_Int21Dispatch@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000A2D">
+            <code>00000A2D</code> — _VW32_Int31Dispatch@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000A62">
+            <code>00000A62</code> — _VW32_Int41Dispatch@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000A91">
+            <code>00000A91</code> — _VW32_SimCtrlC@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000ADC">
+            <code>00000ADC</code> — _VW32_UnuseTdbx@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000AF0">
+            <code>00000AF0</code> — _VW32_GetVersion@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000B07">
+            <code>00000B07</code> — _VW32_GetTickCount@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000B1F">
+            <code>00000B1F</code> — _VW32_QueryPerformanceCounter@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000B44">
+            <code>00000B44</code> — _VW32_VMM_SystemControl@24
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000B79">
+            <code>00000B79</code> — _VWIN32_CopyMem
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BA5">
+            <code>00000BA5</code> — _PageCommit
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BAB">
+            <code>00000BAB</code> — _PageDecommit
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BB1">
+            <code>00000BB1</code> — _PageAttach
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BB7">
+            <code>00000BB7</code> — _PageModifyPermissions
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BBD">
+            <code>00000BBD</code> — _SelectorMapFlat
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BC3">
+            <code>00000BC3</code> — _BlockOnID
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BC9">
+            <code>00000BC9</code> — _SignalID
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BCF">
+            <code>00000BCF</code> — _PageQuery
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BD5">
+            <code>00000BD5</code> — _EnterMutex
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BDB">
+            <code>00000BDB</code> — _LeaveMutex
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BE1">
+            <code>00000BE1</code> — _VMCPD_Get_FP_Instruction_Size
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BE7">
+            <code>00000BE7</code> — __HeapAllocate
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BED">
+            <code>00000BED</code> — __HeapFree
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BF3">
+            <code>00000BF3</code> — __HeapReAllocate
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000BFC">
+            <code>00000BFC</code> — _VWIN32_Npx_Exception
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000C03">
+            <code>00000C03</code> — NoVector
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000C0C">
+            <code>00000C0C</code> — VWIN32_ExceptCommon
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000D01">
+            <code>00000D01</code> — VWIN32_SegmentNotPresent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000E4C">
+            <code>00000E4C</code> — VWIN32_SegmentNotPresentReturn
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000ED2">
+            <code>00000ED2</code> — VWIN32_Check16BitException
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000EF5">
+            <code>00000EF5</code> — VWIN32_Dispatch16BitException
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000F46">
+            <code>00000F46</code> — VWIN32_Page_Fault
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000F51">
+            <code>00000F51</code> — _VW32_SetTimeOut@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000FA9">
+            <code>00000FA9</code> — _VW32_CancelTimeOut@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00000FEA">
+            <code>00000FEA</code> — VWIN32_TimeOutHandler
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000104A">
+            <code>0000104A</code> — _VW32_ThrowException@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000105E">
+            <code>0000105E</code> — _VW32_EnableExceptions@40
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000010BF">
+            <code>000010BF</code> — VWIN32_PMAPI_Exit_Time
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000010D4">
+            <code>000010D4</code> — VWIN32_TerminateApp
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000011B1">
+            <code>000011B1</code> — VWIN32_PMAPI_DPMI_Fault
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001269">
+            <code>00001269</code> — VWIN32_DivideByZeroInterrupt
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001329">
+            <code>00001329</code> — VWIN32_PMAPI_Sys_Error_Box
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001361">
+            <code>00001361</code> — VWIN32_SysErrorBox
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001489">
+            <code>00001489</code> — _VW32_FaultPop@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000014AE">
+            <code>000014AE</code> — _VWIN32_FaultPopup
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001509">
+            <code>00001509</code> — VWIN32_CommonFaultPopup
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000162B">
+            <code>0000162B</code> — VWIN32_FillFromContext
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001661">
+            <code>00001661</code> — VWIN32_FillFromFSF
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001726">
+            <code>00001726</code> — VWIN32_FillFromCRS
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001770">
+            <code>00001770</code> — VWIN32_FillInDumps
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000181F">
+            <code>0000181F</code> — _VWIN32_ForceCrsts
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001993">
+            <code>00001993</code> — VWIN32_ForceCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000019D2">
+            <code>000019D2</code> — VWIN32_ForceCrstVMEvent1
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000019EE">
+            <code>000019EE</code> — VWIN32_ForceCrstSafe1
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001A24">
+            <code>00001A24</code> — VWIN32_ForceCrstVMEvent2
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001A4E">
+            <code>00001A4E</code> — VWIN32_ForceCrstSafe2
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001B16">
+            <code>00001B16</code> — _VWIN32_RestoreCrsts
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001B76">
+            <code>00001B76</code> — VWIN32_RestoreCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001BCA">
+            <code>00001BCA</code> — _VW32_SetDeviceFocus@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001BEA">
+            <code>00001BEA</code> — _VW32_UnFreezeThread@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001BFE">
+            <code>00001BFE</code> — _VW32_FreezeAllThreads@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001C0E">
+            <code>00001C0E</code> — _VW32_UnFreezeAllThreads@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001C20">
+            <code>00001C20</code> — VWIN32_FreezeAllThreads
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001C96">
+            <code>00001C96</code> — VWIN32_UnFreezeAllThreads
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001CF4">
+            <code>00001CF4</code> — _VWIN32_FreezeThread@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001DB1">
+            <code>00001DB1</code> — _VWIN32_UnFreezeThread@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001E6E">
+            <code>00001E6E</code> — _VW32_AddSysCrst@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001ECD">
+            <code>00001ECD</code> — VWIN32_StartTracing
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001EE3">
+            <code>00001EE3</code> — VWIN32_StartTracing2
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00001F7D">
+            <code>00001F7D</code> — VWIN32_StartTracingThreadEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002011">
+            <code>00002011</code> — VWIN32_StopTracing
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002067">
+            <code>00002067</code> — VWIN32_TraceOut
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000021D4">
+            <code>000021D4</code> — _VWIN32_CallWhenCrstSafe@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002323">
+            <code>00002323</code> — VWIN32_CheckInt3
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002376">
+            <code>00002376</code> — VWIN32_CrstSafeNow
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000023A8">
+            <code>000023A8</code> — VWIN32_CrstSafeNow2
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002446">
+            <code>00002446</code> — _DisableDebuggerInt01@0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002460">
+            <code>00002460</code> — _R0_dwWaitSingleObject
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000247C">
+            <code>0000247C</code> — _R0_bSetPevt
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000248E">
+            <code>0000248E</code> — _R0_EnterCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000024A0">
+            <code>000024A0</code> — _R0_LeaveCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000024B2">
+            <code>000024B2</code> — _R0_BlockOnID
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000024CB">
+            <code>000024CB</code> — _R0_SignalID
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000024E4">
+            <code>000024E4</code> — _AllocThreadData@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002575">
+            <code>00002575</code> — _FreeThreadData@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000258D">
+            <code>0000258D</code> — _CreateThread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000260C">
+            <code>0000260C</code> — VWIN32_ThreadTerminationHandler16Return
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002664">
+            <code>00002664</code> — _TerminationHandler2
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000026EE">
+            <code>000026EE</code> — _VWIN32_TerminateAPC@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002713">
+            <code>00002713</code> — VWIN32_NukeThreadTimeOut
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002773">
+            <code>00002773</code> — VWIN32_NukeThreadEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000027EB">
+            <code>000027EB</code> — VWIN32_NukeStoppedTracing
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002844">
+            <code>00002844</code> — _ITerminateThread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002844">
+            <code>00002844</code> — _TerminateThread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000299F">
+            <code>0000299F</code> — _CreateEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000029C9">
+            <code>000029C9</code> — _DestroyEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000029E5">
+            <code>000029E5</code> — _WaitForEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002A16">
+            <code>00002A16</code> — LinkIntoCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002AB7">
+            <code>00002AB7</code> — UnlinkFromCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002B24">
+            <code>00002B24</code> — _UndoCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002B6E">
+            <code>00002B6E</code> — _WaitCrst@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002D13">
+            <code>00002D13</code> — _WakeCrst@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002E0D">
+            <code>00002E0D</code> — _VW32_WaitCrst@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002E27">
+            <code>00002E27</code> — _VW32_WakeCrst@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002E47">
+            <code>00002E47</code> — VWIN32_EnterCrstR0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002E52">
+            <code>00002E52</code> — _VWIN32_EnterCrstInternal
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002E60">
+            <code>00002E60</code> — _VWIN32_EnterCrstOutOfContext
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002F20">
+            <code>00002F20</code> — VWIN32_LeaveCrstR0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002F2B">
+            <code>00002F2B</code> — _VWIN32_LeaveCrstInternal
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002F39">
+            <code>00002F39</code> — _VWIN32_LeaveCrstOutOfContext
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00002FE7">
+            <code>00002FE7</code> — _AdjustThreadPri
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003011">
+            <code>00003011</code> — _VW32_SetWin32Priority@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003040">
+            <code>00003040</code> — _VW32_SetWin32PriorityClass@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000309A">
+            <code>0000309A</code> — _VW32_AttachThreadToGroup@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000030D9">
+            <code>000030D9</code> — _VW32_Ring0ThreadStart@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003129">
+            <code>00003129</code> — _VWIN32_CreateRing0Thread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000031F5">
+            <code>000031F5</code> — VWIN32_CreateThread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000032A8">
+            <code>000032A8</code> — VWIN32_ThreadInit
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000032CA">
+            <code>000032CA</code> — VWIN32_TerminateThread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003387">
+            <code>00003387</code> — VWIN32_DestroyThread
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000340C">
+            <code>0000340C</code> — CancelKernelAPC
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003460">
+            <code>00003460</code> — _DummyKernelAPC@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003467">
+            <code>00003467</code> — KernelAPCDelList
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000034C2">
+            <code>000034C2</code> — ValidateKernelAPC
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003518">
+            <code>00003518</code> — _VWIN32_QueueKernelAPC
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003681">
+            <code>00003681</code> — _KernelAPCEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000036CB">
+            <code>000036CB</code> — KernelPMCallBack
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000370F">
+            <code>0000370F</code> — _DeliverPendingKernelAPCs
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000376B">
+            <code>0000376B</code> — _VW32_GetThreadContext@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003785">
+            <code>00003785</code> — _VWIN32_Get_Thread_Context
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003A2D">
+            <code>00003A2D</code> — _VW32_SetThreadContext@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003A53">
+            <code>00003A53</code> — _VWIN32_Set_Thread_Context
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003DA0">
+            <code>00003DA0</code> — _vdebModifyPagePermission@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003E29">
+            <code>00003E29</code> — _VW32_ModifyPagePermission@28
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003EF7">
+            <code>00003EF7</code> — _VW32_QueryPage@24
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00003FDE">
+            <code>00003FDE</code> — _VW32_ReadProcessMemory@28
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000040CD">
+            <code>000040CD</code> — _vdebReadMemoryEvent@0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000040FD">
+            <code>000040FD</code> — _VW32_WriteProcessMemory@28
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000041F7">
+            <code>000041F7</code> — _vdebWriteMemoryEvent@0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004249">
+            <code>00004249</code> — _vdebModifyPermissionEvent@0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004287">
+            <code>00004287</code> — _vdebQueryPageEvent@0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000042BC">
+            <code>000042BC</code> — _VW32_WaitSingleObject@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000042DF">
+            <code>000042DF</code> — _VW32_WaitMultipleObjects@28
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000430A">
+            <code>0000430A</code> — _VW32_ReleaseSem@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000434A">
+            <code>0000434A</code> — _VW32_ReleaseMutex@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004373">
+            <code>00004373</code> — _VW32_SetEvent@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000438E">
+            <code>0000438E</code> — _VW32_PulseEvent@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043A9">
+            <code>000043A9</code> — _VW32_ResetEvent@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043C4">
+            <code>000043C4</code> — _VW32_ReleaseSyncObject@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy6@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy2@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy0@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy8@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy11@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy5@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy9@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy1@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy13@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy3@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy7@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy14@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy4@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy12@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000043F4">
+            <code>000043F4</code> — _VW32_Dummy10@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004401">
+            <code>00004401</code> — _VW32_Get_FP_Instruction_Size@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000441B">
+            <code>0000441B</code> — _R0RaiseException@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000445B">
+            <code>0000445B</code> — _StackOverflowAPC@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000451C">
+            <code>0000451C</code> — _StackFault@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000474A">
+            <code>0000474A</code> — _VWIN32_Emulate_Npx
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000047DE">
+            <code>000047DE</code> — _TerminationHandler@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000049E1">
+            <code>000049E1</code> — _VWIN32_UnFreezeProcess@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004A09">
+            <code>00004A09</code> — _GetProcessPSP@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004A14">
+            <code>00004A14</code> — _TestException@0
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004B58">
+            <code>00004B58</code> — _AssertNotIhte@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004B9F">
+            <code>00004B9F</code> — _HandleFromIhte@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004C86">
+            <code>00004C86</code> — _IhteFromHandleEx@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004CBF">
+            <code>00004CBF</code> — _IhteFromHandle@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004D6B">
+            <code>00004D6B</code> — _IhteNew@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004E32">
+            <code>00004E32</code> — _FreeIhte@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004EFD">
+            <code>00004EFD</code> — _IsPredefinedWin32Handle@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00004F21">
+            <code>00004F21</code> — _PvFromHandle@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005081">
+            <code>00005081</code> — _PreAllocHandle@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005093">
+            <code>00005093</code> — _SetPreAllocHandle@16
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000050E4">
+            <code>000050E4</code> — _AllocHandle@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000510D">
+            <code>0000510D</code> — _MapHandle@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005194">
+            <code>00005194</code> — _R0FreeHandle@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005249">
+            <code>00005249</code> — _VWIN32_CloseWin32Handle
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005338">
+            <code>00005338</code> — _VWIN32_OpenVxDHandle
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005381">
+            <code>00005381</code> — _GetDFH@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000053A6">
+            <code>000053A6</code> — _NewR0ObjExt@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000053DA">
+            <code>000053DA</code> — _VWIN32_AllocExternalHandle
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000054B1">
+            <code>000054B1</code> — _VWIN32_UseExternalHandle
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000054F5">
+            <code>000054F5</code> — _VWIN32_UnuseExternalHandle
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005549">
+            <code>00005549</code> — _VWIN32_ReferenceObject
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005563">
+            <code>00005563</code> — _VWIN32_GetExternalHandle
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005588">
+            <code>00005588</code> — _FUnuseObject@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005615">
+            <code>00005615</code> — _VW32_DisposeObject@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005664">
+            <code>00005664</code> — _DisposeR0ObjExt@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000568B">
+            <code>0000568B</code> — _VW32_DuplicateObject@20
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000056CD">
+            <code>000056CD</code> — _DuplicateR0ObjExt@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000573F">
+            <code>0000573F</code> — _ForceLeaveCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000057CB">
+            <code>000057CB</code> — _ForceEnterCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005817">
+            <code>00005817</code> — _RestoreSysCrst
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="0000588E">
+            <code>0000588E</code> — _R0CheckSysLevel@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000058F1">
+            <code>000058F1</code> — _R0ConfirmSysLevel@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005916">
+            <code>00005916</code> — _R0EnterSysLevel@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005967">
+            <code>00005967</code> — _R0LeaveSysLevel@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="000059D0">
+            <code>000059D0</code> — _NewTimerR3Apc@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005A2A">
+            <code>00005A2A</code> — _DisposeTimerR3Apc@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005AA1">
+            <code>00005AA1</code> — CancelTimerEvent
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005AC7">
+            <code>00005AC7</code> — _TimerApcRundown@4
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005AFA">
+            <code>00005AFA</code> — _VW32_SetTimer@32
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005B9D">
+            <code>00005B9D</code> — _VW32_DisposeTimerR3Apc@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005BB1">
+            <code>00005BB1</code> — _VW32_CancelTimer@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005BC5">
+            <code>00005BC5</code> — _VW32_GetNextResumeDueTime@12
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005BE0">
+            <code>00005BE0</code> — _VW32_BiosSupportsResumeTimers@8
+            
+          </li>
+        
+          <li data-segment="0000A970" data-offset="00005C12">
+            <code>00005C12</code> — _VW32_SetResumeTimer@12
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _RCODE @ 0000A9E0
+      </summary>
+      <ul>
+        
+          <li data-segment="0000A9E0" data-offset="00000000">
+            <code>00000000</code> — VWIN32_Real_Init
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: _PDATA @ 0000AE30
+      </summary>
+      <ul>
+        
+          <li data-segment="0000AE30" data-offset="00000000">
+            <code>00000000</code> — _tdbxDummy
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000000C7">
+            <code>000000C7</code> — _edbDummy
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000017B">
+            <code>0000017B</code> — _pdbDummy
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000587">
+            <code>00000587</code> — Win32Loaded
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000058B">
+            <code>0000058B</code> — _K32TerminationHandler
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000058F">
+            <code>0000058F</code> — _K32pSuspendCheckLocks
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000593">
+            <code>00000593</code> — _VWIN32_Win16Lock
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000597">
+            <code>00000597</code> — _VWIN32_pulRITEventPending
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000059B">
+            <code>0000059B</code> — _VWIN32_Krn32Lock
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000059F">
+            <code>0000059F</code> — _VWIN32_pcrstGHeap16
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005A3">
+            <code>000005A3</code> — _pWin16TermStack
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005A7">
+            <code>000005A7</code> — _pselGMoving
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005AB">
+            <code>000005AB</code> — _fpfnThreadTerminationHandler16
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005AF">
+            <code>000005AF</code> — _fpThreadTerminationHandler16CallBack
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005B3">
+            <code>000005B3</code> — _fpDivideByZeroInterrupt
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005B7">
+            <code>000005B7</code> — _ThunkStackShadowPage
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005BB">
+            <code>000005BB</code> — _fRealNetx
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005BF">
+            <code>000005BF</code> — _cKernelFileLocks
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005C0">
+            <code>000005C0</code> — _pfnTimerApcHandler
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000005C4">
+            <code>000005C4</code> — _phtbKernel
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000081C">
+            <code>0000081C</code> — _pfnR0ExceptionHandler
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000820">
+            <code>00000820</code> — _pfnFaultDialogTerminate
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000824">
+            <code>00000824</code> — pfnFaultTerminate
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000828">
+            <code>00000828</code> — pfnFaultSysErrorBox
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000082C">
+            <code>0000082C</code> — _pfnExcept7Handler
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000830">
+            <code>00000830</code> — ptcbFaultThread
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000834">
+            <code>00000834</code> — fpfnSegmentNotPresent
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000838">
+            <code>00000838</code> — fpSegmentNotPresentCallBack
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000083C">
+            <code>0000083C</code> — fpDispatch16BitExceptionCallBack
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000840">
+            <code>00000840</code> — _ppdbKernel
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000844">
+            <code>00000844</code> — fpfnKernelTraceOut
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000848">
+            <code>00000848</code> — fpfnKernelStopTracing
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000084C">
+            <code>0000084C</code> — fpfnKernelDivideByZeroFault
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000850">
+            <code>00000850</code> — pCallWhenSafeCrstList
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000854">
+            <code>00000854</code> — _selRing3FlatCode
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000856">
+            <code>00000856</code> — _selRing3FlatData
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000858">
+            <code>00000858</code> — selKrnl386CS
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000085A">
+            <code>0000085A</code> — cFreezeAllThreads
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="0000085C">
+            <code>0000085C</code> — ExceptionVector
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="000008A0">
+            <code>000008A0</code> — acscrBeginning
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000940">
+            <code>00000940</code> — cThreadsNotCrstSafe
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000940">
+            <code>00000940</code> — acscrEnd
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000944">
+            <code>00000944</code> — cCallWhenCrstSafe
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00000945">
+            <code>00000945</code> — cForceCrsts
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00001AB4">
+            <code>00001AB4</code> — _pfnMakePrivate
+            
+          </li>
+        
+          <li data-segment="0000AE30" data-offset="00001BD8">
+            <code>00001BD8</code> — _dwOpenTypeMapping
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: _IDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000328">
+            <code>00000328</code> — VWIN32_Sys_Crit_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003AE">
+            <code>000003AE</code> — VWIN32_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005F6">
+            <code>000005F6</code> — VWIN32_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000618">
+            <code>00000618</code> — GetDllPaths
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000006E4">
+            <code>000006E4</code> — InitAPCCode
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000714">
+            <code>00000714</code> — InitW32Sync
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000743">
+            <code>00000743</code> — _PhtbCreate@4
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000075F">
+            <code>0000075F</code> — _InitDummyPDB@0
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007D0">
+            <code>000007D0</code> — ExportNTFunctions
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

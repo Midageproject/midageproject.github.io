@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>RMM — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../rmmaer.asm</li>
+      
+        <li>../rmm.asm</li>
+      
+        <li>../rmmcomp.asm</li>
+      
+        <li>../rmminit.asm</li>
+      
+        <li>../rmmreq.asm</li>
+      
+        <li>../rmmser.asm</li>
+      
+        <li>../rmmsstor.asm</li>
+      
+        <li>../rmmsubs.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LGROUP @ 00001240
+      </summary>
+      <ul>
+        
+          <li data-segment="00001240" data-offset="0000001C">
+            <code>0000001C</code> — RMM_Async_Event
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000045">
+            <code>00000045</code> — RMM_Boot_Complete
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000000F6">
+            <code>000000F6</code> — RMM_Unconfigure
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000154">
+            <code>00000154</code> — RMMTab
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000180">
+            <code>00000180</code> — apfnRMMTab
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000001A0">
+            <code>000001A0</code> — RMM_Request
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="0000047D">
+            <code>0000047D</code> — RMM_Process_Err
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000495">
+            <code>00000495</code> — RMM_call_RM_driver
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="0000054E">
+            <code>0000054E</code> — RMM_call_back_event
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="0000058D">
+            <code>0000058D</code> — RMM_Poll_Indos
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000608">
+            <code>00000608</code> — RMMSuspendHndlr
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="0000060E">
+            <code>0000060E</code> — RMMNotExecHndlr
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000698">
+            <code>00000698</code> — IsSafe
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000006F9">
+            <code>000006F9</code> — SetupUnitNum
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000713">
+            <code>00000713</code> — SetWrite
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000007E6">
+            <code>000007E6</code> — SetMedCh
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000007FB">
+            <code>000007FB</code> — SetBuildBPB
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000008D3">
+            <code>000008D3</code> — SetIOCTL
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000008F7">
+            <code>000008F7</code> — RMMCompTbl
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000923">
+            <code>00000923</code> — CVMCommand
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000961">
+            <code>00000961</code> — SetIoctlRead
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000009A7">
+            <code>000009A7</code> — SetIoctlRem
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="000009CE">
+            <code>000009CE</code> — SetGenericIoctl
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000A98">
+            <code>00000A98</code> — Find_BDS
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000ABF">
+            <code>00000ABF</code> — GetDPBAddr
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000B04">
+            <code>00000B04</code> — SgOfftoLin
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000B15">
+            <code>00000B15</code> — FindDPB
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000B34">
+            <code>00000B34</code> — RMMInt4bHandler
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000B59">
+            <code>00000B59</code> — RMMInt4bIret
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000B66">
+            <code>00000B66</code> — SetRMMBusy
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000B8A">
+            <code>00000B8A</code> — ClrRMMBusy
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000BB8">
+            <code>00000BB8</code> — RMMSendNextCommand
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000BF0">
+            <code>00000BF0</code> — RMMIsCompressed
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000BFC">
+            <code>00000BFC</code> — RMMFlushUnit
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000BFE">
+            <code>00000BFE</code> — RMMFreeClusters
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000C8A">
+            <code>00000C8A</code> — RMMFullClusters
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000CCE">
+            <code>00000CCE</code> — RMMRemount
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000CD6">
+            <code>00000CD6</code> — RMMAllocateSpace
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000CE2">
+            <code>00000CE2</code> — TimedStacFLush
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000D0F">
+            <code>00000D0F</code> — FlushStacVol
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000D58">
+            <code>00000D58</code> — RMM_Ilb
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000DC0">
+            <code>00000DC0</code> — RMM_DDB
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000E10">
+            <code>00000E10</code> — CDSTab
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000E90">
+            <code>00000E90</code> — BDSHead
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000E94">
+            <code>00000E94</code> — DPBHead
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000E98">
+            <code>00000E98</code> — pDOSDATA
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000E9C">
+            <code>00000E9C</code> — XferBuf
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EA0">
+            <code>00000EA0</code> — RMMCurrentCmd
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EA4">
+            <code>00000EA4</code> — pGlbPhysDCB
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EA8">
+            <code>00000EA8</code> — RMMFlags
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EAA">
+            <code>00000EAA</code> — RMMv86Code
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EAC">
+            <code>00000EAC</code> — RMMv86SegStart
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EAE">
+            <code>00000EAE</code> — DevPacketSeg
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EB0">
+            <code>00000EB0</code> — DevPacketPtr
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EB4">
+            <code>00000EB4</code> — pRMMDDB
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EB8">
+            <code>00000EB8</code> — OrigI4b
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EBC">
+            <code>00000EBC</code> — BiosSecBuffer
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EC0">
+            <code>00000EC0</code> — ThreadEvSched
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EC4">
+            <code>00000EC4</code> — ResEvHndl
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EC8">
+            <code>00000EC8</code> — LastDrive
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EC9">
+            <code>00000EC9</code> — ForceRMMBusyCnt
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000ECA">
+            <code>00000ECA</code> — RMMFlpABUnitNum
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000ECC">
+            <code>00000ECC</code> — Error_Map_Tab
+            
+          </li>
+        
+          <li data-segment="00001240" data-offset="00000EDC">
+            <code>00000EDC</code> — RMD_To_I24
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMGROUP @ 00001280
+      </summary>
+      <ul>
+        
+          <li data-segment="00001280" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="00001280" data-offset="00000014">
+            <code>00000014</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _IGROUP @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — RMM_Initialize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001B3">
+            <code>000001B3</code> — RMM_init_V86_stack
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001F5">
+            <code>000001F5</code> — RMM_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000231">
+            <code>00000231</code> — RMM_Inquire
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000307">
+            <code>00000307</code> — RMM_Configure
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003D2">
+            <code>000003D2</code> — RMM_check_removable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000494">
+            <code>00000494</code> — GetIOSYSRMD
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000004BF">
+            <code>000004BF</code> — SegOffToLin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000004D9">
+            <code>000004D9</code> — RealOrProt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000059C">
+            <code>0000059C</code> — RMM_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005E9">
+            <code>000005E9</code> — RMM_GetProfileBoolean
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000608">
+            <code>00000608</code> — HookInt4b
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000628">
+            <code>00000628</code> — RMM_check_compressed
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007CC">
+            <code>000007CC</code> — RMMIsStacker
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009D8">
+            <code>000009D8</code> — RMMIsSuperStor
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A04">
+            <code>00000A04</code> — DetectSuperStor
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A35">
+            <code>00000A35</code> — SuperStorSwap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A51">
+            <code>00000A51</code> — SendIOCTL
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000ADC">
+            <code>00000ADC</code> — Drv_Reg_Pkt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000BA4">
+            <code>00000BA4</code> — rmmfSTACAll
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

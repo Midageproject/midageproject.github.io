@@ -1,0 +1,3319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>IOS — Windows ME Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../../../../../dev/ddk/inc/ios.inc</li>
+      
+        <li>../ios.asm</li>
+      
+        <li>../iosbd.asm</li>
+      
+        <li>../iosdata.asm</li>
+      
+        <li>../iosdebug.asm</li>
+      
+        <li>../iosdot.asm</li>
+      
+        <li>../iosdump.c</li>
+      
+        <li>../ioserr.asm</li>
+      
+        <li>../iosinif.asm</li>
+      
+        <li>../iosinit.asm</li>
+      
+        <li>../iosint13.asm</li>
+      
+        <li>../iosload.asm</li>
+      
+        <li>../ioslog.asm</li>
+      
+        <li>../iosma.asm</li>
+      
+        <li>../iosmd.asm</li>
+      
+        <li>../iosmsg.asm</li>
+      
+        <li>../iospm.asm</li>
+      
+        <li>../iospnp.asm</li>
+      
+        <li>../iospnppr.c</li>
+      
+        <li>../iospower.asm</li>
+      
+        <li>../iosreg.asm</li>
+      
+        <li>../iosreq.asm</li>
+      
+        <li>../iosrmini.asm</li>
+      
+        <li>../iosrmt.asm</li>
+      
+        <li>../iosserv.asm</li>
+      
+        <li>../iostimer.asm</li>
+      
+        <li>../iosutils.asm</li>
+      
+        <li>../iosv86.asm</li>
+      
+        <li>/buildtool/mc/src/pdb/mre/FileInfo.h</li>
+      
+        <li>/buildtool/mc/src/pdb/mre/plc.h</li>
+      
+        <li>mpNiClsData.c</li>
+      
+        <li>mre/mreline.cpp</li>
+      
+        <li>mre/mretype.cpp</li>
+      
+        <li>mre/mreutil.cpp</li>
+      
+        <li>stackTi.C</li>
+      
+        <li>SysDM.C</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .bss @ 00005250
+      </summary>
+      <ul>
+        
+          <li data-segment="00005250" data-offset="00000000">
+            <code>00000000</code> — _szTemp1
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000020">
+            <code>00000020</code> — _szTemp2
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000040">
+            <code>00000040</code> — _szTemp3
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000054">
+            <code>00000054</code> — _BeginLockable_Debug_Flags
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000058">
+            <code>00000058</code> — _IOS_Get_Version
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000005C">
+            <code>0000005C</code> — _IOS_BD_Register_Device
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000060">
+            <code>00000060</code> — _IOS_Find_Int13_Drive
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000064">
+            <code>00000064</code> — _IOS_Get_Device_List
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000068">
+            <code>00000068</code> — _IOS_SendCommand
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000006C">
+            <code>0000006C</code> — _IOS_BD_Command_Complete
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000070">
+            <code>00000070</code> — _IOS_Synchronous_Command
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000074">
+            <code>00000074</code> — _IOS_Register
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000078">
+            <code>00000078</code> — _IOS_Requestor_Service
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000007C">
+            <code>0000007C</code> — _IOS_Exclusive_Access
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000080">
+            <code>00000080</code> — _IOS_Send_Next_Command
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000084">
+            <code>00000084</code> — _IOS_Set_Async_Time_Out
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000088">
+            <code>00000088</code> — _IOS_Signal_Semaphore_No_Switch
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000008C">
+            <code>0000008C</code> — _IOSIdleStatus
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000090">
+            <code>00000090</code> — _IOSMapIORSToI24
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000094">
+            <code>00000094</code> — _IOSMapIORSToI21
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000098">
+            <code>00000098</code> — _PrintLog
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000009C">
+            <code>0000009C</code> — _IOS_deregister
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000A0">
+            <code>000000A0</code> — _IOS_wait
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000A4">
+            <code>000000A4</code> — __IOS_SpinDownDrives
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000A8">
+            <code>000000A8</code> — __IOS_query_udf_mount
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000AC">
+            <code>000000AC</code> — __IOS_LockDrive
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000B0">
+            <code>000000B0</code> — __IOS_UnlockDrive
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000B4">
+            <code>000000B4</code> — __IOS_IsDriveLocked
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000B8">
+            <code>000000B8</code> — __IOS_SpinUpDrives
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000000BC">
+            <code>000000BC</code> — IOS_DDB
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000178">
+            <code>00000178</code> — Current_BDD
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000042C">
+            <code>0000042C</code> — _vt
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000438">
+            <code>00000438</code> — quick_mem_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000053C">
+            <code>0000053C</code> — logical_drive_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000053C">
+            <code>0000053C</code> — _logical_drive_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000005A4">
+            <code>000005A4</code> — _physical_drive_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000005A4">
+            <code>000005A4</code> — physical_drive_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000604">
+            <code>00000604</code> — _physical_floppy_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000604">
+            <code>00000604</code> — physical_floppy_table
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000624">
+            <code>00000624</code> — _SemTabInd
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000624">
+            <code>00000624</code> — SemTabInd
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000626">
+            <code>00000626</code> — SemTab
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000626">
+            <code>00000626</code> — _SemTab
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000646">
+            <code>00000646</code> — _SemTabSem
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000646">
+            <code>00000646</code> — SemTabSem
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000064A">
+            <code>0000064A</code> — MemSem
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000064A">
+            <code>0000064A</code> — _MemSem
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000064E">
+            <code>0000064E</code> — MemBlockers
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000064E">
+            <code>0000064E</code> — _MemBlockers
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000064F">
+            <code>0000064F</code> — IOSPanicHead
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000064F">
+            <code>0000064F</code> — _IOSPanicHead
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000653">
+            <code>00000653</code> — CurrentDevNode
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000657">
+            <code>00000657</code> — I13Entry
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000065B">
+            <code>0000065B</code> — DblDriveMap
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000065F">
+            <code>0000065F</code> — ProtModeDblDrvMap
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000663">
+            <code>00000663</code> — mpDblHost
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000067D">
+            <code>0000067D</code> — mpStacHost
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000697">
+            <code>00000697</code> — IOS_Int13_Device_Chain
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000697">
+            <code>00000697</code> — _IOS_Int13_Device_Chain
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000069B">
+            <code>0000069B</code> — IOS_CD_ENTRY
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006AF">
+            <code>000006AF</code> — IOSInitFlags
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006AF">
+            <code>000006AF</code> — _IOSInitFlags
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006B3">
+            <code>000006B3</code> — LogFile
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006B4">
+            <code>000006B4</code> — IOSSpindownTimer
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006B8">
+            <code>000006B8</code> — NumHardFiles
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006B9">
+            <code>000006B9</code> — pDOSData
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000006BD">
+            <code>000006BD</code> — CurrentSubFunc
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000FB4">
+            <code>00000FB4</code> — IOS_rm_flags
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000FB8">
+            <code>00000FB8</code> — IOS_RM_Data
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000FBC">
+            <code>00000FBC</code> — I13_Call_Back
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000FC0">
+            <code>00000FC0</code> — I13_Orig_DOS_BIOS_13
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000FC8">
+            <code>00000FC8</code> — I13_Hook_State
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00000FC9">
+            <code>00000FC9</code> — IOS_VHDIRQ_On
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000020A0">
+            <code>000020A0</code> — pldHead
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00002E64">
+            <code>00002E64</code> — DCBMsg1
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000036AB">
+            <code>000036AB</code> — DCBVendMsg
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000036BE">
+            <code>000036BE</code> — DCBPIDMsg
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000036D2">
+            <code>000036D2</code> — DCBPNameMsg
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000036E5">
+            <code>000036E5</code> — DCBMsg3
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00003707">
+            <code>00003707</code> — DCBMsg3A
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000373E">
+            <code>0000373E</code> — DRPStrTbl
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041D8">
+            <code>000041D8</code> — _fIosCmApmTrace
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041DC">
+            <code>000041DC</code> — _szIDE
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041E0">
+            <code>000041E0</code> — _szSCSI
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041E8">
+            <code>000041E8</code> — _szNEC
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041EC">
+            <code>000041EC</code> — _szSMART
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041F4">
+            <code>000041F4</code> — _szABIOS
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000041FC">
+            <code>000041FC</code> — _szUNKNOWN
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004204">
+            <code>00004204</code> — _szBusType
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000421C">
+            <code>0000421C</code> — _DRP_IFS_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004224">
+            <code>00004224</code> — _DRP_RESRVD1_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004230">
+            <code>00004230</code> — _DRP_FSD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004238">
+            <code>00004238</code> — _DRP_FSD_EXT_1_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004248">
+            <code>00004248</code> — _DRP_FSD_EXT_2_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004258">
+            <code>00004258</code> — _DRP_VOLTRK_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004264">
+            <code>00004264</code> — _DRP_CLASS_DRV_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004274">
+            <code>00004274</code> — _DRP_TSD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000427C">
+            <code>0000427C</code> — _DRP_VSD_1_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004288">
+            <code>00004288</code> — _DRP_VSD_2_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004294">
+            <code>00004294</code> — _DRP_VSD_3_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042A0">
+            <code>000042A0</code> — _DRP_SCSI_LAYER_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042B0">
+            <code>000042B0</code> — _DRP_VSD_4_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042BC">
+            <code>000042BC</code> — _DRP_VSD_5_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042C8">
+            <code>000042C8</code> — _DRP_VSD_6_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042D4">
+            <code>000042D4</code> — _DRP_VSD_7_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042E0">
+            <code>000042E0</code> — _DRP_VSD_8_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042EC">
+            <code>000042EC</code> — _DRP_VSD_9_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000042F8">
+            <code>000042F8</code> — _DRP_RESRVD18_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004308">
+            <code>00004308</code> — _DRP_MISC_PD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004314">
+            <code>00004314</code> — _DRP_NT_MPD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004320">
+            <code>00004320</code> — _DRP_NT_PD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000432C">
+            <code>0000432C</code> — _DRP_ESDI_PD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004338">
+            <code>00004338</code> — _DRP_ESDIEMUL_PD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004348">
+            <code>00004348</code> — _DRP_RESRVD23_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004358">
+            <code>00004358</code> — _DRP_ABIOS_PD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004368">
+            <code>00004368</code> — _DRP_ABIOS_PREMPT_PD_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004378">
+            <code>00004378</code> — _DRP_NEC_FLOPPY_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004388">
+            <code>00004388</code> — _DRP_RESRVD28_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004398">
+            <code>00004398</code> — _DRP_SOC_SER_DRV_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000043A8">
+            <code>000043A8</code> — _DRP_SOC_DRV_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000043B0">
+            <code>000043B0</code> — _DRP_IOS_REG_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000043BC">
+            <code>000043BC</code> — _DRP_INVALID_STR
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000043CC">
+            <code>000043CC</code> — _DRPStrTbl
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004450">
+            <code>00004450</code> — _szLogPhys
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004464">
+            <code>00004464</code> — _szPhys
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004470">
+            <code>00004470</code> — _szLog
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004478">
+            <code>00004478</code> — _szNull
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000447C">
+            <code>0000447C</code> — IOS_Control
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000044BB">
+            <code>000044BB</code> — IOS_Get_Version
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000044CA">
+            <code>000044CA</code> — _SpinAllDrives
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004507">
+            <code>00004507</code> — IOS_System_Exit
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004529">
+            <code>00004529</code> — IOS_Reboot_Notify
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004544">
+            <code>00004544</code> — BlockDev_Virt_EOI
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004550">
+            <code>00004550</code> — IOS_serialize
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000045C9">
+            <code>000045C9</code> — IOS_serialize_callback
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004680">
+            <code>00004680</code> — IOS_bd_send_next_command
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000470D">
+            <code>0000470D</code> — IOS_BD_Async_Request
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004748">
+            <code>00004748</code> — IOS_BD_VxD_Int_15_Hook
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004770">
+            <code>00004770</code> — IOS_BD_Hw_Int
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000047C6">
+            <code>000047C6</code> — IOS_BD_Set_Flag_Event
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000047E8">
+            <code>000047E8</code> — IOS_BD_Command_Complete
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000047FB">
+            <code>000047FB</code> — IOS_BD_IOP_Timeout
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004800">
+            <code>00004800</code> — IOS_BD_Request
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004835">
+            <code>00004835</code> — IOS_BD_BCB2IOP
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000492F">
+            <code>0000492F</code> — IOS_BD_BCB_Complete
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004968">
+            <code>00004968</code> — IOSAssertHeap
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000049D8">
+            <code>000049D8</code> — IOS_register_dot_command
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000049FA">
+            <code>000049FA</code> — IOS_dot_command_handler
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004A3C">
+            <code>00004A3C</code> — IOS_parse_params
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004AAC">
+            <code>00004AAC</code> — IOS_process_keyword
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004B40">
+            <code>00004B40</code> — IOS_dump_iop
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004C52">
+            <code>00004C52</code> — IOS_dump_med
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004D0E">
+            <code>00004D0E</code> — IOS_dump_help
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004D21">
+            <code>00004D21</code> — _IOS_get_command_line_char@0
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004D4A">
+            <code>00004D4A</code> — PrintLog
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00004D65">
+            <code>00004D65</code> — dprintf
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005280">
+            <code>00005280</code> — IOS_BD_V86_Int_13h_Chain
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005472">
+            <code>00005472</code> — IOSInt13DoFlush
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000549E">
+            <code>0000549E</code> — IOS_BD_Int13_Iret
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005535">
+            <code>00005535</code> — IOS_Hook_BIOS_Int_13h
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005583">
+            <code>00005583</code> — IOS_Set_BIOS_Hook
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005595">
+            <code>00005595</code> — IOS_BD_Unhook_BIOS_Int_13h
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000055C0">
+            <code>000055C0</code> — IOS_BD_Int13_BIOS_Hook
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000055DF">
+            <code>000055DF</code> — IOS_Int13_BIOS_Hook
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005604">
+            <code>00005604</code> — ios_mem_alloc
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000564F">
+            <code>0000564F</code> — IOSFastPktAlloc
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005930">
+            <code>00005930</code> — IOSPktDeAlloc
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000599F">
+            <code>0000599F</code> — IOSFastPktDeAlloc
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005A40">
+            <code>00005A40</code> — IOS_ResetStandby
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005A74">
+            <code>00005A74</code> — IOS_SendCommand
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00005B96">
+            <code>00005B96</code> — IOS_sc_prepare_request
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000065A1">
+            <code>000065A1</code> — IOS_SendCommandLocked
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000066CF">
+            <code>000066CF</code> — IOS_fix_split_sgds
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000066FE">
+            <code>000066FE</code> — IOS_restore_iop
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006728">
+            <code>00006728</code> — IOS_Synchronous_Command
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006732">
+            <code>00006732</code> — IOS_iop_callback
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000067D2">
+            <code>000067D2</code> — IOS_double_buf_xfer
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000694C">
+            <code>0000694C</code> — IOS_do_buffer_breakup
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006A6B">
+            <code>00006A6B</code> — IOS_CallDown_Request
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006AC5">
+            <code>00006AC5</code> — find_dcb
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006B79">
+            <code>00006B79</code> — IOS_Send_Next_Command
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006B88">
+            <code>00006B88</code> — iosservice
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006C07">
+            <code>00006C07</code> — alloc_iop
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006CC8">
+            <code>00006CC8</code> — get_dcb
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006CE2">
+            <code>00006CE2</code> — get_f_n_dcb
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006D35">
+            <code>00006D35</code> — wait_10th_sec
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006D45">
+            <code>00006D45</code> — ios_internal_request
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006D7E">
+            <code>00006D7E</code> — ios_int_meet_io_criteria
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00006D8C">
+            <code>00006D8C</code> — ios_meet_io_criteria
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007034">
+            <code>00007034</code> — _IOS_CallAllAers
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007040">
+            <code>00007040</code> — IOS_call_all_aers
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007081">
+            <code>00007081</code> — InsertVrp
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007094">
+            <code>00007094</code> — DeleteVrp
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000070CF">
+            <code>000070CF</code> — IOSIdleStatus
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000071CC">
+            <code>000071CC</code> — IOS_Signal_Semaphore_No_Switch
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000071E4">
+            <code>000071E4</code> — IOS_Set_Async_Time_Out
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000071F9">
+            <code>000071F9</code> — IOS_Exclusive_Access
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000727E">
+            <code>0000727E</code> — IOS_dequeue_iop
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000074AC">
+            <code>000074AC</code> — IOS_enqueue_iop
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000077B1">
+            <code>000077B1</code> — IOS_abort_queue
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007812">
+            <code>00007812</code> — IOS_issue_request
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007816">
+            <code>00007816</code> — IOS_issue_request_sync
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000078FC">
+            <code>000078FC</code> — IOS_request_callback
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007961">
+            <code>00007961</code> — IOSShellBroadcastHook
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000079E7">
+            <code>000079E7</code> — IOS_wait
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000079FF">
+            <code>000079FF</code> — _IOS_query_cd_activity
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007A35">
+            <code>00007A35</code> — _IOS_query_udf_mount
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007AB5">
+            <code>00007AB5</code> — _IOS_LockDrive
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007B80">
+            <code>00007B80</code> — _IOS_UnlockDrive
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007BC3">
+            <code>00007BC3</code> — IOS_CancelLock
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007C2B">
+            <code>00007C2B</code> — _IOS_IsDriveLocked
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007C7C">
+            <code>00007C7C</code> — IOSTimer
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007E02">
+            <code>00007E02</code> — ios_timeout
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007E62">
+            <code>00007E62</code> — _IOS_issue_drive_spindown_sync
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007E6E">
+            <code>00007E6E</code> — _IOS_issue_drive_spindown
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007E7A">
+            <code>00007E7A</code> — IOS_issue_drive_spindown_sync
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007E96">
+            <code>00007E96</code> — IOS_issue_drive_spindown
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007EB2">
+            <code>00007EB2</code> — IOS_dealloc_Panic
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007F14">
+            <code>00007F14</code> — IsIndosSafe
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00007F8C">
+            <code>00007F8C</code> — IOSDumpDCB
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="000081EA">
+            <code>000081EA</code> — IOSMapIORSToI24
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000821D">
+            <code>0000821D</code> — IOSMapIORSToI21
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008244">
+            <code>00008244</code> — _printbar
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008250">
+            <code>00008250</code> — _ios_strclean
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000828F">
+            <code>0000828F</code> — _IOS_DumpIDA@0
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="0000843D">
+            <code>0000843D</code> — _IOS_DumpSingleDCB
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008AB4">
+            <code>00008AB4</code> — _IOS_DumpSingleDVTDDB
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008D07">
+            <code>00008D07</code> — _IOS_DumpDVTDDBs@4
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008D56">
+            <code>00008D56</code> — _IOS_DumpDCBs@4
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008DA1">
+            <code>00008DA1</code> — _IOS_DumpAll@0
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008DD8">
+            <code>00008DD8</code> — _LCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008DEC">
+            <code>00008DEC</code> — __imp__ZwPowerInformation@20
+            
+          </li>
+        
+          <li data-segment="00005250" data-offset="00008DF0">
+            <code>00008DF0</code> — WDMZwPowerInformation
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMSG$1 @ 00005290
+      </summary>
+      <ul>
+        
+          <li data-segment="00005290" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="00005290" data-offset="00000014">
+            <code>00000014</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: RARE @ 00005510
+      </summary>
+      <ul>
+        
+          <li data-segment="00005510" data-offset="00000000">
+            <code>00000000</code> — IsStacPresent
+            
+          </li>
+        
+          <li data-segment="00005510" data-offset="00000018">
+            <code>00000018</code> — GetVolCompressInfo
+            
+          </li>
+        
+          <li data-segment="00005510" data-offset="00000050">
+            <code>00000050</code> — GetBadDriverInfo
+            
+          </li>
+        
+          <li data-segment="00005510" data-offset="00000079">
+            <code>00000079</code> — PnpIdToInt13
+            
+          </li>
+        
+          <li data-segment="00005510" data-offset="00000123">
+            <code>00000123</code> — DoDriveRecompute
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: PNP @ 00005F80
+      </summary>
+      <ul>
+        
+          <li data-segment="00005F80" data-offset="00000000">
+            <code>00000000</code> — ValidateRMMVols
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000045">
+            <code>00000045</code> — IOS_query_dev_remove
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="000000F9">
+            <code>000000F9</code> — IOS_broadcast_remove_state
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="0000015C">
+            <code>0000015C</code> — IOS_get_fn_logical_unit
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="000001C2">
+            <code>000001C2</code> — IOS_send_shell_broadcast
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="0000021B">
+            <code>0000021B</code> — IOS_dev_remove
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="0000025C">
+            <code>0000025C</code> — IOS_update_reg_peripheral_data
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="000004B8">
+            <code>000004B8</code> — IOS_make_devdesc_str
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="0000051B">
+            <code>0000051B</code> — IOS_read_registry
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000569">
+            <code>00000569</code> — IOS_bin_to_ascii
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="0000057C">
+            <code>0000057C</code> — IOSDoBootLog
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000638">
+            <code>00000638</code> — _IOS_fPowerPolicy
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000685">
+            <code>00000685</code> — _IOS_SetPowerCapabilitiesSpindown
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000721">
+            <code>00000721</code> — _IOS_GetSpindownTimeoutFromPolicy
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="0000083A">
+            <code>0000083A</code> — _IOSRegisterIdleDetection@4
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000915">
+            <code>00000915</code> — _IOSCreateChildDevNode@4
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000BD0">
+            <code>00000BD0</code> — _IOS_OnConfigLock
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000C29">
+            <code>00000C29</code> — _IOS_OnConfigUnlock
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000C82">
+            <code>00000C82</code> — _IOS_CmApmStandby
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000E58">
+            <code>00000E58</code> — _IOS_UpdateSpindownTimers
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000E95">
+            <code>00000E95</code> — _IOS_OnPowerBroadcast
+            
+          </li>
+        
+          <li data-segment="00005F80" data-offset="00000EE5">
+            <code>00000EE5</code> — _IOS_FreeTaskFileBuffer
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PTEXT @ 00009510
+      </summary>
+      <ul>
+        
+          <li data-segment="00009510" data-offset="0000003A">
+            <code>0000003A</code> — IOS_BD_Register_Device
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000000C7">
+            <code>000000C7</code> — IOS_Get_Device_List
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000000DD">
+            <code>000000DD</code> — IOS_Find_Int13_Drive
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000011C">
+            <code>0000011C</code> — IOS_PM_API_Handler
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000156">
+            <code>00000156</code> — IOS_Register
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000003EA">
+            <code>000003EA</code> — IOS_port_register
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000617">
+            <code>00000617</code> — IOS_enumerate_scsi
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000007AF">
+            <code>000007AF</code> — IOS_enumerate_linear
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000008EC">
+            <code>000008EC</code> — IOS_process_device
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000A30">
+            <code>00000A30</code> — remove_dvt_from_chain
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000A63">
+            <code>00000A63</code> — IOS_deregister
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000AD8">
+            <code>00000AD8</code> — IOSIoctlTab
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000B28">
+            <code>00000B28</code> — IOS_sc_gen_ioctl
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000B6E">
+            <code>00000B6E</code> — IOS_sc_is_removeable
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000BA2">
+            <code>00000BA2</code> — IOS_sc_query_devnode
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000C36">
+            <code>00000C36</code> — IOS_sc_get_drv_map
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000C5E">
+            <code>00000C5E</code> — IOS_sc_set_drv_map
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000D05">
+            <code>00000D05</code> — IOS_sc_chk_Ioctl
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000E24">
+            <code>00000E24</code> — ios_get_drive_map_info
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000F80">
+            <code>00000F80</code> — IOS_sc_chk_query
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00000FC4">
+            <code>00000FC4</code> — create_ddb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001097">
+            <code>00001097</code> — create_dcb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000112A">
+            <code>0000112A</code> — IOS_destroy_ddb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001137">
+            <code>00001137</code> — IOS_destroy_ddb_internal
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001266">
+            <code>00001266</code> — IOS_destroy_dcb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001273">
+            <code>00001273</code> — IOS_destroy_device
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000135C">
+            <code>0000135C</code> — IOS_destroy_dcb_worker
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000014B3">
+            <code>000014B3</code> — IOS_delete_calldown_nodes
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000014E2">
+            <code>000014E2</code> — IOS_unlink_dcb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001672">
+            <code>00001672</code> — IOS_query_matches
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000016D0">
+            <code>000016D0</code> — insert_calldown
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000177B">
+            <code>0000177B</code> — associate_dcb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001842">
+            <code>00001842</code> — IOS_query_remove
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000186E">
+            <code>0000186E</code> — disassociate_dcb
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000018CC">
+            <code>000018CC</code> — IOS_device_removed
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000018FD">
+            <code>000018FD</code> — IOS_device_arrived
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001944">
+            <code>00001944</code> — IOS_notify_drive_arrival
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001988">
+            <code>00001988</code> — IOS_notify_drive_removal
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000019A9">
+            <code>000019A9</code> — IOS_pick_drive_letter
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001AF8">
+            <code>00001AF8</code> — IOS_find_ldm_ent
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001B18">
+            <code>00001B18</code> — IOS_delete_ldm_ent
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001B5A">
+            <code>00001B5A</code> — IOS_broadcast_isp
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001B6B">
+            <code>00001B6B</code> — IOS_issue_init_complete
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001C9F">
+            <code>00001C9F</code> — IRS_Get_Caps
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00001E20">
+            <code>00001E20</code> — IRS_Delete_Restore_VRP
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000203A">
+            <code>0000203A</code> — IRS_Signal_RM_Handoff
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000020CE">
+            <code>000020CE</code> — IRS_Query_Vol_Lock
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000216A">
+            <code>0000216A</code> — CheckHostDrives
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002189">
+            <code>00002189</code> — IRS_Signal_Mount
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000021CE">
+            <code>000021CE</code> — IRS_Get_LogicalDrives
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000227E">
+            <code>0000227E</code> — IRS_get_f_n_char
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000022F6">
+            <code>000022F6</code> — IRS_Is_Drv_Comp
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000023A0">
+            <code>000023A0</code> — IOS_V86_API_Handler
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000023D2">
+            <code>000023D2</code> — IOSV86GetDrvInf
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000241D">
+            <code>0000241D</code> — GetOrigI13
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002438">
+            <code>00002438</code> — FindLDMEntry
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002459">
+            <code>00002459</code> — IOSMonoHook
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002478">
+            <code>00002478</code> — LoadCleanUp
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="000024C8">
+            <code>000024C8</code> — IOSUnLoadDrivers
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002528">
+            <code>00002528</code> — IOSNewDevNode
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000259C">
+            <code>0000259C</code> — IOSLoadDrivers
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000269C">
+            <code>0000269C</code> — APIX_hack
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002765">
+            <code>00002765</code> — LoadDriver
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002855">
+            <code>00002855</code> — IOSInitDrivers
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="0000291F">
+            <code>0000291F</code> — IOSLoadInitPD
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002AAC">
+            <code>00002AAC</code> — CheckForceLoad
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002B04">
+            <code>00002B04</code> — UnMarkExistingDCBs
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002B21">
+            <code>00002B21</code> — ConfigDriver
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002B6B">
+            <code>00002B6B</code> — ReleaseLoadBuf
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002BB0">
+            <code>00002BB0</code> — LoadInitIOSDrivers
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002BD4">
+            <code>00002BD4</code> — CheckDup
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002C14">
+            <code>00002C14</code> — IOS_strcmp
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002C2F">
+            <code>00002C2F</code> — IOS_strcpy
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002C43">
+            <code>00002C43</code> — ToLower
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002C62">
+            <code>00002C62</code> — IOS_mem_error
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002C7D">
+            <code>00002C7D</code> — il_file_err
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002C99">
+            <code>00002C99</code> — il_load_err
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002CB5">
+            <code>00002CB5</code> — FindDblDrives
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002DF4">
+            <code>00002DF4</code> — IOS_Devioctl_Handler
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002E28">
+            <code>00002E28</code> — IOSDIOCTL_GetSpinDownThresholds
+            
+          </li>
+        
+          <li data-segment="00009510" data-offset="00002E74">
+            <code>00002E74</code> — IOSDIOCTL_SetSpinDownThresholds
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: _RCODE @ 00009AF0
+      </summary>
+      <ul>
+        
+          <li data-segment="00009AF0" data-offset="00000000">
+            <code>00000000</code> — IOS_Real_Mode_Init
+            
+          </li>
+        
+          <li data-segment="00009AF0" data-offset="000000A7">
+            <code>000000A7</code> — SetNoExtInt13Flag
+            
+          </li>
+        
+          <li data-segment="00009AF0" data-offset="00000107">
+            <code>00000107</code> — GetIOSYSNumFlop
+            
+          </li>
+        
+          <li data-segment="00009AF0" data-offset="0000011F">
+            <code>0000011F</code> — IOS_get_device_info
+            
+          </li>
+        
+          <li data-segment="00009AF0" data-offset="000002DD">
+            <code>000002DD</code> — IOS_build_i13_dev_map
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 7: L0CKABLE_BEGIN @ 0000B280
+      </summary>
+      <ul>
+        
+          <li data-segment="0000B280" data-offset="00000000">
+            <code>00000000</code> — _BeginLockable
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000004">
+            <code>00000004</code> — IOS_port_config
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000116">
+            <code>00000116</code> — IOS_call_aer
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000132">
+            <code>00000132</code> — IOS_init_inquiry_dcb
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000178">
+            <code>00000178</code> — _IOS_Ioctl
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000197">
+            <code>00000197</code> — _IOS_VolFlush
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="000001AC">
+            <code>000001AC</code> — WaitForPendingIO
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000238">
+            <code>00000238</code> — IOS_Requestor_Service
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000260">
+            <code>00000260</code> — IOS_check_io_pending
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000350">
+            <code>00000350</code> — IOS_PnP_Device_Driver
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000AAB">
+            <code>00000AAB</code> — IOS_reenumerate_devices
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000F18">
+            <code>00000F18</code> — _LockLogicalDrive
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00000FDD">
+            <code>00000FDD</code> — _UnlockLogicalDrive
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="0000103F">
+            <code>0000103F</code> — _LockPhysicalDCB
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="000010BE">
+            <code>000010BE</code> — _UnlockPhysicalDCB
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001102">
+            <code>00001102</code> — _IOS_SpinDownDrives
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001192">
+            <code>00001192</code> — _PowerUpDrives
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="000011D6">
+            <code>000011D6</code> — _IOS_SpinUpDrives
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="000011E0">
+            <code>000011E0</code> — _IOS_PowerHandler
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="000012B2">
+            <code>000012B2</code> — _IOS_CmApmPowerOff
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="000016D2">
+            <code>000016D2</code> — _IOS_CmApmPowerOn
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001A70">
+            <code>00001A70</code> — _IOS_CmApmResumeStandby
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001B27">
+            <code>00001B27</code> — _IOS_CmApmResumePowerOff
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001C05">
+            <code>00001C05</code> — _IOS_HandleCmApmMessage
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001CF9">
+            <code>00001CF9</code> — _IOS_DumpDvtList
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001DA6">
+            <code>00001DA6</code> — _IOS_DumpDCBList
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EB0">
+            <code>00001EB0</code> — _KCODE_Get_Boot_Flags
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EB8">
+            <code>00001EB8</code> — _KCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001ECC">
+            <code>00001ECC</code> — _KCODE__CONFIGMG_Register_DevNode_For_Idle_Detection
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001ED4">
+            <code>00001ED4</code> — _KCODE__CONFIGMG_Add_Remove_DevNode_Property
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EDC">
+            <code>00001EDC</code> — _KCODE__CONFIGMG_Set_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EE4">
+            <code>00001EE4</code> — _KCODE__CONFIGMG_Get_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EEC">
+            <code>00001EEC</code> — _KCODE__HeapAllocate
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EF4">
+            <code>00001EF4</code> — _KCODE__CONFIGMG_Setup_DevNode
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001EFC">
+            <code>00001EFC</code> — _KCODE__CONFIGMG_Set_Bus_Info
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F04">
+            <code>00001F04</code> — _KCODE__CONFIGMG_Set_Private_DWord
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F0C">
+            <code>00001F0C</code> — _KCODE__CONFIGMG_Change_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F14">
+            <code>00001F14</code> — _KCODE__CONFIGMG_Create_DevNode
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F1C">
+            <code>00001F1C</code> — _KCODE__CONFIGMG_Get_Device_ID
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F24">
+            <code>00001F24</code> — _KCODE__CONFIGMG_Get_Private_DWord
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F2C">
+            <code>00001F2C</code> — _KCODE__LinRegionLock
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F34">
+            <code>00001F34</code> — _KCODE__LinRegionUnLock
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F3C">
+            <code>00001F3C</code> — _KCODE__ACPI_FreeTaskFileBuffer
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F44">
+            <code>00001F44</code> — _KCODE__CONFIGMG_Set_DevNode_PowerState
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F4C">
+            <code>00001F4C</code> — _KCODE__ACPI_GetTimingMode
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F54">
+            <code>00001F54</code> — _KCODE__ACPI_GetTimingModeEx
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F5C">
+            <code>00001F5C</code> — _KCODE__ACPI_GetIDEPMComplianceLevel
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F64">
+            <code>00001F64</code> — _KCODE_Call_Restricted_Event@24
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F90">
+            <code>00001F90</code> — _KCODE__ACPI_GetTaskFile
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001F98">
+            <code>00001F98</code> — _KCODE__ACPI_SetTimingMode
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FA0">
+            <code>00001FA0</code> — _KCODE__ACPI_SetTimingModeEx
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FA8">
+            <code>00001FA8</code> — _KCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FB0">
+            <code>00001FB0</code> — _KCODE__RegCloseKey
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FB8">
+            <code>00001FB8</code> — _KCODE__RegSetValueEx
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FC0">
+            <code>00001FC0</code> — _KCODE__RegCreateKey
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FC8">
+            <code>00001FC8</code> — _KCODE__RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FD0">
+            <code>00001FD0</code> — _KCODE__RegOpenKey
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FD8">
+            <code>00001FD8</code> — _PagingDCB
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FDC">
+            <code>00001FDC</code> — _BatDriveSpinDownThreshold
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00001FE0">
+            <code>00001FE0</code> — _ACDriveSpinDownThreshold
+            
+          </li>
+        
+          <li data-segment="0000B280" data-offset="00002F5C">
+            <code>00002F5C</code> — _EndLockable
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: _PDATA @ 0000B790
+      </summary>
+      <ul>
+        
+          <li data-segment="0000B790" data-offset="00000000">
+            <code>00000000</code> — PowerStatus
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000006">
+            <code>00000006</code> — APIX_string
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000010">
+            <code>00000010</code> — TargetString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000001D">
+            <code>0000001D</code> — LUNString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000025">
+            <code>00000025</code> — RevlevelString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000033">
+            <code>00000033</code> — ProductIdString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000003D">
+            <code>0000003D</code> — VendorIdString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000004A">
+            <code>0000004A</code> — DeviceTypeString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000055">
+            <code>00000055</code> — DeviceDescString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000060">
+            <code>00000060</code> — RemovableString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000006A">
+            <code>0000006A</code> — LetterString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000087">
+            <code>00000087</code> — Int13String
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000008D">
+            <code>0000008D</code> — PModeInt13Str
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000098">
+            <code>00000098</code> — UserLetterString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000000B2">
+            <code>000000B2</code> — ForceLoadString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000000BE">
+            <code>000000BE</code> — SetupFlagsString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000000C9">
+            <code>000000C9</code> — SetupPathString
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000000F3">
+            <code>000000F3</code> — CDSTab
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000173">
+            <code>00000173</code> — DriveNumber
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000174">
+            <code>00000174</code> — RegDataCnt
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000178">
+            <code>00000178</code> — RegData
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000017A">
+            <code>0000017A</code> — current_dvt
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000017E">
+            <code>0000017E</code> — current_ddb
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000182">
+            <code>00000182</code> — current_bi_flags
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000183">
+            <code>00000183</code> — current_lgb
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000187">
+            <code>00000187</code> — current_lgn
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000188">
+            <code>00000188</code> — PassCnt
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000189">
+            <code>00000189</code> — BL_Initing
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000192">
+            <code>00000192</code> — BL_InitSuccess
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000001A0">
+            <code>000001A0</code> — BL_InitFailure
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000001AE">
+            <code>000001AE</code> — IoDirFullPath
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000022E">
+            <code>0000022E</code> — IoDirFullPathEndPtr
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000232">
+            <code>00000232</code> — DTAbuffer
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000332">
+            <code>00000332</code> — IoSubdir
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000033B">
+            <code>0000033B</code> — FileSpec
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000341">
+            <code>00000341</code> — MiniPortSpec
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000347">
+            <code>00000347</code> — DriverNameBuf
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000350">
+            <code>00000350</code> — IOSMiniportsInited
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000351">
+            <code>00000351</code> — LoadBufPtr
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000355">
+            <code>00000355</code> — IOSPortVector
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000359">
+            <code>00000359</code> — IOSPortDDB
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000035D">
+            <code>0000035D</code> — IOSPortHandle
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000361">
+            <code>00000361</code> — base_logical_drive
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000362">
+            <code>00000362</code> — next_logical_drive
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000363">
+            <code>00000363</code> — disk_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000364">
+            <code>00000364</code> — floppy_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000365">
+            <code>00000365</code> — tape_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000366">
+            <code>00000366</code> — prnt_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000367">
+            <code>00000367</code> — proc_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000368">
+            <code>00000368</code> — worm_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000369">
+            <code>00000369</code> — cdrm_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000036A">
+            <code>0000036A</code> — scan_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000036B">
+            <code>0000036B</code> — omem_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000036C">
+            <code>0000036C</code> — juke_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000036D">
+            <code>0000036D</code> — comm_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000036E">
+            <code>0000036E</code> — unkn_count
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000036F">
+            <code>0000036F</code> — current_adapter_node
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000373">
+            <code>00000373</code> — _Inquiry_DCB
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000373">
+            <code>00000373</code> — inquiry_dcb
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000377">
+            <code>00000377</code> — LastDrive
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000378">
+            <code>00000378</code> — g_bDoRMDriverWarn
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000379">
+            <code>00000379</code> — MPDLoadNode
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000039D">
+            <code>0000039D</code> — CurrentLoadNode
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000003A1">
+            <code>000003A1</code> — MonoHookTable
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000409">
+            <code>00000409</code> — IosLogPath
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000489">
+            <code>00000489</code> — IosLogName
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00000491">
+            <code>00000491</code> — IosLogHandle
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000055C">
+            <code>0000055C</code> — inquiry_type_table
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000015F4">
+            <code>000015F4</code> — IOSUnsafeType
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="000015F5">
+            <code>000015F5</code> — IOSUnsafeName
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00001613">
+            <code>00001613</code> — IOSReadyForDevnode
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="0000184C">
+            <code>0000184C</code> — preloading
+            
+          </li>
+        
+          <li data-segment="0000B790" data-offset="00001C24">
+            <code>00001C24</code> — _pszBusName
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 9: _IDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000018">
+            <code>00000018</code> — IOS_BD_Drv_Reg_Pkt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000050">
+            <code>00000050</code> — IOS_BD_fake_ice
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000D8">
+            <code>000000D8</code> — BD_VHIRQ_String
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000E5">
+            <code>000000E5</code> — HackSysIniName
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000F0">
+            <code>000000F0</code> — IOS_DMA_Buff_String
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000102">
+            <code>00000102</code> — IOS_force_pm_string
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000112">
+            <code>00000112</code> — IOS_big_mem_string
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000123">
+            <code>00000123</code> — IOS_Heap_Size_String
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000012F">
+            <code>0000012F</code> — IOS_Spindown_String
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000013D">
+            <code>0000013D</code> — ASPIName
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000146">
+            <code>00000146</code> — ASPIEntry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000014A">
+            <code>0000014A</code> — ASPIHooked
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000014B">
+            <code>0000014B</code> — SysVMhandle
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000014F">
+            <code>0000014F</code> — BufferPointer
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000153">
+            <code>00000153</code> — BufSegOff
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000157">
+            <code>00000157</code> — SRBPointer
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000015B">
+            <code>0000015B</code> — CAMEntry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000015F">
+            <code>0000015F</code> — IOSYSRmd
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000163">
+            <code>00000163</code> — CurrentUnitSpec
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000167">
+            <code>00000167</code> — CurRMDType
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000016B">
+            <code>0000016B</code> — SCSITarget
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000016C">
+            <code>0000016C</code> — SCSILun
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000016D">
+            <code>0000016D</code> — CurHba
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000016E">
+            <code>0000016E</code> — CurHbaID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000016F">
+            <code>0000016F</code> — RelHba
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000170">
+            <code>00000170</code> — LowestHBA
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000171">
+            <code>00000171</code> — MaxHba
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000172">
+            <code>00000172</code> — RMDDriverEntries
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000173">
+            <code>00000173</code> — CurRMDInfoBlock
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000177">
+            <code>00000177</code> — PrevInfoBlock
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000017B">
+            <code>0000017B</code> — CurIOSYSDriver
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000017F">
+            <code>0000017F</code> — CAMExcludeMap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000183">
+            <code>00000183</code> — IDMPointer
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000187">
+            <code>00000187</code> — LDMPointer
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000018B">
+            <code>0000018B</code> — NextASPIEntry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000018F">
+            <code>0000018F</code> — IOSV86Alloc
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000190">
+            <code>00000190</code> — IOSINFInited
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000192">
+            <code>00000192</code> — IOSBadDriver
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000193">
+            <code>00000193</code> — QualifierMap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000197">
+            <code>00000197</code> — ReadBias
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000019B">
+            <code>0000019B</code> — xlateVMHandle
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000019F">
+            <code>0000019F</code> — xlateV86seg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001A3">
+            <code>000001A3</code> — xlateNonusedBytes
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001A7">
+            <code>000001A7</code> — xlateTotalSize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001AB">
+            <code>000001AB</code> — RetryCount
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001AC">
+            <code>000001AC</code> — IOSDDB
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001B0">
+            <code>000001B0</code> — DblSpaceStr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001BC">
+            <code>000001BC</code> — IOSYSTSR
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001C0">
+            <code>000001C0</code> — MBRint13
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001C9">
+            <code>000001C9</code> — MBRHookStart
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001CD">
+            <code>000001CD</code> — FileSysString
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001F9">
+            <code>000001F9</code> — ForceRMIOString
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000203">
+            <code>00000203</code> — ForcePMIOString
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000020D">
+            <code>0000020D</code> — szLastBootPM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000021C">
+            <code>0000021C</code> — BatDriveSpinDownString
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000022D">
+            <code>0000022D</code> — ACDriveSpinDownString
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000023D">
+            <code>0000023D</code> — szSysIniRMWarn
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000006FB">
+            <code>000006FB</code> — SrcStr1
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000714">
+            <code>00000714</code> — CurrentBufPtr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000010EC">
+            <code>000010EC</code> — _pszReg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001100">
+            <code>00001100</code> — _pszFixedReg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001120">
+            <code>00001120</code> — _pszFixedDpidPath
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000114C">
+            <code>0000114C</code> — _pszFixedDpidVal
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001160">
+            <code>00001160</code> — IOS_BD_Initialize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001181">
+            <code>00001181</code> — IOS_BD_Device_Inquiry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000011B2">
+            <code>000011B2</code> — IOS_BD_Config_Phys_DCB
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001291">
+            <code>00001291</code> — IOS_BD_Set_IRQ_Handler
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000012E3">
+            <code>000012E3</code> — IOS_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000015CC">
+            <code>000015CC</code> — IOS_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000016EA">
+            <code>000016EA</code> — IOS_Set_RMPM
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001843">
+            <code>00001843</code> — IOS_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001959">
+            <code>00001959</code> — IOS_grow_shrink_heap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001A15">
+            <code>00001A15</code> — Check_First
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001AA8">
+            <code>00001AA8</code> — UpdateI13Entry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001ADC">
+            <code>00001ADC</code> — InitIniFile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001BA1">
+            <code>00001BA1</code> — FreeIniFile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001BD6">
+            <code>00001BD6</code> — SetupIniFile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001BEB">
+            <code>00001BEB</code> — IsDriverSafe
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001C40">
+            <code>00001C40</code> — CheckSafTbl
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001C66">
+            <code>00001C66</code> — GetCDInfo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001C84">
+            <code>00001C84</code> — IsNameInSec
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001CCE">
+            <code>00001CCE</code> — GetAdapterInfo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001D3E">
+            <code>00001D3E</code> — GetSection
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001D87">
+            <code>00001D87</code> — GetLine
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001E6E">
+            <code>00001E6E</code> — Match
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001EBF">
+            <code>00001EBF</code> — Normalize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001EF0">
+            <code>00001EF0</code> — IsTSRSafe
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001F38">
+            <code>00001F38</code> — IniTst
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001F50">
+            <code>00001F50</code> — IOS_GetSetLastBootFlag
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00001FDD">
+            <code>00001FDD</code> — IOS_LogUnsafeDriver
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002020">
+            <code>00002020</code> — IOS_get_int13_vector
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000202D">
+            <code>0000202D</code> — GetIOSYSPtrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000020D6">
+            <code>000020D6</code> — IsDmDriverSafe
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000021E7">
+            <code>000021E7</code> — IsEZDriveSafe
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000022A1">
+            <code>000022A1</code> — CheckMBRInt13
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000233D">
+            <code>0000233D</code> — ExamineInt13Chain
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000024CE">
+            <code>000024CE</code> — CheckForBrokenInt13Drivers
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000255D">
+            <code>0000255D</code> — ExamineRmBlockList
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000273E">
+            <code>0000273E</code> — ExamineDblSpacedrvs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000279F">
+            <code>0000279F</code> — ExamineRmBlockHooks
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002845">
+            <code>00002845</code> — SetHookState
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002893">
+            <code>00002893</code> — GetCDSPtrs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002909">
+            <code>00002909</code> — IOS_Get_System_Info
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000029BA">
+            <code>000029BA</code> — IOS_build_rm_dev_map
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00002EBD">
+            <code>00002EBD</code> — IOS_process_late_int13_drives
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000306B">
+            <code>0000306B</code> — IOS_do_int_25
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003191">
+            <code>00003191</code> — IOS_find_cdrom_devices
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000031EF">
+            <code>000031EF</code> — IOS_build_aspi_cam_rmds
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003D51">
+            <code>00003D51</code> — IOS_hook_aspi
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003D89">
+            <code>00003D89</code> — IOS_unhook_aspi
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003DBA">
+            <code>00003DBA</code> — IOS_issue_aspi_adp_inq
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003E11">
+            <code>00003E11</code> — IOS_issue_cam_path_inq
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003E5A">
+            <code>00003E5A</code> — IOS_aspi_map_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003EB2">
+            <code>00003EB2</code> — IOS_CAM_map_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003F13">
+            <code>00003F13</code> — IOS_NCR_CAM_map_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003F8A">
+            <code>00003F8A</code> — IOS_CAM_chain_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003FD0">
+            <code>00003FD0</code> — IOS_segoff_to_lin
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00003FEA">
+            <code>00003FEA</code> — IOS_find_api_entry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000405C">
+            <code>0000405C</code> — IOSInt2AHook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000408A">
+            <code>0000408A</code> — IOS_int13_test_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000413E">
+            <code>0000413E</code> — IOS_aspi_test_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000041AF">
+            <code>000041AF</code> — IOS_CAM_test_hook
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004218">
+            <code>00004218</code> — HookOutMono
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000042A4">
+            <code>000042A4</code> — LoadInitDrivers
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004379">
+            <code>00004379</code> — SetupIOPath
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000439C">
+            <code>0000439C</code> — UpdateStacHostMap
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000044B3">
+            <code>000044B3</code> — IOS_set_up_v86_area
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000452A">
+            <code>0000452A</code> — IOS_free_v86_area
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004578">
+            <code>00004578</code> — RegisterInt13
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000045F6">
+            <code>000045F6</code> — GetRMIRQs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004624">
+            <code>00004624</code> — GetTsrRMIRQs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004658">
+            <code>00004658</code> — InitLogFile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000046BD">
+            <code>000046BD</code> — FreeLogFile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000046E5">
+            <code>000046E5</code> — DelLogFile
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000471E">
+            <code>0000471E</code> — DumpRMInfo
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000496C">
+            <code>0000496C</code> — PrintStr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000049BC">
+            <code>000049BC</code> — _start_reg_path
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004A69">
+            <code>00004A69</code> — _start_reg_path_dig
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00004ABD">
+            <code>00004ABD</code> — _set_up_information
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,2487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>VFAT — Windows 98SE Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../cache.asm</li>
+      
+        <li>../debug.asm</li>
+      
+        <li>../dircache.asm</li>
+      
+        <li>../dirsubr.asm</li>
+      
+        <li>../diskstub.asm</li>
+      
+        <li>../excllock.asm</li>
+      
+        <li>../fat.asm</li>
+      
+        <li>../fatfcn2.asm</li>
+      
+        <li>../fatfcn.asm</li>
+      
+        <li>../fatioctl.asm</li>
+      
+        <li>../fsdata.asm</li>
+      
+        <li>../fsinit.asm</li>
+      
+        <li>../iosubr.asm</li>
+      
+        <li>../lazy.asm</li>
+      
+        <li>../lfn.asm</li>
+      
+        <li>../lfnsubr.asm</li>
+      
+        <li>../lock.asm</li>
+      
+        <li>../misc.asm</li>
+      
+        <li>../notify.asm</li>
+      
+        <li>../pfc.asm</li>
+      
+        <li>../registry.asm</li>
+      
+        <li>../subr.asm</li>
+      
+        <li>../tasking.asm</li>
+      
+        <li>../vfataer.asm</li>
+      
+        <li>../vfatios.asm</li>
+      
+        <li>VFAT_ReadSectors.h</li>
+      
+        <li>../vfatw32.asm</li>
+      
+        <li>../vxdinit.asm</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: _LDATA @ 0000F600
+      </summary>
+      <ul>
+        
+          <li data-segment="0000F600" data-offset="00000008">
+            <code>00000008</code> — RdAhead_Active
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000000C">
+            <code>0000000C</code> — cpgLoaderRAMax
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000010">
+            <code>00000010</code> — RdbFActive
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000014">
+            <code>00000014</code> — RdbFBuffHdr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000018">
+            <code>00000018</code> — RdbFDesc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000001C">
+            <code>0000001C</code> — NABActive
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000020">
+            <code>00000020</code> — NABDesc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000024">
+            <code>00000024</code> — Flw_Desc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000028">
+            <code>00000028</code> — vfatcBufCleaned
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000002C">
+            <code>0000002C</code> — NABActiveThreadID
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000000C4">
+            <code>000000C4</code> — Dir_Hash_Time
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000000C8">
+            <code>000000C8</code> — Dir_Hash_Tab
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000000CC">
+            <code>000000CC</code> — UniToUpperDelta
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000000D0">
+            <code>000000D0</code> — UniToUpperTable
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000004D4">
+            <code>000004D4</code> — cIosPending
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000004D8">
+            <code>000004D8</code> — pk_buf
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000004E8">
+            <code>000004E8</code> — upk_buf
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000004F8">
+            <code>000004F8</code> — FATOpWait
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000004FC">
+            <code>000004FC</code> — vfatWaitIOR
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000500">
+            <code>00000500</code> — TagWait
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000504">
+            <code>00000504</code> — VFAT_CacheID
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000508">
+            <code>00000508</code> — LWHead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000052C">
+            <code>0000052C</code> — OftHead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000053C">
+            <code>0000053C</code> — DirtBits
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000540">
+            <code>00000540</code> — DirtBits2
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000544">
+            <code>00000544</code> — DirtOrd
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000554">
+            <code>00000554</code> — VolChain
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000055C">
+            <code>0000055C</code> — cbufDirty
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000560">
+            <code>00000560</code> — pDPB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000564">
+            <code>00000564</code> — pPageFileSFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000568">
+            <code>00000568</code> — MMSwapCB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000056C">
+            <code>0000056C</code> — VfatStats
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000592">
+            <code>00000592</code> — VFATMounting
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000596">
+            <code>00000596</code> — MemMgrMutex
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000079C">
+            <code>0000079C</code> — FatEntryBadChild
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000007DC">
+            <code>000007DC</code> — RWCnt
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000007FC">
+            <code>000007FC</code> — GoftLock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000800">
+            <code>00000800</code> — GoftWait
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000829">
+            <code>00000829</code> — LWShift
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000082A">
+            <code>0000082A</code> — LTO_Handle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000083E">
+            <code>0000083E</code> — ITPPageOuts
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000842">
+            <code>00000842</code> — ITPFlags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000858">
+            <code>00000858</code> — pLfnInfoCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000085C">
+            <code>0000085C</code> — LNLenOffsetTable
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000087C">
+            <code>0000087C</code> — CompatFileSysFlags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000880">
+            <code>00000880</code> — DriveWriteBehindFlags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000884">
+            <code>00000884</code> — TunnelAuth
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000888">
+            <code>00000888</code> — VolIdleTimeout
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000088C">
+            <code>0000088C</code> — BuffIdleTimeout
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000890">
+            <code>00000890</code> — BuffAgeTimeout
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000894">
+            <code>00000894</code> — PathCacheCount
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000898">
+            <code>00000898</code> — NameCacheCount
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000089C">
+            <code>0000089C</code> — ContigFileAllocSize
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008A0">
+            <code>000008A0</code> — NameNumericTail
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008A4">
+            <code>000008A4</code> — ReadAheadThreshold
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008A8">
+            <code>000008A8</code> — pNoVolTrackPatRecTable
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008AC">
+            <code>000008AC</code> — MaxFAT32TotalSpace
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008B0">
+            <code>000008B0</code> — MaxFAT32FreeSpace
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008B4">
+            <code>000008B4</code> — MaxFAT32TotalClust
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008B8">
+            <code>000008B8</code> — MaxFAT32FreeClust
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008BC">
+            <code>000008BC</code> — fShutdownStatus
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008C0">
+            <code>000008C0</code> — DriveLDSBdcastDisableFlags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008C4">
+            <code>000008C4</code> — FullHold
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008C8">
+            <code>000008C8</code> — FullLock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008CC">
+            <code>000008CC</code> — VfatFullLockThrdID
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008D0">
+            <code>000008D0</code> — FullLockSem
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008D4">
+            <code>000008D4</code> — FullHoldSem
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000008D8">
+            <code>000008D8</code> — VFAT_ilb
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000090C">
+            <code>0000090C</code> — IOPSpareState
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000910">
+            <code>00000910</code> — IOPSpareAddr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000914">
+            <code>00000914</code> — IOPSparePhysAddr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000918">
+            <code>00000918</code> — IOPSpareDesc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000092C">
+            <code>0000092C</code> — VolDrive
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000930">
+            <code>00000930</code> — hfindHead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000938">
+            <code>00000938</code> — FindVectors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000095C">
+            <code>0000095C</code> — SpareLNInfoState
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000960">
+            <code>00000960</code> — SpareLNInfoDesc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000964">
+            <code>00000964</code> — SpareLNInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000D38">
+            <code>00000D38</code> — VFAT_DDB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000D88">
+            <code>00000D88</code> — VFAT_SystemExit
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000D90">
+            <code>00000D90</code> — RmmDefault_Vol_Flags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000D94">
+            <code>00000D94</code> — VFAT_CacheBlockMapped
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000D98">
+            <code>00000D98</code> — fVfatInitComplete
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000DAC">
+            <code>00000DAC</code> — OffsetThrInVfatCount
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000F8C">
+            <code>00000F8C</code> — VFAT_Discard
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000FD0">
+            <code>00000FD0</code> — UnlockBufferValid
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000FD4">
+            <code>00000FD4</code> — UnlockBuffer
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000FEC">
+            <code>00000FEC</code> — Find_Buffer
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00000FFD">
+            <code>00000FFD</code> — VFAT_FindBlockAlign
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001009">
+            <code>00001009</code> — VFAT_FindBlock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001027">
+            <code>00001027</code> — VFAT_FindBlockSub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001090">
+            <code>00001090</code> — Test_Buffer
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000010A0">
+            <code>000010A0</code> — WL_Test_Buffer
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000010BC">
+            <code>000010BC</code> — RdBuf
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001248">
+            <code>00001248</code> — RdBufB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000012D2">
+            <code>000012D2</code> — NABWait
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000012EA">
+            <code>000012EA</code> — NeedABuf
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000135A">
+            <code>0000135A</code> — mkba
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001370">
+            <code>00001370</code> — MakeBuf
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000013DC">
+            <code>000013DC</code> — BufferToDirtyChain
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000013F1">
+            <code>000013F1</code> — BufferToDirtyChainNoTag
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001464">
+            <code>00001464</code> — SetDirt
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000146B">
+            <code>0000146B</code> — SetDirtySector
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000014B1">
+            <code>000014B1</code> — SetMRWMask
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000014C8">
+            <code>000014C8</code> — SetDirtySectors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000014F9">
+            <code>000014F9</code> — WriteSectorNow
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001548">
+            <code>00001548</code> — WriteSectorsNow
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000162F">
+            <code>0000162F</code> — WBUlk
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001657">
+            <code>00001657</code> — FlushBuf_Async
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000165C">
+            <code>0000165C</code> — FlushBufTag_Async
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000168C">
+            <code>0000168C</code> — FlushBuf_Sync
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001691">
+            <code>00001691</code> — FlushBufTag_Sync
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000016C8">
+            <code>000016C8</code> — FlushTag
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000016FB">
+            <code>000016FB</code> — GetDirtyBufCount
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001717">
+            <code>00001717</code> — ProgRdAhead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001870">
+            <code>00001870</code> — UniQueryDirCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000194F">
+            <code>0000194F</code> — UniInsertDirCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001A5E">
+            <code>00001A5E</code> — UniRemoveDirCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001AE0">
+            <code>00001AE0</code> — UniQueryNameCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001B15">
+            <code>00001B15</code> — QueryNameCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001B69">
+            <code>00001B69</code> — InsertNameCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001C5D">
+            <code>00001C5D</code> — _UniRemoveNameCache@16
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001C98">
+            <code>00001C98</code> — _RemoveNameCache@16
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001D1B">
+            <code>00001D1B</code> — HashStr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001D34">
+            <code>00001D34</code> — HashiStr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001D6C">
+            <code>00001D6C</code> — QueryDirFATCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001E1A">
+            <code>00001E1A</code> — GetEntry
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001E1D">
+            <code>00001E1D</code> — GetEnt
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001E9D">
+            <code>00001E9D</code> — GetEntrySub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001EE2">
+            <code>00001EE2</code> — FreeEnt
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001F2F">
+            <code>00001F2F</code> — NextEntry
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00001FBF">
+            <code>00001FBF</code> — LNNewEntrys
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002325">
+            <code>00002325</code> — NewDir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000023F3">
+            <code>000023F3</code> — IsCompressedClusterClean
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002421">
+            <code>00002421</code> — SetRootSrch
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002451">
+            <code>00002451</code> — SetDirSrchFromDirent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002465">
+            <code>00002465</code> — SetDirSrch
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000248A">
+            <code>0000248A</code> — CommitDirent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000252A">
+            <code>0000252A</code> — DirFromOft
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002549">
+            <code>00002549</code> — FillDirDateFields
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002613">
+            <code>00002613</code> — ValidateAccessDate
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000262F">
+            <code>0000262F</code> — ValidateCreateDateTime
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000267B">
+            <code>0000267B</code> — Win32DateTimetoDosDateTime
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000026B8">
+            <code>000026B8</code> — DskRead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000026B8">
+            <code>000026B8</code> — DskReadLocked
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002748">
+            <code>00002748</code> — VolLock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002757">
+            <code>00002757</code> — VolUnlock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000027A4">
+            <code>000027A4</code> — Qlck_Note
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000027AB">
+            <code>000027AB</code> — Qras_Note
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000027D0">
+            <code>000027D0</code> — DskWrite
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000027D0">
+            <code>000027D0</code> — DskWriteLocked
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000287F">
+            <code>0000287F</code> — SyncRead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000028D5">
+            <code>000028D5</code> — SyncReadSub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000029D7">
+            <code>000029D7</code> — SCR_Note
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000029FC">
+            <code>000029FC</code> — AsyncRead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002A64">
+            <code>00002A64</code> — AsyncReadNotify
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002AD8">
+            <code>00002AD8</code> — CallStrat2
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002B0C">
+            <code>00002B0C</code> — RegeneratePath
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002C1E">
+            <code>00002C1E</code> — EnumPathNames
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002C92">
+            <code>00002C92</code> — BackwalkDir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002D4C">
+            <code>00002D4C</code> — UpdateShutdownFlags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002DB5">
+            <code>00002DB5</code> — MarkVolumeDirty
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002DC9">
+            <code>00002DC9</code> — MarkVolumeClean
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002DDF">
+            <code>00002DDF</code> — MarkVolumeBroken
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002DF3">
+            <code>00002DF3</code> — Pack
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00002FD8">
+            <code>00002FD8</code> — UnPack
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000031B4">
+            <code>000031B4</code> — IsEof
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000031DB">
+            <code>000031DB</code> — DetectCycle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003217">
+            <code>00003217</code> — GrowFatCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000032A3">
+            <code>000032A3</code> — Extend_Cache_Mem
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003320">
+            <code>00003320</code> — GetPhysCluster
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003334">
+            <code>00003334</code> — FatEntry
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003374">
+            <code>00003374</code> — NetVectors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003398">
+            <code>00003398</code> — abMediaErrors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000339C">
+            <code>0000339C</code> — VFAT_Dir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003411">
+            <code>00003411</code> — Fat_QueryDir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003433">
+            <code>00003433</code> — Fat_Chdir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003459">
+            <code>00003459</code> — Fat_Mkdir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000035F8">
+            <code>000035F8</code> — Fat_Rmdir
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000037C2">
+            <code>000037C2</code> — VFAT_OpenFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003A09">
+            <code>00003A09</code> — Fat_Open
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003B32">
+            <code>00003B32</code> — Fat_Create
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003D67">
+            <code>00003D67</code> — VFAT_DeleteFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00003F91">
+            <code>00003F91</code> — VFAT_FileAttributes
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000419B">
+            <code>0000419B</code> — GetCompressedSize
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000041F6">
+            <code>000041F6</code> — NetExtAttrib
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000043EB">
+            <code>000043EB</code> — NetSearch
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000444E">
+            <code>0000444E</code> — Fat_Find_First
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00004463">
+            <code>00004463</code> — FindFirstSub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00004577">
+            <code>00004577</code> — Fat_Find_Next
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000467E">
+            <code>0000467E</code> — VFAT_RenameFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000046D3">
+            <code>000046D3</code> — RenameMove
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00004B9B">
+            <code>00004B9B</code> — RenameMeta
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00004F40">
+            <code>00004F40</code> — RenameInPlace
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000050CD">
+            <code>000050CD</code> — VFAT_Unmount
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000539E">
+            <code>0000539E</code> — UnmountSub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000053C6">
+            <code>000053C6</code> — VFAT_DiskInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000054FA">
+            <code>000054FA</code> — UpdateFSInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005550">
+            <code>00005550</code> — AllFileSizesOkay
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000557B">
+            <code>0000557B</code> — NetFlush
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000557B">
+            <code>0000557B</code> — VFAT_FlushFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005601">
+            <code>00005601</code> — SetPathFlags
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005652">
+            <code>00005652</code> — IsShortNameLossy
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005688">
+            <code>00005688</code> — ReinitOFTPosInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000056D8">
+            <code>000056D8</code> — CompressIOCTL
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000056E9">
+            <code>000056E9</code> — IOSSend
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005772">
+            <code>00005772</code> — VFAT_IORDone
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005780">
+            <code>00005780</code> — PRet_OK
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005782">
+            <code>00005782</code> — PRet_Err
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000057AC">
+            <code>000057AC</code> — Ret_BadHandMem
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000057B1">
+            <code>000057B1</code> — Ret_BadHand
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000057B8">
+            <code>000057B8</code> — Ret_OK
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000057BA">
+            <code>000057BA</code> — Ret_Err
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000057BD">
+            <code>000057BD</code> — Ret_Errax
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000587D">
+            <code>0000587D</code> — Ret_Err_NoCleanup
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000058AC">
+            <code>000058AC</code> — DoTrap
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000058B4">
+            <code>000058B4</code> — NetFileLocks
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000058B4">
+            <code>000058B4</code> — VFAT_LockFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000592A">
+            <code>0000592A</code> — VFAT_FileTime
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005A86">
+            <code>00005A86</code> — NetRead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005A86">
+            <code>00005A86</code> — VFAT_ReadFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00005BF9">
+            <code>00005BF9</code> — VFAT_WriteFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000060EC">
+            <code>000060EC</code> — VFAT_CloseFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006266">
+            <code>00006266</code> — VFAT_CommitFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006266">
+            <code>00006266</code> — NetCommit
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000062E9">
+            <code>000062E9</code> — NetSeek
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006351">
+            <code>00006351</code> — VFAT_DasdIO
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000063C3">
+            <code>000063C3</code> — VFAT_EnterLeaveVolLock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000064BD">
+            <code>000064BD</code> — VFAT_FormatHelpers
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000064F8">
+            <code>000064F8</code> — VFHSetAllocInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006554">
+            <code>00006554</code> — VFHForceMediaChng
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006554">
+            <code>00006554</code> — VFHSetDPBFrmBPB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000655B">
+            <code>0000655B</code> — VFHGetSetActFATandMirr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006660">
+            <code>00006660</code> — VFHGetSetRootDirClus
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006704">
+            <code>00006704</code> — CopyFAT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006762">
+            <code>00006762</code> — UpdateBoot
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000679D">
+            <code>0000679D</code> — VFAT_ReadSectors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000682E">
+            <code>0000682E</code> — VFAT_WriteSectors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000694D">
+            <code>0000694D</code> — WriteExtent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006A85">
+            <code>00006A85</code> — FindDPB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006AB9">
+            <code>00006AB9</code> — MakeExtDPB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006BBD">
+            <code>00006BBD</code> — VFAT_GetDPB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006CB9">
+            <code>00006CB9</code> — MapI25Error
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006CD4">
+            <code>00006CD4</code> — GetFreeEstimate
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006D54">
+            <code>00006D54</code> — GuaranteeOneCluster
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006D5C">
+            <code>00006D5C</code> — GetFreeGuarantee
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006D9E">
+            <code>00006D9E</code> — InvalidateFreeCounts
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006DA3">
+            <code>00006DA3</code> — ZeroFreeCounts
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006DBF">
+            <code>00006DBF</code> — GetFreeCount
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006E48">
+            <code>00006E48</code> — DirtySector
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006E5F">
+            <code>00006E5F</code> — DirtyBuffer
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006E80">
+            <code>00006E80</code> — SetWriteThrough
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006ECF">
+            <code>00006ECF</code> — CheckWriteThrough
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006EF6">
+            <code>00006EF6</code> — WriteAsyncSwapPage
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00006FE1">
+            <code>00006FE1</code> — InvalidateFAT2Sectors
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000070BC">
+            <code>000070BC</code> — VFAT_IOCtl
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000070FE">
+            <code>000070FE</code> — passioctl_down
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000071D0">
+            <code>000071D0</code> — VFAT_SetMediaID
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007280">
+            <code>00007280</code> — VFAT_GetMediaID
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000072F2">
+            <code>000072F2</code> — VFAT_GetDiskFreeSpaceRatio
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007312">
+            <code>00007312</code> — VFAT_SetDiskFreeSpaceRatio
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000737E">
+            <code>0000737E</code> — pioc_440d_rw_track
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000739F">
+            <code>0000739F</code> — VFAT_CVMIOCTL
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007444">
+            <code>00007444</code> — VFATMountTab
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007460">
+            <code>00007460</code> — Mount_Fat
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007544">
+            <code>00007544</code> — MFS
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007768">
+            <code>00007768</code> — AllocNameHashTable
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000077CD">
+            <code>000077CD</code> — AllocCountArray
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000780A">
+            <code>0000780A</code> — VFS
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007954">
+            <code>00007954</code> — MountChild
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007AE6">
+            <code>00007AE6</code> — VFAT_FailOp
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007AF4">
+            <code>00007AF4</code> — VFAT_UnmountBadChild
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007B09">
+            <code>00007B09</code> — CmpVol
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00007B9E">
+            <code>00007B9E</code> — MakeVol
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000080C1">
+            <code>000080C1</code> — IsCompressedVol
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008121">
+            <code>00008121</code> — UpdateBootVolLabel
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000081A8">
+            <code>000081A8</code> — VolLabelLen
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000081BF">
+            <code>000081BF</code> — ValidateVolGeometry
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000082C9">
+            <code>000082C9</code> — SetDiskFreeSpaceThreshold
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008334">
+            <code>00008334</code> — DoRead
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000083D0">
+            <code>000083D0</code> — SwapperReadExtent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008425">
+            <code>00008425</code> — SwapperWrite
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008458">
+            <code>00008458</code> — SwapperWriteExtent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008475">
+            <code>00008475</code> — ReadExtent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008500">
+            <code>00008500</code> — ReadExtentSub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008857">
+            <code>00008857</code> — ExtentCached
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000887F">
+            <code>0000887F</code> — ReadCB
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000089F0">
+            <code>000089F0</code> — RxAllocBfr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008A0C">
+            <code>00008A0C</code> — BufWrt
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008A9E">
+            <code>00008A9E</code> — CompRunLen
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008B00">
+            <code>00008B00</code> — BreakDown
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008B4A">
+            <code>00008B4A</code> — Fat_IO_Setup_Async
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008B4E">
+            <code>00008B4E</code> — Fat_IO_Setup
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008B97">
+            <code>00008B97</code> — FreeHint
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00008C25">
+            <code>00008C25</code> — Allocate
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009043">
+            <code>00009043</code> — AllocateContig
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000090EB">
+            <code>000090EB</code> — AddToFATCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009120">
+            <code>00009120</code> — ResetFATCacheNoCheck
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009120">
+            <code>00009120</code> — ResetFATCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009150">
+            <code>00009150</code> — IsLastCluster
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000091A1">
+            <code>000091A1</code> — Release
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000091A3">
+            <code>000091A3</code> — Truncate
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000092E3">
+            <code>000092E3</code> — FigRec
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000092FE">
+            <code>000092FE</code> — FillSft
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000936F">
+            <code>0000936F</code> — FileMapped
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000093E7">
+            <code>000093E7</code> — FndClus
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009424">
+            <code>00009424</code> — EnumSFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000945A">
+            <code>0000945A</code> — FindOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000094BE">
+            <code>000094BE</code> — GOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000970C">
+            <code>0000970C</code> — beginDoOpMove
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000970C">
+            <code>0000970C</code> — DoOpMove
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009735">
+            <code>00009735</code> — DoOpMovePage
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000977A">
+            <code>0000977A</code> — DoOpMoveExcept
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000977A">
+            <code>0000977A</code> — endDoOpMove
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009780">
+            <code>00009780</code> — MarkOFTInvalid
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000979D">
+            <code>0000979D</code> — Flush_Timed_Out
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="000098FE">
+            <code>000098FE</code> — Write_List
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009925">
+            <code>00009925</code> — Write_List_Int
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009C2C">
+            <code>00009C2C</code> — NeedPopup
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009C98">
+            <code>00009C98</code> — WL_Note
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009E27">
+            <code>00009E27</code> — WriteMore
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009E5C">
+            <code>00009E5C</code> — Call_Write_List
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009E74">
+            <code>00009E74</code> — CleanBuf
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009EB5">
+            <code>00009EB5</code> — IncWrite
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009ED5">
+            <code>00009ED5</code> — DecWrite
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009EDB">
+            <code>00009EDB</code> — CheckUnlock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009F06">
+            <code>00009F06</code> — ScaleEvent
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="00009F4B">
+            <code>00009F4B</code> — Lazy_Idle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A024">
+            <code>0000A024</code> — Observe_Lazy_Idle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A05E">
+            <code>0000A05E</code> — Write_Lazy
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A194">
+            <code>0000A194</code> — Lazy_New_Thread
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A1B4">
+            <code>0000A1B4</code> — Force_Write_Lazy
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A1DC">
+            <code>0000A1DC</code> — FcbChecksum
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A1E8">
+            <code>0000A1E8</code> — LNInitLNInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A2FA">
+            <code>0000A2FA</code> — LNUpdateColl
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A340">
+            <code>0000A340</code> — LNScanColl
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A3D2">
+            <code>0000A3D2</code> — PackOemUniNames
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A539">
+            <code>0000A539</code> — TunnelCreationDateTime
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A55D">
+            <code>0000A55D</code> — SelectShortName
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A5C4">
+            <code>0000A5C4</code> — GetNumTailHint
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A60C">
+            <code>0000A60C</code> — UniFatGetPath
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000A7B8">
+            <code>0000A7B8</code> — UniFindEntry
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000AE8B">
+            <code>0000AE8B</code> — ReturnPathElem
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000AF12">
+            <code>0000AF12</code> — UpdateFreeDirOrds
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000AF6A">
+            <code>0000AF6A</code> — LNFreeEntrys
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B01B">
+            <code>0000B01B</code> — AutoGenerateBasisName
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B13D">
+            <code>0000B13D</code> — VerifyNameAssoc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B1C9">
+            <code>0000B1C9</code> — DirentNameToUniFcbAndShortName
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B274">
+            <code>0000B274</code> — CheckFileLock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B2B0">
+            <code>0000B2B0</code> — CreateSFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B2CC">
+            <code>0000B2CC</code> — Date32
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B2D8">
+            <code>0000B2D8</code> — MemPageLock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B390">
+            <code>0000B390</code> — MemPageUnlock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B3B6">
+            <code>0000B3B6</code> — PackName
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B3E3">
+            <code>0000B3E3</code> — SetTimes
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B43B">
+            <code>0000B43B</code> — RelOFToc
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B464">
+            <code>0000B464</code> — RelOftFatCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B488">
+            <code>0000B488</code> — RelOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B48E">
+            <code>0000B48E</code> — RelOftNoChk
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B4CB">
+            <code>0000B4CB</code> — LockOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B4F9">
+            <code>0000B4F9</code> — UnLockOFT2
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B4F9">
+            <code>0000B4F9</code> — UnLockOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B50E">
+            <code>0000B50E</code> — HoldOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B51F">
+            <code>0000B51F</code> — UnHoldOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B525">
+            <code>0000B525</code> — ChkHoldOFT
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B53C">
+            <code>0000B53C</code> — CommitFileData
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B67C">
+            <code>0000B67C</code> — CAS
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B6A2">
+            <code>0000B6A2</code> — AGHSD
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B6B4">
+            <code>0000B6B4</code> — APGHS
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B6CC">
+            <code>0000B6CC</code> — FHS
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B6E0">
+            <code>0000B6E0</code> — Block
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B718">
+            <code>0000B718</code> — Wakeup
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B718">
+            <code>0000B718</code> — Wakeupi
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B72B">
+            <code>0000B72B</code> — FullCrit
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B78E">
+            <code>0000B78E</code> — RelFullCrit
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B7D8">
+            <code>0000B7D8</code> — DoFFHold
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B821">
+            <code>0000B821</code> — UnHoldFF
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B850">
+            <code>0000B850</code> — VFAT_async_event
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B85C">
+            <code>0000B85C</code> — GetSGIOHdrEvtTime
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B86F">
+            <code>0000B86F</code> — GetIOHdrEvtTime
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B879">
+            <code>0000B879</code> — GetIOHdr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B8FB">
+            <code>0000B8FB</code> — AllocIOHdr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B96E">
+            <code>0000B96E</code> — RetIOHdr
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B9A1">
+            <code>0000B9A1</code> — CreateIOR
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B9D6">
+            <code>0000B9D6</code> — AIH
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000B9FE">
+            <code>0000B9FE</code> — DIH
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BA18">
+            <code>0000BA18</code> — SatisfyDevDmds
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BA34">
+            <code>0000BA34</code> — GetSerial
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BA59">
+            <code>0000BA59</code> — PutSerial
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BA77">
+            <code>0000BA77</code> — GetVolLabel
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BBF0">
+            <code>0000BBF0</code> — InvalidateCache
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BC4F">
+            <code>0000BC4F</code> — InvalidateCacheSub
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BC79">
+            <code>0000BC79</code> — IsVolTrackExempt
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BCC0">
+            <code>0000BCC0</code> — VFAT_FindOpen
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BE02">
+            <code>0000BE02</code> — VFAT_FindNext
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BEC5">
+            <code>0000BEC5</code> — VFAT_FindClose
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000BEFF">
+            <code>0000BEFF</code> — FindComplete
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C02A">
+            <code>0000C02A</code> — TerminateHFind
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C052">
+            <code>0000C052</code> — VFAT_GetVolInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C0F8">
+            <code>0000C0F8</code> — VFAT_GetInfoByHandle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C1CF">
+            <code>0000C1CF</code> — GetPathNameByFileHandle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C2CC">
+            <code>0000C2CC</code> — ResyncHandle
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C472">
+            <code>0000C472</code> — VFAT_MapCacheBlock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C567">
+            <code>0000C567</code> — VFAT_UnmapCacheBlock
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C57D">
+            <code>0000C57D</code> — AllocLNInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C5BB">
+            <code>0000C5BB</code> — FreeLNInfo
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C5E5">
+            <code>0000C5E5</code> — OpenOpenFile
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C624">
+            <code>0000C624</code> — RemountVol
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C75C">
+            <code>0000C75C</code> — VFAT_Control
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C792">
+            <code>0000C792</code> — VFAT_DevIOControl
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C7AA">
+            <code>0000C7AA</code> — VFAT_SignalSystemExit
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C7B2">
+            <code>0000C7B2</code> — VFAT_Dump_Debug
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C7CA">
+            <code>0000C7CA</code> — Clear_Stats
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C7DA">
+            <code>0000C7DA</code> — VFAT_VM_Terminate
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C7DC">
+            <code>0000C7DC</code> — VFAT_Query_Destroy
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C7E0">
+            <code>0000C7E0</code> — SchedDiskSpaceBroadcast
+            
+          </li>
+        
+          <li data-segment="0000F600" data-offset="0000C809">
+            <code>0000C809</code> — _AppyBroadcastLowDiskSpace
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMSG$1 @ 0000F640
+      </summary>
+      <ul>
+        
+          <li data-segment="0000F640" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="0000F640" data-offset="00000064">
+            <code>00000064</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: _DB1CODE @ 0000FFF0
+      </summary>
+      <ul>
+        
+          <li data-segment="0000FFF0" data-offset="00000000">
+            <code>00000000</code> — Dump_OFT
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000258">
+            <code>00000258</code> — VFAT_Printf
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000279">
+            <code>00000279</code> — VFAT_Dump_Debug2
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="0000032A">
+            <code>0000032A</code> — Toggle_Zero_Suppress
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="0000034A">
+            <code>0000034A</code> — Dump_Log
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000358">
+            <code>00000358</code> — Flush_Log
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000359">
+            <code>00000359</code> — Set_Log_Mask
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="0000035A">
+            <code>0000035A</code> — Dump_Threads
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000413">
+            <code>00000413</code> — VolTabDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="0000082F">
+            <code>0000082F</code> — BUFNODEDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000907">
+            <code>00000907</code> — BUFSHORTDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000979">
+            <code>00000979</code> — DIR_CACHEDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000009E8">
+            <code>000009E8</code> — FCHDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000A4E">
+            <code>00000A4E</code> — IOREQDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000B1C">
+            <code>00000B1C</code> — IOSTKDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000B66">
+            <code>00000B66</code> — fdRWDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000C6D">
+            <code>00000C6D</code> — fdOCDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000D89">
+            <code>00000D89</code> — OFTDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000F3B">
+            <code>00000F3B</code> — SFTDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00000FE6">
+            <code>00000FE6</code> — STATSDesc
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000011AD">
+            <code>000011AD</code> — Dump_Vol
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00001265">
+            <code>00001265</code> — Dump_Dir_Cache
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000012BA">
+            <code>000012BA</code> — Dump_BufNode
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000012CC">
+            <code>000012CC</code> — Dump_BufChain
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000012DE">
+            <code>000012DE</code> — w_BufChain
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000012ED">
+            <code>000012ED</code> — Dump_BufDirty
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000012FF">
+            <code>000012FF</code> — w_BufDirty
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00001316">
+            <code>00001316</code> — Dump_IOREQ
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="000013DD">
+            <code>000013DD</code> — Dump_OFTChain
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="0000141A">
+            <code>0000141A</code> — Dump_SFT
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00001474">
+            <code>00001474</code> — Dump_Stats
+            
+          </li>
+        
+          <li data-segment="0000FFF0" data-offset="00001484">
+            <code>00001484</code> — SFTToPackedName
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _RCODE @ 00010060
+      </summary>
+      <ul>
+        
+          <li data-segment="00010060" data-offset="00000000">
+            <code>00000000</code> — RealmodeInit
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _IDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — Init_CompatFileSysFlags
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000002FC">
+            <code>000002FC</code> — Drv_Reg_Pkt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000342">
+            <code>00000342</code> — FSInit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003F4">
+            <code>000003F4</code> — ReadVFATRegistry
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000499">
+            <code>00000499</code> — ReadVFATNoVolTrackPatterns
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005DD">
+            <code>000005DD</code> — ReadVFATIni
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000005FC">
+            <code>000005FC</code> — TaskInit
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000600">
+            <code>00000600</code> — VFAT_Sys_Critical_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000602">
+            <code>00000602</code> — VFAT_Device_Init
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000007C4">
+            <code>000007C4</code> — VFAT_Init_Complete
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A06">
+            <code>00000A06</code> — Vfat_IOS_Reg
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A34">
+            <code>00000A34</code> — VFAT_Register_MMCallBack
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A50">
+            <code>00000A50</code> — VFAT_Install_Async_Manager
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>WMIDRV — Windows 98 Retail</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .text @ 000001B0
+      </summary>
+      <ul>
+        
+          <li data-segment="000001B0" data-offset="00000000">
+            <code>00000000</code> — _WMIInitialize@0
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="0000001E">
+            <code>0000001E</code> — _IoWMIWriteEvent@4
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="00000089">
+            <code>00000089</code> — _WmipInitNotificationQueue@4
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="000000C4">
+            <code>000000C4</code> — _WmipNotificationCancel@8
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="00000128">
+            <code>00000128</code> — _WmipUnpendNotificationIrpOrQueue@8
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="00000186">
+            <code>00000186</code> — _WmipGetNotificationOrPendIrp@16
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="0000024F">
+            <code>0000024F</code> — _WmipFlushNotificationQueue@8
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="000002D1">
+            <code>000002D1</code> — _WmipInitializeRegistration@4
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="00000316">
+            <code>00000316</code> — _WmipDriverEntry@8
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="00000404">
+            <code>00000404</code> — _WmipCancelPendingIrps@8
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="0000045E">
+            <code>0000045E</code> — _WmipUpdateDeviceStackSize@8
+            
+          </li>
+        
+          <li data-segment="000001B0" data-offset="00000490">
+            <code>00000490</code> — _WmipWmiIrpCompletion@12
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: PNP @ 00000220
+      </summary>
+      <ul>
+        
+          <li data-segment="00000220" data-offset="00000000">
+            <code>00000000</code> — _CCODE__CONFIGMG_Get_DevNode_Key
+            
+          </li>
+        
+          <li data-segment="00000220" data-offset="00000008">
+            <code>00000008</code> — _CCODE__NtKernPhysicalDeviceObjectToDevNode
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: .data @ 00000380
+      </summary>
+      <ul>
+        
+          <li data-segment="00000380" data-offset="00000000">
+            <code>00000000</code> — ??_C@_13IKBE@?$AA_?$AA?$AA@
+            <em class="processed-tag">(L"_")</em>
+          </li>
+        
+          <li data-segment="00000380" data-offset="00000004">
+            <code>00000004</code> — ??_C@_1DK@KACK@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AAW?$AAM?$AAI?$AAS?$AAe?$AAr?$AAv?$AAi@
+            <em class="processed-tag">(L"\\DosDevices\\WMIServi")</em>
+          </li>
+        
+          <li data-segment="00000380" data-offset="00000040">
+            <code>00000040</code> — ??_C@_1CE@LDEL@?$AA?2?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AAW?$AAM?$AAI?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@
+            <em class="processed-tag">(L"\\Device\\WMIDevice")</em>
+          </li>
+        
+          <li data-segment="00000380" data-offset="00000064">
+            <code>00000064</code> — _WmipServiceDeviceObject
+            
+          </li>
+        
+          <li data-segment="00000380" data-offset="00000068">
+            <code>00000068</code> — _WmipInitialized
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: .idata$2 @ 000009C0
+      </summary>
+      <ul>
+        
+          <li data-segment="000009C0" data-offset="00000000">
+            <code>00000000</code> — __IMPORT_DESCRIPTOR_HAL
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000014">
+            <code>00000014</code> — __IMPORT_DESCRIPTOR_NTOSKRNL
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000028">
+            <code>00000028</code> — __IMPORT_DESCRIPTOR_ntoskrnl
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000003C">
+            <code>0000003C</code> — __NULL_IMPORT_DESCRIPTOR
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="000000F8">
+            <code>000000F8</code> — __imp_@KfAcquireSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="000000FC">
+            <code>000000FC</code> — __imp_@KfReleaseSpinLock@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000100">
+            <code>00000100</code> — __imp_@ExAcquireFastMutex@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000104">
+            <code>00000104</code> — __imp_@ExReleaseFastMutex@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000108">
+            <code>00000108</code> — \177HAL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000010C">
+            <code>0000010C</code> — __imp__ExAllocatePoolWithTag@12
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000110">
+            <code>00000110</code> — __imp__ZwClose@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000114">
+            <code>00000114</code> — __imp__IoGetDeviceProperty@20
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000118">
+            <code>00000118</code> — __imp__RtlAppendUnicodeToString@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000011C">
+            <code>0000011C</code> — __imp__ExFreePool@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000120">
+            <code>00000120</code> — __imp__IoOpenDeviceInterfaceRegistryKey@12
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000124">
+            <code>00000124</code> — __imp_@IofCompleteRequest@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000128">
+            <code>00000128</code> — __imp__ZwQueryValueKey@24
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000012C">
+            <code>0000012C</code> — __imp__ExQueueWorkItem@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000130">
+            <code>00000130</code> — __imp__IoReleaseCancelSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000134">
+            <code>00000134</code> — __imp_@InterlockedExchange@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000138">
+            <code>00000138</code> — __imp_@ExfInterlockedInsertTailList@12
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000013C">
+            <code>0000013C</code> — __imp_@ExfInterlockedRemoveHeadList@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000140">
+            <code>00000140</code> — __imp__KeInitializeEvent@12
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000144">
+            <code>00000144</code> — __imp__KeInitializeSpinLock@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000148">
+            <code>00000148</code> — __imp__KeWaitForSingleObject@20
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000014C">
+            <code>0000014C</code> — __imp_@InterlockedDecrement@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000150">
+            <code>00000150</code> — __imp_@ObfDereferenceObject@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000154">
+            <code>00000154</code> — __imp__RtlAnsiStringToUnicodeString@12
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000158">
+            <code>00000158</code> — __imp__RtlInitAnsiString@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000015C">
+            <code>0000015C</code> — __imp__RtlFreeUnicodeString@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000160">
+            <code>00000160</code> — __imp__IoDeleteDevice@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000164">
+            <code>00000164</code> — __imp__IoCreateSymbolicLink@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000168">
+            <code>00000168</code> — __imp__IoCreateDevice@28
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000016C">
+            <code>0000016C</code> — __imp__RtlInitUnicodeString@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000170">
+            <code>00000170</code> — __imp__KeSetEvent@12
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000174">
+            <code>00000174</code> — __imp_@IofCallDriver@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000178">
+            <code>00000178</code> — __imp__IoBuildSynchronousFsdRequest@28
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000017C">
+            <code>0000017C</code> — __imp__IoGetRelatedDeviceObject@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000180">
+            <code>00000180</code> — __imp_@InterlockedIncrement@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000184">
+            <code>00000184</code> — __imp__IoGetAttachedDeviceReference@4
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000188">
+            <code>00000188</code> — __imp__ObReferenceObjectByHandle@24
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000018C">
+            <code>0000018C</code> — __imp__IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000018C">
+            <code>0000018C</code> — _IoFileObjectType
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000190">
+            <code>00000190</code> — __imp__ObReferenceObjectByPointer@16
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000194">
+            <code>00000194</code> — \177NTOSKRNL_NULL_THUNK_DATA
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="00000198">
+            <code>00000198</code> — __imp__IoCreateDriver@8
+            
+          </li>
+        
+          <li data-segment="000009C0" data-offset="0000019C">
+            <code>0000019C</code> — \177ntoskrnl_NULL_THUNK_DATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 6: PAGE @ 00000D00
+      </summary>
+      <ul>
+        
+          <li data-segment="00000D00" data-offset="00000000">
+            <code>00000000</code> — _IoWMIRegistrationControl@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="0000009D">
+            <code>0000009D</code> — _IoWMIAllocateInstanceIds@12
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000001B4">
+            <code>000001B4</code> — _IoWMISuggestInstanceName@16
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000003FC">
+            <code>000003FC</code> — _WmipNotifyUserMode@16
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000005D6">
+            <code>000005D6</code> — _WmipReadNotification@20
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000641">
+            <code>00000641</code> — _WmipEventNotification@4
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000673">
+            <code>00000673</code> — _WmipAllocRegEntry@12
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000007BA">
+            <code>000007BA</code> — _WmipUnreferenceRegEntry@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000858">
+            <code>00000858</code> — _WmipWaitForIrpCompletion@4
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000874">
+            <code>00000874</code> — _WmipRegisterDevice@12
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000913">
+            <code>00000913</code> — _WmipDeregisterDevice@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="0000098A">
+            <code>0000098A</code> — _WmipUpdateRegistration@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000009B5">
+            <code>000009B5</code> — _WmipFindRegEntryByDevice@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000A0A">
+            <code>00000A0A</code> — _WmipGetAllRegInfo@16
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000A87">
+            <code>00000A87</code> — _WmipPDOToDeviceInstanceName@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000AE6">
+            <code>00000AE6</code> — _WmipTranslatePDOInstanceNames@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000C06">
+            <code>00000C06</code> — _WmipOpen@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000C41">
+            <code>00000C41</code> — _WmipClose@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000C89">
+            <code>00000C89</code> — _WmipCleanup@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00000CDE">
+            <code>00000CDE</code> — _WmipIoControl@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="0000104D">
+            <code>0000104D</code> — _WmipFileObjectToPDO@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000010F7">
+            <code>000010F7</code> — _WmipForwardWmiIrp@28
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00001230">
+            <code>00001230</code> — _WmipTranslateFileHandle@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000012DE">
+            <code>000012DE</code> — _WmipProbeWnodeWorker@36
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="0000135C">
+            <code>0000135C</code> — _WmipProbeWnodeAllData@12
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00001397">
+            <code>00001397</code> — _WmipProbeWnodeSingleInstance@16
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="000013FF">
+            <code>000013FF</code> — _WmipProbeWnodeSingleItem@8
+            
+          </li>
+        
+          <li data-segment="00000D00" data-offset="00001457">
+            <code>00001457</code> — _WmipProbeWnodeMethodItem@12
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 8: INIT @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000000">
+            <code>00000000</code> — _DriverEntry@8
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,3022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midage Crisis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo"><span>🌍</span>Semetary</a>
+    <nav>
+      <a href="/">HOME</a>
+      <a href="https://github.com/Midageproject"><img src="/assets/github-mark-white.png" alt="GitHub" width="40" height="40"></a>
+    </nav>
+  </header>
+
+
+<div class="appearance-block">
+  <h2>PCCARD — Windows 98 Debug</h2>
+<hr class="segment-separator">
+
+
+  <div class="tree-and-segments">
+  <div class="source-tree-scroll">
+    <h3>Source Tree</h3>
+    <ul>
+      
+        <li>../bulkmem.c</li>
+      
+        <li>../cic.c</li>
+      
+        <li>../cicdebug.c</li>
+      
+        <li>../c_init.c</li>
+      
+        <li>../c_int_1a.c</li>
+      
+        <li>../client.c</li>
+      
+        <li>../common.c</li>
+      
+        <li>../config.c</li>
+      
+        <li>../c_status.c</li>
+      
+        <li>../c_tikisr.c</li>
+      
+        <li>../database.c</li>
+      
+        <li>../../../../dev/ddk/inc/pccard.inc</li>
+      
+        <li>../disks.c</li>
+      
+        <li>../environ1.asm</li>
+      
+        <li>../erase.c</li>
+      
+        <li>../evtmask.c</li>
+      
+        <li>../exclusiv.c</li>
+      
+        <li>../getinfo.c</li>
+      
+        <li>../getstat.c</li>
+      
+        <li>../io.c</li>
+      
+        <li>../irq.c</li>
+      
+        <li>../lconfig.c</li>
+      
+        <li>../memcard.c</li>
+      
+        <li>../memwalk.c</li>
+      
+        <li>../modems.c</li>
+      
+        <li>../mtd.c</li>
+      
+        <li>../pccard.asm</li>
+      
+        <li>../pcdebug.c</li>
+      
+        <li>../pcmaloc.c</li>
+      
+        <li>../pcmcb.c</li>
+      
+        <li>../pcmcom.c</li>
+      
+        <li>../pcmenm.c</li>
+      
+        <li>../pcmmfc.c</li>
+      
+        <li>../pcmmsg.asm</li>
+      
+        <li>../pcmwin.c</li>
+      
+        <li>../queue.c</li>
+      
+        <li>../readconf.c</li>
+      
+        <li>../recog.c</li>
+      
+        <li>../region.c</li>
+      
+        <li>../reset.c</li>
+      
+        <li>../retssent.c</li>
+      
+        <li>../socket.c</li>
+      
+        <li>../ssaddrep.c</li>
+      
+        <li>../timer.c</li>
+      
+        <li>../trans.c</li>
+      
+        <li>../tuple.c</li>
+      
+        <li>../vendor.c</li>
+      
+        <li>../window.c</li>
+      
+    </ul>
+  </div>
+
+
+<hr class="segment-separator">
+  <div class="segments">
+  
+    <details class="segment">
+      <summary>
+        Segment 1: .bss @ 00001660
+      </summary>
+      <ul>
+        
+          <li data-segment="00001660" data-offset="00000000">
+            <code>00000000</code> — _fTraceBits
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000004">
+            <code>00000004</code> — _giIndent
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000008">
+            <code>00000008</code> — _pSktD
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000000C">
+            <code>0000000C</code> — _pWindowDb
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000010">
+            <code>00000010</code> — _WindowLinearAddr
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000014">
+            <code>00000014</code> — _DesiredTuples
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000001C">
+            <code>0000001C</code> — _aSIFType
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000068">
+            <code>00000068</code> — _TplList
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000070">
+            <code>00000070</code> — _str_modem
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000078">
+            <code>00000078</code> — _str_fax
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000001E8">
+            <code>000001E8</code> — _aIFType
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000001F8">
+            <code>000001F8</code> — _PutAsciiTbl
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000208">
+            <code>00000208</code> — _PCCARD_Get_Version
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000020C">
+            <code>0000020C</code> — _PCCARD_Card_Services
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000210">
+            <code>00000210</code> — __PCCARD_Access_CIS_Memory
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000214">
+            <code>00000214</code> — PCCARD_DDB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002A4">
+            <code>000002A4</code> — _IO_Client_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002A8">
+            <code>000002A8</code> — _Mem_Client_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002AC">
+            <code>000002AC</code> — _Mtd_Client_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002B0">
+            <code>000002B0</code> — _pAdpRootNew
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002B4">
+            <code>000002B4</code> — _pAdpRoot
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002B8">
+            <code>000002B8</code> — _pSktRoot
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002BC">
+            <code>000002BC</code> — _L_Window_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002C0">
+            <code>000002C0</code> — _Memory_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002C4">
+            <code>000002C4</code> — _Erase_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002C8">
+            <code>000002C8</code> — _CS_Client_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000002EC">
+            <code>000002EC</code> — _CS_Alloc_DB
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000308">
+            <code>00000308</code> — _SS_api
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000320">
+            <code>00000320</code> — _MTDH_api
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000330">
+            <code>00000330</code> — _Parm_Pkt
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000340">
+            <code>00000340</code> — _Client_Handles
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000344">
+            <code>00000344</code> — _Timer_Handles
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000348">
+            <code>00000348</code> — _Insertion_Delay
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000034C">
+            <code>0000034C</code> — _CSC_Event_Delay
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000350">
+            <code>00000350</code> — _Limited_SC_Int_Mask
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000354">
+            <code>00000354</code> — _Global_SC_Int_Mask
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000358">
+            <code>00000358</code> — _hPollingGlobal
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000035C">
+            <code>0000035C</code> — _hPollingAppy
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000360">
+            <code>00000360</code> — _SelectedAdapter
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000364">
+            <code>00000364</code> — _SpaceStr
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000380">
+            <code>00000380</code> — _AdapterData_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000005C4">
+            <code>000005C4</code> — _SocketData_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000810">
+            <code>00000810</code> — _FunctionData_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000009F4">
+            <code>000009F4</code> — _WindowData_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000B28">
+            <code>00000B28</code> — _AllocRes_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000BD8">
+            <code>00000BD8</code> — _DisplayRegions_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000D9C">
+            <code>00000D9C</code> — _ClientData_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000ECC">
+            <code>00000ECC</code> — _InquireAdp1_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000F64">
+            <code>00000F64</code> — _InquireAdp2_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00000F90">
+            <code>00000F90</code> — _InquireSoc1_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001004">
+            <code>00001004</code> — _InquireWin1_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001030">
+            <code>00001030</code> — _InquireWin2_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001128">
+            <code>00001128</code> — _InquireWin3_f
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000011EC">
+            <code>000011EC</code> — _DebugCommands
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001E14">
+            <code>00001E14</code> — PCCARD_Device_Init
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001E4A">
+            <code>00001E4A</code> — PCCARD_Get_Version
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001E5F">
+            <code>00001E5F</code> — PCCARD_Card_Services
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001EB9">
+            <code>00001EB9</code> — PCCARD_Control
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001EFC">
+            <code>00001EFC</code> — PCCARD_PM_API
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001F65">
+            <code>00001F65</code> — PCCARD_DevIOCTL
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00001FF4">
+            <code>00001FF4</code> — _SendBell
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002000">
+            <code>00002000</code> — swap_timer_state
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000206F">
+            <code>0000206F</code> — async_call_back
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002097">
+            <code>00002097</code> — _Play_A_Tone
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000020F8">
+            <code>000020F8</code> — _CS_Version_Number
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000020FA">
+            <code>000020FA</code> — _CS_Release_Number
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000020FC">
+            <code>000020FC</code> — _SS_Release_Number
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000020FE">
+            <code>000020FE</code> — _csc_isr
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002113">
+            <code>00002113</code> — _process_timeout_entry
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002120">
+            <code>00002120</code> — _SS_Entry
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002174">
+            <code>00002174</code> — _socket_services
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000021DE">
+            <code>000021DE</code> — _issue_callback
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardReadWords
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardCompareWordsAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardCompareByteAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardWriteWordAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardCompareWords
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardReadWordAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardWriteByte
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardWriteWord
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardSetAutoInc
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardWriteWordsAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _MAT_data_area
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardSetAddress
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardReadWordsAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardWriteByteAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardCompareByte
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardReadWord
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardReadByteAI
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardReadByte
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002210">
+            <code>00002210</code> — _CardWriteWords
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002211">
+            <code>00002211</code> — _MTDHelperEntry
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000227C">
+            <code>0000227C</code> — _heap_allocate
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000228F">
+            <code>0000228F</code> — _heap_free
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000022A0">
+            <code>000022A0</code> — _setup_timeout
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000022F0">
+            <code>000022F0</code> — _setup_global_sc_int_mask
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002324">
+            <code>00002324</code> — _enque_head
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002345">
+            <code>00002345</code> — _enque_tail
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000237A">
+            <code>0000237A</code> — _enque
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000239D">
+            <code>0000239D</code> — _deque_head
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000023C7">
+            <code>000023C7</code> — _deque
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002401">
+            <code>00002401</code> — _get_next_client
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000245A">
+            <code>0000245A</code> — _process_csc_interrupt
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002534">
+            <code>00002534</code> — _process_polling_event
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000025DB">
+            <code>000025DB</code> — _polling_timeout
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000261A">
+            <code>0000261A</code> — _setup_skt_sc_int_mask
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002642">
+            <code>00002642</code> — _DebInChar
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002649">
+            <code>00002649</code> — _DPChar
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000265F">
+            <code>0000265F</code> — _DPStr
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002673">
+            <code>00002673</code> — _DPStrCr
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002687">
+            <code>00002687</code> — _Indent
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000026B3">
+            <code>000026B3</code> — _IsTraceOn
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000026F5">
+            <code>000026F5</code> — _DispStruct
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000027C3">
+            <code>000027C3</code> — _AdapterData
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000027F4">
+            <code>000027F4</code> — _SocketData
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002883">
+            <code>00002883</code> — _WindowData
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000028D8">
+            <code>000028D8</code> — _AllocRes
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002974">
+            <code>00002974</code> — _DisplayRegions
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000029A0">
+            <code>000029A0</code> — _CommonRegions
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="000029DA">
+            <code>000029DA</code> — _AttribRegions
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002A14">
+            <code>00002A14</code> — _PartitionList
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002A4E">
+            <code>00002A4E</code> — _ClientData
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002ADF">
+            <code>00002ADF</code> — _PCDSocServ
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002B33">
+            <code>00002B33</code> — _DispInquireAdp
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002BD3">
+            <code>00002BD3</code> — _DispInquireSoc
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002C84">
+            <code>00002C84</code> — _DispInquireWin
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002D92">
+            <code>00002D92</code> — _InquireSS
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00002DF3">
+            <code>00002DF3</code> — _GetSS
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00003116">
+            <code>00003116</code> — _Help
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00003164">
+            <code>00003164</code> — _PCCARD_Debugger@0
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00003200">
+            <code>00003200</code> — _HeapAllocateEx@16
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00003206">
+            <code>00003206</code> — _HeapFreeEx@8
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000320C">
+            <code>0000320C</code> — _LCODE__Set_Global_Time_Out_Ex
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="00003214">
+            <code>00003214</code> — _LCODE__SHELL_CancelAppyTimeEvent
+            
+          </li>
+        
+          <li data-segment="00001660" data-offset="0000321C">
+            <code>0000321C</code> — _LCODE__SHELL_CallAtAppyTime
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 2: _LMSG$1 @ 000016A0
+      </summary>
+      <ul>
+        
+          <li data-segment="000016A0" data-offset="00000000">
+            <code>00000000</code> — @MSG_LAB
+            
+          </li>
+        
+          <li data-segment="000016A0" data-offset="00000010">
+            <code>00000010</code> — @MSG_LDATA
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 3: PNP @ 00009230
+      </summary>
+      <ul>
+        
+          <li data-segment="00009230" data-offset="00000000">
+            <code>00000000</code> — _PCMEnumInit
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000001B">
+            <code>0000001B</code> — _PCCARD_NewDevNode@8
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000000AE">
+            <code>000000AE</code> — _RegisterCrdEnumAndDrv
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000000DD">
+            <code>000000DD</code> — _NewIOCardNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000117">
+            <code>00000117</code> — _NewMemCardNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000017E">
+            <code>0000017E</code> — _NewAdpNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000028D">
+            <code>0000028D</code> — _PCCARD_Exit@0
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000002F1">
+            <code>000002F1</code> — _PCMPlaySound
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000368">
+            <code>00000368</code> — _RemoveDevNodes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000003B2">
+            <code>000003B2</code> — _ResumeConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000052C">
+            <code>0000052C</code> — _AdpEnumFuncHandler
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000056C">
+            <code>0000056C</code> — _PcCardEnumHandler
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000665">
+            <code>00000665</code> — _AdpEnumHandler
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000A51">
+            <code>00000A51</code> — _ChildEnumHandler
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000C7C">
+            <code>00000C7C</code> — _FilterConfigs
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000DDE">
+            <code>00000DDE</code> — _FilterMemConfigs
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00000E9E">
+            <code>00000E9E</code> — _ConfigSocket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001069">
+            <code>00001069</code> — _RemoveConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000010CD">
+            <code>000010CD</code> — _ReleaseConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001173">
+            <code>00001173</code> — _CrdConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000117B">
+            <code>0000117B</code> — _PNPReEnum
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000011A9">
+            <code>000011A9</code> — _AllocPCCardMemWin
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000015A0">
+            <code>000015A0</code> — _CreateWinDevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000017A2">
+            <code>000017A2</code> — _RemoveWinDevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000017E2">
+            <code>000017E2</code> — _WinConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001919">
+            <code>00001919</code> — _MfcEnumerate
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001B67">
+            <code>00001B67</code> — _MfcIRQArbitrator
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001C4D">
+            <code>00001C4D</code> — _CallPCIEnum
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001C7B">
+            <code>00001C7B</code> — _CardBusEnumHandler
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001DCE">
+            <code>00001DCE</code> — _CBConfigSocket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00001EB7">
+            <code>00001EB7</code> — _CardBusFunction
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000020C8">
+            <code>000020C8</code> — _GetAdpData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000020E4">
+            <code>000020E4</code> — _GetSocData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002125">
+            <code>00002125</code> — _GetMfcSocData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002173">
+            <code>00002173</code> — _GetSocFuncData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000219E">
+            <code>0000219E</code> — _GetCBFuncData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000021F2">
+            <code>000021F2</code> — _GetFncSocData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002244">
+            <code>00002244</code> — _GetDevnodes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000022F5">
+            <code>000022F5</code> — _PowerOnAdp
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002331">
+            <code>00002331</code> — _PowerLowChk
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000023B2">
+            <code>000023B2</code> — _SetPowerStateMapping
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002466">
+            <code>00002466</code> — _GetRegValues
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000024ED">
+            <code>000024ED</code> — _SetRegOptValue
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002530">
+            <code>00002530</code> — _GetRegATADelay
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000259B">
+            <code>0000259B</code> — _GetRegConfigDelay
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000025EB">
+            <code>000025EB</code> — _GetMinRegionSize
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002643">
+            <code>00002643</code> — _GetRegTFFSValue
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002698">
+            <code>00002698</code> — _isModemClass
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000026DE">
+            <code>000026DE</code> — _isSharedIRQOK
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000271F">
+            <code>0000271F</code> — _QueryRange
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000279F">
+            <code>0000279F</code> — _AllocResource
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000029B3">
+            <code>000029B3</code> — _PNPAllocIO
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000029CA">
+            <code>000029CA</code> — _PNPAllocIRQ
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000029E1">
+            <code>000029E1</code> — _PNPAllocWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000029F8">
+            <code>000029F8</code> — _FreeResource
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002B95">
+            <code>00002B95</code> — _PNPFreeIO
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002BAC">
+            <code>00002BAC</code> — _PNPFreeIRQ
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002BC3">
+            <code>00002BC3</code> — _PNPFreeWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002BDC">
+            <code>00002BDC</code> — _cancel_timeout
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002C12">
+            <code>00002C12</code> — _process_timeout
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002C58">
+            <code>00002C58</code> — _find_clt_skt
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002C73">
+            <code>00002C73</code> — _verify_mem_base
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002C84">
+            <code>00002C84</code> — _verify_crd_offset
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002C96">
+            <code>00002C96</code> — _verify_mem_size
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002CB1">
+            <code>00002CB1</code> — _find_l_adapter
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002CDB">
+            <code>00002CDB</code> — _convert_speed
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002D18">
+            <code>00002D18</code> — _compare_speed
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002DA6">
+            <code>00002DA6</code> — _power_of_2
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002DC1">
+            <code>00002DC1</code> — _get_ss_status
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002F4D">
+            <code>00002F4D</code> — @get_card_state@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00002F65">
+            <code>00002F65</code> — _clear_ss_chg_bits
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003034">
+            <code>00003034</code> — _inquire_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003229">
+            <code>00003229</code> — _WaitForReady
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000325D">
+            <code>0000325D</code> — _PCSGetSktIRQMask
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000032B4">
+            <code>000032B4</code> — _AccessCISMem
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003372">
+            <code>00003372</code> — _window_data
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003593">
+            <code>00003593</code> — _init_tuple_pkt
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003602">
+            <code>00003602</code> — _check_linktarget
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000366F">
+            <code>0000366F</code> — _next_link
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000036EF">
+            <code>000036EF</code> — _follow_link
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003739">
+            <code>00003739</code> — _process_link_tuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003947">
+            <code>00003947</code> — _next_tuple_in_chain
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003996">
+            <code>00003996</code> — _validate_cis_l
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003AFF">
+            <code>00003AFF</code> — _GetAnyTuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003B5B">
+            <code>00003B5B</code> — _tuple_matches
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003BA7">
+            <code>00003BA7</code> — _InitTplBuff
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003BC7">
+            <code>00003BC7</code> — _PCSInvalidateTplBuff
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003C0D">
+            <code>00003C0D</code> — _PCSGetFirstTuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003CAE">
+            <code>00003CAE</code> — _PCSGetNextTuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003D02">
+            <code>00003D02</code> — _PCSGetTupleData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003D98">
+            <code>00003D98</code> — _PCSValidateCIS
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003DF6">
+            <code>00003DF6</code> — _CS_ProcessTuples
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003EF0">
+            <code>00003EF0</code> — _find_l_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003F1D">
+            <code>00003F1D</code> — _find_p_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003F5A">
+            <code>00003F5A</code> — _find_alloc_win
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00003F7A">
+            <code>00003F7A</code> — _mem_card_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004046">
+            <code>00004046</code> — _get_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004499">
+            <code>00004499</code> — _set_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004583">
+            <code>00004583</code> — _set_page
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004638">
+            <code>00004638</code> — _free_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004746">
+            <code>00004746</code> — _PCSAssignWindowMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000476A">
+            <code>0000476A</code> — _PCSMemWinLimits
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000480F">
+            <code>0000480F</code> — _PCSActivateWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000048B8">
+            <code>000048B8</code> — _PCSDeactivateWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000048C9">
+            <code>000048C9</code> — _PCSSetWindowOffset
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004916">
+            <code>00004916</code> — _CS_MapLogWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004933">
+            <code>00004933</code> — _CS_MapPhyWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000496F">
+            <code>0000496F</code> — _CS_ModifyWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004A48">
+            <code>00004A48</code> — _assign_mem_config
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004C17">
+            <code>00004C17</code> — _CS_RequestWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004E0C">
+            <code>00004E0C</code> — _CS_ReleaseWindow
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004E4F">
+            <code>00004E4F</code> — _CS_MapMemPage
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004EC4">
+            <code>00004EC4</code> — _service_timer
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004EF1">
+            <code>00004EF1</code> — _CS_RegisterTimer
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00004F42">
+            <code>00004F42</code> — _PCSServices
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000050F7">
+            <code>000050F7</code> — _CS_GetCSInfo
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000051A2">
+            <code>000051A2</code> — _verify_client
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000520D">
+            <code>0000520D</code> — _artificial_insertion
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000526B">
+            <code>0000526B</code> — _process_client
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000530D">
+            <code>0000530D</code> — _CS_RegisterClient
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005451">
+            <code>00005451</code> — _CS_DeregisterClient
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000054DE">
+            <code>000054DE</code> — _CS_GetClient
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005540">
+            <code>00005540</code> — _CS_GetClientInfo
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000558D">
+            <code>0000558D</code> — _CS_HandleExclusive
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005628">
+            <code>00005628</code> — _CS_ReturnSSEntry
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005644">
+            <code>00005644</code> — _ss_entry_handler
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005693">
+            <code>00005693</code> — @reset_socket@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005740">
+            <code>00005740</code> — @PCSResetSocket@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000575D">
+            <code>0000575D</code> — @insert_card@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000057C0">
+            <code>000057C0</code> — @remove_card@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005863">
+            <code>00005863</code> — _setup_fnc_data
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005900">
+            <code>00005900</code> — _process_cs_tuples
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005AAC">
+            <code>00005AAC</code> — _process_region_tuples
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005AE5">
+            <code>00005AE5</code> — _client_qualified
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005BC5">
+            <code>00005BC5</code> — _process_status_changes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005CBA">
+            <code>00005CBA</code> — _callback_clients
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005D2E">
+            <code>00005D2E</code> — _verify_socket_ptr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005D4D">
+            <code>00005D4D</code> — _process_hdwr_events
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005EDA">
+            <code>00005EDA</code> — _process_insertion
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00005FF9">
+            <code>00005FF9</code> — _PCSNotifyClients
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006034">
+            <code>00006034</code> — _PCSNotifyRemoval
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006055">
+            <code>00006055</code> — _process_sftwr_events
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006262">
+            <code>00006262</code> — _PCSAdapterRemove
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000062BA">
+            <code>000062BA</code> — _PCSAssignConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006377">
+            <code>00006377</code> — _change_config_client
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000063A8">
+            <code>000063A8</code> — _deassign_config
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000064FE">
+            <code>000064FE</code> — _PCSDeassignConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000065C4">
+            <code>000065C4</code> — _update_sk_flags
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006601">
+            <code>00006601</code> — _test_power_level
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000066CC">
+            <code>000066CC</code> — _setup_socket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000682C">
+            <code>0000682C</code> — _find_allocated_resources
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000068A5">
+            <code>000068A5</code> — _update_skt_irq
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006944">
+            <code>00006944</code> — _set_io_windows
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000069AB">
+            <code>000069AB</code> — _get_io_base_limit
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006A18">
+            <code>00006A18</code> — _write_card_registers
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006BB5">
+            <code>00006BB5</code> — _setup_power_level
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006D84">
+            <code>00006D84</code> — _get_custom_if
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006E26">
+            <code>00006E26</code> — _PCSisPowerActive
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006E52">
+            <code>00006E52</code> — _PCSGetCurPower
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006F5E">
+            <code>00006F5E</code> — _PCSSetupSocket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00006FA6">
+            <code>00006FA6</code> — _PCSFilterConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000070D3">
+            <code>000070D3</code> — _PCSActivateConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000072AC">
+            <code>000072AC</code> — _PCSDeactivateConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007416">
+            <code>00007416</code> — _PCSRingIndicator
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000075CE">
+            <code>000075CE</code> — _CS_RequestConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000077C0">
+            <code>000077C0</code> — _CS_ReleaseConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000795D">
+            <code>0000795D</code> — _CS_ModifyConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007A6C">
+            <code>00007A6C</code> — _CS_GetConfigInfo
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007C53">
+            <code>00007C53</code> — _CS_AccessConfigRegister
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007CD3">
+            <code>00007CD3</code> — _PCCARD_Access_CIS_Memory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007D82">
+            <code>00007D82</code> — _PCSAdapterCreate
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007DAF">
+            <code>00007DAF</code> — _PCSAdapterDelete
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00007DF3">
+            <code>00007DF3</code> — _build_database
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000081C8">
+            <code>000081C8</code> — _free_database
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008275">
+            <code>00008275</code> — _generate_events
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000082C2">
+            <code>000082C2</code> — _PCSProcessResume
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000082F2">
+            <code>000082F2</code> — _CS_EventMask
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008383">
+            <code>00008383</code> — _PCSGetStatus
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000083B2">
+            <code>000083B2</code> — _CS_GetStatus
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000083C7">
+            <code>000083C7</code> — _assign_irq_config
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000865B">
+            <code>0000865B</code> — _CS_RequestIRQ
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000087E7">
+            <code>000087E7</code> — _CS_ReleaseIRQ
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008876">
+            <code>00008876</code> — _setup_csc_irq
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000089E2">
+            <code>000089E2</code> — _PCSAdapterStart
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008A2E">
+            <code>00008A2E</code> — _PCSAdapterStop
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008ABB">
+            <code>00008ABB</code> — _CS_AddSocketServices
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008BC9">
+            <code>00008BC9</code> — _CS_ReplaceSocketServices
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008C12">
+            <code>00008C12</code> — _assign_io_win
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008CEB">
+            <code>00008CEB</code> — _assign_io_config
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00008F3B">
+            <code>00008F3B</code> — _CS_RequestIO
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000091EE">
+            <code>000091EE</code> — _CS_ReleaseIO
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009335">
+            <code>00009335</code> — _sc_int_mask
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009360">
+            <code>00009360</code> — _update_sc_int_mask
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000093D0">
+            <code>000093D0</code> — _update_all_sc_int_masks
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000093F6">
+            <code>000093F6</code> — _find_l_socket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009423">
+            <code>00009423</code> — _find_p_socket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009460">
+            <code>00009460</code> — _CS_ProcessSocketMask
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000953A">
+            <code>0000953A</code> — _CS_MapLogSocket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000955F">
+            <code>0000955F</code> — _CS_MapPhySocket
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009592">
+            <code>00009592</code> — _CS_ResetCard
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000095EE">
+            <code>000095EE</code> — _CS_VendorSpecific
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000095F2">
+            <code>000095F2</code> — _CS_OpenMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000096C5">
+            <code>000096C5</code> — _CS_CloseMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000096E7">
+            <code>000096E7</code> — _check_xfer_size
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009726">
+            <code>00009726</code> — _rw_internal
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000987B">
+            <code>0000987B</code> — _CS_ReadMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="000098C7">
+            <code>000098C7</code> — _CS_WriteMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000991A">
+            <code>0000991A</code> — _CS_CopyMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000996C">
+            <code>0000996C</code> — _verify_memory_handle
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009988">
+            <code>00009988</code> — _mtd_erase_call
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009A47">
+            <code>00009A47</code> — _verify_erase_db_ptr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009A65">
+            <code>00009A65</code> — _verify_erase_memory_handle
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009A92">
+            <code>00009A92</code> — _process_erase_queue
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009B85">
+            <code>00009B85</code> — _setup_erase_timeout
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009BF6">
+            <code>00009BF6</code> — _CS_RegisterEraseQueue
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009C85">
+            <code>00009C85</code> — _CS_CheckEraseQueue
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009CEF">
+            <code>00009CEF</code> — _CS_DeregisterEraseQueue
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009D11">
+            <code>00009D11</code> — _verify_erase_handle
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009D2D">
+            <code>00009D2D</code> — _free_all
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009D4B">
+            <code>00009D4B</code> — _CS_RegisterMTD
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009D9B">
+            <code>00009D9B</code> — _remove_mtd
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009DB7">
+            <code>00009DB7</code> — _deregister_mtd
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009DE7">
+            <code>00009DE7</code> — _mtd_call
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009E84">
+            <code>00009E84</code> — _verify_write
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009EFF">
+            <code>00009EFF</code> — _verify_copy
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009F9E">
+            <code>00009F9E</code> — _mtd_read
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="00009FCD">
+            <code>00009FCD</code> — _mtd_write
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A03D">
+            <code>0000A03D</code> — _fake_mtd_copy
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A045">
+            <code>0000A045</code> — _mtd_copy
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A0C7">
+            <code>0000A0C7</code> — _MTD_request_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A19F">
+            <code>0000A19F</code> — _MTD_modify_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A284">
+            <code>0000A284</code> — _MTD_release_window
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A2B2">
+            <code>0000A2B2</code> — _MTD_set_vpp
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A399">
+            <code>0000A399</code> — _MTD_RDY_mask
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A39D">
+            <code>0000A39D</code> — _get_first_tuple_data
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A3EE">
+            <code>0000A3EE</code> — _get_next_tuple_data
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A42E">
+            <code>0000A42E</code> — _skip_ext
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A440">
+            <code>0000A440</code> — _process_device_tuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A54B">
+            <code>0000A54B</code> — _process_jedec_tuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A58D">
+            <code>0000A58D</code> — _process_devicegeo_tuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A608">
+            <code>0000A608</code> — _get_region_info
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A6E6">
+            <code>0000A6E6</code> — _set_partition_type
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A7BC">
+            <code>0000A7BC</code> — _get_partition_info
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A8CD">
+            <code>0000A8CD</code> — _store_region_info
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A91C">
+            <code>0000A91C</code> — _first_valid_region
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A934">
+            <code>0000A934</code> — _CS_GetFirstRegion
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A96D">
+            <code>0000A96D</code> — _CS_GetNextRegion
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000A9C5">
+            <code>0000A9C5</code> — _delete_region
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AA24">
+            <code>0000AA24</code> — _copy_region
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AA7E">
+            <code>0000AA7E</code> — _CS_SetRegion
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AB8C">
+            <code>0000AB8C</code> — _CS_GetFirstPartition
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000ABBD">
+            <code>0000ABBD</code> — _CS_GetNextPartition
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AC09">
+            <code>0000AC09</code> — _SetRegionInfo
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AC76">
+            <code>0000AC76</code> — _GetVppLevels
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000ACBB">
+            <code>0000ACBB</code> — _SetVppLevels
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AD20">
+            <code>0000AD20</code> — _SetVppVoltage
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AD9C">
+            <code>0000AD9C</code> — _Read2Bytes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000ADF8">
+            <code>0000ADF8</code> — _Write2Bytes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AE50">
+            <code>0000AE50</code> — _IsOddParity
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AE69">
+            <code>0000AE69</code> — _ReadJedecID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AECC">
+            <code>0000AECC</code> — _IsJedecID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AEF5">
+            <code>0000AEF5</code> — _GetBPBSize
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000AF86">
+            <code>0000AF86</code> — _WalkSRam
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B000">
+            <code>0000B000</code> — _WalkFlash
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B0CB">
+            <code>0000B0CB</code> — _walk_memory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B22D">
+            <code>0000B22D</code> — _WalkMemory
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B29E">
+            <code>0000B29E</code> — _CS_Call_Back
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B29F">
+            <code>0000B29F</code> — _PCSInit
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B337">
+            <code>0000B337</code> — _chk_ata_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B3A7">
+            <code>0000B3A7</code> — _check_ata
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B3C9">
+            <code>0000B3C9</code> — _chk_modem_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B440">
+            <code>0000B440</code> — _check_modem
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B46F">
+            <code>0000B46F</code> — _conf_modem_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B622">
+            <code>0000B622</code> — _config_modem
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B63B">
+            <code>0000B63B</code> — _convert_voltage
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B6C9">
+            <code>0000B6C9</code> — _get_power_desc
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B762">
+            <code>0000B762</code> — _get_io_range
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B800">
+            <code>0000B800</code> — _get_mem_space
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000B8F9">
+            <code>0000B8F9</code> — _read_ce_16
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BB47">
+            <code>0000BB47</code> — _read_ce_cb
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BBAD">
+            <code>0000BBAD</code> — _read_ce
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BC0C">
+            <code>0000BC0C</code> — _read_conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BD19">
+            <code>0000BD19</code> — _cic_strncpy
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BD46">
+            <code>0000BD46</code> — _GetCRC
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BE6F">
+            <code>0000BE6F</code> — _CheckInstance
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000BED2">
+            <code>0000BED2</code> — _CreateDeviceID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C02E">
+            <code>0000C02E</code> — _check_card_type
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C17F">
+            <code>0000C17F</code> — _chk_generic_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C1DC">
+            <code>0000C1DC</code> — _check_generic
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C23F">
+            <code>0000C23F</code> — _check_multifunc
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C312">
+            <code>0000C312</code> — _process_recog_record
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C346">
+            <code>0000C346</code> — _RecognizePCCard
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C3BB">
+            <code>0000C3BB</code> — _CreateIODevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C4F6">
+            <code>0000C4F6</code> — _CreateMfcDevID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C561">
+            <code>0000C561</code> — _CreateMfcIODevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C67D">
+            <code>0000C67D</code> — _SetupRegData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C86C">
+            <code>0000C86C</code> — _init_cic_conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000C8A0">
+            <code>0000C8A0</code> — _scan_tuples
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CA03">
+            <code>0000CA03</code> — _create_log_config
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CC84">
+            <code>0000CC84</code> — _setup_working_conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CD13">
+            <code>0000CD13</code> — _conf_spec_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CDDF">
+            <code>0000CDDF</code> — _conf_mfc_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CE1E">
+            <code>0000CE1E</code> — _conf_internal
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CE43">
+            <code>0000CE43</code> — _conf_CIS_spec
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CE5C">
+            <code>0000CE5C</code> — _conf_multifunc
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000CFC3">
+            <code>0000CFC3</code> — _AddLogConfigs
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D003">
+            <code>0000D003</code> — _get_pwr_wkr
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D0B3">
+            <code>0000D0B3</code> — _GetPowerSettings
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D11E">
+            <code>0000D11E</code> — _get_first_tuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D168">
+            <code>0000D168</code> — _get_next_tuple
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D17E">
+            <code>0000D17E</code> — _get_tuple_data
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D1FD">
+            <code>0000D1FD</code> — _PutAscii
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D21F">
+            <code>0000D21F</code> — _dprint_conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D2AA">
+            <code>0000D2AA</code> — _CheckMemInstance
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D307">
+            <code>0000D307</code> — _CreateMemDevID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D37E">
+            <code>0000D37E</code> — _CopyRegData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D479">
+            <code>0000D479</code> — _CreateMemDevNodes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D5ED">
+            <code>0000D5ED</code> — _RemoveMemDevNodes
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D61C">
+            <code>0000D61C</code> — _FindMemPart
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D67A">
+            <code>0000D67A</code> — _RemoveMemConfig
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D69E">
+            <code>0000D69E</code> — _SetupMemRegData
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D759">
+            <code>0000D759</code> — _CICInit
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D760">
+            <code>0000D760</code> — _CCODE__CONFIGMG_Register_DevLoader
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D768">
+            <code>0000D768</code> — _CCODE__CONFIGMG_Register_Device_Driver
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D770">
+            <code>0000D770</code> — _CCODE__CONFIGMG_Register_Enumerator
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D778">
+            <code>0000D778</code> — _CCODE__CONFIGMG_Load_DLVxDs
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D780">
+            <code>0000D780</code> — _CCODE__CONFIGMG_Read_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D788">
+            <code>0000D788</code> — _CCODE__Debug_Out_Service@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D790">
+            <code>0000D790</code> — _CCODE__CONFIGMG_Call_Enumerator_Function
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D798">
+            <code>0000D798</code> — _CCODE__CONFIGMG_Get_Bus_Info
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7A0">
+            <code>0000D7A0</code> — _CCODE__CONFIGMG_Register_Enumerator_Function
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7A8">
+            <code>0000D7A8</code> — _CCODE__Debug_Printf_Service
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7BC">
+            <code>0000D7BC</code> — _CCODE__CONFIGMG_Remove_SubTree
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7C4">
+            <code>0000D7C4</code> — _CCODE__CONFIGMG_Get_DevNode_PowerState
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7CC">
+            <code>0000D7CC</code> — _CCODE__CONFIGMG_Get_Parent
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7D4">
+            <code>0000D7D4</code> — _CCODE__CONFIGMG_Create_DevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7DC">
+            <code>0000D7DC</code> — _CCODE__CONFIGMG_Add_Remove_DevNode_Property
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7E4">
+            <code>0000D7E4</code> — _CCODE__CONFIGMG_Free_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7EC">
+            <code>0000D7EC</code> — _CCODE__CONFIGMG_Get_Next_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7F4">
+            <code>0000D7F4</code> — _CCODE__CONFIGMG_Get_Next_Res_Des
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D7FC">
+            <code>0000D7FC</code> — _CCODE__CONFIGMG_Get_First_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D804">
+            <code>0000D804</code> — _CCODE__CONFIGMG_Yield
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D80C">
+            <code>0000D80C</code> — _CCODE__CONFIGMG_Change_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D814">
+            <code>0000D814</code> — _CCODE__CONFIGMG_Reenumerate_DevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D81C">
+            <code>0000D81C</code> — _CCODE__SHELL_CallDll
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D824">
+            <code>0000D824</code> — _CCODE__CONFIGMG_Write_Registry_Value
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D82C">
+            <code>0000D82C</code> — _CCODE__PageFree
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D834">
+            <code>0000D834</code> — _CCODE__PageCommitPhys
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D83C">
+            <code>0000D83C</code> — _CCODE__PageReserve
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D844">
+            <code>0000D844</code> — _CCODE__CONFIGMG_Add_Res_Des
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D84C">
+            <code>0000D84C</code> — _CCODE__CONFIGMG_Add_Empty_Log_Conf
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D854">
+            <code>0000D854</code> — _CCODE__CONFIGMG_Set_DevNode_PowerCapabilities
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D85C">
+            <code>0000D85C</code> — _CCODE__CONFIGMG_Locate_DevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D864">
+            <code>0000D864</code> — _CCODE__CONFIGMG_Get_Device_ID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D86C">
+            <code>0000D86C</code> — _CCODE__lstrlen
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D874">
+            <code>0000D874</code> — _CCODE__lstrcpyn
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D87C">
+            <code>0000D87C</code> — _CCODE__CONFIGMG_Get_Sibling
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D884">
+            <code>0000D884</code> — _CCODE__CONFIGMG_Get_Child
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D88C">
+            <code>0000D88C</code> — _CCODE__CONFIGMG_Get_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D894">
+            <code>0000D894</code> — _CCODE__CONFIGMG_Set_DevNode_PowerState
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D89C">
+            <code>0000D89C</code> — _CCODE__CONFIGMG_Register_DevNode_For_Idle_Detection
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8A4">
+            <code>0000D8A4</code> — _CCODE__CONFIGMG_System_Device_Power_State_Mapping
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8AC">
+            <code>0000D8AC</code> — _CCODE__RegCloseKey
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8B4">
+            <code>0000D8B4</code> — _CCODE__RegQueryValueEx
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8BC">
+            <code>0000D8BC</code> — _CCODE__RegOpenKey
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8C4">
+            <code>0000D8C4</code> — _CCODE__RegSetValueEx
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8CC">
+            <code>0000D8CC</code> — _CCODE__CONFIGMG_Next_Range
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8D4">
+            <code>0000D8D4</code> — _CCODE__CONFIGMG_First_Range
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8DC">
+            <code>0000D8DC</code> — _CCODE__CONFIGMG_Query_Arbitrator_Free_Data
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8E4">
+            <code>0000D8E4</code> — _CCODE__CONFIGMG_Free_Res_Des
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8EC">
+            <code>0000D8EC</code> — _CCODE__CONFIGMG_Get_DevNode_Status
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D8F4">
+            <code>0000D8F4</code> — _CCODE_Cancel_Time_Out@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D904">
+            <code>0000D904</code> — _CCODE_VPICD_Force_Default_Behavior@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D914">
+            <code>0000D914</code> — _CCODE_VPICD_Physically_Unmask@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D924">
+            <code>0000D924</code> — _CCODE_VPICD_Virtualize_IRQ@4
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D938">
+            <code>0000D938</code> — _CCODE__CONFIGMG_Get_CRC_CheckSum
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D940">
+            <code>0000D940</code> — _CCODE__CONFIGMG_Set_Dependent_DevNode
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D948">
+            <code>0000D948</code> — _CCODE__CONFIGMG_Set_Bus_Info
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D950">
+            <code>0000D950</code> — _CCODE__CONFIGMG_Set_Private_DWord
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D958">
+            <code>0000D958</code> — _CCODE__CONFIGMG_Add_ID
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D960">
+            <code>0000D960</code> — _CCODE__CONFIGMG_Register_Arbitrator
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D968">
+            <code>0000D968</code> — _CCODE__HeapFree
+            
+          </li>
+        
+          <li data-segment="00009230" data-offset="0000D970">
+            <code>0000D970</code> — _CCODE__HeapAllocate
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 4: _PTEXT @ 00009290
+      </summary>
+      <ul>
+        
+          <li data-segment="00009290" data-offset="00000000">
+            <code>00000000</code> — _GetMessagePtr
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+    <details class="segment">
+      <summary>
+        Segment 5: _PDATA @ 00000000
+      </summary>
+      <ul>
+        
+          <li data-segment="00000000" data-offset="00000008">
+            <code>00000008</code> — _dwOptValue
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000006C">
+            <code>0000006C</code> — _szPCMCIAAllocValue
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000078">
+            <code>00000078</code> — _szWinDevID
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000088">
+            <code>00000088</code> — _MemWinTbl
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000D8">
+            <code>000000D8</code> — _MemWinBase
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000DC">
+            <code>000000DC</code> — _MemWinSize
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000E0">
+            <code>000000E0</code> — _MemWinLAddr
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000000E4">
+            <code>000000E4</code> — _MemWinDevNode
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000124">
+            <code>00000124</code> — _szPCMCIAClassKeyPath
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000154">
+            <code>00000154</code> — _szPCMCIAOptValue
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000015C">
+            <code>0000015C</code> — _szPCMCIAMemValue
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000164">
+            <code>00000164</code> — _szPCMCIAATADValue
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000170">
+            <code>00000170</code> — _szPCMCIAConfigDelay
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000017C">
+            <code>0000017C</code> — _szPCMCIATFFSValue
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000188">
+            <code>00000188</code> — _szEnableIRQSharing
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001BC">
+            <code>000001BC</code> — _SS_Adpt_Tbls
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000001EC">
+            <code>000001EC</code> — _SS_Skt_Tbls
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000204">
+            <code>00000204</code> — _SS_Wdw16_Tbls
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000022C">
+            <code>0000022C</code> — _SS_Wdw32_Tbls
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000270">
+            <code>00000270</code> — _Rsrc_Des
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000294">
+            <code>00000294</code> — _CS_Mem_Wdw_Size
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000298">
+            <code>00000298</code> — _Tuple_Chain_Cnt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000029C">
+            <code>0000029C</code> — _TplBuff
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003B4">
+            <code>000003B4</code> — _Vendor_String
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003F4">
+            <code>000003F4</code> — _cPolledAdapters
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003F8">
+            <code>000003F8</code> — _s_dos
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000003FC">
+            <code>000003FC</code> — _s_flash
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000404">
+            <code>00000404</code> — _s_ffs20
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000040C">
+            <code>0000040C</code> — _data_buffer
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="0000060C">
+            <code>0000060C</code> — _MTD_Pkt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000674">
+            <code>00000674</code> — _dispatch
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000908">
+            <code>00000908</code> — _JedecTable
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009CC">
+            <code>000009CC</code> — _sys_common_info
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009DC">
+            <code>000009DC</code> — _mfc_recog_rec
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009E0">
+            <code>000009E0</code> — _recog_recs
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="000009EC">
+            <code>000009EC</code> — _curr_default_conf
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000A9C">
+            <code>00000A9C</code> — _working_conf
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B4C">
+            <code>00000B4C</code> — _vconvert
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B6C">
+            <code>00000B6C</code> — _class_names
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000B98">
+            <code>00000B98</code> — _compat_devids
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000BC4">
+            <code>00000BC4</code> — _Tuple_Pkt
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000BD8">
+            <code>00000BD8</code> — _TData
+            
+          </li>
+        
+          <li data-segment="00000000" data-offset="00000CE8">
+            <code>00000CE8</code> — _DbgTbl
+            
+          </li>
+        
+      </ul>
+    </details>
+  
+</div>
+
+</div>
+
+<script>
+  const symbolItems = document.querySelectorAll('.segments li');
+  symbolItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const seg = parseInt(item.dataset.segment, 16);
+      const off = parseInt(item.dataset.offset, 16);
+      const abs = seg + off;
+      const addrStr = '0x' + abs.toString(16).padStart(8, '0').toUpperCase();
+      navigator.clipboard.writeText(addrStr);
+      symbolItems.forEach(i => i.classList.remove('symbol-copied'));
+
+    item.classList.add('symbol-copied');
+    });
+  });
+</script>
+
+</div>
+</div>
+
+
+</body>
+</html>
